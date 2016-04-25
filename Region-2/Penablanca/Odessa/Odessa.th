@@ -15,9 +15,29 @@ survey Odessa
   input catcheel/catcheel.th
   input shepherd/shepherd.th
   input smallloop/smallloop.th
+  
+  #join l85-4780-45194@odessa-downstream-9-5SP1 catcheelSP1
+  #join odessa-downstream-9-5SP1 catcheelSP1
+  
+  #join Catch Eel to main passage
+    # walls (wet way)
+      join l85-4780-45194@odessa-downstream-9-5 l49-11372-9858@catcheel
+      join Downstream95_CatchEelRHS@odessa-downstream-9-5:end l44-11528-9698@catcheel
+    # walls (dry way)
+      join Downstream95_CatchEelRHS@odessa-downstream-9-5:0 l44-11528-9698@catcheel
+      join MainPassageLHW@odessa-downstream-9-5:end CatchEel_MainPassage_upstream@catcheel
+      join Link2CatchEel@odessa-downstream-9-5:end CatchEel_pillar@catcheel:0
+      join Link2CatchEel@odessa-downstream-9-5:0 CatchEel_pillar@catcheel:end
+    #water
+      # not sure if this works right
+      join l85-4780-45194@odessa-downstream-9-5 l54-11594-13728@catcheel
+      
+  #join Main Passage with Tumbali exit
+    # walls
+      join l80-13788-58228@odessa-downstream-9-5:0 TumbaliExitLHW@tumbali-d1-c3:end
+      join l82-13892-59460@odessa-downstream-9-5:end DiaLightExitLHW@tumbali-d1-c3:end
 
   centreline
-    #equate 6.66@C4HelicopterHole 15.57@bluewater
     equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance
     equate 7.1@odessa-heaven  1.30@odessa-entrance
     equate 4.13@odessa-downstream-9-5 4.13@odessa-entrance
@@ -32,13 +52,10 @@ survey Odessa
     equate 17.9@catcheel 4.54@odessa-downstream-9-5
     equate 18.0@shepherd 3.62@tumbali-d1-c3
     equate 8.8@odessa-heaven 9.7@smallloop
-    equate 8.9@odessa-heaven 9.0@smallloop
-
+    equate 8.9@odessa-heaven 9.0@smallloop 
   endcentreline
 
   map map-test
-    #bluewaterM@bluewater
-    #C4HelicopterHoleM@C4HelicopterHole
     odessa-entranceM@odessa-entrance
   endmap
 

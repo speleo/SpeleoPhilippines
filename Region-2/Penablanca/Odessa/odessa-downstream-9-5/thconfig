@@ -6,7 +6,7 @@ source odessa-downstream-9-5.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o odessa-downstream-9-5.pdf
+export map -proj plan -layout local -o odessa-downstream-9-5.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o odessa-downstream-9-5Ee.pdf
@@ -21,7 +21,7 @@ export model -fmt survex -o odessa-downstream-9-5th.3d
 #Survex file showing walls only
 
 layout local
-debug off
-map-header 0 0 ne
-#symbol-hide group cave-centreline
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
 endlayout

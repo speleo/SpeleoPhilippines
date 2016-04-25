@@ -21,7 +21,7 @@ export model -fmt survex -o catcheelth.3d
 #Survex file showing walls only
 
 layout local
-debug off
-map-header 0 0 ne
-#symbol-hide group cave-centreline
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
 endlayout
