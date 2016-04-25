@@ -21,6 +21,9 @@ export model -fmt survex -o tumbali-d1-c3th.3d
 #Survex file showing walls only
 
 layout local
+  scale 1 300
+  base-scale 1 300
+  scale-bar 100 m
   debug off
   map-header 0 0 ne
   symbol-hide group cave-centreline

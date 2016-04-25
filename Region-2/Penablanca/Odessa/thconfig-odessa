@@ -13,19 +13,19 @@ export map -proj plan -layout local-odessa -o .\output\Odessa.pdf
   text en "area u:bat" "lot of bats"
 
 layout local
-  scale 1 1500
-  base-scale 1 1500
+  scale 1 500
+  base-scale 1 500
   scale-bar 100 m
 endlayout
 
 layout local-odessa
   #rotate 270 
-  scale 1 1200
-  base-scale 1 1200
-  scale-bar 100 m
+  scale 1 700
+  base-scale 1 300
+  scale-bar 200 m
   
   #Foreground color - turn on altitude to see various heights
-  colour map-fg [80 80 80]
+  #colour map-fg [80 80 80]
   #color map-fg altitude
   colour map-bg [70 90 70]
   
@@ -42,7 +42,7 @@ layout local-odessa
 
   
   doc-author   "Henry Bennett"
-  doc-keywords "Odessa Cave Baggao Philippines"
+  doc-keywords "Odessa Cave Penablanca Philippines"
   doc-subject  "Survey of Odessa Cave 2016"
   doc-title    "Odessa Cave Survey Bristol Exploration Club 2016"
       
@@ -121,11 +121,11 @@ layout local-odessa
   \cavename={Odessa}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
-    \legendbox{0}{38}{NW}{
+    \legendbox{0}{88}{NW}{
       \legendwidth 70 cm
       \the\legendcontent
       }
-    \legendbox{40}{50}{NW}{
+    \legendbox{10}{50}{NW}{
       \legendwidth 65 cm
       \legendtextsize={\size[42]}
       \hsize=\legendwidth

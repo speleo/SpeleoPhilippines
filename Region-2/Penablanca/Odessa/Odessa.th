@@ -36,6 +36,11 @@ survey Odessa
     # walls
       join l80-13788-58228@odessa-downstream-9-5:0 TumbaliExitLHW@tumbali-d1-c3:end
       join l82-13892-59460@odessa-downstream-9-5:end DiaLightExitLHW@tumbali-d1-c3:end
+      
+  #join low sewer with main passage
+    #walls
+      join l82-13892-59460@odessa-downstream-9-5:0 SewerRHW@odessa1204:end
+      join l83-13240-59560@odessa-downstream-9-5:end SewerLHW@odessa1204:0
 
   centreline
     equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance

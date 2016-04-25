@@ -27,6 +27,8 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 average loop error: 1.23%
 processing survey data ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- temporary directory already exists
+
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
@@ -139,10 +141,10 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.26%
+average distortion: 0.27%
 writing .\output\Odessa.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 APR 2016 16:52
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 APR 2016 22:43
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -154,46 +156,46 @@ ode/_scalebar_large_format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/c
 ode/_legend_large_format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_bats.mp
-[4013]) [1] [2]
+[4013]) [1] [2] [3] [4]
 [Error: area borders l100-11418-9932 and l101-11351-9760 don't intersect in scr
 ap catcheelSP1@catcheel.Odessa (file catcheel/catcheel.th2 [952])]
 [Error: area borders l101-11351-9760 and l100-11418-9932 don't intersect in scr
-ap catcheelSP1@catcheel.Odessa (file catcheel/catcheel.th2 [952])] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
-[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
-[36] [37] [38] [39] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [40] [41] [42]
-[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57]
-[58] [59] [60] [61] [62] [63] [64] [65] )
+ap catcheelSP1@catcheel.Odessa (file catcheel/catcheel.th2 [952])] [5] [6]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
+[38] [39] [40] [41] [42] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [43] [44] [45]
+[46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60]
+[61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] )
  
 Here is how much of MetaPost's memory you used:
- 1412 strings out of 1638
- 17414 string characters out of 26823
- 209302 words of memory out of 1500000
- 1523 symbolic tokens out of 16384
- 11i,75n,16p,294b,5f stack positions out of 300i,84n,5000p,312b,15f
- 435 string compactions (moved 6758315 characters, 563661 strings)
-78 output files written: data.1 .. data.4013
+ 1414 strings out of 1638
+ 17429 string characters out of 26823
+ 1161302 words of memory out of 1500000
+ 1528 symbolic tokens out of 16384
+ 11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 472 string compactions (moved 7301434 characters, 611729 strings)
+86 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 APR 2016 16:52
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 APR 2016 22:43
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 145 numeric registers used out of 32768
+ 153 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 345 strings out of 95617
- 3361 string characters out of 1171098
- 338554 words of memory out of 1807532
- 1755 multiletter control sequences out of 15000+50000
+ 353 strings out of 95617
+ 3428 string characters out of 1171098
+ 2168430 words of memory out of 3500000
+ 1763 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  10i,5n,7p,598b,86s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -201,17 +203,17 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 647466 bytes).
+Output written on data.pdf (1 page, 1884889 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
+ 285 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 753 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 801 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing xtherion file ... done
-compilation time: 14 sec
+compilation time: 25 sec
 
 
 ######################### loop errors ##########################
@@ -226,16 +228,16 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    0.56%  100.00%  DaquioagSP1@Daquioag.Odessa
+   0.08%   78.04%  odessa1204SP1@odessa1204.Odessa
    0.39%   74.24%  catcheelSP1@catcheel.Odessa
-   0.12%   59.75%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa
+   0.22%   59.76%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa
    1.30%   34.81%  smallloopSP1@smallloop.Odessa
-   0.03%   29.16%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
+   0.02%   29.16%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
    0.58%   12.05%  odessa-entranceSP1@odessa-entrance.Odessa
    0.34%    3.96%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa
    0.08%    1.93%  odessa-heavenSP1@odessa-heaven.Odessa
    0.05%    0.40%  OdessaEntSide@odessa-entrance.Odessa
    0.02%    0.34%  Odessa-Day1-upstream2SP1@Odessa-Day1-upstream2.Odessa
-   0.01%    0.27%  odessa1204SP1@odessa1204.Odessa
    0.02%    0.21%  odessa-up-side-2SP1@odessa-up-side-2.Odessa
    0.01%    0.17%  odessa-up-side-3SP1@odessa-up-side-3.Odessa
    0.03%    0.17%  OdessaEntLowSide@odessa-entrance.Odessa
