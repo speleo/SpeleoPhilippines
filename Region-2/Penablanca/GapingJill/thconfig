@@ -1,0 +1,27 @@
+encoding  utf-8
+source GapingJill.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o GapingJill.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o GapingJillEe.pdf
+
+export model -fmt survex -o GapingJillth.3d
+#Survex file showing centre line only
+
+#export model -o GapingJill.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o GapingJill_Walls.3d
+#Survex file showing walls only
+
+layout local
+  debug off
+  map-header 0 0 ne
+  symbol-hide group cave-centreline
+endlayout

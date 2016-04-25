@@ -1,0 +1,151 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3553
+geomag declinations (deg):
+  2005.1.1  -1.9603
+  2006.1.1  -2.0063
+  2007.1.1  -2.0524
+  2008.1.1  -2.0986
+  2009.1.1  -2.1447
+  2010.1.1  -2.1909
+  2011.1.1  -2.2711
+  2012.1.1  -2.3514
+  2013.1.1  -2.4316
+  2014.1.1  -2.5119
+  2015.1.1  -2.5921
+  2016.1.1  -2.6814
+  2017.1.1  -2.7707
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> 
+ 4> Survey contains 451 survey stations, joined by 450 legs.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey legs = 3058.85m (3058.85m adjusted)
+ 8> Total plan length of survey legs = 2730.38m
+ 9> Total vertical length of survey legs =  788.91m
+10> Vertical range = 80.02m (from 4 at 214.30m to 366 at 134.28m)
+11> North-South range = 343.26m (from 448 at 1966441.44m to 13 at 1966098.18m)
+12> East-West range = 75.55m (from 339 at 376715.54m to 446 at 376639.99m)
+13>  396 1-nodes.
+14>    1 2-node.
+15>    2 5-nodes.
+16>   13 6-nodes.
+17>    7 7-nodes.
+18>    5 8-nodes.
+19>    2 9-nodes.
+20>   11 10-nodes.
+21>    3 11-nodes.
+22>    4 12-nodes.
+23>    1 13-node.
+24>    1 14-node.
+25>    1 15-node.
+26>    2 16-nodes.
+27>    1 18-node.
+28>    1 24-node.
+29> 
+######################### transcription ########################
+ 4> 451 : -@odessa-entrance -- 450 : -@odessa-entrance
+ 5> 1 : 1.0@odessa-entrance
+ 6> 2 : -@odessa-entrance
+10> 4 : -@odessa-entrance -- 366 : -@odessa-entrance
+11> 448 : -@odessa-entrance -- 13 : -@odessa-entrance
+12> 339 : -@odessa-entrance -- 446 : -@odessa-entrance
+13> 396 : 4.9@odessa-entrance
+14> 1 : 1.0@odessa-entrance
+15> 2 : -@odessa-entrance
+16> 13 : -@odessa-entrance
+17> 7 : 1.2@odessa-entrance
+18> 5 : -@odessa-entrance
+19> 2 : -@odessa-entrance
+20> 11 : -@odessa-entrance
+21> 3 : -@odessa-entrance
+22> 4 : -@odessa-entrance
+23> 1 : 1.0@odessa-entrance
+24> 1 : 1.0@odessa-entrance
+25> 1 : 1.0@odessa-entrance
+26> 2 : -@odessa-entrance
+27> 1 : 1.0@odessa-entrance
+28> 1 : 1.0@odessa-entrance
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.03%
+writing odessa-entrance.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  12 APR 2016 14:36
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] (./mptextmp.mp) [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1083 strings out of 1162
+ 13037 string characters out of 20720
+ 61817 words of memory out of 1500000
+ 1367 symbolic tokens out of 16384
+ 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 77 string compactions (moved 809226 characters, 65261 strings)
+26 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  12 APR 2016 14:36
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 65 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 262 strings out of 95617
+ 2650 string characters out of 1171098
+ 37236 words of memory out of 1523214
+ 1675 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
+Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 64787 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Odessa.kml ... done
+writing odessa-entranceth.3d ... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.04%    0.81%  odessa-entranceSP1@odessa-entrance
+   0.08%    0.57%  OdessaEntSide@odessa-entrance
+   0.03%    0.16%  OdessaEntLowSide@odessa-entrance
+   0.01%    0.09%  OdessaEntLower@odessa-entrance
+################### end of scrap distortions ###################

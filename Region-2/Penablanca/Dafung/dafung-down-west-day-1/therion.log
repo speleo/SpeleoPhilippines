@@ -1,0 +1,74 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 345 survey stations, joined by 344 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs = 2166.95m (2166.95m adjusted)
+ 8> Total plan length of survey legs = 2098.54m
+ 9> Total vertical length of survey legs =  190.98m
+10> Vertical range = 11.16m (from 166 at 6.73m to 218 at -4.43m)
+11> North-South range = 210.23m (from 123 at 71.58m to 344 at -138.66m)
+12> East-West range = 155.67m (from 2 at 0.00m to 343 at -155.67m)
+13>  320 1-nodes.
+14>    1 2-node.
+15>    2 6-nodes.
+16>    1 7-node.
+17>    1 8-node.
+18>    1 9-node.
+19>    1 11-node.
+20>    3 13-nodes.
+21>    2 14-nodes.
+22>    4 15-nodes.
+23>    2 16-nodes.
+24>    1 18-node.
+25>    2 19-nodes.
+26>    1 21-node.
+27>    1 24-node.
+28>    1 28-node.
+29>    1 31-node.
+30> 
+######################### transcription ########################
+ 3> 1 : 1.4@dafung-down-west
+ 5> 345 : -@dafung-down-west -- 344 : -@dafung-down-west
+10> 166 : -@dafung-down-west -- 218 : -@dafung-down-west
+11> 123 : -@dafung-down-west -- 344 : -@dafung-down-west
+12> 2 : 8.0@dafung-down-west -- 343 : -@dafung-down-west
+13> 320 : -@dafung-down-west
+14> 1 : 1.4@dafung-down-west
+15> 2 : 8.0@dafung-down-west
+16> 1 : 1.4@dafung-down-west
+17> 1 : 1.4@dafung-down-west
+18> 1 : 1.4@dafung-down-west
+19> 1 : 1.4@dafung-down-west
+20> 3 : 8.1@dafung-down-west
+21> 2 : 8.0@dafung-down-west
+22> 4 : -@dafung-down-west
+23> 2 : 8.0@dafung-down-west
+24> 1 : 1.4@dafung-down-west
+25> 2 : 8.0@dafung-down-west
+26> 1 : 1.4@dafung-down-west
+27> 1 : 1.4@dafung-down-west
+28> 1 : 1.4@dafung-down-west
+29> 1 : 1.4@dafung-down-west
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing dafung-down-westth.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec

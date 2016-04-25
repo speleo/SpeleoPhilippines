@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 23.70m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.91m (from 13.3@upstream2 at 1.91m to 20.31@upstream2 at 0.00m)\nnorth-south range: 18.89m (from 20.31@upstream2 at 0.00m to 13.4@upstream2 at -18.89m)\neast-west range: 6.96m (from 20.31@upstream2 at 0.00m to 13.2@upstream2 at -6.96m)\nnumber of shots: 59\nnumber of stations: 60"
+xth_cp_data_tree_insert 8 1 1 upstream2 upstream2 "" "" "length: 23.70m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.91m (from 13.3@upstream2 at 1.91m to 20.31@upstream2 at 0.00m)\nnorth-south range: 18.89m (from 20.31@upstream2 at 0.00m to 13.4@upstream2 at -18.89m)\neast-west range: 6.96m (from 20.31@upstream2 at 0.00m to 13.2@upstream2 at -6.96m)\nnumber of shots: 59\nnumber of stations: 60"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 20X1 p1 1 upstream2M upstream2M@upstream2 "" ""
+xth_cp_map_tree_insert map 1 21X1 p2 1 upstream2ME upstream2ME@upstream2 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 24 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1460627952
+

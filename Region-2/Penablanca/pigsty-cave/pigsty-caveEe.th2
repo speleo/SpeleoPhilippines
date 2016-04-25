@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -594.57 -40.87 3567.44 245.22
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {546.646904301 1 1.0} {170.759225808 1.0} PocketTopo/pigsty-cave_e.xvi 0 {}
+
+
+scrap pigsty-caveSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

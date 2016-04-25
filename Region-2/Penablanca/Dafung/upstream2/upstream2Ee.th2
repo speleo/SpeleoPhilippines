@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -524.12 -123.96 3144.71 743.77
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {460.019246001 1 1.0} {296.055264208 20.31} PocketTopo/upstream2_e.xvi 0 {}
+
+
+scrap upstream2SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -630.34 -403.27 3782.06 2419.61
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {362.949810181 1 1.0} {1986.87218976 1.0} PocketTopo/GapingJill_e.xvi 0 {}
+
+
+scrap GapingJillSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

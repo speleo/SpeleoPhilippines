@@ -1,0 +1,27 @@
+encoding  utf-8
+source dafung-down-west.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o dafung-down-west.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o dafung-down-westEe.pdf
+
+export model -fmt survex -o dafung-down-westth.3d
+#Survex file showing centre line only
+
+#export model -o dafung-down-west.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o dafung-down-west_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout

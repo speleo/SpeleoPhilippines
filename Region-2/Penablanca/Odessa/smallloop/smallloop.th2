@@ -1,0 +1,30 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 99.95275589999983 156.21259842999984 3505.559055112 4113.0000000041
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {2970.27535433 1 1.0} {2042.58472441 9.8} PocketTopo/smallloop_p.xvi 0 {}
+
+
+
+scrap smallloopSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 835.3653543299997 1363.3247244099998 station -name 9.7
+
+point 628.0353543299998 1055.56472441 station -name 9.6
+
+point 784.6853543299999 1000.02472441 station -name 9.5
+
+point 1269.06535433 924.9447244099999 station -name 9.4
+
+point 1667.66535433 1039.81472441 station -name 9.3
+
+point 1651.61535433 1235.58472441 station -name 9.2
+
+point 2324.28535433 1779.85472441 station -name 9.1
+
+point 2970.27535433 2042.58472441 station -name 9.8
+
+point 2977.16535433 1997.20472441 station -name 9.0
+
+endscrap
+
+

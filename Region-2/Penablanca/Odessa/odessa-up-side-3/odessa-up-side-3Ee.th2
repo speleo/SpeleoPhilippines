@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1701.27 -149.91 10207.63 899.46
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {918.060201427 1 1.0} {74.9548563844 22.13} PocketTopo/odessa-up-side-3_e.xvi 0 {}
+
+
+scrap odessa-up-side-3SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

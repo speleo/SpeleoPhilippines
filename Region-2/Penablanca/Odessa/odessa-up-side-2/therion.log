@@ -1,0 +1,50 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 79 survey stations, joined by 78 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs =  163.23m ( 163.23m adjusted)
+ 8> Total plan length of survey legs =  153.54m
+ 9> Total vertical length of survey legs =   18.32m
+10> Vertical range = 1.79m (from 68 at 1.30m to 22 at -0.50m)
+11> North-South range = 61.60m (from 75 at 55.94m to 5 at -5.65m)
+12> East-West range = 58.47m (from 57 at 58.47m to 2 at 0.00m)
+13>   64 1-nodes.
+14>    1 2-node.
+15>   12 6-nodes.
+16>    1 8-node.
+17>    1 10-node.
+18> 
+######################### transcription ########################
+ 3> 1 : 20.49@odessa-up-side-2
+ 5> 79 : -@odessa-up-side-2 -- 78 : -@odessa-up-side-2
+10> 68 : -@odessa-up-side-2 -- 22 : -@odessa-up-side-2
+11> 75 : -@odessa-up-side-2 -- 5 : -@odessa-up-side-2
+12> 57 : -@odessa-up-side-2 -- 2 : 27.0@odessa-up-side-2
+13> 64 : -@odessa-up-side-2
+14> 1 : 20.49@odessa-up-side-2
+15> 12 : -@odessa-up-side-2
+16> 1 : 20.49@odessa-up-side-2
+17> 1 : 20.49@odessa-up-side-2
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing odessa-up-side-2th.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec

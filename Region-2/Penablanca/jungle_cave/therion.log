@@ -1,0 +1,66 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3534
+geomag declinations (deg):
+  2016.1.1  -2.6824
+  2017.1.1  -2.7717
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> 
+ 4> Survey contains 195 survey stations, joined by 194 legs.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey legs =  522.34m ( 522.34m adjusted)
+ 8> Total plan length of survey legs =  437.92m
+ 9> Total vertical length of survey legs =  144.17m
+10> Vertical range = 15.64m (from 186 at 230.16m to 170 at 214.52m)
+11> North-South range = 126.80m (from 185 at 1966481.43m to 117 at 1966354.62m)
+12> East-West range = 25.31m (from 100 at 377367.69m to 138 at 377342.38m)
+13>  167 1-nodes.
+14>    1 5-node.
+15>   16 6-nodes.
+16>    2 8-nodes.
+17>    4 9-nodes.
+18>    1 10-node.
+19>    1 11-node.
+20>    1 13-node.
+21>    1 14-node.
+22>    1 20-node.
+23> 
+######################### transcription ########################
+ 4> 195 : -@jungle_cave -- 194 : -@jungle_cave
+ 5> 1 : 1.0@jungle_cave
+ 6> 2 : -@jungle_cave
+10> 186 : -@jungle_cave -- 170 : -@jungle_cave
+11> 185 : 1.29@jungle_cave -- 117 : 1.15@jungle_cave
+12> 100 : -@jungle_cave -- 138 : -@jungle_cave
+13> 167 : -@jungle_cave
+14> 1 : 1.0@jungle_cave
+15> 16 : -@jungle_cave
+16> 2 : -@jungle_cave
+17> 4 : -@jungle_cave
+18> 1 : 1.0@jungle_cave
+19> 1 : 1.0@jungle_cave
+20> 1 : 1.0@jungle_cave
+21> 1 : 1.0@jungle_cave
+22> 1 : 1.0@jungle_cave
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing jungle_caveth.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec

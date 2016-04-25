@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1086.49 -411.94 6518.95 2471.66
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {543.24614418 1 1.0} {1079.36781817 9.0} PocketTopo/smallloop_e.xvi 0 {}
+
+
+scrap smallloopSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

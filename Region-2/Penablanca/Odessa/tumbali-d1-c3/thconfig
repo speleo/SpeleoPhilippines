@@ -1,0 +1,56 @@
+encoding  utf-8
+source tumbali-d1-c3.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o tumbali-d1-c3.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o tumbali-d1-c3Ee.pdf
+
+export model -fmt survex -o tumbali-d1-c3th.3d
+#Survex file showing centre line only
+
+#export model -o tumbali-d1-c3.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o tumbali-d1-c3_Walls.3d
+#Survex file showing walls only
+
+layout local
+  debug off
+  map-header 0 0 ne
+  symbol-hide group cave-centreline
+  
+  #Foreground color - turn on altitdude to see various heights
+  colour map-fg [80 80 80]
+  #color map-fg altitude
+  colour map-bg [70 90 70]
+  #colour map-bg [00 00 00]
+  
+  symbol-set BCRA
+  symbol-hide group cave-centreline
+  symbol-assign line slope SKBB
+  
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+   
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+  endcode
+endlayout

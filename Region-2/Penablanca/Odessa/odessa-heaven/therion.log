@@ -1,0 +1,7 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: odessa-heaven.pdf
+reading ...
+C:\Program Files\Therion\therion.exe: error -- odessa-heaven.pdf [2] -- unknown configuration command -- PDF-1.5
+writing xtherion file ... done

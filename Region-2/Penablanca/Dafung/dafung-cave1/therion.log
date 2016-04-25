@@ -1,0 +1,72 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3537
+geomag declinations (deg):
+  2016.1.1  -2.6830
+  2017.1.1  -2.7722
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> 
+ 4> Survey contains 323 survey stations, joined by 322 legs.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey legs = 2801.69m (2801.69m adjusted)
+ 8> Total plan length of survey legs = 2589.53m
+ 9> Total vertical length of survey legs =  508.28m
+10> Vertical range = 19.68m (from 159 at 170.77m to 280 at 151.09m)
+11> North-South range = 426.58m (from 319 at 1966827.08m to 244 at 1966400.49m)
+12> East-West range = 107.19m (from 31 at 377314.28m to 246 at 377207.09m)
+13>  293 1-nodes.
+14>    1 5-node.
+15>    2 6-nodes.
+16>    1 8-node.
+17>    2 9-nodes.
+18>    4 10-nodes.
+19>    3 11-nodes.
+20>    5 12-nodes.
+21>    2 13-nodes.
+22>    5 14-nodes.
+23>    2 15-nodes.
+24>    2 16-nodes.
+25>    1 17-node.
+26> 
+######################### transcription ########################
+ 4> 323 : -@dafung-cave1 -- 322 : -@dafung-cave1
+ 5> 1 : 1.0@dafung-cave1
+ 6> 2 : -@dafung-cave1
+10> 159 : -@dafung-cave1 -- 280 : -@dafung-cave1
+11> 319 : -@dafung-cave1 -- 244 : -@dafung-cave1
+12> 31 : -@dafung-cave1 -- 246 : -@dafung-cave1
+13> 293 : -@dafung-cave1
+14> 1 : 1.0@dafung-cave1
+15> 2 : -@dafung-cave1
+16> 1 : 1.0@dafung-cave1
+17> 2 : -@dafung-cave1
+18> 4 : -@dafung-cave1
+19> 3 : 1.1@dafung-cave1
+20> 5 : -@dafung-cave1
+21> 2 : -@dafung-cave1
+22> 5 : -@dafung-cave1
+23> 2 : -@dafung-cave1
+24> 2 : -@dafung-cave1
+25> 1 : 1.0@dafung-cave1
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing dafung-cave1th.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec

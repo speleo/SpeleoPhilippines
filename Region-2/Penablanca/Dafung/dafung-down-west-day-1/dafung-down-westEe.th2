@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -3971.94 -175.8 23831.66 1054.79
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2789.04971532 1 1.0} {436.471028992 1.4} PocketTopo/dafung-down-west_e.xvi 0 {}
+
+
+scrap dafung-down-westSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

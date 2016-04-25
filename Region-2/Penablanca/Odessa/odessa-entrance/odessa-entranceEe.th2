@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -6683.16 -1260.08 40098.98 7560.51
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4552.00368971 1 1.0} {5647.27438565 1.0} PocketTopo/odessa-entrance_e.xvi 0 {}
+
+
+scrap odessa-entranceSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 159.64m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.50m (from 1.5@Diffan at 164.40m to 1.10@Diffan at 161.90m)\nnorth-south range: 114.87m (from 1.0@Diffan at 1966711.40m to 4.1@Diffan at 1966596.53m)\neast-west range: 26.28m (from 1.4@Diffan at 377304.47m to 1.11@Diffan at 377278.19m)\nnumber of shots: 168\nnumber of stations: 168"
+xth_cp_data_tree_insert 9 1 1 Diffan Diffan "" "" "length: 159.64m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.50m (from 1.5@Diffan at 164.40m to 1.10@Diffan at 161.90m)\nnorth-south range: 114.87m (from 1.0@Diffan at 1966711.40m to 4.1@Diffan at 1966596.53m)\neast-west range: 26.28m (from 1.4@Diffan at 377304.47m to 1.11@Diffan at 377278.19m)\nnumber of shots: 168\nnumber of stations: 168"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 41X1 p1 1 DiffanM DiffanM@Diffan "" ""
+xth_cp_map_tree_insert map 1 42X1 p3 1 DiffanME DiffanME@Diffan "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 160 3
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1461065799
+

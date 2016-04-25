@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -6651.27 -310.01 39907.61 1860.08
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4372.90446922 1 1.0} {1171.66820044 1.0} PocketTopo/dafung-cave1_e.xvi 0 {}
+
+
+scrap dafung-cave1SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

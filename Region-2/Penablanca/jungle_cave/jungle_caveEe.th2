@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1358.28 -246.25 8149.67 1477.51
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1030.26714882 1 1.0} {397.006640086 1.0} PocketTopo/jungle_cave_e.xvi 0 {}
+
+
+scrap jungle_caveSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

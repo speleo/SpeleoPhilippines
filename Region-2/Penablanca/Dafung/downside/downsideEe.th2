@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -801.23 -89.3 4807.39 535.81
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {400.616055519 1 1.0} {491.155687411 1.24} PocketTopo/downside_e.xvi 0 {}
+
+
+scrap downsideSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

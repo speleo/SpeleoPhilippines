@@ -1,0 +1,58 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 95 survey stations, joined by 94 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs =  363.57m ( 363.57m adjusted)
+ 8> Total plan length of survey legs =  304.82m
+ 9> Total vertical length of survey legs =  116.80m
+10> Vertical range = 9.52m (from 18 at 9.52m to 2 at 0.00m)
+11> North-South range = 36.62m (from 67 at 21.41m to 9 at -15.21m)
+12> East-West range = 84.21m (from 87 at 83.92m to 4 at -0.29m)
+13>   80 1-nodes.
+14>    1 2-node.
+15>    1 5-node.
+16>    7 6-nodes.
+17>    1 7-node.
+18>    1 9-node.
+19>    2 10-nodes.
+20>    1 11-node.
+21>    1 12-node.
+22> 
+######################### transcription ########################
+ 3> 1 : 22.13@odessa-up-side-3
+ 5> 95 : -@odessa-up-side-3 -- 94 : -@odessa-up-side-3
+10> 18 : -@odessa-up-side-3 -- 2 : 28.0@odessa-up-side-3
+11> 67 : -@odessa-up-side-3 -- 9 : -@odessa-up-side-3
+12> 87 : -@odessa-up-side-3 -- 4 : -@odessa-up-side-3
+13> 80 : 28.13@odessa-up-side-3
+14> 1 : 22.13@odessa-up-side-3
+15> 1 : 22.13@odessa-up-side-3
+16> 7 : -@odessa-up-side-3
+17> 1 : 22.13@odessa-up-side-3
+18> 1 : 22.13@odessa-up-side-3
+19> 2 : 28.0@odessa-up-side-3
+20> 1 : 22.13@odessa-up-side-3
+21> 1 : 22.13@odessa-up-side-3
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing odessa-up-side-3th.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec

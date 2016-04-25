@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1250.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 24.96m (from 1.0@Daquioag at 168.00m to 22.1@Daquioag at 143.04m)\nnorth-south range: 527.96m (from 22.22@Daquioag at 1966031.12m to 20.30@Daquioag at 1965503.16m)\neast-west range: 423.77m (from 22.21@Daquioag at 376341.91m to 18.8@Daquioag at 375918.14m)\nnumber of shots: 2996\nnumber of stations: 2997"
+xth_cp_data_tree_insert 8 1 1 Daquioag Daquioag "" "" "length: 1250.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 24.96m (from 1.0@Daquioag at 168.00m to 22.1@Daquioag at 143.04m)\nnorth-south range: 527.96m (from 22.22@Daquioag at 1966031.12m to 20.30@Daquioag at 1965503.16m)\neast-west range: 423.77m (from 22.21@Daquioag at 376341.91m to 18.8@Daquioag at 375918.14m)\nnumber of shots: 2996\nnumber of stations: 2997"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 202X1 p1 1 DaquioagM DaquioagM@Daquioag "" ""
+xth_cp_map_tree_insert map 1 203X1 p3 1 DaquioagME DaquioagME@Daquioag "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 1251 15
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1460288761
+

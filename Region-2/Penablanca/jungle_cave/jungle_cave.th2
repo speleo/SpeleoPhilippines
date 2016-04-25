@@ -1,0 +1,84 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 206.05511810999997 855.9370078800002 4635.2834645658995 11820.5984252008
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3452.7816535399998 1 1.0} {5746.79283465 1.4} PocketTopo/jungle_cave_p.xvi 0 {}
+
+
+
+scrap jungle_caveSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 3083.07165354 11534.442834649999 station -name 1.29
+
+point 3208.77165354 11302.41283465 station -name 1.28
+
+point 3156.64165354 11010.33283465 station -name 1.27
+
+point 3237.69165354 10454.36283465 station -name 1.26
+
+point 2765.55165354 10185.07283465 station -name 1.25
+
+point 2333.33165354 9992.56283465 station -name 1.24
+
+point 2151.9716535400003 9490.24283465 station -name 1.23
+
+point 2086.4716535400003 9349.48283465 station -name 1.22
+
+point 2139.80165354 8695.81283465 station -name 1.21
+
+point 2028.74165354 8365.62283465 station -name 1.20
+
+point 1889.51165354 7956.6328346499995 station -name 1.19
+
+point 2060.02165354 7827.3828346499995 station -name 1.18
+
+point 2373.41165354 7081.02283465 station -name 1.17
+
+point 3080.01165354 6929.42283465 station -name 1.16
+
+point 3116.80165354 6801.47283465 station -name 1.1
+
+point 3251.77165354 6647.32283465 station -name 1.0
+
+point 3230.17165354 6209.41283465 station -name 1.2
+
+point 3361.35165354 5982.0128346500005 station -name 1.3
+
+point 3452.7816535399998 5746.79283465 station -name 1.4
+
+point 3499.47165354 5355.27283465 station -name 1.5
+
+point 3269.91165354 5055.55283465 station -name 1.6
+
+point 3121.73165354 4673.8828346499995 station -name 1.7
+
+point 3244.27165354 4280.82283465 station -name 1.8
+
+point 2805.06165354 3814.01283465 station -name 1.9
+
+point 3506.81165354 3462.00283465 station -name 1.10
+
+point 3346.89165354 3127.03283465 station -name 1.11
+
+point 3016.73165354 2830.55283465 station -name 1.12
+
+point 2804.81165354 2303.87283465 station -name 1.13
+
+point 2249.9716535400003 2049.86283465 station -name 1.14
+
+point 2265.70165354 1575.0828346500002 station -name 1.15
+
+endscrap
+
+
+
+scrap jungle_caveSPX1.20 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap jungle_caveSPX1.7 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

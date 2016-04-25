@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -19596.28 -353.77 117577.67 2122.62
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {9798.13939384 1 1.0} {1945.73335206 4.13} PocketTopo/odessa-downstream-9-5_e.xvi 0 {}
+
+
+scrap odessa-downstream-9-5SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

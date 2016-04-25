@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1306.19 -73.63 7837.13 441.76
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {653.094153608 1 1.0} {36.8129863315 3.62} PocketTopo/shepherd_e.xvi 0 {}
+
+
+scrap shepherdSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

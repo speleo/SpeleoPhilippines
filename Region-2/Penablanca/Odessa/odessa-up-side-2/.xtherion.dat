@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 97.69m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.04m (from 27.14@odessa-up-side-2 at 0.75m to 27.7@odessa-up-side-2 at -0.29m)\nnorth-south range: 57.66m (from 27.14@odessa-up-side-2 at 52.16m to 27.1@odessa-up-side-2 at -5.50m)\neast-west range: 56.82m (from 27.12@odessa-up-side-2 at 56.82m to 20.49@odessa-up-side-2 at 0.00m)\nnumber of shots: 78\nnumber of stations: 79"
+xth_cp_data_tree_insert 8 1 1 odessa-up-side-2 odessa-up-side-2 "" "" "length: 97.69m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.04m (from 27.14@odessa-up-side-2 at 0.75m to 27.7@odessa-up-side-2 at -0.29m)\nnorth-south range: 57.66m (from 27.14@odessa-up-side-2 at 52.16m to 27.1@odessa-up-side-2 at -5.50m)\neast-west range: 56.82m (from 27.12@odessa-up-side-2 at 56.82m to 20.49@odessa-up-side-2 at 0.00m)\nnumber of shots: 78\nnumber of stations: 79"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 31X1 p1 1 odessa-up-side-2M odessa-up-side-2M@odessa-up-side-2 "" ""
+xth_cp_map_tree_insert map 1 32X1 p3 1 odessa-up-side-2ME odessa-up-side-2ME@odessa-up-side-2 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 98 3
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1460376670
+

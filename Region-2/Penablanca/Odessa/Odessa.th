@@ -1,0 +1,46 @@
+encoding  utf-8
+survey Odessa
+  input odessa-entrance/odessa-entrance.th
+  input Odessa-Day1-upstream2/Odessa-Day1-upstream2.th
+  input odessa-heaven/odessa-heaven.th
+  #input odessa-downstream-94/odessa-downstream-94.th
+  input odessa-downstream-9-5/odessa-downstream-9-5.th
+  input odessaupday2oliandpete/odessaupday2oliandpete.th
+  input Daquioag/Daquioag.th 
+  input tumbali-d1-c3/tumbali-d1-c3.th 
+  input odessa-up-side-1/odessa-up-side-1.th
+  input odessa-up-side-2/odessa-up-side-2.th
+  input odessa-up-side-3/odessa-up-side-3.th
+  input odessa1204/odessa1204.th
+  input catcheel/catcheel.th
+  input shepherd/shepherd.th
+  input smallloop/smallloop.th
+
+  centreline
+    #equate 6.66@C4HelicopterHole 15.57@bluewater
+    equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance
+    equate 7.1@odessa-heaven  1.30@odessa-entrance
+    equate 4.13@odessa-downstream-9-5 4.13@odessa-entrance
+    equate 3.28@odessa-downstream-9-5 3.28@tumbali-d1-c3
+    equate 1.66@odessaupday2oliandpete 1.30@odessa-entrance
+    equate 22.22@Daquioag 1.0@odessaupday2oliandpete
+    equate 20.60@Daquioag 20.60@odessa-up-side-1 
+    equate 20.49@Daquioag 20.49@odessa-up-side-2 
+    equate 22.13@Daquioag 22.13@odessa-up-side-3
+    equate 5.0@odessa1204 4.75@odessa-downstream-9-5
+    equate 4.61@catcheel 4.61@odessa-downstream-9-5
+    equate 17.9@catcheel 4.54@odessa-downstream-9-5
+    equate 18.0@shepherd 3.62@tumbali-d1-c3
+    equate 8.8@odessa-heaven 9.7@smallloop
+    equate 8.9@odessa-heaven 9.0@smallloop
+
+  endcentreline
+
+  map map-test
+    #bluewaterM@bluewater
+    #C4HelicopterHoleM@C4HelicopterHole
+    odessa-entranceM@odessa-entrance
+  endmap
+
+endsurvey
+

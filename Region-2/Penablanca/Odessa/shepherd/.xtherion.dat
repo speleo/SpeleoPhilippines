@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 75.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.12m (from 18.7@shepherd at 4.12m to 3.62@shepherd at 0.00m)\nnorth-south range: 27.05m (from 18.8@shepherd at 27.05m to 3.62@shepherd at 0.00m)\neast-west range: 29.60m (from 18.5@shepherd at 23.11m to 18.11@shepherd at -6.49m)\nnumber of shots: 57\nnumber of stations: 58"
+xth_cp_data_tree_insert 9 1 1 shepherd shepherd "" "" "length: 75.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.12m (from 18.7@shepherd at 4.12m to 3.62@shepherd at 0.00m)\nnorth-south range: 27.05m (from 18.8@shepherd at 27.05m to 3.62@shepherd at 0.00m)\neast-west range: 29.60m (from 18.5@shepherd at 23.11m to 18.11@shepherd at -6.49m)\nnumber of shots: 57\nnumber of stations: 58"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 28X1 p1 1 shepherdM shepherdM@shepherd "" ""
+xth_cp_map_tree_insert map 1 29X1 p2 1 shepherdME shepherdME@shepherd "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 76 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1460810004
+

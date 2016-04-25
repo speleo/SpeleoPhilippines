@@ -1,0 +1,68 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 219 survey stations, joined by 218 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs = 1121.03m (1121.03m adjusted)
+ 8> Total plan length of survey legs = 1001.68m
+ 9> Total vertical length of survey legs =  242.72m
+10> Vertical range = 17.89m (from 183 at 16.29m to 17 at -1.60m)
+11> North-South range = 93.35m (from 1 at 0.00m to 203 at -93.35m)
+12> East-West range = 82.78m (from 25 at 7.81m to 219 at -74.98m)
+13>  198 1-nodes.
+14>    1 2-node.
+15>    1 3-node.
+16>    1 6-node.
+17>    1 7-node.
+18>    1 8-node.
+19>    2 9-nodes.
+20>    4 11-nodes.
+21>    3 12-nodes.
+22>    3 13-nodes.
+23>    1 15-node.
+24>    1 16-node.
+25>    1 20-node.
+26>    1 24-node.
+27> 
+######################### transcription ########################
+ 3> 1 : 20.44@upper_squeez
+ 5> 219 : 30.10@upper_squeez -- 218 : -@upper_squeez
+10> 183 : -@upper_squeez -- 17 : -@upper_squeez
+11> 1 : 20.44@upper_squeez -- 203 : -@upper_squeez
+12> 25 : -@upper_squeez -- 219 : 30.10@upper_squeez
+13> 198 : -@upper_squeez
+14> 1 : 20.44@upper_squeez
+15> 1 : 20.44@upper_squeez
+16> 1 : 20.44@upper_squeez
+17> 1 : 20.44@upper_squeez
+18> 1 : 20.44@upper_squeez
+19> 2 : -@upper_squeez
+20> 4 : 20.45@upper_squeez
+21> 3 : -@upper_squeez
+22> 3 : -@upper_squeez
+23> 1 : 20.44@upper_squeez
+24> 1 : 20.44@upper_squeez
+25> 1 : 20.44@upper_squeez
+26> 1 : 20.44@upper_squeez
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing upper_squeezth.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec

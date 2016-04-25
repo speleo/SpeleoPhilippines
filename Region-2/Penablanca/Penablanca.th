@@ -1,0 +1,29 @@
+encoding  utf-8
+survey PenablancaSystem
+  input martha/martha.th
+  input odessa/odessa.th
+  #input tumbali-d1-c3/tumbali-d1-c3.th
+  input noodle/noodle.th
+  input dafung/dafung.th
+  input tumbali-day1-c2/tumbali-day1-c2.th
+  input jungle_cave/jungle_cave.th
+  input pigsty-cave/pigsty-cave.th
+  input nd2/nd2.th
+  
+  centreline
+    #equate 6.66@C4HelicopterHole 15.57@bluewater
+    #equate 7.1@Odessa-Day1-upstream2  1.31@odessa-entrance
+    #equate 7.1@odessa-heaven  1.31@odessa-entrance
+    #equate 22.22Daquioag 1.0@odessa.odessaupday2oliandpete
+  endcentreline
+
+  map map-test
+    #bluewaterM@bluewater
+    #C4HelicopterHoleM@C4HelicopterHole
+    #marthaM@martha
+    #odessa-entranceM@odessa-entrance
+    NOODLEM@NOODLE
+  endmap
+
+endsurvey
+

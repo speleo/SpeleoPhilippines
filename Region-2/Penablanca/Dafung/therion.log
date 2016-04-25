@@ -1,0 +1,186 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig-dafung
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3537
+geomag declinations (deg):
+  2005.1.1  -1.9618
+  2006.1.1  -2.0078
+  2007.1.1  -2.0539
+  2008.1.1  -2.1000
+  2009.1.1  -2.1462
+  2010.1.1  -2.1924
+  2011.1.1  -2.2726
+  2012.1.1  -2.3529
+  2013.1.1  -2.4331
+  2014.1.1  -2.5134
+  2015.1.1  -2.5936
+  2016.1.1  -2.6830
+  2017.1.1  -2.7722
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> 
+ 4> Survey contains 2186 survey stations, joined by 2185 legs.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey legs = 12993.91m (12993.91m adjusted)
+ 8> Total plan length of survey legs = 12012.07m
+ 9> Total vertical length of survey legs = 2375.26m
+10> Vertical range = 40.27m (from 1489 at 185.60m to 2151 at 145.32m)
+11> North-South range = 837.24m (from 931 at 1966933.01m to 1509 at 1966095.76m)
+12> East-West range = 326.47m (from 31 at 377314.28m to 2167 at 376987.81m)
+13> 1974 1-nodes.
+14>   12 2-nodes.
+15>    3 3-nodes.
+16>    3 4-nodes.
+17>    5 5-nodes.
+18>   15 6-nodes.
+19>    9 7-nodes.
+20>   14 8-nodes.
+21>   22 9-nodes.
+22>   17 10-nodes.
+23>   18 11-nodes.
+24>   19 12-nodes.
+25>   15 13-nodes.
+26>    9 14-nodes.
+27>   16 15-nodes.
+28>   10 16-nodes.
+29>    3 17-nodes.
+30>    4 18-nodes.
+31>    3 19-nodes.
+32>    4 20-nodes.
+33>    1 21-node.
+34>    1 22-node.
+35>    1 23-node.
+36>    2 24-nodes.
+37>    1 25-node.
+38>    1 27-node.
+39>    1 28-node.
+40>    1 29-node.
+41>    1 31-node.
+42>    1 32-node.
+43> 
+######################### transcription ########################
+ 4> 2186 : -@dafung-down-west.Dafung -- 2185 : -@dafung-down-west.Dafung
+ 5> 1 : 1.0@dafung-cave1.Dafung
+ 6> 2 : -@dafung-cave1.Dafung
+10> 1489 : -@upper_squeez.Dafung -- 2151 : -@dafung-down-west.Dafung
+11> 931 : -@downstream129.Dafung -- 1509 : -@upper_squeez.Dafung
+12> 31 : -@dafung-cave1.Dafung -- 2167 : -@dafung-down-west.Dafung
+13> 1974 : 16.0@dafung-down-west.Dafung
+14> 12 : -@dafung-cave1.Dafung
+15> 3 : 1.1@dafung-cave1.Dafung
+16> 3 : 1.1@dafung-cave1.Dafung
+17> 5 : -@dafung-cave1.Dafung
+18> 15 : 1.2@dafung-cave1.Dafung
+19> 9 : -@dafung-cave1.Dafung
+20> 14 : -@dafung-cave1.Dafung
+21> 22 : -@dafung-cave1.Dafung
+22> 17 : -@dafung-cave1.Dafung
+23> 18 : -@dafung-cave1.Dafung
+24> 19 : -@dafung-cave1.Dafung
+25> 15 : 1.2@dafung-cave1.Dafung
+26> 9 : -@dafung-cave1.Dafung
+27> 16 : -@dafung-cave1.Dafung
+28> 10 : -@dafung-cave1.Dafung
+29> 3 : 1.1@dafung-cave1.Dafung
+30> 4 : -@dafung-cave1.Dafung
+31> 3 : 1.1@dafung-cave1.Dafung
+32> 4 : -@dafung-cave1.Dafung
+33> 1 : 1.0@dafung-cave1.Dafung
+34> 1 : 1.0@dafung-cave1.Dafung
+35> 1 : 1.0@dafung-cave1.Dafung
+36> 2 : -@dafung-cave1.Dafung
+37> 1 : 1.0@dafung-cave1.Dafung
+38> 1 : 1.0@dafung-cave1.Dafung
+39> 1 : 1.0@dafung-cave1.Dafung
+40> 1 : 1.0@dafung-cave1.Dafung
+41> 1 : 1.0@dafung-cave1.Dafung
+42> 1 : 1.0@dafung-cave1.Dafung
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.77%
+writing .\output\Dafung.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  21 APR 2016 16:10
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4]
+[Warning: scrap outline intersects itself in scrap downstream129SP1@downstream1
+29.Dafung] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+(./mptextmp.mp) [19] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1330 strings out of 1638
+ 16896 string characters out of 26823
+ 63964 words of memory out of 1500000
+ 1509 symbolic tokens out of 16384
+ 8i,75n,11p,199b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 120 string compactions (moved 1656887 characters, 136009 strings)
+31 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  21 APR 2016 16:10
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 81 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 278 strings out of 95617
+ 2773 string characters out of 1171098
+ 28379 words of memory out of 1515357
+ 1691 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,388b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
+Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 107239 bytes).
+PDF statistics:
+ 117 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing .\output\Dafung.kml ... done
+writing .\output\Dafung-survex.3d ... done
+writing xtherion file ... done
+compilation time: 5 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   4.73%  100.00%  dafung-cave1SP1@dafung-cave1.Dafung
+   0.02%    3.50%  dafung-down-westSP1@dafung-down-west.Dafung
+   0.02%    0.58%  smallpitchSP1@smallpitch.Dafung
+   0.05%    0.51%  upper_squeezSP1@upper_squeez.Dafung
+   0.01%    0.29%  downstream129SP1@downstream129.Dafung
+   0.01%    0.28%  upstreamSP1@upstream.Dafung
+   0.04%    0.15%  upstream2SP1@upstream2.Dafung
+   0.01%    0.10%  downsideSP1@downside.Dafung
+################### end of scrap distortions ###################

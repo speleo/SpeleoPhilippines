@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -90.023622047 -34.63779526999997 1425.8188976378 2032.3858267769
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {876.152362205 1 1.0} {486.54889763999995 1.4} PocketTopo/tumbali-day1-c2_p.xvi 0 {}
+
+
+
+scrap tumbali-day1-c2SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 601.652362205 427.9788976399999 station -name 1.5
+
+point 876.152362205 486.54889763999995 station -name 1.4
+
+point 935.812362205 551.5688976399999 station -name 1.3
+
+point 836.852362205 764.1088976399999 station -name 1.2
+
+point 727.152362205 897.52889764 station -name 1.1
+
+point 589.7423622050001 681.4388976399999 station -name 1.6
+
+point 347.83236220500004 944.66889764 station -name 1.7
+
+point 420.102362205 1139.81889764 station -name 2.0
+
+point 342.372362205 1427.16889764 station -name 1.9
+
+point 366.032362205 1187.36889764 station -name 1.8
+
+point 201.73236220500002 1370.25889764 station -name 2.1
+
+point 408.532362205 1564.1488976399999 station -name 2.2
+
+endscrap
+
+
