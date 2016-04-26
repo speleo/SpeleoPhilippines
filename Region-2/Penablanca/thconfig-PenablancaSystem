@@ -1,17 +1,29 @@
 encoding  utf-8
 source Penablanca.th
 
+export map -proj plan -layout local -o .\output\penablanca.pdf
+export map -fmt kml -proj plan -layout local -o .\output\Penablanca_map.kml
+export model -fmt kml -o .\output\penablanca.kml
+
+#Survex file showing centre line only
+export model -fmt survex -o .\output\penablanca-survex.3d
+
+  text en "point u:bat" "bat"
+  text en "line u:bat" "bat path"
+  text en "area u:bat" "lot of bats"
+
+
 layout local
   scale 1 800
-  base-scale 1 800
-  scale-bar 100 m
+  base-scale 1 400
+  scale-bar 200 m
   symbol-hide group cave-centreline
   
   #Foreground color - turn on altitdude to see various heights
-  colour map-fg [80 80 80]
+  #colour map-fg [80 80 80]
   #color map-fg altitude
-  #colour map-bg [70 90 70]
-  colour map-bg [00 00 00]
+  colour map-bg [70 90 70]
+  #colour map-bg [00 00 00]
   
   language en
   statistics topo-length off
@@ -59,10 +71,10 @@ layout local
 
   code metapost
     
-    #input "C:/Users/dell/Documents/Philippines/GitHub/philippine-surveys-2015/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
-    #input "C:/Users/dell/Documents/Philippines/GitHub/philippine-surveys-2015/bluewater-v7/code/_scalebar_large_format"
-    #input "C:/Users/dell/Documents/Philippines/GitHub/philippine-surveys-2015/bluewater-v7/code/_legend_large_format"
-    
+    input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
+    input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_scalebar_large_format"
+    input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_legend_large_format"
+    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_bats"    
     
     # code to change the colour of the water
     def a_water (expr p) =
@@ -244,10 +256,3 @@ layout local-bw
   endcode #end of TeX code
 
 endlayout
-
-export map -proj plan -layout local -o .\output\penablanca.pdf
-export map -fmt kml -proj plan -layout local -o .\output\Penablanca_map.kml
-export model -fmt kml -o .\output\penablanca.kml
-
-#Survex file showing centre line only
-export model -fmt survex -o .\output\penablanca-survex.3d
