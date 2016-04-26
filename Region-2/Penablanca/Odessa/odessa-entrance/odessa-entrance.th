@@ -6,9 +6,10 @@ input odessa-entranceEe.th2
 
 map odessa-entranceM
   OdessaEntSide
-  break
-  odessa-entranceSP1
+    break
   OdessaEntLower
+  odessa-entranceSP1
+    break
   OdessaEntLowSide
   
 endmap

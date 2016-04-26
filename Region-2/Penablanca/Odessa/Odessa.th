@@ -1,7 +1,8 @@
 encoding  utf-8
 survey Odessa
   input odessa-entrance/odessa-entrance.th
-  input Odessa-Day1-upstream2/Odessa-Day1-upstream2.th
+  # input Odessa-Day1-upstream2/Odessa-Day1-upstream2.th
+  # above removed as it is duplicate survey
   input odessa-heaven/odessa-heaven.th
   #input odessa-downstream-94/odessa-downstream-94.th
   input odessa-downstream-9-5/odessa-downstream-9-5.th
@@ -15,10 +16,7 @@ survey Odessa
   input catcheel/catcheel.th
   input shepherd/shepherd.th
   input smallloop/smallloop.th
-  
-  #join l85-4780-45194@odessa-downstream-9-5SP1 catcheelSP1
-  #join odessa-downstream-9-5SP1 catcheelSP1
-  
+ 
   #join Catch Eel to main passage
     # walls (wet way)
       join l85-4780-45194@odessa-downstream-9-5 l49-11372-9858@catcheel
@@ -41,9 +39,27 @@ survey Odessa
     #walls
       join l82-13892-59460@odessa-downstream-9-5:0 SewerRHW@odessa1204:end
       join l83-13240-59560@odessa-downstream-9-5:end SewerLHW@odessa1204:0
+      
+  #join Main Passage with Odessa Entrance
+    # walls
+      join MainPassageUpstream@odessa-downstream-9-5:0 l38-1468-28880@odessa-entrance:end
+      join l85-6928-21664@odessa-downstream-9-5:end l39-1992-29212@odessa-entrance:0
+      
+  #join Heaven with Odessa Entrance
+    # walls
+      join HeavenStartRHW@odessa-heaven:0 EntranceLowerBottom@odessa-entrance:end
+      join HeavenStartLHW@odessa-heaven:end l39-1992-29212@odessa-entrance:end
+    
+  #join Odessa Entrance with Upstream
+    # walls
+      join EntranceLowerTop@odessa-entrance:0 UpstreamRHW@odessaupday2oliandpete:0
+      join EntranceLowerBottom@odessa-entrance:0 UpstreamLHW@odessaupday2oliandpete:end 
+
+            
 
   centreline
-    equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance
+    # equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance
+    # above taken out as duplicate survey
     equate 7.1@odessa-heaven  1.30@odessa-entrance
     equate 4.13@odessa-downstream-9-5 4.13@odessa-entrance
     equate 3.28@odessa-downstream-9-5 3.28@tumbali-d1-c3
@@ -62,6 +78,8 @@ survey Odessa
 
   map map-test
     odessa-entranceM@odessa-entrance
+      break
+    odessa-heavenM@odessa-heaven 
   endmap
 
 endsurvey

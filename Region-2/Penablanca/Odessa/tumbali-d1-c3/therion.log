@@ -78,7 +78,7 @@ processing projection plan ... done
 average distortion: 0.01%
 writing tumbali-d1-c3.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 APR 2016 20:45
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  26 APR 2016 16:42
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -87,17 +87,17 @@ This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31) 
 Here is how much of MetaPost's memory you used:
  1371 strings out of 1638
  17018 string characters out of 26823
- 1143108 words of memory out of 1500000
+ 1141108 words of memory out of 1500000
  1516 symbolic tokens out of 16384
  11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
- 97 string compactions (moved 1174381 characters, 95869 strings)
+ 97 string compactions (moved 1174301 characters, 95868 strings)
 18 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 APR 2016 20:45
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  26 APR 2016 16:42
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -109,14 +109,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  251 strings out of 95617
  2550 string characters out of 1171098
- 1800815 words of memory out of 3164793
+ 1798391 words of memory out of 3162369
  1664 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 679027 bytes).
+Output written on data.pdf (1 page, 678534 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -127,7 +127,7 @@ PDF statistics:
 done
 writing tumbali-d1-c3th.3d ... done
 writing xtherion file ... done
-compilation time: 8 sec
+compilation time: 9 sec
 
 
 ###################### scrap distortions #######################

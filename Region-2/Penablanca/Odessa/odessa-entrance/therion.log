@@ -1,5 +1,5 @@
 therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
 reading ... done
@@ -26,15 +26,15 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
  3> 
- 4> Survey contains 451 survey stations, joined by 450 legs.
+ 4> Survey contains 451 survey stations, joined by 450 shots.
  5> There is 1 loop.
  6> Survey has 2 connected components.
- 7> Total length of survey legs = 3058.85m (3058.85m adjusted)
- 8> Total plan length of survey legs = 2730.38m
- 9> Total vertical length of survey legs =  788.91m
+ 7> Total length of survey shots = 3058.85m (3058.85m adjusted)
+ 8> Total plan length of survey shots = 2730.38m
+ 9> Total vertical length of survey shots =  788.91m
 10> Vertical range = 80.02m (from 4 at 214.30m to 366 at 134.28m)
 11> North-South range = 343.26m (from 448 at 1966441.44m to 13 at 1966098.18m)
 12> East-West range = 75.55m (from 339 at 376715.54m to 446 at 376639.99m)
@@ -88,49 +88,49 @@ processing projection plan ... done
 average distortion: 0.03%
 writing odessa-entrance.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  12 APR 2016 14:36
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  26 APR 2016 18:16
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] (./mptextmp.mp) [14] )
  
 Here is how much of MetaPost's memory you used:
- 1083 strings out of 1162
- 13037 string characters out of 20720
- 61817 words of memory out of 1500000
+ 1088 strings out of 1162
+ 13118 string characters out of 20720
+ 61807 words of memory out of 1500000
  1367 symbolic tokens out of 16384
- 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 77 string compactions (moved 809226 characters, 65261 strings)
+ 9i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 79 string compactions (moved 839128 characters, 67585 strings)
 26 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  12 APR 2016 14:36
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  26 APR 2016 18:16
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
-rogram Files/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  65 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  262 strings out of 95617
- 2650 string characters out of 1171098
- 37236 words of memory out of 1523214
+ 2668 string characters out of 1171098
+ 39899 words of memory out of 1524877
  1675 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
-Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 64787 bytes).
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 67923 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################

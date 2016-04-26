@@ -142,7 +142,7 @@ processing projection plan ... done
 average distortion: 0.33%
 writing .\output\penablanca.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 APR 2016 23:31
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  26 APR 2016 16:41
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -174,19 +174,19 @@ th2 [952])] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
 [104] [105] [106] )
  
 Here is how much of MetaPost's memory you used:
- 1432 strings out of 1638
- 17498 string characters out of 26823
- 689242 words of memory out of 1500000
+ 1433 strings out of 1638
+ 17499 string characters out of 26823
+ 688242 words of memory out of 1500000
  1528 symbolic tokens out of 16384
  11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
- 627 string compactions (moved 9997920 characters, 844859 strings)
+ 629 string compactions (moved 10030219 characters, 848129 strings)
 119 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 APR 2016 23:31
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  26 APR 2016 16:41
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -438,7 +438,7 @@ Overfull \hbox (1.65189pt too wide) in paragraph at lines 43--43
 Here is how much of TeX's memory you used:
  415 strings out of 95617
  3974 string characters out of 1171098
- 1237857 words of memory out of 2652835
+ 1239053 words of memory out of 2654031
  1825 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -447,7 +447,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 1451513 bytes).
+Output written on data.pdf (1 page, 1451977 bytes).
 PDF statistics:
  451 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -455,57 +455,5 @@ PDF statistics:
 
 
 ##################### end of pdftex log file #####################
-done
-writing .\output\Penablanca_map.kml ... done
-writing .\output\penablanca.kml ... done
-writing .\output\penablanca-survex.3d ... done
+C:\Program Files (x86)\Therion\therion.exe: error -- cp exit code -- 1
 writing xtherion file ... done
-compilation time: 32 sec
-
-
-######################### loop errors ##########################
-REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  1.30%   23.5m 1800.1m 197   17.3m   -8.8m  -13.2m [1.0@odessa-entrance.Odessa.PenablancaSystem - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 - 1.28 - 1.29 - 1.30 = 1.66@odessaupday2oliandpete.Odessa.PenablancaSystem - 1.65 - 1.64 - 1.63 - 1.62 - 1.61 - 1.60 - 1.59 - 1.58 - 1.57 - 1.56 - 1.55 - 1.54 - 1.53 - 1.52 - 1.51 - 1.50 - 1.49 - 1.48 - 1.47 - 1.46 - 1.45 - 1.44 - 1.43 - 1.42 - 1.41 - 1.40 - 1.39 - 1.38 - 1.37 - 1.36 - 1.35 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 1.13 - 1.12 - 1.11 - 1.10 - 1.9 - 1.8 - 1.7 - 1.6 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0 = 22.22@Daquioag.Odessa.PenablancaSystem - 22.21 - 22.20 - 22.19 - 22.18 - 22.17 - 22.16 - 22.15 - 22.14 - 22.13 - 22.12 - 22.11 - 22.10 - 22.9 - 22.8 - 22.7 - 22.6 - 22.5 - 22.4 - 22.3 - 22.2 - 22.1 - 22.0 - 20.91 - 20.90 - 20.89 - 20.88 - 20.87 - 20.86 - 20.85 - 20.84 - 20.83 - 20.82 - 20.81 - 20.80 - 20.79 - 20.78 - 20.77 - 20.76 - 20.75 - 20.74 - 20.73 - 20.72 - 20.71 - 20.70 - 20.69 - 20.68 - 20.67 - 20.66 - 20.65 - 20.64 - 20.63 - 20.62 - 20.61 - 20.60 - 20.59 - 20.58 - 20.57 - 20.56 - 20.55 - 20.54 - 20.53 - 20.52 - 20.51 - 20.50 - 20.49 - 20.48 - 20.47 - 20.46 - 20.45 - 20.44 - 20.42 - 20.41 - 20.40 - 20.39 - 20.38 - 20.37 - 20.36 - 20.35 - 20.34 - 20.33 - 20.32 - 20.31 - 20.30 - 20.29 - 20.28 - 20.27 - 20.26 - 20.25 - 20.24 - 20.23 - 20.22 - 20.21 - 20.20 - 20.19 - 20.18 - 20.17 - 20.16 - 20.15 - 20.14 - 20.13 - 20.12 - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0]
-  1.30%    1.0m   73.5m   8    0.4m   -0.9m   -0.2m [9.7@smallloop.Odessa.PenablancaSystem - 9.6 - 9.5 - 9.4 - 9.3 - 9.2 - 9.1 - 9.0 = 8.9@odessa-heaven.Odessa.PenablancaSystem - 8.8 = 9.7@smallloop.Odessa.PenablancaSystem]
-  0.63%    1.3m  205.1m  28    1.2m    0.4m    0.4m [17.9@catcheel.Odessa.PenablancaSystem - 17.8 - 17.7 - 17.6 - 17.5 - 17.4 - 17.3 - 17.2 - 17.1 - 17.0 - 16.10 - 16.9 - 16.8 - 16.7 - 16.6 - 16.5 - 16.4 - 16.3 - 16.2 - 16.1 - 16.0 - 4.61 = 4.61@odessa-downstream-9-5.Odessa.PenablancaSystem - 4.60 - 4.59 - 4.58 - 4.57 - 4.56 - 4.55 - 4.54 = 17.9@catcheel.Odessa.PenablancaSystem]
-##################### end of loop errors #######################
-
-
-###################### scrap distortions #######################
- PROJECTION: plan
- AVERAGE  MAXIMAL  SCRAP
-   4.73%  100.00%  dafung-cave1SP1@dafung-cave1.Dafung.PenablancaSystem
-   0.56%  100.00%  DaquioagSP1@Daquioag.Odessa.PenablancaSystem
-   0.36%  100.00%  ND2SP1@ND2.PenablancaSystem
-   0.08%   78.06%  odessa1204SP1@odessa1204.Odessa.PenablancaSystem
-   0.38%   74.16%  catcheelSP1@catcheel.Odessa.PenablancaSystem
-   0.22%   59.80%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa.PenablancaSystem
-   1.28%   33.85%  smallloopSP1@smallloop.Odessa.PenablancaSystem
-   0.02%   29.17%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa.PenablancaSystem
-   0.58%   12.05%  odessa-entranceSP1@odessa-entrance.Odessa.PenablancaSystem
-   0.33%    3.81%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa.PenablancaSystem
-   0.02%    3.20%  dafung-down-westSP1@dafung-down-west.Dafung.PenablancaSystem
-   0.08%    1.93%  odessa-heavenSP1@odessa-heaven.Odessa.PenablancaSystem
-   0.06%    1.09%  upper_squeezSP1@upper_squeez.Dafung.PenablancaSystem
-   0.04%    0.71%  MARTHA-2SP1@MARTHA-2.martha.PenablancaSystem
-   0.06%    0.68%  marthaEntrance@martha.martha.PenablancaSystem
-   0.06%    0.62%  tumbali-day1-c2SP1@tumbali-day1-c2.PenablancaSystem
-   0.07%    0.62%  OdessaEntSide@odessa-entrance.Odessa.PenablancaSystem
-   0.02%    0.59%  smallpitchSP1@smallpitch.Dafung.PenablancaSystem
-   0.05%    0.58%  martha_inletSP1@martha_inlet.martha.PenablancaSystem
-   0.04%    0.55%  pigsty-caveSP1@pigsty-cave.PenablancaSystem
-   0.06%    0.54%  NOODLESP1@NOODLE.PenablancaSystem
-   0.02%    0.32%  odessa-up-side-2SP1@odessa-up-side-2.Odessa.PenablancaSystem
-   0.01%    0.31%  upstreamSP1@upstream.Dafung.PenablancaSystem
-   0.01%    0.29%  downstream129SP1@downstream129.Dafung.PenablancaSystem
-   0.01%    0.27%  marthaStreamway@martha.martha.PenablancaSystem
-   0.03%    0.25%  shepherdSP1@shepherd.Odessa.PenablancaSystem
-   0.01%    0.22%  odessa-up-side-1SP1@odessa-up-side-1.Odessa.PenablancaSystem
-   0.01%    0.17%  jungle_caveSP1@jungle_cave.PenablancaSystem
-   0.01%    0.17%  Odessa-Day1-upstream2SP1@Odessa-Day1-upstream2.Odessa.PenablancaSystem
-   0.01%    0.15%  odessa-up-side-3SP1@odessa-up-side-3.Odessa.PenablancaSystem
-   0.04%    0.14%  upstream2SP1@upstream2.Dafung.PenablancaSystem
-   0.01%    0.10%  downsideSP1@downside.Dafung.PenablancaSystem
-   0.01%    0.10%  OdessaEntLower@odessa-entrance.Odessa.PenablancaSystem
-   0.02%    0.10%  OdessaEntLowSide@odessa-entrance.Odessa.PenablancaSystem
-################### end of scrap distortions ###################

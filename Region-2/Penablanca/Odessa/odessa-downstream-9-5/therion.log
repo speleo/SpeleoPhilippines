@@ -97,5 +97,5 @@ selecting export objects ... done
 processing projection plan ... done
 average distortion: 0.00%
 writing odessa-downstream-9-5.pdf ...
-C:\Program Files (x86)\Therion\therion.exe: error -- scrap odessa-downstream-9-5SP1@odessa-downstream-9-5 defined at odessa-downstream-9-5.th2 [8] is too large to process in metapost in this scale -- maximal scale for this scrap is 1 : 303
+C:\Program Files (x86)\Therion\therion.exe: error -- scrap odessa-downstream-9-5SP1@odessa-downstream-9-5 defined at odessa-downstream-9-5.th2 [8] is too large to process in metapost in this scale -- maximal scale for this scrap is 1 : 301
 writing xtherion file ... done
