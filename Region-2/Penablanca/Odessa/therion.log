@@ -142,7 +142,7 @@ processing projection plan ... done
 average distortion: 0.30%
 writing .\output\Odessa.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  27 APR 2016 07:38
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  27 APR 2016 17:17
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -172,18 +172,18 @@ m-9-5/odessa-downstream-9-5.th2 [1414])] [13] [14] [15] [16] [17] [18] [19]
  
 Here is how much of MetaPost's memory you used:
  1394 strings out of 1638
- 17310 string characters out of 26823
- 1173084 words of memory out of 1500000
+ 17309 string characters out of 26823
+ 1169695 words of memory out of 1500000
  1527 symbolic tokens out of 16384
  11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
- 446 string compactions (moved 6855081 characters, 572144 strings)
+ 444 string compactions (moved 6816687 characters, 568858 strings)
 88 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  27 APR 2016 07:39
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  27 APR 2016 17:17
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -196,7 +196,7 @@ entering extended mode
 Here is how much of TeX's memory you used:
  352 strings out of 95617
  3422 string characters out of 1171098
- 2162539 words of memory out of 3500000
+ 2165635 words of memory out of 3500000
  1762 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -205,7 +205,7 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 1919244 bytes).
+Output written on data.pdf (1 page, 1927218 bytes).
 PDF statistics:
  285 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -217,7 +217,7 @@ done
 writing .\output\Odessa-map.kml ... done
 writing .\output\Odessa-model.kml ... done
 writing xtherion file ... done
-compilation time: 34 sec
+compilation time: 40 sec
 
 
 ######################### loop errors ##########################
@@ -236,7 +236,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.22%   82.11%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa
    0.08%   78.04%  odessa1204SP1@odessa1204.Odessa
    0.39%   74.24%  catcheelSP1@catcheel.Odessa
-   0.39%   44.79%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa
+   0.37%   44.80%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa
    1.30%   34.81%  smallloopSP1@smallloop.Odessa
    0.02%   29.16%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
    0.16%   28.71%  odessa-heavenSP1@odessa-heaven.Odessa

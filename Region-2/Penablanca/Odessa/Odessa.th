@@ -55,7 +55,12 @@ survey Odessa
       join EntranceLowerTop@odessa-entrance:0 UpstreamRHW@odessaupday2oliandpete:0
       join EntranceLowerBottom@odessa-entrance:0 UpstreamLHW@odessaupday2oliandpete:end 
 
+  #join Upstream with Daquioag
+    # walls
+      join DaquioagSP1@Daquioag odessaupday2oliandpeteSP1@odessaupday2oliandpete
+
             
+
 
   centreline
     # equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance
