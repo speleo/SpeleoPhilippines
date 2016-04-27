@@ -1,5 +1,5 @@
 therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
 reading ... done
@@ -10,20 +10,20 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
  3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 514 survey stations, joined by 513 legs.
+ 5> Survey contains 511 survey stations, joined by 510 shots.
  6> There is 1 loop.
  7> Survey has 2 connected components.
- 8> Total length of survey legs = 3490.80m (3490.80m adjusted)
- 9> Total plan length of survey legs = 3294.80m
-10> Total vertical length of survey legs =  415.23m
-11> Vertical range = 22.23m (from 504 at 12.54m to 320 at -9.69m)
-12> North-South range = 300.28m (from 320 at 300.28m to 2 at 0.00m)
-13> East-West range = 352.83m (from 514 at 346.65m to 7 at -6.18m)
-14>  448 1-nodes.
+ 8> Total length of survey shots = 3269.82m (3269.82m adjusted)
+ 9> Total plan length of survey shots = 3074.05m
+10> Total vertical length of survey shots =  405.63m
+11> Vertical range = 19.34m (from 501 at 12.54m to 502 at -6.80m)
+12> North-South range = 234.45m (from 441 at 234.45m to 2 at 0.00m)
+13> East-West range = 352.83m (from 511 at 346.65m to 7 at -6.18m)
+14>  445 1-nodes.
 15>    2 2-nodes.
 16>    1 3-node.
 17>   14 4-nodes.
@@ -32,25 +32,26 @@ processing survey data ...
 20>    4 7-nodes.
 21>    8 8-nodes.
 22>    8 9-nodes.
-23>    5 10-nodes.
-24>    6 11-nodes.
+23>    7 10-nodes.
+24>    4 11-nodes.
 25>    4 12-nodes.
 26>    1 13-node.
 27>    1 14-node.
 28>    2 15-nodes.
-29>    2 17-nodes.
-30>    2 19-nodes.
-31>    1 32-node.
-32> 
+29>    1 16-node.
+30>    1 17-node.
+31>    2 19-nodes.
+32>    1 32-node.
+33> 
 ######################### transcription ########################
  3> 1 : 1.0@odessaupday2oliandpete
- 5> 514 : 1.66@odessaupday2oliandpete -- 513 : 1.65@odessaupday2oliandpete
+ 5> 511 : 1.66@odessaupday2oliandpete -- 510 : 1.65@odessaupday2oliandpete
  6> 1 : 1.0@odessaupday2oliandpete
  7> 2 : -@odessaupday2oliandpete
-11> 504 : -@odessaupday2oliandpete -- 320 : -@odessaupday2oliandpete
-12> 320 : -@odessaupday2oliandpete -- 2 : -@odessaupday2oliandpete
-13> 514 : 1.66@odessaupday2oliandpete -- 7 : -@odessaupday2oliandpete
-14> 448 : -@odessaupday2oliandpete
+11> 501 : -@odessaupday2oliandpete -- 502 : -@odessaupday2oliandpete
+12> 441 : -@odessaupday2oliandpete -- 2 : -@odessaupday2oliandpete
+13> 511 : 1.66@odessaupday2oliandpete -- 7 : -@odessaupday2oliandpete
+14> 445 : -@odessaupday2oliandpete
 15> 2 : -@odessaupday2oliandpete
 16> 1 : 1.0@odessaupday2oliandpete
 17> 14 : -@odessaupday2oliandpete
@@ -59,15 +60,16 @@ processing survey data ...
 20> 4 : -@odessaupday2oliandpete
 21> 8 : -@odessaupday2oliandpete
 22> 8 : -@odessaupday2oliandpete
-23> 5 : -@odessaupday2oliandpete
-24> 6 : -@odessaupday2oliandpete
+23> 7 : -@odessaupday2oliandpete
+24> 4 : -@odessaupday2oliandpete
 25> 4 : -@odessaupday2oliandpete
 26> 1 : 1.0@odessaupday2oliandpete
 27> 1 : 1.0@odessaupday2oliandpete
 28> 2 : -@odessaupday2oliandpete
-29> 2 : -@odessaupday2oliandpete
-30> 2 : -@odessaupday2oliandpete
-31> 1 : 1.0@odessaupday2oliandpete
+29> 1 : 1.0@odessaupday2oliandpete
+30> 1 : 1.0@odessaupday2oliandpete
+31> 2 : -@odessaupday2oliandpete
+32> 1 : 1.0@odessaupday2oliandpete
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -78,45 +80,45 @@ processing projection plan ... done
 average distortion: 0.00%
 writing odessaupday2oliandpete.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  14 APR 2016 16:13
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  27 APR 2016 07:36
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 [1] [2] [3] [4] (./mptextmp.mp) [5] )
  
 Here is how much of MetaPost's memory you used:
- 1087 strings out of 1162
- 13095 string characters out of 20720
- 71064 words of memory out of 1500000
+ 1093 strings out of 1162
+ 13242 string characters out of 20720
+ 137625 words of memory out of 1500000
  1367 symbolic tokens out of 16384
- 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 92 string compactions (moved 1003482 characters, 78944 strings)
+ 11i,75n,14p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 95 string compactions (moved 1050411 characters, 82402 strings)
 17 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  14 APR 2016 16:14
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  27 APR 2016 07:36
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
-rogram Files/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  53 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  250 strings out of 95617
- 2521 string characters out of 1171098
- 89136 words of memory out of 1571114
+ 2539 string characters out of 1171098
+ 155749 words of memory out of 1634727
  1663 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,249b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
-Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 81586 bytes).
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 114031 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -127,11 +129,11 @@ PDF statistics:
 done
 writing odessaupday2oliandpeteth.3d ... done
 writing xtherion file ... done
-compilation time: 2 sec
+compilation time: 3 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.30%  odessaupday2oliandpeteSP1@odessaupday2oliandpete
+   0.00%    0.31%  odessaupday2oliandpeteSP1@odessaupday2oliandpete
 ################### end of scrap distortions ###################

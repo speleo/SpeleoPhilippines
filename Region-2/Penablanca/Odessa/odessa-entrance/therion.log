@@ -88,7 +88,7 @@ processing projection plan ... done
 average distortion: 0.03%
 writing odessa-entrance.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  26 APR 2016 18:16
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  27 APR 2016 06:58
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -100,14 +100,14 @@ Here is how much of MetaPost's memory you used:
  61807 words of memory out of 1500000
  1367 symbolic tokens out of 16384
  9i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 79 string compactions (moved 839128 characters, 67585 strings)
+ 78 string compactions (moved 826094 characters, 66503 strings)
 26 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  26 APR 2016 18:16
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  27 APR 2016 06:58
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -126,11 +126,11 @@ Here is how much of TeX's memory you used:
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 67923 bytes).
+Output written on data.pdf (1 page, 68831 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -138,7 +138,7 @@ done
 writing Odessa.kml ... done
 writing odessa-entranceth.3d ... done
 writing xtherion file ... done
-compilation time: 3 sec
+compilation time: 2 sec
 
 
 ###################### scrap distortions #######################
