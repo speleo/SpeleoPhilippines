@@ -3,15 +3,20 @@ survey Daquioag
 
 input Daquioag.th2
 input DaquioagEe.th2
+input ./Surface_Daquioag/Surface_Daquioag.th 
 
 map DaquioagM
   DaquioagSP1
+  #Road
 endmap
 
 map DaquioagME
   DaquioagSE1
 endmap
+
 centreline
+
+  date 2016.04.08
 
 data normal from to tape compass clino ignoreall
   extend right
@@ -28,8 +33,10 @@ copyright 2016 "GNU GPL"
   date 2016.04.08
 
   team "Chris Belton" notes
-  team "Hannah Bennett" instruments
-  team "Pat " instruments
+  team "Oli Dawson" instruments
+  team "Sam Goodyear" instruments
+  team "Anya Keatly" instruments
+  team "Paul Fairman" instruments
 
   instrument  instruments "Henry Bennett DistoX2"
   #
@@ -2726,10 +2733,13 @@ copyright 2016 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2005.07.01
+  date 2016.04.08
 
-  team "Andrew Atkinson" notes
-  team "Alison Moody" instruments
+  team "Chris Belton" notes
+  team "Oli Dawson" instruments
+  team "Sam Goodyear" instruments
+  team "Anya Keatly" instruments
+  team "Paul Fairman" instruments
 
   instrument  instruments "UBSS DistoX1"
 

@@ -1,0 +1,59 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 8423 4563
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {3495 1 1.0} {4435 {}} Daquioag_surface_cave.jpg 0 {}
+
+
+
+scrap Surface_DaquioagSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 5267.25 2103.5 station -name 1.3
+
+point 5274.0 2099.5 station -name 1.2
+
+point 5282.25 2090.25 station -name 1.1
+
+point 5278.25 2081.0 station -name 1.0
+
+line border
+  5070.0 1649.0
+  5090.0 1651.0
+endline
+
+line border
+  5117.0 2499.0
+  5137.0 2496.0
+endline
+
+line border -reverse on -outline in
+  5137.0 2496.0
+  5134.0 2483.0 5113.0 2315.0 5108.0 2246.0
+  5103.0 2177.0 5092.0 2059.0 5092.0 2040.0
+  5092.0 2021.0 5082.0 1869.0 5084.0 1845.0
+  5086.0 1821.0 5090.0 1659.0 5090.0 1651.0
+endline
+
+line border -outline in
+  5117.0 2499.0
+  5112.0 2485.0 5090.0 2326.0 5089.0 2291.0
+  5088.0 2256.0 5071.0 2051.0 5073.0 2035.0
+  5075.0 2019.0 5061.0 1859.0 5063.0 1810.0
+  5065.0 1761.0 5068.0 1657.0 5070.0 1649.0
+endline
+
+line wall
+  4921.0 1932.0
+  4922.0 1899.0
+  4945.0 1904.0
+endline
+
+line wall
+  6686.0 4295.0
+  6744.0 4294.0 6864.0 4298.0 6864.0 4298.0
+  smooth off
+  6868.0 4117.0
+endline
+
+endscrap
+
+
