@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 858.8110236000011 513.5354330700002 11823.472440920801 8013.6299212576005
+##XTHERION## xth_me_area_adjust -136.0 -136.0 11858.0 8013.6299212576005
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2024.4890551000008 1 1.0} {6590.81472441 25.11} PocketTopo/odessa-up-side-1_p.xvi 0 {}
 
@@ -45,7 +45,7 @@ point 3626.9790551000006 6172.134724410001 station -name 25.10
 
 point 2024.4890551000008 6590.81472441 station -name 25.11
 
-line wall -reverse on
+line wall -id l21-11692-5984 -reverse on
   11720.0 5998.0
   11680.0 5980.0 11654.0 5956.0 11642.0 5912.0
   11630.0 5868.0 11630.0 5766.0 11616.0 5730.0
@@ -60,7 +60,337 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+point 10732.0 3742.0 gradient -orientation 336.7
+
+point 10604.0 3566.0 gradient -orientation 282.4
+
+point 10564.0 3354.0 gradient -orientation 290.3
+
+point 7160.0 4142.0 gradient -orientation 61.2
+
+point 7246.0 4004.0 gradient -orientation 61.2
+
+point 5722.0 3964.0 gradient -orientation 33.6
+
+point 5906.0 3846.0 gradient -orientation 20.4
+
+point 6156.0 3754.0 gradient -orientation 20.4
+
+point 9672.0 3066.0 blocks
+
+point 9782.0 2956.0 blocks
+
+point 9756.0 3174.0 blocks
+
+point 9592.0 3222.0 blocks
+
+point 9516.0 3180.0 blocks
+
+point 9594.0 2908.0 blocks
+
+point 9488.0 3020.0 blocks
+
+point 7882.0 4450.0 blocks
+
+point 5484.0 4396.0 blocks
+
+point 5324.0 4522.0 blocks
+
+point 5202.0 4698.0 blocks
+
+point 4996.0 4504.0 blocks
+
+point 4970.0 4356.0 blocks
+
+point 4864.0 4484.0 blocks
+
+point 4888.0 4660.0 blocks
+
+point 4734.0 4666.0 blocks
+
+point 4634.0 4974.0 blocks
+
+point 4702.0 5134.0 blocks
+
+point 4468.0 5078.0 blocks
+
+point 4576.0 5232.0 blocks
+
+point 3946.0 5860.0 blocks
+
+point 4306.0 5692.0 blocks
+
+point 4238.0 5800.0 blocks
+
+point 6002.0 3592.0 stalactite
+
+point 6188.0 3494.0 stalactite
+
+point 6412.0 3584.0 stalactite
+
+point 6866.0 3826.0 stalactite
+
+point 6698.0 4008.0 stalactite
+
+point 7090.0 3924.0 stalactite
+
+point 6986.0 4122.0 stalactite
+
+point 7516.0 4118.0 stalactite
+
+point 7422.0 4270.0 stalactite
+
+point 7880.0 4242.0 stalactite
+
+point 8050.0 4416.0 stalactite
+
+point 8222.0 4188.0 stalactite
+
+point 8464.0 4060.0 stalactite
+
+point 8560.0 4212.0 stalactite
+
+point 8754.0 4022.0 stalactite
+
+point 8606.0 3946.0 stalactite
+
+point 8814.0 3780.0 stalactite
+
+point 8912.0 3936.0 stalactite
+
+point 9066.0 2536.0 stalactite
+
+point 9124.0 2308.0 stalactite
+
+point 8970.0 2262.0 stalactite
+
+point 9212.0 2556.0 stalactite
+
+point 9360.0 2910.0 stalactite
+
+point 8912.0 3536.0 stalactite
+
+point 9306.0 3310.0 stalactite
+
+point 9278.0 3542.0 stalactite
+
+point 9560.0 3474.0 stalactite
+
+point 9264.0 3074.0 gradient -orientation 76.9
+
+point 9288.0 2796.0 gradient -orientation 37.0
+
+point 9074.0 2812.0 gradient -orientation 42.1
+
+point 9006.0 3114.0 gradient -orientation 66.3
+
+point 9126.0 3294.0 gradient -orientation 66.3
+
+point 9092.0 3760.0 gradient -orientation 134.3
+
+point 8968.0 3642.0 gradient -orientation 134.3
+
+point 10354.0 3196.0 gradient -orientation 321.2
+
+point 10156.0 3088.0 gradient -orientation 344.9
+
+point 10568.0 3804.0 pillar
+
+point 10756.0 3082.0 stalactite
+
+point 10632.0 3070.0 stalactite
+
+point 9890.0 3060.0 stalactite
+
+point 10098.0 2996.0 stalactite
+
+point 10268.0 3056.0 stalactite
+
+point 10314.0 3386.0 stalactite
+
+point 10126.0 3524.0 stalactite
+
+point 11042.0 5092.0 stalactite
+
+point 10996.0 5254.0 stalactite
+
+point 11158.0 5046.0 stalactite
+
+point 11356.0 5320.0 stalactite
+
+point 11080.0 5404.0 stalactite
+
+point 11286.0 5534.0 stalactite
+
+point 11624.0 6054.0 stalactite
+
+point 11500.0 6068.0 stalactite
+
+point 11394.0 6050.0 stalactite
+
+area sand
+  l36-7332-4176
+  l22-11352-6276
+  l32-11456-5700
+  l21-11692-5984
+  l33-10854-3748
+  l23-8966-1338
+  l65-8884-1498
+  l22-11352-6276
+  l64-9276-2488
+  l63-9148-2680
+  l22-11352-6276
+endarea
+
+line wall -id connect_back_RHW -subtype presumed
+  10944.0 3302.0
+  10944.0 3302.0 10982.0 3350.0 11004.0 3368.0
+  11026.0 3386.0 11076.0 3586.0 11092.0 3602.0
+  11108.0 3618.0 11186.0 3768.0 11206.0 3802.0
+  11226.0 3836.0 11282.0 3972.0 11294.0 3990.0
+  11306.0 4008.0 11374.0 4092.0 11382.0 4100.0
+  11390.0 4108.0 11456.0 4168.0 11456.0 4168.0
+  smooth off
+endline
+
+line wall -id connect_back_LHW -reverse on -subtype presumed
+  10826.0 3888.0
+  10826.0 3888.0 10956.0 3916.0 10992.0 3960.0
+  11028.0 4004.0 11226.0 4112.0 11254.0 4146.0
+  11282.0 4180.0 11432.0 4274.0 11432.0 4274.0
+  smooth off
+endline
+
+point 7622.0 3920.0 label -align bottom -text Squeeze
+
+point 8740.0 4344.0 label -align bottom -text Crawl
+
+point 1170.0 7474.0 label -align bottom -text [Continues<br>too tight<br>bats<br>drought]
+
+point 8728.0 1020.0 label -align bottom -text [Continues<br>saw snake?]
+
+line border -id l36-7332-4176 -reverse on -subtype visible
+  7328.0 4334.0
+  7306.0 4308.0 7294.0 4218.0 7330.0 4176.0
+  7366.0 4134.0 7370.0 4074.0 7406.0 4048.0
+  7442.0 4022.0 7478.0 3964.0 7478.0 3964.0
+  smooth off
+endline
+
+area sand
+  l133-6616-3618
+  l22-11352-6276
+endarea
+
+line border -id l133-6616-3618 -reverse on -subtype invisible
+  5690.0 4528.0
+  5690.0 4528.0 5540.0 4322.0 5548.0 4286.0
+  5556.0 4250.0 5836.0 4140.0 5866.0 4116.0
+  5896.0 4092.0 6206.0 3926.0 6236.0 3902.0
+  6266.0 3878.0 6462.0 3812.0 6516.0 3768.0
+  6570.0 3724.0 6604.0 3704.0 6614.0 3636.0
+  6624.0 3568.0 6606.0 3418.0 6606.0 3418.0
+  smooth off
+endline
+
+line floor-step -id l35-6556-3800 -reverse on
+  6624.0 3438.0
+  6654.0 3504.0 6670.0 3528.0 6662.0 3626.0
+  6654.0 3724.0 6644.0 3774.0 6550.0 3804.0
+  6456.0 3834.0 6414.0 3850.0 6324.0 3886.0
+  6234.0 3922.0 6264.0 3944.0 6166.0 3992.0
+  6068.0 4040.0 5958.0 4100.0 5824.0 4168.0
+  5690.0 4236.0 5682.0 4208.0 5620.0 4262.0
+  5558.0 4316.0 5538.0 4232.0 5614.0 4352.0
+  5690.0 4472.0 5718.0 4524.0 5718.0 4524.0
+  smooth off
+endline
+
+line border -id l34-8846-1298 -subtype invisible
+  8642.0 1376.0
+  8980.0 1252.0
+endline
+
+line border -id l33-10854-3748 -subtype invisible
+  10944.0 3302.0
+  10826.0 3888.0
+endline
+
+line border -id l32-11456-5700 -subtype invisible
+  11176.0 5766.0
+  11212.0 5784.0 11236.0 5820.0 11276.0 5804.0
+  11316.0 5788.0 11424.0 5732.0 11464.0 5698.0
+  11504.0 5664.0 11520.0 5652.0 11534.0 5592.0
+  11548.0 5532.0 11536.0 5372.0 11536.0 5372.0
+  smooth off
+endline
+
+line border -id l31-11578-5970 -subtype invisible
+  11278.0 5960.0
+  11298.0 5886.0 11242.0 5866.0 11298.0 5850.0
+  11354.0 5834.0 11352.0 5780.0 11450.0 5852.0
+  11548.0 5924.0 11518.0 5968.0 11576.0 5974.0
+  11634.0 5980.0 11702.0 5950.0 11702.0 5950.0
+  smooth off
+endline
+
+area water
+  l63-9148-2680
+  l64-9276-2488
+  l22-11352-6276
+endarea
+
+area water
+  l65-8884-1498
+  l23-8966-1338
+  l34-8846-1298
+  l22-11352-6276
+endarea
+
+line border -id l65-8884-1498 -reverse on -subtype invisible
+  8676.0 1506.0
+  8702.0 1512.0 8707.39 1511.51 8760.0 1500.0
+  8824.0 1486.0 8874.0 1484.0 8892.0 1500.0
+  8910.0 1516.0 8952.0 1512.0 8952.0 1512.0
+  smooth off
+endline
+
+line border -id l64-9276-2488 -subtype invisible
+  9328.0 2694.0
+  9328.0 2650.0 9304.0 2546.0 9270.0 2488.0
+  9236.0 2430.0 9218.0 2406.0 9174.0 2346.0
+  9130.0 2286.0 9122.0 2270.0 9070.0 2226.0
+  9018.0 2182.0 8952.0 2142.0 8914.0 2072.0
+  8876.0 2002.0 8836.0 1942.0 8820.0 1828.0
+  8804.0 1714.0 8788.0 1692.0 8788.0 1658.0
+  8788.0 1624.0 8710.0 1624.0 8698.0 1620.0
+endline
+
+point 8726.0 1410.0 blocks
+
+line border -id l63-9148-2680 -subtype invisible
+  9012.0 2640.0
+  9042.0 2646.0 9062.0 2684.0 9122.0 2682.0
+  9182.0 2680.0 9162.0 2676.0 9236.0 2670.0
+  9310.0 2664.0 9302.0 2682.0 9338.0 2674.0
+  9374.0 2666.0 9366.0 2660.0 9400.0 2652.0
+  9434.0 2644.0 9500.0 2580.0 9500.0 2580.0
+  smooth off
+endline
+
+area sand
+  l61-11620-6128
+  l21-11692-5984
+  l31-11578-5970
+  l22-11352-6276
+endarea
+
+line border -id l61-11620-6128 -reverse on -subtype invisible
+  11380.0 6418.0
+  11720.0 5998.0
+endline
+
+line wall -id l22-11352-6276 -reverse on
   8642.0 1376.0
   8666.0 1406.0 8698.0 1454.0 8718.0 1498.0
   8738.0 1542.0 8738.0 1548.0 8728.0 1592.0
@@ -146,7 +476,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id l23-8966-1338 -reverse on
   10944.0 3302.0
   10932.0 3290.0 10914.0 3244.0 10892.0 3200.0
   10870.0 3156.0 10880.0 3112.0 10876.0 3086.0
@@ -185,6 +515,12 @@ endscrap
 
 
 scrap odessa-up-side-1SPX25.7 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line border -subtype invisible
+endline
+
+line wall
+endline
 
 endscrap
 

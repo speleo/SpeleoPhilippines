@@ -27,8 +27,12 @@ layout local
   #base-scale 1 300
   debug off
   map-header 0 0 ne
+  symbol-set BCRA
   symbol-hide group cave-centreline
-  
+  symbol-assign line slope SKBB
+  symbol-assign area sand AUT
+
+    
   #Foreground color - turn on altitude to see various heights
   #colour map-fg [80 80 80]
   #color map-fg altitude

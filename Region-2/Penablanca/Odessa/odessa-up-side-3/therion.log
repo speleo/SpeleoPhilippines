@@ -1,5 +1,5 @@
 therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
 reading ... done
@@ -10,15 +10,15 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
  3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 95 survey stations, joined by 94 legs.
+ 5> Survey contains 95 survey stations, joined by 94 shots.
  6> There are 0 loops.
- 7> Total length of survey legs =  363.57m ( 363.57m adjusted)
- 8> Total plan length of survey legs =  304.82m
- 9> Total vertical length of survey legs =  116.80m
+ 7> Total length of survey shots =  363.57m ( 363.57m adjusted)
+ 8> Total plan length of survey shots =  304.82m
+ 9> Total vertical length of survey shots =  116.80m
 10> Vertical range = 9.52m (from 18 at 9.52m to 2 at 0.00m)
 11> North-South range = 36.62m (from 67 at 21.41m to 9 at -15.21m)
 12> East-West range = 84.21m (from 87 at 83.92m to 4 at -0.29m)
@@ -53,6 +53,64 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.01%
+writing odessa-up-side-3.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  29 APR 2016 12:56
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] (./mptextmp.mp) [5] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1344 strings out of 1638
+ 16214 string characters out of 26823
+ 60657 words of memory out of 1500000
+ 1509 symbolic tokens out of 16384
+ 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 53 string compactions (moved 544537 characters, 44540 strings)
+17 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  29 APR 2016 12:56
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 252 strings out of 95617
+ 2547 string characters out of 1171098
+ 27110 words of memory out of 1513088
+ 1665 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 32998 bytes).
+PDF statistics:
+ 42 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
 writing odessa-up-side-3th.3d ... done
 writing xtherion file ... done
-compilation time: 0 sec
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.01%    0.29%  odessa-up-side-3SP1@odessa-up-side-3
+################### end of scrap distortions ###################

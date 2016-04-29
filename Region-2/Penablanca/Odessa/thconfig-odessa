@@ -55,6 +55,7 @@ layout local-odessa
   symbol-set BCRA
   symbol-hide group cave-centreline
   symbol-assign line slope SKBB
+  symbol-assign area sand AUT
   
   legend on
   legend-columns 2

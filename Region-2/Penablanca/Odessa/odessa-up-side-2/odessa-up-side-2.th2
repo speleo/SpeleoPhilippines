@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 297.4645669287 321.330708662 5671.5748031482 5931.6614173224
+##XTHERION## xth_me_area_adjust -136.0 -136.0 5671.5748031482 5931.661417322401
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {4959.134724409 1 1.0} {4623.62968504 27.11} PocketTopo/odessa-up-side-2_p.xvi 0 {}
 
@@ -35,7 +35,100 @@ point 1648.484724409 1060.80968504 station -name 27.2
 
 point 943.9847244089999 914.51968504 station -name 27.1
 
-line wall
+point 4266.0 5694.0 label -text [?]
+
+point 4830.0 5714.0 label -text [?]
+
+area sand
+  l27-706-1014
+  odessa-up-side-2_RHW
+  l36-618-1304
+  odessa-up-side-2_LHW
+endarea
+
+line border -id l36-618-1304 -reverse on -subtype invisible
+  538.0 1220.0
+  672.0 1350.0
+endline
+
+area water
+  l17-4568-5614
+  l23-4678-5654
+  odessa-up-side-2_RHW
+  l33-4960-4324
+  odessa-up-side-2_RHW
+  l26-3300-3090
+  odessa-up-side-2_RHW
+  l27-706-1014
+  odessa-up-side-2_LHW
+  l25-4456-5516
+  l24-4394-5540
+endarea
+
+area clay
+  l25-4456-5516
+  odessa-up-side-2_LHW
+  l24-4394-5540
+endarea
+
+line rock-border -id l33-4960-4324
+  5058.0 4430.0
+  5036.0 4408.0 4974.0 4372.0 4960.0 4328.0
+  4946.0 4284.0 4914.0 4262.0 4898.0 4196.0
+  4882.0 4130.0 4858.0 4102.0 4852.0 4080.0
+  4846.0 4058.0 4874.0 3970.0 4874.0 3970.0
+  smooth off
+endline
+
+point 1232.0 1028.0 stalactite
+
+point 1108.0 1004.0 stalactite
+
+point 1012.0 996.0 stalactite
+
+point 682.0 1160.0 water-flow -orientation 330.8
+
+point 628.0 1148.0 gradient -orientation 328.4
+
+line border -id l27-706-1014 -subtype invisible
+  802.0 848.0
+  790.0 888.0 722.0 978.0 708.0 1016.0
+  694.0 1054.0 678.0 1102.0 710.0 1122.0
+  742.0 1142.0 902.0 1140.0 902.0 1140.0
+  smooth off
+endline
+
+line border -id l26-3300-3090 -reverse on -subtype invisible
+  2928.0 2762.0
+  2946.0 2798.0 2944.0 2860.0 2968.0 2886.0
+  2992.0 2912.0 3022.0 2908.0 3044.0 2920.0
+  3066.0 2932.0 3094.0 2990.0 3114.0 2982.0
+  3134.0 2974.0 3186.0 2970.0 3204.0 2998.0
+  3222.0 3026.0 3226.0 3040.0 3258.0 3050.0
+  3290.0 3060.0 3264.0 3072.0 3298.0 3088.0
+  3332.0 3104.0 3386.0 3148.0 3412.0 3158.0
+  3438.0 3168.0 3512.0 3142.0 3512.0 3142.0
+  smooth off
+endline
+
+line border -id l25-4456-5516 -subtype invisible
+  4484.0 5376.0
+  4482.0 5404.0 4500.0 5478.0 4452.0 5522.0
+  4404.0 5566.0 4370.0 5584.0 4370.0 5584.0
+  smooth off
+endline
+
+line border -id l24-4394-5540 -reverse on -subtype invisible
+  4382.0 5520.0
+  4440.0 5678.0
+endline
+
+line border -id l23-4678-5654 -reverse on -subtype invisible
+  4664.0 5738.0
+  4688.0 5606.0
+endline
+
+line wall -id odessa-up-side-2_RHW
   538.0 1220.0
   550.0 1194.0 602.0 1128.0 620.0 1094.0
   638.0 1060.0 716.0 942.0 736.0 922.0
@@ -84,14 +177,15 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id l17-4568-5614
   4664.0 5738.0
   4662.0 5730.0 4680.0 5722.0 4642.0 5678.0
   4604.0 5634.0 4586.0 5600.0 4544.0 5620.0
   4502.0 5640.0 4458.0 5662.0 4440.0 5678.0
+  smooth off
 endline
 
-line wall -reverse on
+line wall -id odessa-up-side-2_LHW -reverse on
   672.0 1350.0
   680.0 1324.0 712.0 1252.0 726.0 1228.0
   740.0 1204.0 858.0 1076.0 952.0 1070.0
@@ -124,6 +218,7 @@ line wall -reverse on
   4570.0 5272.0 4558.0 5338.0 4528.0 5364.0
   4498.0 5390.0 4496.0 5402.0 4464.0 5446.0
   4432.0 5490.0 4406.0 5500.0 4382.0 5520.0
+  smooth off
 endline
 
 point 504.204724409 1347.51968504 station -name 20.49

@@ -59,7 +59,24 @@ survey Odessa
     # walls
       join DaquioagSP1@Daquioag odessaupday2oliandpeteSP1@odessaupday2oliandpete
 
+  #join Daquioag with odessa-up-side-1
+    # main walls
+      join l176-32428-19540@Daquioag:end l22-11352-6276@odessa-up-side-1:end
+      join l175-32998-19488@Daquioag:0   l21-11692-5984@odessa-up-side-1:0
             
+    # unsuveyed connection back walls
+      join l175-32998-19488@Daquioag:end connect_back_LHW@odessa-up-side-1:end
+      join l174-30014-11345@Daquioag:0   connect_back_RHW@odessa-up-side-1:end
+
+  #join Daquioag with odessa-up-side-2
+    # main walls
+      join l80-32890-14776@Daquioag:0    odessa-up-side-2_LHW@odessa-up-side-2:0
+      join l81-29007-10977@Daquioag:end  odessa-up-side-2_RHW@odessa-up-side-2:0
+
+  #join Daquioag with odessa-up-side-3
+    # main walls
+      join l182-37624-40276@Daquioag:0    odessa-up-side-3_LHW@odessa-up-side-3:end
+      join l183-36374-39082@Daquioag:end  odessa-up-side-3_RHW@odessa-up-side-3:0
 
 
   centreline

@@ -3,11 +3,12 @@ survey Daquioag
 
 input Daquioag.th2
 input DaquioagEe.th2
-input ./Surface_Daquioag/Surface_Daquioag.th 
+#input ./Surface_Daquioag/Surface_Daquioag.th 
 
 map DaquioagM
+  #Surface_DaquioagSP1@Surface_Daquioag
+  #  break
   DaquioagSP1
-  #Road
 endmap
 
 map DaquioagME
@@ -15,6 +16,9 @@ map DaquioagME
 endmap
 
 centreline
+
+  #equate 22.21@Surface_Daquioag  22.21
+  #equate  1.32@Surface_Daquioag   1.32
 
   date 2016.04.08
 

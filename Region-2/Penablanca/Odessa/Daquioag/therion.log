@@ -5,7 +5,6 @@ configuration file: thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
-C:\Program Files (x86)\Therion\therion.exe: warning -- unable to determine magnetic declination for undated surveys
 output coordinate system: UTM51
 meridian convergence (deg): 0.3571
 geomag declinations (deg):
@@ -19,102 +18,100 @@ processing survey data ...
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
  3> 
- 4> Survey contains 3003 survey stations, joined by 3001 shots.
+ 4> Survey contains 2997 survey stations, joined by 2996 shots.
  5> There are 0 loops.
- 6> Survey has 2 connected components.
- 7> Total length of survey shots = 14391.48m (14391.48m adjusted)
- 8> Total plan length of survey shots = 13374.05m
- 9> Total vertical length of survey shots = 2698.36m
-10> Vertical range = 34.10m (from 2173 at 176.80m to 1974 at 142.69m)
-11> North-South range = 548.15m (from 2989 at 1966043.52m to 1279 at 1965495.37m)
-12> East-West range = 425.80m (from 2964 at 376343.81m to 797 at 375918.00m)
-13> 2832 1-nodes.
-14>   10 2-nodes.
-15>    4 3-nodes.
-16>    1 4-node.
-17>    3 5-nodes.
-18>    3 6-nodes.
-19>    3 7-nodes.
-20>    3 8-nodes.
-21>    3 9-nodes.
-22>    3 10-nodes.
-23>    3 11-nodes.
-24>    6 12-nodes.
-25>    4 13-nodes.
-26>   10 14-nodes.
-27>    9 15-nodes.
-28>    7 16-nodes.
-29>    8 17-nodes.
-30>    9 18-nodes.
-31>    5 19-nodes.
-32>   13 20-nodes.
-33>    4 21-nodes.
-34>   10 22-nodes.
-35>    4 23-nodes.
-36>    4 24-nodes.
-37>    6 25-nodes.
-38>    3 26-nodes.
-39>    5 27-nodes.
-40>    5 28-nodes.
-41>    5 29-nodes.
-42>    2 30-nodes.
-43>    2 31-nodes.
-44>    1 32-node.
-45>    4 33-nodes.
-46>    2 35-nodes.
-47>    1 37-node.
-48>    1 39-node.
-49>    1 42-node.
-50>    2 45-nodes.
-51>    1 47-node.
-52>    1 51-node.
-53> 
+ 6> Total length of survey shots = 14380.46m (14380.46m adjusted)
+ 7> Total plan length of survey shots = 13365.87m
+ 8> Total vertical length of survey shots = 2691.87m
+ 9> Vertical range = 34.10m (from 2167 at 176.80m to 1968 at 142.69m)
+10> North-South range = 548.15m (from 2983 at 1966043.52m to 1273 at 1965495.37m)
+11> East-West range = 425.80m (from 2958 at 376343.81m to 791 at 375918.00m)
+12> 2829 1-nodes.
+13>    8 2-nodes.
+14>    3 3-nodes.
+15>    1 4-node.
+16>    3 5-nodes.
+17>    3 6-nodes.
+18>    3 7-nodes.
+19>    3 8-nodes.
+20>    3 9-nodes.
+21>    3 10-nodes.
+22>    3 11-nodes.
+23>    6 12-nodes.
+24>    4 13-nodes.
+25>   10 14-nodes.
+26>    9 15-nodes.
+27>    7 16-nodes.
+28>    8 17-nodes.
+29>    9 18-nodes.
+30>    5 19-nodes.
+31>   13 20-nodes.
+32>    4 21-nodes.
+33>   10 22-nodes.
+34>    4 23-nodes.
+35>    4 24-nodes.
+36>    6 25-nodes.
+37>    3 26-nodes.
+38>    5 27-nodes.
+39>    5 28-nodes.
+40>    5 29-nodes.
+41>    2 30-nodes.
+42>    2 31-nodes.
+43>    1 32-node.
+44>    4 33-nodes.
+45>    2 35-nodes.
+46>    1 37-node.
+47>    1 39-node.
+48>    1 42-node.
+49>    2 45-nodes.
+50>    1 47-node.
+51>    1 51-node.
+52> 
 ######################### transcription ########################
- 4> 3003 : 22.22@Daquioag -- 3001 : -@Daquioag
- 6> 2 : -@Surface_Daquioag.Daquioag
-10> 2173 : -@Daquioag -- 1974 : -@Daquioag
-11> 2989 : -@Daquioag -- 1279 : -@Daquioag
-12> 2964 : -@Daquioag -- 797 : -@Daquioag
-13> 2832 : -@Daquioag
-14> 10 : 1.2@Daquioag
-15> 4 : 1.2@Surface_Daquioag.Daquioag
-16> 1 : 1.0@Surface_Daquioag.Daquioag
-17> 3 : 1.1@Surface_Daquioag.Daquioag
-18> 3 : 1.1@Surface_Daquioag.Daquioag
-19> 3 : 1.1@Surface_Daquioag.Daquioag
-20> 3 : 1.1@Surface_Daquioag.Daquioag
-21> 3 : 1.1@Surface_Daquioag.Daquioag
-22> 3 : 1.1@Surface_Daquioag.Daquioag
-23> 3 : 1.1@Surface_Daquioag.Daquioag
-24> 6 : 1.3@Surface_Daquioag.Daquioag
-25> 4 : 1.2@Surface_Daquioag.Daquioag
-26> 10 : 1.2@Daquioag
-27> 9 : 1.1@Daquioag
-28> 7 : 1.0@Daquioag
-29> 8 : -@Daquioag
-30> 9 : 1.1@Daquioag
-31> 5 : -@Surface_Daquioag.Daquioag
-32> 13 : -@Daquioag
-33> 4 : 1.2@Surface_Daquioag.Daquioag
-34> 10 : 1.2@Daquioag
-35> 4 : 1.2@Surface_Daquioag.Daquioag
-36> 4 : 1.2@Surface_Daquioag.Daquioag
-37> 6 : 1.3@Surface_Daquioag.Daquioag
-38> 3 : 1.1@Surface_Daquioag.Daquioag
-39> 5 : -@Surface_Daquioag.Daquioag
-40> 5 : -@Surface_Daquioag.Daquioag
-41> 5 : -@Surface_Daquioag.Daquioag
-42> 2 : -@Surface_Daquioag.Daquioag
-43> 2 : -@Surface_Daquioag.Daquioag
-44> 1 : 1.0@Surface_Daquioag.Daquioag
-45> 4 : 1.2@Surface_Daquioag.Daquioag
-46> 2 : -@Surface_Daquioag.Daquioag
-47> 1 : 1.0@Surface_Daquioag.Daquioag
-48> 1 : 1.0@Surface_Daquioag.Daquioag
-49> 1 : 1.0@Surface_Daquioag.Daquioag
-50> 2 : -@Surface_Daquioag.Daquioag
-51> 1 : 1.0@Surface_Daquioag.Daquioag
-52> 1 : 1.0@Surface_Daquioag.Daquioag
+ 4> 2997 : 22.22@Daquioag -- 2996 : -@Daquioag
+ 9> 2167 : -@Daquioag -- 1968 : -@Daquioag
+10> 2983 : -@Daquioag -- 1273 : -@Daquioag
+11> 2958 : -@Daquioag -- 791 : -@Daquioag
+12> 2829 : -@Daquioag
+13> 8 : -@Daquioag
+14> 3 : 1.1@Daquioag
+15> 1 : 1.0@Daquioag
+16> 3 : 1.1@Daquioag
+17> 3 : 1.1@Daquioag
+18> 3 : 1.1@Daquioag
+19> 3 : 1.1@Daquioag
+20> 3 : 1.1@Daquioag
+21> 3 : 1.1@Daquioag
+22> 3 : 1.1@Daquioag
+23> 6 : 1.3@Daquioag
+24> 4 : 1.2@Daquioag
+25> 10 : -@Daquioag
+26> 9 : -@Daquioag
+27> 7 : -@Daquioag
+28> 8 : -@Daquioag
+29> 9 : -@Daquioag
+30> 5 : -@Daquioag
+31> 13 : 1.4@Daquioag
+32> 4 : 1.2@Daquioag
+33> 10 : -@Daquioag
+34> 4 : 1.2@Daquioag
+35> 4 : 1.2@Daquioag
+36> 6 : 1.3@Daquioag
+37> 3 : 1.1@Daquioag
+38> 5 : -@Daquioag
+39> 5 : -@Daquioag
+40> 5 : -@Daquioag
+41> 2 : -@Daquioag
+42> 2 : -@Daquioag
+43> 1 : 1.0@Daquioag
+44> 4 : 1.2@Daquioag
+45> 2 : -@Daquioag
+46> 1 : 1.0@Daquioag
+47> 1 : 1.0@Daquioag
+48> 1 : 1.0@Daquioag
+49> 2 : -@Daquioag
+50> 1 : 1.0@Daquioag
+51> 1 : 1.0@Daquioag
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -122,65 +119,64 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.02%
+average distortion: 0.00%
 writing Daquioag.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  28 APR 2016 10:01
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  29 APR 2016 11:51
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5] [6] [7] [8] (./mptextmp.mp) [9] )
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
  
 Here is how much of MetaPost's memory you used:
- 1108 strings out of 1162
- 13466 string characters out of 20720
- 357989 words of memory out of 1500000
- 1376 symbolic tokens out of 16384
- 11i,75n,16p,360b,5f stack positions out of 300i,84n,5000p,390b,15f
- 293 string compactions (moved 3635318 characters, 287927 strings)
-21 output files written: data.1 .. data.4012
+ 1563 strings out of 1638
+ 16886 string characters out of 26823
+ 656510 words of memory out of 1500000
+ 1518 symbolic tokens out of 16384
+ 11i,75n,16p,579b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 234 string compactions (moved 3494911 characters, 303271 strings)
+18 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  28 APR 2016 10:01
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  29 APR 2016 11:51
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 60 numeric registers used out of 32768
+ 57 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 257 strings out of 95617
- 2600 string characters out of 1171098
- 717836 words of memory out of 2151814
- 1670 multiletter control sequences out of 15000+50000
+ 254 strings out of 95617
+ 2562 string characters out of 1171098
+ 1678628 words of memory out of 3049606
+ 1667 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 9i,5n,8p,262b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 375026 bytes).
+Output written on data.pdf (1 page, 695186 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing Daquioag.3d ... done
 writing xtherion file ... done
-compilation time: 7 sec
+compilation time: 14 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   2.96%    7.27%  Surface_DaquioagSP1@Surface_Daquioag.Daquioag
    0.00%    2.44%  DaquioagSP1@Daquioag
    0.00%    0.00%  Road@Daquioag
 ################### end of scrap distortions ###################
