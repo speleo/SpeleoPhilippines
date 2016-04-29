@@ -41,13 +41,13 @@ xth_cp_map_tree_insert map 1 2177X1 p1 1 catcheelM catcheelM@catcheel.Odessa "" 
 xth_cp_map_tree_insert map 1 2178X1 p3 1 catcheelME catcheelME@catcheel.Odessa "" ""
 xth_cp_map_tree_insert map 1 2200X1 p1 1 shepherdM shepherdM@shepherd.Odessa "" ""
 xth_cp_map_tree_insert map 1 2201X1 p3 1 shepherdME shepherdME@shepherd.Odessa "" ""
-xth_cp_map_tree_insert map 1 2219X1 p1 1 smallloopM smallloopM@smallloop.Odessa "" ""
-xth_cp_map_tree_insert map 1 2220X1 p3 1 smallloopME smallloopME@smallloop.Odessa "" ""
-xth_cp_map_tree_insert map 0 2250X1 p1 1 map-test map-test@Odessa "" ""
-xth_cp_map_tree_insert map 1 113X1 2250X1 2 odessa-entranceM odessa-entranceM@odessa-entrance.Odessa "" ""
-xth_cp_map_tree_insert map 1 246X1 2250X1 2 odessa-heavenM odessa-heavenM@odessa-heaven.Odessa "" ""
+xth_cp_map_tree_insert map 1 2223X1 p3 1 smallloopME smallloopME@smallloop.Odessa "" ""
+xth_cp_map_tree_insert map 0 2253X1 p1 1 map-test map-test@Odessa "" ""
+xth_cp_map_tree_insert map 1 113X1 2253X1 2 odessa-entranceM odessa-entranceM@odessa-entrance.Odessa "" ""
+xth_cp_map_tree_insert map 1 246X1 2253X1 2 odessa-heavenM odessa-heavenM@odessa-heaven.Odessa "" ""
+xth_cp_map_tree_insert map 1 2222X1 2253X1 2 smallloopM smallloopM@smallloop.Odessa "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 6738 48
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1461942784
+set xth(th_exit_number) 1461957213
 

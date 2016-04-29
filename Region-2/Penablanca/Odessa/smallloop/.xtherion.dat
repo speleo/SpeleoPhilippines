@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 24X1 p1 1 smallloopM smallloopM@smallloop "" ""
-xth_cp_map_tree_insert map 1 25X1 p2 1 smallloopME smallloopME@smallloop "" ""
+xth_cp_map_tree_insert map 1 27X1 p1 1 smallloopM smallloopM@smallloop "" ""
+xth_cp_map_tree_insert map 1 28X1 p2 1 smallloopME smallloopME@smallloop "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 73 2
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1460813290
+set xth(th_exit_number) 1461956850
 

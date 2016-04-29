@@ -101,7 +101,9 @@ survey Odessa
   map map-test
     odessa-entranceM@odessa-entrance
       break
-    odessa-heavenM@odessa-heaven 
+    odessa-heavenM@odessa-heaven
+      break
+    smallloopM@smallloop 
   endmap
 
 endsurvey

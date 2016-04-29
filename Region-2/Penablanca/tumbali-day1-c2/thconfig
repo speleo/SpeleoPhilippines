@@ -6,7 +6,7 @@ source tumbali-day1-c2.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o tumbali-day1-c2.pdf
+export map -proj plan -layout local -o tumbali-day1-c2.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o tumbali-day1-c2Ee.pdf
@@ -23,5 +23,5 @@ export model -fmt survex -o tumbali-day1-c2th.3d
 layout local
 debug off
 map-header 0 0 ne
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 endlayout

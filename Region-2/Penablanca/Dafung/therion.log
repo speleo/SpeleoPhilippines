@@ -1,5 +1,5 @@
 therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig-dafung
 reading ... done
@@ -26,15 +26,15 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
  3> 
- 4> Survey contains 2186 survey stations, joined by 2185 legs.
+ 4> Survey contains 2186 survey stations, joined by 2185 shots.
  5> There is 1 loop.
  6> Survey has 2 connected components.
- 7> Total length of survey legs = 12993.91m (12993.91m adjusted)
- 8> Total plan length of survey legs = 12012.07m
- 9> Total vertical length of survey legs = 2375.26m
+ 7> Total length of survey shots = 12993.91m (12993.91m adjusted)
+ 8> Total plan length of survey shots = 12012.07m
+ 9> Total vertical length of survey shots = 2375.26m
 10> Vertical range = 40.27m (from 1489 at 185.60m to 2151 at 145.32m)
 11> North-South range = 837.24m (from 931 at 1966933.01m to 1509 at 1966095.76m)
 12> East-West range = 326.47m (from 31 at 377314.28m to 2167 at 376987.81m)
@@ -116,7 +116,7 @@ processing projection plan ... done
 average distortion: 0.77%
 writing .\output\Dafung.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  21 APR 2016 16:10
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  29 APR 2016 20:38
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -131,32 +131,32 @@ Here is how much of MetaPost's memory you used:
  63964 words of memory out of 1500000
  1509 symbolic tokens out of 16384
  8i,75n,11p,199b,4f stack positions out of 300i,84n,5000p,200b,15f
- 120 string compactions (moved 1656887 characters, 136009 strings)
+ 120 string compactions (moved 1656902 characters, 136010 strings)
 31 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  21 APR 2016 16:10
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  29 APR 2016 20:38
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
-rogram Files/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  81 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  278 strings out of 95617
- 2773 string characters out of 1171098
+ 2791 string characters out of 1171098
  28379 words of memory out of 1515357
  1691 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,388b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
-Therion/texmf/fonts/type1/cmssi10.pfb>
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
 Output written on data.pdf (1 page, 107239 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
