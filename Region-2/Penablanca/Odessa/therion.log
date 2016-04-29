@@ -141,7 +141,7 @@ processing projection plan ... done
 average distortion: 0.34%
 writing .\output\Odessa.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  29 APR 2016 12:57
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  29 APR 2016 16:12
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -168,36 +168,36 @@ m-9-5/odessa-downstream-9-5.th2 [1414])] [13] [14] [15] [16] [17] [18] [19]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [52] [53] [54] [55] [56] [57]
 [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
 [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87]
-[88] [89] [90] [91] [92] [93] )
+[88] [89] [90] [91] [92] [93] [94] )
  
 Here is how much of MetaPost's memory you used:
- 1580 strings out of 1638
- 17716 string characters out of 26823
- 1168709 words of memory out of 1500000
+ 1619 strings out of 1638
+ 17819 string characters out of 26823
+ 1168791 words of memory out of 1500000
  1529 symbolic tokens out of 16384
  11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
- 715 string compactions (moved 11397452 characters, 1001482 strings)
-106 output files written: data.1 .. data.4013
+ 932 string compactions (moved 15079418 characters, 1353631 strings)
+107 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  29 APR 2016 12:57
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  29 APR 2016 16:13
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 171 numeric registers used out of 32768
+ 172 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 371 strings out of 95617
- 3584 string characters out of 1171098
- 2171201 words of memory out of 3500000
- 1781 multiletter control sequences out of 15000+50000
+ 372 strings out of 95617
+ 3591 string characters out of 1171098
+ 2166426 words of memory out of 3500000
+ 1782 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  10i,5n,7p,563b,86s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -205,19 +205,17 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 2352213 bytes).
+Output written on data.pdf (1 page, 2530384 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
+ 324 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 911 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 917 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\Odessa-map.kml ... done
-writing .\output\Odessa-model.kml ... done
 writing xtherion file ... done
-compilation time: 51 sec
+compilation time: 33 sec
 
 
 ######################### loop errors ##########################
@@ -235,11 +233,11 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.22%   82.15%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa
    0.08%   77.96%  odessa1204SP1@odessa1204.Odessa
    0.39%   74.19%  catcheelSP1@catcheel.Odessa
-   0.51%   66.14%  DaquioagSP1@Daquioag.Odessa
+   0.51%   67.78%  DaquioagSP1@Daquioag.Odessa
    0.81%   59.90%  odessa-up-side-2SP1@odessa-up-side-2.Odessa
    1.04%   56.70%  odessa-up-side-1SP1@odessa-up-side-1.Odessa
    0.41%   47.72%  odessa-up-side-3SP1@odessa-up-side-3.Odessa
-   0.32%   44.77%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa
+   0.31%   44.77%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa
    1.29%   34.81%  smallloopSP1@smallloop.Odessa
    0.02%   29.15%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
    0.16%   28.73%  odessa-heavenSP1@odessa-heaven.Odessa
