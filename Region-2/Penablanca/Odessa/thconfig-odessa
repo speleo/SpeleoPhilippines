@@ -2,11 +2,11 @@ encoding  utf-8
 source Odessa.th
 
 export map -proj plan -layout local-odessa -o .\output\Odessa.pdf
-#export map -fmt kml -proj plan -layout local -o .\output\Odessa-map.kml
-#export model -fmt kml -o .\output\Odessa-model.kml
+export map -fmt kml -proj plan -layout local -o .\output\Odessa-map.kml
+export model -fmt kml -o .\output\Odessa-model.kml
 
 #Survex file showing centre line only
-#export model -fmt survex -o .\output\Odessa-survex.3d
+export model -fmt survex -o .\output\Odessa-survex.3d
 
   text en "point u:bat" "bat"
   text en "line u:bat" "bat path"
@@ -53,7 +53,7 @@ layout local-odessa
   #overlap 10 cm
 
   symbol-set BCRA
-  symbol-hide group cave-centreline
+  #symbol-hide group cave-centreline
   symbol-assign line slope SKBB
   symbol-assign area sand AUT
   

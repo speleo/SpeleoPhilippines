@@ -151,17 +151,17 @@ line border -outline in
   smooth off
 endline
 
-line wall
+line wall -subtype invisible
   4921.0 1932.0
   4922.0 1899.0
   4945.0 1904.0
 endline
 
-line wall
-  6686.0 4295.0
-  6744.0 4294.0 6864.0 4298.0 6864.0 4298.0
+line wall -subtype invisible
+  6843.5 4297.5
+  6849.5 4297.5 6864.0 4298.0 6864.0 4298.0
   smooth off
-  6868.0 4117.0
+  6863.0 4263.5
 endline
 
 endscrap

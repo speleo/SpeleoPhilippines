@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 193.65m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.23m (from 35.29@SewerSouth at 1.20m to 35.3@SewerSouth at -1.03m)\nnorth-south range: 165.54m (from 5.1@SewerSouth at 0.00m to 35.29@SewerSouth at -165.54m)\neast-west range: 33.90m (from 35.23@SewerSouth at 16.73m to 35.12@SewerSouth at -17.17m)\nnumber of shots: 208\nnumber of stations: 209"
+xth_cp_data_tree_insert 9 1 1 SewerSouth SewerSouth "" "" "length: 193.65m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.23m (from 35.29@SewerSouth at 1.20m to 35.3@SewerSouth at -1.03m)\nnorth-south range: 165.54m (from 5.1@SewerSouth at 0.00m to 35.29@SewerSouth at -165.54m)\neast-west range: 33.90m (from 35.23@SewerSouth at 16.73m to 35.12@SewerSouth at -17.17m)\nnumber of shots: 208\nnumber of stations: 209"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 70X1 p1 1 SewerSouthM SewerSouthM@SewerSouth "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 194 1
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1462111390
+

@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -437.64 -122.06 2625.82 732.35
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {218.818065367 1 1.0} {330.911094504 28.3} PocketTopo/odessa-up-loop-28d3-36d3_e.xvi 0 {}
+
+
+scrap odessa-up-loop-28d3-36d3SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

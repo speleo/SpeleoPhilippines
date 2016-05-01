@@ -1,11 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 13818.0 14677.055118070697
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 13832.0 14677.055118070697
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {13076.6075704 1 1.0} {9714.905275599998 17.7} PocketTopo/catcheel_p.xvi 0 {}
 
 
 
 scrap catcheelSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+area bedrock
+  l99-11353-9972
+endarea
 
 area water
   l61-11658-13788
@@ -19,16 +23,32 @@ area water
   l54-11594-13728
 endarea
 
-line border
-endline
-
 line border -id l61-11658-13788 -reverse on
   11586.0 13764.0
   11838.0 13856.0 11840.0 13856.0 11840.0 13856.0
   smooth off
 endline
 
-line border -id l60-11388-9768
+line border -id l99-11353-9972 -close on -subtype invisible
+  11358.0 9687.0
+  11358.0 9687.0 11366.0 9731.0 11361.0 9746.0
+  11356.0 9761.0 11321.0 9795.0 11321.0 9804.0
+  11321.0 9813.0 11362.0 10020.0 11362.0 10020.0
+  smooth off
+  11362.0 10020.0 11415.0 9950.0 11419.0 9938.0
+  11423.0 9926.0 11462.0 9840.0 11465.0 9817.0
+  11468.0 9794.0 11453.0 9723.0 11432.0 9701.0
+  11411.0 9679.0 11358.0 9687.0 11358.0 9687.0
+  smooth off
+endline
+
+point 5184.0 4772.0 label -text Stooping -scale m
+
+point 7896.0 6112.0 label -text Pollution<br>diapers -align right
+
+point 12456.0 8700.0 label -align bottom -text Crawl
+
+line border -id l60-11388-9768 -subtype invisible
   11300.0 9900.0
   11300.0 9900.0 11404.0 9736.0 11430.0 9692.0
   smooth off
@@ -83,15 +103,6 @@ line border -id l54-11594-13728
   11356.0 10454.0 11376.0 10380.0 11382.0 10316.0
   11388.0 10252.0 11398.0 10162.0 11398.0 10138.0
   smooth off
-endline
-
-area water
-endarea
-
-area water
-endarea
-
-line wall
 endline
 
 line wall -id l49-11372-9858
@@ -294,9 +305,6 @@ line wall -id l49-11372-9858
   smooth off
 endline
 
-line wall
-endline
-
 line wall -id CatchEel_MainPassage_upstream
   13261.0 9040.0
   13261.0 9040.0 13292.0 9056.0 13352.0 9056.0
@@ -480,6 +488,7 @@ line wall -id CatchEel_pillar -reverse on
   13172.0 9312.0 13240.0 9278.0 13252.0 9278.0
   13264.0 9278.0 13356.0 9260.0 13369.0 9263.0
   13382.0 9266.0 13438.0 9265.0 13442.0 9270.0
+  smooth off
 endline
 
 area flowstone
@@ -487,27 +496,17 @@ area flowstone
   l14-8864-9037
 endarea
 
-line border -id l101-11351-9760
-  11321.0 9804.0
-  11330.0 9796.0 11357.0 9767.0 11355.0 9746.0
-  11353.0 9725.0 11364.0 9703.0 11364.0 9687.0
-endline
-
 line border -id l100-11418-9932
   11355.0 10054.0
   11355.0 10054.0 11418.0 9931.0 11425.0 9912.0
   11432.0 9893.0 11464.0 9837.0 11465.0 9817.0
   11466.0 9797.0 11452.0 9699.0 11421.0 9691.0
+  smooth off
 endline
 
-line border
-endline
+point 1425.0 1245.0 label -text [Sump] -align bottom-right -scale m
 
-point 1425.0 1245.0 label -text [Sump] -scale s -align bottom-right
-
-point 5255.0 5009.0 label -text [Stooping] -align right -scale s
-
-point 4315.0 3526.0 label -text [Shallow Water 3cm] -scale s -align right
+point 4315.0 3526.0 label -text [Shallow Water 3cm] -align right -scale m
 
 point 3079.0 3177.0 stalactite -scale xs
 
@@ -553,6 +552,7 @@ endarea
 line border -id l86-10684-9792 -subtype invisible
   10744.0 9908.0
   10702.0 9854.0 10632.0 9672.0 10622.0 9668.0
+  smooth off
 endline
 
 area clay
@@ -603,6 +603,7 @@ point 9434.0 9214.0 gradient -orientation 336.6 -scale xs
 line border -id l76-8822-9248 -subtype invisible
   8824.0 9252.0
   8838.0 9212.0 8848.0 9182.0 8850.0 9150.0
+  smooth off
 endline
 
 point 10798.0 9458.0 gradient -orientation 109.3 -scale xs
@@ -633,15 +634,14 @@ line border -id l68-13466-9172 -subtype invisible
   13392.0 9304.0
   13424.0 9270.0 13422.0 9208.0 13444.0 9192.0
   13466.0 9176.0 13578.0 9060.0 13580.0 9000.0
+  smooth off
 endline
 
 line border -id l67-13074-9666 -subtype invisible
   12882.0 9688.0
   12918.0 9696.0 12982.0 9694.0 13046.0 9674.0
   13110.0 9654.0 13232.0 9592.0 13262.0 9560.0
-endline
-
-line wall
+  smooth off
 endline
 
 line wall -id l44-11528-9698
@@ -948,11 +948,6 @@ line border -id l57-3183-3243 -subtype invisible
 endline
 
 point 1653.4375703999995 1597.3352756000004 station -name 16.28
-
-area bedrock
-  l100-11418-9932
-  l101-11351-9760
-endarea
 
 endscrap
 

@@ -1,0 +1,116 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 183 survey stations, joined by 182 shots.
+ 6> There are 0 loops.
+ 7> Total length of survey shots =  452.69m ( 452.69m adjusted)
+ 8> Total plan length of survey shots =  438.04m
+ 9> Total vertical length of survey shots =   45.92m
+10> Vertical range = 3.43m (from 4 at 0.43m to 114 at -3.00m)
+11> North-South range = 67.08m (from 178 at 64.97m to 7 at -2.11m)
+12> East-West range = 23.51m (from 56 at 16.65m to 112 at -6.86m)
+13>  160 1-nodes.
+14>    3 2-nodes.
+15>    1 7-node.
+16>    4 8-nodes.
+17>    3 9-nodes.
+18>    6 10-nodes.
+19>    2 11-nodes.
+20>    2 12-nodes.
+21>    2 13-nodes.
+22> 
+######################### transcription ########################
+ 3> 1 : 5.60@SewerNorthTop
+ 5> 183 : 33.5@SewerNorthTop -- 182 : -@SewerNorthTop
+10> 4 : -@SewerNorthTop -- 114 : -@SewerNorthTop
+11> 178 : -@SewerNorthTop -- 7 : -@SewerNorthTop
+12> 56 : -@SewerNorthTop -- 112 : -@SewerNorthTop
+13> 160 : -@SewerNorthTop
+14> 3 : 5.61@SewerNorthTop
+15> 1 : 5.60@SewerNorthTop
+16> 4 : -@SewerNorthTop
+17> 3 : 5.61@SewerNorthTop
+18> 6 : -@SewerNorthTop
+19> 2 : -@SewerNorthTop
+20> 2 : -@SewerNorthTop
+21> 2 : -@SewerNorthTop
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.03%
+writing SewerNorthTop.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  30 APR 2016 20:18
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1093 strings out of 1162
+ 13265 string characters out of 15838
+ 61910 words of memory out of 1500000
+ 1375 symbolic tokens out of 16384
+ 11i,75n,16p,431b,5f stack positions out of 300i,84n,5000p,487b,15f
+ 55 string compactions (moved 528128 characters, 43053 strings)
+18 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  30 APR 2016 20:18
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 252 strings out of 95617
+ 2554 string characters out of 1171098
+ 40598 words of memory out of 1525576
+ 1665 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 40666 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing SewerNorthTopth.3d ... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.03%    0.74%  SewerNorthTopSP1@SewerNorthTop
+################### end of scrap distortions ###################

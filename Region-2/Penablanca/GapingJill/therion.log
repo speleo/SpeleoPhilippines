@@ -1,5 +1,5 @@
 therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
 reading ... done
@@ -10,15 +10,15 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
  3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 124 survey stations, joined by 123 legs.
+ 5> Survey contains 124 survey stations, joined by 123 shots.
  6> There are 0 loops.
- 7> Total length of survey legs =  358.08m ( 358.08m adjusted)
- 8> Total plan length of survey legs =  271.00m
- 9> Total vertical length of survey legs =  174.84m
+ 7> Total length of survey shots =  358.08m ( 358.08m adjusted)
+ 8> Total plan length of survey shots =  271.00m
+ 9> Total vertical length of survey shots =  174.84m
 10> Vertical range = 23.87m (from 13 at 1.20m to 119 at -22.67m)
 11> North-South range = 22.39m (from 117 at 21.75m to 10 at -0.64m)
 12> East-West range = 18.18m (from 9 at 1.44m to 94 at -16.74m)
@@ -55,7 +55,7 @@ processing projection plan ... done
 average distortion: 0.06%
 writing GapingJill.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  12 APR 2016 11:47
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  1 MAY 2016 17:40
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -76,26 +76,26 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  12 APR 2016 11:47
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  1 MAY 2016 17:40
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
-rogram Files/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  60 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  257 strings out of 95617
- 2590 string characters out of 1171098
- 22168 words of memory out of 1508146
+ 2608 string characters out of 1171098
+ 21991 words of memory out of 1507969
  1670 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
-Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 32873 bytes).
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 32844 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -106,7 +106,7 @@ PDF statistics:
 done
 writing GapingJillth.3d ... done
 writing xtherion file ... done
-compilation time: 2 sec
+compilation time: 3 sec
 
 
 ###################### scrap distortions #######################

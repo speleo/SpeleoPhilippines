@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 618.57m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.93m (from 28.41@odessa-up-loop at 5.24m to 28.37a@odessa-up-loop at -1.69m)\nnorth-south range: 211.20m (from 28.45@odessa-up-loop at 211.20m to 28.14@odessa-up-loop at 0.00m)\neast-west range: 130.68m (from 28.45@odessa-up-loop at 130.68m to 28.14@odessa-up-loop at 0.00m)\nnumber of shots: 512\nnumber of stations: 513"
+xth_cp_data_tree_insert 9 1 1 odessa-up-loop odessa-up-loop "" "" "length: 618.57m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.93m (from 28.41@odessa-up-loop at 5.24m to 28.37a@odessa-up-loop at -1.69m)\nnorth-south range: 211.20m (from 28.45@odessa-up-loop at 211.20m to 28.14@odessa-up-loop at 0.00m)\neast-west range: 130.68m (from 28.45@odessa-up-loop at 130.68m to 28.14@odessa-up-loop at 0.00m)\nnumber of shots: 512\nnumber of stations: 513"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 346X1 p1 1 odessa-up-loopM odessa-up-loopM@odessa-up-loop "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 619 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1462122269
+

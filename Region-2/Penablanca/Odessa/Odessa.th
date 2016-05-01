@@ -9,13 +9,16 @@ survey Odessa
   input odessaupday2oliandpete/odessaupday2oliandpete.th
   input Daquioag/Daquioag.th 
   input tumbali-d1-c3/tumbali-d1-c3.th 
-  input odessa-up-side-1/odessa-up-side-1.th
-  input odessa-up-side-2/odessa-up-side-2.th
-  input odessa-up-side-3/odessa-up-side-3.th
   input odessa1204/odessa1204.th
   input catcheel/catcheel.th
   input shepherd/shepherd.th
   input smallloop/smallloop.th
+  input SewerNorthTop/SewerNorthTop.th
+  input SewerNorthSide/SewerNorthSide.th 
+  input SewerSouth/SewerSouth.th
+  
+  #add other caves nearby too
+  input tumbali-day1-c2/tumbali-day1-c2.th
  
   #join Catch Eel to main passage
     # walls (wet way)
@@ -35,11 +38,26 @@ survey Odessa
       join l80-13788-58228@odessa-downstream-9-5:0 TumbaliExitLHW@tumbali-d1-c3:end
       join l82-13892-59460@odessa-downstream-9-5:end DiaLightExitLHW@tumbali-d1-c3:end
       
-  #join low sewer with main passage
+  #join SewerNorth with main passage
     #walls
       join l82-13892-59460@odessa-downstream-9-5:0 SewerRHW@odessa1204:end
       join l83-13240-59560@odessa-downstream-9-5:end SewerLHW@odessa1204:0
+
+  #join end of sewer with lower sewer 
+    #walls   
+      join odessa1204SP1@odessa1204 SewerNorthTopSP1@SewerNorthTop
+     
+  #join SewerNorthSide with North sewer 
+    #walls
+      join SewerNorthSideRHW@SewerNorthSide:0 l63-2228-10856@odessa1204:0
+      join SewerNorthSideLHW@SewerNorthSide:end SewerLHW@odessa1204:end
+
+ #join SewerSouth with main passage
+    #walls
+      join l79-5328-48436@odessa-downstream-9-5:0 SewerSouthRHW@SewerSouth:end
+      join l80-13788-58228@odessa-downstream-9-5:end SewerSouthLHW@SewerSouth:0
       
+                  
   #join Main Passage with Odessa Entrance
     # walls
       join MainPassageUpstream@odessa-downstream-9-5:0 l38-1468-28880@odessa-entrance:end
@@ -59,26 +77,6 @@ survey Odessa
     # walls
       join DaquioagSP1@Daquioag odessaupday2oliandpeteSP1@odessaupday2oliandpete
 
-  #join Daquioag with odessa-up-side-1
-    # main walls
-      join l176-32428-19540@Daquioag:end l22-11352-6276@odessa-up-side-1:end
-      join l175-32998-19488@Daquioag:0   l21-11692-5984@odessa-up-side-1:0
-            
-    # unsuveyed connection back walls
-      join l175-32998-19488@Daquioag:end connect_back_LHW@odessa-up-side-1:end
-      join l174-30014-11345@Daquioag:0   connect_back_RHW@odessa-up-side-1:end
-
-  #join Daquioag with odessa-up-side-2
-    # main walls
-      join l80-32890-14776@Daquioag:0    odessa-up-side-2_LHW@odessa-up-side-2:0
-      join l81-29007-10977@Daquioag:end  odessa-up-side-2_RHW@odessa-up-side-2:0
-
-  #join Daquioag with odessa-up-side-3
-    # main walls
-      join l182-37624-40276@Daquioag:0    odessa-up-side-3_LHW@odessa-up-side-3:end
-      join l183-36374-39082@Daquioag:end  odessa-up-side-3_RHW@odessa-up-side-3:0
-
-
   centreline
     # equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance
     # above taken out as duplicate survey
@@ -86,16 +84,16 @@ survey Odessa
     equate 4.13@odessa-downstream-9-5 4.13@odessa-entrance
     equate 3.28@odessa-downstream-9-5 3.28@tumbali-d1-c3
     equate 1.66@odessaupday2oliandpete 1.30@odessa-entrance
-    equate 22.22@Daquioag 1.0@odessaupday2oliandpete
-    equate 20.60@Daquioag 20.60@odessa-up-side-1 
-    equate 20.49@Daquioag 20.49@odessa-up-side-2 
-    equate 22.13@Daquioag 22.13@odessa-up-side-3
+    equate 22.22@Daquioag 1.0@odessaupday2oliandpete  
     equate 5.0@odessa1204 4.75@odessa-downstream-9-5
+    equate 5.60@odessa1204 5.60@SewerNorthTop
     equate 4.61@catcheel 4.61@odessa-downstream-9-5
     equate 17.9@catcheel 4.54@odessa-downstream-9-5
     equate 18.0@shepherd 3.62@tumbali-d1-c3
     equate 8.8@odessa-heaven 9.7@smallloop
-    equate 8.9@odessa-heaven 9.0@smallloop 
+    equate 8.9@odessa-heaven 9.0@smallloop
+    equate 35.0@SewerSouth 5.1@odessa1204
+    equate 34.0@SewerNorthSide 5.16@odessa1204
   endcentreline
 
   map map-test

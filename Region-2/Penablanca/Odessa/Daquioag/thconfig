@@ -23,7 +23,7 @@ export model -fmt survex -o Daquioag.3d
 #Survex file showing walls only
 
 layout local
-  #scale 1 1700
+  scale 1 700
   #base-scale 1 300
   debug off
   map-header 0 0 ne
