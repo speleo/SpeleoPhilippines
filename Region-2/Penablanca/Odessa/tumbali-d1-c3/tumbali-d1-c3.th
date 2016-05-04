@@ -20,16 +20,14 @@ copyright 2016 "GNU GPL"
 
   date 2016.04.08
 
-  team "Adrian" notes
-  team "Henry" instruments
-  team "hannah " instruments
+  team "Hannah Bennett" notes
+  team "Henry Bennett" instruments
+  team "Peter Talling" instruments
+  team "Patrick Hillier" instruments
 
-  instrument  instruments "BEC DistoX2"
+  instrument  instruments "Henry Bennett DistoX2"
   #
   cs EPSG:32651
-  # not sure which is the correct station to pin
-
-  #fix 1.0 376962.79  1967561.73 94
 
 data normal from to tape compass clino ignoreall
   extend right

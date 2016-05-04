@@ -26,8 +26,8 @@ layout local-odessa
   
   #Foreground color - turn on altitude to see various heights
   #colour map-fg [80 80 80]
-  #color map-fg altitude
-  colour map-bg [70 90 70]
+  color map-fg altitude
+  #colour map-bg [70 90 70]
   
   language en
   statistics topo-length off
@@ -122,11 +122,11 @@ layout local-odessa
   \cavename={Odessa}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
-    \legendbox{0}{88}{NW}{
+    \legendbox{0}{90}{NW}{
       \legendwidth 70 cm
       \the\legendcontent
       }
-    \legendbox{10}{50}{NW}{
+    \legendbox{05}{80}{NW}{
       \legendwidth 65 cm
       \legendtextsize={\size[42]}
       \hsize=\legendwidth

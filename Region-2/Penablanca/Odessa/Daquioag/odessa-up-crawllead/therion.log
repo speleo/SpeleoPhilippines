@@ -1,0 +1,112 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 54 survey stations, joined by 53 shots.
+ 6> There are 0 loops.
+ 7> Total length of survey shots =  111.04m ( 111.04m adjusted)
+ 8> Total plan length of survey shots =  104.09m
+ 9> Total vertical length of survey shots =   14.52m
+10> Vertical range = 1.82m (from 26 at 1.28m to 47 at -0.54m)
+11> North-South range = 46.32m (from 2 at 0.00m to 53 at -46.32m)
+12> East-West range = 32.18m (from 12 at 4.24m to 54 at -27.95m)
+13>   43 1-nodes.
+14>    1 2-node.
+15>    2 5-nodes.
+16>    6 6-nodes.
+17>    1 7-node.
+18>    1 8-node.
+19> 
+######################### transcription ########################
+ 3> 1 : 20.43@odessa-up-crawllead
+ 5> 54 : 40.11@odessa-up-crawllead -- 53 : -@odessa-up-crawllead
+10> 26 : -@odessa-up-crawllead -- 47 : -@odessa-up-crawllead
+11> 2 : 40.0@odessa-up-crawllead -- 53 : -@odessa-up-crawllead
+12> 12 : -@odessa-up-crawllead -- 54 : 40.11@odessa-up-crawllead
+13> 43 : 40.9@odessa-up-crawllead
+14> 1 : 20.43@odessa-up-crawllead
+15> 2 : 40.0@odessa-up-crawllead
+16> 6 : -@odessa-up-crawllead
+17> 1 : 20.43@odessa-up-crawllead
+18> 1 : 20.43@odessa-up-crawllead
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.02%
+writing odessa-up-crawllead.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  4 MAY 2016 20:24
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1]
+[Warning: scrap outline intersects itself in scrap odessa-up-crawlleadSP1@odess
+a-up-crawllead] [2] [3] [4] (./mptextmp.mp) [5] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1032 strings out of 1162
+ 13068 string characters out of 20720
+ 59817 words of memory out of 1500000
+ 1367 symbolic tokens out of 16384
+ 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 34 string compactions (moved 253650 characters, 20815 strings)
+17 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  4 MAY 2016 20:25
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 53 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 250 strings out of 95617
+ 2539 string characters out of 1171098
+ 23165 words of memory out of 1510143
+ 1663 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 24085 bytes).
+PDF statistics:
+ 40 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing odessa-up-crawlleadth.3d ... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.02%    0.17%  odessa-up-crawlleadSP1@odessa-up-crawllead
+################### end of scrap distortions ###################

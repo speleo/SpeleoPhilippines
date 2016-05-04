@@ -57,7 +57,7 @@ processing projection plan ... done
 average distortion: 0.03%
 writing SewerNorthTop.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  30 APR 2016 20:18
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  2 MAY 2016 09:33
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -76,7 +76,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  30 APR 2016 20:18
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  2 MAY 2016 09:33
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -88,14 +88,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  252 strings out of 95617
  2554 string characters out of 1171098
- 40598 words of memory out of 1525576
+ 40704 words of memory out of 1525682
  1665 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 40666 bytes).
+Output written on data.pdf (1 page, 40750 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -106,7 +106,7 @@ PDF statistics:
 done
 writing SewerNorthTopth.3d ... done
 writing xtherion file ... done
-compilation time: 2 sec
+compilation time: 4 sec
 
 
 ###################### scrap distortions #######################

@@ -1,0 +1,109 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3572
+geomag declinations (deg):
+  2016.1.1  -2.6810
+  2017.1.1  -2.7703
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th17528\data.svx:5: warning: Unused fixed point "1"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th17528\data.svx:6: warning: Unused fixed point "2"
+ 5> 
+ 6> Survey contains 2 survey stations, joined by 0 shots.
+ 7> There are 0 loops.
+ 8> Survey has 2 connected components.
+ 9> Total length of survey shots =    0.00m (   0.00m adjusted)
+10> Total plan length of survey shots =    0.00m
+11> Total vertical length of survey shots =    0.00m
+12>    2 0-nodes.
+13> There were 2 warning(s).
+14> 
+######################### transcription ########################
+ 3> 1 : 201@Surface_Odessa_1
+ 3> input:5 -- Surface_Odessa_1.th [16]
+ 3> 1 : 201@Surface_Odessa_1
+ 4> 1 : 201@Surface_Odessa_1
+ 4> input:6 -- Surface_Odessa_1.th [17]
+ 4> 2 : 202@Surface_Odessa_1
+ 6> 2 : 202@Surface_Odessa_1
+ 8> 2 : 202@Surface_Odessa_1
+12> 2 : 202@Surface_Odessa_1
+13> 2 : 202@Surface_Odessa_1
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+writing Surface_Odessa_1.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  2 MAY 2016 17:47
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1023 strings out of 1162
+ 13978 string characters out of 20720
+ 63080 words of memory out of 1500000
+ 1367 symbolic tokens out of 16384
+ 8i,75n,11p,199b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 42 string compactions (moved 307999 characters, 25162 strings)
+16 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  2 MAY 2016 17:47
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 52 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 247 strings out of 95617
+ 2514 string characters out of 1171098
+ 17932 words of memory out of 1504910
+ 1662 multiletter control sequences out of 15000+50000
+ 17652 words of font info for 57 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 8i,5n,8p,238b,45s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb>
+Output written on data.pdf (1 page, 14659 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Surface_Odessa_1-map.kml ... done
+writing Surface_Odessa_1-model.kml ... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.00%  Surface_Odessa_1_SP1@Surface_Odessa_1
+################### end of scrap distortions ###################

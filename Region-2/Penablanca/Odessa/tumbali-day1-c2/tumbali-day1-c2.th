@@ -25,17 +25,14 @@ copyright 2016 "GNU GPL"
   team "Hannah Bennett" notes
   team "Henry Bennett" instruments
   team "Peter Talling" instruments
-  team "PAt Hillier" instruments
+  team "Patrick Hillier" instruments
 
   instrument  instruments "Peter Talling Disto"
   #
   # cs EPSG:32651
-  # not sure which is the correct station to pin
   cs UTM51
-  #fix 1.0 395440.34 1992943.49 294
   fix 2.2  376710.31 1967594.44 108
-  # N 17 46.841
-  # E 121 49.863
+
 
 data normal from to tape compass clino ignoreall
   extend right

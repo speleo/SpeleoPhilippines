@@ -1,0 +1,62 @@
+encoding  utf-8
+source Surface_Daquioag.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o Surface_Daquioag.pdf
+#Produces plan of cave, on a single sheet
+export map -fmt kml -proj plan -layout local -o Surface_Daquioag-map.kml
+export model -fmt kml -o Surface_Daquioag-model.kml
+
+
+#export map -proj extended -layout local -o Surface_DaquioagEe.pdf
+
+export model -fmt survex -o Surface_Daquioag.3d
+#Survex file showing centre line only
+
+#export model -o Surface_Daquioag.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Surface_Daquioag_Walls.3d
+#Survex file showing walls only
+
+layout local
+  scale 1 1700
+  base-scale 1 300
+  debug off
+  map-header 0 0 ne
+  symbol-hide group cave-centreline
+  
+  #Foreground color - turn on altitude to see various heights
+  #colour map-fg [80 80 80]
+  #color map-fg altitude
+  colour map-bg [70 90 70]
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    # change centre line to continuous
+    def l_survey_cave (expr p) =
+        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    enddef;
+  
+  endcode
+endlayout

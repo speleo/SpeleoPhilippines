@@ -5,7 +5,7 @@ survey PenablancaSystem
   #input tumbali-d1-c3/tumbali-d1-c3.th
   input noodle/noodle.th
   input dafung/dafung.th
-  input tumbali-day1-c2/tumbali-day1-c2.th
+  #input tumbali-day1-c2/tumbali-day1-c2.th
   input jungle_cave/jungle_cave.th
   input pigsty-cave/pigsty-cave.th
   input nd2/nd2.th

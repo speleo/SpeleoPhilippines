@@ -77,7 +77,7 @@ processing projection plan ... done
 average distortion: 0.01%
 writing Odessa_Sewer.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 APR 2016 21:27
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  2 MAY 2016 20:47
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -89,37 +89,37 @@ ode/_scalebar_large_format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/c
 ode/_legend_large_format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_bats.mp
-[4013]) [1] [2] [3] [4] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [5] [6] [7]
-[8] [9] [10] [11] [12] [13] [14] )
+[4013]) [1] [2] [3] [4] [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8]
+[9] [10] [11] [12] [13] [14] [15] )
  
 Here is how much of MetaPost's memory you used:
- 1337 strings out of 1638
- 17143 string characters out of 26823
- 66846 words of memory out of 1500000
- 1519 symbolic tokens out of 16384
- 9i,75n,12p,294b,4f stack positions out of 300i,84n,5000p,312b,15f
- 103 string compactions (moved 997358 characters, 81347 strings)
-27 output files written: data.1 .. data.4013
+ 1363 strings out of 1638
+ 17353 string characters out of 26823
+ 80661 words of memory out of 1500000
+ 1526 symbolic tokens out of 16384
+ 11i,75n,16p,436b,5f stack positions out of 300i,84n,5000p,487b,15f
+ 106 string compactions (moved 1048869 characters, 85581 strings)
+28 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 APR 2016 21:27
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  2 MAY 2016 20:48
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 62 numeric registers used out of 32768
+ 63 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 259 strings out of 95617
- 2610 string characters out of 1171098
- 41270 words of memory out of 1527248
- 1672 multiletter control sequences out of 15000+50000
+ 260 strings out of 95617
+ 2621 string characters out of 1171098
+ 88405 words of memory out of 1571383
+ 1673 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,6p,238b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -127,11 +127,11 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/cmsy10.pfb>
-Output written on data.pdf (1 page, 67646 bytes).
+Output written on data.pdf (1 page, 86671 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################

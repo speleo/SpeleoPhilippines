@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 118X1 p1 1 odessa-up-side-3M odessa-up-side-3M@odessa-up-side-3 "" ""
-xth_cp_map_tree_insert map 1 119X1 p2 1 odessa-up-side-3ME odessa-up-side-3ME@odessa-up-side-3 "" ""
+xth_cp_map_tree_insert map 1 115X1 p1 1 odessa-up-side-3M odessa-up-side-3M@odessa-up-side-3 "" ""
+xth_cp_map_tree_insert map 1 116X1 p2 1 odessa-up-side-3ME odessa-up-side-3ME@odessa-up-side-3 "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 107 2
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1461930978
+set xth(th_exit_number) 1462179423
 

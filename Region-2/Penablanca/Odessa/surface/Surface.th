@@ -1,0 +1,18 @@
+encoding  utf-8
+survey Surface
+  input Surface_Odessa_1/Surface_Odessa_1.th
+  input Surface_Odessa_2/Surface_Odessa_2.th
+  input Surface_Odessa_3/Surface_Odessa_3.th
+  input Surface_Daquioag/Surface_Daquioag.th
+
+  join  D_West@Surface_Daquioag:end  S1_West@Surface_Odessa_1:end
+  join  D_East@Surface_Daquioag:0    S1_East@Surface_Odessa_1:0
+
+  join  S1_West@Surface_Odessa_1:0   S2_West@Surface_Odessa_2:end
+  join  S1_East@Surface_Odessa_1:end S2_East@Surface_Odessa_2:0
+
+  join  S2_West@Surface_Odessa_2:0   S3_West@Surface_Odessa_3:end
+  join  S2_East@Surface_Odessa_2:end S3_East@Surface_Odessa_3:end
+
+endsurvey
+

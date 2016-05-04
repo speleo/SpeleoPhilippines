@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 22X1 p1 1 odessa-up-loop-28d3-36d3M odessa-up-loop-28d3-36d3M@odessa-up-loop-28d3-36d3 "" ""
-xth_cp_map_tree_insert map 1 23X1 p2 1 odessa-up-loop-28d3-36d3ME odessa-up-loop-28d3-36d3ME@odessa-up-loop-28d3-36d3 "" ""
+xth_cp_map_tree_insert map 1 27X1 p1 1 odessa-up-loop-28d3-36d3M odessa-up-loop-28d3-36d3M@odessa-up-loop-28d3-36d3 "" ""
+xth_cp_map_tree_insert map 1 28X1 p2 1 odessa-up-loop-28d3-36d3ME odessa-up-loop-28d3-36d3ME@odessa-up-loop-28d3-36d3 "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 22 2
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1462018005
+set xth(th_exit_number) 1462179303
 

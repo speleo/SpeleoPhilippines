@@ -21,8 +21,8 @@ layout local
   
   #Foreground color - turn on altitdude to see various heights
   #colour map-fg [80 80 80]
-  #color map-fg altitude
-  colour map-bg [70 90 70]
+  color map-fg altitude
+  #colour map-bg [70 90 70]
   #colour map-bg [00 00 00]
   
   language en
@@ -52,7 +52,7 @@ layout local
   symbol-hide group cave-centreline
   symbol-assign line slope SKBB
   
-  legend on
+  legend off
   legend-columns 2
   legend-width 10 cm
   #colour-legend on

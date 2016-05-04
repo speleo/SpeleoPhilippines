@@ -88,49 +88,52 @@ processing projection plan ... done
 average distortion: 0.03%
 writing odessa-entrance.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  27 APR 2016 06:58
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  3 MAY 2016 21:38
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] (./mptextmp.mp) [14] )
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+[Warning: scrap outline intersects itself in scrap OdessaEntSide@odessa-entranc
+e] [12] [13] [14] [15] (./mptextmp.mp) [16] )
  
 Here is how much of MetaPost's memory you used:
- 1088 strings out of 1162
- 13118 string characters out of 20720
- 61807 words of memory out of 1500000
- 1367 symbolic tokens out of 16384
- 9i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 78 string compactions (moved 826094 characters, 66503 strings)
-26 output files written: data.1 .. data.4012
+ 1340 strings out of 1638
+ 16214 string characters out of 26823
+ 367956 words of memory out of 1500000
+ 1512 symbolic tokens out of 16384
+ 11i,75n,16p,231b,5f stack positions out of 300i,84n,5000p,250b,15f
+ 71 string compactions (moved 832304 characters, 68340 strings)
+28 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  27 APR 2016 06:58
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  3 MAY 2016 21:38
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 65 numeric registers used out of 32768
- [1] ) 
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 68 numeric registers used out of 32768
+
+[1] ) 
 Here is how much of TeX's memory you used:
- 262 strings out of 95617
- 2668 string characters out of 1171098
- 39899 words of memory out of 1524877
- 1675 multiletter control sequences out of 15000+50000
- 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 268 strings out of 95617
+ 2747 string characters out of 1171098
+ 450382 words of memory out of 1906360
+ 1678 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
-Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 68831 bytes).
+ 12i,5n,8p,238b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 238959 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -138,14 +141,14 @@ done
 writing Odessa.kml ... done
 writing odessa-entranceth.3d ... done
 writing xtherion file ... done
-compilation time: 2 sec
+compilation time: 4 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.04%    0.81%  odessa-entranceSP1@odessa-entrance
-   0.08%    0.57%  OdessaEntSide@odessa-entrance
+   0.04%    2.11%  odessa-entranceSP1@odessa-entrance
+   0.08%    0.58%  OdessaEntSide@odessa-entrance
    0.03%    0.16%  OdessaEntLowSide@odessa-entrance
-   0.01%    0.09%  OdessaEntLower@odessa-entrance
+   0.01%    0.14%  OdessaEntLower@odessa-entrance
 ################### end of scrap distortions ###################

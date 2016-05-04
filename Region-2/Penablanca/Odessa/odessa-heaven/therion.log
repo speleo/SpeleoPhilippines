@@ -1,7 +1,106 @@
 therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-configuration file: odessa-heaven.pdf
-reading ...
-C:\Program Files\Therion\therion.exe: error -- odessa-heaven.pdf [2] -- unknown configuration command -- PDF-1.5
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 176 survey stations, joined by 175 shots.
+ 6> There are 0 loops.
+ 7> Total length of survey shots = 1563.84m (1563.84m adjusted)
+ 8> Total plan length of survey shots = 1312.11m
+ 9> Total vertical length of survey shots =  463.58m
+10> Vertical range = 35.87m (from 31 at 28.00m to 155 at -7.87m)
+11> North-South range = 426.75m (from 174 at 338.24m to 40 at -88.50m)
+12> East-West range = 252.87m (from 108 at 252.87m to 2 at 0.00m)
+13>  138 1-nodes.
+14>    2 2-nodes.
+15>    8 5-nodes.
+16>   28 6-nodes.
+17> 
+######################### transcription ########################
+ 3> 1 : 7.1@odessa-heaven
+ 5> 176 : -@odessa-heaven -- 175 : -@odessa-heaven
+10> 31 : -@odessa-heaven -- 155 : -@odessa-heaven
+11> 174 : -@odessa-heaven -- 40 : -@odessa-heaven
+12> 108 : -@odessa-heaven -- 2 : -@odessa-heaven
+13> 138 : -@odessa-heaven
+14> 2 : -@odessa-heaven
+15> 8 : 8.2@odessa-heaven
+16> 28 : 8.6@odessa-heaven
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+writing odessa-heaven.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  4 MAY 2016 10:04
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1386 strings out of 1638
+ 16223 string characters out of 26823
+ 331483 words of memory out of 1500000
+ 1516 symbolic tokens out of 16384
+ 11i,75n,16p,416b,5f stack positions out of 300i,84n,5000p,487b,15f
+ 85 string compactions (moved 1108518 characters, 90891 strings)
+18 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  4 MAY 2016 10:04
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 252 strings out of 95617
+ 2554 string characters out of 1171098
+ 558254 words of memory out of 1996232
+ 1665 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 226917 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing odessa-heaventh.3d ... done
 writing xtherion file ... done
+compilation time: 4 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.49%  odessa-heavenSP1@odessa-heaven
+################### end of scrap distortions ###################

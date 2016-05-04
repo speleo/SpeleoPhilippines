@@ -8,8 +8,8 @@ source Daquioag.th
 
 export map -proj plan -layout local -o Daquioag.pdf
 #Produces plan of cave, on a single sheet
-#export map -fmt kml -proj plan -layout local -o Daquioag-map.kml
-#export model -fmt kml -o Daquioag-model.kml
+export map -fmt kml -proj plan -layout local -o Daquioag-map.kml
+export model -fmt kml -o Daquioag-model.kml
 
 #export map -proj extended -layout local -o DaquioagEe.pdf
 

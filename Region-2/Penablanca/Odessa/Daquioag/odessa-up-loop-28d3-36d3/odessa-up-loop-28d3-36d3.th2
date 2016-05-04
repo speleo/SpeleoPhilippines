@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap odessa-up-loop-28d3-36d3SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall
+line wall -id l2-2230-2876
   2878.0 3642.0
   2892.0 3630.0 2914.0 3612.0 2914.0 3582.0
   2914.0 3552.0 2934.0 3520.0 2950.0 3490.0
@@ -28,7 +28,7 @@ line wall
   smooth off
 endline
 
-line wall -reverse on
+line wall -id l3-3480-3200 -reverse on
   3514.0 3426.0
   3516.0 3394.0 3500.0 3280.0 3484.0 3190.0
   3468.0 3100.0 3462.0 3078.0 3412.0 3056.0
@@ -45,7 +45,33 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+point 2006.0 2896.0 stalactite
+
+area clay
+  l10-3030-3522
+  l4-3044-3380
+  l11-3396-3388
+  l3-3480-3200
+  l12-1976-2924
+  l2-2230-2876
+endarea
+
+line border -id l12-1976-2924 -subtype invisible
+  2120.0 3068.0
+  1836.0 2786.0
+endline
+
+line border -id l11-3396-3388 -subtype invisible
+  3514.0 3426.0
+  3342.0 3368.0
+endline
+
+line border -id l10-3030-3522 -reverse on -subtype invisible
+  2878.0 3642.0
+  3120.0 3450.0
+endline
+
+line wall -id l4-3044-3380
   3342.0 3368.0
   3328.0 3340.0 3326.0 3330.0 3302.0 3274.0
   3278.0 3218.0 3246.0 3164.0 3230.0 3132.0

@@ -1,0 +1,24 @@
+encoding  utf-8
+survey Surface_Daquioag
+
+  input Surface_Daquioag.th2
+  
+  map Surface_DaquioagM
+    Surface_DaquioagSP1
+  endmap
+
+centreline
+
+  date 2016.04.08
+
+  cs EPSG:32651
+
+  fix 101 375737.42  1965520.80 161
+  fix 102 376579.81  1966034.88 195
+  fix 103 375988.35  1966064.44 164
+  fix 104 375975.95  1965472.77 170
+
+endcentreline
+
+endsurvey
+

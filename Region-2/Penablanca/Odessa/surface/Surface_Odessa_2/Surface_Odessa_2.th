@@ -1,0 +1,21 @@
+encoding  utf-8
+survey Surface_Odessa_2
+
+  input Surface_Odessa_2.th2
+  
+  map Surface_Odessa_2M
+    Surface_Odessa_2_SP1
+  endmap
+
+centreline
+
+  date 2016.04.08
+
+  cs EPSG:32651
+  fix 301 375998.88  1966403.14 159
+  fix 302 376312.47  1967037.67 153
+
+endcentreline
+
+endsurvey
+

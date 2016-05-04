@@ -77,15 +77,6 @@ line wall -id odessa-up-side-3_LHW
   smooth off
 endline
 
-line wall -id l18-7270-2352
-  7348.0 2310.0
-  7322.0 2318.0 7294.0 2320.0 7268.0 2360.0
-  7242.0 2400.0 7228.0 2406.0 7250.0 2432.0
-  7272.0 2458.0 7308.0 2482.0 7332.0 2494.0
-  7356.0 2506.0 7408.0 2520.0 7414.0 2530.0
-  smooth off
-endline
-
 line wall -id l19-7196-2098
   1594.0 450.0
   1612.0 478.0 1614.0 478.0 1648.0 506.0
@@ -141,25 +132,10 @@ endline
 
 line border -id l106-7326-2246 -subtype invisible
   7276.0 2120.0
-  7348.0 2310.0
-endline
-
-line border -reverse on -subtype invisible
   7290.0 2692.0
-  7414.0 2530.0
 endline
 
-point 7440.0 2160.0 label -align center -text [?]
-
-point 7478.0 2686.0 label -align center -text [?]
-
-point 1202.0 198.0 label -align center -text [?]
-
-point 1546.0 280.0 label -align center -text [?]
-
-area sand
-  l104-7176-2470
-  l18-7270-2352
+area clay
   l106-7326-2246
   l19-7196-2098
   l101-1488-412
@@ -169,13 +145,6 @@ area sand
   l103-1046-950
   odessa-up-side-3_LHW
 endarea
-
-line flowstone -id l104-7176-2470
-  7090.0 2544.0
-  7108.0 2536.0 7120.0 2488.0 7180.0 2478.0
-  7240.0 2468.0 7286.0 2446.0 7286.0 2446.0
-  smooth off
-endline
 
 line border -id l103-1046-950 -subtype invisible
   1212.0 1044.0
@@ -350,27 +319,27 @@ point 6920.0 2148.0 stalactite
 
 point 6886.0 2340.0 stalactite
 
-point 6572.0 2184.0 gradient -orientation 264.1
+point 6572.0 2184.0 gradient -orientation 264.1 -scale s
 
-point 6760.0 2170.0 gradient -orientation 244.6
+point 6760.0 2170.0 gradient -orientation 338.8 -scale s
 
 point 4396.0 2700.0 gradient -orientation 342.1
 
-point 3338.0 1832.0 gradient -orientation 342.1
+point 3338.0 1832.0 gradient -orientation 342.1 -scale s
 
-point 3250.0 1972.0 gradient -orientation 233.0
+point 3250.0 1972.0 gradient -orientation 233.0 -scale s
 
-point 3168.0 1830.0 gradient -orientation 233.0
+point 3168.0 1830.0 gradient -orientation 233.0 -scale s
 
-point 2976.0 1428.0 gradient -orientation 331.0
+point 2976.0 1428.0 gradient -orientation 331.0 -scale s
 
-point 2858.0 1314.0 gradient -orientation 331.0
+point 2858.0 1314.0 gradient -orientation 331.0 -scale s
 
-point 2498.0 1034.0 gradient -orientation 331.0
+point 2498.0 1034.0 gradient -orientation 331.0 -scale s
 
-point 2316.0 884.0 gradient -orientation 331.0
+point 2316.0 884.0 gradient -orientation 331.0 -scale s
 
-point 2124.0 812.0 gradient -orientation 331.0
+point 2124.0 812.0 gradient -orientation 331.0 -scale s
 
 point 1158.0 900.0 gradient -orientation 331.0
 

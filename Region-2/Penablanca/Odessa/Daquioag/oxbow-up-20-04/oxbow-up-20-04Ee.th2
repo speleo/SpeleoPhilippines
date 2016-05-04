@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -4589.94 -102.38 27539.64 614.26
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2294.97039529 1 1.0} {188.009666406 22.22} PocketTopo/oxbow-up-20-04_e.xvi 0 {}
+
+
+scrap oxbow-up-20-04SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
