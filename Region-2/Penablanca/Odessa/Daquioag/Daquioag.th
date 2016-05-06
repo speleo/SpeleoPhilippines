@@ -73,13 +73,29 @@ survey Daquioag
       join l70-12608-12764@odessaupday2oliandpete:0    JoinTopLHW@oxbow-up-20-04:0
 
     # middle connection bottom section walls
-      #join JoinTopRHW@odessaupday2oliandpete:end  l2-3980-4134@oxbow-up-20-04:end
-      #join l69-6806-5780@odessaupday2oliandpete:0  l3-4226-6582@oxbow-up-20-04:0
+      # walls - not an exact match but appparently thats where they join
+      join l69-6806-5780@odessaupday2oliandpete:0  connectBottom@oxbow-up-20-04:0
+
+      join connect2oxbow@odessaupday2oliandpete:5  connectMiddle@oxbow-up-20-04:0
+
+      join l70-12608-12764@odessaupday2oliandpete:end  JoinTopLHW@oxbow-up-20-04:end
+      join connect2oxbow@odessaupday2oliandpete:0  connectMiddle2@oxbow-up-20-04:end
 
   #join seriouscavingupstream with odessa-up-loop
     # walls
       join l3-1932-3830@seriouscavingupstream:0    l86-5512-2433@odessa-up-loop:end
       join l2-2365-3721@seriouscavingupstream:end  l87-6823-7985@odessa-up-loop:0
+      
+  #join Odessa-up-loop with odessaupday2oliandpete
+    # walls - not an exact match but appparently thats where they join
+      join l92-8672-10014@odessa-up-loop:0  l251-18748-14856@odessaupday2oliandpete:end
+      join l91-8881-9684@odessa-up-loop:end l71-24950-21304@odessaupday2oliandpete:0 
+
+    # middle section (a little side passage in floor of loop)
+      join connectMainTop@odessa-up-loop:end  UpstreamLHW@odessaupday2oliandpete:ConnectSideTop 
+      join connectMainBottom@odessa-up-loop:0 UpstreamLHW@odessaupday2oliandpete:ConnectSideBottom 
+
+
 
 map DaquioagM
   #Surface_DaquioagSP1@Surface_Daquioag

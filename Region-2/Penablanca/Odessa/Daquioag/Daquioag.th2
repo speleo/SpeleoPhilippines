@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 39449.2992125865 49760.085254922196
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -144.0 39449.2992125865 49760.085254922196
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {32972.3907874 1 1.0} {17859.6995366 20.56} PocketTopo/Daquioag_p.xvi 0 {}
 
 
@@ -123,11 +123,16 @@ line wall -id l4-3775-10221 -reverse on
   smooth off
 endline
 
-point 12742.0 14756.0 label -align top -text [4m climb]
+point 12742.0 14756.0 label -scale xs -text 4m<br>climb -align bottom
 
-point 12230.0 14156.0 label -align top -text [2m climb]
+line label -scale l -text [Open Gorge]
+  10960.0 12944.0
+  11320.0 12768.0 12148.0 13444.0 12048.0 13708.0
+endline
 
-point 8560.0 15106.0 label -align top -text [High Level Unexplored]
+point 11598.0 14532.0 label -scale xs -text [2m climb] -align left
+
+point 8610.0 15020.0 label -text [High Level Unexplored] -scale xs -align left
 
 area clay
   l324-6268-12360
@@ -202,17 +207,11 @@ line flowstone -id l392-5184-11704
   5200.0 11637.0
 endline
 
-point 5149.0 11822.0 label -align center -scale m -text [Gour<br>Climb 1m]
-
 point 3822.0 11804.0 clay-choke
 
-point 3738.0 11984.0 label -align center -scale m -text [Mud choke]
+point 3738.0 11984.0 label -text [Mud choke] -align left -scale xs
 
-point 3676.0 11548.0 label -align center -scale m -text Snakeskin<br>screams
-
-point 4799.0 11423.0 label -align center -text Gour -scale m
-
-point 4713.0 11236.0 label -align center -text [Voice connection] -scale xs
+point 3676.0 11548.0 label -align left -scale xs -text [Snakeskin screams]
 
 line flowstone
   5154.0 11581.0
@@ -247,7 +246,7 @@ line flowstone
   smooth off
 endline
 
-point 3509.0 10507.0 label -align center -text Crystal<br>goursl
+point 3509.0 10507.0 label -scale xs -align left -text [Crystal gours]
 
 area flowstone
   l4-3775-10221
@@ -276,9 +275,9 @@ line ceiling-step -close on -reverse on
   6276.0 10630.0 6282.0 10648.0 6294.0 10626.0
 endline
 
-point 4860.0 9594.0 label -text Entrance
+point 5304.0 9294.0 label -text Entrance -align left
 
-point 6498.0 10364.0 label -text Entrance
+point 6498.0 10364.0 label -text Entrance -align right
 
 line wall -id l360-3876-10092 -subtype presumed
   3834.0 9988.0
@@ -321,11 +320,13 @@ line wall -subtype presumed
   4959.0 11227.0
 endline
 
-point 4198.0 10605.0 label -align right -scale m -text [Limestone spikey pools]
+line label -text [Catfish Crawl] -scale xs
+  4056.0 9940.0
+  4100.0 10012.0 4272.0 10440.0 4296.0 10504.0
+  4320.0 10568.0 4424.0 10856.0 4448.0 10916.0
+endline
 
-point 4301.0 10833.0 label -text [Catfish Crawl] -align right -scale l
-
-point 3969.0 10049.0 label -text [Too Tight] -align right
+point 3545.0 9961.0 label -text [Too Tight] -scale xs -align left
 
 line border -id l371-3753-9994 -subtype invisible
   3729.0 10129.0
@@ -389,7 +390,7 @@ line water-flow
   smooth off
 endline
 
-point 7577.0 12392.0 label -text Flowstone<br>waterfall -align right
+point 7727.0 12356.0 label -text Flowstone<br>waterfall -align right -scale xs
 
 point 7479.0 12465.0 water-flow -orientation 0.0
 
@@ -836,7 +837,7 @@ point 29386.0 32290.0 curtain
 
 point 30028.0 32856.0 stalagmite
 
-point 29550.0 30468.0 label -align right -text [Stall Island Lake]
+point 29550.0 30468.0 label -align right -text [Stall Island Lake] -scale s
 
 area flowstone
   l530-29164-30644
@@ -924,7 +925,9 @@ area sand
   l179-28872-29186
 endarea
 
-point 29314.0 27866.0 label -align right -text [High Level Continuation<br>in roof<br>needs bolt climb]
+point 28488.0 29248.0 label -scale xs -text [High ?] -align left
+
+point 29314.0 27866.0 label -align right -text [High Level Continuation<br>in roof<br>needs bolt climb] -scale xs
 
 line border -id l527-29240-29872 -subtype invisible
   29042.0 29956.0
@@ -1072,9 +1075,9 @@ line border -id l490-29010-28492 -subtype invisible
   smooth off
 endline
 
-point 30102.0 26520.0 label -align right -text Low
+point 30102.0 26520.0 label -align right -text Low -scale xs
 
-point 29240.0 26159.0 label -text [Inlet<br>not passable]
+point 29240.0 26159.0 label -text [Inlet<br>not passable] -align left -scale xs
 
 line border -id l486-29884-26114 -subtype invisible
   29794.0 26200.0
@@ -1296,7 +1299,39 @@ line water-flow
   smooth off
 endline
 
-point 32926.0 14358.0 label -scale l -text Gours
+line wall -subtype presumed
+  33200.0 23364.0
+  33160.0 23404.0 33052.0 23480.0 33024.0 23500.0
+  32996.0 23520.0 33000.0 23536.0 32940.0 23588.0
+  32880.0 23640.0 32852.0 23686.0 32852.0 23686.0
+  smooth off
+endline
+
+point 29140.0 10752.0 label -scale xs -text [?] -align center
+
+point 29856.0 11476.0 label -scale xs -text [?] -align center
+
+point 29632.0 11500.0 label -scale xs -text [?] -align center
+
+point 33644.0 17172.0 label -scale xs -text [?] -align center
+
+point 32876.0 22848.0 label -scale xs -text [?] -align center
+
+point 31028.0 23724.0 label -scale xs -text [?] -align center
+
+point 31752.0 24204.0 label -scale xs -text [?] -align center
+
+point 33304.0 23224.0 label -scale xs -text [?] -align center
+
+line wall -subtype presumed
+  32788.0 23632.0
+  32788.0 23632.0 32888.0 23524.0 32916.0 23496.0
+  32944.0 23468.0 33040.0 23380.0 33072.0 23352.0
+  33104.0 23324.0 33132.0 23292.0 33132.0 23292.0
+  smooth off
+endline
+
+point 32926.0 14358.0 label -text Gours -scale xs
 
 area water
   l427-32726-14710
@@ -1834,9 +1869,9 @@ area clay
   l249-19523-7534
 endarea
 
-point 17746.0 7671.0 label -text Grim
+point 17746.0 7671.0 label -text Grim -scale xs -align left
 
-point 18141.0 8179.0 label -text Low
+point 17745.0 8055.0 label -text Low -scale xs -align left
 
 line border -id l263-18713-8146 -reverse on -subtype invisible
   18667.0 8119.0
@@ -2129,7 +2164,7 @@ line border -id l265-21543-5247 -subtype invisible
   smooth off
 endline
 
-point 18717.0 8246.0 label -text [Unexplored passage]
+point 18717.0 8246.0 label -text Unexplored<br>passage -align top -scale xs
 
 area clay
   l241-18903-7825
@@ -2443,11 +2478,9 @@ line flowstone -id l396-26480-10330
   smooth off
 endline
 
-point 16257.0 8690.0 label -scale l -text [Bamboo dam]
+point 16257.0 8690.0 label -text [Bamboo dam] -align left -scale xs
 
-point 15350.0 10164.0 label -align left -scale m -text [Bamboo dam]
-
-point 16354.0 10432.0 label -text [The Trash Compactor] -align right -scale l
+point 15350.0 10164.0 label -align left -text [Bamboo dam] -scale xs
 
 area debris
   l229-15950-10664
@@ -2684,11 +2717,17 @@ line wall -subtype invisible
   smooth off
 endline
 
-point 8636.0 13160.0 label -align top -text Boss
+line label -text [Cavier Corner] -scale m
+  7112.0 13272.0
+  7236.0 13356.0 7536.0 13536.0 7616.0 13708.0
+  7696.0 13880.0 7744.0 14124.0 7768.0 14224.0
+  7792.0 14324.0 7800.0 14500.0 7800.0 14500.0
+  smooth off
+endline
 
-point 6780.0 12828.0 label -align top -text Boss
+point 8636.0 13160.0 label -text Boss -scale xs -align right
 
-point 7100.0 13416.0 label -text [Cavier Corner] -align top
+point 6780.0 12828.0 label -align top -text Boss -scale xs
 
 line wall -id l15-9964-13796
   5300.0 9522.0
@@ -3274,8 +3313,6 @@ line wall -id l259-20196-7080
   smooth off
 endline
 
-point 12609.0 15280.0 label -scale l -text Lip
-
 line chimney -close on -reverse on
   13068.0 14939.0
   13074.0 14930.0 13083.0 14926.0 13080.0 14908.0
@@ -3285,9 +3322,25 @@ line chimney -close on -reverse on
   13062.0 14944.0 13062.0 14948.0 13068.0 14939.0
 endline
 
-point 13808.0 14210.0 label -text [Laundry Passage] -scale l
+line label -scale l -text [Trash Compactor]
+  16380.0 11072.0
+  16484.0 10892.0 16800.0 10384.0 16840.0 10232.0
+  16880.0 10080.0 17048.0 9684.0 17152.0 9576.0
+  17256.0 9468.0 17440.0 9264.0 17544.0 9208.0
+  17648.0 9152.0 17744.0 9100.0 17804.0 9056.0
+  17864.0 9012.0 18064.0 8864.0 18092.0 8808.0
+endline
 
-point 13638.0 13912.0 label -text [High Level ?]
+line label -scale xs -text [Laundry Passage]
+  11884.0 15036.0
+  11976.0 15140.0 12626.55 15608.27 12820.0 15572.0
+  12948.0 15548.0 13228.0 15384.0 13316.0 15220.0
+  13404.0 15056.0 13456.0 14984.0 13512.0 14832.0
+  13558.16 14706.71 13756.0 14168.0 13756.0 14168.0
+  smooth off
+endline
+
+point 13694.0 13848.0 label -scale xs -text [High Level ?] -align right
 
 area blocks
   l288-13140-14518
@@ -3893,7 +3946,7 @@ line border -id l620-36130-39158 -subtype invisible
   smooth off
 endline
 
-point 36832.0 40938.0 label -text [Rock dam]
+point 36832.0 40938.0 label -text [Rock dam] -scale s -align left
 
 area clay
   l182-37624-40276
@@ -4085,7 +4138,7 @@ area clay
   l600-37612-44200
 endarea
 
-point 38720.0 44762.0 label -align right -text [Continues too tight]
+point 38720.0 44762.0 label -align right -text [Continues too tight] -scale xs
 
 area clay
   l604-38140-45946
@@ -4300,9 +4353,11 @@ area water
   l598-37024-42172
 endarea
 
-point 34096.0 38644.0 label -align left -text [Passage in roof]
+point 35212.0 37488.0 label -scale xs -align right -text [? High]
 
-point 33212.0 36606.0 label -align left -text [Dry tight inlet]
+point 34096.0 38644.0 label -align left -text [Passage in roof] -scale xs
+
+point 33212.0 36606.0 label -align left -text [Dry tight inlet] -scale xs
 
 point 33600.0 36280.0 gradient -orientation 149.6
 
@@ -4495,7 +4550,7 @@ line border -id l568-31604-34908 -subtype invisible
   smooth off
 endline
 
-point 31370.0 33630.0 label -text [Thick mud]
+point 31010.0 34190.0 label -text [Thick mud] -scale xs -align left
 
 line wall -id l573-32332-34282 -reverse on -subtype presumed
   32168.0 34278.0
@@ -4505,9 +4560,9 @@ line wall -id l573-32332-34282 -reverse on -subtype presumed
   smooth off
 endline
 
-point 31548.0 35454.0 label -align left -text [Inlet goes]
+point 31548.0 35454.0 label -align left -text [Inlet goes] -scale s
 
-point 33102.0 33342.0 label -align right -text [Upstream Sump<br>Source of Odessa?]
+point 33102.0 33342.0 label -align right -text [Upstream Sump<br>Source of Odessa?] -scale m
 
 area sump
   l575-32542-33808

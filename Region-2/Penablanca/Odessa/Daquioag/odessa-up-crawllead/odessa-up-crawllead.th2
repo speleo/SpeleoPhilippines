@@ -12,9 +12,9 @@ line border -id l47-2356-3902 -subtype invisible
   2282.0 3902.0
 endline
 
-point 1030.0 1947.0 label -align top-left -text [Sink<br>Too tight]
+point 1030.0 1947.0 label -align top-left -text [Sink<br>Too tight] -scale xs
 
-point 196.0 390.0 label -align bottom -text [Continues<br>High CO2]
+point 196.0 390.0 label -align bottom -text [Continues<br>High CO2] -scale xs
 
 line wall -subtype presumed
   472.0 1192.0

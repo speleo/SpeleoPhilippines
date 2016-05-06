@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 11858.0 8013.6299212576005
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2024.4890551000008 1 1.0} {6590.81472441 25.11} PocketTopo/odessa-up-side-1_p.xvi 0 {}
 
 
@@ -261,13 +261,13 @@ line wall -id connect_back_LHW -reverse on -subtype presumed
   smooth off
 endline
 
-point 7622.0 3920.0 label -align bottom -text Squeeze
+point 7622.0 3920.0 label -align bottom -text Squeeze -scale xs
 
-point 8740.0 4344.0 label -align bottom -text Crawl
+point 8740.0 4344.0 label -align bottom -text Crawl -scale xs
 
-point 1170.0 7474.0 label -align bottom -text [Continues<br>too tight<br>bats<br>drought]
+point 1170.0 7474.0 label -text [Continues<br>too tight<br>bats<br>drought] -align left -scale xs
 
-point 8728.0 1020.0 label -align bottom -text [Continues<br>saw snake?]
+point 8728.0 1020.0 label -align bottom -text [Continues<br>saw snake?] -scale xs
 
 line border -id l36-7332-4176 -reverse on -subtype visible
   7328.0 4334.0
@@ -364,6 +364,7 @@ line border -id l64-9276-2488 -subtype invisible
   8876.0 2002.0 8836.0 1942.0 8820.0 1828.0
   8804.0 1714.0 8788.0 1692.0 8788.0 1658.0
   8788.0 1624.0 8710.0 1624.0 8698.0 1620.0
+  smooth off
 endline
 
 point 8726.0 1410.0 blocks

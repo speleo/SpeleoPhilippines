@@ -80,28 +80,26 @@ processing projection plan ... done
 average distortion: 0.00%
 writing odessaupday2oliandpete.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  5 MAY 2016 00:33
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  6 MAY 2016 21:57
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[Error: area borders l219-14890-13898 and l70-12608-12764 don't intersect in sc
-rap odessaupday2oliandpeteSP1@odessaupday2oliandpete (file odessaupday2oliandpe
-te.th2 [105])] [1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
  
 Here is how much of MetaPost's memory you used:
- 1208 strings out of 1638
- 13528 string characters out of 26823
- 639247 words of memory out of 1500000
- 1374 symbolic tokens out of 16384
- 11i,75n,16p,401b,5f stack positions out of 300i,84n,5000p,487b,15f
- 202 string compactions (moved 2468597 characters, 205179 strings)
+ 1209 strings out of 1638
+ 13539 string characters out of 26823
+ 434713 words of memory out of 1500000
+ 1375 symbolic tokens out of 16384
+ 11i,75n,16p,442b,5f stack positions out of 300i,84n,5000p,487b,15f
+ 201 string compactions (moved 2455714 characters, 204160 strings)
 18 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  5 MAY 2016 00:33
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  6 MAY 2016 21:57
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -113,14 +111,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  252 strings out of 95617
  2554 string characters out of 1171098
- 1322622 words of memory out of 2726600
+ 1027400 words of memory out of 2449378
  1665 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,249b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 517047 bytes).
+Output written on data.pdf (1 page, 418459 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -131,7 +129,7 @@ PDF statistics:
 done
 writing odessaupday2oliandpeteth.3d ... done
 writing xtherion file ... done
-compilation time: 6 sec
+compilation time: 5 sec
 
 
 ###################### scrap distortions #######################

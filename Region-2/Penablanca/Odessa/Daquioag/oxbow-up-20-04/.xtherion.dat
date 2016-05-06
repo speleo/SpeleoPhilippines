@@ -6,10 +6,10 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 54X1 p1 1 oxbow-up-20-04M oxbow-up-20-04M@oxbow-up-20-04 "" ""
-xth_cp_map_tree_insert map 1 55X1 p3 1 oxbow-up-20-04ME oxbow-up-20-04ME@oxbow-up-20-04 "" ""
+xth_cp_map_tree_insert map 1 83X1 p1 1 oxbow-up-20-04M oxbow-up-20-04M@oxbow-up-20-04 "" ""
+xth_cp_map_tree_insert map 1 84X1 p3 1 oxbow-up-20-04ME oxbow-up-20-04ME@oxbow-up-20-04 "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 283 3
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1462400716
+set xth(th_exit_number) 1462569986
 

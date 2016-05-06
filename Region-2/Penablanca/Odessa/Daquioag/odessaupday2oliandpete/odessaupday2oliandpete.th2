@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 31831.7401574701 26635.3011431181
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {5760.830157480001 1 1.0} {4417.85492265 1.4} PocketTopo/odessaupday2oliandpete_p.xvi 0 {}
 
 
@@ -66,25 +66,23 @@ point 12174.0 11964.0 stalagmite
 
 point 12196.0 11876.0 stalagmite
 
-point 4788.0 4042.0 label -align left -text [debris in roof]
+point 5264.0 3442.0 label -text [debris in roof] -scale xs -align right
 
-point 6256.0 4562.0 label -text [debris in roof] -align right
+point 6256.0 4562.0 label -text [debris in roof] -align right -scale xs
 
-point 10296.0 10378.0 label -align left -text [dry oxbow<br>link to start?]
+point 8542.0 6482.0 label -text [debris in roof] -scale xs -align right
 
-point 8542.0 6482.0 label -text [debris in roof]
+point 9604.0 7888.0 label -text stooping<br>(crawl) -align right -scale xs
 
-point 9604.0 7888.0 label -text stooping<br>(crawl)
+point 10836.0 9186.0 label -text stooping -scale xs
 
-point 10836.0 9186.0 label -text stooping
-
-point 11202.0 10378.0 label -text [not quite stooping]
+point 12336.0 11448.0 label -text [not quite stooping] -scale xs -align right
 
 point 12832.0 12090.0 label -align right -text Gour
 
 point 13252.0 12614.0 label -align right -text Gour
 
-point 15354.0 13622.0 label -text [Curtain of flowstone from roof] -align right
+point 15354.0 13622.0 label -text [Curtain of<br>flowstone<br>from roof] -scale xs -align top-right
 
 point 15488.0 12860.0 curtain
 
@@ -102,11 +100,18 @@ point 15098.0 13364.0 curtain
 
 point 15058.0 13468.0 curtain
 
+line border -id l246-13352-13176 -reverse on -subtype invisible
+  13224.0 13114.0
+  13670.0 13336.0
+endline
+
 area clay
   l220-15688-12500
   l115-10164-8686
   l222-12650-12652
   l70-12608-12764
+  l246-13352-13176
+  JoinTopRHW
   l219-14890-13898
   l71-24950-21304
 endarea
@@ -298,11 +303,11 @@ endarea
 
 area clay
   l113-20214-16582
-  l71-24950-21304
+  l251-18748-14856
 endarea
 
 area clay
-  l71-24950-21304
+  l251-18748-14856
   l185-21918-18074
   l107-22280-19674
   l188-21560-16584
@@ -311,7 +316,7 @@ endarea
 
 area clay
   l184-22252-19104
-  l71-24950-21304
+  l251-18748-14856
   l79-24848-21298
   UpstreamLHW
   l106-24218-19134
@@ -350,7 +355,7 @@ line border -id l187-21292-17056 -subtype invisible
 endline
 
 area flowstone
-  l71-24950-21304
+  l251-18748-14856
   l184-22252-19104
   l107-22280-19674
   l185-21918-18074
@@ -557,7 +562,7 @@ point 4977.56015748 3409.47492265 station -name 1.2
 
 point 4127.44015748 3367.18492265 station -name 1.1
 
-line wall
+line wall -id connect2oxbow
   10472.0 10274.0
   10498.0 10306.0 10494.0 10334.0 10514.0 10320.0
   10534.0 10306.0 10538.0 10254.0 10538.0 10254.0
@@ -565,9 +570,14 @@ line wall
   10538.0 10254.0 10548.0 10208.0 10528.0 10150.0
   10508.0 10092.0 10516.0 10062.0 10530.0 10022.0
   10544.0 9982.0 10568.0 9928.0 10560.0 9876.0
+endline
+
+line border -subtype invisible
+  10560.0 9876.0
   10552.0 9824.0 10570.0 9774.0 10500.0 9724.0
   10430.0 9674.0 10348.0 9548.0 10346.0 9524.0
   10344.0 9500.0 10332.0 9422.0 10304.0 9380.0
+  smooth off
 endline
 
 line wall -id l69-6806-5780
@@ -631,6 +641,7 @@ line wall -id JoinTopRHW
   14160.0 13522.0 14056.0 13506.0 14014.0 13488.0
   13972.0 13470.0 13834.0 13458.0 13776.0 13426.0
   13718.0 13394.0 13710.0 13348.0 13670.0 13336.0
+  smooth off
 endline
 
 line wall -id l70-12608-12764
@@ -663,7 +674,7 @@ line wall -id l70-12608-12764
   smooth off
 endline
 
-line wall -id l71-24950-21304
+line wall -id l251-18748-14856
   25510.0 21446.0
   25470.0 21426.0 25412.0 21392.0 25358.0 21366.0
   25304.0 21340.0 25206.0 21296.0 25164.0 21288.0
@@ -749,12 +760,20 @@ line wall -id l71-24950-21304
   18994.0 15624.0 18844.0 15476.0 18818.0 15432.0
   18792.0 15388.0 18694.0 15222.0 18710.0 15168.0
   18726.0 15114.0 18750.0 15018.0 18750.0 14980.0
-  18750.0 14942.0 18756.0 14790.0 18752.0 14732.0
+  18750.0 14942.0 18758.79 14789.74 18752.0 14732.0
+endline
+
+line border -id l252-18896-13912 -subtype invisible
+  18752.0 14732.0
   18748.0 14674.0 18750.0 14518.0 18756.0 14452.0
   18762.0 14386.0 18736.0 14330.0 18750.0 14232.0
   18764.0 14134.0 18824.0 14092.0 18832.0 14062.0
   18840.0 14032.0 18866.0 13974.0 18894.0 13902.0
   18922.0 13830.0 18944.0 13730.0 18932.0 13674.0
+endline
+
+line wall -id l71-24950-21304
+  18932.0 13674.0
   18920.0 13618.0 18898.0 13438.0 18918.0 13382.0
   18938.0 13326.0 18952.0 13270.0 18960.0 13198.0
   18968.0 13126.0 18980.0 13028.0 18984.0 12950.0
@@ -808,9 +827,9 @@ area water
   l111-18556-12530
   l71-24950-21304
   l112-19068-12912
-  l71-24950-21304
+  l251-18748-14856
   l113-20214-16582
-  l71-24950-21304
+  l251-18748-14856
 endarea
 
 line border -id l113-20214-16582 -subtype invisible
@@ -842,8 +861,8 @@ line border -id l112-19068-12912 -subtype invisible
   18942.0 13846.0 18906.0 13984.0 18896.0 14020.0
   18886.0 14056.0 18838.0 14178.0 18810.0 14216.0
   18782.0 14254.0 18762.0 14298.0 18768.0 14358.0
-  18774.0 14418.0 18794.0 14482.0 18796.0 14534.0
-  18798.0 14586.0 18734.0 14772.0 18734.0 14772.0
+  18774.0 14418.0 18812.0 14624.0 18814.0 14676.0
+  18816.0 14728.0 18742.0 14906.0 18742.0 14906.0
   smooth off
 endline
 
@@ -1477,12 +1496,10 @@ area water
   l87-31360-15132
   l76-31146-15362
   UpstreamRHW
-  l76-31146-15362
-  UpstreamRHW
   l77-30970-16878
   UpstreamRHW
   l78-27258-20986
-  l71-24950-21304
+  l251-18748-14856
   l79-24848-21298
   UpstreamLHW
   l80-24880-18684
@@ -1818,7 +1835,7 @@ area clay
 endarea
 
 area clay
-  l71-24950-21304
+  l251-18748-14856
   l79-24848-21298
   UpstreamLHW
   l94-24230-18970
@@ -1888,8 +1905,10 @@ line wall -id UpstreamLHW
   10614.0 9462.0 10664.0 9570.0 10700.0 9636.0
   10736.0 9702.0 10760.0 9734.0 10772.0 9788.0
   10784.0 9842.0 10852.0 9938.0 10852.0 9994.0
+  mark ConnectSideBottom
   10852.0 10050.0 10828.0 10138.0 10836.0 10210.0
   10844.0 10282.0 10868.0 10344.0 10890.0 10386.0
+  mark ConnectSideTop
   10912.0 10428.0 10956.0 10468.0 11004.0 10498.0
   11052.0 10528.0 11178.0 10542.0 11220.0 10586.0
   11262.0 10630.0 11326.0 10676.0 11370.0 10706.0

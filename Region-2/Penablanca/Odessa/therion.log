@@ -5,7 +5,7 @@ configuration file: thconfig-odessa
 reading ... done
 reading source files ... done
 preprocessing database ... done
-C:\Program Files (x86)\Therion\therion.exe: warning -- Odessa.th [108] -- equate used to define new station (34.1@Main2Sewer)
+C:\Program Files (x86)\Therion\therion.exe: warning -- Odessa.th [109] -- equate used to define new station (34.1@Main2Sewer)
 output coordinate system: UTM51
 meridian convergence (deg): 0.3567
 geomag declinations (deg):
@@ -43,16 +43,16 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
- 3> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9302: warning: Unused fixed point "9308"
- 4> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9303: warning: Unused fixed point "9309"
- 5> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9304: warning: Unused fixed point "9310"
- 6> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9305: warning: Unused fixed point "9311"
- 7> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9306: warning: Unused fixed point "9312"
- 8> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9307: warning: Unused fixed point "9313"
- 9> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9308: warning: Unused fixed point "9314"
-10> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9309: warning: Unused fixed point "9315"
-11> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9310: warning: Unused fixed point "9316"
-12> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9311: warning: Unused fixed point "9317"
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9302: warning: Unused fixed point "9308"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9303: warning: Unused fixed point "9309"
+ 5> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9304: warning: Unused fixed point "9310"
+ 6> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9305: warning: Unused fixed point "9311"
+ 7> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9306: warning: Unused fixed point "9312"
+ 8> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9307: warning: Unused fixed point "9313"
+ 9> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9308: warning: Unused fixed point "9314"
+10> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9309: warning: Unused fixed point "9315"
+11> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9310: warning: Unused fixed point "9316"
+12> C:\Users\HENRY_~1\AppData\Local\Temp\th10196\data.svx:9311: warning: Unused fixed point "9317"
 13> 
 14> Survey contains 9417 survey stations, joined by 9409 shots.
 15> There are 6 loops.
@@ -196,10 +196,10 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.44%
+average distortion: 0.46%
 writing .\output\Odessa.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  6 MAY 2016 12:09
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  6 MAY 2016 22:11
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -218,16 +218,20 @@ dessa] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
 [Warning: scrap outline intersects itself in scrap SewerSouth@SewerSouth.Odessa
 ] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
 [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
-[54] [55]
-[Error: area borders l219-14890-13898 and l70-12608-12764 don't intersect in sc
-rap odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag.Odessa (file Daqu
-ioag/odessaupday2oliandpete/odessaupday2oliandpete.th2 [105])] [56] [57] [58]
-[59] [60] [61] [62] [63] [64]
-[Warning: scrap outline intersects itself in scrap oxbow-up-20-04SP1@oxbow-up-2
-0-04.Daquioag.Odessa] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75]
-[76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
-[91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104]
-[105] [106] [107]
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
+[69]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Odessa
+]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Odessa
+]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Odessa
+]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Odessa
+] [70] [71]
+[Warning: scrap outline intersects itself in scrap odessa-up-loopSP2@odessa-up-
+loop.Daquioag.Odessa] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+[83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97]
+[98] [99] [100] [101] [102] [103] [104] [105] [106] [107]
 [Warning: scrap outline intersects itself in scrap OdessaEntSide@odessa-entranc
 e.Odessa] [108] [109] [110] [111] [112] [113] [114] [115] [116] (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
@@ -237,19 +241,19 @@ e.Odessa] [108] [109] [110] [111] [112] [113] [114] [115] [116] (./mptextmp.mp)
 [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] )
  
 Here is how much of MetaPost's memory you used:
- 2820 strings out of 2977
- 18782 string characters out of 34452
- 1170847 words of memory out of 1500000
+ 2943 strings out of 2977
+ 19210 string characters out of 34452
+ 1168313 words of memory out of 1500000
  1530 symbolic tokens out of 16384
  11i,75n,16p,596b,5f stack positions out of 300i,84n,5000p,608b,15f
- 971 string compactions (moved 15959077 characters, 1819822 strings)
+ 1130 string compactions (moved 18892159 characters, 2285623 strings)
 175 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  6 MAY 2016 12:11
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  6 MAY 2016 22:11
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -263,7 +267,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  473 strings out of 95617
  4553 string characters out of 1171098
- 2186785 words of memory out of 3500000
+ 2188229 words of memory out of 3500000
  1883 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -272,7 +276,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 3969768 bytes).
+Output written on data.pdf (1 page, 3923877 bytes).
 PDF statistics:
  577 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -285,7 +289,7 @@ writing .\output\Odessa-map.kml ... done
 writing .\output\Odessa-model.kml ... done
 writing .\output\Odessa-survex.3d ... done
 writing xtherion file ... done
-compilation time: 150 sec
+compilation time: 53 sec
 
 
 ######################### loop errors ##########################
@@ -311,20 +315,21 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    3.79%   65.85%  Surface_DaquioagSP1@Surface_Daquioag.Surface.Odessa
    5.40%   65.73%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag.Odessa
    0.80%   59.93%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag.Odessa
-   0.27%   59.84%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag.Odessa
+   0.31%   59.84%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag.Odessa
    1.64%   57.20%  Surface_Odessa_2_SP1@Surface_Odessa_2.Surface.Odessa
    1.08%   55.84%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag.Odessa
-   0.31%   53.41%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag.Odessa
+   0.60%   53.41%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag.Odessa
    5.62%   50.97%  MainWestSideSP1@MainWestSide.Odessa
    0.66%   45.81%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag.Odessa
+   0.07%   45.69%  odessa-up-loopSP1@odessa-up-loop.Daquioag.Odessa
    0.15%   39.22%  SewerSouth@SewerSouth.Odessa
    0.38%   34.11%  smallloopSP1@smallloop.Odessa
    0.15%   32.68%  odessa-heavenSP1@odessa-heaven.Odessa
    0.02%   29.88%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
+   6.31%   28.05%  odessa-up-loopSP2@odessa-up-loop.Daquioag.Odessa
    0.90%   25.08%  Main2SewerSP1@Main2Sewer.Odessa
    0.08%   21.86%  SewerNorthTopSP1@SewerNorthTop.Odessa
    0.10%   17.94%  seriouscavingupstreamSP1@seriouscavingupstream.Daquioag.Odessa
-   0.03%   17.12%  odessa-up-loopSP1@odessa-up-loop.Daquioag.Odessa
    0.95%   16.94%  SewerNorthSide@SewerNorthSide.Odessa
    0.38%   15.27%  Surface_Odessa_1_SP1@Surface_Odessa_1.Surface.Odessa
    0.37%   12.14%  odessa-entranceSP1@odessa-entrance.Odessa
@@ -333,6 +338,5 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.06%    0.59%  OdessaEntSide@odessa-entrance.Odessa
    0.03%    0.17%  OdessaEntLowSide@odessa-entrance.Odessa
    0.03%    0.16%  shepherdSP1@shepherd.Odessa
-   0.00%    0.00%  odessa-up-loopSP2@odessa-up-loop.Daquioag.Odessa
    0.00%    0.00%  Road@Daquioag.Odessa
 ################### end of scrap distortions ###################
