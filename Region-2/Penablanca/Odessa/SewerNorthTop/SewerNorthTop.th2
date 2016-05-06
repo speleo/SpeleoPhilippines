@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 8872.4724409406 56692.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {8082.234488190001 1 1.0} {56264.0940945 33.4} PocketTopo/SewerNorthTop_p.xvi 0 {}
 
 
@@ -167,25 +167,25 @@ area flowstone
   l35-8450-52268
 endarea
 
-point 8175.0 56335.0 water-flow -orientation 133.6
+point 8175.0 56335.0 water-flow -orientation 133.6 -scale xl
 
-point 8022.0 55311.0 water-flow -orientation 207.9
+point 8022.0 55311.0 water-flow -orientation 207.9 -scale xl
 
-point 8260.0 54249.0 water-flow -orientation 9.9
+point 8260.0 54249.0 water-flow -orientation 9.9 -scale xl
 
 point 7767.0 54588.0 water-flow -orientation 267.7
 
-point 7170.0 54022.0 water-flow -orientation 327.2
+point 7170.0 54022.0 water-flow -orientation 327.2 -scale xl
 
-point 6600.0 55075.0 label -align center -text [Too small<br>water sinks]
+point 6372.0 55137.0 label -align center -text [Too small<br>water sinks] -scale s
 
-point 7552.0 54834.0 label -align center -text Duck -scale s
+point 7552.0 54834.0 label -align center -text Duck -scale xs
 
-point 7625.0 56554.0 label -align center -text Sump
+point 7309.0 56556.0 label -align center -text Sump
 
-point 8185.0 51328.0 label -align right -text [2.5m climb down<br>undercut gours]
+point 8339.0 51270.0 label -text [2.5m climb down<br>undercut gours] -align right -scale s
 
-point 7750.0 50928.0 label -align right -text [Handline belay]
+point 7954.0 50552.0 label -align right -text [Handline belay] -scale s
 
 line border -id l54-7642-51234 -subtype invisible
   7430.0 51293.0

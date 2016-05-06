@@ -19,12 +19,16 @@ copyright 2016 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2005.07.01
+  date 2016.04.09
 
-  team "Andrew Atkinson" notes
-  team "Alison Moody" instruments
+  team "Catherine Hulse" instruments
+  team "Laura Benn" instruments
+  team "Nick Gymer" instruments
+  team "Oliver Legg" instruments
+  team "Olivia Dawson" instruments
+  team "Ranger Marquez" instruments
 
-  instrument  instruments "UBSS DistoX1"
+  instrument instruments "PDA 1 + BEC DistoX2"
 
 data normal from to tape compass clino ignoreall
   extend right

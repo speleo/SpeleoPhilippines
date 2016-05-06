@@ -29,33 +29,33 @@ processing survey data ...
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
  3> 
- 4> Survey contains 4119 survey stations, joined by 4118 shots.
+ 4> Survey contains 4813 survey stations, joined by 4812 shots.
  5> There are 0 loops.
- 6> Total length of survey shots = 18965.91m (18965.91m adjusted)
- 7> Total plan length of survey shots = 17601.85m
- 8> Total vertical length of survey shots = 3542.45m
- 9> Vertical range = 34.93m (from 3289 at 176.80m to 897 at 141.87m)
-10> North-South range = 687.96m (from 577 at 1966183.33m to 2395 at 1965495.37m)
-11> East-West range = 609.53m (from 575 at 376527.54m to 1913 at 375918.00m)
-12> 3769 1-nodes.
-13>   25 2-nodes.
-14>    5 3-nodes.
-15>    5 4-nodes.
-16>   11 5-nodes.
-17>   63 6-nodes.
-18>   15 7-nodes.
-19>   25 8-nodes.
-20>   32 9-nodes.
-21>   14 10-nodes.
-22>   11 11-nodes.
-23>    8 12-nodes.
-24>    7 13-nodes.
-25>   12 14-nodes.
-26>    9 15-nodes.
-27>    8 16-nodes.
-28>    8 17-nodes.
+ 6> Total length of survey shots = 22529.42m (22529.42m adjusted)
+ 7> Total plan length of survey shots = 20936.60m
+ 8> Total vertical length of survey shots = 4009.11m
+ 9> Vertical range = 39.99m (from 3983 at 176.80m to 1807 at 136.81m)
+10> North-South range = 779.45m (from 1746 at 1966274.82m to 3089 at 1965495.37m)
+11> East-West range = 761.67m (from 1816 at 376679.67m to 2607 at 375918.00m)
+12> 4356 1-nodes.
+13>   32 2-nodes.
+14>    7 3-nodes.
+15>   21 4-nodes.
+16>   24 5-nodes.
+17>   81 6-nodes.
+18>   22 7-nodes.
+19>   35 8-nodes.
+20>   40 9-nodes.
+21>   22 10-nodes.
+22>   16 11-nodes.
+23>   12 12-nodes.
+24>    8 13-nodes.
+25>   13 14-nodes.
+26>   11 15-nodes.
+27>    9 16-nodes.
+28>    9 17-nodes.
 29>    9 18-nodes.
-30>    6 19-nodes.
+30>    8 19-nodes.
 31>   13 20-nodes.
 32>    4 21-nodes.
 33>   10 22-nodes.
@@ -68,7 +68,7 @@ processing survey data ...
 40>    5 29-nodes.
 41>    2 30-nodes.
 42>    2 31-nodes.
-43>    1 32-node.
+43>    2 32-nodes.
 44>    4 33-nodes.
 45>    2 35-nodes.
 46>    1 37-node.
@@ -79,29 +79,29 @@ processing survey data ...
 51>    1 51-node.
 52> 
 ######################### transcription ########################
- 4> 4119 : 22.22@Daquioag -- 4118 : -@Daquioag
- 9> 3289 : -@Daquioag -- 897 : -@oxbow-up-20-04.Daquioag
-10> 577 : -@odessa-up-loop.Daquioag -- 2395 : -@Daquioag
-11> 575 : -@odessa-up-loop.Daquioag -- 1913 : -@Daquioag
-12> 3769 : -@Daquioag
-13> 25 : -@odessa-up-loop-28d3-36d3.Daquioag
-14> 5 : -@odessa-up-loop-28d3-36d3.Daquioag
-15> 5 : -@odessa-up-loop-28d3-36d3.Daquioag
-16> 11 : 36.2@odessa-up-loop-28d3-36d3.Daquioag
-17> 63 : -@odessa-up-side-1.Daquioag
-18> 15 : -@odessa-up-loop-28d3-36d3.Daquioag
-19> 25 : -@odessa-up-loop-28d3-36d3.Daquioag
-20> 32 : 24.0@odessa-up-side-1.Daquioag
-21> 14 : -@odessa-up-loop-28d3-36d3.Daquioag
-22> 11 : 36.2@odessa-up-loop-28d3-36d3.Daquioag
-23> 8 : -@odessa-up-loop-28d3-36d3.Daquioag
-24> 7 : -@odessa-up-loop-28d3-36d3.Daquioag
-25> 12 : -@odessa-up-loop-28d3-36d3.Daquioag
-26> 9 : -@odessa-up-loop-28d3-36d3.Daquioag
-27> 8 : -@odessa-up-loop-28d3-36d3.Daquioag
-28> 8 : -@odessa-up-loop-28d3-36d3.Daquioag
+ 4> 4813 : 22.22@Daquioag -- 4812 : -@Daquioag
+ 9> 3983 : -@Daquioag -- 1807 : -@odessaupday2oliandpete.Daquioag
+10> 1746 : -@odessaupday2oliandpete.Daquioag -- 3089 : -@Daquioag
+11> 1816 : 1.66@odessaupday2oliandpete.Daquioag -- 2607 : -@Daquioag
+12> 4356 : -@Daquioag
+13> 32 : 24.0@odessa-up-side-1.Daquioag
+14> 7 : -@odessa-up-loop-28d3-36d3.Daquioag
+15> 21 : 36.3@odessa-up-loop-28d3-36d3.Daquioag
+16> 24 : -@odessa-up-loop-28d3-36d3.Daquioag
+17> 81 : 25.1@odessa-up-side-1.Daquioag
+18> 22 : -@odessa-up-loop-28d3-36d3.Daquioag
+19> 35 : -@odessa-up-side-1.Daquioag
+20> 40 : -@odessa-up-side-1.Daquioag
+21> 22 : -@odessa-up-loop-28d3-36d3.Daquioag
+22> 16 : -@odessa-up-loop-28d3-36d3.Daquioag
+23> 12 : -@odessa-up-loop-28d3-36d3.Daquioag
+24> 8 : -@odessa-up-loop-28d3-36d3.Daquioag
+25> 13 : -@odessa-up-loop-28d3-36d3.Daquioag
+26> 11 : 36.2@odessa-up-loop-28d3-36d3.Daquioag
+27> 9 : -@odessa-up-loop-28d3-36d3.Daquioag
+28> 9 : -@odessa-up-loop-28d3-36d3.Daquioag
 29> 9 : -@odessa-up-loop-28d3-36d3.Daquioag
-30> 6 : -@odessa-up-loop-28d3-36d3.Daquioag
+30> 8 : -@odessa-up-loop-28d3-36d3.Daquioag
 31> 13 : -@odessa-up-loop-28d3-36d3.Daquioag
 32> 4 : -@odessa-up-loop-28d3-36d3.Daquioag
 33> 10 : -@odessa-up-loop-28d3-36d3.Daquioag
@@ -114,7 +114,7 @@ processing survey data ...
 40> 5 : -@odessa-up-loop-28d3-36d3.Daquioag
 41> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
 42> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
-43> 1 : 28.3@odessa-up-loop-28d3-36d3.Daquioag
+43> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
 44> 4 : -@odessa-up-loop-28d3-36d3.Daquioag
 45> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
 46> 1 : 28.3@odessa-up-loop-28d3-36d3.Daquioag
@@ -130,54 +130,58 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.20%
+average distortion: 0.19%
 writing Daquioag.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  4 MAY 2016 22:34
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  5 MAY 2016 19:23
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
-(./mptextmp.mp) [32] )
+[Error: area borders l219-14890-13898 and l70-12608-12764 don't intersect in sc
+rap odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag (file odessaupday
+2oliandpete/odessaupday2oliandpete.th2 [105])] [1] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap oxbow-up-20-04SP1@oxbow-up-2
+0-04.Daquioag] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+[19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+[34] [35] [36] [37] [38] [39] (./mptextmp.mp) [40] )
  
 Here is how much of MetaPost's memory you used:
- 1576 strings out of 1638
- 16936 string characters out of 26823
- 251538 words of memory out of 1500000
+ 1646 strings out of 2233
+ 17101 string characters out of 26823
+ 256296 words of memory out of 1500000
  1518 symbolic tokens out of 16384
  11i,75n,16p,578b,5f stack positions out of 300i,84n,5000p,608b,15f
- 380 string compactions (moved 5955120 characters, 526975 strings)
-44 output files written: data.1 .. data.4012
+ 870 string compactions (moved 14179679 characters, 1313498 strings)
+52 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  4 MAY 2016 22:34
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  5 MAY 2016 19:23
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 98 numeric registers used out of 32768
+ 110 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 295 strings out of 95617
- 2951 string characters out of 1171098
- 654335 words of memory out of 2100313
- 1708 multiletter control sequences out of 15000+50000
+ 307 strings out of 95617
+ 3064 string characters out of 1171098
+ 650039 words of memory out of 2096017
+ 1720 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 9i,5n,8p,388b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 9i,5n,8p,458b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 569200 bytes).
+Output written on data.pdf (1 page, 780709 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 180 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 419 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 511 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -186,20 +190,22 @@ writing Daquioag-map.kml ... done
 writing Daquioag-model.kml ... done
 writing Daquioag.3d ... done
 writing xtherion file ... done
-compilation time: 17 sec
+compilation time: 19 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
+   0.09%   86.82%  DaquioagSP1@Daquioag
    0.90%   74.53%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag
    5.42%   65.81%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag
-   0.07%   63.91%  DaquioagSP1@Daquioag
    0.80%   59.94%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag
+   0.05%   59.66%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag
    1.05%   56.16%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag
+   0.35%   53.42%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag
    0.66%   46.24%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag
-   0.02%   16.91%  odessa-up-loopSP1@odessa-up-loop.Daquioag
-   0.01%    0.21%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag
+   0.10%   18.04%  seriouscavingupstreamSP1@seriouscavingupstream.Daquioag
+   0.03%   16.98%  odessa-up-loopSP1@odessa-up-loop.Daquioag
    0.00%    0.00%  odessa-up-loopSP2@odessa-up-loop.Daquioag
    0.00%    0.00%  Road@Daquioag
 ################### end of scrap distortions ###################

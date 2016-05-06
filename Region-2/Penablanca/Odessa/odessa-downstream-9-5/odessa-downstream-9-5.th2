@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 23428.787401570997 77390.9921259679
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {7556.99771654 1 1.0} {57838.37165354 4.70} PocketTopo/odessa-downstream-9-5_p.xvi 0 {}
 
 
@@ -1043,6 +1043,7 @@ line flowstone -id l239-9798-29424
   smooth off
   9816.0 29424.0 9824.0 29402.0 9856.0 29432.0
   9888.0 29462.0 9920.0 29492.0 9948.0 29496.0
+  smooth off
 endline
 
 line border -id l236-7676-33022 -subtype invisible
@@ -1054,6 +1055,7 @@ line border -id l236-7676-33022 -subtype invisible
   smooth off
   7758.0 32908.0
   7758.0 32908.0 7604.0 32874.0 7554.0 32838.0
+  smooth off
 endline
 
 point 8214.0 32910.0 label -align right -text [Gour dam]
@@ -1064,6 +1066,7 @@ line flowstone -id l234-7682-32854
   7742.0 32870.0 7738.0 32878.0 7802.0 32878.0
   7866.0 32878.0 7848.0 32886.0 7904.0 32868.0
   7960.0 32850.0 8016.0 32838.0 8024.0 32834.0
+  smooth off
 endline
 
 point 8020.0 34764.0 label -align right -text Aven
@@ -1110,18 +1113,21 @@ line flowstone -id l226-7750-35354 -reverse on
   7584.0 34810.0 7582.0 34788.0 7586.0 34766.0
   7590.0 34744.0 7594.0 34758.0 7614.0 34726.0
   7634.0 34694.0 7654.0 34620.0 7660.0 34610.0
+  smooth off
 endline
 
 line flowstone -reverse on
   7432.0 34574.0
   7412.0 34564.0 7386.0 34576.0 7402.0 34538.0
   7418.0 34500.0 7414.0 34498.0 7430.0 34486.0
+  smooth off
 endline
 
 line flowstone -reverse on
   7500.0 34626.0
   7484.0 34630.0 7468.0 34652.0 7460.0 34618.0
   7452.0 34584.0 7444.0 34560.0 7456.0 34552.0
+  smooth off
 endline
 
 line flowstone -reverse on
@@ -2039,6 +2045,13 @@ line border -id l158-5652-12204 -subtype invisible
   5424.0 12086.0 5288.0 11976.0 5246.0 11962.0
   5204.0 11948.0 5174.0 11906.0 5158.0 11906.0
   smooth off
+endline
+
+line label -text Dia's -scale xl
+  17748.0 70000.0
+  17748.0 70000.0 17740.0 72180.0 17760.0 72388.0
+  17780.0 72596.0 17856.0 74060.0 17880.0 74168.0
+  17904.0 74276.0 17968.0 74900.0 17976.0 74940.0
 endline
 
 line wall -id MainPassageUpstream -reverse on

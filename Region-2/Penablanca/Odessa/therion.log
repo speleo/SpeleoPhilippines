@@ -5,10 +5,23 @@ configuration file: thconfig-odessa
 reading ... done
 reading source files ... done
 preprocessing database ... done
-C:\Program Files (x86)\Therion\therion.exe: warning -- Odessa.th [105] -- equate used to define new station (34.1@Main2Sewer)
+C:\Program Files (x86)\Therion\therion.exe: warning -- Odessa.th [108] -- equate used to define new station (34.1@Main2Sewer)
 output coordinate system: UTM51
 meridian convergence (deg): 0.3567
 geomag declinations (deg):
+  1992.1.1  -1.6609
+  1993.1.1  -1.6802
+  1994.1.1  -1.6995
+  1995.1.1  -1.7188
+  1996.1.1  -1.7359
+  1997.1.1  -1.7529
+  1998.1.1  -1.7699
+  1999.1.1  -1.7869
+  2000.1.1  -1.8040
+  2001.1.1  -1.8352
+  2002.1.1  -1.8665
+  2003.1.1  -1.8978
+  2004.1.1  -1.9292
   2005.1.1  -1.9605
   2006.1.1  -2.0066
   2007.1.1  -2.0527
@@ -25,43 +38,43 @@ geomag declinations (deg):
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
-average loop error: 1.12%
+average loop error: 1.40%
 processing survey data ... 
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
- 3> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9099: warning: Unused fixed point "9106"
- 4> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9100: warning: Unused fixed point "9107"
- 5> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9101: warning: Unused fixed point "9108"
- 6> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9102: warning: Unused fixed point "9109"
- 7> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9103: warning: Unused fixed point "9110"
- 8> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9104: warning: Unused fixed point "9111"
- 9> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9105: warning: Unused fixed point "9112"
-10> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9106: warning: Unused fixed point "9113"
-11> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9107: warning: Unused fixed point "9114"
-12> C:\Users\HENRY_~1\AppData\Local\Temp\th1032\data.svx:9108: warning: Unused fixed point "9115"
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9302: warning: Unused fixed point "9308"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9303: warning: Unused fixed point "9309"
+ 5> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9304: warning: Unused fixed point "9310"
+ 6> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9305: warning: Unused fixed point "9311"
+ 7> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9306: warning: Unused fixed point "9312"
+ 8> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9307: warning: Unused fixed point "9313"
+ 9> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9308: warning: Unused fixed point "9314"
+10> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9309: warning: Unused fixed point "9315"
+11> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9310: warning: Unused fixed point "9316"
+12> C:\Users\HENRY_~1\AppData\Local\Temp\th10984\data.svx:9311: warning: Unused fixed point "9317"
 13> 
-14> Survey contains 9215 survey stations, joined by 9205 shots.
-15> There are 4 loops.
+14> Survey contains 9417 survey stations, joined by 9409 shots.
+15> There are 6 loops.
 16> Survey has 14 connected components.
-17> Total length of survey shots = 49609.44m (49607.94m adjusted)
-18> Total plan length of survey shots = 46319.25m
-19> Total vertical length of survey shots = 8459.37m
-20> Vertical range = 114.83m (from 4 at 214.30m to 9177 at 99.47m)
-21> North-South range = 2102.34m (from 9204 at 1967598.24m to 4803 at 1965495.90m)
-22> East-West range = 1116.78m (from 7392 at 377034.65m to 4321 at 375917.87m)
+17> Total length of survey shots = 50260.07m (50258.71m adjusted)
+18> Total plan length of survey shots = 46936.89m
+19> Total vertical length of survey shots = 8520.40m
+20> Vertical range = 114.83m (from 4 at 214.30m to 9379 at 99.47m)
+21> North-South range = 2102.87m (from 9406 at 1967598.24m to 4986 at 1965495.36m)
+22> East-West range = 1102.77m (from 7575 at 377020.67m to 4504 at 375917.89m)
 23>   10 0-nodes.
-24> 8322 1-nodes.
-25>   51 2-nodes.
-26>   17 3-nodes.
-27>   23 4-nodes.
-28>   32 5-nodes.
-29>  145 6-nodes.
-30>   42 7-nodes.
-31>   69 8-nodes.
-32>   68 9-nodes.
-33>   67 10-nodes.
-34>   36 11-nodes.
+24> 8465 1-nodes.
+25>   73 2-nodes.
+26>   18 3-nodes.
+27>   26 4-nodes.
+28>   41 5-nodes.
+29>  162 6-nodes.
+30>   45 7-nodes.
+31>   70 8-nodes.
+32>   69 9-nodes.
+33>   68 10-nodes.
+34>   37 11-nodes.
 35>   35 12-nodes.
 36>   32 13-nodes.
 37>   37 14-nodes.
@@ -96,54 +109,54 @@ processing survey data ...
 66> There were 10 warning(s).
 67> 
 ######################### transcription ########################
- 3> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
- 3> input:9099 -- Surface/Surface_Odessa_1/Surface_Odessa_1.th [15]
- 3> 9106 : 201@Surface_Odessa_1.Surface.Odessa
- 4> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
- 4> input:9100 -- Surface/Surface_Odessa_1/Surface_Odessa_1.th [16]
- 4> 9107 : 202@Surface_Odessa_1.Surface.Odessa
- 5> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
- 5> input:9101 -- Surface/Surface_Odessa_2/Surface_Odessa_2.th [15]
- 5> 9108 : 301@Surface_Odessa_2.Surface.Odessa
- 6> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
- 6> input:9102 -- Surface/Surface_Odessa_2/Surface_Odessa_2.th [16]
- 6> 9109 : 302@Surface_Odessa_2.Surface.Odessa
- 7> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
- 7> input:9103 -- Surface/Surface_Odessa_3/Surface_Odessa_3.th [15]
- 7> 9110 : 401@Surface_Odessa_3.Surface.Odessa
- 8> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
- 8> input:9104 -- Surface/Surface_Odessa_3/Surface_Odessa_3.th [16]
- 8> 9111 : 402@Surface_Odessa_3.Surface.Odessa
- 9> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
- 9> input:9105 -- Surface/Surface_Daquioag/Surface_Daquioag.th [16]
- 9> 9112 : 101@Surface_Daquioag.Surface.Odessa
-10> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
-10> input:9106 -- Surface/Surface_Daquioag/Surface_Daquioag.th [17]
-10> 9113 : 102@Surface_Daquioag.Surface.Odessa
-11> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
-11> input:9107 -- Surface/Surface_Daquioag/Surface_Daquioag.th [18]
-11> 9114 : 103@Surface_Daquioag.Surface.Odessa
-12> 1 : 1.0@odessa-entrance.Odessa -- 1032 : -@odessa-downstream-9-5.Odessa
-12> input:9108 -- Surface/Surface_Daquioag/Surface_Daquioag.th [19]
-12> 9115 : 104@Surface_Daquioag.Surface.Odessa
-14> 9215 : 34.1@Main2Sewer.Odessa -- 9205 : -@tumbali-day1-c2.Odessa
-15> 4 : -@odessa-entrance.Odessa
+ 3> 1 : 1.0@odessa-entrance.Odessa
+ 3> input:9302 -- Surface/Surface_Odessa_1/Surface_Odessa_1.th [15]
+ 3> 9308 : 201@Surface_Odessa_1.Surface.Odessa
+ 4> 1 : 1.0@odessa-entrance.Odessa
+ 4> input:9303 -- Surface/Surface_Odessa_1/Surface_Odessa_1.th [16]
+ 4> 9309 : 202@Surface_Odessa_1.Surface.Odessa
+ 5> 1 : 1.0@odessa-entrance.Odessa
+ 5> input:9304 -- Surface/Surface_Odessa_2/Surface_Odessa_2.th [15]
+ 5> 9310 : 301@Surface_Odessa_2.Surface.Odessa
+ 6> 1 : 1.0@odessa-entrance.Odessa
+ 6> input:9305 -- Surface/Surface_Odessa_2/Surface_Odessa_2.th [16]
+ 6> 9311 : 302@Surface_Odessa_2.Surface.Odessa
+ 7> 1 : 1.0@odessa-entrance.Odessa
+ 7> input:9306 -- Surface/Surface_Odessa_3/Surface_Odessa_3.th [15]
+ 7> 9312 : 401@Surface_Odessa_3.Surface.Odessa
+ 8> 1 : 1.0@odessa-entrance.Odessa
+ 8> input:9307 -- Surface/Surface_Odessa_3/Surface_Odessa_3.th [16]
+ 8> 9313 : 402@Surface_Odessa_3.Surface.Odessa
+ 9> 1 : 1.0@odessa-entrance.Odessa
+ 9> input:9308 -- Surface/Surface_Daquioag/Surface_Daquioag.th [16]
+ 9> 9314 : 101@Surface_Daquioag.Surface.Odessa
+10> 1 : 1.0@odessa-entrance.Odessa
+10> input:9309 -- Surface/Surface_Daquioag/Surface_Daquioag.th [17]
+10> 9315 : 102@Surface_Daquioag.Surface.Odessa
+11> 1 : 1.0@odessa-entrance.Odessa
+11> input:9310 -- Surface/Surface_Daquioag/Surface_Daquioag.th [18]
+11> 9316 : 103@Surface_Daquioag.Surface.Odessa
+12> 1 : 1.0@odessa-entrance.Odessa
+12> input:9311 -- Surface/Surface_Daquioag/Surface_Daquioag.th [19]
+12> 9317 : 104@Surface_Daquioag.Surface.Odessa
+14> 9417 : 34.1@Main2Sewer.Odessa -- 9409 : -@tumbali-day1-c2.Odessa
+15> 6 : 1.1@odessa-entrance.Odessa
 16> 14 : -@odessa-entrance.Odessa
-20> 4 : -@odessa-entrance.Odessa -- 9177 : -@tumbali-day1-c2.Odessa
-21> 9204 : -@tumbali-day1-c2.Odessa -- 4803 : -@Daquioag.Odessa
-22> 7392 : -@tumbali-d1-c3.Odessa -- 4321 : -@Daquioag.Odessa
+20> 4 : -@odessa-entrance.Odessa -- 9379 : -@tumbali-day1-c2.Odessa
+21> 9406 : -@tumbali-day1-c2.Odessa -- 4986 : -@Daquioag.Odessa
+22> 7575 : -@tumbali-d1-c3.Odessa -- 4504 : -@Daquioag.Odessa
 23> 10 : -@odessa-entrance.Odessa
-24> 8322 : 16.11@catcheel.Odessa
-25> 51 : -@odessa-entrance.Odessa
-26> 17 : -@odessa-entrance.Odessa
-27> 23 : -@odessa-entrance.Odessa
-28> 32 : -@odessa-entrance.Odessa
-29> 145 : -@odessa-entrance.Odessa
-30> 42 : -@odessa-entrance.Odessa
-31> 69 : -@odessa-entrance.Odessa
-32> 68 : -@odessa-entrance.Odessa
-33> 67 : -@odessa-entrance.Odessa
-34> 36 : 1.4@odessa-entrance.Odessa
+24> 8465 : -@catcheel.Odessa
+25> 73 : -@odessa-entrance.Odessa
+26> 18 : -@odessa-entrance.Odessa
+27> 26 : -@odessa-entrance.Odessa
+28> 41 : -@odessa-entrance.Odessa
+29> 162 : -@odessa-entrance.Odessa
+30> 45 : 1.6@odessa-entrance.Odessa
+31> 70 : -@odessa-entrance.Odessa
+32> 69 : -@odessa-entrance.Odessa
+33> 68 : -@odessa-entrance.Odessa
+34> 37 : -@odessa-entrance.Odessa
 35> 35 : -@odessa-entrance.Odessa
 36> 32 : -@odessa-entrance.Odessa
 37> 37 : -@odessa-entrance.Odessa
@@ -183,10 +196,10 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.41%
+average distortion: 0.44%
 writing .\output\Odessa.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  4 MAY 2016 22:35
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  6 MAY 2016 12:09
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -203,36 +216,40 @@ ode/_legend_large_format.mp)
 dessa] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
 [20] [21] [22] [23]
 [Warning: scrap outline intersects itself in scrap SewerSouth@SewerSouth.Odessa
-] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
-[Error: area borders l141-10106-29230 and l239-9798-29424 don't intersect in sc
-rap odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa (file odessa-downstre
-am-9-5/odessa-downstream-9-5.th2 [921])] [35] [36] [37] [38] [39] [40] [41]
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]
-[57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
-[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
-[87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97]
+] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[54] [55]
+[Error: area borders l219-14890-13898 and l70-12608-12764 don't intersect in sc
+rap odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag.Odessa (file Daqu
+ioag/odessaupday2oliandpete/odessaupday2oliandpete.th2 [105])] [56] [57] [58]
+[59] [60] [61] [62] [63] [64]
+[Warning: scrap outline intersects itself in scrap oxbow-up-20-04SP1@oxbow-up-2
+0-04.Daquioag.Odessa] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75]
+[76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
+[91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104]
+[105] [106] [107]
 [Warning: scrap outline intersects itself in scrap OdessaEntSide@odessa-entranc
-e.Odessa] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+e.Odessa] [108] [109] [110] [111] [112] [113] [114] [115] [116] (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) [110] [111] [112] [113] [114] [115] [116] [117]
-[118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
-[131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143]
-[144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155] )
+(./mptextmp.mp) [117] [118] [119] [120] [121] [122] [123] [124] [125] [126]
+[127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139]
+[140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
+[153] [154] [155] [156] [157] [158] [159] [160] [161] [162] )
  
 Here is how much of MetaPost's memory you used:
- 2537 strings out of 2977
- 18009 string characters out of 43988
- 1169798 words of memory out of 1500000
- 1529 symbolic tokens out of 16384
- 11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
- 763 string compactions (moved 12186276 characters, 1346501 strings)
-168 output files written: data.1 .. data.4013
+ 2820 strings out of 2977
+ 18782 string characters out of 34452
+ 1170847 words of memory out of 1500000
+ 1530 symbolic tokens out of 16384
+ 11i,75n,16p,596b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 971 string compactions (moved 15959077 characters, 1819822 strings)
+175 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  4 MAY 2016 22:36
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  6 MAY 2016 12:11
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -244,22 +261,22 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 462 strings out of 95617
- 4448 string characters out of 1171098
- 2187167 words of memory out of 3500000
- 1872 multiletter control sequences out of 15000+50000
+ 473 strings out of 95617
+ 4553 string characters out of 1171098
+ 2186785 words of memory out of 3500000
+ 1883 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 10i,5n,9p,1018b,86s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 10i,8n,9p,1092b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 3831160 bytes).
+Output written on data.pdf (1 page, 3969768 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
+ 577 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1605 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1691 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -268,14 +285,16 @@ writing .\output\Odessa-map.kml ... done
 writing .\output\Odessa-model.kml ... done
 writing .\output\Odessa-survex.3d ... done
 writing xtherion file ... done
-compilation time: 57 sec
+compilation time: 150 sec
 
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  1.30%    1.0m   73.5m   8    0.4m   -0.9m   -0.2m [9.7@smallloop.Odessa - 9.6 - 9.5 - 9.4 - 9.3 - 9.2 - 9.1 - 9.0 = 8.9@odessa-heaven.Odessa - 8.8 = 9.7@smallloop.Odessa]
-  1.18%   21.3m 1800.1m 197   14.9m   -7.5m  -13.2m [1.0@odessa-entrance.Odessa - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 - 1.28 - 1.29 - 1.30 = 1.66@odessaupday2oliandpete.Odessa - 1.65 - 1.64 - 1.63 - 1.62 - 1.61 - 1.60 - 1.59 - 1.58 - 1.57 - 1.56 - 1.55 - 1.54 - 1.53 - 1.52 - 1.51 - 1.50 - 1.49 - 1.48 - 1.47 - 1.46 - 1.45 - 1.44 - 1.43 - 1.42 - 1.41 - 1.40 - 1.39 - 1.38 - 1.37 - 1.36 - 1.35 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 1.13 - 1.12 - 1.11 - 1.10 - 1.9 - 1.8 - 1.7 - 1.6 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0 = 22.22@Daquioag.Odessa - 22.21 - 22.20 - 22.19 - 22.18 - 22.17 - 22.16 - 22.15 - 22.14 - 22.13 - 22.12 - 22.11 - 22.10 - 22.9 - 22.8 - 22.7 - 22.6 - 22.5 - 22.4 - 22.3 - 22.2 - 22.1 - 22.0 - 20.91 - 20.90 - 20.89 - 20.88 - 20.87 - 20.86 - 20.85 - 20.84 - 20.83 - 20.82 - 20.81 - 20.80 - 20.79 - 20.78 - 20.77 - 20.76 - 20.75 - 20.74 - 20.73 - 20.72 - 20.71 - 20.70 - 20.69 - 20.68 - 20.67 - 20.66 - 20.65 - 20.64 - 20.63 - 20.62 - 20.61 - 20.60 - 20.59 - 20.58 - 20.57 - 20.56 - 20.55 - 20.54 - 20.53 - 20.52 - 20.51 - 20.50 - 20.49 - 20.48 - 20.47 - 20.46 - 20.45 - 20.44 - 20.42 - 20.41 - 20.40 - 20.39 - 20.38 - 20.37 - 20.36 - 20.35 - 20.34 - 20.33 - 20.32 - 20.31 - 20.30 - 20.29 - 20.28 - 20.27 - 20.26 - 20.25 - 20.24 - 20.23 - 20.22 - 20.21 - 20.20 - 20.19 - 20.18 - 20.17 - 20.16 - 20.15 - 20.14 - 20.13 - 20.12 - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0]
-  0.63%    1.3m  205.1m  28    1.2m    0.4m    0.4m [17.9@catcheel.Odessa - 17.8 - 17.7 - 17.6 - 17.5 - 17.4 - 17.3 - 17.2 - 17.1 - 17.0 - 16.10 - 16.9 - 16.8 - 16.7 - 16.6 - 16.5 - 16.4 - 16.3 - 16.2 - 16.1 - 16.0 - 4.61 = 4.61@odessa-downstream-9-5.Odessa - 4.60 - 4.59 - 4.58 - 4.57 - 4.56 - 4.55 - 4.54 = 17.9@catcheel.Odessa]
+  9.53%    6.1m   64.5m   7    2.8m   -5.5m    0.0m [2.4@MainWestSide.Odessa - 3.2 - 3.1 - 1.2 - 2.1 - 2.2 - 2.3 - 2.4]
+  3.13%   14.8m  473.6m  27   -3.2m   11.7m   -8.5m [2.6@MainWestSide.Odessa - 2.5 - 2.4 - 3.2 - 3.1 - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 = 4.18@odessa-downstream-9-5.Odessa - 4.17 - 4.16 - 4.15 - 4.14 - 4.13 = 4.13@odessa-entrance.Odessa - 4.12 - 4.11 - 4.10 - 4.9 - 4.8 - 4.7 - 4.6 - 4.5 - 4.4 = 2.6@MainWestSide.Odessa]
+  1.30%    1.0m   73.5m   8    0.4m   -0.8m   -0.2m [9.7@smallloop.Odessa - 9.6 - 9.5 - 9.4 - 9.3 - 9.2 - 9.1 - 9.0 = 8.9@odessa-heaven.Odessa - 8.8 = 9.7@smallloop.Odessa]
+  1.04%   18.7m 1800.1m 197   12.9m   -3.2m  -13.2m [1.0@odessa-entrance.Odessa - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 - 1.28 - 1.29 - 1.30 = 1.66@odessaupday2oliandpete.Daquioag.Odessa - 1.65 - 1.64 - 1.63 - 1.62 - 1.61 - 1.60 - 1.59 - 1.58 - 1.57 - 1.56 - 1.55 - 1.54 - 1.53 - 1.52 - 1.51 - 1.50 - 1.49 - 1.48 - 1.47 - 1.46 - 1.45 - 1.44 - 1.43 - 1.42 - 1.41 - 1.40 - 1.39 - 1.38 - 1.37 - 1.36 - 1.35 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 1.13 - 1.12 - 1.11 - 1.10 - 1.9 - 1.8 - 1.7 - 1.6 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0 = 22.22@Daquioag.Odessa - 22.21 - 22.20 - 22.19 - 22.18 - 22.17 - 22.16 - 22.15 - 22.14 - 22.13 - 22.12 - 22.11 - 22.10 - 22.9 - 22.8 - 22.7 - 22.6 - 22.5 - 22.4 - 22.3 - 22.2 - 22.1 - 22.0 - 20.91 - 20.90 - 20.89 - 20.88 - 20.87 - 20.86 - 20.85 - 20.84 - 20.83 - 20.82 - 20.81 - 20.80 - 20.79 - 20.78 - 20.77 - 20.76 - 20.75 - 20.74 - 20.73 - 20.72 - 20.71 - 20.70 - 20.69 - 20.68 - 20.67 - 20.66 - 20.65 - 20.64 - 20.63 - 20.62 - 20.61 - 20.60 - 20.59 - 20.58 - 20.57 - 20.56 - 20.55 - 20.54 - 20.53 - 20.52 - 20.51 - 20.50 - 20.49 - 20.48 - 20.47 - 20.46 - 20.45 - 20.44 - 20.42 - 20.41 - 20.40 - 20.39 - 20.38 - 20.37 - 20.36 - 20.35 - 20.34 - 20.33 - 20.32 - 20.31 - 20.30 - 20.29 - 20.28 - 20.27 - 20.26 - 20.25 - 20.24 - 20.23 - 20.22 - 20.21 - 20.20 - 20.19 - 20.18 - 20.17 - 20.16 - 20.15 - 20.14 - 20.13 - 20.12 - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0]
+  0.30%    0.6m  205.1m  28    0.5m   -0.0m    0.4m [17.9@catcheel.Odessa - 17.8 - 17.7 - 17.6 - 17.5 - 17.4 - 17.3 - 17.2 - 17.1 - 17.0 - 16.10 - 16.9 - 16.8 - 16.7 - 16.6 - 16.5 - 16.4 - 16.3 - 16.2 - 16.1 - 16.0 - 4.61 = 4.61@odessa-downstream-9-5.Odessa - 4.60 - 4.59 - 4.58 - 4.57 - 4.56 - 4.55 - 4.54 = 17.9@catcheel.Odessa]
 ##################### end of loop errors #######################
 
 
@@ -283,35 +302,37 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    1.53%   95.11%  Surface_Odessa_3_SP1@Surface_Odessa_3.Surface.Odessa
-   1.16%   83.85%  OdessaEntLower@odessa-entrance.Odessa
-   0.22%   82.15%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa
-   0.10%   78.02%  odessa1204SP1@odessa1204.Odessa
-   0.90%   74.52%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag.Odessa
-   0.39%   74.22%  catcheelSP1@catcheel.Odessa
-   0.51%   67.77%  DaquioagSP1@Daquioag.Odessa
+   0.43%   85.44%  DaquioagSP1@Daquioag.Odessa
+   1.47%   84.79%  OdessaEntLower@odessa-entrance.Odessa
+   0.27%   82.31%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa
+   0.10%   78.01%  odessa1204SP1@odessa1204.Odessa
+   0.34%   74.88%  catcheelSP1@catcheel.Odessa
+   0.90%   74.36%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag.Odessa
    3.79%   65.85%  Surface_DaquioagSP1@Surface_Daquioag.Surface.Odessa
-   5.44%   65.73%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag.Odessa
-   0.80%   59.90%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag.Odessa
+   5.40%   65.73%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag.Odessa
+   0.80%   59.93%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag.Odessa
+   0.27%   59.84%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag.Odessa
    1.64%   57.20%  Surface_Odessa_2_SP1@Surface_Odessa_2.Surface.Odessa
-   1.04%   56.70%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag.Odessa
-   0.65%   45.98%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag.Odessa
-   0.31%   42.58%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa
-   0.14%   39.14%  SewerSouth@SewerSouth.Odessa
-   0.38%   34.12%  smallloopSP1@smallloop.Odessa
-   0.15%   32.69%  odessa-heavenSP1@odessa-heaven.Odessa
-   0.02%   29.16%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
-   0.91%   25.09%  Main2SewerSP1@Main2Sewer.Odessa
-   0.08%   21.79%  SewerNorthTopSP1@SewerNorthTop.Odessa
-   0.94%   17.04%  SewerNorthSide@SewerNorthSide.Odessa
-   0.02%   17.03%  odessa-up-loopSP1@odessa-up-loop.Daquioag.Odessa
+   1.08%   55.84%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag.Odessa
+   0.31%   53.41%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag.Odessa
+   5.62%   50.97%  MainWestSideSP1@MainWestSide.Odessa
+   0.66%   45.81%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag.Odessa
+   0.15%   39.22%  SewerSouth@SewerSouth.Odessa
+   0.38%   34.11%  smallloopSP1@smallloop.Odessa
+   0.15%   32.68%  odessa-heavenSP1@odessa-heaven.Odessa
+   0.02%   29.88%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
+   0.90%   25.08%  Main2SewerSP1@Main2Sewer.Odessa
+   0.08%   21.86%  SewerNorthTopSP1@SewerNorthTop.Odessa
+   0.10%   17.94%  seriouscavingupstreamSP1@seriouscavingupstream.Daquioag.Odessa
+   0.03%   17.12%  odessa-up-loopSP1@odessa-up-loop.Daquioag.Odessa
+   0.95%   16.94%  SewerNorthSide@SewerNorthSide.Odessa
    0.38%   15.27%  Surface_Odessa_1_SP1@Surface_Odessa_1.Surface.Odessa
-   0.48%   14.14%  odessa-entranceSP1@odessa-entrance.Odessa
+   0.37%   12.14%  odessa-entranceSP1@odessa-entrance.Odessa
    0.07%    1.03%  LowerLevel@tumbali-day1-c2.Odessa
    0.06%    0.71%  UpperLevel@tumbali-day1-c2.Odessa
-   0.07%    0.63%  OdessaEntSide@odessa-entrance.Odessa
-   0.03%    0.26%  shepherdSP1@shepherd.Odessa
-   0.01%    0.20%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag.Odessa
-   0.02%    0.10%  OdessaEntLowSide@odessa-entrance.Odessa
+   0.06%    0.59%  OdessaEntSide@odessa-entrance.Odessa
+   0.03%    0.17%  OdessaEntLowSide@odessa-entrance.Odessa
+   0.03%    0.16%  shepherdSP1@shepherd.Odessa
    0.00%    0.00%  odessa-up-loopSP2@odessa-up-loop.Daquioag.Odessa
    0.00%    0.00%  Road@Daquioag.Odessa
 ################### end of scrap distortions ###################

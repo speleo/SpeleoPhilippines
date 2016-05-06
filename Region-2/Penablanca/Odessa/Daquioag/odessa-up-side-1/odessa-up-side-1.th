@@ -18,12 +18,14 @@ copyright 2016 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2005.07.01
+  date 2016.04.11
 
-  team "Rich Smith" notes
-  team "Alison Moody" instruments
+  team "Anya Keatley" instruments
+  team "Richard Smith" instruments
+  team "Ruth Allan" instruments
+  team "Sam Goodyear" instruments
 
-  instrument  instruments "UBSS DistoX1"
+  instrument instruments "PDA 2 + Stu DistoX2"
 
 data normal from to tape compass clino ignoreall
   extend right

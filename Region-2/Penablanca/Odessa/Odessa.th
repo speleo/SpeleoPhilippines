@@ -3,7 +3,6 @@ survey Odessa
   input odessa-entrance/odessa-entrance.th
   input odessa-heaven/odessa-heaven.th
   input odessa-downstream-9-5/odessa-downstream-9-5.th
-  input odessaupday2oliandpete/odessaupday2oliandpete.th
   input Daquioag/Daquioag.th 
   input tumbali-d1-c3/tumbali-d1-c3.th 
   input odessa1204/odessa1204.th
@@ -14,7 +13,11 @@ survey Odessa
   input SewerNorthTop/SewerNorthTop.th
   input SewerNorthSide/SewerNorthSide.th 
   input SewerSouth/SewerSouth.th
-  
+  input mainWestSide/MainWestSide.th
+
+  #input odessaupday2oliandpete/odessaupday2oliandpete.th
+
+      
   #  comment out the line below to remove surface details
   input Surface/Surface.th
    
@@ -77,32 +80,34 @@ survey Odessa
     
   #join Odessa Entrance with Upstream
     # walls
-      join EntranceLowerTop@odessa-entrance:0 UpstreamRHW@odessaupday2oliandpete:0
-      join EntranceLowerBottom@odessa-entrance:end UpstreamLHW@odessaupday2oliandpete:end 
+      join EntranceLowerTop@odessa-entrance:0 UpstreamRHW@odessaupday2oliandpete.Daquioag:0
+      join EntranceLowerBottom@odessa-entrance:end UpstreamLHW@odessaupday2oliandpete.Daquioag:end 
 
   #join Upstream with Daquioag
     # walls
-      join DaquioagSP1@Daquioag odessaupday2oliandpeteSP1@odessaupday2oliandpete
+    #  join DaquioagSP1@Daquioag odessaupday2oliandpeteSP1@odessaupday2oliandpete
 
   centreline
     # equate 7.1@Odessa-Day1-upstream2  1.30@odessa-entrance
     # above taken out as duplicate survey
-    equate 7.1@odessa-heaven  1.30@odessa-entrance
-    equate 4.13@odessa-downstream-9-5 4.13@odessa-entrance
-    equate 3.28@odessa-downstream-9-5 3.28@tumbali-d1-c3
-    equate 1.66@odessaupday2oliandpete 1.30@odessa-entrance
-    equate 22.22@Daquioag 1.0@odessaupday2oliandpete  
-    equate 5.0@odessa1204 4.75@odessa-downstream-9-5
-    equate 5.60@odessa1204 5.60@SewerNorthTop
-    equate 4.61@catcheel 4.61@odessa-downstream-9-5
-    equate 17.9@catcheel 4.54@odessa-downstream-9-5
-    equate 18.0@shepherd 3.62@tumbali-d1-c3
-    equate 8.8@odessa-heaven 9.7@smallloop
-    equate 8.9@odessa-heaven 9.0@smallloop
-    equate 35.0@SewerSouth 5.1@odessa1204
-    equate 34.0@SewerNorthSide 5.16@odessa1204
-    equate 4.70@Main2Sewer 4.70@odessa-downstream-9-5
-    equate 34.1@Main2Sewer 34.1@SewerNorthSide 
+    equate 7.1@odessa-heaven           1.30@odessa-entrance
+    equate 4.13@odessa-downstream-9-5  4.13@odessa-entrance
+    equate 3.28@odessa-downstream-9-5  3.28@tumbali-d1-c3
+    equate 1.66@odessaupday2oliandpete.Daquioag 1.30@odessa-entrance
+    #equate 22.22@Daquioag             1.0@odessaupday2oliandpete  
+    equate 5.0@odessa1204              4.75@odessa-downstream-9-5
+    equate 5.60@odessa1204             5.60@SewerNorthTop
+    equate 4.61@catcheel               4.61@odessa-downstream-9-5
+    equate 17.9@catcheel               4.54@odessa-downstream-9-5
+    equate 18.0@shepherd               3.62@tumbali-d1-c3
+    equate 8.8@odessa-heaven           9.7@smallloop
+    equate 8.9@odessa-heaven           9.0@smallloop
+    equate 35.0@SewerSouth             5.1@odessa1204
+    equate 34.0@SewerNorthSide         5.16@odessa1204
+    equate 4.70@Main2Sewer             4.70@odessa-downstream-9-5
+    equate 34.1@Main2Sewer             34.1@SewerNorthSide 
+    equate 4.18@odessa-downstream-9-5  1.10@MainWestSide
+    equate 4.4@odessa-entrance         2.6@MainWestSide
   endcentreline
 
   map map-test

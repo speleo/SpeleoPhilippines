@@ -8,9 +8,39 @@ export model -fmt kml -o .\output\Odessa-model.kml
 #Survex file showing centre line only
 export model -fmt survex -o .\output\Odessa-survex.3d
 
-  text en "point u:bat" "bat"
-  text en "line u:bat" "bat path"
-  text en "area u:bat" "lot of bats"
+  text en "point u:bat"    "bat"
+  text en "line u:bat"     "bat path"
+  text en "area u:bat"     "lot of bats"
+  text en "area sand"      "sand<br>darat"
+  text en "area water"     "water<br>danum"
+  text en "area clay"      "clay<br>luad"
+  text en "area pebbles"   "pebbles<br>mga maliliit na bato"
+  text en "area flowstone" "flowstone<br>flowstone"
+  text en "area bedrock"   "bedrock<br>pundasyong bato"
+  
+  text en "point station:temporary" "temporary survey station<br>istasyon ng puntong sinukat: pansamantala"
+  text en "point entrance"          "entrance<br>puntong sinukat sa pasukan"
+  text en "point air-draught"       "draught<br>hihip ng hangin sa puntong sinukat"
+  text en "point gradient"          "gradient<br>dahilig ng puntong sinukat"
+  text en "point pillar"            "pillar<br>pillar sa puntong sinukat"
+  text en "point water-flow"        "water-flow<br>daloy ng tubig sa puntong sinukat"
+  text en "point passage-height"    "passage height<br>**** need to translate ****"
+    
+  text en "line wall"            "wall<br>dingding ng linyang sinukat"
+  text en "line flowstone"       "flowstone<br>flowstone"
+  text en "line gradient"        "slope<br>dahilig ng linyang sinukat"
+  text en "line wall:presumed"   "presumed wall<br>dingding ng linyang sinukat: ipinagpapalagay"
+  text en "line floor-step"      "floor step<br>hakbangan sa sahig ng linyang sinukat"
+  text en "line ceiling-step"    "ceiling step<br>hakbangan sa kisame ng linyang sinukat"
+  text en "line chimney"         "chimney<br>tsimenea sa linyang sinukat"
+  text en "line wall:pit"        "pitch<br>butas"
+  text en "line pit"             "pitch<br>butas"
+  text en "line border"          "border<br>hangganan ng linyang sinukat"
+  text en "line border:presumed" "presumed border<br>hangganan ng linyang sinukat: ipinagpapalagay"
+  text en "line rock-border"     "rock border<br>hangganang bato ng linyang sinukat"
+  text en "line rock-edge"       "rock edges<br>gilid na bato sa linyang sinukat"
+  text en "line section"         "cross-section<br>**** need to translate ****"
+  text en "line slope"           "slope<br>**** need to translate ****"  
 
 layout local
   scale 1 500
@@ -87,6 +117,16 @@ layout local-odessa
         T:=identity;
         thfill p withcolor (0.1, 0.2, 0.8);
     enddef;
+
+    # Code to define an entrance symbol as a theta inside a diamond (Dave Clucas 2014)   
+    def p_entrance (expr pos,theta,sc,al)=
+      U:=(0.8u,2u);
+      T:=identity aligned al rotated theta scaled sc shifted pos;
+      path p;
+      p = (-1.2u,-1u) -- (-0.8u,-1u){dir 135} .. (0u,1u) .. {dir 225}(0.8u,-1u) -- (1.2u,-1u);
+      thdraw p withpen PenA;
+      thdraw unitsquare scaled 4u shifted (-2u,-2u) rotated 45 withpen PenA;
+    enddef;
     
     # change centre line to continuous
     def l_survey_cave (expr p) =
@@ -103,7 +143,7 @@ layout local-odessa
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,30,54,80); 
+    fonts_setup(30,45,65,95,140); 
   
   endcode
 
@@ -118,15 +158,50 @@ layout local-odessa
 ################################################################# 
   
   code tex-map
+  
+# ------------------------------------------------------------- experitmental
+ 
+\def\colorlegendbox#1#2#3{%
+  #\setbox\xxx=\hbox to 36bp{\PL{q #1 #2 #3 rg 0 0 36 24 re f Q}\hfil}%
+  \setbox\xxx=\hbox to 125bp{\PL{q #1 #2 #3 rg 0 0 360 224 re f Q}\hfil}%
+  \ht\xxx=125bp\dp\xxx=10bp
+  #\xxx\ht{200pt}
+  \immediate\pdfxform\xxx
+}
+
+
+# ------------------------------------------------------------- experitmental   
+\def\legendsymbolbox#1#2{%
+  \setbox\tmpboxa=\hbox{\pdfrefxform#1}%
+  \setbox\tmpboxb=\hbox{\the\legendtextsize(}%
+  \legendsymbolwd=\wd\tmpboxa
+  \legendsymbolht=\ht\tmpboxa
+  \advance\legendsymbolht by -\ht\tmpboxb
+  \advance\legendsymbolht by -\ht\tmpboxb
+  \advance\legendsymbolht by -20pt
+  \advance\legendsymbolht by -1dd
+  \tmpdimen=\hsize
+    \advance\tmpdimen by 10pt 
+    \divide\tmpdimen by\legendcolumns 
+    \advance\tmpdimen by-10pt
+  \hbox to \tmpdimen{%
+     \box\tmpboxa\kern10pt\raise\legendsymbolht\vtop{%
+       \advance\tmpdimen by -\legendsymbolwd
+       \advance\tmpdimen by -10pt
+       \hsize=\tmpdimen\rightskip=0pt plus \tmpdimen minus 0pt\relax\the\legendtextsize #2\vskip1dd}\hss}%
+}
+   
+# ------------------------------------------------------------- experitmental
+  
   \copyrights={Copyleft Creative Commons ShareAlike}
-  \cavename={Odessa}
+  \cavename={Odessa Tumbali System}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
-    \legendbox{0}{90}{NW}{
-      \legendwidth 70 cm
+    \legendbox{05}{95}{NW}{
+      \legendwidth 60 cm
       \the\legendcontent
       }
-    \legendbox{05}{80}{NW}{
+    \legendbox{05}{85}{NW}{
       \legendwidth 65 cm
       \legendtextsize={\size[42]}
       \hsize=\legendwidth

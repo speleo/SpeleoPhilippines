@@ -24,21 +24,18 @@ copyright 2016 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
-
   date 2016.04.08
 
   team "Rich Smith" notes
-  team "Rufus" instruments
-  team "Ranger " instruments
+  team "Ruth Allan" instruments
+  team "Ranger Marquez" instruments
+  team "Catherine Hulse" instruments
+  team "Patrick Hillier" instruments
 
-  instrument  instruments "BEC DistoX2"
+  instrument instruments "PDA 1 + BEC DistoX2"
   #
   cs EPSG:32651
-  # not sure which is the correct station to pin
-  #fix 1.0 395440.34 1992943.49 294
   fix 1.0 376674.73 1966124.98 198
-  # N 17 46.841
-  # E 121 49.863
 
 data normal from to tape compass clino ignoreall
   extend right
@@ -349,15 +346,18 @@ centreline
 
 copyright 2016 "GNU GPL"
 
+  date 2016.04.08
+
+  team "Rich Smith" notes
+  team "Ruth Allan" instruments
+  team "Ranger Marquez" instruments
+  team "Catherine Hulse" instruments
+  team "Patrick Hillier" instruments
+
+  instrument instruments "PDA 1 + BEC DistoX2"
+
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
-
-  date 2005.07.01
-
-  team "Andrew Atkinson" notes
-  team "Alison Moody" instruments
-
-  instrument  instruments "UBSS DistoX1"
 
 data normal from to tape compass clino ignoreall
 1.30  -  14.279  305.13  71.06  

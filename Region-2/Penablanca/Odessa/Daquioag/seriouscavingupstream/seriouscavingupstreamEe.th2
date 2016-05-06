@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2129.48 -48.65 12776.91 291.92
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1064.74231249 1 1.0} {99.4711900429 28.61} PocketTopo/seriouscavingupstream_e.xvi 0 {}
+
+
+scrap seriouscavingupstreamSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

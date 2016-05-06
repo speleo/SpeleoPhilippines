@@ -3,7 +3,6 @@ survey odessa-up-loop
 
 input odessa-up-loop.th2
 
-
 map odessa-up-loopM
   odessa-up-loopSP1
     break
@@ -11,7 +10,15 @@ map odessa-up-loopM
 endmap
 
 centreline
-  date 2005.07.01
+  date 2016.04.17
+  
+  team "Anya Keatley" instruments
+  team "Laura Benn" instruments
+  team "Oliver Legg" notes
+  team "Sam Goodyear" instruments
+
+  instrument instruments "PDA 2 + Stu DistoX2"
+
   data normal from to compass clino tape
   extend right
   

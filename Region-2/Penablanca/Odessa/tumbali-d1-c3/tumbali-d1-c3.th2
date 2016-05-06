@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 24209.275590553698 20774.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -136.0 -136.0 24209.275590553698 22774.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {18195.57267717 1 1.0} {16481.4432283 11.18} PocketTopo/tumbali-d1-c3_p.xvi 0 {}
 
 
@@ -274,7 +274,7 @@ line border -id l223-3606-2704 -subtype invisible
   smooth off
 endline
 
-point 5560.0 17206.0 label -align right -text [Continues through<br>duck]
+point 5560.0 17206.0 label -align right -text [Continues through<br>duck] -scale xs
 
 point 3546.0 15937.0 label -align right -text Duck
 
@@ -785,6 +785,15 @@ line wall -id l110-20314-18416 -reverse on
   20636.0 18246.0 20624.0 18322.0 20604.0 18390.0
   20584.0 18458.0 20598.0 18514.0 20590.0 18552.0
   20582.0 18590.0 20582.0 18622.0 20582.0 18622.0
+  smooth off
+endline
+
+line wall -reverse on
+  18974.0 18652.0
+  18974.0 18652.0 18936.0 18744.0 18914.0 18754.0
+  18892.0 18764.0 18836.0 18796.0 18810.0 18808.0
+  18784.0 18820.0 18724.0 18850.0 18710.0 18856.0
+  18696.0 18862.0 18628.0 18894.0 18628.0 18894.0
   smooth off
 endline
 
@@ -1350,6 +1359,14 @@ line border -id l125-4072-2732 -close on -subtype invisible
   3382.0 2218.0
 endline
 
+line label -text Light -scale xl
+  1792.0 3056.0
+  1792.0 3056.0 1396.0 4840.0 1392.0 4944.0
+  1388.0 5048.0 1260.0 6228.0 1280.0 6624.0
+  1300.0 7020.0 1512.0 8304.0 1536.0 8424.0
+  1560.0 8544.0 1832.0 10044.0 1844.0 10124.0
+endline
+
 line wall -id DiaLightExitLHW
   4876.0 20442.0
   4892.0 20408.0 4892.0 20376.0 4924.0 20344.0
@@ -1665,7 +1682,7 @@ line border -id l298-18720-11586 -subtype invisible
   smooth off
 endline
 
-point 18983.0 11385.0 label -align right -text [5m Climb to aven/side passage<br>Windy with lots of bats]
+point 19199.0 11391.0 label -align right -text [5m Climb to aven/side passage<br>Windy with lots of bats] -scale xs
 
 line wall -reverse on
   18720.0 11444.0
@@ -1698,27 +1715,25 @@ point 16604.0 10418.0 pillars
 
 point 16524.0 10286.0 pillars
 
-point 18718.0 18552.0 pillars
+point 18056.0 15136.0 label -text [Sky Light] -align left -scale xs
 
-point 18056.0 15136.0 label -text [Sky Light] -align left
+point 12910.0 14700.0 label -text [Sky Light] -align left -scale s
 
-point 12910.0 14700.0 label -text [Sky Light] -align left
+point 13086.0 15486.0 label -text [Sky Light] -align left -scale xs
 
-point 13086.0 15486.0 label -text [Sky Light] -align left
+point 5356.0 21326.0 label -align center -text Entrance
 
-point 5226.0 20502.0 label -align center -text Entrance
+point 14526.0 15952.0 label -text Entrance -align right
 
-point 14526.0 15952.0 label -align center -text Entrance
+point 17678.0 15510.0 label -text Entrance -align left -scale xs
 
-point 17678.0 15510.0 label -align center -text Entrance
+point 19016.0 19258.0 label -align center -text Entrance
 
-point 19216.0 18774.0 label -align center -text Entrance
+point 20652.0 18722.0 label -align center -text Entrance -scale xs
 
-point 20652.0 18722.0 label -align center -text Entrance
+point 21956.0 16472.0 label -align center -text Entrance -scale xs
 
-point 21956.0 16472.0 label -align center -text Entrance
-
-point 21438.0 17984.0 label -align center -text [Rock Bridge]
+point 21386.0 17930.0 label -text [Rock Bridge] -scale xs -align top-right
 
 line pit
   22744.0 17682.0
@@ -1728,13 +1743,19 @@ line pit
   smooth off
 endline
 
-point 23656.0 18496.0 label -align center -text Canyon
+point 23656.0 18654.0 label -align center -text Canyon
 
-point 20418.0 17654.0 label -text [Treasure Hunters Pit] -align center
+line label -reverse on -text [Python's Retreat] -scale xl
+  19140.0 9920.0
+  18984.0 9804.0 16636.0 9020.0 16636.0 9020.0
+  smooth off
+  12432.0 7376.0
+  7436.0 5328.0
+endline
 
-point 19076.0 17916.0 label -align right -text [Treasure Hunters Pit]
+point 19548.0 17510.0 label -scale xs -text [Treasure<br>Hunters Pits] -align center
 
-point 18740.0 16054.0 label -align right -text [Treasure Hunters Pit]
+point 18740.0 16054.0 label -align right -scale xs -text [Treasure<br>Hunters Pit]
 
 area blocks
   l158-18366-15924

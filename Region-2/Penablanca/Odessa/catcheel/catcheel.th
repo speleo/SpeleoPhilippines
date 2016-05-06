@@ -24,7 +24,7 @@ copyright 2016 "GNU GPL"
   team "Henry Bennett" instruments
   team "Paul Fairman" instruments
 
-  instrument  instruments "Henry Bennett DistoX2"
+  instrument instruments "PDA 4 + Henry Bennett DistoX2"
 
 data normal from to tape compass clino ignoreall
   extend right

@@ -14,12 +14,16 @@ copyright 2016 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2005.07.01
+  date 2016.04.16
+  
+  team "Anya Keatley" instruments
+  team "Oliver Legg" instruments
+  team "Patrick Hillier" instruments
+  team "Ruth Allan" instruments
+  team "Sam Goodyear" instruments
 
-  team "Andrew Atkinson" notes
-  team "Alison Moody" instruments
+  instrument instruments "PDA 2 + Stu DistoX2"
 
-  instrument  instruments "UBSS DistoX1"
   
   data normal from to compass clino tape
   extend right
@@ -234,8 +238,6 @@ copyright 2016 "GNU GPL"
   35.28 - 161.20 2.52 2.233
   35.28 35.29 212.16 10.66 4.432
 endcentreline
-
-
 
 endsurvey
 
