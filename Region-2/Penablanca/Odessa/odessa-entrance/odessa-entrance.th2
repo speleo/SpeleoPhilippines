@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -276.0 -144.0 6364.2487590619 30093.9286813641
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {3269.88301103 1 1.0} {6891.483169559999 1.4} PocketTopo/odessa-entrance_p.xvi 0 {}
 
 
@@ -111,7 +111,7 @@ line wall -id l8-1152-7616 -reverse on
   smooth off
 endline
 
-point 1015.0 6660.0 label -text [?] -align center
+point 1015.0 6660.0 label -text [?] -align center -scale s
 
 line wall -id l9-2400-5284 -reverse on
   1854.0 4932.0
@@ -393,7 +393,7 @@ point 3844.0 3024.0 pillar
 
 point 3920.0 3168.0 pillar
 
-point 3064.0 9366.0 label -text [Pitch ?] -align right
+point 3064.0 9366.0 label -text [Pitch ?] -align right -scale xs
 
 line wall -id l20-3084-9944
   2476.0 3788.0
@@ -543,6 +543,7 @@ line wall -id EntranceLowerBottom -reverse on
   2624.0 10416.0 2608.0 10400.0 2552.0 10380.0
   2496.0 10360.0 2436.0 10360.0 2392.0 10352.0
   2273.24 10330.41 2134.0 10428.0 2120.0 10500.0
+  smooth off
 endline
 
 line wall -id EntranceLowerTop -reverse on
@@ -810,6 +811,13 @@ point 1473.5630110299999 29426.673169560003 station -name 4.13
 
 point 1871.23301103 28963.87316956 station -name 4.12
 
+point 3912.0 27128.0 section -scrap odessa-entranceSPX4.11
+
+line section -direction both
+  2308.0 26854.0
+  3132.0 27190.0
+endline
+
 point 2757.38301103 27154.643169559997 station -name 4.11
 
 point 2253.36301103 25115.15316956 station -name 4.10
@@ -1060,7 +1068,7 @@ point 836.47301103 7721.923169559999 station -name 1.22
 
 point 1233.0930110299998 7787.36316956 station -name 1.18
 
-point 880.0 8902.0 label -text Squeeze -align left
+point 880.0 8902.0 label -text Squeeze -align left -scale xs
 
 point 1103.0 8806.0 stalactites
 
@@ -1119,7 +1127,7 @@ point 765.0 7568.0 stalactite
 
 point 678.0 7567.0 stalactite
 
-point 633.0 7054.0 label -text [Too tight] -align center
+point 633.0 7054.0 label -text [Too tight] -scale xs -align left
 
 point 1454.25301103 7634.413169559999 station -name 1.21
 
@@ -1187,6 +1195,29 @@ endscrap
 
 
 scrap odessa-entranceSPX4.11 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  3934.0 27246.0
+  3898.0 27242.0 3844.0 27236.0 3770.0 27222.0
+  3696.0 27208.0 3640.0 27186.0 3588.0 27182.0
+  3536.0 27178.0 3452.0 27194.0 3422.0 27180.0
+  3392.0 27166.0 3362.0 27182.0 3378.0 27128.0
+  3394.0 27074.0 3364.0 27038.0 3408.0 26982.0
+  3452.0 26926.0 3512.0 26898.0 3546.0 26884.0
+  3580.0 26870.0 3644.0 26828.0 3686.0 26804.0
+  3728.0 26780.0 3822.0 26770.0 3856.0 26784.0
+  3890.0 26798.0 3956.0 26796.0 3982.0 26782.0
+  4008.0 26768.0 4052.0 26744.0 4106.0 26760.0
+  4160.0 26776.0 4216.0 26790.0 4244.0 26814.0
+  4272.0 26838.0 4300.0 26850.0 4286.0 26920.0
+  4272.0 26990.0 4276.0 27020.0 4276.0 27060.0
+  4276.0 27100.0 4282.0 27108.0 4276.0 27162.0
+  4270.0 27216.0 4262.0 27288.0 4198.0 27286.0
+  4134.0 27284.0 4038.0 27308.0 4004.0 27284.0
+  3970.0 27260.0 3970.0 27250.0 3934.0 27246.0
+endline
+
+point 4091.7630110299997 26985.22316956 station -name 4.11
 
 endscrap
 

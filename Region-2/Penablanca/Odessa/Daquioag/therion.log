@@ -121,54 +121,66 @@ selecting export objects ... done
 processing projection plan ... done
 average distortion: 0.23%
 writing Daquioag.pdf ...
+processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  6 MAY 2016 22:27
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  7 MAY 2016 13:18
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[1] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap odessaupday2oliandpeteSPX1.1
+4@odessaupday2oliandpete.Daquioag] [6] [7] [8] [9] [10]
+[Warning: scrap outline intersects itself in scrap odessaupday2oliandpeteSPX1.1
+@odessaupday2oliandpete.Daquioag] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+[20] [21] [22] [23] [24] [25]
+[Warning: scrap outline intersects itself in scrap oxbow-up-20-04SP1@oxbow-up-2
+0-04.Daquioag] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
+[38] [39] [40] [41] [42]
 [Warning: scrap outline intersects itself in scrap odessa-up-loopSP2@odessa-up-
-loop.Daquioag] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
-[28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] (./mptextmp.mp)
-[40] )
+loop.Daquioag] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
+[55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+[70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
+[85] [86] [87] [88] [89]
+[Warning: scrap outline intersects itself in scrap DaquioagSPX20.12@Daquioag]
+[90] [91] [92] [93] [94] [95] [96] [97] (./mptextmp.mp) [98] )
  
 Here is how much of MetaPost's memory you used:
- 1752 strings out of 2233
- 17450 string characters out of 34452
- 258760 words of memory out of 1500000
+ 1794 strings out of 2233
+ 17563 string characters out of 34452
+ 258809 words of memory out of 1500000
  1519 symbolic tokens out of 16384
  11i,75n,16p,576b,5f stack positions out of 300i,84n,5000p,608b,15f
- 987 string compactions (moved 16155762 characters, 1505655 strings)
-52 output files written: data.1 .. data.4012
+ 1253 string compactions (moved 20605291 characters, 1939837 strings)
+110 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  6 MAY 2016 22:27
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  7 MAY 2016 13:18
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 110 numeric registers used out of 32768
+ 193 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 307 strings out of 95617
- 3064 string characters out of 1171098
- 657792 words of memory out of 2103770
- 1720 multiletter control sequences out of 15000+50000
+ 390 strings out of 95617
+ 3970 string characters out of 1171098
+ 655154 words of memory out of 2101132
+ 1803 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,458b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 770921 bytes).
+Output written on data.pdf (1 page, 874579 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
+ 346 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 511 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1009 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -177,19 +189,19 @@ writing Daquioag-map.kml ... done
 writing Daquioag-model.kml ... done
 writing Daquioag.3d ... done
 writing xtherion file ... done
-compilation time: 19 sec
+compilation time: 28 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.09%   85.61%  DaquioagSP1@Daquioag
+   0.08%   85.61%  DaquioagSP1@Daquioag
    0.90%   74.60%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag
    5.39%   65.95%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag
-   0.80%   59.97%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag
+   0.87%   59.97%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag
    0.13%   59.65%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag
-   1.10%   55.33%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag
-   0.43%   53.42%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag
+   1.06%   55.33%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag
+   0.48%   53.42%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag
    0.06%   51.27%  odessa-up-loopSP1@odessa-up-loop.Daquioag
    7.29%   48.93%  odessa-up-loopSP2@odessa-up-loop.Daquioag
    0.65%   46.11%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag

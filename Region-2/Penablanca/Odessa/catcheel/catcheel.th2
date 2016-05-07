@@ -55,9 +55,9 @@ line label -text [Can't catch the eel] -scale l
   smooth off
 endline
 
-point 5184.0 4772.0 label -text Stooping -scale m -align right
+point 5184.0 4772.0 label -text Stooping -align right -scale xs
 
-point 7896.0 6112.0 label -text Pollution<br>diapers -align right
+point 7896.0 6112.0 label -text Pollution<br>diapers -align right -scale xs
 
 point 12456.0 8700.0 label -align bottom -text Crawl
 
@@ -519,7 +519,7 @@ endline
 
 point 1425.0 1245.0 label -text [Sump] -align bottom-right -scale m
 
-point 4315.0 3526.0 label -text [Shallow Water 3cm] -align right -scale m
+point 4315.0 3526.0 label -text [Shallow Water 3cm] -align right -scale xs
 
 point 3079.0 3177.0 stalactite -scale xs
 

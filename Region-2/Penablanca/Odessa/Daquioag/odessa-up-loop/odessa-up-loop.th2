@@ -895,7 +895,7 @@ area clay
   l97-6792-7262
 endarea
 
-point 6895.0 7961.0 label -align right -text Duck
+point 6895.0 7961.0 label -align right -text Duck -scale xs
 
 line arrow -reverse on
   6882.0 8105.0

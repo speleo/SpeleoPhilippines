@@ -2052,6 +2052,7 @@ line label -text Dia's -scale xl
   17748.0 70000.0 17740.0 72180.0 17760.0 72388.0
   17780.0 72596.0 17856.0 74060.0 17880.0 74168.0
   17904.0 74276.0 17968.0 74900.0 17976.0 74940.0
+  smooth off
 endline
 
 line wall -id MainPassageUpstream -reverse on
@@ -2079,8 +2080,14 @@ endscrap
 
 scrap odessa-downstream-9-5SPX4.51 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-area water
-endarea
+point 10866.0 27644.0 section -scrap odessa-downstream-9-5SPX4.51 -align right
+
+point 8836.0 37860.0 section -scrap odessa-downstream-9-5SPX4.51
+
+line section -direction both
+  7160.0 37456.0
+  8340.0 37792.0
+endline
 
 line wall -close on -reverse on
   8480.0 38668.0
