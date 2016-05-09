@@ -23,9 +23,9 @@ processing survey data ...
  6> Total length of survey shots = 22529.42m (22529.42m adjusted)
  7> Total plan length of survey shots = 20936.60m
  8> Total vertical length of survey shots = 4009.11m
- 9> Vertical range = 39.99m (from 3983 at 176.80m to 1807 at 136.81m)
-10> North-South range = 782.89m (from 1746 at 1966278.26m to 3089 at 1965495.37m)
-11> East-West range = 759.60m (from 1816 at 376677.60m to 2607 at 375918.00m)
+ 9> Vertical range = 39.99m (from 2167 at 176.80m to 4804 at 136.81m)
+10> North-South range = 782.89m (from 4743 at 1966278.26m to 1273 at 1965495.37m)
+11> East-West range = 759.60m (from 4813 at 376677.60m to 791 at 375918.00m)
 12> 4356 1-nodes.
 13>   32 2-nodes.
 14>    7 3-nodes.
@@ -68,50 +68,50 @@ processing survey data ...
 51>    1 51-node.
 52> 
 ######################### transcription ########################
- 4> 4813 : 22.22@Daquioag -- 4812 : -@Daquioag
- 9> 3983 : -@Daquioag -- 1807 : -@odessaupday2oliandpete.Daquioag
-10> 1746 : -@odessaupday2oliandpete.Daquioag -- 3089 : -@Daquioag
-11> 1816 : 1.66@odessaupday2oliandpete.Daquioag -- 2607 : -@Daquioag
-12> 4356 : -@Daquioag
-13> 32 : 24.0@odessa-up-side-1.Daquioag
-14> 7 : -@odessa-up-loop-28d3-36d3.Daquioag
-15> 21 : 36.3@odessa-up-loop-28d3-36d3.Daquioag
-16> 24 : -@odessa-up-loop-28d3-36d3.Daquioag
-17> 81 : 25.1@odessa-up-side-1.Daquioag
-18> 22 : -@odessa-up-loop-28d3-36d3.Daquioag
-19> 35 : -@odessa-up-side-1.Daquioag
-20> 40 : -@odessa-up-side-1.Daquioag
-21> 22 : -@odessa-up-loop-28d3-36d3.Daquioag
-22> 16 : -@odessa-up-loop-28d3-36d3.Daquioag
-23> 12 : -@odessa-up-loop-28d3-36d3.Daquioag
-24> 8 : -@odessa-up-loop-28d3-36d3.Daquioag
-25> 13 : -@odessa-up-loop-28d3-36d3.Daquioag
-26> 11 : 36.2@odessa-up-loop-28d3-36d3.Daquioag
-27> 9 : -@odessa-up-loop-28d3-36d3.Daquioag
-28> 9 : -@odessa-up-loop-28d3-36d3.Daquioag
-29> 9 : -@odessa-up-loop-28d3-36d3.Daquioag
-30> 8 : -@odessa-up-loop-28d3-36d3.Daquioag
-31> 13 : -@odessa-up-loop-28d3-36d3.Daquioag
-32> 4 : -@odessa-up-loop-28d3-36d3.Daquioag
-33> 10 : -@odessa-up-loop-28d3-36d3.Daquioag
-34> 4 : -@odessa-up-loop-28d3-36d3.Daquioag
-35> 3 : 36.1@odessa-up-loop-28d3-36d3.Daquioag
-36> 6 : -@odessa-up-loop-28d3-36d3.Daquioag
-37> 3 : 36.1@odessa-up-loop-28d3-36d3.Daquioag
-38> 6 : -@odessa-up-loop-28d3-36d3.Daquioag
-39> 5 : -@odessa-up-loop-28d3-36d3.Daquioag
-40> 5 : -@odessa-up-loop-28d3-36d3.Daquioag
-41> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
-42> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
-43> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
-44> 4 : -@odessa-up-loop-28d3-36d3.Daquioag
-45> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
-46> 1 : 28.3@odessa-up-loop-28d3-36d3.Daquioag
-47> 1 : 28.3@odessa-up-loop-28d3-36d3.Daquioag
-48> 1 : 28.3@odessa-up-loop-28d3-36d3.Daquioag
-49> 2 : 36.0@odessa-up-loop-28d3-36d3.Daquioag
-50> 1 : 28.3@odessa-up-loop-28d3-36d3.Daquioag
-51> 1 : 28.3@odessa-up-loop-28d3-36d3.Daquioag
+ 4> 4813 : 1.66@odessaupday2oliandpete.Daquioag_Branch -- 4812 : 1.65@odessaupday2oliandpete.Daquioag_Branch
+ 9> 2167 : -@Daquioag.Daquioag_Branch -- 4804 : -@odessaupday2oliandpete.Daquioag_Branch
+10> 4743 : -@odessaupday2oliandpete.Daquioag_Branch -- 1273 : -@Daquioag.Daquioag_Branch
+11> 4813 : 1.66@odessaupday2oliandpete.Daquioag_Branch -- 791 : -@Daquioag.Daquioag_Branch
+12> 4356 : -@odessaupday2oliandpete.Daquioag_Branch
+13> 32 : -@Daquioag.Daquioag_Branch
+14> 7 : -@Daquioag.Daquioag_Branch
+15> 21 : -@Daquioag.Daquioag_Branch
+16> 24 : -@Daquioag.Daquioag_Branch
+17> 81 : 1.11@Daquioag.Daquioag_Branch
+18> 22 : 1.5@Daquioag.Daquioag_Branch
+19> 35 : -@Daquioag.Daquioag_Branch
+20> 40 : 1.7@Daquioag.Daquioag_Branch
+21> 22 : 1.5@Daquioag.Daquioag_Branch
+22> 16 : -@Daquioag.Daquioag_Branch
+23> 12 : -@Daquioag.Daquioag_Branch
+24> 8 : -@Daquioag.Daquioag_Branch
+25> 13 : 1.4@Daquioag.Daquioag_Branch
+26> 11 : -@Daquioag.Daquioag_Branch
+27> 9 : -@Daquioag.Daquioag_Branch
+28> 9 : -@Daquioag.Daquioag_Branch
+29> 9 : -@Daquioag.Daquioag_Branch
+30> 8 : -@Daquioag.Daquioag_Branch
+31> 13 : 1.4@Daquioag.Daquioag_Branch
+32> 4 : 1.2@Daquioag.Daquioag_Branch
+33> 10 : -@Daquioag.Daquioag_Branch
+34> 4 : 1.2@Daquioag.Daquioag_Branch
+35> 3 : 1.1@Daquioag.Daquioag_Branch
+36> 6 : 1.3@Daquioag.Daquioag_Branch
+37> 3 : 1.1@Daquioag.Daquioag_Branch
+38> 6 : 1.3@Daquioag.Daquioag_Branch
+39> 5 : -@Daquioag.Daquioag_Branch
+40> 5 : -@Daquioag.Daquioag_Branch
+41> 2 : -@Daquioag.Daquioag_Branch
+42> 2 : -@Daquioag.Daquioag_Branch
+43> 2 : -@Daquioag.Daquioag_Branch
+44> 4 : 1.2@Daquioag.Daquioag_Branch
+45> 2 : -@Daquioag.Daquioag_Branch
+46> 1 : 1.0@Daquioag.Daquioag_Branch
+47> 1 : 1.0@Daquioag.Daquioag_Branch
+48> 1 : 1.0@Daquioag.Daquioag_Branch
+49> 2 : -@Daquioag.Daquioag_Branch
+50> 1 : 1.0@Daquioag.Daquioag_Branch
+51> 1 : 1.0@Daquioag.Daquioag_Branch
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -120,44 +120,44 @@ processing references ... done
 selecting export objects ... done
 processing projection plan ... done
 average distortion: 0.23%
-writing Daquioag.pdf ...
+writing .\output\Daquioag_branch.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  7 MAY 2016 13:18
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 MAY 2016 07:23
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 [1] [2] [3] [4] [5]
 [Warning: scrap outline intersects itself in scrap odessaupday2oliandpeteSPX1.1
-4@odessaupday2oliandpete.Daquioag] [6] [7] [8] [9] [10]
+4@odessaupday2oliandpete.Daquioag_Branch] [6] [7] [8] [9] [10]
 [Warning: scrap outline intersects itself in scrap odessaupday2oliandpeteSPX1.1
-@odessaupday2oliandpete.Daquioag] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-[20] [21] [22] [23] [24] [25]
+@odessaupday2oliandpete.Daquioag_Branch] [11] [12] [13] [14] [15] [16] [17]
+[18] [19] [20] [21] [22] [23] [24] [25]
 [Warning: scrap outline intersects itself in scrap oxbow-up-20-04SP1@oxbow-up-2
-0-04.Daquioag] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
-[38] [39] [40] [41] [42]
+0-04.Daquioag_Branch] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
+[37] [38] [39] [40] [41] [42]
 [Warning: scrap outline intersects itself in scrap odessa-up-loopSP2@odessa-up-
-loop.Daquioag] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
-[55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
-[70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
-[85] [86] [87] [88] [89]
-[Warning: scrap outline intersects itself in scrap DaquioagSPX20.12@Daquioag]
-[90] [91] [92] [93] [94] [95] [96] [97] (./mptextmp.mp) [98] )
+loop.Daquioag_Branch] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
+[84] [85] [86] [87] [88] [89]
+[Warning: scrap outline intersects itself in scrap DaquioagSPX20.12@Daquioag.Da
+quioag_Branch] [90] [91] [92] [93] [94] [95] [96] [97] (./mptextmp.mp) [98] )
  
 Here is how much of MetaPost's memory you used:
- 1794 strings out of 2233
- 17563 string characters out of 34452
- 258809 words of memory out of 1500000
+ 1898 strings out of 2233
+ 17923 string characters out of 34452
+ 257809 words of memory out of 1500000
  1519 symbolic tokens out of 16384
  11i,75n,16p,576b,5f stack positions out of 300i,84n,5000p,608b,15f
- 1253 string compactions (moved 20605291 characters, 1939837 strings)
+ 571 string compactions (moved 9275816 characters, 862453 strings)
 110 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  7 MAY 2016 13:18
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 MAY 2016 07:23
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -169,14 +169,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  390 strings out of 95617
  3970 string characters out of 1171098
- 655154 words of memory out of 2101132
+ 653700 words of memory out of 2099678
  1803 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,458b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 874579 bytes).
+Output written on data.pdf (1 page, 883556 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -185,26 +185,26 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing Daquioag-map.kml ... done
-writing Daquioag-model.kml ... done
-writing Daquioag.3d ... done
+writing .\output\Daquioag_branch-map.kml ... done
+writing .\output\Daquioag_branch-model.kml ... done
+writing .\output\Daquioag_branch.3d ... done
 writing xtherion file ... done
-compilation time: 28 sec
+compilation time: 20 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.08%   85.61%  DaquioagSP1@Daquioag
-   0.90%   74.60%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag
-   5.39%   65.95%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag
-   0.87%   59.97%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag
-   0.13%   59.65%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag
-   1.06%   55.33%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag
-   0.48%   53.42%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag
-   0.06%   51.27%  odessa-up-loopSP1@odessa-up-loop.Daquioag
-   7.29%   48.93%  odessa-up-loopSP2@odessa-up-loop.Daquioag
-   0.65%   46.11%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag
-   0.10%   17.92%  seriouscavingupstreamSP1@seriouscavingupstream.Daquioag
-   0.00%    0.00%  Road@Daquioag
+   0.08%   85.61%  DaquioagSP1@Daquioag.Daquioag_Branch
+   0.90%   74.60%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag_Branch
+   5.39%   65.95%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag_Branch
+   0.87%   59.97%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag_Branch
+   0.13%   59.65%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag_Branch
+   1.06%   55.33%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag_Branch
+   0.48%   53.42%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag_Branch
+   0.06%   51.27%  odessa-up-loopSP1@odessa-up-loop.Daquioag_Branch
+   7.29%   48.93%  odessa-up-loopSP2@odessa-up-loop.Daquioag_Branch
+   0.65%   46.11%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag_Branch
+   0.10%   17.92%  seriouscavingupstreamSP1@seriouscavingupstream.Daquioag_Branch
+   0.00%    0.00%  Road@Daquioag.Daquioag_Branch
 ################### end of scrap distortions ###################

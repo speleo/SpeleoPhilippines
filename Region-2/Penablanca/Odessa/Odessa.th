@@ -3,10 +3,10 @@ survey Odessa
   input odessa-entrance/odessa-entrance.th
   input odessa-heaven/odessa-heaven.th
   input odessa-downstream-9-5/odessa-downstream-9-5.th
-  input Daquioag/Daquioag.th 
+  input Daquioag/Daquioag_Branch.th 
   input tumbali-d1-c3/tumbali-d1-c3.th 
-  input odessa1204/odessa1204.th
-  input odessa1204/Main2Sewer/Main2Sewer.th
+  input odessa-lower-sewer/odessa-lower-sewer.th
+  input odessa-lower-sewer/Main2Sewer/Main2Sewer.th
   input catcheel/catcheel.th
   input shepherd/shepherd.th
   input smallloop/smallloop.th
@@ -14,9 +14,7 @@ survey Odessa
   input SewerNorthSide/SewerNorthSide.th 
   input SewerSouth/SewerSouth.th
   input mainWestSide/MainWestSide.th
-
-  #input odessaupday2oliandpete/odessaupday2oliandpete.th
-
+  input downstream-sump/downstream-sump.th
       
   #  comment out the line below to remove surface details
   input Surface/Surface.th
@@ -44,8 +42,8 @@ survey Odessa
       
   #join Main Passage with Sewer North
     #walls
-      join l82-13892-59460@odessa-downstream-9-5:0 SewerRHW@odessa1204:end
-      join l83-13240-59560@odessa-downstream-9-5:end SewerLHW@odessa1204:0
+      join l82-13892-59460@odessa-downstream-9-5:0 SewerRHW@odessa-lower-sewer:end
+      join l83-13240-59560@odessa-downstream-9-5:end SewerLHW@odessa-lower-sewer:0
 
   #join Main Passage with Main2Sewer
     #walls
@@ -55,12 +53,12 @@ survey Odessa
 
   #join end of sewer with lower sewer 
     #walls   
-      join odessa1204SP1@odessa1204 SewerNorthTopSP1@SewerNorthTop
+      join odessa-lower-sewerSP1@odessa-lower-sewer SewerNorthTopSP1@SewerNorthTop
      
   #join SewerNorthSide with North sewer 
     #walls
-      join SewerNorthSideRHW@SewerNorthSide:0 l63-2228-10856@odessa1204:0
-      join SewerNorthSideLHW@SewerNorthSide:end SewerLHW@odessa1204:end
+      join SewerNorthSideRHW@SewerNorthSide:0 l63-2228-10856@odessa-lower-sewer:0
+      join SewerNorthSideLHW@SewerNorthSide:end SewerLHW@odessa-lower-sewer:end
 
  #join SewerSouth with main passage
     #walls
@@ -80,12 +78,13 @@ survey Odessa
     
   #join Odessa Entrance with Upstream
     # walls
-      join EntranceLowerTop@odessa-entrance:0 UpstreamRHW@odessaupday2oliandpete.Daquioag:0
-      join EntranceLowerBottom@odessa-entrance:end UpstreamLHW@odessaupday2oliandpete.Daquioag:end 
+      join EntranceLowerTop@odessa-entrance:0 UpstreamRHW@odessaupday2oliandpete.Daquioag_Branch:0
+      join EntranceLowerBottom@odessa-entrance:end UpstreamLHW@odessaupday2oliandpete.Daquioag_Branch:end 
 
   #join Upstream with Daquioag
     # walls
-    #  join DaquioagSP1@Daquioag odessaupday2oliandpeteSP1@odessaupday2oliandpete
+      join 2DownstreamSump@odessa-entrance:end  LHW@downstream-sump:end
+      join 2DownstreamSump2@odessa-entrance:end  RHW@downstream-sump:0
 
 
   centreline
@@ -94,29 +93,52 @@ survey Odessa
     equate 7.1@odessa-heaven           1.30@odessa-entrance
     equate 4.13@odessa-downstream-9-5  4.13@odessa-entrance
     equate 3.28@odessa-downstream-9-5  3.28@tumbali-d1-c3
-    equate 1.66@odessaupday2oliandpete.Daquioag 1.30@odessa-entrance
+    equate 1.30@odessa-entrance        1.66@odessaupday2oliandpete.Daquioag_Branch 
     #equate 22.22@Daquioag             1.0@odessaupday2oliandpete  
-    equate 5.0@odessa1204              4.75@odessa-downstream-9-5
-    equate 5.60@odessa1204             5.60@SewerNorthTop
+    equate 5.0@odessa-lower-sewer      4.75@odessa-downstream-9-5
+    equate 5.60@odessa-lower-sewer     5.60@SewerNorthTop
     equate 4.61@catcheel               4.61@odessa-downstream-9-5
     equate 17.9@catcheel               4.54@odessa-downstream-9-5
     equate 18.0@shepherd               3.62@tumbali-d1-c3
     equate 8.8@odessa-heaven           9.7@smallloop
     equate 8.9@odessa-heaven           9.0@smallloop
-    equate 35.0@SewerSouth             5.1@odessa1204
-    equate 34.0@SewerNorthSide         5.16@odessa1204
+    equate 35.0@SewerSouth             5.1@odessa-lower-sewer
+    equate 34.0@SewerNorthSide         5.16@odessa-lower-sewer
     equate 4.70@Main2Sewer             4.70@odessa-downstream-9-5
     equate 34.1@Main2Sewer             34.1@SewerNorthSide 
     equate 4.18@odessa-downstream-9-5  1.10@MainWestSide
     equate 4.4@odessa-entrance         2.6@MainWestSide
+    equate 1.36@odessa-entrance        1.0@downstream-sump
   endcentreline
 
-  map map-test
+  map map3
+    catcheelM@catcheel
+    Daquioag_BranchM@Daquioag_Branch
+    downstream-sumpM@downstream-sump
     odessa-entranceM@odessa-entrance
       break
     odessa-heavenM@odessa-heaven
       break
-    smallloopM@smallloop 
+    #odessa-up-crawlleadM@odessa-up-crawllead
+    #odessa-up-loop-28d3-36d3M@odessa-up-loop-28d3-36d3
+    #odessa-up-side-1M@odessa-up-side-1
+    #odessa-up-side-2M@odessa-up-side-2
+    #odessa-up-side-3M@odessa-up-side-3
+    #odessa-up-loopM@odessa-up-loop
+    odessa-lower-sewerM@odessa-lower-sewer
+    #odessaupday2oliandpeteM@odessaupday2oliandpete
+    #oxbow-up-20-04M@oxbow-up-20-04
+    #seriouscavingupstreamM@seriouscavingupstream
+    SewerNorthTopM@SewerNorthTop
+    SewerNorthSideM@SewerNorthSide 
+    SewerSouthM@SewerSouth
+    odessa-downstream-9-5M@odessa-downstream-9-5
+    tumbali-d1-c3M@tumbali-d1-c3 
+    tumbali-day1-c2M@tumbali-day1-c2 
+    Main2SewerM@Main2Sewer
+    shepherdM@shepherd
+    smallloopM@smallloop
+    MainWestSideM@MainWestSide
   endmap
 
 endsurvey

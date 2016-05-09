@@ -10,8 +10,8 @@ map odessa-entranceM
   odessa-entranceSP1
     break
   OdessaEntLower
-    break
-  OdessaEntLowSide
+  #  break
+  #OdessaEntLowSide
   
 endmap
 

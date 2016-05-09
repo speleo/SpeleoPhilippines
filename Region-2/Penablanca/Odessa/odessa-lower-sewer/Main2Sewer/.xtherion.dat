@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 63.50m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.50m (from 4.70@Main2Sewer at 0.00m to 50.1@Main2Sewer at -1.50m)\nnorth-south range: 63.35m (from 50.1@Main2Sewer at 63.35m to 4.70@Main2Sewer at 0.00m)\neast-west range: 4.15m (from 4.70@Main2Sewer at 0.00m to 50.1@Main2Sewer at -4.15m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_insert 9 1 1 Main2Sewer Main2Sewer "" "" "length: 63.50m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.50m (from 4.70@Main2Sewer at 0.00m to 50.1@Main2Sewer at -1.50m)\nnorth-south range: 63.35m (from 50.1@Main2Sewer at 63.35m to 4.70@Main2Sewer at 0.00m)\neast-west range: 4.15m (from 4.70@Main2Sewer at 0.00m to 50.1@Main2Sewer at -4.15m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 19X1 p1 1 Main2SewerM Main2SewerM@Main2Sewer "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 64 1
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1462220368
+

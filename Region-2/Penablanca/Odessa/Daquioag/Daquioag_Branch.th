@@ -1,0 +1,127 @@
+encoding  utf-8
+survey Daquioag_Branch
+  input Daquioag/Daquioag.th
+  input odessa-up-loop-28d3-36d3/odessa-up-loop-28d3-36d3.th
+  input odessa-up-side-1/odessa-up-side-1.th
+  input odessa-up-side-2/odessa-up-side-2.th
+  input odessa-up-side-3/odessa-up-side-3.th
+  input odessa-up-loop/odessa-up-loop.th
+  input odessa-up-crawllead/odessa-up-crawllead.th
+  input oxbow-up-20-04/oxbow-up-20-04.th
+  input seriouscavingupstream/seriouscavingupstream.th
+  input odessaupday2oliandpete/odessaupday2oliandpete.th
+
+
+  
+  #join Daquioag with odessa-up-side-1
+    # main walls
+      join l176-32428-19540@Daquioag:end l22-11352-6276@odessa-up-side-1:end
+      join l175-32998-19488@Daquioag:0   l21-11692-5984@odessa-up-side-1:0
+            
+    # unsuveyed connection back walls
+      join l175-32998-19488@Daquioag:end connect_back_LHW@odessa-up-side-1:end
+      join l174-30014-11345@Daquioag:0   connect_back_RHW@odessa-up-side-1:end
+
+  #join Daquioag with odessa-up-side-2
+    # main walls
+      join l80-32890-14776@Daquioag:0    odessa-up-side-2_LHW@odessa-up-side-2:0
+      join l81-29007-10977@Daquioag:end  odessa-up-side-2_RHW@odessa-up-side-2:0
+
+  #join Daquioag with odessa-up-side-3
+    # main walls
+      join l182-37624-40276@Daquioag:0    odessa-up-side-3_LHW@odessa-up-side-3:end
+      join l183-36374-39082@Daquioag:end  odessa-up-side-3_RHW@odessa-up-side-3:0
+
+  #join odessa-up-loop-28d3-36d3 with odessa-up-side-3
+    # inner walls
+      join l4-3044-3380@odessa-up-loop-28d3-36d3:0    l20-1348-410@odessa-up-side-3:end
+      join l4-3044-3380@odessa-up-loop-28d3-36d3:end  l20-1348-410@odessa-up-side-3:0
+
+    # outer walls
+      join l2-2230-2876@odessa-up-loop-28d3-36d3:0  odessa-up-side-3_RHW@odessa-up-side-3:end
+      join l3-3480-3200@odessa-up-loop-28d3-36d3:0  l19-7196-2098@odessa-up-side-3:0
+
+    #join odessa-up-loop-28d3-36d3 with Daquioag
+    # main walls
+      join l2-2230-2876@odessa-up-loop-28d3-36d3:end  l608-35724-38628@Daquioag:end
+      join l3-3480-3200@odessa-up-loop-28d3-36d3:end  l184-35454-38114@Daquioag:end
+
+  #join odessa-up-loop with odessa-up-side-3
+    # main walls
+      join l93-4002-1694@odessa-up-loop:end  odessa-up-side-3_LHW@odessa-up-side-3:0
+      join l86-5512-2433@odessa-up-loop:0    l19-7196-2098@odessa-up-side-3:end
+
+  #join Daquioag with odessa-up-crawllead
+    # main walls
+      join l82-28911-10875@Daquioag:0     l49-2426-3862@odessa-up-crawllead:0
+      join l13-14650-11522@Daquioag:end   l51-1178-1871@odessa-up-crawllead:0
+
+  #join Daquioag with oxbow-up-20-04
+    # main walls
+      join l69-6806-5780@odessaupday2oliandpete:end  l3-4226-6582@oxbow-up-20-04:end
+      join join2Daquioag@odessaupday2oliandpete:0    l2-3980-4134@oxbow-up-20-04:0
+      
+  #join Upstream with Daquioag
+    # walls
+      join l587-34520-38200@Daquioag:0  join2Daquioag@odessaupday2oliandpete:end
+      join l180-38510-45892@Daquioag:end  UpstreamLHW@odessaupday2oliandpete
+
+  #join Upstream with oxbow-up-20-04
+    # main walls
+      join JoinTopRHW@odessaupday2oliandpete:end  l2-3980-4134@oxbow-up-20-04:end
+      join l70-12608-12764@odessaupday2oliandpete:0    JoinTopLHW@oxbow-up-20-04:0
+
+    # middle connection bottom section walls
+      # walls - not an exact match but appparently thats where they join
+      join l69-6806-5780@odessaupday2oliandpete:0  connectBottom@oxbow-up-20-04:0
+
+      join connect2oxbow@odessaupday2oliandpete:5  connectMiddle@oxbow-up-20-04:0
+
+      join l70-12608-12764@odessaupday2oliandpete:end  JoinTopLHW@oxbow-up-20-04:end
+      join connect2oxbow@odessaupday2oliandpete:0  connectMiddle2@oxbow-up-20-04:end
+
+  #join seriouscavingupstream with odessa-up-loop
+    # walls
+      join l3-1932-3830@seriouscavingupstream:0    l86-5512-2433@odessa-up-loop:end
+      join l2-2365-3721@seriouscavingupstream:end  l87-6823-7985@odessa-up-loop:0
+      
+  #join Odessa-up-loop with odessaupday2oliandpete
+    # walls - not an exact match but appparently thats where they join
+      join l92-8672-10014@odessa-up-loop:0  l251-18748-14856@odessaupday2oliandpete:end
+      join l91-8881-9684@odessa-up-loop:end l71-24950-21304@odessaupday2oliandpete:0 
+
+    # middle section (a little side passage in floor of loop)
+      join connectMainTop@odessa-up-loop:end  UpstreamLHW@odessaupday2oliandpete:ConnectSideTop 
+      join connectMainBottom@odessa-up-loop:0 UpstreamLHW@odessaupday2oliandpete:ConnectSideBottom 
+
+
+
+map Daquioag_BranchM
+  #Surface_DaquioagSP1@Surface_Daquioag
+  #  break
+  DaquioagM@Daquioag
+  odessa-up-loop-28d3-36d3M@odessa-up-loop-28d3-36d3
+  odessa-up-side-1M@odessa-up-side-1
+  odessa-up-side-2M@odessa-up-side-2
+  odessa-up-side-3M@odessa-up-side-3
+  odessa-up-loopM@odessa-up-loop
+  odessa-up-crawlleadM@odessa-up-crawllead
+  oxbow-up-20-04M@oxbow-up-20-04
+  seriouscavingupstreamM@seriouscavingupstream
+  odessaupday2oliandpeteM@odessaupday2oliandpete
+endmap
+
+centreline
+  equate 20.60@Daquioag        20.60@odessa-up-side-1 
+  equate 20.49@Daquioag        20.49@odessa-up-side-2 
+  equate 22.13@Daquioag        22.13@odessa-up-side-3
+  equate 28.3@odessa-up-side-3  36.0@odessa-up-loop-28d3-36d3 
+  equate 28.14@odessa-up-loop  28.14@odessa-up-side-3
+  equate 20.43@Daquioag        20.43@odessa-up-crawllead
+  equate 22.22@Daquioag        22.22@oxbow-up-20-04
+  equate 22.22@Daquioag          1.0@odessaupday2oliandpete  
+  equate 28.61@odessa-up-loop  28.61@seriouscavingupstream
+endcentreline
+
+endsurvey
+

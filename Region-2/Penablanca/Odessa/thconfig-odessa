@@ -1,6 +1,7 @@
 encoding  utf-8
 source Odessa.th
 
+select map3@Odessa
 export map -proj plan -layout local-odessa -o .\output\Odessa.pdf
 export map -fmt kml -proj plan -layout local -o .\output\Odessa-map.kml
 export model -fmt kml -o .\output\Odessa-model.kml

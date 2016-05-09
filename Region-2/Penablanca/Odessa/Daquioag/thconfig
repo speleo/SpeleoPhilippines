@@ -1,25 +1,23 @@
 encoding  utf-8
-source Daquioag.th
-# Change name to the main therion file
-
+source Daquioag_branch.th
 
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Daquioag.pdf
+export map -proj plan -layout local -o .\output\Daquioag_branch.pdf
 #Produces plan of cave, on a single sheet
-export map -fmt kml -proj plan -layout local -o Daquioag-map.kml
-export model -fmt kml -o Daquioag-model.kml
+export map -fmt kml -proj plan -layout local -o .\output\Daquioag_branch-map.kml
+export model -fmt kml -o .\output\Daquioag_branch-model.kml
 
-#export map -proj extended -layout local -o DaquioagEe.pdf
+#export map -proj extended -layout local -o .\output\Daquioag_branchEe.pdf
 
-export model -fmt survex -o Daquioag.3d
+export model -fmt survex -o .\output\Daquioag_branch.3d
 #Survex file showing centre line only
 
-#export model -o Daquioag.lox
+#export model -o .\output\Daquioag_branch.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Daquioag_Walls.3d
+#export map -proj plan -o .\output\Daquioag_branch_Walls.3d
 #Survex file showing walls only
 
 layout local

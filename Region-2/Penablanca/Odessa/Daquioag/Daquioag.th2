@@ -128,6 +128,7 @@ point 12742.0 14756.0 label -scale xs -text 4m<br>climb -align bottom
 line label -scale l -text [Open Gorge]
   10960.0 12944.0
   11320.0 12768.0 12148.0 13444.0 12048.0 13708.0
+  smooth off
 endline
 
 point 11598.0 14532.0 label -scale xs -text [2m climb] -align left
@@ -324,6 +325,7 @@ line label -text [Catfish Crawl] -scale xs
   4056.0 9940.0
   4100.0 10012.0 4272.0 10440.0 4296.0 10504.0
   4320.0 10568.0 4424.0 10856.0 4448.0 10916.0
+  smooth off
 endline
 
 point 3545.0 9961.0 label -text [Too Tight] -scale xs -align left
@@ -3331,6 +3333,7 @@ line label -scale l -text [Trash Compactor]
   17256.0 9468.0 17440.0 9264.0 17544.0 9208.0
   17648.0 9152.0 17744.0 9100.0 17804.0 9056.0
   17864.0 9012.0 18064.0 8864.0 18092.0 8808.0
+  smooth off
 endline
 
 line label -scale xs -text [Laundry Passage]

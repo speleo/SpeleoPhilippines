@@ -1,0 +1,124 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 218 survey stations, joined by 217 shots.
+ 6> There are 0 loops.
+ 7> Total length of survey shots =  537.48m ( 537.48m adjusted)
+ 8> Total plan length of survey shots =  507.04m
+ 9> Total vertical length of survey shots =  108.02m
+10> Vertical range = 14.87m (from 2 at 0.00m to 170 at -14.87m)
+11> North-South range = 20.03m (from 213 at 6.22m to 41 at -13.81m)
+12> East-West range = 71.46m (from 9 at 3.34m to 164 at -68.11m)
+13>  194 1-nodes.
+14>    3 2-nodes.
+15>    1 5-node.
+16>    2 6-nodes.
+17>    1 8-node.
+18>    3 9-nodes.
+19>    1 10-node.
+20>    2 11-nodes.
+21>    3 12-nodes.
+22>    4 13-nodes.
+23>    2 14-nodes.
+24>    1 15-node.
+25>    1 19-node.
+26> 
+######################### transcription ########################
+ 3> 1 : 1.0@downstream-sump
+ 5> 218 : 23.4@downstream-sump -- 217 : -@downstream-sump
+10> 2 : -@downstream-sump -- 170 : -@downstream-sump
+11> 213 : -@downstream-sump -- 41 : -@downstream-sump
+12> 9 : -@downstream-sump -- 164 : -@downstream-sump
+13> 194 : -@downstream-sump
+14> 3 : 1.1@downstream-sump
+15> 1 : 1.0@downstream-sump
+16> 2 : -@downstream-sump
+17> 1 : 1.0@downstream-sump
+18> 3 : 1.1@downstream-sump
+19> 1 : 1.0@downstream-sump
+20> 2 : -@downstream-sump
+21> 3 : 1.1@downstream-sump
+22> 4 : -@downstream-sump
+23> 2 : -@downstream-sump
+24> 1 : 1.0@downstream-sump
+25> 1 : 1.0@downstream-sump
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.04%
+writing downstream-sump.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  8 MAY 2016 11:16
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] (./mptextmp.mp) [5] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1046 strings out of 1162
+ 13086 string characters out of 20720
+ 85428 words of memory out of 1500000
+ 1367 symbolic tokens out of 16384
+ 11i,75n,14p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 49 string compactions (moved 448700 characters, 35986 strings)
+17 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  8 MAY 2016 11:16
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 53 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 250 strings out of 95617
+ 2539 string characters out of 1171098
+ 84741 words of memory out of 1566719
+ 1663 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 57099 bytes).
+PDF statistics:
+ 40 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing downstream-sumpth.3d ... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.04%    0.87%  downstream-sumpSP1@downstream-sump
+################### end of scrap distortions ###################
