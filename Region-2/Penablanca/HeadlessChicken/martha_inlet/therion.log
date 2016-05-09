@@ -1,0 +1,55 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 76 survey stations, joined by 75 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs =  259.36m ( 259.36m adjusted)
+ 9> Total plan length of survey legs =  175.07m
+10> Total vertical length of survey legs =  128.66m
+11> Vertical range = 21.32m (from 6 at 16.77m to 7 at -4.54m)
+12> North-South range = 17.44m (from 65 at 12.48m to 6 at -4.96m)
+13> East-West range = 11.86m (from 6 at 6.47m to 18 at -5.39m)
+14>   68 1-nodes.
+15>    1 4-node.
+16>    1 7-node.
+17>    1 8-node.
+18>    2 12-nodes.
+19>    3 13-nodes.
+20> 
+######################### transcription ########################
+ 3> 1 : 1.0@martha_inlet
+ 5> 76 : -@martha_inlet -- 75 : -@martha_inlet
+ 6> 1 : 1.0@martha_inlet
+ 7> 2 : -@martha_inlet
+11> 6 : -@martha_inlet -- 7 : -@martha_inlet
+12> 65 : -@martha_inlet -- 6 : -@martha_inlet
+13> 6 : -@martha_inlet -- 18 : -@martha_inlet
+14> 68 : -@martha_inlet
+15> 1 : 1.0@martha_inlet
+16> 1 : 1.0@martha_inlet
+17> 1 : 1.0@martha_inlet
+18> 2 : -@martha_inlet
+19> 3 : 1.1@martha_inlet
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing martha_inletth.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec

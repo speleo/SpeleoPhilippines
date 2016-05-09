@@ -1,0 +1,22 @@
+encoding  utf-8
+survey HeadlessChicken
+  input day1/martha.th
+  input day2/MARTHA-2.th
+  input martha_inlet/martha_inlet.th
+
+  join marthaStreamway@martha MARTHA-2SP1@MARTHA-2
+
+  centreline
+    equate 1.0@MARTHA-2  6.7@martha
+    equate 1.3@MARTHA-2  1.1@martha_inlet
+  endcentreline
+
+  map HeadlessChickenM
+    marthaM@martha
+    MARTHA-2M@MARTHA-2
+    break
+    martha_inletM@martha_inlet [-20 10 m] above
+  endmap
+
+endsurvey
+

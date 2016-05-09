@@ -43,16 +43,16 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
- 3> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9519: warning: Unused fixed point "9526"
- 4> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9520: warning: Unused fixed point "9527"
- 5> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9521: warning: Unused fixed point "9528"
- 6> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9522: warning: Unused fixed point "9529"
- 7> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9523: warning: Unused fixed point "9530"
- 8> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9524: warning: Unused fixed point "9531"
- 9> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9525: warning: Unused fixed point "9532"
-10> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9526: warning: Unused fixed point "9533"
-11> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9527: warning: Unused fixed point "9534"
-12> C:\Users\HENRY_~1\AppData\Local\Temp\th15716\data.svx:9528: warning: Unused fixed point "9535"
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9519: warning: Unused fixed point "9526"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9520: warning: Unused fixed point "9527"
+ 5> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9521: warning: Unused fixed point "9528"
+ 6> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9522: warning: Unused fixed point "9529"
+ 7> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9523: warning: Unused fixed point "9530"
+ 8> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9524: warning: Unused fixed point "9531"
+ 9> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9525: warning: Unused fixed point "9532"
+10> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9526: warning: Unused fixed point "9533"
+11> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9527: warning: Unused fixed point "9534"
+12> C:\Users\HENRY_~1\AppData\Local\Temp\th11932\data.svx:9528: warning: Unused fixed point "9535"
 13> 
 14> Survey contains 9635 survey stations, joined by 9627 shots.
 15> There are 6 loops.
@@ -200,7 +200,7 @@ average distortion: 0.47%
 writing .\output\Odessa.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 MAY 2016 07:27
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 MAY 2016 20:41
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -247,27 +247,28 @@ e.Odessa] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126]
 [164] [165]
 [Warning: scrap outline intersects itself in scrap UpperLevel@tumbali-day1-c2.O
 dessa] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177]
-[178] [179] [180] [181] [182] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [183] [184]
-[185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197]
-[198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210]
-[211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223]
-[224] [225] [226] [227] [228] [229] )
+[178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190]
+[191] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [192] [193] [194] [195] [196]
+[197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209]
+[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222]
+[223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234] [235]
+[236] [237] [238] )
  
 Here is how much of MetaPost's memory you used:
- 3247 strings out of 3907
- 19720 string characters out of 43988
- 1170376 words of memory out of 1500000
+ 3261 strings out of 3907
+ 19753 string characters out of 43988
+ 1169376 words of memory out of 1500000
  1530 symbolic tokens out of 16384
  11i,75n,16p,596b,5f stack positions out of 300i,84n,5000p,608b,15f
- 2227 string compactions (moved 39184485 characters, 5537918 strings)
-242 output files written: data.1 .. data.4013
+ 2251 string compactions (moved 39631558 characters, 5615159 strings)
+251 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 MAY 2016 07:27
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 MAY 2016 20:41
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -279,10 +280,10 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 599 strings out of 95617
- 6140 string characters out of 1171098
- 2187720 words of memory out of 3500000
- 2009 multiletter control sequences out of 15000+50000
+ 620 strings out of 95617
+ 6370 string characters out of 1171098
+ 2184411 words of memory out of 3500000
+ 2030 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  10i,8n,9p,703b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -290,20 +291,18 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 5218575 bytes).
+Output written on data.pdf (1 page, 5356345 bytes).
 PDF statistics:
- 794 PDF objects out of 1000 (max. 8388607)
+ 838 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 2315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2447 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\Odessa-map.kml ... done
-writing .\output\Odessa-model.kml ... done
 writing .\output\Odessa-survex.3d ... done
 writing xtherion file ... done
-compilation time: 69 sec
+compilation time: 51 sec
 
 
 ######################### loop errors ##########################

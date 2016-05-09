@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -532.99 -335.71 3197.96 2014.28
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {862.16875348 1 1.0} {525.67271418 1.0} PocketTopo/martha_inlet_e.xvi 0 {}
+
+
+scrap martha_inletSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

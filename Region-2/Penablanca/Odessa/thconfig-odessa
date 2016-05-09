@@ -1,10 +1,11 @@
 encoding  utf-8
 source Odessa.th
 
-select map3@Odessa
+select odessa-all-maps@Odessa
+#select odessa-all-scraps@Odessa
 export map -proj plan -layout local-odessa -o .\output\Odessa.pdf
-export map -fmt kml -proj plan -layout local -o .\output\Odessa-map.kml
-export model -fmt kml -o .\output\Odessa-model.kml
+#export map -fmt kml -proj plan -layout local -o .\output\Odessa-map.kml
+#export model -fmt kml -o .\output\Odessa-model.kml
 
 #Survex file showing centre line only
 export model -fmt survex -o .\output\Odessa-survex.3d
@@ -50,6 +51,13 @@ layout local
   scale-bar 100 m
 endlayout
 
+layout map-just-catcheel
+  #rotate 270 
+  scale 1 700
+  base-scale 1 300
+  scale-bar 200 m
+endlayout
+
 layout local-odessa
   #rotate 270 
   scale 1 700
@@ -92,7 +100,7 @@ layout local-odessa
   legend on
   legend-columns 2
   legend-width 45 cm
-  #colour-legend on
+  colour-legend on
   grid bottom
   grid-coords border
   #sketches on

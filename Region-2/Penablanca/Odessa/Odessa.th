@@ -111,9 +111,9 @@ survey Odessa
     equate 1.36@odessa-entrance        1.0@downstream-sump
   endcentreline
 
-  map map3
+  map odessa-all-maps
     catcheelM@catcheel
-    Daquioag_BranchM@Daquioag_Branch
+    Daquioag_BranchM@Daquioag_Branch 
     downstream-sumpM@downstream-sump
     odessa-entranceM@odessa-entrance
       break
@@ -139,6 +139,7 @@ survey Odessa
     shepherdM@shepherd
     smallloopM@smallloop
     MainWestSideM@MainWestSide
+    SurfaceM@Surface
   endmap
 
 endsurvey

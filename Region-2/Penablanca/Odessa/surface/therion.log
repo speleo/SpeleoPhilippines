@@ -17,16 +17,16 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
- 3> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:5: warning: Unused fixed point "1"
- 4> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:6: warning: Unused fixed point "2"
- 5> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:7: warning: Unused fixed point "3"
- 6> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:8: warning: Unused fixed point "4"
- 7> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:9: warning: Unused fixed point "5"
- 8> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:10: warning: Unused fixed point "6"
- 9> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:11: warning: Unused fixed point "7"
-10> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:12: warning: Unused fixed point "8"
-11> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:13: warning: Unused fixed point "9"
-12> C:\Users\HENRY_~1\AppData\Local\Temp\th10840\data.svx:14: warning: Unused fixed point "10"
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:5: warning: Unused fixed point "1"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:6: warning: Unused fixed point "2"
+ 5> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:7: warning: Unused fixed point "3"
+ 6> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:8: warning: Unused fixed point "4"
+ 7> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:9: warning: Unused fixed point "5"
+ 8> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:10: warning: Unused fixed point "6"
+ 9> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:11: warning: Unused fixed point "7"
+10> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:12: warning: Unused fixed point "8"
+11> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:13: warning: Unused fixed point "9"
+12> C:\Users\HENRY_~1\AppData\Local\Temp\th17768\data.svx:14: warning: Unused fixed point "10"
 13> 
 14> Survey contains 10 survey stations, joined by 0 shots.
 15> There are 0 loops.
@@ -79,52 +79,53 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 2.17%
+average distortion: 2.06%
 writing Surface.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  3 MAY 2016 11:35
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 MAY 2016 20:38
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] (./mptextmp.mp) [11] )
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[18] [19] (./mptextmp.mp) [20] )
  
 Here is how much of MetaPost's memory you used:
- 1039 strings out of 1162
- 14012 string characters out of 20720
- 63194 words of memory out of 1500000
+ 1054 strings out of 1162
+ 14019 string characters out of 20720
+ 63264 words of memory out of 1500000
  1367 symbolic tokens out of 16384
  8i,75n,11p,199b,4f stack positions out of 300i,84n,5000p,200b,15f
- 139 string compactions (moved 1564202 characters, 122789 strings)
-23 output files written: data.1 .. data.4012
+ 254 string compactions (moved 3055493 characters, 240326 strings)
+32 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  3 MAY 2016 11:35
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 MAY 2016 20:38
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
- 65 numeric registers used out of 32768
+ 79 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 263 strings out of 95617
- 2684 string characters out of 1171098
- 37678 words of memory out of 1522656
- 1675 multiletter control sequences out of 15000+50000
+ 277 strings out of 95617
+ 2829 string characters out of 1171098
+ 37692 words of memory out of 1522670
+ 1689 multiletter control sequences out of 15000+50000
  19950 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 12i,5n,8p,248b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 12i,5n,8p,283b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb>
-Output written on data.pdf (1 page, 61505 bytes).
+Output written on data.pdf (1 page, 110645 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -132,13 +133,13 @@ done
 writing Surface-map.kml ... done
 writing Surface-model.kml ... done
 writing xtherion file ... done
-compilation time: 4 sec
+compilation time: 5 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   1.99%   95.11%  Surface_Odessa_3_SP1@Surface_Odessa_3.Surface
+   1.53%   95.11%  Surface_Odessa_3_SP1@Surface_Odessa_3.Surface
    3.79%   65.85%  Surface_DaquioagSP1@Surface_Daquioag.Surface
    1.64%   57.20%  Surface_Odessa_2_SP1@Surface_Odessa_2.Surface
    0.38%   15.27%  Surface_Odessa_1_SP1@Surface_Odessa_1.Surface

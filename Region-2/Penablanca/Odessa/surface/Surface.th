@@ -13,6 +13,14 @@ survey Surface
 
   join  S2_West@Surface_Odessa_2:0   S3_West@Surface_Odessa_3:end
   join  S2_East@Surface_Odessa_2:end S3_East@Surface_Odessa_3:end
+  
+
+map SurfaceM
+  Surface_Odessa_3_SP1@Surface_Odessa_3
+  Surface_DaquioagSP1@Surface_Daquioag
+  Surface_Odessa_2_SP1@Surface_Odessa_2
+  Surface_Odessa_1_SP1@Surface_Odessa_1
+endmap
 
 endsurvey
 

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 2902.0157480299 3502.803149612
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1237.6601574800002 1 1.0} {1311.2940157500002 1.4} PocketTopo/pigsty-cave_p.xvi 0 {}
 
 
@@ -24,6 +24,7 @@ line wall
   2182.0 1903.0 2194.0 1935.0 2141.0 1974.0
   2088.0 2013.0 2063.0 2006.0 2077.0 2031.0
   2091.0 2056.0 2091.0 2061.0 2109.0 2067.0
+  smooth off
 endline
 
 line wall
@@ -39,6 +40,7 @@ line wall
   1358.0 613.0 1370.0 594.0 1375.0 576.0
   1380.0 558.0 1398.0 476.0 1411.0 463.0
   1424.0 450.0 1436.0 428.0 1439.0 421.0
+  smooth off
 endline
 
 line wall
@@ -62,6 +64,7 @@ line wall
   863.0 696.0 836.0 708.0 816.0 696.0
   796.0 684.0 784.0 666.0 768.0 683.0
   752.0 700.0 734.0 709.0 734.0 747.0
+  smooth off
 endline
 
 point 778.4901574800001 615.2840157500002 station -name 1.9
@@ -81,6 +84,8 @@ point 1867.06015748 1667.01401575 station -name 1.2
 point 1998.1301574800002 2009.1040157500001 station -name 1.1
 
 point 1978.74015748 2307.87401575 station -name 1.0
+
+point 1648.0 2900.0 label -text [Pigsty Cave] -scale m
 
 endscrap
 

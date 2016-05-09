@@ -1,0 +1,27 @@
+encoding  utf-8
+source MARTHA-2.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o MARTHA-2.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o MARTHA-2Ee.pdf
+
+export model -fmt survex -o MARTHA-2th.3d
+#Survex file showing centre line only
+
+#export model -o MARTHA-2.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o MARTHA-2_Walls.3d
+#Survex file showing walls only
+
+layout local
+  debug off
+  map-header 0 0 ne
+  symbol-hide group cave-centreline
+endlayout

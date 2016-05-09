@@ -1,181 +1,194 @@
 therion 5.3.16
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-configuration file: thconfig-PenablancaSystem
+configuration file: thconfig-OdessaAreaCaves
 reading ... done
 reading source files ... done
 preprocessing database ... done
-C:\Program Files (x86)\Therion\therion.exe: warning -- odessa/odessa.th [105] -- equate used to define new station (34.1@Main2Sewer)
+C:\Program Files (x86)\Therion\therion.exe: warning -- odessa/odessa.th [108] -- equate used to define new station (34.1@Main2Sewer)
 output coordinate system: UTM51
-meridian convergence (deg): 0.3557
+meridian convergence (deg): 0.3567
 geomag declinations (deg):
-  2005.1.1  -1.9612
-  2006.1.1  -2.0073
-  2007.1.1  -2.0534
-  2008.1.1  -2.0995
-  2009.1.1  -2.1456
-  2010.1.1  -2.1918
-  2011.1.1  -2.2721
-  2012.1.1  -2.3523
-  2013.1.1  -2.4325
-  2014.1.1  -2.5128
-  2015.1.1  -2.5930
-  2016.1.1  -2.6823
-  2017.1.1  -2.7716
+  1992.1.1  -1.6609
+  1993.1.1  -1.6802
+  1994.1.1  -1.6995
+  1995.1.1  -1.7188
+  1996.1.1  -1.7358
+  1997.1.1  -1.7529
+  1998.1.1  -1.7699
+  1999.1.1  -1.7869
+  2000.1.1  -1.8040
+  2001.1.1  -1.8352
+  2002.1.1  -1.8665
+  2003.1.1  -1.8978
+  2004.1.1  -1.9292
+  2005.1.1  -1.9605
+  2006.1.1  -2.0066
+  2007.1.1  -2.0527
+  2008.1.1  -2.0988
+  2009.1.1  -2.1450
+  2010.1.1  -2.1912
+  2011.1.1  -2.2714
+  2012.1.1  -2.3516
+  2013.1.1  -2.4318
+  2014.1.1  -2.5121
+  2015.1.1  -2.5923
+  2016.1.1  -2.6816
+  2017.1.1  -2.7709
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
-average loop error: 1.12%
+average loop error: 1.40%
 processing survey data ... 
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
- 3> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9412: warning: Unused fixed point "9419"
- 4> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9413: warning: Unused fixed point "9420"
- 5> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9414: warning: Unused fixed point "9421"
- 6> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9415: warning: Unused fixed point "9422"
- 7> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9416: warning: Unused fixed point "9423"
- 8> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9417: warning: Unused fixed point "9424"
- 9> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9418: warning: Unused fixed point "9425"
-10> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9419: warning: Unused fixed point "9426"
-11> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9420: warning: Unused fixed point "9427"
-12> C:\Users\HENRY_~1\AppData\Local\Temp\th10680\data.svx:9421: warning: Unused fixed point "9428"
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10121: warning: Unused fixed point "10128"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10122: warning: Unused fixed point "10129"
+ 5> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10123: warning: Unused fixed point "10130"
+ 6> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10124: warning: Unused fixed point "10131"
+ 7> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10125: warning: Unused fixed point "10132"
+ 8> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10126: warning: Unused fixed point "10133"
+ 9> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10127: warning: Unused fixed point "10134"
+10> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10128: warning: Unused fixed point "10135"
+11> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10129: warning: Unused fixed point "10136"
+12> C:\Users\HENRY_~1\AppData\Local\Temp\th9460\data.svx:10130: warning: Unused fixed point "10137"
 13> 
-14> Survey contains 12448 survey stations, joined by 12432 shots.
-15> There are 10 loops.
-16> Survey has 26 connected components.
-17> Total length of survey shots = 65993.22m (65991.71m adjusted)
-18> Total plan length of survey shots = 60938.67m
-19> Total vertical length of survey shots = 12091.40m
-20> Vertical range = 183.02m (from 12051 at 230.16m to 12399 at 47.14m)
-21> North-South range = 3060.69m (from 9530 at 1968556.60m to 5116 at 1965495.90m)
-22> East-West range = 2616.71m (from 12225 at 378534.58m to 4634 at 375917.87m)
-23>    10 0-nodes.
-24> 11230 1-nodes.
-25>    70 2-nodes.
-26>    20 3-nodes.
-27>    29 4-nodes.
-28>    40 5-nodes.
-29>   187 6-nodes.
-30>    60 7-nodes.
-31>    90 8-nodes.
-32>    91 9-nodes.
-33>    87 10-nodes.
-34>    63 11-nodes.
-35>    63 12-nodes.
-36>    57 13-nodes.
-37>    49 14-nodes.
-38>    56 15-nodes.
-39>    38 16-nodes.
-40>    25 17-nodes.
-41>    30 18-nodes.
-42>    16 19-nodes.
-43>    22 20-nodes.
-44>    10 21-nodes.
-45>    16 22-nodes.
-46>    11 23-nodes.
-47>    10 24-nodes.
-48>    11 25-nodes.
-49>     7 26-nodes.
-50>    11 27-nodes.
-51>     6 28-nodes.
-52>     6 29-nodes.
-53>     4 30-nodes.
-54>     3 31-nodes.
-55>     3 32-nodes.
-56>     5 33-nodes.
-57>     2 35-nodes.
-58>     2 37-nodes.
-59>     1 39-node.
-60>     1 42-node.
-61>     2 45-nodes.
-62>     1 46-node.
-63>     1 47-node.
-64>     1 50-node.
-65>     1 51-node.
+14> Survey contains 10331 survey stations, joined by 10321 shots.
+15> There are 8 loops.
+16> Survey has 18 connected components.
+17> Total length of survey shots = 53439.66m (53438.30m adjusted)
+18> Total plan length of survey shots = 49607.18m
+19> Total vertical length of survey shots = 9415.71m
+20> Vertical range = 114.83m (from 606 at 214.30m to 10199 at 99.47m)
+21> North-South range = 2102.87m (from 10226 at 1967598.24m to 3772 at 1965495.36m)
+22> East-West range = 1102.78m (from 8177 at 377020.67m to 3290 at 375917.89m)
+23>   10 0-nodes.
+24> 9284 1-nodes.
+25>   80 2-nodes.
+26>   19 3-nodes.
+27>   29 4-nodes.
+28>   45 5-nodes.
+29>  169 6-nodes.
+30>   49 7-nodes.
+31>   79 8-nodes.
+32>   79 9-nodes.
+33>   71 10-nodes.
+34>   43 11-nodes.
+35>   45 12-nodes.
+36>   42 13-nodes.
+37>   42 14-nodes.
+38>   37 15-nodes.
+39>   27 16-nodes.
+40>   22 17-nodes.
+41>   25 18-nodes.
+42>   14 19-nodes.
+43>   17 20-nodes.
+44>    9 21-nodes.
+45>   14 22-nodes.
+46>   10 23-nodes.
+47>    8 24-nodes.
+48>   10 25-nodes.
+49>    7 26-nodes.
+50>   10 27-nodes.
+51>    5 28-nodes.
+52>    5 29-nodes.
+53>    4 30-nodes.
+54>    2 31-nodes.
+55>    2 32-nodes.
+56>    5 33-nodes.
+57>    2 35-nodes.
+58>    2 37-nodes.
+59>    1 39-node.
+60>    1 42-node.
+61>    2 45-nodes.
+62>    1 46-node.
+63>    1 47-node.
+64>    1 50-node.
+65>    1 51-node.
 66> There were 10 warning(s).
 67> 
 ######################### transcription ########################
- 3> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
- 3> input:9412 -- odessa/Surface/Surface_Odessa_1/Surface_Odessa_1.th [15]
- 3> 9419 : 201@Surface_Odessa_1.Surface.Odessa.PenablancaSystem
- 4> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
- 4> input:9413 -- odessa/Surface/Surface_Odessa_1/Surface_Odessa_1.th [16]
- 4> 9420 : 202@Surface_Odessa_1.Surface.Odessa.PenablancaSystem
- 5> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
- 5> input:9414 -- odessa/Surface/Surface_Odessa_2/Surface_Odessa_2.th [15]
- 5> 9421 : 301@Surface_Odessa_2.Surface.Odessa.PenablancaSystem
- 6> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
- 6> input:9415 -- odessa/Surface/Surface_Odessa_2/Surface_Odessa_2.th [16]
- 6> 9422 : 302@Surface_Odessa_2.Surface.Odessa.PenablancaSystem
- 7> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
- 7> input:9416 -- odessa/Surface/Surface_Odessa_3/Surface_Odessa_3.th [15]
- 7> 9423 : 401@Surface_Odessa_3.Surface.Odessa.PenablancaSystem
- 8> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
- 8> input:9417 -- odessa/Surface/Surface_Odessa_3/Surface_Odessa_3.th [16]
- 8> 9424 : 402@Surface_Odessa_3.Surface.Odessa.PenablancaSystem
- 9> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
- 9> input:9418 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [16]
- 9> 9425 : 101@Surface_Daquioag.Surface.Odessa.PenablancaSystem
-10> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
-10> input:9419 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [17]
-10> 9426 : 102@Surface_Daquioag.Surface.Odessa.PenablancaSystem
-11> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
-11> input:9420 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [18]
-11> 9427 : 103@Surface_Daquioag.Surface.Odessa.PenablancaSystem
-12> 1 : 1.0@martha.martha.PenablancaSystem -- 10680 : -@downside.Dafung.PenablancaSystem
-12> input:9421 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [19]
-12> 9428 : 104@Surface_Daquioag.Surface.Odessa.PenablancaSystem
-14> 12448 : 34.1@Main2Sewer.Odessa.PenablancaSystem -- 12432 : 19.5@ND2.PenablancaSystem
-15> 10 : -@martha.martha.PenablancaSystem
-16> 26 : -@martha.martha.PenablancaSystem
-20> 12051 : -@jungle_cave.PenablancaSystem -- 12399 : 1.29@ND2.PenablancaSystem
-21> 9530 : -@NOODLE.PenablancaSystem -- 5116 : -@Daquioag.Odessa.PenablancaSystem
-22> 12225 : -@ND2.PenablancaSystem -- 4634 : -@Daquioag.Odessa.PenablancaSystem
-23> 10 : -@martha.martha.PenablancaSystem
-24> 11230 : -@upstream2.Dafung.PenablancaSystem
-25> 70 : -@martha.martha.PenablancaSystem
-26> 20 : -@martha.martha.PenablancaSystem
-27> 29 : -@martha.martha.PenablancaSystem
-28> 40 : -@martha.martha.PenablancaSystem
-29> 187 : -@martha.martha.PenablancaSystem
-30> 60 : -@martha.martha.PenablancaSystem
-31> 90 : -@martha.martha.PenablancaSystem
-32> 91 : -@martha.martha.PenablancaSystem
-33> 87 : -@martha.martha.PenablancaSystem
-34> 63 : -@martha.martha.PenablancaSystem
-35> 63 : -@martha.martha.PenablancaSystem
-36> 57 : -@martha.martha.PenablancaSystem
-37> 49 : 4.2@martha.martha.PenablancaSystem
-38> 56 : -@martha.martha.PenablancaSystem
-39> 38 : 4.0@martha.martha.PenablancaSystem
-40> 25 : -@martha.martha.PenablancaSystem
-41> 30 : -@martha.martha.PenablancaSystem
-42> 16 : -@martha.martha.PenablancaSystem
-43> 22 : -@martha.martha.PenablancaSystem
-44> 10 : -@martha.martha.PenablancaSystem
-45> 16 : -@martha.martha.PenablancaSystem
-46> 11 : -@martha.martha.PenablancaSystem
-47> 10 : -@martha.martha.PenablancaSystem
-48> 11 : -@martha.martha.PenablancaSystem
-49> 7 : -@martha.martha.PenablancaSystem
-50> 11 : -@martha.martha.PenablancaSystem
-51> 6 : 1.1@martha.martha.PenablancaSystem
-52> 6 : 1.1@martha.martha.PenablancaSystem
-53> 4 : -@martha.martha.PenablancaSystem
-54> 3 : -@martha.martha.PenablancaSystem
-55> 3 : -@martha.martha.PenablancaSystem
-56> 5 : -@martha.martha.PenablancaSystem
-57> 2 : -@martha.martha.PenablancaSystem
-58> 2 : -@martha.martha.PenablancaSystem
-59> 1 : 1.0@martha.martha.PenablancaSystem
-60> 1 : 1.0@martha.martha.PenablancaSystem
-61> 2 : -@martha.martha.PenablancaSystem
-62> 1 : 1.0@martha.martha.PenablancaSystem
-63> 1 : 1.0@martha.martha.PenablancaSystem
-64> 1 : 1.0@martha.martha.PenablancaSystem
-65> 1 : 1.0@martha.martha.PenablancaSystem
-66> 10 : -@martha.martha.PenablancaSystem
+ 3> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+ 3> input:10121 -- odessa/Surface/Surface_Odessa_1/Surface_Odessa_1.th [15]
+ 3> 10128 : 201@Surface_Odessa_1.Surface.Odessa.OdessaAreaCaves
+ 4> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+ 4> input:10122 -- odessa/Surface/Surface_Odessa_1/Surface_Odessa_1.th [16]
+ 4> 10129 : 202@Surface_Odessa_1.Surface.Odessa.OdessaAreaCaves
+ 5> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+ 5> input:10123 -- odessa/Surface/Surface_Odessa_2/Surface_Odessa_2.th [15]
+ 5> 10130 : 301@Surface_Odessa_2.Surface.Odessa.OdessaAreaCaves
+ 6> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+ 6> input:10124 -- odessa/Surface/Surface_Odessa_2/Surface_Odessa_2.th [16]
+ 6> 10131 : 302@Surface_Odessa_2.Surface.Odessa.OdessaAreaCaves
+ 7> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+ 7> input:10125 -- odessa/Surface/Surface_Odessa_3/Surface_Odessa_3.th [15]
+ 7> 10132 : 401@Surface_Odessa_3.Surface.Odessa.OdessaAreaCaves
+ 8> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+ 8> input:10126 -- odessa/Surface/Surface_Odessa_3/Surface_Odessa_3.th [16]
+ 8> 10133 : 402@Surface_Odessa_3.Surface.Odessa.OdessaAreaCaves
+ 9> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+ 9> input:10127 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [16]
+ 9> 10134 : 101@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
+10> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+10> input:10128 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [17]
+10> 10135 : 102@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
+11> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+11> input:10129 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [18]
+11> 10136 : 103@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
+12> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9460 : -@SewerNorthTop.Odessa.OdessaAreaCaves
+12> input:10130 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [19]
+12> 10137 : 104@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
+14> 10331 : 34.1@Main2Sewer.Odessa.OdessaAreaCaves -- 10321 : 1.7@pigsty-cave.OdessaAreaCaves
+15> 8 : -@martha.HeadlessChicken.OdessaAreaCaves
+16> 18 : -@martha.HeadlessChicken.OdessaAreaCaves
+20> 606 : -@odessa-entrance.Odessa.OdessaAreaCaves -- 10199 : -@tumbali-day1-c2.Odessa.OdessaAreaCaves
+21> 10226 : -@tumbali-day1-c2.Odessa.OdessaAreaCaves -- 3772 : -@Daquioag.Daquioag_Branch.Odessa.OdessaAreaCaves
+22> 8177 : -@tumbali-d1-c3.Odessa.OdessaAreaCaves -- 3290 : -@Daquioag.Daquioag_Branch.Odessa.OdessaAreaCaves
+23> 10 : -@martha.HeadlessChicken.OdessaAreaCaves
+24> 9284 : -@catcheel.Odessa.OdessaAreaCaves
+25> 80 : -@martha.HeadlessChicken.OdessaAreaCaves
+26> 19 : -@martha.HeadlessChicken.OdessaAreaCaves
+27> 29 : -@martha.HeadlessChicken.OdessaAreaCaves
+28> 45 : -@martha.HeadlessChicken.OdessaAreaCaves
+29> 169 : -@martha.HeadlessChicken.OdessaAreaCaves
+30> 49 : 4.2@martha.HeadlessChicken.OdessaAreaCaves
+31> 79 : -@martha.HeadlessChicken.OdessaAreaCaves
+32> 79 : -@martha.HeadlessChicken.OdessaAreaCaves
+33> 71 : -@martha.HeadlessChicken.OdessaAreaCaves
+34> 43 : -@martha.HeadlessChicken.OdessaAreaCaves
+35> 45 : -@martha.HeadlessChicken.OdessaAreaCaves
+36> 42 : -@martha.HeadlessChicken.OdessaAreaCaves
+37> 42 : -@martha.HeadlessChicken.OdessaAreaCaves
+38> 37 : 1.6@martha.HeadlessChicken.OdessaAreaCaves
+39> 27 : -@martha.HeadlessChicken.OdessaAreaCaves
+40> 22 : -@martha.HeadlessChicken.OdessaAreaCaves
+41> 25 : -@martha.HeadlessChicken.OdessaAreaCaves
+42> 14 : 1.2@martha.HeadlessChicken.OdessaAreaCaves
+43> 17 : 1.3@martha.HeadlessChicken.OdessaAreaCaves
+44> 9 : -@martha.HeadlessChicken.OdessaAreaCaves
+45> 14 : 1.2@martha.HeadlessChicken.OdessaAreaCaves
+46> 10 : -@martha.HeadlessChicken.OdessaAreaCaves
+47> 8 : -@martha.HeadlessChicken.OdessaAreaCaves
+48> 10 : -@martha.HeadlessChicken.OdessaAreaCaves
+49> 7 : -@martha.HeadlessChicken.OdessaAreaCaves
+50> 10 : -@martha.HeadlessChicken.OdessaAreaCaves
+51> 5 : -@martha.HeadlessChicken.OdessaAreaCaves
+52> 5 : -@martha.HeadlessChicken.OdessaAreaCaves
+53> 4 : -@martha.HeadlessChicken.OdessaAreaCaves
+54> 2 : -@martha.HeadlessChicken.OdessaAreaCaves
+55> 2 : -@martha.HeadlessChicken.OdessaAreaCaves
+56> 5 : -@martha.HeadlessChicken.OdessaAreaCaves
+57> 2 : -@martha.HeadlessChicken.OdessaAreaCaves
+58> 2 : -@martha.HeadlessChicken.OdessaAreaCaves
+59> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+60> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+61> 2 : -@martha.HeadlessChicken.OdessaAreaCaves
+62> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+63> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+64> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+65> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+66> 10 : -@martha.HeadlessChicken.OdessaAreaCaves
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -183,10 +196,11 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.44%
-writing .\output\penablanca.pdf ...
+average distortion: 0.45%
+writing .\output\OdessaAreaCaves.pdf ...
+processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  4 MAY 2016 10:08
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 MAY 2016 22:55
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -198,44 +212,65 @@ ode/_scalebar_large_format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/c
 ode/_legend_large_format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_bats.mp
-[4013]) [1] [2]
-[Warning: scrap outline intersects itself in scrap UpperLevel@tumbali-day1-c2.O
-dessa.PenablancaSystem] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[15] [16]
-[Error: area borders l23-2816-1214 and l22-3108-1358 don't intersect in scrap M
-ARTHA-2SP1@MARTHA-2.martha.PenablancaSystem (file martha/day2/MARTHA-2.th2 [292
-])] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-[Warning: scrap outline intersects itself in scrap SewerSouth@SewerSouth.Odessa
-.PenablancaSystem] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
-[Error: area borders l141-10106-29230 and l239-9798-29424 don't intersect in sc
-rap odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa.PenablancaSystem (fil
-e odessa/odessa-downstream-9-5/odessa-downstream-9-5.th2 [921])] [37] [38]
-[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
-[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
-[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
-[84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
-[99] [100] [101] [102] [103] [104] [105] [106] [107]
+[4013]) [1] [2] [3] [4] [5] [6] [7]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Daquio
+ag_Branch.Odessa.OdessaAreaCaves]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Daquio
+ag_Branch.Odessa.OdessaAreaCaves]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Daquio
+ag_Branch.Odessa.OdessaAreaCaves]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Daquio
+ag_Branch.Odessa.OdessaAreaCaves] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
+[Warning: scrap outline intersects itself in scrap DaquioagSPX20.12@Daquioag.Da
+quioag_Branch.Odessa.OdessaAreaCaves] [29] [30] [31] [32] [33] [34] [35] [36]
+[37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
+[52] [53] [54] [55] [56] [57]
+[Warning: scrap outline intersects itself in scrap odessa-up-loopSP2@odessa-up-
+loop.Daquioag_Branch.Odessa.OdessaAreaCaves] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68]
+[Warning: scrap outline intersects itself in scrap oxbow-up-20-04SP1@oxbow-up-2
+0-04.Daquioag_Branch.Odessa.OdessaAreaCaves] [69] [70] [71] [72] [73] [74]
+[75] [76] [77] [78] [79] [80] [81] [82]
+[Warning: scrap outline intersects itself in scrap odessaupday2oliandpeteSPX1.1
+4@odessaupday2oliandpete.Daquioag_Branch.Odessa.OdessaAreaCaves] [83] [84]
+[85] [86] [87]
+[Warning: scrap outline intersects itself in scrap odessaupday2oliandpeteSPX1.1
+@odessaupday2oliandpete.Daquioag_Branch.Odessa.OdessaAreaCaves] [88] [89] [90]
+[91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104]
+[105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]
 [Warning: scrap outline intersects itself in scrap OdessaEntSide@odessa-entranc
-e.Odessa.PenablancaSystem] [108] [109] [110] [111] [112] [113] [114] [115]
-[116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127]
+e.Odessa.OdessaAreaCaves] [116] [117] [118] [119] [120] [121] [122] [123] [124]
+[125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+[Warning: scrap outline intersects itself in scrap SewerSouth@SewerSouth.Odessa
+.OdessaAreaCaves] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
+[161] [162] [163] [164] [165]
+[Warning: scrap outline intersects itself in scrap UpperLevel@tumbali-day1-c2.O
+dessa.OdessaAreaCaves] [166] [167] [168] [169] [170] [171] [172] [173] [174]
+[175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187]
+[188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199] [200]
+[201] [202] [203] [204] [205] [206] [207] [208] [209] [210] (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) [128] [129] [130] [131] [132] [133] [134] [135]
-[136] [137] )
+(./mptextmp.mp) [211] [212] [213] [214] [215] [216] [217] [218] [219] [220]
+[221] [222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233]
+[234] [235] [236] [237] [238] [239] [240] [241] [242] [243] [244] [245] [246]
+[247] [248] [249] [250] [251] [252] [253] [254] [255] [256] [257] [258] )
  
 Here is how much of MetaPost's memory you used:
- 1640 strings out of 2233
- 17860 string characters out of 34452
- 696733 words of memory out of 1500000
- 1529 symbolic tokens out of 16384
- 11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
- 1147 string compactions (moved 18821043 characters, 1708662 strings)
-150 output files written: data.1 .. data.4013
+ 3345 strings out of 3907
+ 19775 string characters out of 43988
+ 1169376 words of memory out of 1500000
+ 1530 symbolic tokens out of 16384
+ 11i,75n,16p,596b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 2176 string compactions (moved 38356420 characters, 5396930 strings)
+271 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  4 MAY 2016 10:08
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 MAY 2016 22:55
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -243,92 +278,86 @@ entering extended mode
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex
 Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 467 strings out of 95617
- 4582 string characters out of 1171098
- 1252455 words of memory out of 2655433
- 1877 multiletter control sequences out of 15000+50000
+ 656 strings out of 95617
+ 6757 string characters out of 1171098
+ 2183753 words of memory out of 3500000
+ 2066 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 12i,5n,9p,1526b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 10i,8n,9p,703b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 2651221 bytes).
+Output written on data.pdf (1 page, 5696045 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
+ 922 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1791 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2699 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\Penablanca_map.kml ... done
-writing .\output\penablanca.kml ... done
-writing .\output\penablanca-survex.3d ... done
+writing .\output\OdessaAreaCaves-survex.3d ... done
 writing xtherion file ... done
-compilation time: 46 sec
+compilation time: 51 sec
 
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  1.30%    1.0m   73.5m   8    0.4m   -0.9m   -0.2m [9.7@smallloop.Odessa.PenablancaSystem - 9.6 - 9.5 - 9.4 - 9.3 - 9.2 - 9.1 - 9.0 = 8.9@odessa-heaven.Odessa.PenablancaSystem - 8.8 = 9.7@smallloop.Odessa.PenablancaSystem]
-  1.18%   21.3m 1800.1m 197   14.9m   -7.4m  -13.2m [1.0@odessa-entrance.Odessa.PenablancaSystem - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 - 1.28 - 1.29 - 1.30 = 1.66@odessaupday2oliandpete.Odessa.PenablancaSystem - 1.65 - 1.64 - 1.63 - 1.62 - 1.61 - 1.60 - 1.59 - 1.58 - 1.57 - 1.56 - 1.55 - 1.54 - 1.53 - 1.52 - 1.51 - 1.50 - 1.49 - 1.48 - 1.47 - 1.46 - 1.45 - 1.44 - 1.43 - 1.42 - 1.41 - 1.40 - 1.39 - 1.38 - 1.37 - 1.36 - 1.35 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 1.13 - 1.12 - 1.11 - 1.10 - 1.9 - 1.8 - 1.7 - 1.6 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0 = 22.22@Daquioag.Odessa.PenablancaSystem - 22.21 - 22.20 - 22.19 - 22.18 - 22.17 - 22.16 - 22.15 - 22.14 - 22.13 - 22.12 - 22.11 - 22.10 - 22.9 - 22.8 - 22.7 - 22.6 - 22.5 - 22.4 - 22.3 - 22.2 - 22.1 - 22.0 - 20.91 - 20.90 - 20.89 - 20.88 - 20.87 - 20.86 - 20.85 - 20.84 - 20.83 - 20.82 - 20.81 - 20.80 - 20.79 - 20.78 - 20.77 - 20.76 - 20.75 - 20.74 - 20.73 - 20.72 - 20.71 - 20.70 - 20.69 - 20.68 - 20.67 - 20.66 - 20.65 - 20.64 - 20.63 - 20.62 - 20.61 - 20.60 - 20.59 - 20.58 - 20.57 - 20.56 - 20.55 - 20.54 - 20.53 - 20.52 - 20.51 - 20.50 - 20.49 - 20.48 - 20.47 - 20.46 - 20.45 - 20.44 - 20.42 - 20.41 - 20.40 - 20.39 - 20.38 - 20.37 - 20.36 - 20.35 - 20.34 - 20.33 - 20.32 - 20.31 - 20.30 - 20.29 - 20.28 - 20.27 - 20.26 - 20.25 - 20.24 - 20.23 - 20.22 - 20.21 - 20.20 - 20.19 - 20.18 - 20.17 - 20.16 - 20.15 - 20.14 - 20.13 - 20.12 - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0]
-  0.63%    1.3m  205.1m  28    1.2m    0.4m    0.4m [17.9@catcheel.Odessa.PenablancaSystem - 17.8 - 17.7 - 17.6 - 17.5 - 17.4 - 17.3 - 17.2 - 17.1 - 17.0 - 16.10 - 16.9 - 16.8 - 16.7 - 16.6 - 16.5 - 16.4 - 16.3 - 16.2 - 16.1 - 16.0 - 4.61 = 4.61@odessa-downstream-9-5.Odessa.PenablancaSystem - 4.60 - 4.59 - 4.58 - 4.57 - 4.56 - 4.55 - 4.54 = 17.9@catcheel.Odessa.PenablancaSystem]
+  9.53%    6.1m   64.5m   7    2.8m   -5.5m    0.0m [2.4@MainWestSide.Odessa.OdessaAreaCaves - 3.2 - 3.1 - 1.2 - 2.1 - 2.2 - 2.3 - 2.4]
+  3.13%   14.8m  473.6m  27   -3.2m   11.7m   -8.5m [2.6@MainWestSide.Odessa.OdessaAreaCaves - 2.5 - 2.4 - 3.2 - 3.1 - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 = 4.18@odessa-downstream-9-5.Odessa.OdessaAreaCaves - 4.17 - 4.16 - 4.15 - 4.14 - 4.13 = 4.13@odessa-entrance.Odessa.OdessaAreaCaves - 4.12 - 4.11 - 4.10 - 4.9 - 4.8 - 4.7 - 4.6 - 4.5 - 4.4 = 2.6@MainWestSide.Odessa.OdessaAreaCaves]
+  1.30%    1.0m   73.5m   8    0.4m   -0.8m   -0.2m [9.7@smallloop.Odessa.OdessaAreaCaves - 9.6 - 9.5 - 9.4 - 9.3 - 9.2 - 9.1 - 9.0 = 8.9@odessa-heaven.Odessa.OdessaAreaCaves - 8.8 = 9.7@smallloop.Odessa.OdessaAreaCaves]
+  1.04%   18.7m 1800.1m 197   12.9m   -3.2m  -13.2m [1.0@odessa-entrance.Odessa.OdessaAreaCaves - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 - 1.28 - 1.29 - 1.30 = 1.66@odessaupday2oliandpete.Daquioag_Branch.Odessa.OdessaAreaCaves - 1.65 - 1.64 - 1.63 - 1.62 - 1.61 - 1.60 - 1.59 - 1.58 - 1.57 - 1.56 - 1.55 - 1.54 - 1.53 - 1.52 - 1.51 - 1.50 - 1.49 - 1.48 - 1.47 - 1.46 - 1.45 - 1.44 - 1.43 - 1.42 - 1.41 - 1.40 - 1.39 - 1.38 - 1.37 - 1.36 - 1.35 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 1.13 - 1.12 - 1.11 - 1.10 - 1.9 - 1.8 - 1.7 - 1.6 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0 = 22.22@Daquioag.Daquioag_Branch.Odessa.OdessaAreaCaves - 22.21 - 22.20 - 22.19 - 22.18 - 22.17 - 22.16 - 22.15 - 22.14 - 22.13 - 22.12 - 22.11 - 22.10 - 22.9 - 22.8 - 22.7 - 22.6 - 22.5 - 22.4 - 22.3 - 22.2 - 22.1 - 22.0 - 20.91 - 20.90 - 20.89 - 20.88 - 20.87 - 20.86 - 20.85 - 20.84 - 20.83 - 20.82 - 20.81 - 20.80 - 20.79 - 20.78 - 20.77 - 20.76 - 20.75 - 20.74 - 20.73 - 20.72 - 20.71 - 20.70 - 20.69 - 20.68 - 20.67 - 20.66 - 20.65 - 20.64 - 20.63 - 20.62 - 20.61 - 20.60 - 20.59 - 20.58 - 20.57 - 20.56 - 20.55 - 20.54 - 20.53 - 20.52 - 20.51 - 20.50 - 20.49 - 20.48 - 20.47 - 20.46 - 20.45 - 20.44 - 20.42 - 20.41 - 20.40 - 20.39 - 20.38 - 20.37 - 20.36 - 20.35 - 20.34 - 20.33 - 20.32 - 20.31 - 20.30 - 20.29 - 20.28 - 20.27 - 20.26 - 20.25 - 20.24 - 20.23 - 20.22 - 20.21 - 20.20 - 20.19 - 20.18 - 20.17 - 20.16 - 20.15 - 20.14 - 20.13 - 20.12 - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0]
+  0.30%    0.6m  205.1m  28    0.5m   -0.0m    0.4m [17.9@catcheel.Odessa.OdessaAreaCaves - 17.8 - 17.7 - 17.6 - 17.5 - 17.4 - 17.3 - 17.2 - 17.1 - 17.0 - 16.10 - 16.9 - 16.8 - 16.7 - 16.6 - 16.5 - 16.4 - 16.3 - 16.2 - 16.1 - 16.0 - 4.61 = 4.61@odessa-downstream-9-5.Odessa.OdessaAreaCaves - 4.60 - 4.59 - 4.58 - 4.57 - 4.56 - 4.55 - 4.54 = 17.9@catcheel.Odessa.OdessaAreaCaves]
 ##################### end of loop errors #######################
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   4.73%  100.00%  dafung-cave1SP1@dafung-cave1.Dafung.PenablancaSystem
-   0.36%  100.00%  ND2SP1@ND2.PenablancaSystem
-   1.53%   95.11%  Surface_Odessa_3_SP1@Surface_Odessa_3.Surface.Odessa.PenablancaSystem
-   1.17%   83.85%  OdessaEntLower@odessa-entrance.Odessa.PenablancaSystem
-   0.22%   82.15%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa.PenablancaSystem
-   0.10%   78.02%  odessa1204SP1@odessa1204.Odessa.PenablancaSystem
-   0.90%   74.61%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag.Odessa.PenablancaSystem
-   0.39%   74.20%  catcheelSP1@catcheel.Odessa.PenablancaSystem
-   0.51%   67.77%  DaquioagSP1@Daquioag.Odessa.PenablancaSystem
-   3.79%   65.85%  Surface_DaquioagSP1@Surface_Daquioag.Surface.Odessa.PenablancaSystem
-   5.45%   65.80%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag.Odessa.PenablancaSystem
-   0.81%   59.92%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag.Odessa.PenablancaSystem
-   1.64%   57.20%  Surface_Odessa_2_SP1@Surface_Odessa_2.Surface.Odessa.PenablancaSystem
-   1.04%   56.69%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag.Odessa.PenablancaSystem
-   0.30%   42.41%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Odessa.PenablancaSystem
-   0.14%   39.22%  SewerSouth@SewerSouth.Odessa.PenablancaSystem
-   0.38%   34.12%  smallloopSP1@smallloop.Odessa.PenablancaSystem
-   0.15%   32.68%  odessa-heavenSP1@odessa-heaven.Odessa.PenablancaSystem
-   0.02%   29.17%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa.PenablancaSystem
-   0.91%   25.09%  Main2SewerSP1@Main2Sewer.Odessa.PenablancaSystem
-   0.08%   21.85%  SewerNorthTopSP1@SewerNorthTop.Odessa.PenablancaSystem
-   0.94%   17.03%  SewerNorthSide@SewerNorthSide.Odessa.PenablancaSystem
-   0.02%   16.93%  odessa-up-loopSP1@odessa-up-loop.Daquioag.Odessa.PenablancaSystem
-   0.38%   15.27%  Surface_Odessa_1_SP1@Surface_Odessa_1.Surface.Odessa.PenablancaSystem
-   0.48%   14.29%  odessa-entranceSP1@odessa-entrance.Odessa.PenablancaSystem
-   0.02%    3.50%  dafung-down-westSP1@dafung-down-west.Dafung.PenablancaSystem
-   0.07%    1.03%  LowerLevel@tumbali-day1-c2.Odessa.PenablancaSystem
-   0.04%    0.80%  MARTHA-2SP1@MARTHA-2.martha.PenablancaSystem
-   0.06%    0.71%  UpperLevel@tumbali-day1-c2.Odessa.PenablancaSystem
-   0.06%    0.68%  marthaEntrance@martha.martha.PenablancaSystem
-   0.06%    0.59%  OdessaEntSide@odessa-entrance.Odessa.PenablancaSystem
-   0.04%    0.55%  pigsty-caveSP1@pigsty-cave.PenablancaSystem
-   0.06%    0.53%  NOODLESP1@NOODLE.PenablancaSystem
-   0.06%    0.50%  upper_squeezSP1@upper_squeez.Dafung.PenablancaSystem
-   0.02%    0.48%  smallpitchSP1@smallpitch.Dafung.PenablancaSystem
-   0.06%    0.33%  martha_inletSP1@martha_inlet.martha.PenablancaSystem
-   0.01%    0.28%  upstreamSP1@upstream.Dafung.PenablancaSystem
-   0.01%    0.27%  marthaStreamway@martha.martha.PenablancaSystem
-   0.01%    0.21%  downstream129SP1@downstream129.Dafung.PenablancaSystem
-   0.01%    0.17%  jungle_caveSP1@jungle_cave.PenablancaSystem
-   0.03%    0.16%  OdessaEntLowSide@odessa-entrance.Odessa.PenablancaSystem
-   0.02%    0.13%  downsideSP1@downside.Dafung.PenablancaSystem
-   0.04%    0.12%  upstream2SP1@upstream2.Dafung.PenablancaSystem
-   0.03%    0.12%  shepherdSP1@shepherd.Odessa.PenablancaSystem
-   0.00%    0.00%  odessa-up-loopSP2@odessa-up-loop.Daquioag.Odessa.PenablancaSystem
-   0.00%    0.00%  Road@Daquioag.Odessa.PenablancaSystem
+   1.53%   95.11%  Surface_Odessa_3_SP1@Surface_Odessa_3.Surface.Odessa.OdessaAreaCaves
+   0.43%   85.44%  DaquioagSP1@Daquioag.Daquioag_Branch.Odessa.OdessaAreaCaves
+   1.46%   84.77%  OdessaEntLower@odessa-entrance.Odessa.OdessaAreaCaves
+   0.27%   82.31%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa.OdessaAreaCaves
+   0.10%   78.01%  odessa-lower-sewerSP1@odessa-lower-sewer.Odessa.OdessaAreaCaves
+   0.34%   74.88%  catcheelSP1@catcheel.Odessa.OdessaAreaCaves
+   0.90%   74.36%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.18%   70.92%  downstream-sumpSP1@downstream-sump.Odessa.OdessaAreaCaves
+   3.79%   65.85%  Surface_DaquioagSP1@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
+   5.40%   65.73%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.07%   60.03%  marthaStreamway@martha.HeadlessChicken.OdessaAreaCaves
+   0.87%   59.93%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.31%   59.84%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag_Branch.Odessa.OdessaAreaCaves
+   1.64%   57.20%  Surface_Odessa_2_SP1@Surface_Odessa_2.Surface.Odessa.OdessaAreaCaves
+   1.04%   55.84%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag_Branch.Odessa.OdessaAreaCaves
+   8.34%   55.01%  MainWestSideSP1@MainWestSide.Odessa.OdessaAreaCaves
+   0.13%   54.15%  MARTHA-2SP1@MARTHA-2.HeadlessChicken.OdessaAreaCaves
+   0.39%   53.41%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.66%   45.81%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.07%   45.69%  odessa-up-loopSP1@odessa-up-loop.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.15%   39.21%  SewerSouth@SewerSouth.Odessa.OdessaAreaCaves
+   0.38%   34.37%  smallloopSP1@smallloop.Odessa.OdessaAreaCaves
+   0.15%   32.68%  odessa-heavenSP1@odessa-heaven.Odessa.OdessaAreaCaves
+   0.02%   30.01%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa.OdessaAreaCaves
+   6.31%   28.05%  odessa-up-loopSP2@odessa-up-loop.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.90%   25.08%  Main2SewerSP1@Main2Sewer.Odessa.OdessaAreaCaves
+   0.07%   21.87%  SewerNorthTopSP1@SewerNorthTop.Odessa.OdessaAreaCaves
+   0.10%   17.93%  seriouscavingupstreamSP1@seriouscavingupstream.Daquioag_Branch.Odessa.OdessaAreaCaves
+   0.95%   16.98%  SewerNorthSide@SewerNorthSide.Odessa.OdessaAreaCaves
+   0.38%   15.27%  Surface_Odessa_1_SP1@Surface_Odessa_1.Surface.Odessa.OdessaAreaCaves
+   0.37%   12.14%  odessa-entranceSP1@odessa-entrance.Odessa.OdessaAreaCaves
+   0.07%    1.03%  LowerLevel@tumbali-day1-c2.Odessa.OdessaAreaCaves
+   0.06%    0.71%  UpperLevel@tumbali-day1-c2.Odessa.OdessaAreaCaves
+   0.06%    0.68%  marthaEntrance@martha.HeadlessChicken.OdessaAreaCaves
+   0.04%    0.67%  pigsty-caveSP1@pigsty-cave.OdessaAreaCaves
+   0.06%    0.59%  OdessaEntSide@odessa-entrance.Odessa.OdessaAreaCaves
+   0.07%    0.40%  martha_inletSP1@martha_inlet.HeadlessChicken.OdessaAreaCaves
+   0.04%    0.24%  shepherdSP1@shepherd.Odessa.OdessaAreaCaves
+   0.02%    0.11%  OdessaEntLowSide@odessa-entrance.Odessa.OdessaAreaCaves
+   0.00%    0.00%  Road@Daquioag.Daquioag_Branch.Odessa.OdessaAreaCaves
 ################### end of scrap distortions ###################
