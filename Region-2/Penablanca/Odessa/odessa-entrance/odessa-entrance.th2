@@ -113,6 +113,8 @@ endline
 
 point 1015.0 6660.0 label -text [?] -align center -scale s
 
+point 1558.0 4178.0 label -scale xl -text Entrance -align left
+
 line wall -id l9-2400-5284 -reverse on
   1854.0 4932.0
   1896.0 4952.0 2068.0 5030.0 2180.0 5118.0

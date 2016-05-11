@@ -1,0 +1,163 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3570
+geomag declinations (deg):
+  2016.1.1  -2.6817
+  2017.1.1  -2.7710
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> 
+ 4> Survey contains 94 survey stations, joined by 93 shots.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey shots =  268.82m ( 268.82m adjusted)
+ 8> Total plan length of survey shots =  257.54m
+ 9> Total vertical length of survey shots =   35.78m
+10> Vertical range = 2.60m (from 80 at 164.69m to 33 at 162.09m)
+11> North-South range = 27.15m (from 3 at 1966431.12m to 80 at 1966403.97m)
+12> East-West range = 17.24m (from 18 at 376117.75m to 94 at 376100.51m)
+13>   85 1-nodes.
+14>    1 2-node.
+15>    2 9-nodes.
+16>    1 10-node.
+17>    2 13-nodes.
+18>    1 14-node.
+19>    1 15-node.
+20>    1 16-node.
+21> 
+######################### transcription ########################
+ 4> 94 : 1.9@pigsty-cave -- 93 : -@pigsty-cave
+ 5> 1 : 1.0@pigsty-cave
+ 6> 2 : -@pigsty-cave
+10> 80 : -@pigsty-cave -- 33 : -@pigsty-cave
+11> 3 : -@pigsty-cave -- 80 : -@pigsty-cave
+12> 18 : -@pigsty-cave -- 94 : 1.9@pigsty-cave
+13> 85 : 1.7@pigsty-cave
+14> 1 : 1.0@pigsty-cave
+15> 2 : -@pigsty-cave
+16> 1 : 1.0@pigsty-cave
+17> 2 : -@pigsty-cave
+18> 1 : 1.0@pigsty-cave
+19> 1 : 1.0@pigsty-cave
+20> 1 : 1.0@pigsty-cave
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- thconfig [30] -- source layout not found -- bats
+done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.04%
+writing pigsty-cave.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  11 MAY 2016 21:53
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1]
+[Warning: scrap outline intersects itself in scrap pigsty-caveSP1@pigsty-cave]
+[2] [3] [4] [5] (./mptextmp.mp) [6] [7] [8] [9] [10] [11] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1046 strings out of 1162
+ 13237 string characters out of 20720
+ 67922 words of memory out of 1500000
+ 1370 symbolic tokens out of 16384
+ 11i,75n,16p,245b,5f stack positions out of 300i,84n,5000p,250b,15f
+ 43 string compactions (moved 371638 characters, 30083 strings)
+23 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  11 MAY 2016 21:53
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+! Undefined control sequence.
+l.622 export TEXINPUTS=.;C:\Users
+                                 \henry_bennett\Documents\GitHub\SpeleoPhili...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.622 export TEXINPUTS=.;C:\Users\henry
+                                       _bennett\Documents\GitHub\SpeleoPhili...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.622 export TEXINPUTS=.;C:\Users\henry_
+                                        bennett\Documents\GitHub\SpeleoPhili...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.622 ...INPUTS=.;C:\Users\henry_bennett\Documents
+                                                  \GitHub\SpeleoPhilippines\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.622 ....;C:\Users\henry_bennett\Documents\GitHub
+                                                  \SpeleoPhilippines\CodeLib...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.622 ...ennett\Documents\GitHub\SpeleoPhilippines
+                                                  \CodeLibrary\;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.622 ...ents\GitHub\SpeleoPhilippines\CodeLibrary
+                                                  \;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+!pdfTeX error: pdftex.exe (file Bat.png): cannot find image file
+ ==> Fatal error occurred, no output PDF file produced!
+
+##################### end of pdftex log file #####################
+C:\Program Files (x86)\Therion\therion.exe: error -- pdftex exit code -- 1
+writing xtherion file ... done

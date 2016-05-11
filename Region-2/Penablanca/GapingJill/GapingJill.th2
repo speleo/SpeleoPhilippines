@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 1772.376897436 2075.0
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1772.376897436 2166.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1117.6085489900001 1 1.0} {847.183622047 1.4} PocketTopo/GapingJill_p.xvi 0 {}
 
@@ -12,9 +12,12 @@ line wall
   1112.0 886.0 1109.0 914.0 1090.0 905.0
   1071.0 896.0 1061.0 876.0 1040.0 871.0
   1019.0 866.0 1025.0 855.5 989.0 861.5
+  smooth off
 endline
 
-point 700.0 556.0 label -text [skylight] -align right
+point 507.0 2033.0 label -text [Gaping Jill] -align top -scale m
+
+point 803.0 533.0 label -text [skylight] -scale xs -align left
 
 line pit -close on
   824.0 962.0
@@ -57,6 +60,7 @@ endline
 line wall -id l32-868-659
   819.0 747.0
   826.0 730.0 891.17 609.88 917.5 589.0
+  smooth off
 endline
 
 line wall
@@ -70,6 +74,7 @@ line wall
   1378.0 252.0 1424.0 264.0 1441.0 242.0
   1458.0 220.0 1468.0 213.0 1486.0 198.0
   1504.0 183.0 1512.0 177.0 1517.0 177.0
+  smooth off
 endline
 
 line border -id l29-1001-826 -subtype invisible
@@ -78,6 +83,7 @@ line border -id l29-1001-826 -subtype invisible
   977.5 677.5 977.0 728.0 986.0 754.5
   995.0 781.0 1005.5 800.5 1002.5 815.5
   999.5 830.5 968.0 861.5 967.0 865.0
+  smooth off
 endline
 
 point 1277.5 639.0 stalagmite
@@ -88,6 +94,7 @@ line floor-step
   1143.5 590.5 1138.0 594.5 1167.0 615.0
   1196.0 635.5 1182.5 633.5 1219.5 644.0
   1256.5 654.5 1299.0 659.5 1305.5 659.5
+  smooth off
 endline
 
 line wall
@@ -103,6 +110,7 @@ line wall
   1303.0 622.0 1297.0 664.0 1289.0 685.0
   1281.0 706.0 1276.0 778.0 1205.0 821.0
   1134.0 864.0 1114.0 874.0 1112.0 886.0
+  smooth off
 endline
 
 point 1117.6085489900001 847.183622047 station -name 1.4
@@ -150,16 +158,17 @@ point 309.0 1221.0 stalactite
 
 point 304.0 1304.5 stalactite
 
-point 1165.5 918.0 label -text [2m climb down] -align right
+point 1165.5 918.0 label -text [2m climb down] -align right -scale xs
 
-point 413.5 1427.0 label -text [crawl] -align right
+point 413.5 1427.0 label -text [crawl] -align right -scale xs
 
-point 639.0 1826.0 label -text [7m pitch<br>blind] -align right
+point 639.0 1826.0 label -align right -scale xs -text [7m blind pitch ]
 
 line pit
   429.0 1816.5
   440.5 1816.0 458.5 1815.0 479.5 1813.0
   500.5 1811.0 544.5 1796.5 558.5 1798.5
+  smooth off
 endline
 
 line ceiling-step
@@ -167,6 +176,7 @@ line ceiling-step
   194.5 1101.5 216.0 1110.5 240.0 1111.5
   264.0 1112.5 267.5 1117.5 295.0 1111.0
   322.5 1104.5 345.0 1096.5 359.5 1097.0
+  smooth off
 endline
 
 area flowstone

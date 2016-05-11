@@ -26,6 +26,10 @@ copyright 2016 "GNU GPL"
   team "Paul Fairman" notes
 
   instrument  instruments "Set 3"
+  
+  cs EPSG:32651
+  fix 1.0 376708.76 1965914.53 194
+
 
 data normal from to tape compass clino ignoreall
   extend right

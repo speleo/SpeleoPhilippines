@@ -112,23 +112,16 @@ survey Odessa
   endcentreline
 
   map odessa-all-maps
-    catcheelM@catcheel
-    Daquioag_BranchM@Daquioag_Branch 
-    downstream-sumpM@downstream-sump
+    SurfaceM@Surface
+      break
     odessa-entranceM@odessa-entrance
       break
+    Daquioag_BranchM@Daquioag_Branch 
     odessa-heavenM@odessa-heaven
       break
-    #odessa-up-crawlleadM@odessa-up-crawllead
-    #odessa-up-loop-28d3-36d3M@odessa-up-loop-28d3-36d3
-    #odessa-up-side-1M@odessa-up-side-1
-    #odessa-up-side-2M@odessa-up-side-2
-    #odessa-up-side-3M@odessa-up-side-3
-    #odessa-up-loopM@odessa-up-loop
+    catcheelM@catcheel
+    downstream-sumpM@downstream-sump
     odessa-lower-sewerM@odessa-lower-sewer
-    #odessaupday2oliandpeteM@odessaupday2oliandpete
-    #oxbow-up-20-04M@oxbow-up-20-04
-    #seriouscavingupstreamM@seriouscavingupstream
     SewerNorthTopM@SewerNorthTop
     SewerNorthSideM@SewerNorthSide 
     SewerSouthM@SewerSouth

@@ -2,13 +2,15 @@ encoding  utf-8
 survey OdessaAreaCaves
   input HeadlessChicken/HeadlessChicken.th
   input odessa/odessa.th
-  input pigsty-cave/pigsty-cave.th
+  input PigstyCave/pigsty-cave.th
+  input GapingJill/GapingJill.th
 
   map OdessaAreaCavesMap
     survey Odessa
     odessa-all-maps@Odessa
     HeadlessChickenM@HeadlessChicken
     pigsty-caveM@pigsty-cave
+    GapingJillM@GapingJill
   endmap
 
 endsurvey

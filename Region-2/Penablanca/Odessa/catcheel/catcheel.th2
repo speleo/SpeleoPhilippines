@@ -962,16 +962,6 @@ endline
 
 point 1653.4375703999995 1597.3352756000004 station -name 16.28
 
-point 1568.0 12388.0 label -scale xs -align left -text [Text Tiny]
-
-point 1560.0 10868.0 label -text [Text Large] -align left -scale l
-
-point 1564.0 11412.0 label -align left -scale m -text [Text Normal]
-
-point 1556.0 12020.0 label -align left -scale s -text [Text Small]
-
-point 1580.0 9992.0 label -scale xl -text [Text Huge] -align left
-
 endscrap
 
 

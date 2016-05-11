@@ -6,22 +6,90 @@ source GapingJill.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o GapingJill.pdf
-#Produces plan of cave, on a single sheet
+  export map -proj plan -layout local -o ./_output/GapingJill.pdf
+  #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o GapingJillEe.pdf
+  #export map -proj extended -layout local -o ./_output/GapingJillEe.pdf
 
-export model -fmt survex -o GapingJillth.3d
-#Survex file showing centre line only
+  export model -fmt survex -o ./_output/GapingJillth.3d
+  #Survex file showing centre line only
 
-#export model -o GapingJill.lox
-#3d therion model to be viewed in the therion viewer
+  #export model -o ./_output/GapingJill.lox
+  #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o GapingJill_Walls.3d
-#Survex file showing walls only
+  #export map -proj plan -o ./_output/GapingJill_Walls.3d
+  #Survex file showing walls only
 
+
+#inject standard code for layouts
+  input ..\..\..\CodeLibrary\_translations.txt
+  input ..\..\..\CodeLibrary\_layouts.mp   # Custom Metapost
+  input ..\..\..\CodeLibrary\_layouts.tex
+  input ..\..\..\CodeLibrary\_layouts.thc
+  
 layout local
-  debug off
-  map-header 0 0 ne
-  symbol-hide group cave-centreline
+  copy custom_water_blue
+  copy custom_entrance_theta
+  #copy custom_northarrow_large
+  #copy custom_scalebar_large_format
+  #copy custom_legend_large_format
+  #copy custom_legend_large_format_20U
+  copy custom_grid_2_continuous
+  copy custom_centerline_2_continuous
+  #copy custom_bats 
+  
+  #copy custom_colorlegendbox
+  #copy custom_legendsymbolbox
+  #copy custom_title_area_format
+  #copy custom_logos
+  
+  copy custom_symbols
+  copy custom_small_odessa
+  
+  color-legend off
+  legend off
+  #scale 1 200
+
+  doc-author   "Henry Bennett"
+  doc-keywords "Odessa Cave Penablanca Philippines"
+  doc-subject  "Survey of Odessa Cave 2016"
+  doc-title    "Odessa Cave Survey Bristol Exploration Club 2016"
+
+  
+  #map-comment "Penablanca, Cagayan<br>51Q 376674.73m E 1966124.98 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  #map-image 50 50 ne images\sitckers-type4.jpg
+  #map-image 50 35 nw images\BertieBat.png
+  #map-image 80 35 nw images\bc_logo_2266xp.png
+  #map-image 90 15 nw images\CreativeCommonsShareAlike.png
+
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+
+  code metapost
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    fonts_setup(30,45,0.1,95,140); 
+  endcode
+
+  code tex-map
+  \def\maplayout{
+    \legendbox{85}{97}{NW}{
+      \legendwidth 10 cm
+      \the\legendcontent
+      }
+  }
+
+  endcode #end of TeX code
+
+
 endlayout

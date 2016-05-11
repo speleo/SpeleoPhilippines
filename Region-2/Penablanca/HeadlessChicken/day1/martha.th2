@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 12770.952755904102 11216.2834645687
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {6678.67511811 1 1.0} {1404.50409449 1.4} PocketTopo/martha_p.xvi 0 {}
 
 
@@ -530,6 +530,13 @@ line wall -id l84-1564-10923 -subtype presumed
   smooth off
 endline
 
+line water-flow
+  8676.0 3188.0
+  8780.0 3168.0 8804.0 3176.0 8880.0 3136.0
+  8956.0 3096.0 8976.0 3072.0 9052.0 3056.0
+  smooth off
+endline
+
 point 6440.0 756.0 label -align center -text [Headless Chicken Cave<br>length 400+m] -scale l
 
 area water
@@ -632,6 +639,7 @@ line border -id l89-3617-7790 -subtype invisible
   7006.0 3281.0 6910.0 3345.0 6902.0 3349.0
   6894.0 3353.0 6745.0 3470.0 6730.0 3490.0
   6715.0 3510.0 6698.43 3524.62 6693.0 3617.0
+  smooth off
 endline
 
 area pebbles
@@ -822,6 +830,20 @@ endline
 line border -reverse on
   8627.0 3413.0
   8682.0 3437.0
+endline
+
+line water-flow
+  3168.0 8552.0
+  3280.0 8412.0 3352.0 8288.0 3364.0 8244.0
+  3376.0 8200.0 3536.0 8020.0 3536.0 8020.0
+  smooth off
+endline
+
+line water-flow
+  2480.0 9520.0
+  2548.0 9436.0 2824.0 9164.0 2868.0 9076.0
+  2912.0 8988.0 3036.0 8780.0 3036.0 8780.0
+  smooth off
 endline
 
 point 7466.9951181100005 2982.63409449 station -name 5.7

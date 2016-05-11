@@ -29,11 +29,7 @@ copyright 2016 "GNU GPL"
   instrument  instruments "Henry Bennett DistoX2"
   #
   cs EPSG:32651
-  # not sure which is the correct station to pin
-  #fix 1.0 395440.34 1992943.49 294
   fix 1.0 376092.78 1966307.50 164
-  # N 17 46.841
-  # E 121 49.863
 
 data normal from to tape compass clino ignoreall
   extend right
@@ -383,7 +379,7 @@ data normal from to tape compass clino ignoreall
 5.16  -  6.305  310.59  0.66  
 5.16  -  7.731  316.38  -0.04  
 5.16  -  9.264  318.24  0.43  
-5.16  -  15.124  321.2  -0.71  
+5.16  5.17  15.124  321.2  -0.71  
 5.16  -  13.283  318.12  86.51  
 5.16  -  8.425  315.44  71.11  
 5.16  -  7.398  256.26  75.4  

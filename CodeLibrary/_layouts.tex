@@ -1,0 +1,103 @@
+### index of file options
+  #copy custom_colorlegendbox
+  #copy custom_legendsymbolbox
+  #copy custom_title_area_format
+  #copy custom_logos
+
+#############################################################################################################################
+layout custom_colorlegendbox
+  #http://therion.speleo.sk/wiki/doku.php/tips#map-image_and_custom_legendbox
+  code tex-map
+	\def\colorlegendbox#1#2#3{%
+	  #\setbox\xxx=\hbox to 36bp{\PL{q #1 #2 #3 rg 0 0 36 24 re f Q}\hfil}%
+	  \setbox\xxx=\hbox to 125bp{\PL{q #1 #2 #3 rg 0 0 360 224 re f Q}\hfil}%
+	  \ht\xxx=125bp\dp\xxx=10bp
+	  #\xxx\ht{200pt}
+	  \immediate\pdfxform\xxx
+	}	
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_legendsymbolbox
+  #http://therion.speleo.sk/wiki/doku.php/tips#map-image_and_custom_legendbox
+  code tex-map
+	\def\legendsymbolbox#1#2{%
+	  \setbox\tmpboxa=\hbox{\pdfrefxform#1}%
+	  \setbox\tmpboxb=\hbox{\the\legendtextsize(}%
+	  \legendsymbolwd=\wd\tmpboxa
+	  \legendsymbolht=\ht\tmpboxa
+	  \advance\legendsymbolht by -\ht\tmpboxb
+	  \advance\legendsymbolht by -\ht\tmpboxb
+	  \advance\legendsymbolht by -20pt
+	  \advance\legendsymbolht by -1dd
+	  \tmpdimen=\hsize
+	    \advance\tmpdimen by 10pt 
+	    \divide\tmpdimen by\legendcolumns 
+	    \advance\tmpdimen by-10pt
+	  \hbox to \tmpdimen{%
+	     \box\tmpboxa\kern10pt\raise\legendsymbolht\vtop{%
+	       \advance\tmpdimen by -\legendsymbolwd
+	       \advance\tmpdimen by -10pt
+	       \hsize=\tmpdimen\rightskip=0pt plus \tmpdimen minus 0pt\relax\the\legendtextsize #2\vskip1dd}\hss}%
+	}
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_title_area_format
+  code tex-map
+  \copyrights={Copyleft Creative Commons ShareAlike}
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+  # \legendbox{0} {100} {S} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+  # \legendbox{40} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_BEC_1250.png}}
+  # \legendbox{55} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/Logo_BC_1250.png}}
+  # \legendbox{60} {5} {nw} {\loadpicture{C:/Users/Dell/Documents/Philippines/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_SMOC_1250.png}}
+  
+  #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
+    \legendcontent={%
+      \hsize=\legendwidth
+      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+         {\size[120]\the\cavename} \vskip1cm
+      \fi
+      \ifscalebar\scalebar\vskip1cm\fi
+      {\rightskip=0pt plus 3em\parskip=3bp
+        \edef\tmp{\the\comment} \ifx\tmp\empty \else
+           {\size[44]\the\comment} \par\medskip
+         \fi
+      \everypar{\hangindent=2em\hangafter=1}
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\size[44]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\size[44]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\size[44]\si\the\explotitle:
+        \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+        {\size[44]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+      \fi
+      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+        {\size[44]\si\the\cartotitle:
+        \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\size[44]\ss\the\copyrights\par}
+      \fi
+     }
+  }
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_logos
+  code tex-map
+	   #\legendbox{0} {100} {S} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+	   \legendbox{40} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_BEC_1250.png}}
+	   #\legendbox{55} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/Logo_BC_1250.png}}
+	   #\legendbox{60} {5} {nw} {\loadpicture{C:/Users/Dell/Documents/Philippines/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_SMOC_1250.png}}
+  endcode
+endlayout

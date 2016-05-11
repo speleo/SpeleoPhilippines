@@ -1,12 +1,12 @@
 encoding  utf-8
 source Penablanca.th
 
-export map -proj plan -layout local -o .\output\penablanca.pdf
-export map -fmt kml -proj plan -layout local -o .\output\Penablanca_map.kml
-export model -fmt kml -o .\output\penablanca.kml
+export map -proj plan -layout local -o .\_output\penablanca.pdf
+export map -fmt kml -proj plan -layout local -o .\_output\Penablanca_map.kml
+export model -fmt kml -o .\_output\penablanca.kml
 
 #Survex file showing centre line only
-export model -fmt survex -o .\output\penablanca-survex.3d
+export model -fmt survex -o .\_output\penablanca-survex.3d
 
   text en "point u:bat" "bat"
   text en "line u:bat" "bat path"

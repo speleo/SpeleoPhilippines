@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -571.63 -1945.18 3429.78 11671.08
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {338.474207825 1 1.0} {1080.55059266 1.0} PocketTopo/NoodleDoodle_e.xvi 0 {}
+
+
+scrap NoodleDoodleSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

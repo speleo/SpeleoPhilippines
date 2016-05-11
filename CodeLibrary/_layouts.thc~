@@ -1,0 +1,78 @@
+### index of file options
+  #copy custom_symbols
+  #copy custom_large_odessa
+
+#############################################################################################################################
+layout custom_symbols
+  symbol-set BCRA
+  #symbol-hide group cave-centreline
+  symbol-assign line slope SKBB
+  symbol-assign area sand AUT
+endlayout
+
+#############################################################################################################################
+layout custom_large_odessa
+  scale 1 700
+  base-scale 1 300
+  scale-bar 200 m
+  
+  #Foreground color - turn on altitude to see various heights
+  #colour map-fg [80 80 80]
+  color map-fg altitude
+  #colour map-bg [70 90 70]
+  
+  language en
+  statistics topo-length off
+  statistics topo all
+  statistics explo-length off
+       
+  debug off
+  transparency on
+  opacity 80
+  map-header 0 100 nw
+  #overlap 10 cm
+  
+  legend on
+  legend-columns 2
+  legend-width 45 cm
+  colour-legend on
+  grid bottom
+  grid-coords border
+  #sketches on
+
+endlayout
+
+#############################################################################################################################
+
+layout custom_small_odessa
+  #scale 1 700
+  #base-scale 1 300
+  scale-bar 20 m
+  
+  #Foreground color - turn on altitude to see various heights
+  #colour map-fg [80 80 80]
+  color map-fg altitude
+  #colour map-bg [70 90 70]
+  
+  language en
+  statistics topo-length off
+  statistics topo all
+  statistics explo-length off
+       
+  debug off
+  transparency on
+  opacity 80
+  map-header 0 100 nw
+  #overlap 10 cm
+  
+  legend on
+  legend-columns 2
+  legend-width 45 cm
+  colour-legend on
+  grid bottom
+  grid-coords border
+  #sketches on
+
+endlayout
+
+

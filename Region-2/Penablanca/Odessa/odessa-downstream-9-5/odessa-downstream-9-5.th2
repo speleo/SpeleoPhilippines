@@ -728,7 +728,71 @@ line wall -id l85-4780-45194
   4634.0 48952.0
 endline
 
-point 7432.0 8116.0 label -text [Pitch 8m] -align top-right
+line label -text [Gour Passage] -scale xl
+  7340.0 55692.0
+  7312.0 55620.0 7184.0 54948.0 7148.0 54816.0
+  7112.0 54684.0 6876.0 53980.0 6844.0 53852.0
+  6812.0 53724.0 6724.0 53360.0 6736.0 53244.0
+  6748.0 53128.0 6752.0 51456.0 6788.0 51332.0
+  6824.0 51208.0 6700.0 49196.0 6652.0 48972.0
+  6604.0 48748.0 6808.0 46754.75 6808.0 46400.0
+  6808.0 46004.0 7244.0 43132.0 7264.0 43020.0
+  7284.0 42908.0 8436.0 42204.0 8568.0 40700.0
+  8631.7 39974.22 9036.0 37336.0 9028.0 37108.0
+  9020.0 36880.0 9208.0 34932.0 9188.0 34804.0
+  9168.0 34676.0 9280.0 33588.0 9280.0 33588.0
+  smooth off
+endline
+
+line label -scale l -text Passage
+  14732.0 59604.0
+  14732.0 59604.0 15328.0 59520.0 15492.0 59572.0
+  15656.0 59624.0 16412.0 59648.0 16528.0 59696.0
+  16644.0 59744.0 17320.0 60076.0 17528.0 60200.0
+  17736.0 60324.0 18404.0 61020.0 18452.0 61048.0
+  18500.0 61076.0 19328.0 61672.0 19428.0 61740.0
+  19528.0 61808.0 20584.0 62380.0 20656.0 62384.0
+  20728.0 62388.0 21156.0 62532.0 21156.0 62532.0
+  smooth off
+endline
+
+line label -text Gour -scale l
+  8640.0 59080.0
+  8640.0 59080.0 9332.0 59180.0 9472.0 59180.0
+  9612.0 59180.0 10036.0 59240.0 10284.0 59212.0
+  10532.0 59184.0 10940.0 59236.0 11128.0 59256.0
+  11316.0 59276.0 11956.0 59568.0 11980.0 59568.0
+endline
+
+point 5710.0 44920.0 stalactite
+
+point 5526.0 44970.0 stalactite
+
+point 5462.0 45058.0 stalactite
+
+point 5750.0 45058.0 stalactite
+
+point 5832.0 44992.0 stalactite
+
+point 5414.0 44948.0 stalactite
+
+point 5608.0 45086.0 stalactite
+
+line flowstone
+  6302.0 41820.0
+  6302.0 41820.0 6314.0 41792.0 6322.0 41760.0
+  6330.0 41728.0 6336.0 41712.0 6350.0 41698.0
+  6364.0 41684.0 6378.0 41632.0 6432.0 41634.0
+  6486.0 41636.0 6456.0 41566.0 6506.0 41646.0
+  6556.0 41726.0 6578.0 41716.0 6560.0 41768.0
+  6542.0 41820.0 6542.0 41844.0 6538.0 41856.0
+endline
+
+point 5664.0 8340.0 label -text Hole -scale xs -align left
+
+point 7396.0 8128.0 label -align top-right -scale m -text [Starship Enterprise]
+
+point 8284.0 7600.0 label -text [Pitch 8m] -align top-right -scale m
 
 line wall -id l85-6928-21664
   10204.0 28032.0
@@ -911,7 +975,7 @@ line wall
   smooth off
 endline
 
-point 7358.0 32970.0 label -text [Sump ?] -align left
+point 7358.0 32970.0 label -text [Sump ?] -align left -scale s
 
 area water
   l236-7676-33022
@@ -997,7 +1061,11 @@ point 9636.0 27192.0 stalactite
 
 point 9752.0 27314.0 stalactite
 
-point 10866.0 27644.0 label -align left -text [Duck ?]
+point 3376.0 45836.0 label -text [Chandelier Mudroom] -align left -scale m
+
+point 9128.0 28164.0 label -align left -text [Banawe Gours] -scale m
+
+point 10866.0 27644.0 label -text [Duck ?] -align right -scale xs
 
 area water
   MainPassageLHW
@@ -1058,7 +1126,7 @@ line border -id l236-7676-33022 -subtype invisible
   smooth off
 endline
 
-point 8214.0 32910.0 label -align right -text [Gour dam]
+point 8214.0 32910.0 label -align right -text [Gour dam] -scale s
 
 line flowstone -id l234-7682-32854
   7558.0 32790.0
@@ -1069,7 +1137,7 @@ line flowstone -id l234-7682-32854
   smooth off
 endline
 
-point 8020.0 34764.0 label -align right -text Aven
+point 6952.0 34772.0 label -text Aven -align left
 
 area bedrock
   l231-7742-34920
@@ -2074,20 +2142,18 @@ line wall -id MainPassageUpstream -reverse on
   smooth off
 endline
 
+line section -direction both
+  7160.0 37456.0
+  8340.0 37792.0
+endline
+
+point 6380.0 37436.0 section -scrap odessa-downstream-9-5SPX4.51 -align left
+
 endscrap
 
 
 
 scrap odessa-downstream-9-5SPX4.51 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-point 10866.0 27644.0 section -scrap odessa-downstream-9-5SPX4.51 -align right
-
-point 8836.0 37860.0 section -scrap odessa-downstream-9-5SPX4.51
-
-line section -direction both
-  7160.0 37456.0
-  8340.0 37792.0
-endline
 
 line wall -close on -reverse on
   8480.0 38668.0

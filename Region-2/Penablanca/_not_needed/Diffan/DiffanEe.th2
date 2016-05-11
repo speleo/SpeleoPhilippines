@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2214.58 -147.27 13287.46 883.62
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1188.39099621 1 1.0} {377.208454755 1.0} PocketTopo/Diffan_e.xvi 0 {}
+
+
+scrap DiffanSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
