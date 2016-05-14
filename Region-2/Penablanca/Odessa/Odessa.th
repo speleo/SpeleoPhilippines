@@ -132,7 +132,7 @@ survey Odessa
     shepherdM@shepherd
     smallloopM@smallloop
     MainWestSideM@MainWestSide
-    SurfaceM@Surface
+#    SurfaceM@Surface
   endmap
 
 endsurvey

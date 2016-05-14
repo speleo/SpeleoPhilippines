@@ -3,7 +3,7 @@ source OdessaAreaCaves.th
 
 select OdessaAreaCavesMap@OdessaAreaCaves
 
-### choose whicj exports to use
+### choose which exports to use
   export map -proj plan -layout local-odessa -o .\_output\OdessaAreaCaves.pdf
   #export map -fmt kml -proj plan -layout local -o .\_output\OdessaAreaCaves-map.kml
   #export model -fmt kml -o .\_output\OdessaAreaCaves-model.kml
@@ -12,11 +12,10 @@ select OdessaAreaCavesMap@OdessaAreaCaves
   export model -fmt survex -o .\_output\OdessaAreaCaves-survex.3d
 
 #inject standard code for layouts
-  input ..\..\CodeLibrary\_translations.txt
-  input ..\..\CodeLibrary\_layouts.mp   # Custom Metapost
-  input ..\..\CodeLibrary\_layouts.tex
-  input ..\..\CodeLibrary\_layouts.thc
- 
+  input ..\..\CodeLibrary\_translations.txt  # custom translations
+  input ..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\CodeLibrary\_layouts.thc       # custom layouts 
 
 layout local-odessa
   copy custom_water_blue

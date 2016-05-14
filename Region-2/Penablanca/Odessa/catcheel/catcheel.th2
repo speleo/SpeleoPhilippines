@@ -42,7 +42,7 @@ line border -id l99-11353-9972 -close on -subtype invisible
   smooth off
 endline
 
-line label -text [Can't catch the eel] -scale l
+line label -scale l -text [Can't Catch the Eel]
   1348.0 2324.0
   1404.0 2348.0 2336.0 3316.0 2392.0 3396.0
   2448.0 3476.0 2908.0 4004.0 3020.0 4216.0

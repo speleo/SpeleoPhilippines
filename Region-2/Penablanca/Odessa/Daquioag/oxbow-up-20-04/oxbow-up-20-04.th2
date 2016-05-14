@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 31396.8346456586 38151.09448818
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {4297.73228346 1 1.0} {3909.5511811 22.22} PocketTopo/oxbow-up-20-04_p.xvi 0 {}
 
 
@@ -585,10 +585,7 @@ line wall -id l3-4226-6582 -reverse on
   4200.0 5046.0 4166.0 4966.0 4128.0 4922.0
   4090.0 4878.0 4046.0 4812.0 4052.0 4768.0
   4058.0 4724.0 4074.0 4678.0 4090.0 4646.0
-  4106.0 4614.0 4154.0 4580.0 4188.0 4526.0
-  4222.0 4472.0 4270.0 4472.0 4304.0 4502.0
-  4338.0 4532.0 4458.0 4624.0 4476.0 4634.0
-  smooth off
+  4106.0 4614.0 4196.73 4477.71 4256.0 4454.0
 endline
 
 line wall -id connectMiddle2
@@ -717,7 +714,7 @@ area clay
 endarea
 
 line border -id l40-4374-4136 -reverse on -subtype invisible
-  4476.0 4634.0
+  4256.0 4454.0
   3964.0 4192.0
 endline
 

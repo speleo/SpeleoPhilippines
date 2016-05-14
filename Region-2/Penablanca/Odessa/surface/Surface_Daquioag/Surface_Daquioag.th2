@@ -119,6 +119,7 @@ line wall -id D_West -reverse on
   5196.5 3596.0 5163.0 3859.5 5162.0 3876.0
   5161.0 3892.5 5134.0 4199.5 5130.5 4225.5
   5127.0 4251.5 5121.0 4305.0 5119.5 4316.5
+  smooth off
 endline
 
 line wall -id D_East -reverse on
@@ -488,13 +489,6 @@ endline
 point 8120.0 4319.0 station -name 102
 
 point 4009.0 1773.0 station -name 101
-
-line wall -subtype invisible
-  6843.5 4297.5
-  6849.5 4297.5 6864.0 4298.0 6864.0 4298.0
-  smooth off
-  6863.0 4263.5
-endline
 
 endscrap
 

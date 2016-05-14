@@ -1,0 +1,27 @@
+encoding  utf-8
+source odessa-downstream-94.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o odessa-downstream-94.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o odessa-downstream-94Ee.pdf
+
+export model -fmt survex -o odessa-downstream-94th.3d
+#Survex file showing centre line only
+
+#export model -o odessa-downstream-94.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o odessa-downstream-94_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout

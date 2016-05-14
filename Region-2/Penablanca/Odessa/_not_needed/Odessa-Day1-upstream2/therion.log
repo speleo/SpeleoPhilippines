@@ -1,0 +1,122 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 262 survey stations, joined by 261 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs = 1560.58m (1560.58m adjusted)
+ 9> Total plan length of survey legs = 1420.09m
+10> Total vertical length of survey legs =  353.55m
+11> Vertical range = 17.19m (from 16 at 14.12m to 45 at -3.07m)
+12> North-South range = 92.61m (from 254 at 83.96m to 5 at -8.64m)
+13> East-West range = 104.29m (from 7 at 21.87m to 257 at -82.42m)
+14>  243 1-nodes.
+15>    2 9-nodes.
+16>    3 11-nodes.
+17>    2 12-nodes.
+18>    3 13-nodes.
+19>    2 15-nodes.
+20>    2 17-nodes.
+21>    1 19-node.
+22>    2 20-nodes.
+23>    2 21-nodes.
+24> 
+######################### transcription ########################
+ 3> 1 : 7.1@Odessa-Day1-upstream2
+ 5> 262 : 7.20@Odessa-Day1-upstream2 -- 261 : -@Odessa-Day1-upstream2
+ 6> 1 : 7.1@Odessa-Day1-upstream2
+ 7> 2 : -@Odessa-Day1-upstream2
+11> 16 : -@Odessa-Day1-upstream2 -- 45 : -@Odessa-Day1-upstream2
+12> 254 : -@Odessa-Day1-upstream2 -- 5 : -@Odessa-Day1-upstream2
+13> 7 : -@Odessa-Day1-upstream2 -- 257 : -@Odessa-Day1-upstream2
+14> 243 : -@Odessa-Day1-upstream2
+15> 2 : -@Odessa-Day1-upstream2
+16> 3 : -@Odessa-Day1-upstream2
+17> 2 : -@Odessa-Day1-upstream2
+18> 3 : -@Odessa-Day1-upstream2
+19> 2 : -@Odessa-Day1-upstream2
+20> 2 : -@Odessa-Day1-upstream2
+21> 1 : 7.1@Odessa-Day1-upstream2
+22> 2 : -@Odessa-Day1-upstream2
+23> 2 : -@Odessa-Day1-upstream2
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.01%
+writing Odessa-Day1-upstream2.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  8 APR 2016 19:24
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] (./mptextmp.mp) [3] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1036 strings out of 1162
+ 13025 string characters out of 15838
+ 59546 words of memory out of 1500000
+ 1367 symbolic tokens out of 16384
+ 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 29 string compactions (moved 189124 characters, 15811 strings)
+15 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  8 APR 2016 19:24
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 50 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 247 strings out of 95617
+ 2489 string characters out of 1171098
+ 29561 words of memory out of 1515539
+ 1660 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
+Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 21063 bytes).
+PDF statistics:
+ 34 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+C:\Program Files\Therion\therion.exe: warning -- data not georeferenced -- unable to export KML file
+writing Odessa-Day1-upstream2th.3d ... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.01%    0.33%  Odessa-Day1-upstream2SP1@Odessa-Day1-upstream2
+################### end of scrap distortions ###################

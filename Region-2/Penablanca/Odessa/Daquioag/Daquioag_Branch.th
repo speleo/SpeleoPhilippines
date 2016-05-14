@@ -58,13 +58,14 @@ survey Daquioag_Branch
 
   #join Daquioag with oxbow-up-20-04
     # main walls
-      join l69-6806-5780@odessaupday2oliandpete:end  l3-4226-6582@oxbow-up-20-04:end
-      join join2Daquioag@odessaupday2oliandpete:0    l2-3980-4134@oxbow-up-20-04:0
-      
+      join l705-38152-46708@Daquioag:0    l3-4226-6582@oxbow-up-20-04:end
+      join l587-34520-38200@Daquioag:0    l2-3980-4134@oxbow-up-20-04:0
+                        
   #join Upstream with Daquioag
     # walls
-      join l587-34520-38200@Daquioag:0  join2Daquioag@odessaupday2oliandpete:end
-      join l180-38510-45892@Daquioag:end  UpstreamLHW@odessaupday2oliandpete
+      join l705-38152-46708@Daquioag:end  l69-6806-5780@odessaupday2oliandpete:end
+      #join l180-38510-45892@Daquioag:end  UpstreamLHW@odessaupday2oliandpete
+      join l180-38510-45892@Daquioag:end  l310-8824-7096@odessaupday2oliandpete:0
 
   #join Upstream with oxbow-up-20-04
     # main walls
@@ -91,8 +92,8 @@ survey Daquioag_Branch
       join l91-8881-9684@odessa-up-loop:end l71-24950-21304@odessaupday2oliandpete:0 
 
     # middle section (a little side passage in floor of loop)
-      join connectMainTop@odessa-up-loop:end  UpstreamLHW@odessaupday2oliandpete:ConnectSideTop 
-      join connectMainBottom@odessa-up-loop:0 UpstreamLHW@odessaupday2oliandpete:ConnectSideBottom 
+      join connectMainTop@odessa-up-loop:end  UpstreamLHW@odessaupday2oliandpete:0 
+      join connectMainBottom@odessa-up-loop:0 l310-8824-7096@odessaupday2oliandpete:end 
 
 
 
@@ -119,7 +120,7 @@ centreline
   equate 28.14@odessa-up-loop  28.14@odessa-up-side-3
   equate 20.43@Daquioag        20.43@odessa-up-crawllead
   equate 22.22@Daquioag        22.22@oxbow-up-20-04
-  equate 22.22@Daquioag          1.0@odessaupday2oliandpete  
+  equate 51.2@Daquioag          1.2@odessaupday2oliandpete  
   equate 28.61@odessa-up-loop  28.61@seriouscavingupstream
 endcentreline
 

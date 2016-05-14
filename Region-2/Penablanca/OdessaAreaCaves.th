@@ -4,13 +4,15 @@ survey OdessaAreaCaves
   input odessa/odessa.th
   input PigstyCave/pigsty-cave.th
   input GapingJill/GapingJill.th
+  input MinorSites/MinorSites.th
 
   map OdessaAreaCavesMap
     survey Odessa
     odessa-all-maps@Odessa
-    HeadlessChickenM@HeadlessChicken
+    HeadlessChickenOverviewM@HeadlessChicken
     pigsty-caveM@pigsty-cave
     GapingJillM@GapingJill
+    MinorSitesM@MinorSites
   endmap
 
 endsurvey

@@ -4,23 +4,115 @@ source Daquioag.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Daquioag.pdf
-#Produces plan of cave, on a single sheet
-export map -fmt kml -proj plan -layout local -o Daquioag-map.kml
-export model -fmt kml -o Daquioag-model.kml
+  export map -proj plan -layout local -o .\_output\Daquioag.pdf
+  #Produces plan of cave, on a single sheet
+  export map -fmt kml -proj plan -layout local -o .\_output\Daquioag-map.kml
+  export model -fmt kml -o .\_output\Daquioag-model.kml
 
-#export map -proj extended -layout local -o DaquioagEe.pdf
+  #export map -proj extended -layout local -o .\_output\DaquioagEe.pdf
 
-export model -fmt survex -o Daquioag.3d
-#Survex file showing centre line only
+  export model -fmt survex -o .\_output\Daquioag.3d
+  #Survex file showing centre line only
 
-#export model -o Daquioag.lox
-#3d therion model to be viewed in the therion viewer
+  #export model -o .\_output\Daquioag.lox
+  #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Daquioag_Walls.3d
-#Survex file showing walls only
-
+  #export map -proj plan -o .\_output\Daquioag_Walls.3d
+  #Survex file showing walls only
+  
+#inject standard code for layouts
+  input ..\..\..\..\..\CodeLibrary\_translations.txt  # custom translations
+  input ..\..\..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\..\..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\..\..\..\CodeLibrary\_layouts.thc       # custom layouts
+  
 layout local
+  copy custom_water_blue
+  copy custom_entrance_theta
+  copy custom_northarrow_large
+  copy custom_scalebar_large_format
+  copy custom_legend_large_format
+  #copy custom_legend_large_format_20U
+  copy custom_grid_2_continuous
+  copy custom_centerline_2_continuous
+  copy custom_bats 
+  
+  copy custom_colorlegendbox
+  copy custom_legendsymbolbox
+  copy custom_title_area_format
+  #copy custom_logos
+  legend off
+  colour-legend on
+  
+  copy custom_symbols
+  copy custom_large_odessa
+  
+  doc-author   "Henry Bennett"
+  doc-keywords "Odessa Cave Penablanca Philippines"
+  doc-subject  "Survey of Odessa Cave 2016"
+  doc-title    "Odessa Cave Survey Bristol Exploration Club 2016"
+
+  
+  map-comment "Penablanca, Cagayan<br>51Q 376017.62m E 1965588.70 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  #map-image 50 50 ne images\sitckers-type4.jpg
+  #map-image 50 35 nw images\BertieBat.png
+  #map-image 80 35 nw images\bc_logo_2266xp.png
+  #map-image 90 15 nw images\CreativeCommonsShareAlike.png
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    fonts_setup(30,45,65,95,140);   
+  endcode
+
+#################################################################
+#  
+#  TTTTTTT EEEEEEE XX    XX        MM    MM   AAA   PPPPPP  
+#    TTT   EE       XX  XX         MMM  MMM  AAAAA  PP   PP 
+#    TTT   EEEEE     XXXX   _____  MM MM MM AA   AA PPPPPP  
+#    TTT   EE       XX  XX         MM    MM AAAAAAA PP      
+#    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
+#
+################################################################# 
+  
+  code tex-map
+    \cavename={Odessa System - Daquioag Entrance}
+    \def\maplayout{
+      \legendbox{05}{97}{NW}{
+        \legendwidth 40 cm
+        \the\legendcontent
+        }
+      \legendbox{05}{84}{NW}{
+        \legendwidth 65 cm
+        \legendtextsize={\size[42]}
+        \hsize=\legendwidth
+        \input th_legend
+        }
+      \legendbox{75}{60}{NW}{
+        \legendwidth 15 cm
+        \legendtextsize={\size[42]}
+        \hsize=\legendwidth
+        \input th_legendcolor
+        }
+    }
+  endcode #end of TeX code
+
+
+endlayout
+
+
+
+layout local-old
   scale 1 700
   #base-scale 1 300
   debug off
