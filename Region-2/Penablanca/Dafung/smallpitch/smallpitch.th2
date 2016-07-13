@@ -7,6 +7,16 @@ encoding  utf-8
 
 scrap smallpitchSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line flowstone
+  2356.0 1348.0
+  2358.0 1406.0 2348.0 1440.0 2424.0 1500.0
+endline
+
+line pit
+  2382.0 1356.0
+  2394.0 1404.0 2384.0 1410.0 2436.0 1466.0
+endline
+
 line wall
 endline
 
