@@ -1,0 +1,9 @@
+encoding  utf-8
+survey MinorSites
+  input HoneyPot/HoneyPot.th
+
+map MinorSitesM
+  HoneyPotM@HoneyPot
+endmap
+
+endsurvey

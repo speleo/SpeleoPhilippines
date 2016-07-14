@@ -1,0 +1,106 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3553
+geomag declinations (deg):
+  2016.1.1  -2.6811
+  2017.1.1  -2.7704
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> 
+ 4> Survey contains 2 survey stations, joined by 1 shot.
+ 5> There are 0 loops.
+ 6> Total length of survey shots =    0.00m (   0.00m adjusted)
+ 7> Total plan length of survey shots =    0.00m
+ 8> Total vertical length of survey shots =    0.00m
+ 9> Vertical range = 0.00m (from 2 at 194.00m to 2 at 194.00m)
+10> North-South range = 0.00m (from 2 at 1965968.20m to 2 at 1965968.20m)
+11> East-West range = 0.00m (from 2 at 376677.28m to 2 at 376677.28m)
+12>    2 1-nodes.
+13> 
+######################### transcription ########################
+ 4> 2 : -@delme -- 1 : 1.0@delme
+ 9> 2 : -@delme -- 2 : -@delme
+10> 2 : -@delme -- 2 : -@delme
+11> 2 : -@delme -- 2 : -@delme
+12> 2 : -@delme
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- thconfig [28] -- source layout not found -- bats
+done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+writing pigsty-cave.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  12 MAY 2016 08:10
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] [7] [8] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1030 strings out of 1162
+ 13114 string characters out of 20720
+ 59546 words of memory out of 1500000
+ 1369 symbolic tokens out of 16384
+ 8i,75n,16p,228b,5f stack positions out of 300i,84n,5000p,250b,15f
+ 31 string compactions (moved 215048 characters, 17854 strings)
+20 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  12 MAY 2016 08:10
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 56 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 256 strings out of 95617
+ 2601 string characters out of 1171098
+ 15978 words of memory out of 1502956
+ 1666 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 12i,8n,8p,703b,83s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 19993 bytes).
+PDF statistics:
+ 46 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing pigsty-caveth.3d ... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.00%  pigsty-caveSP1@delme
+################### end of scrap distortions ###################

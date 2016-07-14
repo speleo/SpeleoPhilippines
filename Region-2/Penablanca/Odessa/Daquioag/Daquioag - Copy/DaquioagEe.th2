@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -16150.28 -537.09 96901.68 3222.55
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {8758.03452419 1 1.0} {2261.07857202 1.0} PocketTopo/Daquioag_e.xvi 0 {}
+
+
+scrap DaquioagSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

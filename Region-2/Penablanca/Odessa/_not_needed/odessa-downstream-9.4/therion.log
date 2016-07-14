@@ -1,0 +1,8 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... 
+C:\Program Files\Therion\therion.exe: error -- odessa-downstream-9.4.th [1] -- invalid keyword -- odessa-downstream-9.4
+writing xtherion file ... done

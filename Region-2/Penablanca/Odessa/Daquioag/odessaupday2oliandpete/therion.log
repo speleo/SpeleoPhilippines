@@ -79,57 +79,61 @@ selecting export objects ... done
 processing projection plan ... done
 average distortion: 0.00%
 writing odessaupday2oliandpete.pdf ...
+processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  6 MAY 2016 21:57
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAY 2016 11:20
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
+[1] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap odessaupday2oliandpeteSPX1.1
+4@odessaupday2oliandpete] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] [21] [22] [23] (./mptextmp.mp) [24] )
  
 Here is how much of MetaPost's memory you used:
- 1209 strings out of 1638
- 13539 string characters out of 26823
- 434713 words of memory out of 1500000
- 1375 symbolic tokens out of 16384
+ 1249 strings out of 1638
+ 13654 string characters out of 26823
+ 415041 words of memory out of 1500000
+ 1376 symbolic tokens out of 16384
  11i,75n,16p,442b,5f stack positions out of 300i,84n,5000p,487b,15f
- 201 string compactions (moved 2455714 characters, 204160 strings)
-18 output files written: data.1 .. data.4012
+ 274 string compactions (moved 3428071 characters, 289415 strings)
+36 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  6 MAY 2016 21:57
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAY 2016 11:20
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 55 numeric registers used out of 32768
+ 80 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 252 strings out of 95617
- 2554 string characters out of 1171098
- 1027400 words of memory out of 2449378
- 1665 multiletter control sequences out of 15000+50000
+ 277 strings out of 95617
+ 2825 string characters out of 1171098
+ 999330 words of memory out of 2423308
+ 1690 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,249b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 418459 bytes).
+Output written on data.pdf (1 page, 431124 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing odessaupday2oliandpeteth.3d ... done
 writing xtherion file ... done
-compilation time: 5 sec
+compilation time: 6 sec
 
 
 ###################### scrap distortions #######################

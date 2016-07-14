@@ -1,0 +1,67 @@
+therion 5.3.16
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.17
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 277 survey stations, joined by 276 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs = 2271.32m (2271.32m adjusted)
+ 9> Total plan length of survey legs = 2174.50m
+10> Total vertical length of survey legs =  220.87m
+11> Vertical range = 13.58m (from 2 at 0.00m to 255 at -13.58m)
+12> North-South range = 250.75m (from 275 at 247.77m to 5 at -2.98m)
+13> East-West range = 94.25m (from 257 at 30.94m to 160 at -63.31m)
+14>  250 1-nodes.
+15>    2 7-nodes.
+16>    3 8-nodes.
+17>    4 9-nodes.
+18>    4 10-nodes.
+19>    3 11-nodes.
+20>    2 12-nodes.
+21>    2 13-nodes.
+22>    3 14-nodes.
+23>    2 15-nodes.
+24>    1 16-node.
+25>    1 17-node.
+26> 
+######################### transcription ########################
+ 3> 1 : 4.13@odessa-downstream-94
+ 5> 277 : -@odessa-downstream-94 -- 276 : -@odessa-downstream-94
+ 6> 1 : 4.13@odessa-downstream-94
+ 7> 2 : -@odessa-downstream-94
+11> 2 : -@odessa-downstream-94 -- 255 : -@odessa-downstream-94
+12> 275 : -@odessa-downstream-94 -- 5 : -@odessa-downstream-94
+13> 257 : -@odessa-downstream-94 -- 160 : -@odessa-downstream-94
+14> 250 : -@odessa-downstream-94
+15> 2 : -@odessa-downstream-94
+16> 3 : -@odessa-downstream-94
+17> 4 : -@odessa-downstream-94
+18> 4 : -@odessa-downstream-94
+19> 3 : -@odessa-downstream-94
+20> 2 : -@odessa-downstream-94
+21> 2 : -@odessa-downstream-94
+22> 3 : -@odessa-downstream-94
+23> 2 : -@odessa-downstream-94
+24> 1 : 4.13@odessa-downstream-94
+25> 1 : 4.13@odessa-downstream-94
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing odessa-downstream-94th.3d ... done
+writing xtherion file ... done
+compilation time: 0 sec
