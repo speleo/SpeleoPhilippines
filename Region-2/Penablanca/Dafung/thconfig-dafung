@@ -173,9 +173,8 @@ layout local-bw
 
 endlayout
 
-export map -proj plan -layout local -o .\output\Dafung.pdf
-#export map -fmt kml -proj plan -layout local -o .\output\BlueWater-Helicopter.kml
-export model -fmt kml -o .\output\Dafung.kml
+export map -proj plan -layout local -o output/Dafung.pdf
+export model -fmt kml -o output/Dafung.kml
 
 #Survex file showing centre line only
-export model -fmt survex -o .\output\Dafung-survex.3d
+export model -fmt survex -o output/Dafung-survex.3d
