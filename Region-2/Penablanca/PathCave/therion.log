@@ -1,7 +1,7 @@
 therion 5.3.16
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-configuration file: C:\Users\henry_bennett\Documents\GitHub\SpeleoPhilippines\Region-2\Penablanca\PathCave1\thconfig
+configuration file: thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -65,511 +65,63 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
+average distortion: 0.02%
 writing PathCave1.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  5 MAY 2016 07:48
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  17 MAY 2016 13:11
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] (./mptextmp.mp) [2] )
+[1] [2] [3] [4] (./mptextmp.mp) [5] )
  
 Here is how much of MetaPost's memory you used:
- 1015 strings out of 1162
- 12968 string characters out of 15838
- 59095 words of memory out of 1500000
+ 1052 strings out of 1162
+ 13040 string characters out of 20720
+ 63323 words of memory out of 1500000
  1367 symbolic tokens out of 16384
  8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 29 string compactions (moved 189129 characters, 15802 strings)
-14 output files written: data.1 .. data.4012
+ 56 string compactions (moved 537031 characters, 42903 strings)
+17 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  5 MAY 2016 07:48
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  17 MAY 2016 13:11
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.2 \hsize=-i
-             nfbp
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.3 \vsize=-i
-             nfbp
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.10 \newdimen\x \x=-i
-                      nfbp
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.11 \newdimen\y \y=-i
-                      nfbp
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.44 \adjustedHS=-i
-                   nfbp\advance\adjustedHS by \extraE\advance\adjustedHS by ...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.45 \adjustedVS=-i
-                   nfbp\advance\adjustedVS by \extraN\advance\adjustedVS by ...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.46 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.46 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.47 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.47 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.49 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.49 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.50 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.50 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.52 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.52 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.53 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.53 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.55 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.55 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.56 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.56 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.58 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.58 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.59 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.59 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.61 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.61 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.62 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.62 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.64 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.64 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.65 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.65 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.67 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.67 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.68 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.68 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrX #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.70 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrX #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.70 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenX=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Number too big.
-<argument> -17976931348
-                       62315708145274237317043567980705675258449965989174768...
-
-\calibrY #1->\tmpdimen =#1
-                          \advance \tmpdimen by\overlap \advance \tmpdimen b...
-l.71 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can only go up to 2147483647='17777777777="7FFFFFFF,
-so I'm using that number instead of yours.
-
-! Dimension too large.
-<to be read again> 
-                   \advance 
-\calibrY #1->\tmpdimen =#1\advance 
-                                   \tmpdimen by\overlap \advance \tmpdimen b...
-l.71 ...9299881250404026184124858368.0000000000bp}
-                                                  \tmpdimenY=\tmpdimen
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.84 \setbox\xxx=\hbox to -i
-                            nfbp{%
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing { inserted.
-<to be read again> 
-                   f
-l.84 \setbox\xxx=\hbox to -inf
-                              bp{%
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   i
-l.85 \hfill}\ht\xxx=-i
-                      nfbp\dp\xxx=0bp
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! pdfTeX error (ext1): \pdfxform cannot be used with a void box.
-<recently read> \xxx 
-                     
-l.86 ...pdfxform attr{/OC \the\oca\space 0 R} \xxx
-                                                  \PB{0}{0}{\pdflastxform}%
-
- 
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 53 numeric registers used out of 32768
+ [1] ) 
 Here is how much of TeX's memory you used:
- 240 strings out of 95617
- 2435 string characters out of 1171098
- 15380 words of memory out of 1502358
- 1658 multiletter control sequences out of 15000+50000
- 17652 words of font info for 57 fonts, out of 1000000 for 2000
+ 250 strings out of 95617
+ 2539 string characters out of 1171098
+ 44628 words of memory out of 1529606
+ 1663 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 8i,4n,8p,376b,45s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 42968 bytes).
+PDF statistics:
+ 40 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+
 
 ##################### end of pdftex log file #####################
-C:\Program Files (x86)\Therion\therion.exe: error -- pdftex exit code -- 1
-Press ENTER to exit!
+done
+writing PathCave1th.3d ... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.02%    0.43%  PathCave1SP1@PathCave1
+################### end of scrap distortions ###################

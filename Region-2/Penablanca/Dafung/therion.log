@@ -113,61 +113,61 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.77%
-writing .\output\Dafung.pdf ...
+average distortion: 0.73%
+writing output/Dafung.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  29 APR 2016 20:38
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 JUL 2016 22:43
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 [1] [2] [3] [4]
 [Warning: scrap outline intersects itself in scrap downstream129SP1@downstream1
 29.Dafung] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-(./mptextmp.mp) [19] )
+[19] (./mptextmp.mp) [20] )
  
 Here is how much of MetaPost's memory you used:
- 1330 strings out of 1638
- 16896 string characters out of 26823
+ 1332 strings out of 1638
+ 16964 string characters out of 26823
  63964 words of memory out of 1500000
  1509 symbolic tokens out of 16384
- 8i,75n,11p,199b,4f stack positions out of 300i,84n,5000p,200b,15f
- 120 string compactions (moved 1656902 characters, 136010 strings)
-31 output files written: data.1 .. data.4012
+ 9i,75n,11p,199b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 122 string compactions (moved 1691929 characters, 138749 strings)
+32 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  29 APR 2016 20:38
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 JUL 2016 22:43
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 81 numeric registers used out of 32768
+ 82 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 278 strings out of 95617
- 2791 string characters out of 1171098
- 28379 words of memory out of 1515357
- 1691 multiletter control sequences out of 15000+50000
+ 279 strings out of 95617
+ 2801 string characters out of 1171098
+ 35601 words of memory out of 1520579
+ 1692 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,388b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 107239 bytes).
+Output written on data.pdf (1 page, 116293 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\Dafung.kml ... done
-writing .\output\Dafung-survex.3d ... done
+writing output/Dafung.kml ... done
+writing output/Dafung-survex.3d ... done
 writing xtherion file ... done
 compilation time: 5 sec
 
@@ -177,7 +177,7 @@ compilation time: 5 sec
  AVERAGE  MAXIMAL  SCRAP
    4.73%  100.00%  dafung-cave1SP1@dafung-cave1.Dafung
    0.02%    3.50%  dafung-down-westSP1@dafung-down-west.Dafung
-   0.02%    0.58%  smallpitchSP1@smallpitch.Dafung
+   0.01%    0.58%  smallpitchSP1@smallpitch.Dafung
    0.05%    0.51%  upper_squeezSP1@upper_squeez.Dafung
    0.01%    0.29%  downstream129SP1@downstream129.Dafung
    0.01%    0.28%  upstreamSP1@upstream.Dafung

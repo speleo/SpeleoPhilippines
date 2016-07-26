@@ -43,16 +43,16 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
- 3> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10149: warning: Unused fixed point "10156"
- 4> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10150: warning: Unused fixed point "10157"
- 5> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10151: warning: Unused fixed point "10158"
- 6> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10152: warning: Unused fixed point "10159"
- 7> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10153: warning: Unused fixed point "10160"
- 8> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10154: warning: Unused fixed point "10161"
- 9> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10155: warning: Unused fixed point "10162"
-10> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10156: warning: Unused fixed point "10163"
-11> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10157: warning: Unused fixed point "10164"
-12> C:\Users\HENRY_~1\AppData\Local\Temp\th16680\data.svx:10158: warning: Unused fixed point "10165"
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10149: warning: Unused fixed point "10156"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10150: warning: Unused fixed point "10157"
+ 5> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10151: warning: Unused fixed point "10158"
+ 6> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10152: warning: Unused fixed point "10159"
+ 7> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10153: warning: Unused fixed point "10160"
+ 8> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10154: warning: Unused fixed point "10161"
+ 9> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10155: warning: Unused fixed point "10162"
+10> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10156: warning: Unused fixed point "10163"
+11> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10157: warning: Unused fixed point "10164"
+12> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10158: warning: Unused fixed point "10165"
 13> 
 14> Survey contains 10485 survey stations, joined by 10473 shots.
 15> There are 8 loops.
@@ -200,7 +200,7 @@ average distortion: 0.44%
 writing .\_output\OdessaAreaCaves.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  14 MAY 2016 07:42
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  17 MAY 2016 21:24
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -266,7 +266,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  14 MAY 2016 07:43
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  17 MAY 2016 21:25
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -281,7 +281,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  680 strings out of 95617
  7041 string characters out of 1171098
- 2186010 words of memory out of 3500000
+ 2183341 words of memory out of 3500000
  2087 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -290,7 +290,7 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 5868085 bytes).
+Output written on data.pdf (1 page, 5867545 bytes).
 PDF statistics:
  980 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -301,7 +301,7 @@ PDF statistics:
 done
 writing .\_output\OdessaAreaCaves-survex.3d ... done
 writing xtherion file ... done
-compilation time: 67 sec
+compilation time: 62 sec
 
 
 ######################### loop errors ##########################

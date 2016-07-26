@@ -79,7 +79,7 @@ layout local-odessa
 ################################################################# 
   
   code tex-map
-  \cavename={Odessa-Tumbali System}
+  \cavename={Odessa System - Version 0.1}
   \def\maplayout{
     \legendbox{05}{97}{NW}{
       \legendwidth 60 cm
