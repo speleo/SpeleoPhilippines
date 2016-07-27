@@ -33,7 +33,7 @@ line wall -close on
   smooth off
 endline
 
-line border -id l38-1212-2296
+line border -id l38-1212-2296 -subtype invisible
   1184.0 2082.0
   1184.0 2082.0 1162.0 2436.0 1348.0 2386.0
   1534.0 2336.0 1558.0 2170.0 1644.0 2172.0
@@ -49,7 +49,7 @@ line border -id l38-1212-2296
   smooth off
 endline
 
-line border -id l37-1452-1692
+line border -id l37-1452-1692 -subtype invisible
   1184.0 2082.0
   1184.0 2082.0 1490.0 1848.0 1448.0 1622.0
   1406.0 1396.0 1320.0 1316.0 1258.0 1238.0
@@ -94,7 +94,7 @@ point 2202.0 8372.0 stalactites
 line flowstone
 endline
 
-line rock-border -close on -reverse on
+line chimney -close on -reverse on
   2290.0 8758.0
   2290.0 8758.0 2155.8 8795.04 2154.0 8646.0
   2152.6 8530.01 2256.0 8526.0 2294.0 8484.0
@@ -149,6 +149,7 @@ line flowstone -close off -reverse on
   1918.0 8472.0 2029.38 8517.41 2076.0 8520.0
   2148.0 8524.0 2196.0 8572.0 2180.0 8682.0
   2162.68 8801.1 2120.0 8832.0 2006.0 8760.0
+  smooth off
 endline
 
 line flowstone -close on -reverse on
@@ -169,6 +170,7 @@ line flowstone -id l34-1722-1216 -reverse on
   1826.0 1102.0
   1820.0 1192.0 1730.0 1246.0 1664.0 1198.0
   1534.75 1104.0 1634.0 1056.0 1626.0 1060.0
+  smooth off
 endline
 
 line wall
@@ -207,7 +209,16 @@ point 2422.0 2514.0 stalactite
 
 point 2526.0 2434.0 helictite
 
-point 2618.0 2232.0 stalactite
+line chimney
+endline
+
+line chimney
+endline
+
+area water
+endarea
+
+point 2588.0 2182.0 stalactite
 
 point 1578.0 1252.0 stalactites
 

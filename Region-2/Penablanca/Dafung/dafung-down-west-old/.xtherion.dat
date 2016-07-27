@@ -10,5 +10,5 @@ xth_cp_map_tree_insert map 1 78X1 p2 1 dafung-down-westME dafung-down-westME@daf
 xth_cp_map_tree_create
 xth_cp_comp_stat 430 2
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1461058190
+set xth(th_exit_number) 1469398273
 
