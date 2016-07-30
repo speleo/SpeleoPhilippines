@@ -24,17 +24,17 @@ xth_cp_map_tree_insert map 1 309X1 p1 1 smallpitchM smallpitchM@smallpitch.Dafun
 xth_cp_map_tree_insert map 1 310X1 p3 1 smallpitchME smallpitchME@smallpitch.Dafung "" ""
 xth_cp_map_tree_insert map 1 348X1 p3 1 upper_squeezME upper_squeezME@upper_squeez.Dafung "" ""
 xth_cp_map_tree_insert map 1 364X1 p3 1 upstream2ME upstream2ME@upstream2.Dafung "" ""
-xth_cp_map_tree_insert map 0 601X1 p1 1 dafung-down-westM dafung-down-westM@dafung-down-west.Dafung "" ""
-xth_cp_map_tree_insert map 1 599X1 601X1 2 dafung-down-westM2 dafung-down-westM2@dafung-down-west.Dafung "" ""
-xth_cp_map_tree_insert map 1 600X1 601X1 2 seriousdrinking-offset seriousdrinking-offset@dafung-down-west.Dafung "" ""
-xth_cp_map_tree_insert map 1 602X1 p3 1 dafung-down-westME dafung-down-westME@dafung-down-west.Dafung "" ""
-xth_cp_map_tree_insert map 0 606X1 p1 1 map-test map-test@Dafung "" ""
-xth_cp_map_tree_insert map 1 58X1 606X1 2 dafung-cave1M dafung-cave1M@dafung-cave1.Dafung "" ""
-xth_cp_map_tree_insert map 1 119X1 606X1 2 upstreamM upstreamM@upstream.Dafung "" ""
-xth_cp_map_tree_insert map 1 347X1 606X1 2 upper_squeezM upper_squeezM@upper_squeez.Dafung "" ""
-xth_cp_map_tree_insert map 1 363X1 606X1 2 upstream2M upstream2M@upstream2.Dafung "" ""
+xth_cp_map_tree_insert map 0 804X1 p1 1 dafung-down-westM dafung-down-westM@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 1 802X1 804X1 2 dafung-down-westM2 dafung-down-westM2@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 1 803X1 804X1 2 seriousdrinking-offset seriousdrinking-offset@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 1 805X1 p3 1 dafung-down-westME dafung-down-westME@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 0 809X1 p1 1 map-test map-test@Dafung "" ""
+xth_cp_map_tree_insert map 1 58X1 809X1 2 dafung-cave1M dafung-cave1M@dafung-cave1.Dafung "" ""
+xth_cp_map_tree_insert map 1 119X1 809X1 2 upstreamM upstreamM@upstream.Dafung "" ""
+xth_cp_map_tree_insert map 1 347X1 809X1 2 upper_squeezM upper_squeezM@upper_squeez.Dafung "" ""
+xth_cp_map_tree_insert map 1 363X1 809X1 2 upstream2M upstream2M@upstream2.Dafung "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 2009 20
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1469817760
+set xth(th_exit_number) 1469883841
 
