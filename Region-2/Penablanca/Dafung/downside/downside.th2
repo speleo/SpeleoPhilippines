@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 5062.109028647401 4632.094488195899
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 5062.109028647401 4700.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2741.9305749500004 1 1.0} {1212.6183464599999 6.6} PocketTopo/downside_p.xvi 0 {}
 
 
@@ -38,6 +38,13 @@ line wall
   2921.0 982.0 2973.0 924.0 2964.0 902.0
   2955.0 880.0 2900.0 788.0 2892.0 770.0
   smooth off
+endline
+
+line wall
+  3224.0 4093.0
+  3224.0 4093.0 3271.0 4237.0 3486.0 4251.0
+  3701.0 4265.0 3637.0 4364.0 3735.0 4366.0
+  3833.0 4368.0 3888.92 4517.08 3942.0 4552.0
 endline
 
 line wall
@@ -130,6 +137,62 @@ point 3564.0905749500007 2912.01834646 station -name 6.2
 point 4054.7005749500004 3414.81834646 station -name 6.1
 
 point 4905.12057495 3783.22834646 station -name 1.24
+
+point 3057.0 3351.0 stalactites
+
+area sand
+  l34-3508-4400
+endarea
+
+line border -id l34-3508-4400 -close on -subtype invisible
+  3740.0 4528.0
+  4240.0 4296.0
+  4376.0 3020.0
+  3648.0 2176.0
+  3404.0 1596.0
+  3188.0 1020.0
+  3104.0 896.0
+  2824.0 836.0
+  2416.0 812.0
+  2076.0 2028.0
+  2224.0 3044.0
+  2432.0 3460.0
+  2784.0 3916.0
+  3360.0 4328.0
+  3740.0 4528.0
+endline
+
+point 2816.0 658.0 narrow-end
+
+point 2738.0 1440.0 stalactites
+
+point 2996.0 1744.0 stalactites
+
+point 2552.0 1822.0 stalactites
+
+point 2716.0 1120.0 stalactites
+
+point 2752.0 2292.0 stalactites
+
+point 3084.0 2550.0 stalactites
+
+point 4008.0 3714.0 stalactites
+
+point 3524.0 3770.0 stalactites
+
+point 4036.0 3104.0 stalactites
+
+point 3712.0 3380.0 stalactites
+
+point 2789.0 3157.0 stalactites
+
+point 2710.0 3674.0 low-end
+
+line wall
+  3397.0 4057.0
+  3397.0 4057.0 3470.0 4165.0 3755.0 4156.0
+  3899.57 4151.43 4081.4 4473.89 4090.0 4479.0
+endline
 
 endscrap
 

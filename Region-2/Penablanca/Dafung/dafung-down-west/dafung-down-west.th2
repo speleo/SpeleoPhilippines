@@ -7,6 +7,14 @@ encoding  utf-8
 
 scrap dafung-down-westSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 9370.0 6716.0 label -text "Disney Castle" -scale xs
+
+point 4084.0 7652.0 label -text "Glittercliff" -scale m
+
+point 14236.0 14786.0 label -text "Forest of the Night" -scale m
+
+point 13452.0 16326.0 label -text "More Dafung in the Philippines" -scale xl
+
 line wall -reverse on
   13714.0 12424.0
   13714.0 12424.0 13520.0 12432.0 13292.0 12230.0
@@ -1415,6 +1423,10 @@ line wall -reverse on -subtype flowstone
   5662.0 3416.0 5652.0 3436.0 5646.0 3474.0
   smooth off
 endline
+
+point 7138.0 3948.0 label -text "Lilypads" -scale xs
+
+point 4950.0 2394.0 label -text "Lily's Sanctuary" -scale m
 
 line wall -reverse on
   5646.0 3474.0

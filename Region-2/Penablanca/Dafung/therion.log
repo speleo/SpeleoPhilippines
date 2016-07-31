@@ -113,39 +113,37 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.23%
+average distortion: 0.02%
 writing output/Dafung.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015/Debian) (kpathsea version 6.2.1)  31 JUL 2016 13:35
+This is MetaPost, version 1.999 (TeX Live 2015/Debian) (kpathsea version 6.2.1)  1 AUG 2016 00:18
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp [4001] [4002] [4003]
 [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [4012]
-[1] [2] [3] [4]
-[Warning: scrap outline intersects itself in scrap downstream129SP1@downstream1
-29.Dafung] [5] [6] [7] [8] [9] [10]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
 [Warning: scrap outline intersects itself in scrap dafung-down-westSP1@dafung-d
 own-west.Dafung]
 [Warning: scrap outline intersects itself in scrap dafung-down-westSP1@dafung-d
-own-west.Dafung] [11] [12] [13] [14] [15] [16] [17] [18]
+own-west.Dafung] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
 [Warning: scrap outline intersects itself in scrap dafung-cave1SP1@dafung-cave1
-.Dafung] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
-(./mptextmp.mp) [31] )
+.Dafung] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
+(./mptextmp.mp) [38] )
  
 Here is how much of MetaPost's memory you used:
- 27024 strings using 543371 characters
- 3308512 bytes of node memory
- 1543 symbolic tokens
- 11i,81n,14p,204b,4f stack positions out of 16i,96n,17p,250b,6f
-43 output files written: data.1 .. data.4012
+ 28207 strings using 575861 characters
+ 3944136 bytes of node memory
+ 1547 symbolic tokens
+ 11i,81n,16p,397b,5f stack positions out of 16i,96n,20p,487b,6f
+50 output files written: data.1 .. data.4012
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdfetex 2016.5.30)  31 JUL 2016 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdfetex 2016.5.30)  1 AUG 2016 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -154,24 +152,24 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 99 numeric registers used out of 32768
+ 106 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 288 strings out of 497107
- 2945 string characters out of 6206799
- 92442 words of memory out of 5000000
- 1515 multiletter control sequences out of 15000+600000
+ 295 strings out of 497107
+ 3019 string characters out of 6206799
+ 146486 words of memory out of 5000000
+ 1522 multiletter control sequences out of 15000+600000
  15760 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  9i,5n,8p,458b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 171559 bytes).
+Output written on data.pdf (1 page, 222740 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 174 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -185,9 +183,9 @@ compilation time: 1 sec
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   1.49%  100.00%  dafung-cave1SP1@dafung-cave1.Dafung
    0.03%    4.61%  dafung-down-westSP1@dafung-down-west.Dafung
-   0.09%    1.29%  corner@smallpitch.Dafung
+   0.01%    1.51%  dafung-cave1SP1@dafung-cave1.Dafung
+   0.08%    1.29%  corner@smallpitch.Dafung
    0.12%    0.78%  seriousdrinking@dafung-down-west.Dafung
    0.06%    0.52%  upper_squeezSP1@upper_squeez.Dafung
    0.02%    0.41%  smallpitchSP1@smallpitch.Dafung
@@ -195,5 +193,5 @@ compilation time: 1 sec
    0.01%    0.29%  downstream129SP1@downstream129.Dafung
    0.01%    0.28%  upstreamSP1@upstream.Dafung
    0.04%    0.14%  upstream2SP1@upstream2.Dafung
-   0.02%    0.10%  downsideSP1@downside.Dafung
+   0.01%    0.12%  downsideSP1@downside.Dafung
 ################### end of scrap distortions ###################
