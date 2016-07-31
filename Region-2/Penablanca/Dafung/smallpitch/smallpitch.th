@@ -3,8 +3,18 @@ survey smallpitch
 input smallpitch.th2
 input smallpitchEe.th2
 
+map corner-offset
+    corner
+endmap
+
 map smallpitchM
-	smallpitchSP1
+	xxx
+	break
+	corner-offset [-50 -50 m] below
+endmap
+
+map xxx
+    smallpitchSP1
 endmap
 
 map smallpitchME

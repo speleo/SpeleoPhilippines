@@ -82,6 +82,7 @@ line wall
   7426.0 7688.0 7441.0 7704.0 7452.0 7726.0
   7463.0 7748.0 7481.0 7747.0 7486.0 7765.0
   7491.0 7783.0 7498.0 7782.0 7495.0 7797.0
+  smooth off
 endline
 
 line wall
@@ -232,7 +233,7 @@ line rock-border
   smooth off
 endline
 
-point 6994.29133858 8210.98425197 station -name 20.44
+point 6990.29133858 8208.98425197 station -name 20.44
 
 endscrap
 

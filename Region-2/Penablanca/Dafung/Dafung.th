@@ -10,23 +10,15 @@ survey Dafung
   input dafung-down-west/dafung-down-west.th
 
   centreline
-    #equate 6.66@C4HelicopterHole 15.57@bluewater
     equate 1.23@dafung-cave1  20.0@upstream
     equate 1.29@dafung-cave1 1.29@downstream129
     equate 1.24@dafung-cave1 1.24@downside
-    equate 1.0@smallpitch 20.4@upstream
+    equate 1.0@smallpitch 1.23@dafung-cave1
     equate 20.44@upper_squeez 20.44@upstream
     equate 13.0@upstream2 20.31@upstream
     equate 8.0@dafung-down-west 1.4@smallpitch
   endcentreline
 
-  map map-test
-    dafung-cave1M@dafung-cave1
-    upstreamM@upstream
-    upper_squeezM@upper_squeez
-      break
-    upstream2M@upstream2
-  endmap
 
 endsurvey
 
