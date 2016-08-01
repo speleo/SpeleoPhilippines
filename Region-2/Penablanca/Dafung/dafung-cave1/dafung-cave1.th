@@ -15,16 +15,34 @@ centreline
 
 copyright 2016 "GNU GPL"
 
+date 2016.04.08
+
+team "Buddy Acenas"
+team "Ruth Allan"
+team "Christopher Belton"
+team "Laura Benn"
+team "Hannah Bennett"
+team "Henry Bennett"
+team "Richard Dapito"
+team "Olivia Dawson"
+team "Paul Fairman"
+team "Sam Goodyear"
+team "Nick Gymer"
+team "Patrick Hillier"
+team "Catherine Hulse"
+team "Anya Keatley"
+team "Oliver Legg"
+team "Ranger Marquez"
+team "Adrian Scadding"
+team "Rich Smith"
+team "Peter Talling"
+
+instrument  instruments "UBSS DistoX1"
+
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2016.04.08
 
-  team "Henry Bennett" notes
-  team "Hannah Bennett" instruments
-  team "Patrick Hillier" instruments
-
-  instrument  instruments "Henry Bennett DistoX2"
   #
   cs EPSG:32651
   # not sure which is the correct station to pin
