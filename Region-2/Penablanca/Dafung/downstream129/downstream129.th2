@@ -365,6 +365,7 @@ line floor-step -id l46-2112-8384 -reverse on
   2238.0 8380.0 2230.0 8378.0 2289.0 8340.0
   2348.0 8302.0 2337.0 8290.0 2428.0 8295.0
   2519.0 8300.0 2528.0 8303.0 2531.0 8306.0
+  smooth off
 endline
 
 point 2211.0 8903.0 stalagmites -scale s
@@ -518,13 +519,16 @@ line floor-step -id l55-1688-8958
   1862.0 9165.0 1843.0 9164.0 1870.0 9200.0
   1897.0 9236.0 1886.0 9240.0 1918.0 9246.0
   1950.0 9252.0 1985.0 9260.0 2024.0 9258.0
+  smooth off
 endline
 
 point 2379.0 8455.0 stalagmites -scale s
 
 point 2150.0 8629.0 pillar -scale m
 
-line border -id l43-1538-8324 -close on -subtype invisible
+point 812.0 7884.0 label -text "Guano Lake" -scale xs
+
+line border -id l43-1538-8324 -close on
   1661.0 8516.0
   1661.0 8516.0 1512.0 8338.0 1519.0 8231.0
   1534.8 7989.44 1546.0 8025.0 1617.0 7966.0
@@ -570,6 +574,7 @@ line wall
   3654.0 6984.0 3618.0 6933.0 3655.0 6923.0
   3692.0 6913.0 3698.0 6933.0 3707.0 6960.0
   3716.0 6987.0 3690.0 7019.0 3654.0 6990.0
+  smooth off
 endline
 
 line rock-edge -close on

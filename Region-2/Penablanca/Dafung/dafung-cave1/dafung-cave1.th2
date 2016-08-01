@@ -712,6 +712,12 @@ endline
 
 point 4328.0 37744.0 label -text "c2" -scale xs
 
+point 2448.0 4468.0 label -text "c1" -scale xs
+
+point 3072.0 5084.0 label -text "p8" -scale xs
+
+point 2984.0 4788.0 continuation -scale xs
+
 endscrap
 
 
