@@ -6,9 +6,9 @@ xth_cp_data_tree_insert 172 10 2 upstream upstream.Dafung "" "" "length: 442.11m
 xth_cp_data_tree_insert 427 10 2 downstream129 downstream129.Dafung "" "" "length: 169.16m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.77m (from 29.5@downstream129.Dafung at 156.29m to 1.46@downstream129.Dafung at 151.52m)\nnorth-south range: 108.58m (from 1.47@downstream129.Dafung at 1966924.31m to 1.29@downstream129.Dafung at 1966815.73m)\neast-west range: 37.19m (from 1.38@downstream129.Dafung at 377234.98m to 1.46@downstream129.Dafung at 377197.79m)\nnumber of shots: 216\nnumber of stations: 217"
 xth_cp_data_tree_insert 508 10 2 downside downside.Dafung "" "" "length: 47.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.65m (from 1.24@downside.Dafung at 157.24m to 6.3@downside.Dafung at 152.59m)\nnorth-south range: 33.41m (from 1.24@downside.Dafung at 1966732.44m to 6.6@downside.Dafung at 1966699.03m)\neast-west range: 27.95m (from 1.24@downside.Dafung at 377272.26m to 6.5@downside.Dafung at 377244.31m)\nnumber of shots: 118\nnumber of stations: 119"
 xth_cp_data_tree_insert 551 10 2 smallpitch smallpitch.Dafung "" "" "length: 149.67m (surface 0.00m, duplicated 0.00m)\nvertical range: 13.26m (from 1.15@smallpitch.Dafung at 167.08m to 1.19@smallpitch.Dafung at 153.82m)\nnorth-south range: 100.16m (from 1.19@smallpitch.Dafung at 1966501.99m to 1.2@smallpitch.Dafung at 1966401.83m)\neast-west range: 18.24m (from 1.11@smallpitch.Dafung at 377219.32m to 1.7@smallpitch.Dafung at 377201.08m)\nnumber of shots: 230\nnumber of stations: 231"
-xth_cp_data_tree_insert 716 10 2 upper_squeez upper_squeez.Dafung "" "" "length: 174.34m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.84m (from 30.10@upper_squeez.Dafung at 176.93m to 20.46@upper_squeez.Dafung at 168.09m)\nnorth-south range: 92.96m (from 20.44@upper_squeez.Dafung at 1966190.90m to 30.9@upper_squeez.Dafung at 1966097.94m)\neast-west range: 79.21m (from 20.45@upper_squeez.Dafung at 377202.54m to 30.10@upper_squeez.Dafung at 377123.33m)\nnumber of shots: 218\nnumber of stations: 219"
-xth_cp_data_tree_insert 774 10 2 upstream2 upstream2.Dafung "" "" "length: 23.70m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.91m (from 13.3@upstream2.Dafung at 174.41m to 20.31@upstream2.Dafung at 172.50m)\nnorth-south range: 18.93m (from 20.31@upstream2.Dafung at 1966243.32m to 13.4@upstream2.Dafung at 1966224.39m)\neast-west range: 6.65m (from 20.31@upstream2.Dafung at 377237.69m to 13.2@upstream2.Dafung at 377231.04m)\nnumber of shots: 59\nnumber of stations: 60"
-xth_cp_data_tree_insert 805 10 2 dafung-down-west dafung-down-west.Dafung "" "" "length: 478.07m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.67m (from 8.24@dafung-down-west.Dafung at 161.03m to 20.2@dafung-down-west.Dafung at 150.36m)\nnorth-south range: 167.05m (from 19.2@dafung-down-west.Dafung at 1966414.20m to 19.5@dafung-down-west.Dafung at 1966247.15m)\neast-west range: 189.46m (from 1.4@dafung-down-west.Dafung at 377201.42m to 18.16@dafung-down-west.Dafung at 377011.96m)\nnumber of shots: 670\nnumber of stations: 671"
+xth_cp_data_tree_insert 717 10 2 upper_squeez upper_squeez.Dafung "" "" "length: 174.34m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.84m (from 30.10@upper_squeez.Dafung at 176.93m to 20.46@upper_squeez.Dafung at 168.09m)\nnorth-south range: 92.96m (from 20.44@upper_squeez.Dafung at 1966190.90m to 30.9@upper_squeez.Dafung at 1966097.94m)\neast-west range: 79.21m (from 20.45@upper_squeez.Dafung at 377202.54m to 30.10@upper_squeez.Dafung at 377123.33m)\nnumber of shots: 218\nnumber of stations: 219"
+xth_cp_data_tree_insert 775 10 2 upstream2 upstream2.Dafung "" "" "length: 23.70m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.91m (from 13.3@upstream2.Dafung at 174.41m to 20.31@upstream2.Dafung at 172.50m)\nnorth-south range: 18.93m (from 20.31@upstream2.Dafung at 1966243.32m to 13.4@upstream2.Dafung at 1966224.39m)\neast-west range: 6.65m (from 20.31@upstream2.Dafung at 377237.69m to 13.2@upstream2.Dafung at 377231.04m)\nnumber of shots: 59\nnumber of stations: 60"
+xth_cp_data_tree_insert 806 10 2 dafung-down-west dafung-down-west.Dafung "" "" "length: 478.07m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.67m (from 8.24@dafung-down-west.Dafung at 161.03m to 20.2@dafung-down-west.Dafung at 150.36m)\nnorth-south range: 167.05m (from 19.2@dafung-down-west.Dafung at 1966414.20m to 19.5@dafung-down-west.Dafung at 1966247.15m)\neast-west range: 189.46m (from 1.4@dafung-down-west.Dafung at 377201.42m to 18.16@dafung-down-west.Dafung at 377011.96m)\nnumber of shots: 670\nnumber of stations: 671"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
@@ -22,20 +22,20 @@ xth_cp_map_tree_insert map 1 504X1 p1 1 downstream129M downstream129M@downstream
 xth_cp_map_tree_insert map 1 505X1 p2 1 downstream129ME downstream129ME@downstream129.Dafung "" ""
 xth_cp_map_tree_insert map 1 547X1 p1 1 downsideM downsideM@downside.Dafung "" ""
 xth_cp_map_tree_insert map 1 548X1 p2 1 downsideME downsideME@downside.Dafung "" ""
-xth_cp_map_tree_insert map 0 711X1 p1 1 smallpitchM smallpitchM@smallpitch.Dafung "" ""
-xth_cp_map_tree_insert map 1 712X1 711X1 2 xxx xxx@smallpitch.Dafung "" ""
-xth_cp_map_tree_insert map 1 710X1 711X1 2 corner-offset corner-offset@smallpitch.Dafung "" ""
-xth_cp_map_tree_insert map 1 713X1 p2 1 smallpitchME smallpitchME@smallpitch.Dafung "" ""
-xth_cp_map_tree_insert map 1 770X1 p1 1 upper_squeezM upper_squeezM@upper_squeez.Dafung "" ""
-xth_cp_map_tree_insert map 1 771X1 p2 1 upper_squeezME upper_squeezME@upper_squeez.Dafung "" ""
-xth_cp_map_tree_insert map 1 801X1 p1 1 upstream2M upstream2M@upstream2.Dafung "" ""
-xth_cp_map_tree_insert map 1 802X1 p2 1 upstream2ME upstream2ME@upstream2.Dafung "" ""
-xth_cp_map_tree_insert map 0 1249X1 p1 1 dafung-down-westM dafung-down-westM@dafung-down-west.Dafung "" ""
-xth_cp_map_tree_insert map 1 1247X1 1249X1 2 dafung-down-westM2 dafung-down-westM2@dafung-down-west.Dafung "" ""
-xth_cp_map_tree_insert map 1 1248X1 1249X1 2 seriousdrinking-offset seriousdrinking-offset@dafung-down-west.Dafung "" ""
-xth_cp_map_tree_insert map 1 1250X1 p2 1 dafung-down-westME dafung-down-westME@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 0 712X1 p1 1 smallpitchM smallpitchM@smallpitch.Dafung "" ""
+xth_cp_map_tree_insert map 1 713X1 712X1 2 xxx xxx@smallpitch.Dafung "" ""
+xth_cp_map_tree_insert map 1 711X1 712X1 2 corner-offset corner-offset@smallpitch.Dafung "" ""
+xth_cp_map_tree_insert map 1 714X1 p2 1 smallpitchME smallpitchME@smallpitch.Dafung "" ""
+xth_cp_map_tree_insert map 1 771X1 p1 1 upper_squeezM upper_squeezM@upper_squeez.Dafung "" ""
+xth_cp_map_tree_insert map 1 772X1 p2 1 upper_squeezME upper_squeezME@upper_squeez.Dafung "" ""
+xth_cp_map_tree_insert map 1 802X1 p1 1 upstream2M upstream2M@upstream2.Dafung "" ""
+xth_cp_map_tree_insert map 1 803X1 p2 1 upstream2ME upstream2ME@upstream2.Dafung "" ""
+xth_cp_map_tree_insert map 0 1250X1 p1 1 dafung-down-westM dafung-down-westM@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 1 1248X1 1250X1 2 dafung-down-westM2 dafung-down-westM2@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 1 1249X1 1250X1 2 seriousdrinking-offset seriousdrinking-offset@dafung-down-west.Dafung "" ""
+xth_cp_map_tree_insert map 1 1251X1 p2 1 dafung-down-westME dafung-down-westME@dafung-down-west.Dafung "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 2009 20
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1470092296
+set xth(th_exit_number) 1470093962
 

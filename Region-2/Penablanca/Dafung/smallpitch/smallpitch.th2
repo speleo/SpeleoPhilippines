@@ -11,6 +11,8 @@ area sand
   l138-2478-3090
 endarea
 
+point 2990.0 8488.0 label -text "p10" -scale xs
+
 point 1658.0 5420.0 helictite
 
 point 2144.0 5896.0 helictite
