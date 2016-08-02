@@ -18,6 +18,17 @@ survey Dafung
     equate 13.0@upstream2 20.31@upstream
     equate 8.0@dafung-down-west 1.4@smallpitch
   endcentreline
+  
+  map DafungM
+    dafung-cave1M@dafung-cave1
+    upstreamM@upstream
+    downstream129M@downstream129
+    downsideM@downside
+    smallpitchM@smallpitch
+    upper_squeezM@upper_squeez
+    upstream2M@upstream2
+    dafung-down-westM@dafung-down-west
+  endmap
 
 
 endsurvey

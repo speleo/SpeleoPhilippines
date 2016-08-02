@@ -5,6 +5,7 @@ survey OdessaAreaCaves
   input PigstyCave/pigsty-cave.th
   input GapingJill/GapingJill.th
   input MinorSites/MinorSites.th
+  #input Dafung/Dafung.th
 
   map OdessaAreaCavesMap
     survey Odessa
@@ -13,6 +14,7 @@ survey OdessaAreaCaves
     pigsty-caveM@pigsty-cave
     GapingJillM@GapingJill
     MinorSitesM@MinorSites
+    #DafungM@Dafung
   endmap
 
 endsurvey

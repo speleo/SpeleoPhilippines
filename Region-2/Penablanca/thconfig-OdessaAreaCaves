@@ -79,7 +79,7 @@ layout local-odessa
 ################################################################# 
   
   code tex-map
-  \cavename={Odessa System - Version 0.1}
+  \cavename={Odessa System - 2016}
   \def\maplayout{
     \legendbox{05}{97}{NW}{
       \legendwidth 60 cm
@@ -91,7 +91,7 @@ layout local-odessa
       \hsize=\legendwidth
       \input th_legend
       }
-    \legendbox{05}{60}{NW}{
+    \legendbox{05}{55}{NW}{
       \legendwidth 65 cm
       \legendtextsize={\size[42]}
       \hsize=\legendwidth

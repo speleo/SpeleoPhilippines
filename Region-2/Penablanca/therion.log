@@ -43,16 +43,16 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.12
  2> Copyright ¸ 1990-2014 Olly Betts
- 3> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10149: warning: Unused fixed point "10156"
- 4> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10150: warning: Unused fixed point "10157"
- 5> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10151: warning: Unused fixed point "10158"
- 6> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10152: warning: Unused fixed point "10159"
- 7> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10153: warning: Unused fixed point "10160"
- 8> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10154: warning: Unused fixed point "10161"
- 9> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10155: warning: Unused fixed point "10162"
-10> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10156: warning: Unused fixed point "10163"
-11> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10157: warning: Unused fixed point "10164"
-12> C:\Users\HENRY_~1\AppData\Local\Temp\th22936\data.svx:10158: warning: Unused fixed point "10165"
+ 3> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10149: warning: Unused fixed point "10156"
+ 4> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10150: warning: Unused fixed point "10157"
+ 5> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10151: warning: Unused fixed point "10158"
+ 6> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10152: warning: Unused fixed point "10159"
+ 7> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10153: warning: Unused fixed point "10160"
+ 8> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10154: warning: Unused fixed point "10161"
+ 9> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10155: warning: Unused fixed point "10162"
+10> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10156: warning: Unused fixed point "10163"
+11> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10157: warning: Unused fixed point "10164"
+12> C:\Users\HENRY_~1\AppData\Local\Temp\th9580\data.svx:10158: warning: Unused fixed point "10165"
 13> 
 14> Survey contains 10485 survey stations, joined by 10473 shots.
 15> There are 8 loops.
@@ -109,34 +109,34 @@ processing survey data ...
 66> There were 10 warning(s).
 67> 
 ######################### transcription ########################
- 3> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+ 3> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
  3> input:10149 -- odessa/Surface/Surface_Odessa_1/Surface_Odessa_1.th [15]
  3> 10156 : 201@Surface_Odessa_1.Surface.Odessa.OdessaAreaCaves
- 4> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+ 4> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
  4> input:10150 -- odessa/Surface/Surface_Odessa_1/Surface_Odessa_1.th [16]
  4> 10157 : 202@Surface_Odessa_1.Surface.Odessa.OdessaAreaCaves
- 5> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+ 5> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
  5> input:10151 -- odessa/Surface/Surface_Odessa_2/Surface_Odessa_2.th [15]
  5> 10158 : 301@Surface_Odessa_2.Surface.Odessa.OdessaAreaCaves
- 6> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+ 6> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
  6> input:10152 -- odessa/Surface/Surface_Odessa_2/Surface_Odessa_2.th [16]
  6> 10159 : 302@Surface_Odessa_2.Surface.Odessa.OdessaAreaCaves
- 7> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+ 7> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
  7> input:10153 -- odessa/Surface/Surface_Odessa_3/Surface_Odessa_3.th [15]
  7> 10160 : 401@Surface_Odessa_3.Surface.Odessa.OdessaAreaCaves
- 8> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+ 8> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
  8> input:10154 -- odessa/Surface/Surface_Odessa_3/Surface_Odessa_3.th [16]
  8> 10161 : 402@Surface_Odessa_3.Surface.Odessa.OdessaAreaCaves
- 9> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+ 9> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
  9> input:10155 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [16]
  9> 10162 : 101@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
-10> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+10> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
 10> input:10156 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [17]
 10> 10163 : 102@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
-11> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+11> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
 11> input:10157 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [18]
 11> 10164 : 103@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
-12> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves
+12> 1 : 1.0@martha.HeadlessChicken.OdessaAreaCaves -- 9580 : -@SewerNorthTop.Odessa.OdessaAreaCaves
 12> input:10158 -- odessa/Surface/Surface_Daquioag/Surface_Daquioag.th [19]
 12> 10165 : 104@Surface_Daquioag.Surface.Odessa.OdessaAreaCaves
 14> 10485 : 34.1@Main2Sewer.Odessa.OdessaAreaCaves -- 10473 : -@GapingJill.OdessaAreaCaves
@@ -200,7 +200,7 @@ average distortion: 0.44%
 writing .\_output\OdessaAreaCaves.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  17 MAY 2016 21:24
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  1 AUG 2016 23:37
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -266,7 +266,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  17 MAY 2016 21:25
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  1 AUG 2016 23:38
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -281,7 +281,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  680 strings out of 95617
  7041 string characters out of 1171098
- 2183341 words of memory out of 3500000
+ 2189530 words of memory out of 3500000
  2087 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -290,7 +290,7 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 5867545 bytes).
+Output written on data.pdf (1 page, 5869089 bytes).
 PDF statistics:
  980 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -301,7 +301,7 @@ PDF statistics:
 done
 writing .\_output\OdessaAreaCaves-survex.3d ... done
 writing xtherion file ... done
-compilation time: 62 sec
+compilation time: 49 sec
 
 
 ######################### loop errors ##########################
