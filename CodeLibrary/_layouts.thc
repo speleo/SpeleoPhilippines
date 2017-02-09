@@ -11,6 +11,14 @@ layout custom_symbols
 endlayout
 
 #############################################################################################################################
+layout custom_color
+  #Foreground color - turn on altitude to see various heights
+  #colour map-fg [80 80 80]
+  color map-fg altitude
+  #colour map-bg [70 90 70]
+endlayout
+
+#############################################################################################################################
 layout custom_large_odessa
   scale 1 700
   base-scale 1 300

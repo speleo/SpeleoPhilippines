@@ -1,0 +1,7 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig.lumio
+reading ...
+C:\Program Files (x86)\Therion\therion.exe: error -- thconfig.lumio [13] -- unknown option -- "10"
+writing xtherion file ... done

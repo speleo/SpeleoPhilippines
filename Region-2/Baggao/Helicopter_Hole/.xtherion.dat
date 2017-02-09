@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 4075.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 97.02m (from 17.1@C4HelicopterHole at 348.23m to 6.66@C4HelicopterHole at 251.21m)\nnorth-south range: 789.17m (from 6.48@C4HelicopterHole at 1993235.48m to 1.111@C4HelicopterHole at 1992446.31m)\neast-west range: 1899.47m (from 1.132@C4HelicopterHole at 396738.76m to 6.66@C4HelicopterHole at 394839.29m)\nnumber of shots: 1676\nnumber of stations: 1677"
+xth_cp_data_tree_insert 9 1 1 C4HelicopterHole C4HelicopterHole "" "" "length: 4075.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 97.02m (from 17.1@C4HelicopterHole at 348.23m to 6.66@C4HelicopterHole at 251.21m)\nnorth-south range: 789.17m (from 6.48@C4HelicopterHole at 1993235.48m to 1.111@C4HelicopterHole at 1992446.31m)\neast-west range: 1899.47m (from 1.132@C4HelicopterHole at 396738.76m to 6.66@C4HelicopterHole at 394839.29m)\nnumber of shots: 1676\nnumber of stations: 1677"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 1363X1 p1 1 C4HelicopterHoleM C4HelicopterHoleM@C4HelicopterHole "" ""
+xth_cp_map_tree_insert map 1 1364X1 p3 1 C4HelicopterHoleME C4HelicopterHoleME@C4HelicopterHole "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 4075 11
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1448826740
+

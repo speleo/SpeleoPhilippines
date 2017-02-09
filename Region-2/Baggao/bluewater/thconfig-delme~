@@ -1,0 +1,217 @@
+encoding  utf-8
+source bluewater.th
+source .\surface\surface_10m.th
+# Change name to the main therion file
+
+
+layout local
+  scale 1 500
+  base-scale 1 500
+  scale-bar 50 m
+  
+  #Foreground color - turn on altitdude to see various heights
+  colour map-fg [80 80 80]
+  #color map-fg altitude
+  colour map-bg [70 90 70]
+  
+  
+  statistics topo-length on
+  statistics explo-length on
+  statistics topo all
+  
+  map-comment www.bec-cave.org.uk
+  map-image 50 50 ne BertieBat.png
+  
+  debug off
+  transparency on
+  opacity 60
+  map-header 0 100 nw
+
+  symbol-set BCRA
+  #symbol-hide group cave-centreline
+  
+  legend on
+  legend-columns 4
+  legend-width 45 cm
+  #grid bottom
+  #grid-coords border
+  
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    # change centre line to continuous
+    def l_survey_cave (expr p) =
+        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    enddef;
+    
+    # Re-define North arrow to make it bigger
+    def s_northarrow (expr rot) =
+         T:=identity scaled 0.7 rotated -rot;
+	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
+	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
+    enddef;
+    
+    #make the legend boxes much larger
+    def draw_legend_box =
+        #make the objects in the legend boxes bigger
+        currentpicture := currentpicture scaled 3.4;
+        clip currentpicture to unitsquare scaled 10u;
+        drawoptions();
+        pickup PenB;
+        draw unitsquare scaled 10u ;
+    enddef;
+
+    #clear the background of the larger legend boxes    
+    def clean_legend_box =
+        unfill unitsquare scaled 10u;
+    enddef;
+    
+    #change the value of inscale to fill the legend boxes
+    def inscale = 
+        xscaled legend_scale yscaled (0.618*legend_scale)
+        #xscaled legend_scale yscaled legend_scale
+     enddef;
+    
+#    def legend_point (expr name) =
+#        if substring (2,9) of name = "station":
+#            scantokens(name)((10,10) scaled);
+#        else:
+#            scantokens(name)((10.5,10.5) scaled,0,1,(0,0));
+#        fi;
+#        draw_legend_box;
+#    enddef;
+    
+    #Change the scalebar to this one from this example
+    #http://therion.speleo.sk/wiki/doku.php/metapost
+    def s_scalebar (expr l, units, txt) =
+      begingroup
+        interim warningcheck:=0;
+        tmpl:=l / Scale * cm * units / 2;
+        tmpx:=l / Scale * cm * units / 5;
+        tmph:=15bp; % bar height
+      endgroup;
+      pickup PenC;
+      draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+      p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+      for i:=-2.5 step 2 until 2:
+        fill p shifted (i * tmpx,0);
+      endfor;
+      begingroup
+        interim labeloffset:=3.5bp;
+        for i:=0 step (l/5) until (l-1):
+          tmpx:=tmpl * (i * 2 / l - 1);
+          label.top(thTEX(decimal (i)),(tmpx,0));
+        endfor;
+        label.top(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,0));
+        label.bot(thTEX("Original Scale = 1 : " & decimal round(Scale*100)),(0,-tmph));
+      endgroup;
+    enddef;
+ 
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    fonts_setup(6,8,40,14,20);
+  
+  endcode
+
+#################################################################
+#  
+#  TTTTTTT EEEEEEE XX    XX        MM    MM   AAA   PPPPPP  
+#    TTT   EE       XX  XX         MMM  MMM  AAAAA  PP   PP 
+#    TTT   EEEEE     XXXX   _____  MM MM MM AA   AA PPPPPP  
+#    TTT   EE       XX  XX         MM    MM AAAAAAA PP      
+#    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
+#
+################################################################# 
+  
+  code tex-map
+  \copyrights={Copyleft Creative Commons ShareAlike}
+  #\def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+  \def\maplayout{
+    \legendbox{0}{100}{NW}{\the\legendcontent}
+    #\legendbox{0}{100}{S}{\loadpicture{C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+  }  
+   #change the size of the legend box text
+    \newtoks\legendtextsize\legendtextsize={\size[32]}
+    #\loadpicture{C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}
+
+   #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
+    \legendcontent={%
+      \hsize=\legendwidth
+      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+         {\size[126]\the\cavename} \vskip1cm
+      \fi
+      \ifscalebar\scalebar\vskip1cm\fi
+      {\rightskip=0pt plus 3em\parskip=3bp
+        \edef\tmp{\the\comment} \ifx\tmp\empty \else
+           {\size[24]\the\comment} \par\medskip
+         \fi
+      \everypar{\hangindent=2em\hangafter=1}
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\size[24]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\size[24]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\size[24]\si\the\explotitle:
+        \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+        {\size[24]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+      \fi
+      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+        {\size[24]\si\the\cartotitle:
+        \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\size[24]\ss\the\copyrights\par}
+      \fi
+     }
+    \formattedlegend  
+  }
+
+  endcode #end of TeX code
+
+endlayout
+
+
+#Surveys to output
+#-----------------
+
+#Produces plan of cave, on a single sheet
+export map -proj plan -layout local -o .\output\bluewater-map.pdf
+
+#export atlas -proj plan -layout local -o .\output\bluewater-atlas.pdf
+
+#export model -fmt kml -o .\output\bluewater.kml
+#export map -fmt kml -proj plan -layout local -o .\output\bluewater.kml
+
+
+#export map -proj extended -layout local -o .\output\bluewater-elevation.pdf
+
+#export model -fmt survex -o .\output\bluewater-survex.3d
+#Survex file showing centre line only
+
+#export model -o .\output\bluewater.lox -enable surface
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o .\output\bluewater_Walls.3d
+#Survex file showing walls only

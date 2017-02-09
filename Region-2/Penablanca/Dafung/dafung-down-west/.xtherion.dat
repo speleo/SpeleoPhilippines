@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 429.64m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.32m (from 8.24@dafung-down-west at 1.86m to 18.14@dafung-down-west at -8.46m)\nnorth-south range: 145.04m (from 8.1@dafung-down-west at 3.12m to 17.4@dafung-down-west at -141.92m)\neast-west range: 192.79m (from 1.4@dafung-down-west at 0.00m to 18.16@dafung-down-west at -192.79m)\nnumber of shots: 600\nnumber of stations: 601"
+xth_cp_data_tree_insert 8 1 1 dafung-down-west dafung-down-west "" "" "length: 429.64m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.32m (from 8.24@dafung-down-west at 1.86m to 18.14@dafung-down-west at -8.46m)\nnorth-south range: 145.04m (from 8.1@dafung-down-west at 3.12m to 17.4@dafung-down-west at -141.92m)\neast-west range: 192.79m (from 1.4@dafung-down-west at 0.00m to 18.16@dafung-down-west at -192.79m)\nnumber of shots: 600\nnumber of stations: 601"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 77X1 p1 1 dafung-down-westM dafung-down-westM@dafung-down-west "" ""
+xth_cp_map_tree_insert map 1 78X1 p2 1 dafung-down-westME dafung-down-westME@dafung-down-west "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 430 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1461058190
+

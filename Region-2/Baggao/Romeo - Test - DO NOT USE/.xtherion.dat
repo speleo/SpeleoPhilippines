@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 944.19m (surface 0.00m, duplicated 0.00m)\nvertical range: 63.69m (from 1.0@romeo_entrance at 462.00m to 1.121@romeo_entrance at 398.31m)\nnorth-south range: 491.44m (from 1.98@romeo_entrance at 1992392.42m to 1.8@romeo_entrance at 1991900.98m)\neast-west range: 164.54m (from 1.79@romeo_entrance at 398260.93m to 1.118@romeo_entrance at 398096.39m)\nnumber of shots: 633\nnumber of stations: 634"
+xth_cp_data_tree_insert 9 1 1 romeo_entrance romeo_entrance "" "" "length: 944.19m (surface 0.00m, duplicated 0.00m)\nvertical range: 63.69m (from 1.0@romeo_entrance at 462.00m to 1.121@romeo_entrance at 398.31m)\nnorth-south range: 491.44m (from 1.98@romeo_entrance at 1992392.42m to 1.8@romeo_entrance at 1991900.98m)\neast-west range: 164.54m (from 1.79@romeo_entrance at 398260.93m to 1.118@romeo_entrance at 398096.39m)\nnumber of shots: 633\nnumber of stations: 634"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 279X1 p1 1 romeo_entranceM romeo_entranceM@romeo_entrance "" ""
+xth_cp_map_tree_insert map 1 280X1 p2 1 romeo_entranceME romeo_entranceME@romeo_entrance "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 944 5
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1438196519
+

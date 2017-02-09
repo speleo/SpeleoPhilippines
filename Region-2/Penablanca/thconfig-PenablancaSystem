@@ -1,20 +1,24 @@
 encoding  utf-8
 source Penablanca.th
 
-export map -proj plan -layout local -o .\_output\penablanca.pdf
-export map -fmt kml -proj plan -layout local -o .\_output\Penablanca_map.kml
-export model -fmt kml -o .\_output\penablanca.kml
+### choose which exports to use
 
-#Survex file showing centre line only
-export model -fmt survex -o .\_output\penablanca-survex.3d
+  export map -proj plan -layout local -o .\_output\penablanca.pdf
+  #export map -fmt kml -proj plan -layout local -o .\_output\Penablanca_map.kml
+  #export model -fmt kml -o .\_output\penablanca.kml
 
-  text en "point u:bat" "bat"
-  text en "line u:bat" "bat path"
-  text en "area u:bat" "lot of bats"
+  #Survex file showing centre line only
+  export model -fmt survex -o .\_output\penablanca-survex.3d
 
+#inject standard code for layouts
+  input ..\..\CodeLibrary\_translations.txt  # custom translations
+  input ..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\CodeLibrary\_layouts.thc       # custom layouts 
 
 layout local
-  scale 1 800
+  #scale 1 800
+  scale 1 3200
   base-scale 1 400
   scale-bar 200 m
   symbol-hide group cave-centreline
@@ -71,22 +75,6 @@ layout local
 
   code metapost
     
-    input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
-    input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_scalebar_large_format"
-    input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_legend_large_format"
-    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_bats"    
-    
-    # code to change the colour of the water
-    def a_water (expr p) =
-        T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
-    enddef;
-    
-    # change centre line to continuous
-    def l_survey_cave (expr p) =
-        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
-    enddef;
-      
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     #origional fonts_setup(6,8,10,14,20);

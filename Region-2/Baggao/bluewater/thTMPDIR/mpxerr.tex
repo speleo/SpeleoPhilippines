@@ -1,0 +1,17 @@
+\def\updown#1#2{\vbox{\offinterlineskip\setbox100=\hbox{#1}\setbox101=\hbox{#2}\ifnum\wd100>\wd101\hsize=\wd100\else\hsize=\wd101\fi\centerline{\box100}\vskip4pt\centerline{\box101}}}\def\thlabel{\thnormalsize}\def\thremark{\thsmallsize\si}\def\thcomment{\thsmallsize}\def\thentrance{\thsmallsize}\def\thaltitude{\thsmallsize}\def\thstationname{\thsmallsize}\def\thdate{\thsmallsize}\def\thheight{\thsmallsize}\def\thheightpos{+\ignorespaces}\def\thheightneg{-\ignorespaces}\def\thframed{\thsmallsize}\def\thwallaltitude{\thtinysize}
+\def\thtinysize{\size[6]}\def\thsmallsize{\size[8]}\def\thnormalsize{\size[30]}\def\thlargesize{\size[54]}\def\thhugesize{\size[80]}
+\input th_enc.tex%
+\gdef\mpxshipout{\shipout\hbox\bgroup
+  \setbox0=\hbox\bgroup}
+\gdef\stopmpxshipout{\egroup  \dimen0=\ht0 \advance\dimen0\dp0
+  \dimen1=\ht0 \dimen2=\dp0
+  \setbox0=\hbox\bgroup
+    \box0
+    \ifnum\dimen0>0 \vrule width1sp height\dimen1 depth\dimen2 
+    \else \vrule width1sp height1sp depth0sp\relax
+    \fi\egroup
+  \ht0=0pt \dp0=0pt \box0 \egroup}
+\mpxshipout% line 2 ./mptextmp.mp
+\mainfont Original Scale = 1 : 500%
+\stopmpxshipout
+\end{document}

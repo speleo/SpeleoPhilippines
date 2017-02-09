@@ -222,6 +222,26 @@ point 7082.17692913 32375.5641732 station -name 1.25
 
 point 7985.48692913 30539.7641732 station -name 1.24
 
+line label -text Downstream -scale l
+  6524.0 38556.0
+  6524.0 38556.0 6732.0 37196.0 6748.0 37036.0
+  6764.0 36876.0 7016.0 35584.0 7040.0 35532.0
+  7064.0 35480.0 7643.24 33567.58 7732.0 33424.0
+  7868.0 33204.0 8964.0 32136.0 9016.0 31940.0
+  9068.0 31744.0 9412.0 30548.0 9452.0 30396.0
+  smooth off
+endline
+
+line label -text Downstream -scale l
+  11412.0 27000.0
+  11412.0 27000.0 11772.0 25892.0 11800.0 25468.0
+  11822.67 25124.73 11776.0 24792.0 11724.0 24456.0
+  11662.42 24058.08 10936.0 21004.0 10956.0 19980.0
+  smooth off
+endline
+
+point 9796.0 29440.0 label -text Dafung<br>Entrance -scale xl -align right
+
 point 8594.56692913 28856.6141732 station -name 1.0
 
 point 9158.30692913 27926.0041732 station -name 1.1
@@ -519,11 +539,11 @@ point 8472.0 30208.0 gradient -orientation 330.5
 
 point 8020.0 30028.0 gradient -orientation 340.7
 
-point 7972.0 28540.0 entrance -orientation 53.8
+point 7792.0 28732.0 gradient -orientation 65.4 -scale xl
 
-point 7816.0 28732.0 entrance -orientation 71.3
+point 7904.0 28464.0 gradient -orientation 46.8 -scale l
 
-point 7728.0 29000.0 entrance -orientation 71.3
+point 7728.0 29000.0 gradient -orientation 73.4
 
 area sand
   l149-2904-4648
@@ -710,9 +730,9 @@ line border -id l137-4600-37608 -subtype invisible
   8024.0 29480.0
 endline
 
-point 4328.0 37744.0 label -text "c2" -scale xs
+point 4328.0 37744.0 label -text "climb 2m" -align left -scale m
 
-point 2448.0 4468.0 label -text "c1" -scale xs
+point 2448.0 4468.0 label -text "climb 1m" -scale xs -align bottom-right
 
 point 3072.0 5084.0 label -text "p8" -scale xs
 

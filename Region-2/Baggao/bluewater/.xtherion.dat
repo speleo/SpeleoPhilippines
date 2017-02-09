@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 2056.37m (surface 0.00m, duplicated 0.00m)\nvertical range: 60.81m (from 15.57@bluewater at 262.75m to 11.22@bluewater at 201.93m)\nnorth-south range: 353.12m (from 15.38@bluewater at 1993146.19m to 11.23@bluewater at 1992793.07m)\neast-west range: 810.63m (from 15.57@bluewater at 394773.23m to 0.1@bluewater at 393962.61m)\nnumber of shots: 2613\nnumber of stations: 2614"
+xth_cp_data_tree_insert 10 1 1 bluewater bluewater "" "" "length: 2056.37m (surface 0.00m, duplicated 0.00m)\nvertical range: 60.81m (from 15.57@bluewater at 262.75m to 11.22@bluewater at 201.93m)\nnorth-south range: 353.12m (from 15.38@bluewater at 1993146.19m to 11.23@bluewater at 1992793.07m)\neast-west range: 810.63m (from 15.57@bluewater at 394773.23m to 0.1@bluewater at 393962.61m)\nnumber of shots: 2613\nnumber of stations: 2614"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 1176X1 p1 1 bluewaterM bluewaterM@bluewater "" ""
+xth_cp_map_tree_insert map 1 1177X1 p2 1 bluewaterME bluewaterME@bluewater "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 2056 21
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1486678574
+

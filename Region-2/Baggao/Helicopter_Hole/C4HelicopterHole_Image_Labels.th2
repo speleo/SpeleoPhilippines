@@ -1,0 +1,14 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 17296.0 14058.000000000002 192670.1102361872 157069.9055117839
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
+
+
+
+scrap Helicopter_Image_labels -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 93784.0 46896.0 label -text [Hel;icopter Hole seen from Beauty by Hellie Adams]
+
+endscrap
+
+

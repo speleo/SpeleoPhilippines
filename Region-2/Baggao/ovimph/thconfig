@@ -1,0 +1,173 @@
+encoding  utf-8
+source ovimph.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout henry -o ovimph.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o ovimphEe.pdf
+
+export model -fmt kml -o ovimph.kml
+
+export model -fmt survex -o ovimphth.3d
+#Survex file showing centre line only
+
+#export model -o ovimph.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o ovimph_Walls.3d
+#Survex file showing walls only
+
+layout local
+  colour map-fg [80 80 80]
+  colour map-bg [70 90 70]
+  
+  #statistics topo-length on
+  #statistics explo-length on
+  statistics topo all
+  debug off
+  map-header 0 0 ne
+
+  symbol-set BCRA
+  symbol-hide group cave-centreline
+  legend on
+
+  code metapost
+    def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+  
+  endcode
+endlayout
+
+layout henry
+  colour map-fg [80 80 80]
+  #colour map-bg [70 90 70]
+  
+  #statistics topo-length on
+  statistics explo-length on
+  statistics topo all
+  debug off
+  map-header 0 0 ne
+
+  symbol-set BCRA
+  symbol-hide group cave-centreline
+  legend on
+  
+  doc-author   "Henry Bennett"
+  doc-keywords "Ovimph Cave Baggao Philippines"
+  doc-subject  "Survey of Ovimph Cave 2014"
+  doc-title    "Ovimph Cave Survey Bristol Exploration Club 2014"
+
+
+  code metapost
+    
+    #input "C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6/code/_grid_x_hair_to_continuos_line"
+    #input "C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6//code/_scalebar_large_format"
+    #input "C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6//code/_legend_large_format"
+
+    def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    fonts_setup(6,15,30,54,80);
+    
+    def s_scalebar (expr l, units, txt) =
+    begingroup
+      interim warningcheck:=0;
+      tmpl:=l / Scale * cm * units / 2;
+      tmpx:=l / Scale * cm * units / 5;
+      tmph:=5bp; % bar height
+    endgroup;
+    pickup PenC;
+    draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+    p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+    for i:=-2.5 step 2 until 2:
+      fill p shifted (i * tmpx,0);
+    endfor;
+    begingroup
+      interim labeloffset:=3.5bp;
+      for i:=0 step (l/5) until (l-1):
+        tmpx:=tmpl * (i * 2 / l - 1);
+        label.top(thTEX(decimal (i)),(tmpx,0));
+      endfor;
+      label.top(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,0));
+      label.bot(thTEX("Scale = 1 : " & decimal round(Scale*100)),(0,-tmph));
+    endgroup;
+  enddef;
+  
+  endcode
+  
+  
+  code tex-map
+  \copyrights={Copyleft Creative Commons ShareAlike}
+  \cavename={Ovimph}
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+  \def\maplayout{
+    \legendbox{55}{45}{NW}{
+      \legendwidth 35 cm
+      \the\legendcontent
+      }
+    \legendbox{90}{65}{NW}{
+      \legendwidth 25 cm
+      \legendtextsize={\size[42]}
+      \hsize=\legendwidth
+      \input th_legend
+      }
+  #  \legendbox{0} {100} {S}  {\loadpicture{C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+  #\legendbox{40} {5} {nw} {\loadpicture{C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6/images/Logo_BEC_1250.png}}  #\legendbox{55} {5} {nw} {\loadpicture{C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6/images/Logo_BC_1250.png}}
+  #\legendbox{65} {5} {nw} {\loadpicture{C:/Users/Henry/Documents/2014/Philippines/surveying/Registry Repository/Project/bluewater-v6/images/Logo_SMOC_1250.png}}
+  
+    
+  }  
+
+
+   #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
+    \legendcontent={%
+      \hsize=\legendwidth
+      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+         {\size[100]\the\cavename} \vskip1cm
+      \fi
+      \ifscalebar\scalebar\vskip1cm\fi
+      {\rightskip=0pt plus 3em\parskip=3bp
+        \edef\tmp{\the\comment} \ifx\tmp\empty \else
+           {\size[44]\the\comment} \par\medskip
+         \fi
+      \everypar{\hangindent=2em\hangafter=1}
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\size[44]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\size[44]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\size[44]\si\the\explotitle:
+        \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+        {\size[44]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+      \fi
+      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+        {\size[44]\si\the\cartotitle:
+        \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\size[44]\ss\the\copyrights\par}
+      \fi
+     }
+  }
+  
+  endcode #end of TeX code
+
+
+endlayout

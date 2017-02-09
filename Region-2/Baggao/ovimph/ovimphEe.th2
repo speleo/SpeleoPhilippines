@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2016.37 -238.41 12098.19 1430.48
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1033.2538899 1 1.0} {304.711713561 1.0} PocketTopo/ovimph_e.xvi 0 {}
+
+
+scrap ovimphSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

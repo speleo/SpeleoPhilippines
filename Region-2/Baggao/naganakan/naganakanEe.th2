@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -3693.0 -211.61 22157.98 1269.64
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1847.71948551 1 1.0} {392.515177813 1.0} PocketTopo/naganakan_e.xvi 0 {}
+
+
+scrap naganakanSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,70 @@
+encoding  utf-8
+source C4HelicopterHole.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o .\output\C4HelicopterHole.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o .\output\C4HelicopterHoleEe.pdf
+
+export model -fmt survex -o .\output\C4HelicopterHoleth.3d
+#Survex file showing centre line only
+
+#export model -o C4HelicopterHole.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o C4HelicopterHole_Walls.3d
+#Survex file showing walls only
+
+layout local
+  scale 1 1500
+  base-scale 1 500
+  scale-bar 100 m
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
+  
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    
+       
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    # change centre line to continuous
+    def l_survey_cave (expr p) =
+        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    enddef;
+    
+    # Re-define North arrow to make it bigger
+    def s_northarrow (expr rot) =
+         T:=identity scaled 0.7 rotated -rot;
+	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
+	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
+    enddef;
+    
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    fonts_setup(6,8,30,54,80);
+  
+  endcode
+
+endlayout

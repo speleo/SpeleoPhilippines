@@ -1,0 +1,39 @@
+#REDFINE LEGEND & OTHER OUTPUT ELEMENT TEXT
+#==========================================
+#The text statements below can only be read in a th-config file OUTSIDE of a layout block.
+# As this file is called up by an 'input' statement in our standard th-config files placing
+# it here allows us to always have it without putting it in EVERY thconfig file
+
+#custom entities
+text en "line u:rope"            "rope" #text to appear in legend 
+
+#redefined built-in phrases
+text en "line arrow"             ""   #no point in labelling these
+text en "point no-equipment"     "no equipment"
+text en "point raft"             "calcite raft"
+text en "point water"            "water, small pool"
+text en "point water-flow:paleo" "paleo water flow (scallops)"
+text en "point paleo-material"   "paleo material, bones"
+text en "point archeo-material"  "archaeological material"
+text en "line ceiling-step"      "ceiling step"
+text en "point height"           "floor step/chimney/pit height/depth"
+text en "point height:unsigned"  "floor step height"
+text en "point passage-height:both" "height above, depth below water"
+text en "point narrow-end"       "passage end, narrow"
+text en "point low-end"          "passage end, low"
+text en "point clay-choke"       "clay/mud choke"
+text en "point blocks"           "blocks, breakdown"
+text en "line wall:blocks"       "blocks, breakdown"
+text en "area blocks"            "blocks, breakdown"
+text en "point sand"             "sand, silt"
+text en "line wall:sand"         "sand, silt"
+text en "area sand"              "sand, silt"
+text en "point clay"             "clay, mud"
+text en "line wall:clay"         "clay, mud"
+text en "area clay"              "clay, mud"
+#text en "area flowstone"         "flowstone"
+#text en "area moonmilk"          "moonmilk"
+text en "point gradient"         "gradient/slope"
+text en "line gradient"          "gradient/slope"
+text en "point station:fixed"    "fixed survey station, cairn"
+text en "wall"    		 "dogfish"

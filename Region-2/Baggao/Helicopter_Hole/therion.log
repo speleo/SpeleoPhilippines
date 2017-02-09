@@ -1,0 +1,174 @@
+therion 5.3.16
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+C:\Program Files (x86)\Therion\therion.exe: warning -- unable to determine magnetic declination for undated surveys
+output coordinate system: UTM51
+meridian convergence (deg): 0.3056
+geomag declinations (deg):
+  2005.1.1  -2.0233
+  2006.1.1  -2.0693
+  2007.1.1  -2.1155
+  2008.1.1  -2.1616
+  2009.1.1  -2.2078
+  2010.1.1  -2.2540
+  2011.1.1  -2.3343
+  2012.1.1  -2.4147
+  2013.1.1  -2.4950
+  2014.1.1  -2.5754
+  2015.1.1  -2.6558
+  2016.1.1  -2.7451
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.12
+ 2> Copyright ¸ 1990-2014 Olly Betts
+ 3> 
+ 4> Survey contains 1677 survey stations, joined by 1676 shots.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey shots = 28677.65m (28677.65m adjusted)
+ 8> Total plan length of survey shots = 25495.33m
+ 9> Total vertical length of survey shots = 7527.54m
+10> Vertical range = 161.02m (from 1552 at 410.23m to 919 at 249.20m)
+11> North-South range = 813.73m (from 762 at 1993235.48m to 1489 at 1992421.75m)
+12> East-West range = 1926.29m (from 1659 at 396757.79m to 921 at 394831.49m)
+13> 1479 1-nodes.
+14>   10 2-nodes.
+15>    2 3-nodes.
+16>    5 4-nodes.
+17>    8 5-nodes.
+18>   19 6-nodes.
+19>   24 7-nodes.
+20>   29 8-nodes.
+21>   20 9-nodes.
+22>   21 10-nodes.
+23>   18 11-nodes.
+24>   12 12-nodes.
+25>    5 13-nodes.
+26>    6 14-nodes.
+27>    2 15-nodes.
+28>    4 16-nodes.
+29>    1 17-node.
+30>    3 18-nodes.
+31>    1 19-node.
+32>    2 20-nodes.
+33>    1 21-node.
+34>    1 25-node.
+35>    2 30-nodes.
+36>    2 31-nodes.
+37> 
+######################### transcription ########################
+ 4> 1677 : -@C4HelicopterHole -- 1676 : -@C4HelicopterHole
+ 5> 1 : 1.0@C4HelicopterHole
+ 6> 2 : -@C4HelicopterHole
+10> 1552 : -@C4HelicopterHole -- 919 : -@C4HelicopterHole
+11> 762 : 6.48@C4HelicopterHole -- 1489 : -@C4HelicopterHole
+12> 1659 : -@C4HelicopterHole -- 921 : -@C4HelicopterHole
+13> 1479 : -@C4HelicopterHole
+14> 10 : -@C4HelicopterHole
+15> 2 : -@C4HelicopterHole
+16> 5 : -@C4HelicopterHole
+17> 8 : -@C4HelicopterHole
+18> 19 : -@C4HelicopterHole
+19> 24 : -@C4HelicopterHole
+20> 29 : -@C4HelicopterHole
+21> 20 : -@C4HelicopterHole
+22> 21 : -@C4HelicopterHole
+23> 18 : -@C4HelicopterHole
+24> 12 : -@C4HelicopterHole
+25> 5 : -@C4HelicopterHole
+26> 6 : -@C4HelicopterHole
+27> 2 : -@C4HelicopterHole
+28> 4 : -@C4HelicopterHole
+29> 1 : 1.0@C4HelicopterHole
+30> 3 : -@C4HelicopterHole
+31> 1 : 1.0@C4HelicopterHole
+32> 2 : -@C4HelicopterHole
+33> 1 : 1.0@C4HelicopterHole
+34> 1 : 1.0@C4HelicopterHole
+35> 2 : -@C4HelicopterHole
+36> 2 : -@C4HelicopterHole
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.04%
+writing .\output\C4HelicopterHole.pdf ...
+processing projection none ... done
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  29 NOV 2015 19:52
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[Warning: scrap outline intersects itself in scrap Beast_Sec_3@C4HelicopterHole
+] [16] [17] [18] [19] [20] [21] [22]
+[Warning: scrap outline intersects itself in scrap Beast_Sec_1@C4HelicopterHole
+] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] (./mptextmp.mp) [33] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1305 strings out of 1638
+ 14287 string characters out of 26823
+ 403904 words of memory out of 1500000
+ 1376 symbolic tokens out of 16384
+ 11i,75n,16p,528b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 549 string compactions (moved 7004950 characters, 597940 strings)
+45 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  29 NOV 2015 19:52
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 90 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 287 strings out of 95617
+ 2931 string characters out of 1171098
+ 609883 words of memory out of 2018861
+ 1700 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 620372 bytes).
+PDF statistics:
+ 113 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing .\output\C4HelicopterHoleth.3d ... done
+writing xtherion file ... done
+compilation time: 12 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.05%    3.87%  Beauty_Above_Pitch_3_Sec_2@C4HelicopterHole
+   0.18%    0.97%  Beast_Sec_1@C4HelicopterHole
+   0.01%    0.25%  Beast_Sec_2@C4HelicopterHole
+   0.00%    0.18%  Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole
+   0.01%    0.15%  Beast_Sec_5@C4HelicopterHole
+   0.00%    0.14%  Beast_Sec_4@C4HelicopterHole
+   0.00%    0.07%  Beast_Sec_3@C4HelicopterHole
+################### end of scrap distortions ###################

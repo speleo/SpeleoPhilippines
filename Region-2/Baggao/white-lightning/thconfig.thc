@@ -1,0 +1,8 @@
+encoding  utf-8
+source whitelightning.th
+
+export model -fmt survex -o wl.3d
+export model -o wl.lox
+
+#select map@white_lightning
+export map -projection plan -o "./output/White Lightning.pdf"

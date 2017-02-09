@@ -1,0 +1,20 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 6131.86m (surface 0.00m, duplicated 0.00m)\nvertical range: 146.35m (from 17.1@C4HelicopterHole.BlueWater-Helicopter at 348.23m to 11.16@bluewater.BlueWater-Helicopter at 201.88m)\nnorth-south range: 764.84m (from 6.48@C4HelicopterHole.BlueWater-Helicopter at 1993219.48m to 1.111@C4HelicopterHole.BlueWater-Helicopter at 1992454.65m)\neast-west range: 2779.31m (from 1.132@C4HelicopterHole.BlueWater-Helicopter at 396741.92m to 0.1@bluewater.BlueWater-Helicopter at 393962.61m)\nnumber of shots: 4289\nnumber of stations: 4291"
+xth_cp_data_tree_insert 10 1 1 BlueWater-Helicopter BlueWater-Helicopter "" "" "length: 6131.86m (surface 0.00m, duplicated 0.00m)\nvertical range: 146.35m (from 17.1@C4HelicopterHole.BlueWater-Helicopter at 348.23m to 11.16@bluewater.BlueWater-Helicopter at 201.88m)\nnorth-south range: 764.84m (from 6.48@C4HelicopterHole.BlueWater-Helicopter at 1993219.48m to 1.111@C4HelicopterHole.BlueWater-Helicopter at 1992454.65m)\neast-west range: 2779.31m (from 1.132@C4HelicopterHole.BlueWater-Helicopter at 396741.92m to 0.1@bluewater.BlueWater-Helicopter at 393962.61m)\nnumber of shots: 4289\nnumber of stations: 4291"
+xth_cp_data_tree_insert 12 10 2 bluewater bluewater.BlueWater-Helicopter "" "" "length: 2056.37m (surface 0.00m, duplicated 0.00m)\nvertical range: 56.52m (from 15.57@bluewater.BlueWater-Helicopter at 258.39m to 11.16@bluewater.BlueWater-Helicopter at 201.88m)\nnorth-south range: 365.63m (from 15.38@bluewater.BlueWater-Helicopter at 1993158.70m to 11.23@bluewater.BlueWater-Helicopter at 1992793.07m)\neast-west range: 834.86m (from 15.57@bluewater.BlueWater-Helicopter at 394797.46m to 0.1@bluewater.BlueWater-Helicopter at 393962.61m)\nnumber of shots: 2613\nnumber of stations: 2614"
+xth_cp_data_tree_insert 1184 10 2 C4HelicopterHole C4HelicopterHole.BlueWater-Helicopter "" "" "length: 4075.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 89.84m (from 17.1@C4HelicopterHole.BlueWater-Helicopter at 348.23m to 6.66@C4HelicopterHole.BlueWater-Helicopter at 258.39m)\nnorth-south range: 764.84m (from 6.48@C4HelicopterHole.BlueWater-Helicopter at 1993219.48m to 1.111@C4HelicopterHole.BlueWater-Helicopter at 1992454.65m)\neast-west range: 1944.45m (from 1.132@C4HelicopterHole.BlueWater-Helicopter at 396741.92m to 6.66@C4HelicopterHole.BlueWater-Helicopter at 394797.46m)\nnumber of shots: 1676\nnumber of stations: 1677"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 1 1178X1 p1 1 bluewaterM bluewaterM@bluewater.BlueWater-Helicopter "" ""
+xth_cp_map_tree_insert map 1 1179X1 p2 1 bluewaterME bluewaterME@bluewater.BlueWater-Helicopter "" ""
+xth_cp_map_tree_insert map 1 2570X1 p2 1 C4HelicopterHoleME C4HelicopterHoleME@C4HelicopterHole.BlueWater-Helicopter "" ""
+xth_cp_map_tree_insert map 0 2578X1 p1 1 map-test map-test@BlueWater-Helicopter "" ""
+xth_cp_map_tree_insert map 1 2569X1 2578X1 2 C4HelicopterHoleM C4HelicopterHoleM@C4HelicopterHole.BlueWater-Helicopter "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 6132 32
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1486679078
+

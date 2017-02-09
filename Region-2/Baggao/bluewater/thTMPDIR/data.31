@@ -1,0 +1,19 @@
+%!PS
+%%BoundingBox: 27 36 30 40 
+%%HiResBoundingBox: 27.1387 36.54678 29.95036 39.66959 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2014.08.12:0807
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.00002 0.00018 0.00008 setrgbcolor
+newpath 29.31 39.62 moveto
+29.31 39.62 29.78 39.89 29.92 39.17 curveto
+30.07 38.45 29.65 37.6 28.97 37.11 curveto
+28.29 36.61 27.4 36.29 27.25 36.82 curveto
+27.1 37.36 27.02 38.8 27.56 39.15 curveto
+28.25 39.6 29.31 39.62 29.31 39.62 curveto
+ closepath fill
+showpage
+%%EOF

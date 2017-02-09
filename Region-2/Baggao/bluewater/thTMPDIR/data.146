@@ -1,0 +1,55 @@
+%!PS
+%%BoundingBox: -1 -1 101 101 
+%%HiResBoundingBox: -0.35 -0.35 100.35 100.35 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2014.07.31:1514
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+gsave newpath 0 0 moveto
+100 0 lineto
+100 100 lineto
+0 100 lineto
+ closepath clip
+ 0.8 0.8 0.8 setrgbcolor
+newpath 0 0 moveto
+113.3314 0 226.66798 0 339.99939 0 curveto
+339.99939 113.3314 339.99939 226.66798 339.99939 339.99939 curveto
+226.66798 339.99939 113.3314 339.99939 0 339.99939 curveto
+0 226.66798 0 113.3314 0 0 curveto closepath fill
+ 0 0 0 setrgbcolor 0 1.7 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 46.58002 22.78851 moveto
+53.3799 32.9886 lineto
+60.17978 22.78851 lineto stroke
+ 0.8 0.8 0.8 setrgbcolor
+newpath 58.47993 38.08838 moveto
+58.47993 39.44104 57.94252 40.73819 56.98611 41.6946 curveto
+56.02971 42.651 54.73256 43.18842 53.3799 43.18842 curveto
+52.02724 43.18842 50.73009 42.651 49.77368 41.6946 curveto
+48.81728 40.73819 48.27985 39.44104 48.27985 38.08838 curveto
+48.27985 36.73572 48.81728 35.43857 49.77368 34.48216 curveto
+50.73009 33.52576 52.02724 32.98834 53.3799 32.98834 curveto
+54.73256 32.98834 56.02971 33.52576 56.98611 34.48216 curveto
+57.94252 35.43857 58.47993 36.73572 58.47993 38.08838 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 58.47993 38.08838 moveto
+58.47993 39.44104 57.94252 40.73819 56.98611 41.6946 curveto
+56.02971 42.651 54.73256 43.18842 53.3799 43.18842 curveto
+52.02724 43.18842 50.73009 42.651 49.77368 41.6946 curveto
+48.81728 40.73819 48.27985 39.44104 48.27985 38.08838 curveto
+48.27985 36.73572 48.81728 35.43857 49.77368 34.48216 curveto
+50.73009 33.52576 52.02724 32.98834 53.3799 32.98834 curveto
+54.73256 32.98834 56.02971 33.52576 56.98611 34.48216 curveto
+57.94252 35.43857 58.47993 36.73572 58.47993 38.08838 curveto closepath stroke
+grestore
+ 0 0 0 setrgbcolor 0 0.7 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+100 0 lineto
+100 100 lineto
+0 100 lineto
+ closepath stroke
+showpage
+%%EOF

@@ -1,19 +1,48 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 17306.0 19528.9996145675
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {17168.488189 1 1.0} {13759.2673311 1.4} PocketTopo/dafung-down-west_p.xvi 0 {}
 
 
 
 scrap dafung-down-westSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 9370.0 6716.0 label -text "Disney Castle" -scale xs
+line label -text [Lily's Sanctury]
+  4768.0 2488.0
+  4828.0 2456.0 5008.0 2432.0 5192.0 2400.0
+  5376.0 2368.0 5744.0 2320.0 5864.0 2288.0
+  5929.81 2270.45 6244.0 2144.0 6308.0 2104.0
+  6372.0 2064.0 6568.0 1860.0 6584.0 1832.0
+  6600.0 1804.0 6904.0 1312.0 6904.0 1312.0
+  smooth off
+endline
 
-point 4084.0 7652.0 label -text "Glittercliff" -scale m
+line label -text [Glittercliff]
+  2204.0 6020.0
+  2204.0 6020.0 3184.0 6648.0 3312.0 6724.0
+  3440.0 6800.0 3952.0 7016.0 4004.0 7064.0
+  4056.0 7112.0 4472.0 7464.0 4548.0 7456.0
+  4624.0 7448.0 4908.0 7424.0 4936.0 7420.0
+endline
 
-point 14236.0 14786.0 label -text "Forest of the Night" -scale m
+point 9370.0 6716.0 label -text "Disney Castle" -scale s
 
-point 13452.0 16326.0 label -text "More Dafung in the Philippines" -scale xl
+line label -text [Forest of the Night]
+  11940.0 13140.0
+  11940.0 13140.0 12776.0 13582.0 12814.0 13610.0
+  12852.0 13638.0 13920.0 14092.0 13956.0 14112.0
+  13992.0 14132.0 14748.0 14498.0 14784.0 14504.0
+  14820.0 14510.0 15204.0 14598.0 15244.0 14598.0
+endline
+
+line label -text [do not enter]
+  11370.0 12494.0
+  11370.0 12494.0 11584.0 12636.0 11612.0 12658.0
+  11674.42 12707.04 11844.0 12842.0 11844.0 12842.0
+  smooth off
+endline
+
+point 13452.0 16326.0 label -text "More Dafung<br>in the<br>Philippines" -align center -scale l
 
 line wall -reverse on
   13714.0 12424.0
@@ -1425,8 +1454,6 @@ line wall -reverse on -subtype flowstone
 endline
 
 point 7138.0 3948.0 label -text "Lilypads" -scale xs
-
-point 4950.0 2394.0 label -text "Lily's Sanctuary" -scale m
 
 line wall -reverse on
   5646.0 3474.0

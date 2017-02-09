@@ -1,0 +1,16 @@
+% Written by metapost version 1.209
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("Original",_n0,1.00000,0.0000,0.0000,);
+_s("Scale",_n0,1.00000,36.1146,0.0000,);
+_s("=",_n0,1.00000,60.9936,0.0000,);
+_s("1",_n0,1.00000,72.0632,0.0000,);
+_s(":",_n0,1.00000,80.3654,0.0000,);
+_s("600",_n0,1.00000,87.5606,0.0000,);
+setbounds _p to (0,-1.9372)--(102.5046,-1.9372)--
+ (102.5046,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak

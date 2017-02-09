@@ -1,0 +1,61 @@
+%!PS
+%%BoundingBox: -620 -180 678 362 
+%%HiResBoundingBox: -619.6458 -179.89775 677.93564 361.10619 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2014.08.12:0807
+%%Pages: 1
+%*Font: cmss10 7.97015 9.96265 2b:87c400a0400803727dcc
+%*Font: cmss10 29.88794 9.96265 2e:95000040200015f74fc
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+-619.6458 -103.15741 moveto
+(Climb) cmss10 7.97015 fshow
+-597.6394 -103.15741 moveto
+(do) cmss10 7.97015 fshow
+-589.7578 -103.15741 moveto
+(wn) cmss10 7.97015 fshow
+-577.5369 -103.15741 moveto
+(3m) cmss10 7.97015 fshow
+-562.68 -179.89775 moveto
+(Pitch) cmss10 29.88794 fshow
+-486.96379 -179.89775 moveto
+(13m) cmss10 29.88794 fshow
+-241.32271 340.3507 moveto
+(Gour) cmss10 29.88794 fshow
+-170.8368 340.3507 moveto
+(w) cmss10 29.88794 fshow
+-151.2436 340.3507 moveto
+(all) cmss10 29.88794 fshow
+-241.32271 304.48529 moveto
+(3.5m) cmss10 29.88794 fshow
+-169.42542 304.48529 moveto
+(high) cmss10 29.88794 fshow
+-156.06674 124.30495 moveto
+(static) cmss10 29.88794 fshow
+-78.27495 124.30495 moveto
+(shallo) cmss10 29.88794 fshow
+-8.61934 124.30495 moveto
+(w) cmss10 29.88794 fshow
+-156.06674 88.43954 moveto
+(lak) cmss10 29.88794 fshow
+-120.78224 88.43954 moveto
+(e) cmss10 29.88794 fshow
+613.34435 258.63765 moveto
+(high) cmss10 29.88794 fshow
+613.34435 222.77225 moveto
+(level) cmss10 29.88794 fshow
+613.34435 186.90685 moveto
+(fossil) cmss10 29.88794 fshow
+229.47496 135.21754 moveto
+(40) cmss10 7.97015 fshow
+ 0 0.35 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath 228.67496 138.57095 moveto
+228.67496 144.95102 238.24506 144.95102 238.24506 138.57095 curveto
+238.24506 134.41754 lineto
+228.67496 134.41754 lineto
+ closepath stroke
+showpage
+%%EOF

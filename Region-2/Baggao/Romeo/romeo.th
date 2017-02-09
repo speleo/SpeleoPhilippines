@@ -1,0 +1,29 @@
+encoding  utf-8
+survey romeo -title "Romeo System"
+
+
+
+  input Romeo_entrance.th
+  input Romeo_1_12.th
+  input Romeo_21_1.th
+  input romeo_cathedral.th
+  input lumio.th
+
+  join romeoSP1@romeo_entrance Romeo_1.12SP1@Romeo_1_12
+  join lumioSP1@lumio romeoSP1@romeo_entrance
+  join romeo_cathedralSP1@romeo_cathedral romeoSP3@romeo_entrance
+
+  centreline
+    title "Romeo System"
+    equate 1.12@Romeo_1_12   1.12@romeo_entrance
+    
+    equate 2.1@lumio       lumio@romeo_entrance
+    #equate 2.1@lumio       1.54@romeo_entrance
+    
+    equate 1.0@romeo_cathedral       1.121@romeo_entrance
+    equate 1.0@Romeo_21_1 1.51@romeo_entrance
+    
+    endcentreline
+
+endsurvey
+

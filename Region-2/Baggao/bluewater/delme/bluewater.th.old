@@ -1,0 +1,48 @@
+encoding  utf-8
+survey bluewater
+  input bluewater-data.th
+  input bluewater-entrance_detail.th2
+  input bluewater-entrance-olympic-pool.th2
+  input bluewater-olympic-pool.th2
+  input bluewater-above-olympic-pool.th2
+  input bluewater-fossil.th2
+  input bluewater-above-climb-1-S1.th2
+  input bluewater-above-climb-1-S2.th2
+  input bluewaterEe.th2
+
+
+# Map_m500 - This is the main detailed 1:500 scale map, all in one page.  
+# ========
+# Good for zooming within pdf on computer or A1 printing
+
+map bluewaterM
+  bluewater-entrance-overlay-passage #[0 2 m] above
+    break
+  bluewater-entrance_detail
+    break
+  bluewater-entrance-olympic-pool
+  bluewater-olympic-pool
+  bluewater-fossil
+    break
+  bluewater-above-olympic-pool
+  bluewater-above-climb-1-S1
+  bluewater-above-climb-1-S2
+  bluewater-above-climb-2 
+endmap
+
+map bluewaterME
+  bluewaterSE_0
+  bluewaterSE_1
+  bluewaterSE_2
+  #bluewaterSE_3
+  #bluewaterSE_4
+  #bluewaterSE_11
+  #bluewaterSE_12
+  #bluewaterSE_14
+  #bluewaterSE_15A
+  #bluewaterSE_15B
+  #bluewaterSE_walls
+endmap
+
+endsurvey
+

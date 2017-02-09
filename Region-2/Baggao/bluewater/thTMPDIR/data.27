@@ -1,0 +1,67 @@
+%!PS
+%%BoundingBox: -394 -140 404 132 
+%%HiResBoundingBox: -393.86954 -139.2913 403.14677 131.42409 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2014.08.12:0807
+%%Pages: 1
+%*Font: cmss10 29.88809 9.96265 34:80014001000744ebc
+%*Font: cmss10 40.58163 9.96265 4f:c0000826c02
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+gsave [0.70476 0.70946 -0.70946 0.70476 -379.1444 -68.97754 ] concat 0 0 moveto
+(E) cmss10 29.88809 fshow grestore
+gsave [0.77054 0.6374 -0.6374 0.77054 -344.16089 -35.99149 ] concat 0 0 moveto
+(n) cmss10 29.88809 fshow grestore
+gsave [0.81754 0.57587 -0.57587 0.81754 -313.27953 -11.73843 
+] concat 0 0 moveto
+(t) cmss10 29.88809 fshow grestore
+gsave [0.85431 0.51976 -0.51976 0.85431 -288.54626 4.90848 ] concat 0 0 moveto
+(r) cmss10 29.88809 fshow grestore
+gsave [0.89618 0.4437 -0.4437 0.89618 -260.45184 21.01389 ] concat 0 0 moveto
+(a) cmss10 29.88809 fshow grestore
+gsave [0.94292 0.33304 -0.33304 0.94292 -222.98367 37.8778 ] concat 0 0 moveto
+(n) cmss10 29.88809 fshow grestore
+gsave [0.97148 0.2371 -0.2371 0.97148 -183.4398 49.96948 ] concat 0 0 moveto
+(c) cmss10 29.88809 fshow grestore
+gsave [0.97787 0.20917 -0.20917 0.97787 -146.51363 58.62286 ] concat 0 0 moveto
+(e) cmss10 29.88809 fshow grestore
+gsave [0.9866 0.1632 -0.1632 0.9866 -78.23811 71.76248 ] concat 0 0 moveto
+(S) cmss10 29.88809 fshow grestore
+gsave [0.98584 0.16771 -0.16771 0.98584 -34.10374 78.95497 ] concat 0 0 moveto
+(e) cmss10 29.88809 fshow grestore
+gsave [0.97562 0.2195 -0.2195 0.97562 1.19469 85.44307 ] concat 0 0 moveto
+(r) cmss10 29.88809 fshow grestore
+gsave [0.95583 0.29391 -0.29391 0.95583 27.67558 92.07057 ] concat 0 0 moveto
+(i) cmss10 29.88809 fshow grestore
+gsave [0.9313 0.36424 -0.36424 0.9313 53.25662 100.95477 ] concat 0 0 moveto
+(e) cmss10 29.88809 fshow grestore
+gsave [0.91699 0.3989 -0.3989 0.91699 87.51514 114.67303 ] concat 0 0 moveto
+(s) cmss10 29.88809 fshow grestore
+gsave [0.74675 0.66512 -0.66512 0.74675 267.78366 -139.2913 ] concat 0 0 moveto
+(O) cmss10 40.58163 fshow grestore
+gsave [0.73714 0.67575 -0.67575 0.73714 290.16368 -119.28752 
+] concat 0 0 moveto
+(l) cmss10 40.58163 fshow grestore
+gsave [0.72687 0.68677 -0.68677 0.72687 297.44756 -112.65846 
+] concat 0 0 moveto
+(y) cmss10 40.58163 fshow grestore
+gsave [0.70404 0.71016 -0.71016 0.70404 311.37613 -99.66414 ] concat 0 0 moveto
+(m) cmss10 40.58163 fshow grestore
+gsave [0.6727 0.73991 -0.73991 0.6727 334.308 -76.38069 ] concat 0 0 moveto
+(p) cmss10 40.58163 fshow grestore
+gsave [0.6496 0.76028 -0.76028 0.6496 348.56047 -60.57777 ] concat 0 0 moveto
+(i) cmss10 40.58163 fshow grestore
+gsave [0.62411 0.78133 -0.78133 0.62411 355.13077 -52.99538 ] concat 0 0 moveto
+(c) cmss10 40.58163 fshow grestore
+gsave [0.52502 0.85109 -0.85109 0.52502 375.24995 -27.07182 ] concat 0 0 moveto
+(P) cmss10 40.58163 fshow grestore
+gsave [0.40822 0.91289 -0.91289 0.40822 389.44641 -3.76175 ] concat 0 0 moveto
+(o) cmss10 40.58163 fshow grestore
+gsave [0.22807 0.97365 -0.97365 0.22807 398.51895 16.59335 ] concat 0 0 moveto
+(o) cmss10 40.58163 fshow grestore
+gsave [0.00955 0.99995 -0.99995 0.00955 402.94714 38.68492 ] concat 0 0 moveto
+(l) cmss10 40.58163 fshow grestore
+showpage
+%%EOF

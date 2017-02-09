@@ -1,0 +1,19 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 203.41m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.94m (from 1.1@mintys_hole.white_lightning at 11.94m to 1.9@white_lightning_data.white_lightning at -21.00m)\nnorth-south range: 25.20m (from 5.3@mintys_hole.white_lightning at 4.78m to 1.5@white_lightning_data.white_lightning at -20.42m)\neast-west range: 72.88m (from 5.6@mintys_hole.white_lightning at 24.87m to 1.10@white_lightning_data.white_lightning at -48.01m)\nnumber of shots: 214\nnumber of stations: 216"
+xth_cp_data_tree_insert 8 1 1 white_lightning white_lightning "White Lightning" "White Lightning" "length: 203.41m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.94m (from 1.1@mintys_hole.white_lightning at 11.94m to 1.9@white_lightning_data.white_lightning at -21.00m)\nnorth-south range: 25.20m (from 5.3@mintys_hole.white_lightning at 4.78m to 1.5@white_lightning_data.white_lightning at -20.42m)\neast-west range: 72.88m (from 5.6@mintys_hole.white_lightning at 24.87m to 1.10@white_lightning_data.white_lightning at -48.01m)\nnumber of shots: 214\nnumber of stations: 216"
+xth_cp_data_tree_insert 10 8 2 white_lightning_data white_lightning_data.white_lightning "" "" "length: 125.54m (surface 0.00m, duplicated 0.00m)\nvertical range: 31.88m (from 1.15@white_lightning_data.white_lightning at 10.88m to 1.9@white_lightning_data.white_lightning at -21.00m)\nnorth-south range: 22.12m (from 1.15@white_lightning_data.white_lightning at 1.70m to 1.5@white_lightning_data.white_lightning at -20.42m)\neast-west range: 57.86m (from 1.15@white_lightning_data.white_lightning at 9.85m to 1.10@white_lightning_data.white_lightning at -48.01m)\nnumber of shots: 110\nnumber of stations: 111"
+xth_cp_data_tree_insert 152 8 2 mintys_hole mintys_hole.white_lightning "" "" "length: 77.87m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.99m (from 1.1@mintys_hole.white_lightning at 11.94m to 1.5@mintys_hole.white_lightning at -12.05m)\nnorth-south range: 19.70m (from 5.3@mintys_hole.white_lightning at 4.78m to 1.5@mintys_hole.white_lightning at -14.92m)\neast-west range: 15.02m (from 5.6@mintys_hole.white_lightning at 24.87m to 1.0@mintys_hole.white_lightning at 9.85m)\nnumber of shots: 104\nnumber of stations: 105"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 149X1 p1 1 map map@white_lightning_data.white_lightning "" ""
+xth_cp_map_tree_insert map 1 147X1 149X1 2 wl-main wl-main@white_lightning_data.white_lightning "" ""
+xth_cp_map_tree_insert map 1 148X1 149X1 2 wl-offset wl-offset@white_lightning_data.white_lightning "" ""
+xth_cp_map_tree_insert map 1 178X1 p1 1 mintys_holeM mintys_holeM@mintys_hole.white_lightning "" ""
+xth_cp_map_tree_insert map 1 179X1 p2 1 mintys_holeME mintys_holeME@mintys_hole.white_lightning "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 203 6
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1437422742
+
