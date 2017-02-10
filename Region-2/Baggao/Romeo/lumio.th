@@ -17,6 +17,7 @@ centreline
   cs EPSG:32651
   # Data taken from Google Earth Estimate
   #fix 1.0 398117.82 1992098.76 453
+  station 1.0 "Lumio" entrance
 
 copyright 2015 "GNU GPL"
 

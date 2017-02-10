@@ -1,9 +1,0 @@
-
-layout plan
-code metapost
-    def a_water (expr p) =
-      T:=identity;
-      thfill p withcolor (0.2, 0.4, 0.8);
-    enddef;
-  endcode
-endlayout

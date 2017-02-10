@@ -7,4 +7,5 @@ export model -o .\output\WhiteLightning.lox
 select map@white_lightning
 export map -projection plan -o .\output\WhiteLightning.pdf
 
-export map -fmt kml -proj plan -layout local -o .\output\WhiteLightning.kml
+export map -fmt kml -proj plan -layout local -o .\output\WhiteLightning-map.kml
+export model -fmt kml -o .\output\WhiteLightning.kml

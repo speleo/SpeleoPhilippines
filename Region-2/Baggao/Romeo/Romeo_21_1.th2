@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 5268.0 5032.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -144.0 5280.0 5040.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1987.2715748 1 1.0} {4286.24220472 21.5} PocketTopo/Romeo_21_1_p.xvi 0 {}
 
 
@@ -72,7 +72,7 @@ line rock-border -close on
   smooth off
 endline
 
-line wall
+line wall -outline in
   3742.0 4127.0
   3750.0 4138.0 3768.0 4145.0 3779.0 4153.0
   3790.0 4161.0 3797.0 4196.0 3803.0 4156.0

@@ -2,7 +2,7 @@ encoding  utf-8
 survey BlueWaterSystem
   input bluewater/bluewater.th
   input Helicopter_Hole/C4HelicopterHole.th
-  input S1/S1.th
+  input Area51/Area51.th
   input Romeo/Romeo.th
   input WhiteLightning/WhiteLightning.th
   input Minichasma/Minichasma.th

@@ -1,28 +1,28 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  16 NOV 2015 21:15
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 FEB 2017 15:55
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 62 numeric registers used out of 32768
-
-[1] ) 
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex))
+(./th_pages.tex)
+ 134 numeric registers used out of 32768
+ [1] ) 
 Here is how much of TeX's memory you used:
- 262 strings out of 95617
- 2644 string characters out of 1171098
- 20321 words of memory out of 1506299
- 1672 multiletter control sequences out of 15000+50000
+ 338 strings out of 95617
+ 3325 string characters out of 1171098
+ 414226 words of memory out of 1833204
+ 1745 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 12i,5n,8p,1170b,76s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Fi
-les (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/
-texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
-/cmsy10.pfb>
-Output written on data.pdf (1 page, 35095 bytes).
+ 12i,5n,8p,1170b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
+/cmssi10.pfb>
+Output written on data.pdf (1 page, 494940 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 237 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 645 words of extra memory for PDF output out of 10000 (max. 10000000)
 

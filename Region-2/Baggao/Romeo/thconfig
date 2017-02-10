@@ -9,7 +9,9 @@ source romeo.th
 export map -proj plan -layout local -o ./output/Romeo.pdf
 #Produces plan of cave, on a single sheet
 
-export map -fmt kml -proj plan -layout local -o .\output\romeo_cave.kml
+export map -fmt kml -proj plan -layout local -o .\output\romeo_cave-map.kml
+export model -fmt kml  -o .\output\romeo_cave.kml
+
 
 #export map -proj extended -layout local -o romeo_caveEe.pdf
 
@@ -23,13 +25,13 @@ export map -fmt kml -proj plan -layout local -o .\output\romeo_cave.kml
 #Survex file showing walls only
 
 layout local
-  scale 1 300
-  base-scale 1 150
-  scale-bar 20 m
-  
+  #scale 1 300
+  #base-scale 1 150
+  #scale-bar 20 m
+  # debug on
   #Foreground color - turn on altitdude to see various heights
-  colour map-fg [80 80 80]
-  #color map-fg altitude
+  #colour map-fg [80 80 80]
+  color map-fg altitude
   #colour map-bg [70 90 70]
   
   language en

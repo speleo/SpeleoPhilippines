@@ -1,0 +1,36 @@
+%!PS
+%%BoundingBox: -190 -578 345 372 
+%%HiResBoundingBox: -189.01 -577.8635 344.44246 371.6175 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2017.02.10:1555
+%%Pages: 1
+%*Font: cmss10 53.79823 9.96265 43:90010002a26d7
+%*Font: cmss10 29.88794 9.96265 42:80022001372d708
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+-114.59915 -156.59953 moveto
+(F) cmss10 53.79823 fshow
+-85.45836 -156.59953 moveto
+(atcamp) cmss10 53.79823 fshow
+98.05405 -156.59953 moveto
+(F) cmss10 53.79823 fshow
+127.19485 -156.59953 moveto
+(ailure) cmss10 53.79823 fshow
+249.25755 358.334 moveto
+(squeeze) cmss10 29.88794 fshow
+-159.34 -435.742 moveto
+(Bedding) cmss10 29.88794 fshow
+-47.7581 -435.742 moveto
+(Plane) cmss10 29.88794 fshow
+-189.01 -572.052 moveto
+(T) cmss10 29.88794 fshow
+-171.1602 -572.052 moveto
+(o) cmss10 29.88794 fshow
+-155.386 -572.052 moveto
+(o) cmss10 29.88794 fshow
+-130.4793 -572.052 moveto
+(Tight) cmss10 29.88794 fshow
+showpage
+%%EOF

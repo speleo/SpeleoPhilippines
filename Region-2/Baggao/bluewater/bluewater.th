@@ -81,7 +81,7 @@ copyright 2014 "GNU GPL"
   instrument  instruments "BEC DistoX2"
 
   explo-date 2014.03.08
-  station 11.23 "main ent." entrance
+  station 11.23 "Blue Water" entrance
   cs EPSG:32651
   
   #fix the Entrance to a grid refence

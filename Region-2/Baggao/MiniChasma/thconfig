@@ -11,7 +11,9 @@ source Minichasma.th
 
 export map -proj extended -layout local -o MinichasmaEe.pdf
 
-export map -fmt kml -proj plan -layout local -o .\output\Minichasma.kml
+export map -fmt kml -proj plan -layout local -o .\output\Minichasma-map.kml
+export model -fmt kml -o .\output\Minichasma.kml
+
 
 #Survex file showing centre line only
 export model -fmt survex -o .\output\Minichasma.3d

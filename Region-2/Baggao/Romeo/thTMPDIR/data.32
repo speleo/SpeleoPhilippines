@@ -1,0 +1,32 @@
+%!PS
+%%BoundingBox: -647 -698 457 640 
+%%HiResBoundingBox: -646.34245 -697.13402 456.30304 639.53235 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2017.02.10:1555
+%%Pages: 1
+%*Font: cmss10 29.88794 9.96265 30:f500200088005dcbdc2
+%*Font: cmss10 79.70117 9.96265 43:8040000220283
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+172.39494 294.92915 moveto
+(p10) cmss10 29.88794 fshow
+337.51695 229.27914 moveto
+(p3) cmss10 29.88794 fshow
+425.91695 619.93915 moveto
+(p7) cmss10 29.88794 fshow
+-268.0438 -642.0266 moveto
+(c2) cmss10 29.88794 fshow
+-646.34245 -697.13402 moveto
+(Lumeo) cmss10 79.70117 fshow
+-396.83286 -697.13402 moveto
+(Cave) cmss10 79.70117 fshow
+347.98694 390.11914 moveto
+(p5) cmss10 29.88794 fshow
+-79.4138 -253.0366 moveto
+(c3) cmss10 29.88794 fshow
+-63.2238 -221.1766 moveto
+(c3) cmss10 29.88794 fshow
+showpage
+%%EOF

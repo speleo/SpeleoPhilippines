@@ -50,6 +50,7 @@ copyright 2015 "GNU GPL"
   cs EPSG:32651
   # not sure which is the correct station to pin
   fix 6.2 395440.34 1992943.49 294
+  station 6.2 "Helicopter Hole" entrance
 
 data normal from to tape compass clino ignoreall
 1.0  -  0.386  81.57  -32.05  

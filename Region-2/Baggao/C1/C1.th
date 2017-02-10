@@ -36,10 +36,12 @@ copyright 2015 "GNU GPL"
 #
 
   date 2015.04.01
-
+  cs EPSG:32651
+  fix 1.0 398080.00 1991399.00 449
+  
   team "Henry Dawson" notes
   team "Laura Benn" instruments
-
+  station 1.0 "C1" entrance
   instrument  instruments "UBSS DistoX1"
 
 data normal from to tape compass clino ignoreall

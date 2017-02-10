@@ -1,14 +1,14 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 190.07m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.90m (from 10.3@ovimph at 197.54m to 10.2@ovimph at 193.64m)\nnorth-south range: 59.39m (from 1.15@ovimph at 1993507.66m to 10.3@ovimph at 1993448.27m)\neast-west range: 47.58m (from 1.15@ovimph at 393698.49m to 10.1@ovimph at 393650.91m)\nnumber of shots: 294\nnumber of stations: 295"
-xth_cp_data_tree_insert 10 1 1 ovimph ovimph "" "" "length: 190.07m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.90m (from 10.3@ovimph at 197.54m to 10.2@ovimph at 193.64m)\nnorth-south range: 59.39m (from 1.15@ovimph at 1993507.66m to 10.3@ovimph at 1993448.27m)\neast-west range: 47.58m (from 1.15@ovimph at 393698.49m to 10.1@ovimph at 393650.91m)\nnumber of shots: 294\nnumber of stations: 295"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 190.07m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.90m (from 10.3@ovimph at 197.54m to 10.2@ovimph at 193.64m)\nnorth-south range: 59.49m (from 1.15@ovimph at 1993507.76m to 10.3@ovimph at 1993448.26m)\neast-west range: 47.47m (from 1.15@ovimph at 393698.42m to 10.1@ovimph at 393650.95m)\nnumber of shots: 294\nnumber of stations: 295"
+xth_cp_data_tree_insert 13 1 1 ovimph ovimph "" "" "length: 190.07m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.90m (from 10.3@ovimph at 197.54m to 10.2@ovimph at 193.64m)\nnorth-south range: 59.49m (from 1.15@ovimph at 1993507.76m to 10.3@ovimph at 1993448.26m)\neast-west range: 47.47m (from 1.15@ovimph at 393698.42m to 10.1@ovimph at 393650.95m)\nnumber of shots: 294\nnumber of stations: 295"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 86X1 p1 1 ovimphM ovimphM@ovimph "" ""
-xth_cp_map_tree_insert map 1 87X1 p2 1 ovimphME ovimphME@ovimph "" ""
+xth_cp_map_tree_insert map 1 89X1 p1 1 ovimphM ovimphM@ovimph "" ""
+xth_cp_map_tree_insert map 1 90X1 p2 1 ovimphME ovimphME@ovimph "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 190 2
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1411675336
+set xth(th_exit_number) 1486682423
 

@@ -1,0 +1,17 @@
+%!PS
+%%BoundingBox: 410 279 622 307 
+%%HiResBoundingBox: 410.98679 279.70651 621.03319 306.2735 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2017.02.10:1555
+%%Pages: 1
+%*Font: cmss10 29.88794 9.96265 43:c0004002cadde2
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+410.98679 285.518 moveto
+(Conspiracy) cmss10 29.88794 fshow
+556.10968 285.518 moveto
+(Duck) cmss10 29.88794 fshow
+showpage
+%%EOF

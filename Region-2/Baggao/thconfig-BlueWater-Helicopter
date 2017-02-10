@@ -35,8 +35,8 @@ source BlueWater-Helicopter.th
 
   
 export map -proj plan -layout 600 -o .\output\BlueWater-Helicopter.pdf
-#export map -fmt kml -proj plan -layout local -o .\output\BlueWater-Helicopter.kml
-#export model -fmt kml -o .\output\BlueWater-Helicopter.kml
+export map -fmt kml -proj plan -layout local -o .\output\BlueWater-Helicopter-map.kml
+export model -fmt kml -o .\output\BlueWater-Helicopter.kml
 
 #Survex file showing centre line only
 #export model -fmt survex -o .\output\bluewater-Helicopter-survex.3d

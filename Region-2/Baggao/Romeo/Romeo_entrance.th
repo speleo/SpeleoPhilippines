@@ -38,6 +38,7 @@ copyright 2015 "GNU GPL"
   cs EPSG:32651
   # Data taken from GPS reading
   fix 1.0 398152.22 1991937.44 462
+  station 1.0 "Romeo" entrance
 
 
 data normal from to tape compass clino ignoreall

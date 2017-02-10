@@ -1,16 +1,16 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 359.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 49.88m (from 1.0@C1 at 0.00m to 1.30@C1 at -49.88m)\nnorth-south range: 80.93m (from 2.4@C1 at 80.93m to 1.0@C1 at 0.00m)\neast-west range: 130.27m (from 1.0@C1 at 0.00m to 1.30@C1 at -130.27m)\nnumber of shots: 335\nnumber of stations: 336"
-xth_cp_data_tree_insert 10 1 1 C1 C1 "" "" "length: 359.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 49.88m (from 1.0@C1 at 0.00m to 1.30@C1 at -49.88m)\nnorth-south range: 80.93m (from 2.4@C1 at 80.93m to 1.0@C1 at 0.00m)\neast-west range: 130.27m (from 1.0@C1 at 0.00m to 1.30@C1 at -130.27m)\nnumber of shots: 335\nnumber of stations: 336"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 359.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 49.88m (from 1.0@C1 at 449.00m to 1.30@C1 at 399.12m)\nnorth-south range: 77.16m (from 2.4@C1 at 1991476.16m to 1.0@C1 at 1991399.00m)\neast-west range: 131.19m (from 1.0@C1 at 398080.00m to 1.30@C1 at 397948.81m)\nnumber of shots: 335\nnumber of stations: 336"
+xth_cp_data_tree_insert 13 1 1 C1 C1 "" "" "length: 359.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 49.88m (from 1.0@C1 at 449.00m to 1.30@C1 at 399.12m)\nnorth-south range: 77.16m (from 2.4@C1 at 1991476.16m to 1.0@C1 at 1991399.00m)\neast-west range: 131.19m (from 1.0@C1 at 398080.00m to 1.30@C1 at 397948.81m)\nnumber of shots: 335\nnumber of stations: 336"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 0 307X1 p1 1 map_print map_print@C1 "" ""
-xth_cp_map_tree_insert map 1 305X1 307X1 2 C1_Main C1_Main@C1 "" ""
-xth_cp_map_tree_insert map 1 306X1 307X1 2 C1_Lower C1_Lower@C1 "" ""
-xth_cp_map_tree_insert map 1 308X1 p2 1 C1ME C1ME@C1 "" ""
+xth_cp_map_tree_insert map 0 310X1 p1 1 map_print map_print@C1 "" ""
+xth_cp_map_tree_insert map 1 308X1 310X1 2 C1_Main C1_Main@C1 "" ""
+xth_cp_map_tree_insert map 1 309X1 310X1 2 C1_Lower C1_Lower@C1 "" ""
+xth_cp_map_tree_insert map 1 311X1 p2 1 C1ME C1ME@C1 "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 360 5
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1447838702
+set xth(th_exit_number) 1486713215
 

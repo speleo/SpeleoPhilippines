@@ -13,6 +13,9 @@ export map -proj plan -layout local -o ./output/C1.pdf
 select C1ME@C1
 #export map -proj exended -layout local -o ./output/C1Ee.pdf
 
+export map -fmt kml -proj plan -layout local -o .\output\C1-map.kml
+export model -fmt kml -o .\output\C1.kml
+
 export model -fmt survex -o ./output/C1th.3d
 #Survex file showing centre line only
 
@@ -73,9 +76,9 @@ layout local
 
   code metapost
     
-    input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_scalebar_large_format"
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_legend_large_format"
+    input code/_grid_x_hair_to_continuos_line
+    #input code/_scalebar_large_format
+    #input code/_legend_large_format
     
     def s_scalebar (expr l, units, txt) =
       begingroup
@@ -163,10 +166,10 @@ layout local
       \hsize=\legendwidth
       \input th_legend
       }
-  #  \legendbox{0} {100} {S}  {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
-  #\legendbox{40} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/Surveying/Philippines/Baggao/bluewater-v7/images/Logo_BEC_1250.png}}
-  # \legendbox{55} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/Logo_BC_1250.png}}
-  #\legendbox{65} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/Surveying/Philippines/Baggao/bluewater-v7/images/Logo_SMOC_1250.png}}
+  #  \legendbox{0} {100} {S}  {\loadpicture{images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+  #\legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+  # \legendbox{55} {5} {nw} {\loadpicture{images/Logo_BC_1250.png}}
+  #\legendbox{65} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
   
     
   }  

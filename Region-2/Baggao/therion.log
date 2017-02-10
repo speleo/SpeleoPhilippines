@@ -1,16 +1,17 @@
 therion 5.3.16 (beta Vladimir)
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-configuration file: thconfig-BlueWater-Helicopter
+configuration file: thconfig-BlueWater-System
 reading ... done
 reading source files ... done
 preprocessing database ... done
+C:\Program Files (x86)\Therion\therion.exe: warning -- unable to determine magnetic declination for undated surveys
 output coordinate system: UTM51
-meridian convergence (deg): 0.3078
+meridian convergence (deg): 0.3039
 geomag declinations (deg):
-  2014.1.1  -2.5748
-  2015.1.1  -2.6552
-  2016.1.1  -2.7445
+  2014.1.1  -2.5749
+  2015.1.1  -2.6553
+  2016.1.1  -2.7446
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
@@ -20,11 +21,11 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 1.17%
-writing .\output\BlueWater-Helicopter.pdf ...
+average distortion: 0.77%
+writing .\output\BlueWater-System.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 FEB 2017 22:24
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 FEB 2017 12:14
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -34,117 +35,171 @@ _continuos_line.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_large
 _format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_legend_large_f
-ormat_20U.mp) [1] [2] [3] [4]
+ormat.mp) [1] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap ovimphSP1@ovimph.BlueWaterSy
+stem] [6] [7] [8] [9] [10] [11]
 [Warning: scrap outline intersects itself in scrap bluewater-above-climb-1-S2@b
-luewater.BlueWater-Helicopter] [5] [6] [7] [8]
+luewater.BlueWaterSystem] [12] [13] [14] [15]
 [Warning: scrap outline intersects itself in scrap bluewater-above-climb-1-S1@b
-luewater.BlueWater-Helicopter] [9] [10] [11] [12]
+luewater.BlueWaterSystem] [16] [17] [18] [19]
 [Warning: scrap outline intersects itself in scrap bluewater-above-olympic-pool
-@bluewater.BlueWater-Helicopter] [13] [14]
+@bluewater.BlueWaterSystem] [20] [21]
 [Warning: text scaled down to fit the path in scrap bluewater-above-olympic-poo
-l@bluewater.BlueWater-Helicopter]
+l@bluewater.BlueWaterSystem]
 [Warning: text scaled down to fit the path in scrap bluewater-above-olympic-poo
-l@bluewater.BlueWater-Helicopter] [15] [16]
+l@bluewater.BlueWaterSystem] [22] [23]
 [Warning: scrap outline intersects itself in scrap bluewater-fossil@bluewater.B
-lueWater-Helicopter] [17] [18] [19] [20] [21] [22] [23] [24] [25]
+lueWaterSystem] [24] [25] [26] [27] [28] [29] [30] [31] [32]
 [Warning: text scaled down to fit the path in scrap bluewater-entrance-olympic-
-pool@bluewater.BlueWater-Helicopter] [26] [27]
+pool@bluewater.BlueWaterSystem] [33] [34]
 [Warning: scrap outline intersects itself in scrap bluewater-entrance_detail@bl
-uewater.BlueWater-Helicopter]
+uewater.BlueWaterSystem]
 [Warning: scrap outline intersects itself in scrap bluewater-entrance_detail@bl
-uewater.BlueWater-Helicopter]
+uewater.BlueWaterSystem]
 [Warning: scrap outline intersects itself in scrap bluewater-entrance_detail@bl
-uewater.BlueWater-Helicopter] [28] [29] [30]
+uewater.BlueWaterSystem] [35] [36] [37]
 [Warning: scrap outline intersects itself in scrap bluewater-entrance-overlay-p
-assage@bluewater.BlueWater-Helicopter] [31] [32] [33] [34] [35] [36] [37] [38]
-[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
-[54] [55]
+assage@bluewater.BlueWaterSystem] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+[47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61]
+[62]
 [Warning: scrap outline intersects itself in scrap Beast_Sec_1@C4HelicopterHole
-.BlueWater-Helicopter] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66]
-[67] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [68] [69] [70] [71] [72] [73]
-[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
-[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103]
-[104] [105] [106] [107] [108] )
+.BlueWaterSystem] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
+[Error: area borders l15-1671-305 and l16-1543-92 don't intersect in scrap rome
+o_cathedralSP1@romeo_cathedral.romeo.BlueWaterSystem (file Romeo/romeo_cathedra
+l.th2 [28])] [74] [75] [76] [77]
+[Error: area borders l126-4322-7018 and l124-4245-7195 don't intersect in scrap
+ MinichasmaSP1@Minichasma.BlueWaterSystem (file Minichasma/Minichasma.th2 [486]
+)]
+[Error: area borders l123-4216-7083 and l126-4322-7018 don't intersect in scrap
+ MinichasmaSP1@Minichasma.BlueWaterSystem (file Minichasma/Minichasma.th2 [486]
+)] [78] [79] [80] [81] [82]
+[Warning: scrap outline intersects itself in scrap romeoSP3@romeo_entrance.rome
+o.BlueWaterSystem] [83] [84] [85] [86] [87] [88] [89]
+[Error: area borders l209-10984-27732 and l208-11076-27806 don't intersect in s
+crap romeoSP1@romeo_entrance.romeo.BlueWaterSystem (file Romeo/Romeo_entrance.t
+h2 [388])]
+[Error: area borders l289-10912-29738 and l6-10998-29848 don't intersect in scr
+ap romeoSP1@romeo_entrance.romeo.BlueWaterSystem (file Romeo/Romeo_entrance.th2
+ [310])] [90] [91] [92] [93]
+[Error: area borders l238-2596-4325 and l235-2856-4769 don't intersect in scrap
+ romeoSP0@romeo_entrance.romeo.BlueWaterSystem (file Romeo/Romeo_entrance.th2 [
+3781])] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
+[Warning: scrap outline intersects itself in scrap s1-lower@Area51.BlueWaterSys
+tem] [107] [108]
+[Warning: text scaled down to fit the path in scrap s1-lower@Area51.BlueWaterSy
+stem] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120]
+[121] [122] [123] [124] [125] [126]
+[Warning: scrap outline intersects itself in scrap wlSP3@white_lightning.BlueWa
+terSystem] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [143] [144]
+[145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157]
+[158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170]
+[171] [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183]
+[184] [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196]
+[197] [198] [199] [200] [201] )
  
 Here is how much of MetaPost's memory you used:
- 1746 strings out of 2233
- 18565 string characters out of 43988
- 212946 words of memory out of 1500000
- 1526 symbolic tokens out of 16384
+ 1688 strings out of 2233
+ 18241 string characters out of 34452
+ 216732 words of memory out of 1500000
+ 1527 symbolic tokens out of 16384
  11i,75n,16p,650b,5f stack positions out of 300i,84n,5000p,760b,15f
- 514 string compactions (moved 8462590 characters, 758934 strings)
-120 output files written: data.1 .. data.4012
+ 2923 string compactions (moved 49387147 characters, 4626176 strings)
+213 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 FEB 2017 22:24
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 FEB 2017 12:14
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) (./th_legendcolor.tex) <
-c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_1250.
-png> <c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_SMO
-C_1250.png> <c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2
-/Baggao/bluewater/images/BlueWaterEntrance_7.5K_lowres.jpg> <c:/Users/henry_ben
-nett/Documents/GitHub/SpeleoPhilippines/Region-2/Baggao/Helicopter_Hole/images/
-Helicoptor_hole_5K_lowres.jpg>) (./th_pages.tex)
- 176 numeric registers used out of 32768
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legend.tex) <c:/Users/henry_bennett/Documents/GitHub/Sp
+eleoPhilippines/images/Logo_BEC_1250.png> <c:/Users/henry_bennett/Documents/Git
+Hub/SpeleoPhilippines/images/Logo_SMOC_1250.png>) (./th_pages.tex)
+ 253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 379 strings out of 95617
- 3790 string characters out of 1171098
- 313515 words of memory out of 1767493
- 1786 multiletter control sequences out of 15000+50000
- 23527 words of font info for 72 fonts, out of 1000000 for 2000
+ 501 strings out of 95617
+ 4926 string characters out of 1171098
+ 340142 words of memory out of 1767120
+ 1911 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 10i,8n,7p,1517b,97s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 10i,5n,9p,1517b,88s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 7511378 bytes).
+Output written on data.pdf (1 page, 3023215 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
+ 597 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 897 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1729 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
+writing .\output\BlueWater-System.kml ... done
+writing .\output\bluewater-System-survex.3d ... done
 writing xtherion file ... done
-compilation time: 10 sec
+compilation time: 24 sec
 
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  8.48%   20.5m  241.3m  54  -10.1m   17.7m    1.7m [1.17@bluewater.BlueWater-Helicopter - 2.0 - 2.1 - 2.2 - 2.3 - 2.4 - 2.5 - 2.6 - 2.7 - 2.8 - 2.9 - 2.10 - 2.11 - 2.12 - 2.13 - 2.14 - 2.15 - 2.16 - 2.17 - 2.18 - 2.19 - 2.20 - 3.0 - 3.1 - 3.2 - 3.3 - 3.4 - 3.5 - 3.6 - 3.7 - 3.8 - 3.9 - 3.10 - 3.11 - 3.12 - 3.13 - 3.14 - 3.15 - 3.16 - 3.17 - 3.18 - 3.19 - 3.20 - 3.21 - 3.22 - 3.23 - 3.24 - 3.25 - 3.26 - 3.27 - 3.28 - 3.29 = 1.14 - 1.15 - 1.16 - 1.17]
-  2.79%   75.0m 2683.8m 218   66.5m   32.5m  -11.8m [11.23@bluewater.BlueWater-Helicopter - 11.22 - 11.21 - 11.20 - 11.19 - 11.17 - 11.16 - 11.15 - 11.14 - 11.13 - 11.12 - 11.11 - 11.10 - 11.9 - 11.8 - 11.7 - 11.6 - 11.5 - 11.4 - 11.3 - 11.2 - 11.1 - 11.0 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 12.0 - 12.1 - 12.2 - 12.3 - 12.4 - 12.5 - 12.6 - 12.7 - 12.8 - 12.9 - 12.10 - 12.11 - 12.12 - 12.13 - 12.14 - 12.15 - 12.16 - 12.17 - 12.18 - 12.19 - 12.20 - 12.21 - 12.22 - 12.23 - 12.24 - 12.25 - 12.26 - 14.0 - 14.1 - 14.2 - 14.3 - 14.4 - 14.5 - 14.6 - 14.7 - 14.8 - 14.9 - 14.10 - 14.11 - 14.12 - 14.13 - 14.14 - 14.15 - 14.16 - 14.17 - 14.18 - 14.19 - 14.20 - 14.21 - 14.22 - 14.23 - 14.24 - 14.25 - 15.0 - 15.1 - 15.2 - 15.3 - 15.4 - 15.5 - 15.6 - 15.7 - 15.8 - 15.9 - 15.10 - 15.11 - 15.12 - 15.13 - 15.14 - 15.15 - 15.16 - 15.17 - 15.18 - 15.19 - 15.20 - 15.21 - 15.22 - 15.23 - 15.24 - 15.25 - 15.26 - 15.27 - 15.28 - 15.29 - 15.30 - 15.31 - 15.32 - 15.33 - 15.34 - 15.35 - 15.36 - 15.37 - 15.38 - 15.39 - 15.40 - 15.41 - 15.42 - 15.43 - 15.44 - 15.45 - 15.46 - 15.47 - 15.48 - 15.49 - 15.50 - 15.51 - 15.52 - 15.53 - 15.54 - 15.55 - 15.56 - 15.57 = 6.66@C4HelicopterHole.BlueWater-Helicopter - 6.65 - 6.64 - 6.63 - 6.62 - 6.61 - 6.60 - 6.59 - 6.58 - 6.57 - 6.56 - 6.55 - 6.54 - 6.53 - 6.52 - 6.51 - 6.50 - 6.49 - 6.48 - 6.47 - 6.46 - 6.45 - 6.44 - 6.43 - 6.42 - 6.41 - 6.40 - 6.39 - 6.38 - 6.37 - 6.36 - 6.35 - 6.34 - 6.33 - 6.32 - 6.31 - 6.30 - 6.29 - 6.28 - 6.27 - 6.26 - 6.25 - 6.24 - 6.23 - 6.22 - 6.21 - 6.20 - 6.19 - 6.18 - 6.17 - 6.16 - 6.15 - 6.14 - 6.13 - 6.12 - 6.11 - 6.10 - 6.9 - 6.8 - 6.7 - 6.6 - 6.5 - 6.4 - 6.3 - 6.2]
+  8.48%   20.5m  241.3m  54  -10.1m   17.7m    1.7m [1.17@bluewater.BlueWaterSystem - 2.0 - 2.1 - 2.2 - 2.3 - 2.4 - 2.5 - 2.6 - 2.7 - 2.8 - 2.9 - 2.10 - 2.11 - 2.12 - 2.13 - 2.14 - 2.15 - 2.16 - 2.17 - 2.18 - 2.19 - 2.20 - 3.0 - 3.1 - 3.2 - 3.3 - 3.4 - 3.5 - 3.6 - 3.7 - 3.8 - 3.9 - 3.10 - 3.11 - 3.12 - 3.13 - 3.14 - 3.15 - 3.16 - 3.17 - 3.18 - 3.19 - 3.20 - 3.21 - 3.22 - 3.23 - 3.24 - 3.25 - 3.26 - 3.27 - 3.28 - 3.29 = 1.14 - 1.15 - 1.16 - 1.17]
+  2.79%   75.0m 2683.8m 218   66.5m   32.4m  -11.8m [11.23@bluewater.BlueWaterSystem - 11.22 - 11.21 - 11.20 - 11.19 - 11.17 - 11.16 - 11.15 - 11.14 - 11.13 - 11.12 - 11.11 - 11.10 - 11.9 - 11.8 - 11.7 - 11.6 - 11.5 - 11.4 - 11.3 - 11.2 - 11.1 - 11.0 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 12.0 - 12.1 - 12.2 - 12.3 - 12.4 - 12.5 - 12.6 - 12.7 - 12.8 - 12.9 - 12.10 - 12.11 - 12.12 - 12.13 - 12.14 - 12.15 - 12.16 - 12.17 - 12.18 - 12.19 - 12.20 - 12.21 - 12.22 - 12.23 - 12.24 - 12.25 - 12.26 - 14.0 - 14.1 - 14.2 - 14.3 - 14.4 - 14.5 - 14.6 - 14.7 - 14.8 - 14.9 - 14.10 - 14.11 - 14.12 - 14.13 - 14.14 - 14.15 - 14.16 - 14.17 - 14.18 - 14.19 - 14.20 - 14.21 - 14.22 - 14.23 - 14.24 - 14.25 - 15.0 - 15.1 - 15.2 - 15.3 - 15.4 - 15.5 - 15.6 - 15.7 - 15.8 - 15.9 - 15.10 - 15.11 - 15.12 - 15.13 - 15.14 - 15.15 - 15.16 - 15.17 - 15.18 - 15.19 - 15.20 - 15.21 - 15.22 - 15.23 - 15.24 - 15.25 - 15.26 - 15.27 - 15.28 - 15.29 - 15.30 - 15.31 - 15.32 - 15.33 - 15.34 - 15.35 - 15.36 - 15.37 - 15.38 - 15.39 - 15.40 - 15.41 - 15.42 - 15.43 - 15.44 - 15.45 - 15.46 - 15.47 - 15.48 - 15.49 - 15.50 - 15.51 - 15.52 - 15.53 - 15.54 - 15.55 - 15.56 - 15.57 = 6.66@C4HelicopterHole.BlueWaterSystem - 6.65 - 6.64 - 6.63 - 6.62 - 6.61 - 6.60 - 6.59 - 6.58 - 6.57 - 6.56 - 6.55 - 6.54 - 6.53 - 6.52 - 6.51 - 6.50 - 6.49 - 6.48 - 6.47 - 6.46 - 6.45 - 6.44 - 6.43 - 6.42 - 6.41 - 6.40 - 6.39 - 6.38 - 6.37 - 6.36 - 6.35 - 6.34 - 6.33 - 6.32 - 6.31 - 6.30 - 6.29 - 6.28 - 6.27 - 6.26 - 6.25 - 6.24 - 6.23 - 6.22 - 6.21 - 6.20 - 6.19 - 6.18 - 6.17 - 6.16 - 6.15 - 6.14 - 6.13 - 6.12 - 6.11 - 6.10 - 6.9 - 6.8 - 6.7 - 6.6 - 6.5 - 6.4 - 6.3 - 6.2]
 ##################### end of loop errors #######################
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   7.89%  100.00%  bluewater-fossil@bluewater.BlueWater-Helicopter
-   1.92%   74.61%  bluewater-above-olympic-pool@bluewater.BlueWater-Helicopter
-   2.62%   55.93%  Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole.BlueWater-Helicopter
-   1.48%   53.28%  bluewater-entrance_detail@bluewater.BlueWater-Helicopter
-   2.50%   43.78%  bluewater-above-climb-2@bluewater.BlueWater-Helicopter
-   4.59%   40.71%  overlap-not-used@bluewater.BlueWater-Helicopter
-   1.03%   21.74%  bluewater-above-climb-1-S1@bluewater.BlueWater-Helicopter
-   1.00%   13.40%  Beauty_Above_Pitch_3_Sec_2@C4HelicopterHole.BlueWater-Helicopter
-   3.63%   10.86%  bluewater-entrance-overlay-passage@bluewater.BlueWater-Helicopter
-   0.86%    8.31%  bluewater-above-climb-1-S2@bluewater.BlueWater-Helicopter
-   0.57%    5.47%  bluewater-olympic-pool@bluewater.BlueWater-Helicopter
-   0.92%    3.67%  bluewater-entrance-olympic-pool@bluewater.BlueWater-Helicopter
-   0.00%    0.04%  Beast_Sec_2@C4HelicopterHole.BlueWater-Helicopter
-   0.00%    0.04%  Beast_Sec_1@C4HelicopterHole.BlueWater-Helicopter
-   0.00%    0.03%  Beast_Sec_5@C4HelicopterHole.BlueWater-Helicopter
-   0.00%    0.02%  Beast_Sec_3@C4HelicopterHole.BlueWater-Helicopter
-   0.00%    0.01%  Beast_Sec_4@C4HelicopterHole.BlueWater-Helicopter
+   7.89%  100.00%  bluewater-fossil@bluewater.BlueWaterSystem
+   0.57%   98.90%  lumioSP1@lumio.romeo.BlueWaterSystem
+   0.62%   81.38%  Romeo_1.12SP1@Romeo_1_12.romeo.BlueWaterSystem
+   0.35%   74.69%  romeoSP1@romeo_entrance.romeo.BlueWaterSystem
+   1.93%   74.61%  bluewater-above-olympic-pool@bluewater.BlueWaterSystem
+   2.41%   57.88%  romeo_cathedralSP1@romeo_cathedral.romeo.BlueWaterSystem
+   1.48%   53.19%  bluewater-entrance_detail@bluewater.BlueWaterSystem
+   4.59%   40.71%  overlap-not-used@bluewater.BlueWaterSystem
+   2.64%   34.53%  Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole.BlueWaterSystem
+   0.50%   25.43%  romeoSP3@romeo_entrance.romeo.BlueWaterSystem
+   1.03%   21.73%  bluewater-above-climb-1-S1@bluewater.BlueWaterSystem
+   1.00%   13.39%  Beauty_Above_Pitch_3_Sec_2@C4HelicopterHole.BlueWaterSystem
+   3.63%   10.85%  bluewater-entrance-overlay-passage@bluewater.BlueWaterSystem
+   0.24%    9.75%  bluewater-above-climb-2@bluewater.BlueWaterSystem
+   0.86%    8.30%  bluewater-above-climb-1-S2@bluewater.BlueWaterSystem
+   0.57%    5.47%  bluewater-olympic-pool@bluewater.BlueWaterSystem
+   0.91%    3.67%  bluewater-entrance-olympic-pool@bluewater.BlueWaterSystem
+   0.00%    0.54%  ovimphSP1@ovimph.BlueWaterSystem
+   0.01%    0.17%  s1-lower@Area51.BlueWaterSystem
+   0.00%    0.13%  wlSP2@white_lightning.BlueWaterSystem
+   0.00%    0.11%  romeoSP0@romeo_entrance.romeo.BlueWaterSystem
+   0.00%    0.05%  s1-entrance_chamber@Area51.BlueWaterSystem
+   0.00%    0.05%  s1-main@Area51.BlueWaterSystem
+   0.00%    0.04%  MinichasmaSP1@Minichasma.BlueWaterSystem
+   0.00%    0.04%  Beast_Sec_2@C4HelicopterHole.BlueWaterSystem
+   0.00%    0.04%  Beast_Sec_1@C4HelicopterHole.BlueWaterSystem
+   0.00%    0.03%  NaganakanSP001@naganakan.BlueWaterSystem
+   0.00%    0.03%  Beast_Sec_5@C4HelicopterHole.BlueWaterSystem
+   0.01%    0.03%  s1-upper@Area51.BlueWaterSystem
+   0.00%    0.03%  romeoSP2@romeo_entrance.romeo.BlueWaterSystem
+   0.01%    0.02%  s1-entrance@Area51.BlueWaterSystem
+   0.00%    0.02%  wlSP1@white_lightning.BlueWaterSystem
+   0.00%    0.02%  wlSP3@white_lightning.BlueWaterSystem
+   0.00%    0.02%  Beast_Sec_3@C4HelicopterHole.BlueWaterSystem
+   0.00%    0.01%  Romeo_21_1SP1@Romeo_21_1.romeo.BlueWaterSystem
+   0.00%    0.01%  Beast_Sec_4@C4HelicopterHole.BlueWaterSystem
+   0.00%    0.01%  wlSP4@white_lightning.BlueWaterSystem
+   0.00%    0.00%  scrap299@romeo_entrance.romeo.BlueWaterSystem
+   0.00%    0.00%  scrap276@romeo_entrance.romeo.BlueWaterSystem
+   0.00%    0.00%  scrap285@romeo_entrance.romeo.BlueWaterSystem
 ################### end of scrap distortions ###################

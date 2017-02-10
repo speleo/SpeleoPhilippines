@@ -1,4 +1,4 @@
-therion 5.3.16
+therion 5.3.16 (beta Vladimir)
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
@@ -8,93 +8,39 @@ preprocessing database ... done
 output coordinate system: UTM51
 meridian convergence (deg): 0.2976
 geomag declinations (deg):
-  2005.1.1  -2.0215
-  2006.1.1  -2.0676
+  2015.1.1  -2.6543
+  2016.1.1  -2.7437
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
-processing survey data ... 
-####################### cavern log file ########################
- 1> Survex 1.2.12
- 2> Copyright ¸ 1990-2014 Olly Betts
- 3> 
- 4> Survey contains 232 survey stations, joined by 231 shots.
- 5> There is 1 loop.
- 6> Survey has 2 connected components.
- 7> Total length of survey shots =  912.28m ( 912.28m adjusted)
- 8> Total plan length of survey shots =  728.48m
- 9> Total vertical length of survey shots =  377.69m
-10> Vertical range = 60.46m (from 3 at 466.84m to 185 at 406.38m)
-11> North-South range = 73.83m (from 230 at 1991472.30m to 3 at 1991398.47m)
-12> East-West range = 69.86m (from 176 at 398133.97m to 75 at 398064.11m)
-13>  196 1-nodes.
-14>    6 2-nodes.
-15>    2 3-nodes.
-16>    5 5-nodes.
-17>    6 6-nodes.
-18>    4 7-nodes.
-19>    2 8-nodes.
-20>    1 9-node.
-21>    2 10-nodes.
-22>    2 12-nodes.
-23>    1 13-node.
-24>    1 14-node.
-25>    2 15-nodes.
-26>    1 16-node.
-27>    1 17-node.
-28> 
-######################### transcription ########################
- 4> 232 : 13.1@Minichasma -- 231 : 13.0@Minichasma
- 5> 1 : 1.0@Minichasma
- 6> 2 : -@Minichasma
-10> 3 : 1.1@Minichasma -- 185 : -@Minichasma
-11> 230 : 12.5@Minichasma -- 3 : 1.1@Minichasma
-12> 176 : -@Minichasma -- 75 : -@Minichasma
-13> 196 : -@Minichasma
-14> 6 : -@Minichasma
-15> 2 : -@Minichasma
-16> 5 : -@Minichasma
-17> 6 : -@Minichasma
-18> 4 : -@Minichasma
-19> 2 : -@Minichasma
-20> 1 : 1.0@Minichasma
-21> 2 : -@Minichasma
-22> 2 : -@Minichasma
-23> 1 : 1.0@Minichasma
-24> 1 : 1.0@Minichasma
-25> 2 : -@Minichasma
-26> 1 : 1.0@Minichasma
-27> 1 : 1.0@Minichasma
-#################### end of cavern log file ####################
-done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-processing projection plan ... done
-average distortion: 0.02%
-writing ./output/Minichasma.pdf ...
+processing projection extended ... done
+average distortion: 10.75%
+writing MinichasmaEe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  20 JUL 2015 09:50
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 FEB 2017 07:13
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 [1] [2] [3] [4] (./mptextmp.mp) [5] )
  
 Here is how much of MetaPost's memory you used:
- 1057 strings out of 1162
- 13040 string characters out of 20720
- 64824 words of memory out of 1500000
- 1367 symbolic tokens out of 16384
- 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 70 string compactions (moved 717359 characters, 56893 strings)
+ 1069 strings out of 1162
+ 13261 string characters out of 20720
+ 62538 words of memory out of 1500000
+ 1370 symbolic tokens out of 16384
+ 11i,75n,14p,234b,5f stack positions out of 300i,84n,5000p,250b,15f
+ 38 string compactions (moved 405800 characters, 32068 strings)
 17 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  20 JUL 2015 09:50
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 FEB 2017 07:13
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -106,14 +52,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  250 strings out of 95617
  2539 string characters out of 1171098
- 54943 words of memory out of 1538921
+ 45711 words of memory out of 1529689
  1663 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 54085 bytes).
+Output written on data.pdf (1 page, 42105 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -122,14 +68,24 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
+processing projection plan ... done
+average distortion: 0.00%
+writing .\output\Minichasma-map.kml ... done
 writing .\output\Minichasma.kml ... done
 writing .\output\Minichasma.3d ... done
 writing xtherion file ... done
-compilation time: 3 sec
+compilation time: 1 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.02%    0.80%  MinichasmaSP1@Minichasma
+   0.00%    0.04%  MinichasmaSP1@Minichasma
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+  10.75%  100.00%  MinichasmaSE1@Minichasma
 ################### end of scrap distortions ###################

@@ -1,8 +1,6 @@
 encoding  utf-8
-
-
 survey white_lightning -title "White Lightning"
-input wl.th2
+input whitelightning.th2
 
 map wl-main
     wlSP1
@@ -37,7 +35,8 @@ centreline
   # 122° 1'47.85"E
 
   fix 1.0 397320.00 1993393.00 485
-  
+  station 1.0 "White Lightning" entrance
+
   team "Ruth Allan" instruments
   team "Rich Smith" notes
   team "Paul Fairman" dog

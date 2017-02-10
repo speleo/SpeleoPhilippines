@@ -65,9 +65,9 @@ layout local
 
   code metapost
     
-    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/Baggao/bluewater/code/_grid_x_hair_to_continuos_line.mp"
-    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/Baggao/bluewater/code/_scalebar_large_format"
-    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/Baggao/bluewater/code/_legend_large_format"
+    input code/_grid_x_hair_to_continuos_line
+    input code/_scalebar_large_format
+    input code/_legend_large_format
     
     
     # code to change the colour of the water
@@ -120,8 +120,8 @@ layout local
       \hsize=\legendwidth
       \input th_legend
       }
-  \legendbox{40} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/Baggao/bluewater/images/Logo_BEC_1250.png}}
-  \legendbox{60} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/Baggao/bluewater/images/Logo_SMOC_1250.png}}
+  \legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+  \legendbox{60} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
   
     
   }  
