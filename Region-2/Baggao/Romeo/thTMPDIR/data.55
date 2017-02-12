@@ -2,7 +2,7 @@
 %%BoundingBox: -1 -1 39 24 
 %%HiResBoundingBox: -0.42 -0.42 38.09999 23.70609 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2017.02.10:1555
+%%CreationDate: 2017.02.12:0802
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
@@ -18,22 +18,39 @@ newpath 0 0 moveto
 37.68 23.28609 lineto
 0 23.28609 lineto
  closepath fill
+gsave newpath 0.00002 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+0 -0.00002 lineto
+ closepath clip
  0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
  [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
-newpath 12.84 11.64305 moveto
-13.83372 11.64305 14.17564 13.32047 15.23996 13.083 curveto
-16.62094 12.77486 15.33467 9.88327 17.04007 9.84312 curveto
-18.89082 9.79956 17.50488 12.82413 18.84 13.20311 curveto
-20.33818 13.62837 20.22086 11.25414 21.23996 10.68303 curveto
-22.48097 9.98756 23.56271 11.64305 24.84 11.64305 curveto stroke
-newpath 23.09804 9.86285 moveto
-23.66849 10.43324 24.08963 11.33223 24.84 11.64305 curveto
-24.08963 11.95387 23.15616 11.61601 22.34947 11.61606 curveto
- closepath stroke
-newpath 23.09804 9.86285 moveto
-23.66849 10.43324 24.08963 11.33223 24.84 11.64305 curveto
-24.08963 11.95387 23.15616 11.61601 22.34947 11.61606 curveto
- closepath fill
+newpath 3.84595 -2.86739 moveto
+-0.65363 -1.19609 lineto stroke
+newpath -1.72453 9.31291 moveto
+2.86205 10.72813 lineto stroke
+newpath -0.14058 25.81422 moveto
+-0.98381 21.08894 lineto stroke
+newpath 9.35912 -4.41292 moveto
+13.57854 -6.70103 lineto stroke
+newpath 9.17075 13.08235 moveto
+10.25339 8.40614 lineto stroke
+newpath 6.9707 21.28639 moveto
+9.58554 17.26122 lineto stroke
+newpath 22.45201 -1.45532 moveto
+25.51457 2.24057 lineto stroke
+newpath 24.8571 12.04517 moveto
+20.06209 12.26181 lineto stroke
+newpath 20.28175 18.13606 moveto
+23.19572 21.95024 lineto stroke
+newpath 33.99214 2.16148 moveto
+29.8647 -0.28871 lineto stroke
+newpath 34.31812 13.00789 moveto
+31.57266 9.07066 lineto stroke
+newpath 33.41695 24.84294 moveto
+37.07585 21.73619 lineto stroke
+grestore
 grestore
  0 0 0 setrgbcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
  [] 0 setdash 1 setlinejoin 10 setmiterlimit

@@ -1,8 +1,8 @@
 %!PS
-%%BoundingBox: -15 -15 1 1 
-%%HiResBoundingBox: -14.38321 -14.38321 0.21 0.21 
+%%BoundingBox: -15 -15 1 15 
+%%HiResBoundingBox: -14.38321 -14.38321 0.21 14.38321 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2017.02.10:1555
+%%CreationDate: 2017.02.12:0802
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
@@ -13,6 +13,6 @@ newpath -14.1732 0 moveto
 0 0 lineto stroke
  0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
 newpath 0 -14.1732 moveto
-0 0 lineto stroke
+0 14.1732 lineto stroke
 showpage
 %%EOF

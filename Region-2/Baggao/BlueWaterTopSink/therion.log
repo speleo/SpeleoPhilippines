@@ -1,0 +1,143 @@
+therion 5.3.16 (beta Vladimir)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig-BlueWater-Sink
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.2980
+geomag declinations (deg):
+  2014.1.1  -2.5764
+  2015.1.1  -2.6568
+  2016.1.1  -2.7462
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+writing .\output\BlueWater-sink.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  11 FEB 2017 15:48
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] (./mptextmp.mp) [8] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1063 strings out of 1162
+ 14177 string characters out of 20720
+ 60631 words of memory out of 1500000
+ 1370 symbolic tokens out of 16384
+ 8i,75n,11p,261b,5f stack positions out of 300i,84n,5000p,312b,15f
+ 33 string compactions (moved 339167 characters, 27054 strings)
+20 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  11 FEB 2017 15:48
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 58 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 255 strings out of 95617
+ 2585 string characters out of 1171098
+ 26393 words of memory out of 1512371
+ 1668 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 33488 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection extended ... done
+average distortion: 0.00%
+writing .\output\BlueWater-sinkEE.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  11 FEB 2017 15:48
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] (./mptextmp.mp) [8] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1063 strings out of 1162
+ 14184 string characters out of 20720
+ 60091 words of memory out of 1500000
+ 1370 symbolic tokens out of 16384
+ 8i,75n,11p,262b,5f stack positions out of 300i,84n,5000p,312b,15f
+ 27 string compactions (moved 260459 characters, 20879 strings)
+20 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  11 FEB 2017 15:48
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 58 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 255 strings out of 95617
+ 2585 string characters out of 1171098
+ 25036 words of memory out of 1511014
+ 1668 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 30447 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing .\output\BlueWater-sink-map.kml ... done
+writing .\output\BlueWater-sink.kml ... done
+writing .\output\bluewater-sink-survex.3d ... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.01%  bluewater_sink_lowerSP1@bluewater_sink_lower.BlueWaterSink
+   0.00%    0.01%  bluewater_sink_canyonSP1@bluewater_sink_canyon.BlueWaterSink
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.01%  bluewater_sink_canyonSE1@bluewater_sink_canyon.BlueWaterSink
+   0.00%    0.00%  bluewater_sink_lowerSE1@bluewater_sink_lower.BlueWaterSink
+################### end of scrap distortions ###################

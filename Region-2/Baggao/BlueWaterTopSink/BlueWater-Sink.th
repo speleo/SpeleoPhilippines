@@ -1,0 +1,16 @@
+encoding  utf-8
+survey BlueWaterSink
+  input bluewater_sink_canyon/bluewater_sink_canyon.th
+  input bluewater_sink_lower/bluewater_sink_lower.th
+
+  centreline
+    equate 11.3@bluewater_sink_canyon 2.1@bluewater_sink_lower
+  endcentreline
+
+  map map-test
+    #bluewaterM@bluewater
+    bluewater_sink_lowerM@bluewater_sink_lower
+  endmap
+
+endsurvey
+

@@ -1,32 +1,3189 @@
 %!PS
-%%BoundingBox: -647 -698 457 640 
-%%HiResBoundingBox: -646.34245 -697.13402 456.30304 639.53235 
+%%BoundingBox: -313 -642 423 654 
+%%HiResBoundingBox: -312.0855 -641.87839 422.38 653.69972 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2017.02.10:1555
+%%CreationDate: 2017.02.12:0802
 %%Pages: 1
-%*Font: cmss10 29.88794 9.96265 30:f500200088005dcbdc2
-%*Font: cmss10 79.70117 9.96265 43:8040000220283
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
+gsave newpath 286.65 242.69 moveto
+308.79 209.57 lineto
+337.76 220.32 lineto
+336.67 236.29 lineto
+336.67 236.29 lineto
+336.67 236.29 331.45 237.54 328.57 237.9 curveto
+325.68 238.26 322.26 240.06 319.92 240.24 curveto
+317.58 240.42 316.68 242.04 317.22 245.46 curveto
+317.77 248.88 320.28 247.08 319.21 252.13 curveto
+318.13 257.18 318.85 256.1 318.13 256.64 curveto
+317.41 257.18 315.61 255.92 313.45 254.66 curveto
+311.29 253.4 302.29 248.56 299.96 247.85 curveto
+297.62 247.14 288.81 243.76 286.65 242.69 curveto
+ closepath clip
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 278.56854 196.85844 moveto
+284.85162 202.29349 lineto
+282.19534 212.32976 lineto
+268.07874 202.83336 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 278.56854 196.85844 moveto
+284.85162 202.29349 lineto
+282.19534 212.32976 lineto
+268.07874 202.83336 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 264.60724 227.64944 moveto
+275.53946 218.81924 lineto
+284.27055 229.62125 lineto
+273.33255 235.70024 lineto
+ closepath fill
  0 0 0 setrgbcolor
-172.39494 294.92915 moveto
-(p10) cmss10 29.88794 fshow
-337.51695 229.27914 moveto
-(p3) cmss10 29.88794 fshow
-425.91695 619.93915 moveto
-(p7) cmss10 29.88794 fshow
--268.0438 -642.0266 moveto
-(c2) cmss10 29.88794 fshow
--646.34245 -697.13402 moveto
-(Lumeo) cmss10 79.70117 fshow
--396.83286 -697.13402 moveto
-(Cave) cmss10 79.70117 fshow
-347.98694 390.11914 moveto
-(p5) cmss10 29.88794 fshow
--79.4138 -253.0366 moveto
-(c3) cmss10 29.88794 fshow
--63.2238 -221.1766 moveto
-(c3) cmss10 29.88794 fshow
+newpath 264.60724 227.64944 moveto
+275.53946 218.81924 lineto
+284.27055 229.62125 lineto
+273.33255 235.70024 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 307.60213 226.56499 moveto
+323.4093 230.91156 lineto
+317.49168 237.8273 lineto
+308.8898 235.24384 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 307.60213 226.56499 moveto
+323.4093 230.91156 lineto
+317.49168 237.8273 lineto
+308.8898 235.24384 lineto
+ closepath stroke
+grestore
+gsave newpath 214.30014 314.15993 moveto
+214.33696 314.1394 221.69766 310.04135 224.75 310.58 curveto
+227.81 311.12 229.6 315.95 230.14 317.74 curveto
+230.67 319.53 230.13 324.18 230.13 324.18 curveto
+230.13 324.18 232.47 324.9 233.37 325.09 curveto
+234.27 325.27 236.25 326.72 237.51 327.8 curveto
+238.77 328.89 238.23 331.94 238.23 334.99 curveto
+238.23 338.06 241.84 338.09 243.46 338.1 curveto
+245.09 338.12 245.63 342.27 245.63 344.44 curveto
+245.64 346.61 246.9 349.34 247.45 351.88 curveto
+247.98827 354.41179 246.92691 356.38718 246.92003 356.39993 curveto
+246.92 356.4 lineto
+289.04 401.07 lineto
+289.04004 401.07 lineto
+289.0954 401.07454 334.43872 404.78456 348.72 379.5 curveto
+348.72 379.5 lineto
+323.37 322.07 lineto
+365.89 288.18 lineto
+336.67 236.29 lineto
+336.67 236.29 lineto
+336.67 236.29 331.45 237.54 328.57 237.9 curveto
+325.68 238.26 322.26 240.06 319.92 240.24 curveto
+317.58 240.42 316.68 242.04 317.22 245.46 curveto
+317.77 248.88 320.28 247.08 319.21 252.13 curveto
+318.13 257.18 318.85 256.1 318.13 256.64 curveto
+317.41 257.18 315.61 255.92 313.45 254.66 curveto
+311.29 253.4 302.29 248.56 299.96 247.85 curveto
+297.62 247.14 288.81 243.76 286.65 242.69 curveto
+286.65 242.69 lineto
+237.02 251.86 lineto
+214.3 314.16 lineto
+ closepath clip
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 207.66364 253.02423 moveto
+209.26094 235.87065 lineto
+222.1918 235.34882 lineto
+223.65974 246.96646 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 207.66364 253.02423 moveto
+209.26094 235.87065 lineto
+222.1918 235.34882 lineto
+223.65974 246.96646 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 207.93373 261.86691 moveto
+218.42381 252.14168 lineto
+227.23894 264.20242 lineto
+213.5789 270.12299 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 207.93373 261.86691 moveto
+218.42381 252.14168 lineto
+227.23894 264.20242 lineto
+213.5789 270.12299 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 197.66165 273.06718 moveto
+208.11084 268.91216 lineto
+212.77232 283.5201 lineto
+200.66107 282.00435 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 197.66165 273.06718 moveto
+208.11084 268.91216 lineto
+212.77232 283.5201 lineto
+200.66107 282.00435 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 219.28548 336.50842 moveto
+210.55733 323.83354 lineto
+223.47557 315.76463 lineto
+229.96484 326.11223 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 219.28548 336.50842 moveto
+210.55733 323.83354 lineto
+223.47557 315.76463 lineto
+229.96484 326.11223 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 212.71548 339.83403 moveto
+221.63193 348.64279 lineto
+217.27316 358.48598 lineto
+210.11075 354.06677 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 212.71548 339.83403 moveto
+221.63193 348.64279 lineto
+217.27316 358.48598 lineto
+210.11075 354.06677 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 209.35704 371.24927 moveto
+219.30356 375.56862 lineto
+217.32979 386.84662 lineto
+206.11655 382.56358 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 209.35704 371.24927 moveto
+219.30356 375.56862 lineto
+217.32979 386.84662 lineto
+206.11655 382.56358 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 207.85632 388.05875 moveto
+217.6195 395.11417 lineto
+211.34999 406.7669 lineto
+204.9597 397.48302 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 207.85632 388.05875 moveto
+217.6195 395.11417 lineto
+211.34999 406.7669 lineto
+204.9597 397.48302 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 234.77596 251.20375 moveto
+230.53854 237.43748 lineto
+245.95712 233.05562 lineto
+249.07668 246.78242 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 234.77596 251.20375 moveto
+230.53854 237.43748 lineto
+245.95712 233.05562 lineto
+249.07668 246.78242 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 237.15211 253.35059 moveto
+245.61281 254.7828 lineto
+249.25752 268.98912 lineto
+232.91844 265.39107 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 237.15211 253.35059 moveto
+245.61281 254.7828 lineto
+249.25752 268.98912 lineto
+232.91844 265.39107 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 236.96085 280.70816 moveto
+242.38005 287.05824 lineto
+240.3737 299.86961 lineto
+231.10158 296.01523 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 236.96085 280.70816 moveto
+242.38005 287.05824 lineto
+240.3737 299.86961 lineto
+231.10158 296.01523 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 225.41743 310.00371 moveto
+237.65833 299.61115 lineto
+245.67331 307.93065 lineto
+239.76785 313.10617 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 225.41743 310.00371 moveto
+237.65833 299.61115 lineto
+245.67331 307.93065 lineto
+239.76785 313.10617 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 249.99692 368.74321 moveto
+250.01219 377.33539 lineto
+237.95862 375.48035 lineto
+238.40408 365.58124 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 249.99692 368.74321 moveto
+250.01219 377.33539 lineto
+237.95862 375.48035 lineto
+238.40408 365.58124 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 241.85864 418.61362 moveto
+233.89558 417.17708 lineto
+232.97597 402.92828 lineto
+248.18205 403.64384 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 241.85864 418.61362 moveto
+233.89558 417.17708 lineto
+232.97597 402.92828 lineto
+248.18205 403.64384 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 271.61563 223.6351 moveto
+280.13991 236.01476 lineto
+262.28735 238.37683 lineto
+264.20119 228.20331 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 271.61563 223.6351 moveto
+280.13991 236.01476 lineto
+262.28735 238.37683 lineto
+264.20119 228.20331 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 260.08113 276.27834 moveto
+255.7798 285.32013 lineto
+242.62161 281.06554 lineto
+249.79832 269.38043 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 260.08113 276.27834 moveto
+255.7798 285.32013 lineto
+242.62161 281.06554 lineto
+249.79832 269.38043 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 262.15562 318.63933 moveto
+251.1163 314.50455 lineto
+253.18922 304.76126 lineto
+263.87668 305.77896 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 262.15562 318.63933 moveto
+251.1163 314.50455 lineto
+253.18922 304.76126 lineto
+263.87668 305.77896 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 250.70766 333.85822 moveto
+251.1751 321.0781 lineto
+259.23907 316.37706 lineto
+266.313 332.12085 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 250.70766 333.85822 moveto
+251.1751 321.0781 lineto
+259.23907 316.37706 lineto
+266.313 332.12085 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 256.23453 401.16194 moveto
+267.74359 394.86203 lineto
+277.99983 407.67975 lineto
+265.70851 411.0797 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 256.23453 401.16194 moveto
+267.74359 394.86203 lineto
+277.99983 407.67975 lineto
+265.70851 411.0797 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 286.29384 287.33983 moveto
+279.18112 279.50897 lineto
+289.5169 268.52623 lineto
+294.10349 278.3895 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 286.29384 287.33983 moveto
+279.18112 279.50897 lineto
+289.5169 268.52623 lineto
+294.10349 278.3895 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 289.84329 307.69731 moveto
+280.56184 309.58336 lineto
+276.1383 297.80406 lineto
+283.30054 295.2295 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 289.84329 307.69731 moveto
+280.56184 309.58336 lineto
+276.1383 297.80406 lineto
+283.30054 295.2295 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 296.00099 324.18462 moveto
+289.93605 338.13704 lineto
+275.67172 328.92448 lineto
+287.2076 317.57355 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 296.00099 324.18462 moveto
+289.93605 338.13704 lineto
+275.67172 328.92448 lineto
+287.2076 317.57355 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 282.4552 348.05605 moveto
+293.60803 354.25574 lineto
+285.47154 365.68462 lineto
+277.3937 358.17645 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 282.4552 348.05605 moveto
+293.60803 354.25574 lineto
+285.47154 365.68462 lineto
+277.3937 358.17645 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 285.22215 378.78656 moveto
+292.79561 376.66864 lineto
+301.39307 383.5026 lineto
+290.66476 389.5913 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 285.22215 378.78656 moveto
+292.79561 376.66864 lineto
+301.39307 383.5026 lineto
+290.66476 389.5913 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 309.34792 297.02255 moveto
+298.13849 292.4659 lineto
+312.24397 282.82123 lineto
+318.5995 292.85541 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 309.34792 297.02255 moveto
+298.13849 292.4659 lineto
+312.24397 282.82123 lineto
+318.5995 292.85541 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 315.90855 307.68126 moveto
+313.84344 319.22707 lineto
+300.19762 316.20357 lineto
+302.30154 300.71611 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 315.90855 307.68126 moveto
+313.84344 319.22707 lineto
+300.19762 316.20357 lineto
+302.30154 300.71611 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 313.45428 325.45692 moveto
+321.27328 328.62411 lineto
+318.96057 336.48598 lineto
+310.12755 332.28741 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 313.45428 325.45692 moveto
+321.27328 328.62411 lineto
+318.96057 336.48598 lineto
+310.12755 332.28741 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 303.80057 347.69807 moveto
+308.76474 356.0005 lineto
+296.65324 363.75842 lineto
+289.44142 350.88318 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 303.80057 347.69807 moveto
+308.76474 356.0005 lineto
+296.65324 363.75842 lineto
+289.44142 350.88318 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 308.52197 377.24603 moveto
+301.88493 382.28575 lineto
+296.98824 376.98265 lineto
+300.60744 368.3908 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 308.52197 377.24603 moveto
+301.88493 382.28575 lineto
+296.98824 376.98265 lineto
+300.60744 368.3908 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 299.42131 388.00766 moveto
+309.23116 390.96095 lineto
+306.50362 399.05356 lineto
+297.10938 398.40819 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 299.42131 388.00766 moveto
+309.23116 390.96095 lineto
+306.50362 399.05356 lineto
+297.10938 398.40819 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 334.60704 234.52368 moveto
+333.8262 223.94547 lineto
+348.25809 223.13669 lineto
+344.1557 233.61806 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 334.60704 234.52368 moveto
+333.8262 223.94547 lineto
+348.25809 223.13669 lineto
+344.1557 233.61806 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 340.68457 255.92366 moveto
+351.4783 266.88315 lineto
+341.4639 272.41954 lineto
+331.12375 264.781 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 340.68457 255.92366 moveto
+351.4783 266.88315 lineto
+341.4639 272.41954 lineto
+331.12375 264.781 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 331.76868 295.74496 moveto
+326.03027 282.38316 lineto
+335.70178 277.64845 lineto
+342.0162 291.07365 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 331.76868 295.74496 moveto
+326.03027 282.38316 lineto
+335.70178 277.64845 lineto
+342.0162 291.07365 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 330.63637 397.58006 moveto
+338.64243 406.84898 lineto
+325.18471 411.30656 lineto
+321.93198 403.5609 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 330.63637 397.58006 moveto
+338.64243 406.84898 lineto
+325.18471 411.30656 lineto
+321.93198 403.5609 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 346.19025 236.2935 moveto
+360.85066 235.77856 lineto
+365.9016 244.38278 lineto
+352.4604 247.89577 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 346.19025 236.2935 moveto
+360.85066 235.77856 lineto
+365.9016 244.38278 lineto
+352.4604 247.89577 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 359.10365 282.6155 moveto
+356.10823 295.6614 lineto
+343.01013 289.55003 lineto
+352.588 281.19983 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 359.10365 282.6155 moveto
+356.10823 295.6614 lineto
+343.01013 289.55003 lineto
+352.588 281.19983 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 349.03491 337.47693 moveto
+340.85587 326.9078 lineto
+350.35349 318.72949 lineto
+354.03777 325.12022 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 349.03491 337.47693 moveto
+340.85587 326.9078 lineto
+350.35349 318.72949 lineto
+354.03777 325.12022 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 362.18103 356.02385 moveto
+349.70728 357.42848 lineto
+349.66887 343.74303 lineto
+363.49359 343.29024 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 362.18103 356.02385 moveto
+349.70728 357.42848 lineto
+349.66887 343.74303 lineto
+363.49359 343.29024 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 365.06343 387.33514 moveto
+354.72713 394.63911 lineto
+352.60486 383.82712 lineto
+358.12724 374.67807 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 365.06343 387.33514 moveto
+354.72713 394.63911 lineto
+352.60486 383.82712 lineto
+358.12724 374.67807 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 373.17743 397.74756 moveto
+366.0599 410.3947 lineto
+354.06618 399.00829 lineto
+359.91232 390.57578 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 373.17743 397.74756 moveto
+366.0599 410.3947 lineto
+354.06618 399.00829 lineto
+359.91232 390.57578 lineto
+ closepath stroke
+grestore
+gsave newpath 297.27 418.37 moveto
+349.26 399.15 lineto
+368.03 447.38 lineto
+322.83 477.25 lineto
+297.27 418.37 lineto
+ closepath clip
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 289.24515 389.53911 moveto
+297.40092 378.85559 lineto
+310.12437 388.02847 lineto
+300.25833 398.04178 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 289.24515 389.53911 moveto
+297.40092 378.85559 lineto
+310.12437 388.02847 lineto
+300.25833 398.04178 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 301.39137 437.29947 moveto
+299.93896 449.56396 lineto
+284.5866 452.23854 lineto
+286.62755 439.60507 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 301.39137 437.29947 moveto
+299.93896 449.56396 lineto
+284.5866 452.23854 lineto
+286.62755 439.60507 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 296.0686 466.94337 moveto
+303.42987 469.01268 lineto
+293.3866 476.76735 lineto
+286.87386 467.18669 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 296.0686 466.94337 moveto
+303.42987 469.01268 lineto
+293.3866 476.76735 lineto
+286.87386 467.18669 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 305.12717 393.46999 moveto
+317.43079 390.536 lineto
+322.53528 396.7879 lineto
+306.9848 402.15414 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 305.12717 393.46999 moveto
+317.43079 390.536 lineto
+322.53528 396.7879 lineto
+306.9848 402.15414 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 325.82701 413.4424 moveto
+325.32204 423.9378 lineto
+318.19131 422.02846 lineto
+315.8659 412.4472 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 325.82701 413.4424 moveto
+325.32204 423.9378 lineto
+318.19131 422.02846 lineto
+315.8659 412.4472 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 335.87514 428.89792 moveto
+344.0877 419.59282 lineto
+357.65968 423.76741 lineto
+351.52634 436.6515 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 335.87514 428.89792 moveto
+344.0877 419.59282 lineto
+357.65968 423.76741 lineto
+351.52634 436.6515 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 339.29805 439.6504 moveto
+341.13565 450.56836 lineto
+333.71848 457.11908 lineto
+329.08311 447.0851 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 339.29805 439.6504 moveto
+341.13565 450.56836 lineto
+333.71848 457.11908 lineto
+329.08311 447.0851 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 354.5957 387.16602 moveto
+361.61015 382.61102 lineto
+371.52318 388.1912 lineto
+359.62383 401.02429 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 354.5957 387.16602 moveto
+361.61015 382.61102 lineto
+371.52318 388.1912 lineto
+359.62383 401.02429 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 365.55617 430.66788 moveto
+357.95198 418.71407 lineto
+365.3887 410.09721 lineto
+373.11024 424.33542 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 365.55617 430.66788 moveto
+357.95198 418.71407 lineto
+365.3887 410.09721 lineto
+373.11024 424.33542 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 370.32802 468.67772 moveto
+364.46939 458.31006 lineto
+372.2731 451.35696 lineto
+382.97247 459.59207 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 370.32802 468.67772 moveto
+364.46939 458.31006 lineto
+372.2731 451.35696 lineto
+382.97247 459.59207 lineto
+ closepath stroke
+grestore
+gsave newpath 406.78 616.96 moveto
+411.32 607.5 lineto
+411.32 607.5 402.71 554.38 396.31 566.39 curveto
+388.76 580.58 384.35 582.32 367.68 567.72 curveto
+344.16 547.13 368.18 535.72 375.45 534.69 curveto
+383.55 533.53 399.06 552.04 399.06 552.04 curveto
+399.06 552.04 438.6 515.78 410.66 497.08 curveto
+371.43 470.81 384.28 528.06 355.52 520.28 curveto
+327.2545 512.64203 332.2143 533.49428 332.22995 533.55984 curveto
+332.23 533.56 lineto
+370.85 610.42 lineto
+370.85 610.42 lineto
+371.2 609.84 373.12 608.52 373.8 608.3 curveto
+374.47 608.08 378.32 607.01 380.31 607.6 curveto
+382.37 608.21 383.37 607.87 384.66 607.52 curveto
+385.93 607.18 387.72 608.56 389.07 609.57 curveto
+390.42 610.57 391.19 611.68 393.25 611.36 curveto
+395.28 611.03 397.07 610.38 398.3 611.21 curveto
+399.5 612.02 399.49 614.42 401.12 615.36 curveto
+402.68 616.25 402.75 616.65 404.3 617.1 curveto
+405.83 617.53 406.78 616.96 406.78 616.96 curveto
+ closepath clip
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 326.34023 491.20204 moveto 0 0 rlineto stroke
+newpath 328.78577 502.82883 moveto 0 0 rlineto stroke
+newpath 327.35846 516.22365 moveto 0 0 rlineto stroke
+newpath 332.98586 523.06287 moveto 0 0 rlineto stroke
+newpath 328.90964 540.0239 moveto 0 0 rlineto stroke
+newpath 330.47333 544.2462 moveto 0 0 rlineto stroke
+newpath 328.59967 560.068 moveto 0 0 rlineto stroke
+newpath 325.86328 576.21652 moveto 0 0 rlineto stroke
+newpath 328.49112 587.1036 moveto 0 0 rlineto stroke
+newpath 329.15157 593.37355 moveto 0 0 rlineto stroke
+newpath 332.86658 610.23187 moveto 0 0 rlineto stroke
+newpath 344.21925 486.91557 moveto 0 0 rlineto stroke
+newpath 341.01135 496.75272 moveto 0 0 rlineto stroke
+newpath 344.2408 508.54182 moveto 0 0 rlineto stroke
+newpath 340.10135 524.64973 moveto 0 0 rlineto stroke
+newpath 338.75381 535.42274 moveto 0 0 rlineto stroke
+newpath 341.83713 549.50087 moveto 0 0 rlineto stroke
+newpath 344.14384 563.56593 moveto 0 0 rlineto stroke
+newpath 342.83452 571.06165 moveto 0 0 rlineto stroke
+newpath 343.14064 580.34848 moveto 0 0 rlineto stroke
+newpath 339.19734 596.17606 moveto 0 0 rlineto stroke
+newpath 341.24377 610.65327 moveto 0 0 rlineto stroke
+newpath 357.98242 492.04562 moveto 0 0 rlineto stroke
+newpath 354.00612 498.41805 moveto 0 0 rlineto stroke
+newpath 353.24113 510.96895 moveto 0 0 rlineto stroke
+newpath 351.44083 527.2122 moveto 0 0 rlineto stroke
+newpath 351.39862 538.35258 moveto 0 0 rlineto stroke
+newpath 353.51425 550.91785 moveto 0 0 rlineto stroke
+newpath 356.32698 559.69582 moveto 0 0 rlineto stroke
+newpath 350.81773 572.6601 moveto 0 0 rlineto stroke
+newpath 351.96756 586.41927 moveto 0 0 rlineto stroke
+newpath 349.98035 598.27455 moveto 0 0 rlineto stroke
+newpath 355.30879 609.1583 moveto 0 0 rlineto stroke
+newpath 364.43869 489.9888 moveto 0 0 rlineto stroke
+newpath 364.60529 498.76047 moveto 0 0 rlineto stroke
+newpath 363.21172 512.00317 moveto 0 0 rlineto stroke
+newpath 367.78745 525.48727 moveto 0 0 rlineto stroke
+newpath 367.14963 536.29706 moveto 0 0 rlineto stroke
+newpath 365.44395 544.61964 moveto 0 0 rlineto stroke
+newpath 366.51254 558.00096 moveto 0 0 rlineto stroke
+newpath 362.31467 575.66855 moveto 0 0 rlineto stroke
+newpath 367.4507 585.27695 moveto 0 0 rlineto stroke
+newpath 367.6957 592.74521 moveto 0 0 rlineto stroke
+newpath 364.52213 609.21367 moveto 0 0 rlineto stroke
+newpath 376.15471 491.8936 moveto 0 0 rlineto stroke
+newpath 379.64708 501.18945 moveto 0 0 rlineto stroke
+newpath 375.7129 508.94319 moveto 0 0 rlineto stroke
+newpath 374.80019 522.92604 moveto 0 0 rlineto stroke
+newpath 379.53323 533.97069 moveto 0 0 rlineto stroke
+newpath 377.32599 544.03882 moveto 0 0 rlineto stroke
+newpath 376.02583 559.14287 moveto 0 0 rlineto stroke
+newpath 382.01219 569.62973 moveto 0 0 rlineto stroke
+newpath 374.72546 582.94447 moveto 0 0 rlineto stroke
+newpath 376.4976 598.00029 moveto 0 0 rlineto stroke
+newpath 375.33908 605.41975 moveto 0 0 rlineto stroke
+newpath 385.75804 484.58131 moveto 0 0 rlineto stroke
+newpath 391.86806 498.57922 moveto 0 0 rlineto stroke
+newpath 386.78177 510.62445 moveto 0 0 rlineto stroke
+newpath 386.78835 524.37607 moveto 0 0 rlineto stroke
+newpath 393.38786 538.84988 moveto 0 0 rlineto stroke
+newpath 392.48239 545.4517 moveto 0 0 rlineto stroke
+newpath 388.7669 564.12222 moveto 0 0 rlineto stroke
+newpath 391.4594 569.04185 moveto 0 0 rlineto stroke
+newpath 388.24542 581.79002 moveto 0 0 rlineto stroke
+newpath 387.6831 599.07492 moveto 0 0 rlineto stroke
+newpath 390.1542 607.97691 moveto 0 0 rlineto stroke
+newpath 402.45311 486.27312 moveto 0 0 rlineto stroke
+newpath 404.59941 501.9243 moveto 0 0 rlineto stroke
+newpath 403.66733 514.81708 moveto 0 0 rlineto stroke
+newpath 401.31793 527.92169 moveto 0 0 rlineto stroke
+newpath 403.07053 536.18286 moveto 0 0 rlineto stroke
+newpath 404.72626 551.03748 moveto 0 0 rlineto stroke
+newpath 404.51547 557.1656 moveto 0 0 rlineto stroke
+newpath 400.6615 572.75394 moveto 0 0 rlineto stroke
+newpath 398.43156 588.13585 moveto 0 0 rlineto stroke
+newpath 403.08514 595.16571 moveto 0 0 rlineto stroke
+newpath 398.34242 604.77475 moveto 0 0 rlineto stroke
+newpath 412.02946 489.9096 moveto 0 0 rlineto stroke
+newpath 412.9012 496.29283 moveto 0 0 rlineto stroke
+newpath 415.37292 509.01305 moveto 0 0 rlineto stroke
+newpath 417.5955 526.78218 moveto 0 0 rlineto stroke
+newpath 414.04921 532.02885 moveto 0 0 rlineto stroke
+newpath 417.15881 547.18832 moveto 0 0 rlineto stroke
+newpath 413.78244 559.14522 moveto 0 0 rlineto stroke
+newpath 416.65971 571.46413 moveto 0 0 rlineto stroke
+newpath 414.44182 585.53754 moveto 0 0 rlineto stroke
+newpath 409.95123 593.24292 moveto 0 0 rlineto stroke
+newpath 415.68047 606.54614 moveto 0 0 rlineto stroke
+grestore
+gsave newpath 116.77 341.65 moveto
+130.23 385.06 lineto
+146.41 400.64 lineto
+146.41008 400.64 lineto
+146.4464 400.63707 159.11334 399.61852 168.4 398.59 curveto
+178.87 397.44 182.49 395.87 190.06 390.15 curveto
+194.54987 386.7601 199.6097 388.0399 198.7201 392.00963 curveto
+198.72 392.01 lineto
+237.72 354.53 lineto
+237.72 354.53 lineto
+237.72 354.53 237.17 352.53 236.08 349.8 curveto
+235 347.07 234.27 346.34 233.55 345.07 curveto
+232.83 343.8 232.11 343.97 230.12 342.15 curveto
+228.14 340.34 222.91 335.39 222.91 335.39 curveto
+222.91 335.39 lineto
+175.25 329.16 lineto
+155.77 297.68 lineto
+155.76996 297.68001 lineto
+155.74292 297.69112 145.3172 301.97163 143.16 303.23 curveto
+141 304.5 140.1 303.24 137.94 306.31 curveto
+135.78 309.39 133.63 312.65 132.56 317.18 curveto
+131.49 321.7 135.08 319.33 140.48 321.68 curveto
+145.89 324.03 144.46 328.74 145.01 335.44 curveto
+145.56 342.13 141.95 338.88 131.88 339.62 curveto
+121.83322 340.35756 116.8032 341.6415 116.77017 341.64995 curveto
+ closepath clip
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 111.95195 294.27759 moveto 0 0 rlineto stroke
+newpath 116.733 308.24254 moveto 0 0 rlineto stroke
+newpath 118.96532 323.4457 moveto 0 0 rlineto stroke
+newpath 114.98044 335.83873 moveto 0 0 rlineto stroke
+newpath 114.07263 343.84174 moveto 0 0 rlineto stroke
+newpath 112.27477 353.03659 moveto 0 0 rlineto stroke
+newpath 112.98459 368.69603 moveto 0 0 rlineto stroke
+newpath 115.52252 378.44919 moveto 0 0 rlineto stroke
+newpath 114.64316 393.44395 moveto 0 0 rlineto stroke
+newpath 128.9063 295.37712 moveto 0 0 rlineto stroke
+newpath 126.7485 309.87129 moveto 0 0 rlineto stroke
+newpath 123.4931 319.6626 moveto 0 0 rlineto stroke
+newpath 122.70752 327.7634 moveto 0 0 rlineto stroke
+newpath 126.61063 340.88278 moveto 0 0 rlineto stroke
+newpath 123.35779 356.99481 moveto 0 0 rlineto stroke
+newpath 128.79837 367.76016 moveto 0 0 rlineto stroke
+newpath 124.54239 376.48221 moveto 0 0 rlineto stroke
+newpath 124.53043 390.50352 moveto 0 0 rlineto stroke
+newpath 140.76405 295.99 moveto 0 0 rlineto stroke
+newpath 136.34851 308.72943 moveto 0 0 rlineto stroke
+newpath 139.40172 315.7159 moveto 0 0 rlineto stroke
+newpath 136.32527 332.89886 moveto 0 0 rlineto stroke
+newpath 138.29703 339.70476 moveto 0 0 rlineto stroke
+newpath 142.72333 352.83058 moveto 0 0 rlineto stroke
+newpath 136.5012 370.39615 moveto 0 0 rlineto stroke
+newpath 135.35107 383.22282 moveto 0 0 rlineto stroke
+newpath 141.98582 395.76437 moveto 0 0 rlineto stroke
+newpath 151.97507 296.2563 moveto 0 0 rlineto stroke
+newpath 153.84009 304.82133 moveto 0 0 rlineto stroke
+newpath 150.58693 315.67174 moveto 0 0 rlineto stroke
+newpath 149.1365 328.65701 moveto 0 0 rlineto stroke
+newpath 154.27226 342.14015 moveto 0 0 rlineto stroke
+newpath 148.58823 355.60739 moveto 0 0 rlineto stroke
+newpath 153.31131 365.53401 moveto 0 0 rlineto stroke
+newpath 154.49902 379.35175 moveto 0 0 rlineto stroke
+newpath 150.02962 393.10321 moveto 0 0 rlineto stroke
+newpath 160.1707 297.71971 moveto 0 0 rlineto stroke
+newpath 163.39423 304.40247 moveto 0 0 rlineto stroke
+newpath 160.86482 321.59013 moveto 0 0 rlineto stroke
+newpath 164.1788 332.48563 moveto 0 0 rlineto stroke
+newpath 162.4975 342.14491 moveto 0 0 rlineto stroke
+newpath 166.22534 355.32198 moveto 0 0 rlineto stroke
+newpath 162.15723 368.56152 moveto 0 0 rlineto stroke
+newpath 161.14832 375.59363 moveto 0 0 rlineto stroke
+newpath 162.2715 395.22624 moveto 0 0 rlineto stroke
+newpath 174.18958 292.22238 moveto 0 0 rlineto stroke
+newpath 171.7314 310.23637 moveto 0 0 rlineto stroke
+newpath 175.13168 319.29572 moveto 0 0 rlineto stroke
+newpath 177.03891 333.91747 moveto 0 0 rlineto stroke
+newpath 171.72894 339.78801 moveto 0 0 rlineto stroke
+newpath 177.10149 353.0232 moveto 0 0 rlineto stroke
+newpath 171.12909 364.04642 moveto 0 0 rlineto stroke
+newpath 173.0017 376.85573 moveto 0 0 rlineto stroke
+newpath 172.71744 392.82578 moveto 0 0 rlineto stroke
+newpath 184.4976 292.62685 moveto 0 0 rlineto stroke
+newpath 184.27188 305.33876 moveto 0 0 rlineto stroke
+newpath 188.2707 318.09415 moveto 0 0 rlineto stroke
+newpath 190.37396 332.93167 moveto 0 0 rlineto stroke
+newpath 185.91864 342.9021 moveto 0 0 rlineto stroke
+newpath 183.25778 352.49602 moveto 0 0 rlineto stroke
+newpath 184.73698 367.19777 moveto 0 0 rlineto stroke
+newpath 186.82996 378.89902 moveto 0 0 rlineto stroke
+newpath 184.66327 394.09013 moveto 0 0 rlineto stroke
+newpath 195.36153 292.84479 moveto 0 0 rlineto stroke
+newpath 199.05447 311.28532 moveto 0 0 rlineto stroke
+newpath 200.16542 317.55005 moveto 0 0 rlineto stroke
+newpath 200.9268 331.73822 moveto 0 0 rlineto stroke
+newpath 197.64445 344.89131 moveto 0 0 rlineto stroke
+newpath 202.50558 353.87537 moveto 0 0 rlineto stroke
+newpath 197.00476 369.95323 moveto 0 0 rlineto stroke
+newpath 202.20386 378.86447 moveto 0 0 rlineto stroke
+newpath 195.80452 388.1457 moveto 0 0 rlineto stroke
+newpath 210.95747 299.53755 moveto 0 0 rlineto stroke
+newpath 213.84792 306.37428 moveto 0 0 rlineto stroke
+newpath 212.48257 319.46753 moveto 0 0 rlineto stroke
+newpath 213.0712 331.1282 moveto 0 0 rlineto stroke
+newpath 212.90926 345.52133 moveto 0 0 rlineto stroke
+newpath 213.02036 354.27461 moveto 0 0 rlineto stroke
+newpath 214.46469 367.06326 moveto 0 0 rlineto stroke
+newpath 212.24054 379.86469 moveto 0 0 rlineto stroke
+newpath 209.69931 392.73999 moveto 0 0 rlineto stroke
+newpath 219.97725 296.99396 moveto 0 0 rlineto stroke
+newpath 224.41766 311.0738 moveto 0 0 rlineto stroke
+newpath 225.8491 318.5158 moveto 0 0 rlineto stroke
+newpath 221.9288 331.44199 moveto 0 0 rlineto stroke
+newpath 220.43446 346.14708 moveto 0 0 rlineto stroke
+newpath 219.41382 352.05415 moveto 0 0 rlineto stroke
+newpath 224.2845 366.3007 moveto 0 0 rlineto stroke
+newpath 218.66823 378.99757 moveto 0 0 rlineto stroke
+newpath 220.82765 391.21687 moveto 0 0 rlineto stroke
+newpath 232.61848 296.85577 moveto 0 0 rlineto stroke
+newpath 233.86588 309.92699 moveto 0 0 rlineto stroke
+newpath 237.2164 320.76741 moveto 0 0 rlineto stroke
+newpath 234.50856 332.29361 moveto 0 0 rlineto stroke
+newpath 234.26918 341.98804 moveto 0 0 rlineto stroke
+newpath 233.54965 356.89134 moveto 0 0 rlineto stroke
+newpath 234.94241 365.65146 moveto 0 0 rlineto stroke
+newpath 236.84819 377.3821 moveto 0 0 rlineto stroke
+newpath 231.59818 388.43036 moveto 0 0 rlineto stroke
+grestore
+gsave newpath 119.45486 341.0998 moveto
+121.91023 340.65984 126.05066 340.04794 131.88 339.62 curveto
+141.95 338.88 145.56 342.13 145.01 335.44 curveto
+144.46 328.74 145.89 324.03 140.48 321.68 curveto
+135.08 319.33 131.49 321.7 132.56 317.18 curveto
+133.63 312.65 135.78 309.39 137.94 306.31 curveto
+140.1 303.24 141 304.5 143.16 303.23 curveto
+144.28134 302.57588 147.63683 301.10518 150.60461 299.84203 curveto
+150.6048 299.842 lineto
+148.69965 294.70393 142.48686 285.27773 139.94 282.08 curveto
+138.06633 279.71178 134.80025 272.39981 131.95981 266.60527 curveto
+131.95982 266.60533 lineto
+127.90895 266.01308 122.71208 265.17729 119.64 264.39 curveto
+114.07 262.97 102.92 258.5 96.98 257.61 curveto
+91.04 256.71 91.58 270.22 93.92 277.77 curveto
+96.25 285.32 92.12 289.11 91.04 296.5 curveto
+90.73177 298.60912 90.29158 300.24905 89.81987 301.51582 curveto
+89.81985 301.51578 lineto
+90.38591 302.04782 90.9161 302.59454 91.4 303.16 curveto
+96.61 309.26 111.54 325.78 114.42 332.27 curveto
+115.55763 334.82477 117.41893 337.85214 119.45488 341.09961 curveto
+ closepath clip
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 88.0501 252.623 moveto
+78.92848 259.51364 lineto
+72.73714 249.24706 lineto
+82.64966 244.49129 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 88.0501 252.623 moveto
+78.92848 259.51364 lineto
+72.73714 249.24706 lineto
+82.64966 244.49129 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 76.54861 320.6616 moveto
+84.86142 316.5817 lineto
+88.70882 328.46709 lineto
+75.64977 331.4782 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 76.54861 320.6616 moveto
+84.86142 316.5817 lineto
+88.70882 328.46709 lineto
+75.64977 331.4782 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 113.13504 279.50354 moveto
+105.5006 277.77277 lineto
+101.62628 266.9652 lineto
+112.21167 265.37508 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 113.13504 279.50354 moveto
+105.5006 277.77277 lineto
+101.62628 266.9652 lineto
+112.21167 265.37508 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 118.39665 314.9847 moveto
+106.47548 314.42085 lineto
+107.59862 304.73714 lineto
+116.48857 302.41504 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 118.39665 314.9847 moveto
+106.47548 314.42085 lineto
+107.59862 304.73714 lineto
+116.48857 302.41504 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 105.93524 327.10492 moveto
+110.72696 337.24411 lineto
+104.67708 343.52437 lineto
+97.57886 335.5766 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 105.93524 327.10492 moveto
+110.72696 337.24411 lineto
+104.67708 343.52437 lineto
+97.57886 335.5766 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 142.0704 247.67467 moveto
+134.5288 256.27147 lineto
+128.74036 248.54716 lineto
+135.04626 239.02 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath 142.0704 247.67467 moveto
+134.5288 256.27147 lineto
+128.74036 248.54716 lineto
+135.04626 239.02 lineto
+ closepath stroke
+grestore
+gsave newpath -243.66998 -602.33998 moveto
+-243.64723 -602.3219 -223.50908 -586.31493 -221.89 -577.33 curveto
+-220.27 -568.33 -224.95 -564.56 -225.49 -557.18 curveto
+-226.03 -549.8 -224.59 -547.82 -228.55 -540.8 curveto
+-232.51 -533.77 -236.65 -539.54 -243.85 -536.66 curveto
+-251.05 -533.77 -249.25 -540.44 -257.53 -542.41 curveto
+-265.81 -544.39 -268.69 -541.5 -274.8 -535.73 curveto
+-280.90749 -529.9718 -284.68452 -525.29913 -284.69995 -525.28006 curveto
+-284.7 -525.28 lineto
+-164.83 -376.42 lineto
+-136.93 -265.17 lineto
+-107.96 -233.17 lineto
+-107.95995 -233.17009 lineto
+-107.92638 -233.21849 -94.9832 -251.86316 -82.05 -231.19 curveto
+-69.09 -210.5 -67.83 -214.64 -66.57 -207.98 curveto
+-65.31 -201.32 -76.29 -191.95 -80.24 -190.68 curveto
+-80.24 -190.68 lineto
+-80.24 -190.68 -91.04 -185.63 -79.34 -188.52 curveto
+-79.34 -188.52 lineto
+-79.34 -188.52 -53.24 -184.91 -70.69 -164.01 curveto
+-70.69 -164.01 lineto
+-70.69 -164.01 -74.29 -93.1 -60.61 -74.01 curveto
+-60.61 -74.01 lineto
+-56.27 -49.48 lineto
+-56.27 -49.48 lineto
+-56.27 -49.48 9.59 -5.64 27.25 -23.77 curveto
+27.25 -23.77 lineto
+-23.88 -158.76 lineto
+-68.72 -255.29 lineto
+-92.65 -352.31 lineto
+-132.79 -455.12 lineto
+-157.08 -520.95 lineto
+-173.46 -605.17 lineto
+-189.12 -606.81 lineto
+-195.96 -601.42 lineto
+-195.96 -601.42 lineto
+-199.92 -596.74 -200.1 -594.23 -214.87 -592.8 curveto
+-229.60298 -591.36264 -232.67876 -597.63696 -232.68997 -597.65994 curveto
+-232.69 -597.66 lineto
+-243.67 -602.34 lineto
+ closepath clip
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath -286.04698 -608.04478 moveto 0 0 rlineto stroke
+newpath -288.24579 -595.6337 moveto 0 0 rlineto stroke
+newpath -284.63876 -588.58173 moveto 0 0 rlineto stroke
+newpath -285.53284 -571.3944 moveto 0 0 rlineto stroke
+newpath -284.82692 -560.42351 moveto 0 0 rlineto stroke
+newpath -289.13124 -546.268 moveto 0 0 rlineto stroke
+newpath -289.61818 -534.53384 moveto 0 0 rlineto stroke
+newpath -285.9868 -523.13994 moveto 0 0 rlineto stroke
+newpath -289.51518 -513.61023 moveto 0 0 rlineto stroke
+newpath -285.22128 -497.20613 moveto 0 0 rlineto stroke
+newpath -289.54875 -488.65729 moveto 0 0 rlineto stroke
+newpath -287.52986 -476.78111 moveto 0 0 rlineto stroke
+newpath -289.03154 -465.75641 moveto 0 0 rlineto stroke
+newpath -284.4565 -456.41508 moveto 0 0 rlineto stroke
+newpath -285.23851 -439.06293 moveto 0 0 rlineto stroke
+newpath -287.19807 -425.88869 moveto 0 0 rlineto stroke
+newpath -282.71558 -417.2219 moveto 0 0 rlineto stroke
+newpath -288.83324 -401.2226 moveto 0 0 rlineto stroke
+newpath -289.66095 -390.52771 moveto 0 0 rlineto stroke
+newpath -290.22392 -377.88622 moveto 0 0 rlineto stroke
+newpath -283.39172 -366.11931 moveto 0 0 rlineto stroke
+newpath -289.09944 -353.68181 moveto 0 0 rlineto stroke
+newpath -283.91176 -344.39915 moveto 0 0 rlineto stroke
+newpath -282.91812 -329.51328 moveto 0 0 rlineto stroke
+newpath -290.87047 -320.35336 moveto 0 0 rlineto stroke
+newpath -283.3805 -307.29115 moveto 0 0 rlineto stroke
+newpath -289.53204 -299.56535 moveto 0 0 rlineto stroke
+newpath -287.04396 -280.9957 moveto 0 0 rlineto stroke
+newpath -290.21043 -272.68369 moveto 0 0 rlineto stroke
+newpath -290.15097 -258.99503 moveto 0 0 rlineto stroke
+newpath -289.9443 -249.37177 moveto 0 0 rlineto stroke
+newpath -287.55269 -238.15613 moveto 0 0 rlineto stroke
+newpath -287.44742 -223.93169 moveto 0 0 rlineto stroke
+newpath -285.68417 -216.53896 moveto 0 0 rlineto stroke
+newpath -285.53896 -203.55724 moveto 0 0 rlineto stroke
+newpath -286.08064 -186.14699 moveto 0 0 rlineto stroke
+newpath -284.2222 -178.78981 moveto 0 0 rlineto stroke
+newpath -289.14249 -168.17082 moveto 0 0 rlineto stroke
+newpath -286.24493 -155.75166 moveto 0 0 rlineto stroke
+newpath -284.38307 -139.7713 moveto 0 0 rlineto stroke
+newpath -286.62433 -126.28214 moveto 0 0 rlineto stroke
+newpath -286.2727 -120.76372 moveto 0 0 rlineto stroke
+newpath -283.02744 -107.28105 moveto 0 0 rlineto stroke
+newpath -288.63168 -93.79077 moveto 0 0 rlineto stroke
+newpath -289.76607 -79.91957 moveto 0 0 rlineto stroke
+newpath -289.37381 -72.1992 moveto 0 0 rlineto stroke
+newpath -289.78485 -57.54955 moveto 0 0 rlineto stroke
+newpath -289.84927 -46.0882 moveto 0 0 rlineto stroke
+newpath -285.77805 -33.55145 moveto 0 0 rlineto stroke
+newpath -284.8536 -24.49791 moveto 0 0 rlineto stroke
+newpath -270.80237 -610.89818 moveto 0 0 rlineto stroke
+newpath -272.78807 -595.98026 moveto 0 0 rlineto stroke
+newpath -271.5221 -580.89438 moveto 0 0 rlineto stroke
+newpath -274.5324 -571.59477 moveto 0 0 rlineto stroke
+newpath -272.4255 -560.02199 moveto 0 0 rlineto stroke
+newpath -277.77245 -551.43835 moveto 0 0 rlineto stroke
+newpath -274.94342 -532.95984 moveto 0 0 rlineto stroke
+newpath -272.37112 -522.31071 moveto 0 0 rlineto stroke
+newpath -273.13467 -516.31667 moveto 0 0 rlineto stroke
+newpath -278.57578 -498.36504 moveto 0 0 rlineto stroke
+newpath -278.16309 -491.70535 moveto 0 0 rlineto stroke
+newpath -278.28406 -473.12587 moveto 0 0 rlineto stroke
+newpath -277.56036 -462.38748 moveto 0 0 rlineto stroke
+newpath -271.50621 -450.37584 moveto 0 0 rlineto stroke
+newpath -274.92255 -440.42787 moveto 0 0 rlineto stroke
+newpath -273.21188 -426.59984 moveto 0 0 rlineto stroke
+newpath -274.93413 -413.74199 moveto 0 0 rlineto stroke
+newpath -272.01323 -401.49208 moveto 0 0 rlineto stroke
+newpath -278.53024 -395.91113 moveto 0 0 rlineto stroke
+newpath -271.01392 -382.3536 moveto 0 0 rlineto stroke
+newpath -272.6271 -370.356 moveto 0 0 rlineto stroke
+newpath -276.37032 -355.8024 moveto 0 0 rlineto stroke
+newpath -274.55858 -345.0988 moveto 0 0 rlineto stroke
+newpath -270.64491 -331.13312 moveto 0 0 rlineto stroke
+newpath -278.78683 -318.41316 moveto 0 0 rlineto stroke
+newpath -271.03079 -312.96634 moveto 0 0 rlineto stroke
+newpath -272.2573 -295.43463 moveto 0 0 rlineto stroke
+newpath -275.34895 -282.36511 moveto 0 0 rlineto stroke
+newpath -273.20755 -269.36108 moveto 0 0 rlineto stroke
+newpath -272.14809 -259.85226 moveto 0 0 rlineto stroke
+newpath -272.54187 -249.48154 moveto 0 0 rlineto stroke
+newpath -278.13982 -235.79381 moveto 0 0 rlineto stroke
+newpath -272.52489 -226.25146 moveto 0 0 rlineto stroke
+newpath -275.266 -211.64716 moveto 0 0 rlineto stroke
+newpath -274.10835 -203.6172 moveto 0 0 rlineto stroke
+newpath -273.60678 -188.52956 moveto 0 0 rlineto stroke
+newpath -271.33313 -173.24385 moveto 0 0 rlineto stroke
+newpath -273.50604 -164.56436 moveto 0 0 rlineto stroke
+newpath -274.97768 -149.5499 moveto 0 0 rlineto stroke
+newpath -271.12743 -143.0902 moveto 0 0 rlineto stroke
+newpath -278.5501 -126.84044 moveto 0 0 rlineto stroke
+newpath -271.57259 -113.97064 moveto 0 0 rlineto stroke
+newpath -270.87732 -107.38875 moveto 0 0 rlineto stroke
+newpath -277.7951 -92.11406 moveto 0 0 rlineto stroke
+newpath -271.88712 -78.24098 moveto 0 0 rlineto stroke
+newpath -272.56236 -66.01628 moveto 0 0 rlineto stroke
+newpath -275.64148 -55.8739 moveto 0 0 rlineto stroke
+newpath -277.49391 -47.7251 moveto 0 0 rlineto stroke
+newpath -277.37354 -36.05194 moveto 0 0 rlineto stroke
+newpath -277.64896 -20.31874 moveto 0 0 rlineto stroke
+newpath -261.11769 -611.45418 moveto 0 0 rlineto stroke
+newpath -266.78842 -593.1902 moveto 0 0 rlineto stroke
+newpath -260.62737 -587.78575 moveto 0 0 rlineto stroke
+newpath -259.19327 -571.67192 moveto 0 0 rlineto stroke
+newpath -261.94055 -560.9431 moveto 0 0 rlineto stroke
+newpath -261.59473 -545.54008 moveto 0 0 rlineto stroke
+newpath -266.64487 -540.89223 moveto 0 0 rlineto stroke
+newpath -265.7197 -527.23398 moveto 0 0 rlineto stroke
+newpath -260.65968 -514.26 moveto 0 0 rlineto stroke
+newpath -265.64966 -503.16222 moveto 0 0 rlineto stroke
+newpath -261.32018 -484.77274 moveto 0 0 rlineto stroke
+newpath -266.37753 -474.85777 moveto 0 0 rlineto stroke
+newpath -260.59819 -468.76845 moveto 0 0 rlineto stroke
+newpath -265.72931 -456.61102 moveto 0 0 rlineto stroke
+newpath -264.85786 -443.90419 moveto 0 0 rlineto stroke
+newpath -262.35396 -425.07721 moveto 0 0 rlineto stroke
+newpath -264.10246 -417.26852 moveto 0 0 rlineto stroke
+newpath -265.23312 -407.16658 moveto 0 0 rlineto stroke
+newpath -264.9607 -392.94368 moveto 0 0 rlineto stroke
+newpath -261.2764 -382.88663 moveto 0 0 rlineto stroke
+newpath -261.57307 -366.89061 moveto 0 0 rlineto stroke
+newpath -260.7241 -356.48265 moveto 0 0 rlineto stroke
+newpath -261.3213 -345.21329 moveto 0 0 rlineto stroke
+newpath -262.0596 -329.9706 moveto 0 0 rlineto stroke
+newpath -263.40901 -319.95831 moveto 0 0 rlineto stroke
+newpath -263.59023 -305.84209 moveto 0 0 rlineto stroke
+newpath -261.17596 -296.72183 moveto 0 0 rlineto stroke
+newpath -258.60042 -284.62048 moveto 0 0 rlineto stroke
+newpath -262.23741 -272.97888 moveto 0 0 rlineto stroke
+newpath -266.64705 -258.10353 moveto 0 0 rlineto stroke
+newpath -262.66972 -249.74889 moveto 0 0 rlineto stroke
+newpath -265.48422 -235.11069 moveto 0 0 rlineto stroke
+newpath -262.20569 -225.62451 moveto 0 0 rlineto stroke
+newpath -259.77997 -214.52444 moveto 0 0 rlineto stroke
+newpath -265.70966 -202.46907 moveto 0 0 rlineto stroke
+newpath -264.74666 -188.3909 moveto 0 0 rlineto stroke
+newpath -265.25487 -176.25562 moveto 0 0 rlineto stroke
+newpath -260.63333 -163.48488 moveto 0 0 rlineto stroke
+newpath -265.5421 -152.898 moveto 0 0 rlineto stroke
+newpath -260.09502 -138.27345 moveto 0 0 rlineto stroke
+newpath -264.73166 -124.90134 moveto 0 0 rlineto stroke
+newpath -259.68915 -116.45465 moveto 0 0 rlineto stroke
+newpath -261.15994 -106.61131 moveto 0 0 rlineto stroke
+newpath -265.45488 -90.23352 moveto 0 0 rlineto stroke
+newpath -266.01894 -83.19711 moveto 0 0 rlineto stroke
+newpath -261.52097 -65.79521 moveto 0 0 rlineto stroke
+newpath -261.54875 -57.26935 moveto 0 0 rlineto stroke
+newpath -259.47844 -44.63591 moveto 0 0 rlineto stroke
+newpath -262.4992 -36.11073 moveto 0 0 rlineto stroke
+newpath -262.9189 -24.95529 moveto 0 0 rlineto stroke
+newpath -248.02061 -608.19955 moveto 0 0 rlineto stroke
+newpath -247.15276 -593.04475 moveto 0 0 rlineto stroke
+newpath -248.4268 -587.54799 moveto 0 0 rlineto stroke
+newpath -253.31189 -571.12325 moveto 0 0 rlineto stroke
+newpath -251.13428 -562.86263 moveto 0 0 rlineto stroke
+newpath -248.41231 -548.58894 moveto 0 0 rlineto stroke
+newpath -252.03957 -532.75603 moveto 0 0 rlineto stroke
+newpath -250.03564 -525.8855 moveto 0 0 rlineto stroke
+newpath -247.78494 -515.12703 moveto 0 0 rlineto stroke
+newpath -251.7982 -504.05716 moveto 0 0 rlineto stroke
+newpath -253.18137 -487.73335 moveto 0 0 rlineto stroke
+newpath -254.35373 -475.486 moveto 0 0 rlineto stroke
+newpath -249.58269 -468.98001 moveto 0 0 rlineto stroke
+newpath -247.20784 -453.08427 moveto 0 0 rlineto stroke
+newpath -247.92152 -440.99295 moveto 0 0 rlineto stroke
+newpath -249.25682 -428.55482 moveto 0 0 rlineto stroke
+newpath -254.59003 -418.63419 moveto 0 0 rlineto stroke
+newpath -248.20377 -407.23563 moveto 0 0 rlineto stroke
+newpath -250.38664 -394.2621 moveto 0 0 rlineto stroke
+newpath -254.8735 -378.92366 moveto 0 0 rlineto stroke
+newpath -247.84372 -371.31602 moveto 0 0 rlineto stroke
+newpath -250.37624 -354.8807 moveto 0 0 rlineto stroke
+newpath -254.13022 -343.93997 moveto 0 0 rlineto stroke
+newpath -253.4696 -336.37512 moveto 0 0 rlineto stroke
+newpath -251.59721 -322.31372 moveto 0 0 rlineto stroke
+newpath -250.59769 -308.51495 moveto 0 0 rlineto stroke
+newpath -253.89835 -298.76035 moveto 0 0 rlineto stroke
+newpath -246.61807 -283.70729 moveto 0 0 rlineto stroke
+newpath -251.09795 -272.58083 moveto 0 0 rlineto stroke
+newpath -254.85965 -264.61601 moveto 0 0 rlineto stroke
+newpath -251.30467 -248.54703 moveto 0 0 rlineto stroke
+newpath -250.37112 -232.9563 moveto 0 0 rlineto stroke
+newpath -251.15761 -220.85887 moveto 0 0 rlineto stroke
+newpath -252.64726 -213.85825 moveto 0 0 rlineto stroke
+newpath -253.85686 -204.70097 moveto 0 0 rlineto stroke
+newpath -249.11557 -188.29361 moveto 0 0 rlineto stroke
+newpath -254.46213 -176.2847 moveto 0 0 rlineto stroke
+newpath -254.8282 -160.70428 moveto 0 0 rlineto stroke
+newpath -246.6024 -155.27853 moveto 0 0 rlineto stroke
+newpath -254.72723 -143.4333 moveto 0 0 rlineto stroke
+newpath -253.8916 -129.69193 moveto 0 0 rlineto stroke
+newpath -246.97508 -114.93077 moveto 0 0 rlineto stroke
+newpath -252.83151 -103.71088 moveto 0 0 rlineto stroke
+newpath -249.07367 -93.78998 moveto 0 0 rlineto stroke
+newpath -249.5376 -83.32419 moveto 0 0 rlineto stroke
+newpath -248.44202 -68.07494 moveto 0 0 rlineto stroke
+newpath -250.9719 -52.65726 moveto 0 0 rlineto stroke
+newpath -248.15744 -43.32028 moveto 0 0 rlineto stroke
+newpath -254.66093 -32.96461 moveto 0 0 rlineto stroke
+newpath -247.40912 -22.53548 moveto 0 0 rlineto stroke
+newpath -238.11249 -611.2777 moveto 0 0 rlineto stroke
+newpath -239.92522 -596.45111 moveto 0 0 rlineto stroke
+newpath -240.40527 -587.05017 moveto 0 0 rlineto stroke
+newpath -237.54094 -570.83594 moveto 0 0 rlineto stroke
+newpath -240.95143 -564.66592 moveto 0 0 rlineto stroke
+newpath -235.87119 -547.52007 moveto 0 0 rlineto stroke
+newpath -237.48659 -535.99957 moveto 0 0 rlineto stroke
+newpath -239.18362 -521.03172 moveto 0 0 rlineto stroke
+newpath -235.68022 -516.93626 moveto 0 0 rlineto stroke
+newpath -235.15625 -503.64342 moveto 0 0 rlineto stroke
+newpath -241.44507 -492.53162 moveto 0 0 rlineto stroke
+newpath -235.8616 -474.31477 moveto 0 0 rlineto stroke
+newpath -242.61745 -460.91193 moveto 0 0 rlineto stroke
+newpath -236.8399 -449.8661 moveto 0 0 rlineto stroke
+newpath -242.69843 -442.6675 moveto 0 0 rlineto stroke
+newpath -235.36403 -429.78242 moveto 0 0 rlineto stroke
+newpath -242.5989 -413.07213 moveto 0 0 rlineto stroke
+newpath -236.22612 -402.2979 moveto 0 0 rlineto stroke
+newpath -235.48425 -393.58011 moveto 0 0 rlineto stroke
+newpath -237.8224 -377.92133 moveto 0 0 rlineto stroke
+newpath -241.3818 -372.09746 moveto 0 0 rlineto stroke
+newpath -240.9525 -355.60507 moveto 0 0 rlineto stroke
+newpath -239.75381 -347.36482 moveto 0 0 rlineto stroke
+newpath -235.47476 -335.00255 moveto 0 0 rlineto stroke
+newpath -237.19461 -322.79117 moveto 0 0 rlineto stroke
+newpath -241.61443 -312.54004 moveto 0 0 rlineto stroke
+newpath -241.275 -295.62245 moveto 0 0 rlineto stroke
+newpath -234.79263 -284.55226 moveto 0 0 rlineto stroke
+newpath -242.5232 -274.40558 moveto 0 0 rlineto stroke
+newpath -236.84598 -258.67146 moveto 0 0 rlineto stroke
+newpath -235.79178 -252.71237 moveto 0 0 rlineto stroke
+newpath -235.16602 -237.6302 moveto 0 0 rlineto stroke
+newpath -239.11905 -224.09619 moveto 0 0 rlineto stroke
+newpath -241.62744 -208.65254 moveto 0 0 rlineto stroke
+newpath -235.96039 -200.19717 moveto 0 0 rlineto stroke
+newpath -236.99019 -191.08932 moveto 0 0 rlineto stroke
+newpath -240.25262 -176.48625 moveto 0 0 rlineto stroke
+newpath -238.49583 -160.84091 moveto 0 0 rlineto stroke
+newpath -240.4796 -154.90665 moveto 0 0 rlineto stroke
+newpath -240.13286 -144.6802 moveto 0 0 rlineto stroke
+newpath -241.54448 -132.63962 moveto 0 0 rlineto stroke
+newpath -235.99515 -116.45383 moveto 0 0 rlineto stroke
+newpath -239.64839 -103.94855 moveto 0 0 rlineto stroke
+newpath -236.05994 -90.04123 moveto 0 0 rlineto stroke
+newpath -237.93689 -82.89497 moveto 0 0 rlineto stroke
+newpath -238.6826 -67.55406 moveto 0 0 rlineto stroke
+newpath -236.42918 -53.70647 moveto 0 0 rlineto stroke
+newpath -240.99908 -48.91403 moveto 0 0 rlineto stroke
+newpath -242.44029 -30.05621 moveto 0 0 rlineto stroke
+newpath -239.10483 -22.6302 moveto 0 0 rlineto stroke
+newpath -226.09811 -612.80585 moveto 0 0 rlineto stroke
+newpath -229.29501 -597.03946 moveto 0 0 rlineto stroke
+newpath -222.85747 -586.72368 moveto 0 0 rlineto stroke
+newpath -227.05298 -576.1602 moveto 0 0 rlineto stroke
+newpath -228.59052 -557.66232 moveto 0 0 rlineto stroke
+newpath -229.46663 -551.76988 moveto 0 0 rlineto stroke
+newpath -227.38039 -532.9909 moveto 0 0 rlineto stroke
+newpath -227.49261 -528.16579 moveto 0 0 rlineto stroke
+newpath -227.55647 -511.65834 moveto 0 0 rlineto stroke
+newpath -225.7122 -503.58775 moveto 0 0 rlineto stroke
+newpath -230.44714 -489.6163 moveto 0 0 rlineto stroke
+newpath -229.29022 -480.24358 moveto 0 0 rlineto stroke
+newpath -225.65672 -461.7889 moveto 0 0 rlineto stroke
+newpath -230.49751 -455.27513 moveto 0 0 rlineto stroke
+newpath -228.32372 -437.61076 moveto 0 0 rlineto stroke
+newpath -225.87708 -432.23476 moveto 0 0 rlineto stroke
+newpath -227.82191 -420.25029 moveto 0 0 rlineto stroke
+newpath -227.87561 -401.47333 moveto 0 0 rlineto stroke
+newpath -223.4152 -390.57509 moveto 0 0 rlineto stroke
+newpath -227.96883 -378.74597 moveto 0 0 rlineto stroke
+newpath -225.54593 -370.62766 moveto 0 0 rlineto stroke
+newpath -224.30801 -358.65129 moveto 0 0 rlineto stroke
+newpath -226.43901 -342.73116 moveto 0 0 rlineto stroke
+newpath -224.1523 -330.83679 moveto 0 0 rlineto stroke
+newpath -222.93047 -322.94499 moveto 0 0 rlineto stroke
+newpath -224.9872 -308.16125 moveto 0 0 rlineto stroke
+newpath -224.46843 -292.92108 moveto 0 0 rlineto stroke
+newpath -226.45694 -286.8335 moveto 0 0 rlineto stroke
+newpath -227.61607 -275.71153 moveto 0 0 rlineto stroke
+newpath -228.2046 -260.98991 moveto 0 0 rlineto stroke
+newpath -223.81776 -251.80612 moveto 0 0 rlineto stroke
+newpath -226.02356 -233.17447 moveto 0 0 rlineto stroke
+newpath -222.70703 -226.63046 moveto 0 0 rlineto stroke
+newpath -229.15402 -210.2889 moveto 0 0 rlineto stroke
+newpath -225.46881 -203.68399 moveto 0 0 rlineto stroke
+newpath -225.61037 -187.67287 moveto 0 0 rlineto stroke
+newpath -226.49731 -172.77411 moveto 0 0 rlineto stroke
+newpath -228.31686 -164.99904 moveto 0 0 rlineto stroke
+newpath -230.37776 -152.90376 moveto 0 0 rlineto stroke
+newpath -224.5633 -142.3846 moveto 0 0 rlineto stroke
+newpath -225.57979 -132.70345 moveto 0 0 rlineto stroke
+newpath -229.62483 -116.98752 moveto 0 0 rlineto stroke
+newpath -227.29591 -106.36685 moveto 0 0 rlineto stroke
+newpath -226.52666 -94.13605 moveto 0 0 rlineto stroke
+newpath -223.34529 -77.55617 moveto 0 0 rlineto stroke
+newpath -223.00587 -67.81151 moveto 0 0 rlineto stroke
+newpath -228.31209 -58.92859 moveto 0 0 rlineto stroke
+newpath -226.94543 -42.60362 moveto 0 0 rlineto stroke
+newpath -229.951 -31.65811 moveto 0 0 rlineto stroke
+newpath -223.6609 -20.16812 moveto 0 0 rlineto stroke
+newpath -216.02852 -607.10648 moveto 0 0 rlineto stroke
+newpath -216.07031 -598.3921 moveto 0 0 rlineto stroke
+newpath -213.06497 -585.16232 moveto 0 0 rlineto stroke
+newpath -218.6515 -569.55518 moveto 0 0 rlineto stroke
+newpath -214.30342 -561.01111 moveto 0 0 rlineto stroke
+newpath -212.73369 -552.98128 moveto 0 0 rlineto stroke
+newpath -211.99529 -534.74104 moveto 0 0 rlineto stroke
+newpath -212.47083 -525.8429 moveto 0 0 rlineto stroke
+newpath -215.89621 -514.3304 moveto 0 0 rlineto stroke
+newpath -210.6545 -503.07327 moveto 0 0 rlineto stroke
+newpath -212.87894 -486.7381 moveto 0 0 rlineto stroke
+newpath -218.69511 -476.96284 moveto 0 0 rlineto stroke
+newpath -214.77896 -468.23936 moveto 0 0 rlineto stroke
+newpath -211.77628 -451.17677 moveto 0 0 rlineto stroke
+newpath -214.27002 -442.94485 moveto 0 0 rlineto stroke
+newpath -214.29973 -425.63327 moveto 0 0 rlineto stroke
+newpath -215.40765 -420.56581 moveto 0 0 rlineto stroke
+newpath -214.48982 -405.75478 moveto 0 0 rlineto stroke
+newpath -216.10628 -392.18358 moveto 0 0 rlineto stroke
+newpath -212.9091 -381.09485 moveto 0 0 rlineto stroke
+newpath -212.29993 -370.81314 moveto 0 0 rlineto stroke
+newpath -210.90999 -354.75374 moveto 0 0 rlineto stroke
+newpath -214.14154 -345.13594 moveto 0 0 rlineto stroke
+newpath -212.38376 -335.62595 moveto 0 0 rlineto stroke
+newpath -213.29504 -320.49098 moveto 0 0 rlineto stroke
+newpath -212.28659 -306.04056 moveto 0 0 rlineto stroke
+newpath -215.29407 -300.49199 moveto 0 0 rlineto stroke
+newpath -211.08932 -287.46451 moveto 0 0 rlineto stroke
+newpath -218.28609 -271.11746 moveto 0 0 rlineto stroke
+newpath -212.2848 -258.07094 moveto 0 0 rlineto stroke
+newpath -216.80432 -245.19829 moveto 0 0 rlineto stroke
+newpath -212.99745 -240.06247 moveto 0 0 rlineto stroke
+newpath -216.57646 -226.47188 moveto 0 0 rlineto stroke
+newpath -216.29149 -209.05133 moveto 0 0 rlineto stroke
+newpath -217.20897 -197.11688 moveto 0 0 rlineto stroke
+newpath -215.05145 -192.60739 moveto 0 0 rlineto stroke
+newpath -212.25095 -180.72578 moveto 0 0 rlineto stroke
+newpath -216.31482 -161.47842 moveto 0 0 rlineto stroke
+newpath -218.47295 -151.75429 moveto 0 0 rlineto stroke
+newpath -213.23311 -143.81432 moveto 0 0 rlineto stroke
+newpath -214.40288 -130.56296 moveto 0 0 rlineto stroke
+newpath -214.01515 -113.71405 moveto 0 0 rlineto stroke
+newpath -217.14798 -108.17323 moveto 0 0 rlineto stroke
+newpath -217.3477 -93.36092 moveto 0 0 rlineto stroke
+newpath -217.22462 -81.38179 moveto 0 0 rlineto stroke
+newpath -213.0798 -65.66397 moveto 0 0 rlineto stroke
+newpath -214.32205 -54.07396 moveto 0 0 rlineto stroke
+newpath -211.18146 -46.4088 moveto 0 0 rlineto stroke
+newpath -214.46947 -29.04869 moveto 0 0 rlineto stroke
+newpath -211.14847 -18.12053 moveto 0 0 rlineto stroke
+newpath -201.05513 -609.66084 moveto 0 0 rlineto stroke
+newpath -200.11975 -598.08463 moveto 0 0 rlineto stroke
+newpath -202.2265 -584.3333 moveto 0 0 rlineto stroke
+newpath -205.9516 -571.27599 moveto 0 0 rlineto stroke
+newpath -206.58684 -561.24648 moveto 0 0 rlineto stroke
+newpath -201.07556 -544.76674 moveto 0 0 rlineto stroke
+newpath -199.7312 -540.22801 moveto 0 0 rlineto stroke
+newpath -201.9499 -525.2089 moveto 0 0 rlineto stroke
+newpath -201.82838 -516.43094 moveto 0 0 rlineto stroke
+newpath -205.85538 -499.64005 moveto 0 0 rlineto stroke
+newpath -203.69295 -489.28262 moveto 0 0 rlineto stroke
+newpath -204.19167 -476.0852 moveto 0 0 rlineto stroke
+newpath -200.04039 -463.53252 moveto 0 0 rlineto stroke
+newpath -206.77507 -452.25336 moveto 0 0 rlineto stroke
+newpath -203.56862 -442.21767 moveto 0 0 rlineto stroke
+newpath -204.56688 -430.53471 moveto 0 0 rlineto stroke
+newpath -201.14491 -413.3208 moveto 0 0 rlineto stroke
+newpath -201.98064 -408.90216 moveto 0 0 rlineto stroke
+newpath -206.54448 -393.94194 moveto 0 0 rlineto stroke
+newpath -204.91103 -378.31543 moveto 0 0 rlineto stroke
+newpath -204.15988 -367.6865 moveto 0 0 rlineto stroke
+newpath -198.5971 -355.65643 moveto 0 0 rlineto stroke
+newpath -199.16895 -341.72888 moveto 0 0 rlineto stroke
+newpath -201.64963 -331.84378 moveto 0 0 rlineto stroke
+newpath -205.86649 -318.23897 moveto 0 0 rlineto stroke
+newpath -206.62231 -311.11757 moveto 0 0 rlineto stroke
+newpath -201.54718 -292.81717 moveto 0 0 rlineto stroke
+newpath -201.70154 -282.65825 moveto 0 0 rlineto stroke
+newpath -198.9994 -270.63232 moveto 0 0 rlineto stroke
+newpath -202.2237 -260.6207 moveto 0 0 rlineto stroke
+newpath -204.80846 -251.19319 moveto 0 0 rlineto stroke
+newpath -201.59302 -237.55257 moveto 0 0 rlineto stroke
+newpath -200.40338 -224.38121 moveto 0 0 rlineto stroke
+newpath -203.15384 -212.28821 moveto 0 0 rlineto stroke
+newpath -202.60287 -199.21716 moveto 0 0 rlineto stroke
+newpath -203.69113 -191.87106 moveto 0 0 rlineto stroke
+newpath -203.53502 -176.22997 moveto 0 0 rlineto stroke
+newpath -202.51733 -163.90495 moveto 0 0 rlineto stroke
+newpath -205.50363 -155.75093 moveto 0 0 rlineto stroke
+newpath -202.06981 -138.60484 moveto 0 0 rlineto stroke
+newpath -198.74896 -127.7928 moveto 0 0 rlineto stroke
+newpath -200.82874 -119.30405 moveto 0 0 rlineto stroke
+newpath -201.19221 -106.95055 moveto 0 0 rlineto stroke
+newpath -203.91684 -93.67801 moveto 0 0 rlineto stroke
+newpath -205.46353 -80.0103 moveto 0 0 rlineto stroke
+newpath -199.45012 -71.9537 moveto 0 0 rlineto stroke
+newpath -203.31564 -53.45274 moveto 0 0 rlineto stroke
+newpath -206.30774 -45.0773 moveto 0 0 rlineto stroke
+newpath -201.28592 -32.34543 moveto 0 0 rlineto stroke
+newpath -205.91269 -18.50801 moveto 0 0 rlineto stroke
+newpath -192.56897 -611.56071 moveto 0 0 rlineto stroke
+newpath -194.80537 -600.55553 moveto 0 0 rlineto stroke
+newpath -189.17355 -585.70227 moveto 0 0 rlineto stroke
+newpath -187.81464 -575.38455 moveto 0 0 rlineto stroke
+newpath -189.41547 -564.73631 moveto 0 0 rlineto stroke
+newpath -187.00789 -550.58687 moveto 0 0 rlineto stroke
+newpath -188.64725 -532.69035 moveto 0 0 rlineto stroke
+newpath -193.84206 -521.3108 moveto 0 0 rlineto stroke
+newpath -187.01633 -514.17828 moveto 0 0 rlineto stroke
+newpath -188.79767 -497.8026 moveto 0 0 rlineto stroke
+newpath -186.79059 -489.37164 moveto 0 0 rlineto stroke
+newpath -190.5337 -479.7809 moveto 0 0 rlineto stroke
+newpath -188.41586 -463.62303 moveto 0 0 rlineto stroke
+newpath -191.92282 -456.14935 moveto 0 0 rlineto stroke
+newpath -190.19609 -438.30464 moveto 0 0 rlineto stroke
+newpath -190.25221 -428.15182 moveto 0 0 rlineto stroke
+newpath -191.88135 -415.13551 moveto 0 0 rlineto stroke
+newpath -193.98431 -401.80537 moveto 0 0 rlineto stroke
+newpath -188.60786 -392.91904 moveto 0 0 rlineto stroke
+newpath -193.42313 -383.52768 moveto 0 0 rlineto stroke
+newpath -188.28404 -371.51381 moveto 0 0 rlineto stroke
+newpath -194.24007 -360.60909 moveto 0 0 rlineto stroke
+newpath -192.14868 -340.9121 moveto 0 0 rlineto stroke
+newpath -187.43515 -330.8499 moveto 0 0 rlineto stroke
+newpath -187.19131 -318.78812 moveto 0 0 rlineto stroke
+newpath -188.33827 -310.50565 moveto 0 0 rlineto stroke
+newpath -194.82385 -294.93271 moveto 0 0 rlineto stroke
+newpath -194.44272 -284.07182 moveto 0 0 rlineto stroke
+newpath -188.2596 -269.65431 moveto 0 0 rlineto stroke
+newpath -189.4105 -264.06357 moveto 0 0 rlineto stroke
+newpath -187.57495 -251.02966 moveto 0 0 rlineto stroke
+newpath -194.6709 -236.78452 moveto 0 0 rlineto stroke
+newpath -191.05652 -227.52303 moveto 0 0 rlineto stroke
+newpath -192.22792 -215.97443 moveto 0 0 rlineto stroke
+newpath -192.65161 -197.25804 moveto 0 0 rlineto stroke
+newpath -192.90855 -187.18576 moveto 0 0 rlineto stroke
+newpath -186.65146 -178.23964 moveto 0 0 rlineto stroke
+newpath -189.12904 -165.90027 moveto 0 0 rlineto stroke
+newpath -190.31155 -153.7 moveto 0 0 rlineto stroke
+newpath -188.85529 -139.4822 moveto 0 0 rlineto stroke
+newpath -193.62447 -131.22449 moveto 0 0 rlineto stroke
+newpath -187.78531 -119.89166 moveto 0 0 rlineto stroke
+newpath -190.02678 -104.93488 moveto 0 0 rlineto stroke
+newpath -188.49588 -95.24478 moveto 0 0 rlineto stroke
+newpath -193.404 -80.3232 moveto 0 0 rlineto stroke
+newpath -192.33786 -67.33754 moveto 0 0 rlineto stroke
+newpath -188.14159 -54.90405 moveto 0 0 rlineto stroke
+newpath -194.62453 -48.763 moveto 0 0 rlineto stroke
+newpath -193.9751 -31.81754 moveto 0 0 rlineto stroke
+newpath -189.24254 -20.4161 moveto 0 0 rlineto stroke
+newpath -181.07718 -606.05428 moveto 0 0 rlineto stroke
+newpath -175.94818 -600.05365 moveto 0 0 rlineto stroke
+newpath -178.78854 -587.81831 moveto 0 0 rlineto stroke
+newpath -180.75406 -573.42441 moveto 0 0 rlineto stroke
+newpath -181.06784 -564.43733 moveto 0 0 rlineto stroke
+newpath -176.04596 -551.75655 moveto 0 0 rlineto stroke
+newpath -178.52148 -536.38113 moveto 0 0 rlineto stroke
+newpath -178.25749 -528.3903 moveto 0 0 rlineto stroke
+newpath -177.16747 -513.23909 moveto 0 0 rlineto stroke
+newpath -181.69315 -498.64102 moveto 0 0 rlineto stroke
+newpath -182.32869 -489.14256 moveto 0 0 rlineto stroke
+newpath -179.75658 -474.45258 moveto 0 0 rlineto stroke
+newpath -176.6249 -468.50085 moveto 0 0 rlineto stroke
+newpath -175.29173 -450.25763 moveto 0 0 rlineto stroke
+newpath -180.78955 -439.63994 moveto 0 0 rlineto stroke
+newpath -182.54156 -428.11948 moveto 0 0 rlineto stroke
+newpath -178.65486 -412.7254 moveto 0 0 rlineto stroke
+newpath -180.90103 -406.52795 moveto 0 0 rlineto stroke
+newpath -182.59357 -396.27669 moveto 0 0 rlineto stroke
+newpath -182.29951 -384.67949 moveto 0 0 rlineto stroke
+newpath -178.06476 -367.93211 moveto 0 0 rlineto stroke
+newpath -181.1127 -353.70705 moveto 0 0 rlineto stroke
+newpath -175.72737 -341.57207 moveto 0 0 rlineto stroke
+newpath -181.37398 -331.909 moveto 0 0 rlineto stroke
+newpath -182.56082 -324.17616 moveto 0 0 rlineto stroke
+newpath -179.12602 -307.96959 moveto 0 0 rlineto stroke
+newpath -179.01283 -292.8235 moveto 0 0 rlineto stroke
+newpath -178.10512 -287.35635 moveto 0 0 rlineto stroke
+newpath -176.17795 -269.01949 moveto 0 0 rlineto stroke
+newpath -179.37115 -257.81653 moveto 0 0 rlineto stroke
+newpath -181.4209 -246.6286 moveto 0 0 rlineto stroke
+newpath -182.38211 -236.46727 moveto 0 0 rlineto stroke
+newpath -175.26013 -227.68375 moveto 0 0 rlineto stroke
+newpath -174.5221 -214.41698 moveto 0 0 rlineto stroke
+newpath -176.98582 -201.48581 moveto 0 0 rlineto stroke
+newpath -178.75354 -191.35257 moveto 0 0 rlineto stroke
+newpath -177.13322 -173.16838 moveto 0 0 rlineto stroke
+newpath -178.027 -164.72551 moveto 0 0 rlineto stroke
+newpath -181.59468 -151.13905 moveto 0 0 rlineto stroke
+newpath -174.701 -144.84082 moveto 0 0 rlineto stroke
+newpath -182.6663 -125.64871 moveto 0 0 rlineto stroke
+newpath -177.07253 -115.69203 moveto 0 0 rlineto stroke
+newpath -174.78741 -104.84547 moveto 0 0 rlineto stroke
+newpath -179.83226 -91.32059 moveto 0 0 rlineto stroke
+newpath -181.5672 -77.35281 moveto 0 0 rlineto stroke
+newpath -177.78064 -65.8566 moveto 0 0 rlineto stroke
+newpath -180.77844 -59.5133 moveto 0 0 rlineto stroke
+newpath -179.74487 -41.6724 moveto 0 0 rlineto stroke
+newpath -177.1494 -32.71858 moveto 0 0 rlineto stroke
+newpath -177.88365 -23.01823 moveto 0 0 rlineto stroke
+newpath -166.38577 -606.89995 moveto 0 0 rlineto stroke
+newpath -162.62119 -592.95975 moveto 0 0 rlineto stroke
+newpath -167.7205 -582.80608 moveto 0 0 rlineto stroke
+newpath -162.97145 -575.39017 moveto 0 0 rlineto stroke
+newpath -167.05843 -563.31313 moveto 0 0 rlineto stroke
+newpath -169.07635 -545.68779 moveto 0 0 rlineto stroke
+newpath -166.4968 -538.26822 moveto 0 0 rlineto stroke
+newpath -165.13731 -527.45699 moveto 0 0 rlineto stroke
+newpath -163.88826 -509.50624 moveto 0 0 rlineto stroke
+newpath -165.32462 -499.11238 moveto 0 0 rlineto stroke
+newpath -163.17273 -487.11412 moveto 0 0 rlineto stroke
+newpath -168.61339 -475.82912 moveto 0 0 rlineto stroke
+newpath -167.97627 -465.19403 moveto 0 0 rlineto stroke
+newpath -165.67783 -456.32108 moveto 0 0 rlineto stroke
+newpath -164.84566 -439.03996 moveto 0 0 rlineto stroke
+newpath -165.38815 -430.74263 moveto 0 0 rlineto stroke
+newpath -166.55505 -417.91199 moveto 0 0 rlineto stroke
+newpath -162.67001 -401.21017 moveto 0 0 rlineto stroke
+newpath -167.31267 -396.2229 moveto 0 0 rlineto stroke
+newpath -169.46918 -376.68394 moveto 0 0 rlineto stroke
+newpath -163.13036 -371.5959 moveto 0 0 rlineto stroke
+newpath -163.53265 -359.26773 moveto 0 0 rlineto stroke
+newpath -164.72606 -341.44235 moveto 0 0 rlineto stroke
+newpath -169.21509 -335.82741 moveto 0 0 rlineto stroke
+newpath -168.91663 -318.98514 moveto 0 0 rlineto stroke
+newpath -163.72096 -307.32947 moveto 0 0 rlineto stroke
+newpath -167.38512 -299.52684 moveto 0 0 rlineto stroke
+newpath -163.5676 -285.92279 moveto 0 0 rlineto stroke
+newpath -165.45079 -275.0157 moveto 0 0 rlineto stroke
+newpath -166.18803 -263.59344 moveto 0 0 rlineto stroke
+newpath -165.64977 -248.60153 moveto 0 0 rlineto stroke
+newpath -167.03331 -235.40332 moveto 0 0 rlineto stroke
+newpath -164.02232 -227.36609 moveto 0 0 rlineto stroke
+newpath -168.19814 -209.9902 moveto 0 0 rlineto stroke
+newpath -169.41673 -199.0583 moveto 0 0 rlineto stroke
+newpath -165.4315 -192.07101 moveto 0 0 rlineto stroke
+newpath -162.9867 -175.47975 moveto 0 0 rlineto stroke
+newpath -170.74141 -168.9399 moveto 0 0 rlineto stroke
+newpath -170.12346 -153.47679 moveto 0 0 rlineto stroke
+newpath -167.84065 -143.58295 moveto 0 0 rlineto stroke
+newpath -170.23914 -126.72546 moveto 0 0 rlineto stroke
+newpath -167.5617 -119.24706 moveto 0 0 rlineto stroke
+newpath -169.94629 -105.4899 moveto 0 0 rlineto stroke
+newpath -164.74689 -90.37512 moveto 0 0 rlineto stroke
+newpath -167.68082 -84.83025 moveto 0 0 rlineto stroke
+newpath -166.27963 -67.22661 moveto 0 0 rlineto stroke
+newpath -169.64146 -52.79903 moveto 0 0 rlineto stroke
+newpath -166.4155 -42.93723 moveto 0 0 rlineto stroke
+newpath -162.90956 -36.96484 moveto 0 0 rlineto stroke
+newpath -165.16095 -23.46922 moveto 0 0 rlineto stroke
+newpath -152.93974 -609.51578 moveto 0 0 rlineto stroke
+newpath -151.06131 -600.59338 moveto 0 0 rlineto stroke
+newpath -152.66211 -583.2703 moveto 0 0 rlineto stroke
+newpath -155.5156 -575.10397 moveto 0 0 rlineto stroke
+newpath -150.86516 -559.55434 moveto 0 0 rlineto stroke
+newpath -155.25647 -550.59676 moveto 0 0 rlineto stroke
+newpath -156.0112 -533.9558 moveto 0 0 rlineto stroke
+newpath -155.7315 -523.23032 moveto 0 0 rlineto stroke
+newpath -150.67921 -516.20923 moveto 0 0 rlineto stroke
+newpath -154.479 -499.35721 moveto 0 0 rlineto stroke
+newpath -152.72388 -485.11197 moveto 0 0 rlineto stroke
+newpath -152.41336 -476.3768 moveto 0 0 rlineto stroke
+newpath -157.29259 -462.41933 moveto 0 0 rlineto stroke
+newpath -157.15611 -455.44322 moveto 0 0 rlineto stroke
+newpath -150.71304 -443.57065 moveto 0 0 rlineto stroke
+newpath -156.60385 -431.40112 moveto 0 0 rlineto stroke
+newpath -157.0517 -419.13322 moveto 0 0 rlineto stroke
+newpath -151.05634 -405.97401 moveto 0 0 rlineto stroke
+newpath -151.39452 -390.95224 moveto 0 0 rlineto stroke
+newpath -152.25195 -377.13947 moveto 0 0 rlineto stroke
+newpath -154.31233 -369.94406 moveto 0 0 rlineto stroke
+newpath -157.7143 -359.7851 moveto 0 0 rlineto stroke
+newpath -155.03223 -345.80618 moveto 0 0 rlineto stroke
+newpath -158.36682 -331.75995 moveto 0 0 rlineto stroke
+newpath -154.5557 -317.7322 moveto 0 0 rlineto stroke
+newpath -151.30492 -306.66345 moveto 0 0 rlineto stroke
+newpath -153.15672 -293.89078 moveto 0 0 rlineto stroke
+newpath -156.56317 -281.1136 moveto 0 0 rlineto stroke
+newpath -150.73965 -268.9729 moveto 0 0 rlineto stroke
+newpath -151.47974 -260.71384 moveto 0 0 rlineto stroke
+newpath -153.96704 -250.38097 moveto 0 0 rlineto stroke
+newpath -152.6426 -239.7292 moveto 0 0 rlineto stroke
+newpath -155.88239 -224.39355 moveto 0 0 rlineto stroke
+newpath -153.28485 -215.88698 moveto 0 0 rlineto stroke
+newpath -154.51915 -198.18356 moveto 0 0 rlineto stroke
+newpath -152.956 -192.3212 moveto 0 0 rlineto stroke
+newpath -157.52164 -175.36147 moveto 0 0 rlineto stroke
+newpath -151.58331 -168.04742 moveto 0 0 rlineto stroke
+newpath -151.0373 -153.6768 moveto 0 0 rlineto stroke
+newpath -151.29608 -138.54616 moveto 0 0 rlineto stroke
+newpath -155.16614 -124.80844 moveto 0 0 rlineto stroke
+newpath -157.50366 -119.06825 moveto 0 0 rlineto stroke
+newpath -158.09323 -108.25461 moveto 0 0 rlineto stroke
+newpath -154.8514 -90.25594 moveto 0 0 rlineto stroke
+newpath -156.46193 -77.58295 moveto 0 0 rlineto stroke
+newpath -153.70192 -71.2442 moveto 0 0 rlineto stroke
+newpath -156.22662 -56.26796 moveto 0 0 rlineto stroke
+newpath -150.66434 -41.478 moveto 0 0 rlineto stroke
+newpath -151.0776 -29.83755 moveto 0 0 rlineto stroke
+newpath -152.16391 -19.79645 moveto 0 0 rlineto stroke
+newpath -146.86465 -609.85652 moveto 0 0 rlineto stroke
+newpath -141.47075 -597.46645 moveto 0 0 rlineto stroke
+newpath -144.04317 -587.06769 moveto 0 0 rlineto stroke
+newpath -146.72954 -570.76477 moveto 0 0 rlineto stroke
+newpath -146.2674 -557.13666 moveto 0 0 rlineto stroke
+newpath -143.30225 -551.3752 moveto 0 0 rlineto stroke
+newpath -144.03886 -535.77817 moveto 0 0 rlineto stroke
+newpath -146.16304 -527.58437 moveto 0 0 rlineto stroke
+newpath -142.68951 -515.30475 moveto 0 0 rlineto stroke
+newpath -144.21292 -504.79332 moveto 0 0 rlineto stroke
+newpath -142.29033 -488.29678 moveto 0 0 rlineto stroke
+newpath -142.6098 -476.6735 moveto 0 0 rlineto stroke
+newpath -138.55818 -461.6209 moveto 0 0 rlineto stroke
+newpath -142.32562 -450.4376 moveto 0 0 rlineto stroke
+newpath -142.80876 -443.30637 moveto 0 0 rlineto stroke
+newpath -146.77014 -426.75616 moveto 0 0 rlineto stroke
+newpath -140.77628 -418.14653 moveto 0 0 rlineto stroke
+newpath -142.60133 -402.48442 moveto 0 0 rlineto stroke
+newpath -141.72401 -394.82155 moveto 0 0 rlineto stroke
+newpath -143.34077 -381.50264 moveto 0 0 rlineto stroke
+newpath -140.08147 -368.45781 moveto 0 0 rlineto stroke
+newpath -139.9063 -358.20905 moveto 0 0 rlineto stroke
+newpath -146.89319 -348.10806 moveto 0 0 rlineto stroke
+newpath -141.66718 -336.96564 moveto 0 0 rlineto stroke
+newpath -140.01538 -318.05511 moveto 0 0 rlineto stroke
+newpath -142.38559 -309.80403 moveto 0 0 rlineto stroke
+newpath -145.34268 -295.39691 moveto 0 0 rlineto stroke
+newpath -146.06726 -287.40111 moveto 0 0 rlineto stroke
+newpath -141.29054 -272.26953 moveto 0 0 rlineto stroke
+newpath -144.7348 -259.40173 moveto 0 0 rlineto stroke
+newpath -143.8744 -245.40213 moveto 0 0 rlineto stroke
+newpath -140.1175 -235.31061 moveto 0 0 rlineto stroke
+newpath -141.724 -225.71811 moveto 0 0 rlineto stroke
+newpath -141.87376 -209.60289 moveto 0 0 rlineto stroke
+newpath -144.77856 -198.90363 moveto 0 0 rlineto stroke
+newpath -141.00606 -187.7447 moveto 0 0 rlineto stroke
+newpath -146.14919 -175.28186 moveto 0 0 rlineto stroke
+newpath -146.62312 -167.57527 moveto 0 0 rlineto stroke
+newpath -142.35176 -156.527 moveto 0 0 rlineto stroke
+newpath -146.79733 -141.84755 moveto 0 0 rlineto stroke
+newpath -143.7787 -132.73335 moveto 0 0 rlineto stroke
+newpath -138.9239 -113.76285 moveto 0 0 rlineto stroke
+newpath -146.51926 -105.37636 moveto 0 0 rlineto stroke
+newpath -142.3132 -89.10663 moveto 0 0 rlineto stroke
+newpath -144.20262 -84.70412 moveto 0 0 rlineto stroke
+newpath -141.89146 -69.15599 moveto 0 0 rlineto stroke
+newpath -143.78958 -57.97945 moveto 0 0 rlineto stroke
+newpath -142.96832 -41.66483 moveto 0 0 rlineto stroke
+newpath -145.94556 -31.65108 moveto 0 0 rlineto stroke
+newpath -138.56021 -21.83504 moveto 0 0 rlineto stroke
+newpath -134.73499 -609.20279 moveto 0 0 rlineto stroke
+newpath -130.66614 -595.83061 moveto 0 0 rlineto stroke
+newpath -130.63217 -584.71225 moveto 0 0 rlineto stroke
+newpath -127.90372 -571.76591 moveto 0 0 rlineto stroke
+newpath -133.57709 -560.11378 moveto 0 0 rlineto stroke
+newpath -133.23294 -546.38966 moveto 0 0 rlineto stroke
+newpath -134.73389 -537.0172 moveto 0 0 rlineto stroke
+newpath -133.38295 -527.688 moveto 0 0 rlineto stroke
+newpath -127.42198 -516.48131 moveto 0 0 rlineto stroke
+newpath -126.92435 -502.64189 moveto 0 0 rlineto stroke
+newpath -127.49731 -490.3224 moveto 0 0 rlineto stroke
+newpath -130.40564 -478.15459 moveto 0 0 rlineto stroke
+newpath -127.4823 -466.97543 moveto 0 0 rlineto stroke
+newpath -131.80388 -453.92174 moveto 0 0 rlineto stroke
+newpath -129.50453 -437.26585 moveto 0 0 rlineto stroke
+newpath -134.5188 -430.92036 moveto 0 0 rlineto stroke
+newpath -132.33028 -419.8759 moveto 0 0 rlineto stroke
+newpath -127.76616 -404.42839 moveto 0 0 rlineto stroke
+newpath -130.24428 -394.59547 moveto 0 0 rlineto stroke
+newpath -128.34871 -377.0692 moveto 0 0 rlineto stroke
+newpath -127.65993 -366.92781 moveto 0 0 rlineto stroke
+newpath -130.49568 -358.20209 moveto 0 0 rlineto stroke
+newpath -130.61082 -346.67133 moveto 0 0 rlineto stroke
+newpath -131.98723 -329.344 moveto 0 0 rlineto stroke
+newpath -127.81133 -321.15062 moveto 0 0 rlineto stroke
+newpath -132.7308 -306.94745 moveto 0 0 rlineto stroke
+newpath -134.56729 -300.0773 moveto 0 0 rlineto stroke
+newpath -133.84645 -286.55139 moveto 0 0 rlineto stroke
+newpath -128.58675 -269.64145 moveto 0 0 rlineto stroke
+newpath -130.4714 -258.07034 moveto 0 0 rlineto stroke
+newpath -130.87909 -247.44843 moveto 0 0 rlineto stroke
+newpath -134.20413 -240.17007 moveto 0 0 rlineto stroke
+newpath -130.10645 -222.10541 moveto 0 0 rlineto stroke
+newpath -131.40094 -208.72055 moveto 0 0 rlineto stroke
+newpath -130.4833 -202.3401 moveto 0 0 rlineto stroke
+newpath -133.95872 -189.1656 moveto 0 0 rlineto stroke
+newpath -130.55812 -180.93768 moveto 0 0 rlineto stroke
+newpath -131.70605 -163.89432 moveto 0 0 rlineto stroke
+newpath -130.0325 -154.02795 moveto 0 0 rlineto stroke
+newpath -134.70627 -138.02132 moveto 0 0 rlineto stroke
+newpath -132.65685 -129.71498 moveto 0 0 rlineto stroke
+newpath -130.4716 -113.25966 moveto 0 0 rlineto stroke
+newpath -131.99416 -106.82692 moveto 0 0 rlineto stroke
+newpath -127.85129 -90.319 moveto 0 0 rlineto stroke
+newpath -129.63837 -79.2165 moveto 0 0 rlineto stroke
+newpath -131.8626 -64.63103 moveto 0 0 rlineto stroke
+newpath -129.26588 -53.06493 moveto 0 0 rlineto stroke
+newpath -133.62935 -45.42938 moveto 0 0 rlineto stroke
+newpath -128.58856 -31.52312 moveto 0 0 rlineto stroke
+newpath -127.32585 -22.72298 moveto 0 0 rlineto stroke
+newpath -116.67993 -611.49767 moveto 0 0 rlineto stroke
+newpath -120.2383 -600.58098 moveto 0 0 rlineto stroke
+newpath -114.7086 -580.80893 moveto 0 0 rlineto stroke
+newpath -115.84016 -570.9649 moveto 0 0 rlineto stroke
+newpath -118.06168 -558.41188 moveto 0 0 rlineto stroke
+newpath -119.45909 -548.7313 moveto 0 0 rlineto stroke
+newpath -118.62755 -539.66965 moveto 0 0 rlineto stroke
+newpath -121.35577 -524.33327 moveto 0 0 rlineto stroke
+newpath -117.7196 -510.00378 moveto 0 0 rlineto stroke
+newpath -116.22983 -501.35052 moveto 0 0 rlineto stroke
+newpath -114.72926 -485.69257 moveto 0 0 rlineto stroke
+newpath -119.26625 -479.00781 moveto 0 0 rlineto stroke
+newpath -118.38142 -467.60956 moveto 0 0 rlineto stroke
+newpath -117.89568 -450.35034 moveto 0 0 rlineto stroke
+newpath -118.83203 -437.33548 moveto 0 0 rlineto stroke
+newpath -115.30328 -429.38908 moveto 0 0 rlineto stroke
+newpath -121.30046 -413.65428 moveto 0 0 rlineto stroke
+newpath -115.9921 -407.97716 moveto 0 0 rlineto stroke
+newpath -116.21214 -394.52574 moveto 0 0 rlineto stroke
+newpath -116.32726 -383.96043 moveto 0 0 rlineto stroke
+newpath -118.72134 -370.81346 moveto 0 0 rlineto stroke
+newpath -118.24455 -356.7258 moveto 0 0 rlineto stroke
+newpath -122.41843 -348.16643 moveto 0 0 rlineto stroke
+newpath -116.29192 -334.3732 moveto 0 0 rlineto stroke
+newpath -114.91243 -323.71852 moveto 0 0 rlineto stroke
+newpath -117.71722 -309.0758 moveto 0 0 rlineto stroke
+newpath -121.69315 -297.09059 moveto 0 0 rlineto stroke
+newpath -116.98103 -287.7634 moveto 0 0 rlineto stroke
+newpath -121.51747 -275.772 moveto 0 0 rlineto stroke
+newpath -122.8192 -263.79967 moveto 0 0 rlineto stroke
+newpath -117.89285 -251.06583 moveto 0 0 rlineto stroke
+newpath -121.72238 -239.1537 moveto 0 0 rlineto stroke
+newpath -116.49559 -224.15779 moveto 0 0 rlineto stroke
+newpath -120.86443 -216.03255 moveto 0 0 rlineto stroke
+newpath -117.58806 -202.81613 moveto 0 0 rlineto stroke
+newpath -121.12909 -190.01266 moveto 0 0 rlineto stroke
+newpath -114.54253 -172.63084 moveto 0 0 rlineto stroke
+newpath -116.10217 -166.63274 moveto 0 0 rlineto stroke
+newpath -118.61995 -153.35524 moveto 0 0 rlineto stroke
+newpath -118.13196 -140.0365 moveto 0 0 rlineto stroke
+newpath -122.77017 -131.58627 moveto 0 0 rlineto stroke
+newpath -122.55174 -114.02892 moveto 0 0 rlineto stroke
+newpath -122.0982 -105.20099 moveto 0 0 rlineto stroke
+newpath -115.13977 -89.55467 moveto 0 0 rlineto stroke
+newpath -120.5413 -81.7688 moveto 0 0 rlineto stroke
+newpath -117.30325 -72.05475 moveto 0 0 rlineto stroke
+newpath -114.76321 -60.39392 moveto 0 0 rlineto stroke
+newpath -122.1072 -43.88004 moveto 0 0 rlineto stroke
+newpath -118.64777 -33.35728 moveto 0 0 rlineto stroke
+newpath -121.30537 -18.95615 moveto 0 0 rlineto stroke
+newpath -105.67755 -607.12326 moveto 0 0 rlineto stroke
+newpath -107.0819 -599.18338 moveto 0 0 rlineto stroke
+newpath -104.93228 -586.34085 moveto 0 0 rlineto stroke
+newpath -108.8615 -570.83966 moveto 0 0 rlineto stroke
+newpath -104.02727 -561.22229 moveto 0 0 rlineto stroke
+newpath -106.63933 -550.46582 moveto 0 0 rlineto stroke
+newpath -105.90295 -537.34326 moveto 0 0 rlineto stroke
+newpath -107.06392 -523.27739 moveto 0 0 rlineto stroke
+newpath -108.15256 -511.05331 moveto 0 0 rlineto stroke
+newpath -110.64322 -497.56133 moveto 0 0 rlineto stroke
+newpath -104.55571 -492.00723 moveto 0 0 rlineto stroke
+newpath -108.21042 -478.1823 moveto 0 0 rlineto stroke
+newpath -106.8789 -468.28864 moveto 0 0 rlineto stroke
+newpath -103.68134 -450.84903 moveto 0 0 rlineto stroke
+newpath -107.17627 -442.49635 moveto 0 0 rlineto stroke
+newpath -109.00429 -429.5735 moveto 0 0 rlineto stroke
+newpath -105.45334 -418.87874 moveto 0 0 rlineto stroke
+newpath -105.5141 -401.77167 moveto 0 0 rlineto stroke
+newpath -106.25906 -392.19595 moveto 0 0 rlineto stroke
+newpath -105.12575 -383.12105 moveto 0 0 rlineto stroke
+newpath -104.16556 -365.95116 moveto 0 0 rlineto stroke
+newpath -104.71822 -353.27658 moveto 0 0 rlineto stroke
+newpath -108.54997 -347.6454 moveto 0 0 rlineto stroke
+newpath -106.4756 -336.21161 moveto 0 0 rlineto stroke
+newpath -108.48036 -317.01865 moveto 0 0 rlineto stroke
+newpath -110.86002 -311.86086 moveto 0 0 rlineto stroke
+newpath -102.6533 -292.74974 moveto 0 0 rlineto stroke
+newpath -107.93703 -287.19257 moveto 0 0 rlineto stroke
+newpath -104.9418 -275.2806 moveto 0 0 rlineto stroke
+newpath -102.58214 -259.1133 moveto 0 0 rlineto stroke
+newpath -109.14987 -246.81335 moveto 0 0 rlineto stroke
+newpath -102.9437 -233.69717 moveto 0 0 rlineto stroke
+newpath -105.42543 -228.3086 moveto 0 0 rlineto stroke
+newpath -109.62643 -213.98476 moveto 0 0 rlineto stroke
+newpath -110.0088 -200.77783 moveto 0 0 rlineto stroke
+newpath -105.96916 -185.67159 moveto 0 0 rlineto stroke
+newpath -104.30356 -179.80856 moveto 0 0 rlineto stroke
+newpath -105.81 -165.90689 moveto 0 0 rlineto stroke
+newpath -107.094 -155.27565 moveto 0 0 rlineto stroke
+newpath -107.8091 -141.60497 moveto 0 0 rlineto stroke
+newpath -102.57147 -130.92126 moveto 0 0 rlineto stroke
+newpath -108.99124 -120.93895 moveto 0 0 rlineto stroke
+newpath -109.98096 -104.76816 moveto 0 0 rlineto stroke
+newpath -104.28598 -89.05011 moveto 0 0 rlineto stroke
+newpath -104.18686 -81.4507 moveto 0 0 rlineto stroke
+newpath -109.62936 -71.03818 moveto 0 0 rlineto stroke
+newpath -108.12444 -53.00612 moveto 0 0 rlineto stroke
+newpath -105.92218 -42.76637 moveto 0 0 rlineto stroke
+newpath -109.30109 -36.72783 moveto 0 0 rlineto stroke
+newpath -105.97011 -18.57227 moveto 0 0 rlineto stroke
+newpath -93.32002 -611.62749 moveto 0 0 rlineto stroke
+newpath -98.70558 -598.12796 moveto 0 0 rlineto stroke
+newpath -94.32825 -586.3266 moveto 0 0 rlineto stroke
+newpath -98.50394 -571.20471 moveto 0 0 rlineto stroke
+newpath -96.34964 -564.33954 moveto 0 0 rlineto stroke
+newpath -98.06796 -547.38898 moveto 0 0 rlineto stroke
+newpath -90.81938 -533.45175 moveto 0 0 rlineto stroke
+newpath -93.22762 -528.3186 moveto 0 0 rlineto stroke
+newpath -93.98222 -513.85028 moveto 0 0 rlineto stroke
+newpath -93.58887 -504.51917 moveto 0 0 rlineto stroke
+newpath -93.44003 -487.11037 moveto 0 0 rlineto stroke
+newpath -96.09645 -476.69772 moveto 0 0 rlineto stroke
+newpath -94.71541 -465.9681 moveto 0 0 rlineto stroke
+newpath -98.296 -449.07242 moveto 0 0 rlineto stroke
+newpath -95.48036 -439.25343 moveto 0 0 rlineto stroke
+newpath -98.1469 -430.56857 moveto 0 0 rlineto stroke
+newpath -93.19006 -418.71747 moveto 0 0 rlineto stroke
+newpath -97.91458 -408.6728 moveto 0 0 rlineto stroke
+newpath -96.85123 -396.25037 moveto 0 0 rlineto stroke
+newpath -98.67566 -383.95125 moveto 0 0 rlineto stroke
+newpath -97.62111 -368.2134 moveto 0 0 rlineto stroke
+newpath -96.89828 -356.02625 moveto 0 0 rlineto stroke
+newpath -95.25858 -345.23608 moveto 0 0 rlineto stroke
+newpath -98.67828 -332.0311 moveto 0 0 rlineto stroke
+newpath -98.8524 -320.56264 moveto 0 0 rlineto stroke
+newpath -96.24405 -312.3879 moveto 0 0 rlineto stroke
+newpath -98.01596 -299.35332 moveto 0 0 rlineto stroke
+newpath -96.71338 -282.32675 moveto 0 0 rlineto stroke
+newpath -95.58157 -271.17595 moveto 0 0 rlineto stroke
+newpath -93.95667 -263.57571 moveto 0 0 rlineto stroke
+newpath -97.04327 -246.92929 moveto 0 0 rlineto stroke
+newpath -98.35612 -234.3871 moveto 0 0 rlineto stroke
+newpath -91.92767 -226.28136 moveto 0 0 rlineto stroke
+newpath -97.4444 -216.69472 moveto 0 0 rlineto stroke
+newpath -91.7053 -202.15663 moveto 0 0 rlineto stroke
+newpath -96.71701 -188.70065 moveto 0 0 rlineto stroke
+newpath -91.30489 -180.47954 moveto 0 0 rlineto stroke
+newpath -95.3123 -168.03317 moveto 0 0 rlineto stroke
+newpath -91.10188 -153.73677 moveto 0 0 rlineto stroke
+newpath -94.64885 -137.71329 moveto 0 0 rlineto stroke
+newpath -92.43593 -130.24965 moveto 0 0 rlineto stroke
+newpath -92.56131 -117.87251 moveto 0 0 rlineto stroke
+newpath -98.0733 -106.29465 moveto 0 0 rlineto stroke
+newpath -93.63857 -92.68257 moveto 0 0 rlineto stroke
+newpath -96.80186 -78.50662 moveto 0 0 rlineto stroke
+newpath -94.73457 -65.24464 moveto 0 0 rlineto stroke
+newpath -98.53642 -58.19096 moveto 0 0 rlineto stroke
+newpath -91.99161 -48.40155 moveto 0 0 rlineto stroke
+newpath -94.93541 -32.22931 moveto 0 0 rlineto stroke
+newpath -93.59688 -20.52684 moveto 0 0 rlineto stroke
+newpath -80.39848 -605.0797 moveto 0 0 rlineto stroke
+newpath -86.83885 -595.72214 moveto 0 0 rlineto stroke
+newpath -79.658 -584.95389 moveto 0 0 rlineto stroke
+newpath -81.56625 -571.87595 moveto 0 0 rlineto stroke
+newpath -82.76921 -562.92274 moveto 0 0 rlineto stroke
+newpath -81.42073 -551.70828 moveto 0 0 rlineto stroke
+newpath -81.17035 -533.38329 moveto 0 0 rlineto stroke
+newpath -79.31921 -526.32329 moveto 0 0 rlineto stroke
+newpath -81.34802 -515.0443 moveto 0 0 rlineto stroke
+newpath -81.2861 -502.70172 moveto 0 0 rlineto stroke
+newpath -85.73138 -485.88557 moveto 0 0 rlineto stroke
+newpath -84.09338 -476.49815 moveto 0 0 rlineto stroke
+newpath -86.3218 -467.11249 moveto 0 0 rlineto stroke
+newpath -84.62674 -450.65082 moveto 0 0 rlineto stroke
+newpath -81.29465 -438.01018 moveto 0 0 rlineto stroke
+newpath -83.21164 -428.86003 moveto 0 0 rlineto stroke
+newpath -80.97412 -420.91061 moveto 0 0 rlineto stroke
+newpath -85.69598 -406.99327 moveto 0 0 rlineto stroke
+newpath -86.79558 -391.2934 moveto 0 0 rlineto stroke
+newpath -84.64653 -377.44 moveto 0 0 rlineto stroke
+newpath -86.37125 -366.03185 moveto 0 0 rlineto stroke
+newpath -85.89098 -356.34593 moveto 0 0 rlineto stroke
+newpath -85.33994 -346.27882 moveto 0 0 rlineto stroke
+newpath -80.99135 -334.32713 moveto 0 0 rlineto stroke
+newpath -84.62482 -324.7245 moveto 0 0 rlineto stroke
+newpath -84.86389 -311.77403 moveto 0 0 rlineto stroke
+newpath -83.5749 -296.02214 moveto 0 0 rlineto stroke
+newpath -81.21155 -285.36183 moveto 0 0 rlineto stroke
+newpath -81.15266 -272.85822 moveto 0 0 rlineto stroke
+newpath -80.80727 -258.77269 moveto 0 0 rlineto stroke
+newpath -79.26247 -250.18799 moveto 0 0 rlineto stroke
+newpath -82.84595 -238.95523 moveto 0 0 rlineto stroke
+newpath -83.03358 -225.00117 moveto 0 0 rlineto stroke
+newpath -80.373 -215.72862 moveto 0 0 rlineto stroke
+newpath -79.65614 -202.9486 moveto 0 0 rlineto stroke
+newpath -79.25253 -185.89952 moveto 0 0 rlineto stroke
+newpath -86.4332 -175.10341 moveto 0 0 rlineto stroke
+newpath -83.52614 -161.77473 moveto 0 0 rlineto stroke
+newpath -83.32593 -149.02538 moveto 0 0 rlineto stroke
+newpath -79.51904 -144.74127 moveto 0 0 rlineto stroke
+newpath -79.67409 -130.46457 moveto 0 0 rlineto stroke
+newpath -80.60817 -120.0053 moveto 0 0 rlineto stroke
+newpath -82.08142 -106.49826 moveto 0 0 rlineto stroke
+newpath -85.81998 -94.93396 moveto 0 0 rlineto stroke
+newpath -80.27917 -83.53954 moveto 0 0 rlineto stroke
+newpath -83.7253 -68.5617 moveto 0 0 rlineto stroke
+newpath -86.51712 -55.4906 moveto 0 0 rlineto stroke
+newpath -83.46077 -42.16852 moveto 0 0 rlineto stroke
+newpath -85.40108 -28.90271 moveto 0 0 rlineto stroke
+newpath -79.5656 -22.67668 moveto 0 0 rlineto stroke
+newpath -71.34964 -609.78804 moveto 0 0 rlineto stroke
+newpath -69.36913 -600.7005 moveto 0 0 rlineto stroke
+newpath -71.82841 -580.88219 moveto 0 0 rlineto stroke
+newpath -74.83263 -572.40933 moveto 0 0 rlineto stroke
+newpath -72.71873 -563.83337 moveto 0 0 rlineto stroke
+newpath -71.83003 -549.16014 moveto 0 0 rlineto stroke
+newpath -73.02145 -532.87646 moveto 0 0 rlineto stroke
+newpath -68.64078 -523.59442 moveto 0 0 rlineto stroke
+newpath -72.39407 -511.23471 moveto 0 0 rlineto stroke
+newpath -69.89734 -500.03131 moveto 0 0 rlineto stroke
+newpath -70.51993 -491.82037 moveto 0 0 rlineto stroke
+newpath -70.4294 -479.72697 moveto 0 0 rlineto stroke
+newpath -74.30394 -462.747 moveto 0 0 rlineto stroke
+newpath -70.76459 -454.0333 moveto 0 0 rlineto stroke
+newpath -70.57372 -439.2892 moveto 0 0 rlineto stroke
+newpath -71.15416 -430.92488 moveto 0 0 rlineto stroke
+newpath -70.88983 -420.4494 moveto 0 0 rlineto stroke
+newpath -74.47397 -407.34906 moveto 0 0 rlineto stroke
+newpath -68.70856 -391.95023 moveto 0 0 rlineto stroke
+newpath -66.52191 -382.78804 moveto 0 0 rlineto stroke
+newpath -74.5839 -366.33125 moveto 0 0 rlineto stroke
+newpath -69.4479 -353.72229 moveto 0 0 rlineto stroke
+newpath -66.87126 -343.67262 moveto 0 0 rlineto stroke
+newpath -69.68925 -331.04915 moveto 0 0 rlineto stroke
+newpath -73.43463 -323.62552 moveto 0 0 rlineto stroke
+newpath -71.92491 -307.11992 moveto 0 0 rlineto stroke
+newpath -73.31967 -294.95695 moveto 0 0 rlineto stroke
+newpath -71.41055 -287.52103 moveto 0 0 rlineto stroke
+newpath -70.92552 -270.18962 moveto 0 0 rlineto stroke
+newpath -66.65732 -259.445 moveto 0 0 rlineto stroke
+newpath -70.14603 -251.77792 moveto 0 0 rlineto stroke
+newpath -73.87338 -238.41338 moveto 0 0 rlineto stroke
+newpath -72.70435 -226.20874 moveto 0 0 rlineto stroke
+newpath -69.87607 -209.2769 moveto 0 0 rlineto stroke
+newpath -73.05829 -199.78738 moveto 0 0 rlineto stroke
+newpath -73.1199 -189.18512 moveto 0 0 rlineto stroke
+newpath -73.4282 -178.09644 moveto 0 0 rlineto stroke
+newpath -67.26738 -167.47673 moveto 0 0 rlineto stroke
+newpath -72.78853 -152.33456 moveto 0 0 rlineto stroke
+newpath -68.67194 -140.104 moveto 0 0 rlineto stroke
+newpath -73.41878 -126.871 moveto 0 0 rlineto stroke
+newpath -73.43329 -117.0744 moveto 0 0 rlineto stroke
+newpath -70.76164 -107.47058 moveto 0 0 rlineto stroke
+newpath -73.7078 -90.7113 moveto 0 0 rlineto stroke
+newpath -68.6244 -81.44997 moveto 0 0 rlineto stroke
+newpath -74.47775 -65.85175 moveto 0 0 rlineto stroke
+newpath -67.32648 -59.97337 moveto 0 0 rlineto stroke
+newpath -71.2645 -41.92899 moveto 0 0 rlineto stroke
+newpath -70.59648 -34.9209 moveto 0 0 rlineto stroke
+newpath -69.15395 -22.16318 moveto 0 0 rlineto stroke
+newpath -55.42184 -604.81485 moveto 0 0 rlineto stroke
+newpath -59.44505 -596.91994 moveto 0 0 rlineto stroke
+newpath -58.1182 -582.61362 moveto 0 0 rlineto stroke
+newpath -61.38997 -576.6193 moveto 0 0 rlineto stroke
+newpath -61.31754 -562.80356 moveto 0 0 rlineto stroke
+newpath -62.00706 -546.89854 moveto 0 0 rlineto stroke
+newpath -60.21501 -535.744 moveto 0 0 rlineto stroke
+newpath -61.66129 -521.57684 moveto 0 0 rlineto stroke
+newpath -57.01376 -509.66852 moveto 0 0 rlineto stroke
+newpath -55.91356 -503.37492 moveto 0 0 rlineto stroke
+newpath -60.52475 -489.64699 moveto 0 0 rlineto stroke
+newpath -61.3583 -475.82806 moveto 0 0 rlineto stroke
+newpath -60.96466 -461.77768 moveto 0 0 rlineto stroke
+newpath -62.39667 -452.62654 moveto 0 0 rlineto stroke
+newpath -59.13474 -440.34001 moveto 0 0 rlineto stroke
+newpath -58.20515 -424.7541 moveto 0 0 rlineto stroke
+newpath -56.23964 -414.412 moveto 0 0 rlineto stroke
+newpath -60.61227 -400.99706 moveto 0 0 rlineto stroke
+newpath -55.52477 -395.52005 moveto 0 0 rlineto stroke
+newpath -57.24365 -377.77866 moveto 0 0 rlineto stroke
+newpath -57.33897 -367.80475 moveto 0 0 rlineto stroke
+newpath -61.23154 -359.68036 moveto 0 0 rlineto stroke
+newpath -54.73929 -345.89088 moveto 0 0 rlineto stroke
+newpath -59.03654 -333.7833 moveto 0 0 rlineto stroke
+newpath -59.6127 -322.06224 moveto 0 0 rlineto stroke
+newpath -59.57843 -307.52168 moveto 0 0 rlineto stroke
+newpath -55.3517 -298.04735 moveto 0 0 rlineto stroke
+newpath -57.66159 -286.75444 moveto 0 0 rlineto stroke
+newpath -56.48492 -268.97995 moveto 0 0 rlineto stroke
+newpath -60.28171 -263.14174 moveto 0 0 rlineto stroke
+newpath -55.73625 -244.63327 moveto 0 0 rlineto stroke
+newpath -56.22076 -235.703 moveto 0 0 rlineto stroke
+newpath -58.52162 -224.62306 moveto 0 0 rlineto stroke
+newpath -58.26974 -212.06403 moveto 0 0 rlineto stroke
+newpath -59.1007 -199.30688 moveto 0 0 rlineto stroke
+newpath -59.60518 -188.66316 moveto 0 0 rlineto stroke
+newpath -56.7507 -180.32224 moveto 0 0 rlineto stroke
+newpath -59.14053 -161.7948 moveto 0 0 rlineto stroke
+newpath -59.95921 -154.2266 moveto 0 0 rlineto stroke
+newpath -56.8916 -137.01794 moveto 0 0 rlineto stroke
+newpath -59.5961 -124.99844 moveto 0 0 rlineto stroke
+newpath -56.55037 -116.57138 moveto 0 0 rlineto stroke
+newpath -62.27269 -106.77185 moveto 0 0 rlineto stroke
+newpath -54.96432 -89.5324 moveto 0 0 rlineto stroke
+newpath -55.42876 -80.95709 moveto 0 0 rlineto stroke
+newpath -61.39001 -68.12852 moveto 0 0 rlineto stroke
+newpath -56.69197 -53.77698 moveto 0 0 rlineto stroke
+newpath -62.71527 -41.22935 moveto 0 0 rlineto stroke
+newpath -59.79395 -31.95885 moveto 0 0 rlineto stroke
+newpath -59.14108 -19.15865 moveto 0 0 rlineto stroke
+newpath -47.82764 -605.21002 moveto 0 0 rlineto stroke
+newpath -46.4591 -598.66675 moveto 0 0 rlineto stroke
+newpath -46.97156 -588.11824 moveto 0 0 rlineto stroke
+newpath -44.46617 -569.28339 moveto 0 0 rlineto stroke
+newpath -46.8573 -562.55328 moveto 0 0 rlineto stroke
+newpath -50.57976 -545.42728 moveto 0 0 rlineto stroke
+newpath -43.37326 -534.3752 moveto 0 0 rlineto stroke
+newpath -44.39702 -526.5162 moveto 0 0 rlineto stroke
+newpath -47.2181 -510.18669 moveto 0 0 rlineto stroke
+newpath -43.85336 -498.82964 moveto 0 0 rlineto stroke
+newpath -48.80077 -487.9927 moveto 0 0 rlineto stroke
+newpath -44.92928 -478.70062 moveto 0 0 rlineto stroke
+newpath -50.85323 -464.54654 moveto 0 0 rlineto stroke
+newpath -43.7142 -456.06593 moveto 0 0 rlineto stroke
+newpath -43.48071 -442.58015 moveto 0 0 rlineto stroke
+newpath -43.44553 -424.78835 moveto 0 0 rlineto stroke
+newpath -43.58006 -418.22829 moveto 0 0 rlineto stroke
+newpath -47.41316 -407.26639 moveto 0 0 rlineto stroke
+newpath -45.10925 -395.49106 moveto 0 0 rlineto stroke
+newpath -49.03867 -380.50546 moveto 0 0 rlineto stroke
+newpath -44.37778 -365.80246 moveto 0 0 rlineto stroke
+newpath -47.70122 -353.05394 moveto 0 0 rlineto stroke
+newpath -47.13226 -341.16441 moveto 0 0 rlineto stroke
+newpath -47.88501 -332.24571 moveto 0 0 rlineto stroke
+newpath -42.55461 -324.39429 moveto 0 0 rlineto stroke
+newpath -50.22844 -307.95027 moveto 0 0 rlineto stroke
+newpath -49.35614 -298.34033 moveto 0 0 rlineto stroke
+newpath -49.54994 -287.15137 moveto 0 0 rlineto stroke
+newpath -47.37874 -271.97427 moveto 0 0 rlineto stroke
+newpath -46.39476 -263.44969 moveto 0 0 rlineto stroke
+newpath -48.67917 -248.17929 moveto 0 0 rlineto stroke
+newpath -48.32268 -236.48726 moveto 0 0 rlineto stroke
+newpath -46.78409 -228.28183 moveto 0 0 rlineto stroke
+newpath -46.62115 -209.09483 moveto 0 0 rlineto stroke
+newpath -50.6148 -202.94562 moveto 0 0 rlineto stroke
+newpath -49.0335 -191.56622 moveto 0 0 rlineto stroke
+newpath -43.61238 -173.04099 moveto 0 0 rlineto stroke
+newpath -43.7909 -162.56369 moveto 0 0 rlineto stroke
+newpath -47.39268 -155.92073 moveto 0 0 rlineto stroke
+newpath -46.39868 -143.79626 moveto 0 0 rlineto stroke
+newpath -46.62125 -125.20485 moveto 0 0 rlineto stroke
+newpath -44.662 -118.64185 moveto 0 0 rlineto stroke
+newpath -43.82909 -107.40686 moveto 0 0 rlineto stroke
+newpath -45.75067 -89.09006 moveto 0 0 rlineto stroke
+newpath -44.1592 -84.85011 moveto 0 0 rlineto stroke
+newpath -49.8924 -65.03883 moveto 0 0 rlineto stroke
+newpath -45.55869 -58.43527 moveto 0 0 rlineto stroke
+newpath -46.5195 -44.89859 moveto 0 0 rlineto stroke
+newpath -49.33376 -36.34647 moveto 0 0 rlineto stroke
+newpath -45.06836 -20.00851 moveto 0 0 rlineto stroke
+newpath -31.25746 -607.35698 moveto 0 0 rlineto stroke
+newpath -37.45723 -592.74469 moveto 0 0 rlineto stroke
+newpath -34.65456 -587.49149 moveto 0 0 rlineto stroke
+newpath -36.51884 -571.12787 moveto 0 0 rlineto stroke
+newpath -34.30461 -563.39699 moveto 0 0 rlineto stroke
+newpath -38.30968 -544.75182 moveto 0 0 rlineto stroke
+newpath -32.5979 -537.68303 moveto 0 0 rlineto stroke
+newpath -38.16399 -522.79044 moveto 0 0 rlineto stroke
+newpath -34.32239 -509.32341 moveto 0 0 rlineto stroke
+newpath -38.77594 -502.59917 moveto 0 0 rlineto stroke
+newpath -33.25868 -490.47475 moveto 0 0 rlineto stroke
+newpath -36.77556 -473.84377 moveto 0 0 rlineto stroke
+newpath -38.69693 -463.24805 moveto 0 0 rlineto stroke
+newpath -35.57848 -456.9299 moveto 0 0 rlineto stroke
+newpath -34.12975 -437.45697 moveto 0 0 rlineto stroke
+newpath -36.2214 -428.94829 moveto 0 0 rlineto stroke
+newpath -32.42574 -412.87297 moveto 0 0 rlineto stroke
+newpath -37.63167 -405.34694 moveto 0 0 rlineto stroke
+newpath -31.76639 -395.83171 moveto 0 0 rlineto stroke
+newpath -38.07568 -380.60873 moveto 0 0 rlineto stroke
+newpath -38.64688 -369.71928 moveto 0 0 rlineto stroke
+newpath -34.5013 -359.30492 moveto 0 0 rlineto stroke
+newpath -34.86995 -345.39624 moveto 0 0 rlineto stroke
+newpath -37.3425 -329.2062 moveto 0 0 rlineto stroke
+newpath -32.9115 -324.61304 moveto 0 0 rlineto stroke
+newpath -33.39645 -308.5252 moveto 0 0 rlineto stroke
+newpath -31.36415 -297.7316 moveto 0 0 rlineto stroke
+newpath -35.72343 -287.39578 moveto 0 0 rlineto stroke
+newpath -34.62843 -274.77734 moveto 0 0 rlineto stroke
+newpath -37.54851 -264.87126 moveto 0 0 rlineto stroke
+newpath -30.70291 -248.30595 moveto 0 0 rlineto stroke
+newpath -37.837 -237.23587 moveto 0 0 rlineto stroke
+newpath -35.58128 -221.42271 moveto 0 0 rlineto stroke
+newpath -38.4594 -216.323 moveto 0 0 rlineto stroke
+newpath -34.37018 -199.21617 moveto 0 0 rlineto stroke
+newpath -32.48631 -187.0725 moveto 0 0 rlineto stroke
+newpath -33.9138 -177.02646 moveto 0 0 rlineto stroke
+newpath -31.89215 -163.52856 moveto 0 0 rlineto stroke
+newpath -37.37233 -154.45674 moveto 0 0 rlineto stroke
+newpath -37.07507 -138.98166 moveto 0 0 rlineto stroke
+newpath -37.51852 -125.3999 moveto 0 0 rlineto stroke
+newpath -31.98616 -116.90327 moveto 0 0 rlineto stroke
+newpath -37.17859 -102.9329 moveto 0 0 rlineto stroke
+newpath -34.08084 -96.18874 moveto 0 0 rlineto stroke
+newpath -32.20573 -83.60698 moveto 0 0 rlineto stroke
+newpath -31.0824 -67.39488 moveto 0 0 rlineto stroke
+newpath -31.70288 -57.66783 moveto 0 0 rlineto stroke
+newpath -30.69414 -41.96991 moveto 0 0 rlineto stroke
+newpath -36.19958 -32.4695 moveto 0 0 rlineto stroke
+newpath -35.09703 -23.01668 moveto 0 0 rlineto stroke
+newpath -26.80087 -605.03445 moveto 0 0 rlineto stroke
+newpath -21.31233 -596.4946 moveto 0 0 rlineto stroke
+newpath -26.38666 -587.39832 moveto 0 0 rlineto stroke
+newpath -23.86661 -575.78802 moveto 0 0 rlineto stroke
+newpath -24.61734 -564.25453 moveto 0 0 rlineto stroke
+newpath -25.3256 -549.72295 moveto 0 0 rlineto stroke
+newpath -26.7739 -533.6876 moveto 0 0 rlineto stroke
+newpath -23.33214 -527.65588 moveto 0 0 rlineto stroke
+newpath -25.09648 -510.75197 moveto 0 0 rlineto stroke
+newpath -19.67557 -497.75293 moveto 0 0 rlineto stroke
+newpath -19.36424 -491.84828 moveto 0 0 rlineto stroke
+newpath -23.63104 -478.97325 moveto 0 0 rlineto stroke
+newpath -23.38533 -467.02805 moveto 0 0 rlineto stroke
+newpath -24.68385 -455.53688 moveto 0 0 rlineto stroke
+newpath -18.61638 -441.11812 moveto 0 0 rlineto stroke
+newpath -25.44858 -426.6961 moveto 0 0 rlineto stroke
+newpath -25.90424 -418.58888 moveto 0 0 rlineto stroke
+newpath -26.86014 -408.02547 moveto 0 0 rlineto stroke
+newpath -24.79343 -394.58092 moveto 0 0 rlineto stroke
+newpath -21.92914 -378.167 moveto 0 0 rlineto stroke
+newpath -23.99945 -369.80504 moveto 0 0 rlineto stroke
+newpath -21.9503 -356.54837 moveto 0 0 rlineto stroke
+newpath -26.84845 -341.33112 moveto 0 0 rlineto stroke
+newpath -21.08197 -334.51689 moveto 0 0 rlineto stroke
+newpath -24.6208 -320.57825 moveto 0 0 rlineto stroke
+newpath -23.17862 -309.49689 moveto 0 0 rlineto stroke
+newpath -22.80008 -297.89401 moveto 0 0 rlineto stroke
+newpath -26.25381 -288.0044 moveto 0 0 rlineto stroke
+newpath -23.69907 -268.77419 moveto 0 0 rlineto stroke
+newpath -19.48038 -261.4421 moveto 0 0 rlineto stroke
+newpath -20.93317 -249.4347 moveto 0 0 rlineto stroke
+newpath -23.49283 -240.14754 moveto 0 0 rlineto stroke
+newpath -22.978 -222.96005 moveto 0 0 rlineto stroke
+newpath -24.08414 -208.97882 moveto 0 0 rlineto stroke
+newpath -18.9733 -196.79106 moveto 0 0 rlineto stroke
+newpath -21.70625 -184.9516 moveto 0 0 rlineto stroke
+newpath -22.27254 -175.44821 moveto 0 0 rlineto stroke
+newpath -23.97845 -162.60336 moveto 0 0 rlineto stroke
+newpath -21.44934 -149.805 moveto 0 0 rlineto stroke
+newpath -25.55284 -137.51651 moveto 0 0 rlineto stroke
+newpath -22.12537 -127.25816 moveto 0 0 rlineto stroke
+newpath -21.40424 -115.66458 moveto 0 0 rlineto stroke
+newpath -22.85516 -101.15193 moveto 0 0 rlineto stroke
+newpath -20.68521 -95.58978 moveto 0 0 rlineto stroke
+newpath -21.66656 -81.08557 moveto 0 0 rlineto stroke
+newpath -26.42879 -72.51509 moveto 0 0 rlineto stroke
+newpath -19.10432 -57.2611 moveto 0 0 rlineto stroke
+newpath -22.33965 -46.8649 moveto 0 0 rlineto stroke
+newpath -25.26941 -35.34735 moveto 0 0 rlineto stroke
+newpath -22.56445 -23.88086 moveto 0 0 rlineto stroke
+newpath -10.78896 -608.54607 moveto 0 0 rlineto stroke
+newpath -14.21039 -596.58885 moveto 0 0 rlineto stroke
+newpath -9.2927 -584.1457 moveto 0 0 rlineto stroke
+newpath -10.52266 -574.07178 moveto 0 0 rlineto stroke
+newpath -6.65298 -564.67978 moveto 0 0 rlineto stroke
+newpath -13.19421 -546.1382 moveto 0 0 rlineto stroke
+newpath -10.47327 -532.71545 moveto 0 0 rlineto stroke
+newpath -10.78996 -526.04597 moveto 0 0 rlineto stroke
+newpath -10.13663 -510.41205 moveto 0 0 rlineto stroke
+newpath -12.25682 -498.08562 moveto 0 0 rlineto stroke
+newpath -13.75482 -487.09744 moveto 0 0 rlineto stroke
+newpath -9.79686 -477.30367 moveto 0 0 rlineto stroke
+newpath -7.02278 -467.51414 moveto 0 0 rlineto stroke
+newpath -13.46466 -456.36314 moveto 0 0 rlineto stroke
+newpath -8.185 -438.39282 moveto 0 0 rlineto stroke
+newpath -10.09576 -431.85141 moveto 0 0 rlineto stroke
+newpath -6.96518 -420.69402 moveto 0 0 rlineto stroke
+newpath -7.2002 -404.28088 moveto 0 0 rlineto stroke
+newpath -11.09091 -389.48494 moveto 0 0 rlineto stroke
+newpath -7.04214 -382.00717 moveto 0 0 rlineto stroke
+newpath -7.6881 -367.8008 moveto 0 0 rlineto stroke
+newpath -8.28073 -355.61238 moveto 0 0 rlineto stroke
+newpath -9.99521 -343.70671 moveto 0 0 rlineto stroke
+newpath -11.97194 -332.78961 moveto 0 0 rlineto stroke
+newpath -14.55824 -321.31209 moveto 0 0 rlineto stroke
+newpath -8.27692 -309.02937 moveto 0 0 rlineto stroke
+newpath -7.65323 -296.30565 moveto 0 0 rlineto stroke
+newpath -13.29758 -284.71791 moveto 0 0 rlineto stroke
+newpath -7.22983 -275.9788 moveto 0 0 rlineto stroke
+newpath -6.70633 -264.96446 moveto 0 0 rlineto stroke
+newpath -12.95723 -246.63931 moveto 0 0 rlineto stroke
+newpath -9.01245 -239.96797 moveto 0 0 rlineto stroke
+newpath -6.88992 -227.45717 moveto 0 0 rlineto stroke
+newpath -11.0268 -212.66678 moveto 0 0 rlineto stroke
+newpath -12.56404 -204.02885 moveto 0 0 rlineto stroke
+newpath -13.43161 -186.72835 moveto 0 0 rlineto stroke
+newpath -11.80547 -178.11429 moveto 0 0 rlineto stroke
+newpath -8.94649 -164.47505 moveto 0 0 rlineto stroke
+newpath -10.1807 -151.8709 moveto 0 0 rlineto stroke
+newpath -10.65067 -139.27655 moveto 0 0 rlineto stroke
+newpath -14.45888 -131.27335 moveto 0 0 rlineto stroke
+newpath -8.68863 -115.6292 moveto 0 0 rlineto stroke
+newpath -7.88403 -102.10185 moveto 0 0 rlineto stroke
+newpath -10.15628 -95.2495 moveto 0 0 rlineto stroke
+newpath -14.17987 -84.85701 moveto 0 0 rlineto stroke
+newpath -11.90138 -72.92645 moveto 0 0 rlineto stroke
+newpath -8.94139 -57.8811 moveto 0 0 rlineto stroke
+newpath -13.40434 -42.1283 moveto 0 0 rlineto stroke
+newpath -11.39656 -28.86255 moveto 0 0 rlineto stroke
+newpath -13.92911 -19.99977 moveto 0 0 rlineto stroke
+newpath -1.70673 -604.64598 moveto 0 0 rlineto stroke
+newpath 4.957 -598.86621 moveto 0 0 rlineto stroke
+newpath -1.84525 -580.91132 moveto 0 0 rlineto stroke
+newpath -0.06453 -575.67578 moveto 0 0 rlineto stroke
+newpath 5.1012 -558.71393 moveto 0 0 rlineto stroke
+newpath 1.91486 -546.83566 moveto 0 0 rlineto stroke
+newpath 5.09584 -533.46317 moveto 0 0 rlineto stroke
+newpath -1.1695 -525.28442 moveto 0 0 rlineto stroke
+newpath -1.33353 -512.28102 moveto 0 0 rlineto stroke
+newpath -1.3928 -499.86081 moveto 0 0 rlineto stroke
+newpath -0.16467 -487.38573 moveto 0 0 rlineto stroke
+newpath -1.93071 -473.17438 moveto 0 0 rlineto stroke
+newpath 3.33748 -460.89058 moveto 0 0 rlineto stroke
+newpath 4.51004 -455.86609 moveto 0 0 rlineto stroke
+newpath 4.12141 -444.08414 moveto 0 0 rlineto stroke
+newpath -1.03932 -428.50282 moveto 0 0 rlineto stroke
+newpath 3.74344 -418.336 moveto 0 0 rlineto stroke
+newpath 3.7842 -406.72792 moveto 0 0 rlineto stroke
+newpath 5.09145 -389.09915 moveto 0 0 rlineto stroke
+newpath -2.53409 -380.85612 moveto 0 0 rlineto stroke
+newpath 1.96141 -367.34767 moveto 0 0 rlineto stroke
+newpath 1.52727 -358.1491 moveto 0 0 rlineto stroke
+newpath 4.31749 -342.36108 moveto 0 0 rlineto stroke
+newpath 0.47394 -334.10968 moveto 0 0 rlineto stroke
+newpath 0.24365 -323.26105 moveto 0 0 rlineto stroke
+newpath 4.37161 -311.05937 moveto 0 0 rlineto stroke
+newpath 1.37427 -295.98235 moveto 0 0 rlineto stroke
+newpath -0.22572 -288.79785 moveto 0 0 rlineto stroke
+newpath 3.99565 -275.43465 moveto 0 0 rlineto stroke
+newpath 4.54924 -258.45097 moveto 0 0 rlineto stroke
+newpath -0.7548 -246.3095 moveto 0 0 rlineto stroke
+newpath 2.11491 -238.14789 moveto 0 0 rlineto stroke
+newpath -0.85324 -221.52861 moveto 0 0 rlineto stroke
+newpath 2.83324 -210.7508 moveto 0 0 rlineto stroke
+newpath -1.56451 -200.26031 moveto 0 0 rlineto stroke
+newpath 2.20958 -189.95169 moveto 0 0 rlineto stroke
+newpath 5.48523 -172.86333 moveto 0 0 rlineto stroke
+newpath -2.34393 -163.2676 moveto 0 0 rlineto stroke
+newpath 0.45915 -150.05896 moveto 0 0 rlineto stroke
+newpath 0.23224 -139.19325 moveto 0 0 rlineto stroke
+newpath -1.21007 -127.72237 moveto 0 0 rlineto stroke
+newpath -0.97139 -112.63858 moveto 0 0 rlineto stroke
+newpath 2.36746 -101.98798 moveto 0 0 rlineto stroke
+newpath -0.76746 -89.14279 moveto 0 0 rlineto stroke
+newpath -2.79129 -84.63113 moveto 0 0 rlineto stroke
+newpath -0.15553 -66.23787 moveto 0 0 rlineto stroke
+newpath 0.17102 -52.75185 moveto 0 0 rlineto stroke
+newpath 5.03522 -43.52135 moveto 0 0 rlineto stroke
+newpath 1.96513 -36.03389 moveto 0 0 rlineto stroke
+newpath 1.69315 -19.61711 moveto 0 0 rlineto stroke
+newpath 11.36514 -610.59175 moveto 0 0 rlineto stroke
+newpath 13.80342 -600.58925 moveto 0 0 rlineto stroke
+newpath 15.52951 -586.88757 moveto 0 0 rlineto stroke
+newpath 16.7153 -569.96 moveto 0 0 rlineto stroke
+newpath 13.15839 -561.77136 moveto 0 0 rlineto stroke
+newpath 11.47466 -545.83379 moveto 0 0 rlineto stroke
+newpath 11.6653 -534.70465 moveto 0 0 rlineto stroke
+newpath 17.0376 -527.79066 moveto 0 0 rlineto stroke
+newpath 13.93985 -516.50224 moveto 0 0 rlineto stroke
+newpath 13.71866 -497.23726 moveto 0 0 rlineto stroke
+newpath 9.89722 -489.55884 moveto 0 0 rlineto stroke
+newpath 15.76775 -479.18538 moveto 0 0 rlineto stroke
+newpath 13.4838 -468.05428 moveto 0 0 rlineto stroke
+newpath 15.69688 -454.28708 moveto 0 0 rlineto stroke
+newpath 12.81944 -440.75146 moveto 0 0 rlineto stroke
+newpath 16.6031 -427.39037 moveto 0 0 rlineto stroke
+newpath 15.0533 -413.07297 moveto 0 0 rlineto stroke
+newpath 12.35382 -402.60626 moveto 0 0 rlineto stroke
+newpath 12.82127 -396.95428 moveto 0 0 rlineto stroke
+newpath 13.78058 -376.84988 moveto 0 0 rlineto stroke
+newpath 16.01561 -367.43536 moveto 0 0 rlineto stroke
+newpath 11.48094 -358.17896 moveto 0 0 rlineto stroke
+newpath 13.50209 -345.83171 moveto 0 0 rlineto stroke
+newpath 11.5203 -331.7568 moveto 0 0 rlineto stroke
+newpath 10.58298 -322.2262 moveto 0 0 rlineto stroke
+newpath 15.32457 -308.56322 moveto 0 0 rlineto stroke
+newpath 9.36942 -296.31248 moveto 0 0 rlineto stroke
+newpath 15.7393 -282.8705 moveto 0 0 rlineto stroke
+newpath 10.09776 -273.41483 moveto 0 0 rlineto stroke
+newpath 11.66295 -261.32382 moveto 0 0 rlineto stroke
+newpath 10.66638 -251.1371 moveto 0 0 rlineto stroke
+newpath 12.79086 -235.50267 moveto 0 0 rlineto stroke
+newpath 9.20644 -224.05211 moveto 0 0 rlineto stroke
+newpath 14.58629 -211.33234 moveto 0 0 rlineto stroke
+newpath 13.47676 -197.04384 moveto 0 0 rlineto stroke
+newpath 13.45186 -186.79219 moveto 0 0 rlineto stroke
+newpath 15.8752 -175.85858 moveto 0 0 rlineto stroke
+newpath 16.76405 -168.59164 moveto 0 0 rlineto stroke
+newpath 9.80672 -148.71439 moveto 0 0 rlineto stroke
+newpath 16.25357 -140.48438 moveto 0 0 rlineto stroke
+newpath 10.5205 -131.90175 moveto 0 0 rlineto stroke
+newpath 15.35779 -118.26666 moveto 0 0 rlineto stroke
+newpath 14.53636 -106.2458 moveto 0 0 rlineto stroke
+newpath 11.62282 -93.41776 moveto 0 0 rlineto stroke
+newpath 16.72552 -82.50812 moveto 0 0 rlineto stroke
+newpath 14.2915 -66.59657 moveto 0 0 rlineto stroke
+newpath 14.78592 -54.40063 moveto 0 0 rlineto stroke
+newpath 9.3061 -42.66374 moveto 0 0 rlineto stroke
+newpath 12.97057 -33.71161 moveto 0 0 rlineto stroke
+newpath 9.97464 -24.92894 moveto 0 0 rlineto stroke
+newpath 29.39267 -606.78145 moveto 0 0 rlineto stroke
+newpath 27.051 -600.72758 moveto 0 0 rlineto stroke
+newpath 21.11333 -587.61844 moveto 0 0 rlineto stroke
+newpath 21.13055 -574.269 moveto 0 0 rlineto stroke
+newpath 28.32216 -560.27109 moveto 0 0 rlineto stroke
+newpath 24.19684 -550.64893 moveto 0 0 rlineto stroke
+newpath 21.41153 -540.25804 moveto 0 0 rlineto stroke
+newpath 22.31226 -523.30217 moveto 0 0 rlineto stroke
+newpath 23.8698 -510.5388 moveto 0 0 rlineto stroke
+newpath 29.05403 -504.44063 moveto 0 0 rlineto stroke
+newpath 22.8041 -485.52747 moveto 0 0 rlineto stroke
+newpath 23.05641 -476.68893 moveto 0 0 rlineto stroke
+newpath 24.3856 -464.41827 moveto 0 0 rlineto stroke
+newpath 28.80219 -455.80942 moveto 0 0 rlineto stroke
+newpath 23.8705 -440.17696 moveto 0 0 rlineto stroke
+newpath 25.51625 -427.08159 moveto 0 0 rlineto stroke
+newpath 26.97534 -419.1096 moveto 0 0 rlineto stroke
+newpath 24.14267 -401.97333 moveto 0 0 rlineto stroke
+newpath 24.38367 -395.19899 moveto 0 0 rlineto stroke
+newpath 23.57394 -378.74902 moveto 0 0 rlineto stroke
+newpath 23.47467 -370.82376 moveto 0 0 rlineto stroke
+newpath 29.35454 -360.20384 moveto 0 0 rlineto stroke
+newpath 24.63042 -345.2978 moveto 0 0 rlineto stroke
+newpath 27.24196 -331.32968 moveto 0 0 rlineto stroke
+newpath 23.76097 -320.76573 moveto 0 0 rlineto stroke
+newpath 26.10245 -308.34163 moveto 0 0 rlineto stroke
+newpath 22.10735 -295.67834 moveto 0 0 rlineto stroke
+newpath 22.54591 -285.79353 moveto 0 0 rlineto stroke
+newpath 22.94292 -272.41492 moveto 0 0 rlineto stroke
+newpath 24.05241 -264.4688 moveto 0 0 rlineto stroke
+newpath 26.93312 -248.91467 moveto 0 0 rlineto stroke
+newpath 26.20526 -233.43463 moveto 0 0 rlineto stroke
+newpath 21.48956 -228.6734 moveto 0 0 rlineto stroke
+newpath 24.83769 -210.19061 moveto 0 0 rlineto stroke
+newpath 28.47147 -203.53069 moveto 0 0 rlineto stroke
+newpath 21.37149 -193.0044 moveto 0 0 rlineto stroke
+newpath 25.04842 -176.6482 moveto 0 0 rlineto stroke
+newpath 22.44383 -161.40782 moveto 0 0 rlineto stroke
+newpath 23.39107 -153.06703 moveto 0 0 rlineto stroke
+newpath 28.13513 -139.93378 moveto 0 0 rlineto stroke
+newpath 25.48564 -131.65407 moveto 0 0 rlineto stroke
+newpath 26.82999 -113.1379 moveto 0 0 rlineto stroke
+newpath 25.05841 -104.67479 moveto 0 0 rlineto stroke
+newpath 27.13571 -88.96323 moveto 0 0 rlineto stroke
+newpath 25.44939 -82.24973 moveto 0 0 rlineto stroke
+newpath 28.12337 -71.11787 moveto 0 0 rlineto stroke
+newpath 22.88048 -52.87708 moveto 0 0 rlineto stroke
+newpath 25.98947 -47.27057 moveto 0 0 rlineto stroke
+newpath 22.75752 -34.41093 moveto 0 0 rlineto stroke
+newpath 27.94574 -22.7659 moveto 0 0 rlineto stroke
+grestore
+gsave newpath -280.69891 -529.80553 moveto
+-279.12581 -531.4894 -277.13292 -533.5305 -274.8 -535.73 curveto
+-268.69 -541.5 -265.81 -544.39 -257.53 -542.41 curveto
+-249.25 -540.44 -251.05 -533.77 -243.85 -536.66 curveto
+-236.65 -539.54 -232.51 -533.77 -228.55 -540.8 curveto
+-224.59 -547.82 -226.03 -549.8 -225.49 -557.18 curveto
+-224.95 -564.56 -220.27 -568.33 -221.89 -577.33 curveto
+-222.99652 -583.47058 -232.75288 -592.89099 -238.82639 -598.2458 curveto
+-238.82666 -598.24574 lineto
+-245.59796 -599.4826 -253.16476 -601.29984 -255.01 -602.53 curveto
+-258.25 -604.69 -260.23 -612.61 -264.19 -616.58 curveto
+-268.15 -620.54 -271.21 -622.7 -273.37 -624.32 curveto
+-275.53 -625.94 -273.37 -629.9 -274.63 -633.14 curveto
+-274.63004 -633.14014 lineto
+-274.63574 -633.17467 -275.65471 -639.32385 -277.33 -640.69 curveto
+-278.14577 -641.35744 -278.7782 -641.62767 -279.50426 -641.87836 curveto
+-279.50435 -641.87837 lineto
+-312.08543 -604.21297 lineto
+-312.08537 -604.21266 lineto
+-310.44864 -604.31387 -308.00447 -604.53905 -305.23 -605.04 curveto
+-300.19 -605.94 -301.27 -603.24 -299.11 -601.98 curveto
+-296.96384 -600.72807 -296.23927 -600.00925 -296.23009 -600.00009 curveto
+-296.22995 -599.99997 lineto
+-296.21452 -599.98874 -292.26367 -597.11472 -289.03 -594.42 curveto
+-285.79 -591.72 -284.89 -586.68 -283.81 -581.1 curveto
+-282.73 -575.52 -285.06 -564.53 -285.78 -557.33 curveto
+-286.5 -550.13 -284.88 -540.41 -281.64 -531.76 curveto
+-281.39568 -531.10846 -281.07867 -530.45596 -280.6988 -529.80542 curveto
+ closepath clip
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -326.08109 -637.43109 moveto
+-323.45757 -645.74539 lineto
+-310.62672 -646.08984 lineto
+-318.2281 -630.96117 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath -326.08109 -637.43109 moveto
+-323.45757 -645.74539 lineto
+-310.62672 -646.08984 lineto
+-318.2281 -630.96117 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -330.23749 -624.80806 moveto
+-322.36424 -633.60277 lineto
+-311.22435 -626.92755 lineto
+-319.85582 -617.96976 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -330.23749 -624.80806 moveto
+-322.36424 -633.60277 lineto
+-311.22435 -626.92755 lineto
+-319.85582 -617.96976 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -306.96117 -586.58418 moveto
+-315.64076 -590.51828 lineto
+-309.43996 -601.46791 lineto
+-298.83687 -594.15807 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -306.96117 -586.58418 moveto
+-315.64076 -590.51828 lineto
+-309.43996 -601.46791 lineto
+-298.83687 -594.15807 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -321.70003 -576.45343 moveto
+-312.79364 -570.41661 lineto
+-319.27065 -555.26073 lineto
+-327.50572 -562.4692 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -321.70003 -576.45343 moveto
+-312.79364 -570.41661 lineto
+-319.27065 -555.26073 lineto
+-327.50572 -562.4692 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -315.34183 -541.30667 moveto
+-310.06633 -554.77722 lineto
+-297.03023 -546.07838 lineto
+-306.91104 -534.41554 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -315.34183 -541.30667 moveto
+-310.06633 -554.77722 lineto
+-297.03023 -546.07838 lineto
+-306.91104 -534.41554 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -287.35861 -659.21817 moveto
+-278.00876 -658.39795 lineto
+-278.42657 -647.055 lineto
+-291.36398 -645.98901 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -287.35861 -659.21817 moveto
+-278.00876 -658.39795 lineto
+-278.42657 -647.055 lineto
+-291.36398 -645.98901 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -301.62607 -539.35582 moveto
+-306.11517 -546.28032 lineto
+-291.20343 -555.39204 lineto
+-290.6633 -546.05397 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -301.62607 -539.35582 moveto
+-306.11517 -546.28032 lineto
+-291.20343 -555.39204 lineto
+-290.6633 -546.05397 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -248.54253 -615.56517 moveto
+-255.14026 -606.85931 lineto
+-261.34247 -616.39539 lineto
+-255.48927 -621.85657 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -248.54253 -615.56517 moveto
+-255.14026 -606.85931 lineto
+-261.34247 -616.39539 lineto
+-255.48927 -621.85657 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -271.53415 -585.70021 moveto
+-272.3046 -594.96129 lineto
+-257.97083 -596.04202 lineto
+-262.2343 -582.06168 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -271.53415 -585.70021 moveto
+-272.3046 -594.96129 lineto
+-257.97083 -596.04202 lineto
+-262.2343 -582.06168 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -262.36708 -588.7956 moveto
+-254.37242 -585.00052 lineto
+-253.40143 -573.08818 lineto
+-266.30699 -574.77245 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -262.36708 -588.7956 moveto
+-254.37242 -585.00052 lineto
+-253.40143 -573.08818 lineto
+-266.30699 -574.77245 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -256.23824 -644.04767 moveto
+-253.31232 -658.57043 lineto
+-240.89961 -657.52098 lineto
+-240.94632 -643.72086 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -256.23824 -644.04767 moveto
+-253.31232 -658.57043 lineto
+-240.89961 -657.52098 lineto
+-240.94632 -643.72086 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -233.38794 -622.15663 moveto
+-229.61865 -614.1885 lineto
+-245.1062 -612.59584 lineto
+-243.2311 -624.64558 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -233.38794 -622.15663 moveto
+-229.61865 -614.1885 lineto
+-245.1062 -612.59584 lineto
+-243.2311 -624.64558 lineto
+ closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -233.20299 -565.96861 moveto
+-238.97375 -555.76567 lineto
+-251.7361 -557.86613 lineto
+-246.13374 -567.60892 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -233.20299 -565.96861 moveto
+-238.97375 -555.76567 lineto
+-251.7361 -557.86613 lineto
+-246.13374 -567.60892 lineto
+ closepath stroke
+grestore
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 374.16 570.9 moveto
+369.84 568.31 372.37 569.44 371.64 569.07 curveto
+370.92 568.69 368.21 567.04 365.34 563.25 curveto
+362.43 559.41 360.06 554.8 358.77 551.44 curveto
+357.46 548.07 362.43 542.68 364.93 541.4 curveto
+367.43 540.11 376.58 537.05 379.28 536.74 curveto
+381.98 536.43 385.48 539.67 387.31 541.1 curveto
+389.15 542.53 393.93 547.75 394.13 548.91 curveto
+394.33 550.07 393.22 565.23 392.5 566.83 curveto
+391.79 568.41 391.46 572.38 389.06 575.31 curveto
+386.7 578.19 385.59 575.46 381.56 576.14 curveto
+377.53 576.81 378.5 573.53 374.16 570.9 curveto closepath fill
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 374.16 570.9 moveto
+369.84 568.31 372.37 569.44 371.64 569.07 curveto
+370.92 568.69 368.21 567.04 365.34 563.25 curveto
+362.43 559.41 360.06 554.8 358.77 551.44 curveto
+357.46 548.07 362.43 542.68 364.93 541.4 curveto
+367.43 540.11 376.58 537.05 379.28 536.74 curveto
+381.98 536.43 385.48 539.67 387.31 541.1 curveto
+389.15 542.53 393.93 547.75 394.13 548.91 curveto
+394.33 550.07 393.22 565.23 392.5 566.83 curveto
+391.79 568.41 391.46 572.38 389.06 575.31 curveto
+386.7 578.19 385.59 575.46 381.56 576.14 curveto
+377.53 576.81 378.5 573.53 374.16 570.9 curveto closepath stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop 1 setlinecap
+newpath 400.95 651.14 moveto
+400.46031 653.48972 lineto stroke
+newpath 403.88164 650.27617 moveto
+405.31061 652.20435 lineto stroke
+newpath 405.79631 647.82716 moveto
+407.96799 648.84877 lineto stroke
+newpath 406.82549 644.8682 moveto
+409.15239 645.45592 lineto stroke
+newpath 407.43909 641.79187 moveto
+409.80975 642.16577 lineto stroke
+newpath 407.83653 638.67918 moveto
+410.22313 638.932 lineto stroke
+newpath 408.10954 635.55324 moveto
+410.5028 635.73227 lineto stroke
+newpath 408.36127 632.42523 moveto
+410.75006 632.65631 lineto stroke
+newpath 408.82204 629.32382 moveto
+411.15465 629.88832 lineto stroke
+newpath 409.95018 626.40337 moveto
+412.09984 627.47052 lineto stroke
+newpath 411.42795 623.63539 moveto
+413.501 624.84468 lineto stroke
+newpath 413.59105 621.4819 moveto
+414.25432 623.7884 lineto stroke
+newpath 416.48228 622.20491 moveto
+414.93086 624.03604 lineto stroke
+newpath 418.32547 624.71898 moveto
+416.20111 625.83562 lineto stroke
+newpath 419.6475 627.56436 moveto
+417.44739 628.52312 lineto stroke
+newpath 420.87907 630.45074 moveto
+418.66591 631.37907 lineto stroke
+newpath 422.07997 633.34995 moveto
+419.85791 634.2567 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 400.95 651.14 moveto
+400.95 651.14 403.01 651.59 404.88 649.3 curveto
+406.9 646.84 407.68 641.48 408.12 635.41 curveto
+408.55 629.59 408.69 628.78 410.39 625.55 curveto
+411.92 622.64 412.51 621.6 413.96 621.41 curveto
+415.41 621.21 415.85 621.69 416.44 622.17 curveto
+417.15 622.75 417.8 623.59 418.69 625.45 curveto
+419.78 627.71 422.08 633.35 422.08 633.35 curveto stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 314.23 431.47 moveto
+314.23 431.47 308.39 423.13 317.06 417.97 curveto
+325.7 412.82 335.54 425.61 335.54 425.61 curveto
+335.54 425.61 335.74 433.45 330.16 437.03 curveto
+324.58 440.61 314.23 431.47 314.23 431.47 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 314.23 431.47 moveto
+314.23 431.47 308.39 423.13 317.06 417.97 curveto
+325.7 412.82 335.54 425.61 335.54 425.61 curveto
+335.54 425.61 335.74 433.45 330.16 437.03 curveto
+324.58 440.61 314.23 431.47 314.23 431.47 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 328.93 478.63 moveto
+328.93 478.63 333.36 465.8 345.54 463.77 curveto
+357.71 461.74 366.67 460.17 365.55 466.82 curveto
+364.42 473.52 353.38 481.83 350.71 482.86 curveto
+348.05 483.89 334.93 492.87 331.85 488.14 curveto
+326.05 479.21 328.93 478.63 328.93 478.63 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 328.93 478.63 moveto
+328.93 478.63 333.36 465.8 345.54 463.77 curveto
+357.71 461.74 366.67 460.17 365.55 466.82 curveto
+364.42 473.52 353.38 481.83 350.71 482.86 curveto
+348.05 483.89 334.93 492.87 331.85 488.14 curveto
+326.05 479.21 328.93 478.63 328.93 478.63 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 343.39 463.99 moveto
+343.39 463.99 336.35 450.08 346.26 445.24 curveto
+356.16 440.4 357.94 452.36 357.73 456.96 curveto
+357.43 463.83 343.39 463.99 343.39 463.99 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 343.39 463.99 moveto
+343.39 463.99 336.35 450.08 346.26 445.24 curveto
+356.16 440.4 357.94 452.36 357.73 456.96 curveto
+357.43 463.83 343.39 463.99 343.39 463.99 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 320.87 452.04 moveto
+320.87 452.04 326.96 446.19 332.03 447.88 curveto
+337.08 449.57 338.17 457.18 329.04 463.07 curveto
+319.89 468.97 320.87 452.04 320.87 452.04 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 320.87 452.04 moveto
+320.87 452.04 326.96 446.19 332.03 447.88 curveto
+337.08 449.57 338.17 457.18 329.04 463.07 curveto
+319.89 468.97 320.87 452.04 320.87 452.04 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 336.11 516.51 moveto
+337.73 517.06 339.89 518.17 341.11 515.68 curveto
+342.32 513.18 343.02 512.02 344.76 509.12 curveto
+346.5 506.22 348.56 500.83 348.54 499.32 curveto
+348.52 497.81 349.56 495.14 345.66 496.23 curveto
+341.75 497.32 341.21 497.14 339.27 498.7 curveto
+337.32 500.26 335.73 501.8 335.06 505.2 curveto
+334.38 508.6 334.48 515.96 336.11 516.51 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 336.11 516.51 moveto
+337.73 517.06 339.89 518.17 341.11 515.68 curveto
+342.32 513.18 343.02 512.02 344.76 509.12 curveto
+346.5 506.22 348.56 500.83 348.54 499.32 curveto
+348.52 497.81 349.56 495.14 345.66 496.23 curveto
+341.75 497.32 341.21 497.14 339.27 498.7 curveto
+337.32 500.26 335.73 501.8 335.06 505.2 curveto
+334.38 508.6 334.48 515.96 336.11 516.51 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath 360.74 512.43 moveto
+357.21 515.21 358.05 512.28 355.91 512.71 curveto
+353.77 513.14 353.18 510.45 352.24 507.97 curveto
+351.31 505.5 353.41 503.33 354.79 499.85 curveto
+356.16 496.37 355.98 496.38 358.83 495.7 curveto
+361.67 495.03 362.58 495.38 364.57 497.82 curveto
+366.59 500.27 366.25 501.83 365.97 505.72 curveto
+365.69 509.64 364.26 509.65 360.74 512.43 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 360.74 512.43 moveto
+357.21 515.21 358.05 512.28 355.91 512.71 curveto
+353.77 513.14 353.18 510.45 352.24 507.97 curveto
+351.31 505.5 353.41 503.33 354.79 499.85 curveto
+356.16 496.37 355.98 496.38 358.83 495.7 curveto
+361.67 495.03 362.58 495.38 364.57 497.82 curveto
+366.59 500.27 366.25 501.83 365.97 505.72 curveto
+365.69 509.64 364.26 509.65 360.74 512.43 curveto closepath stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 336.67 236.29 moveto
+336.11223 233.95576 lineto stroke
+newpath 333.6655 236.9674 moveto
+333.16234 234.6208 lineto stroke
+newpath 330.64554 237.57135 moveto
+330.21378 235.21054 lineto stroke
+newpath 327.60603 238.06552 moveto
+327.0877 235.72221 lineto stroke
+newpath 324.65129 238.92822 moveto
+323.88054 236.65541 lineto stroke
+newpath 321.7242 239.8854 moveto
+321.06967 237.57642 lineto stroke
+newpath 318.71729 240.51143 moveto
+317.74135 238.31885 lineto stroke
+newpath 317.11049 242.95508 moveto
+314.72946 242.65424 lineto stroke
+newpath 317.33649 246.01259 moveto
+315.03346 246.68787 lineto stroke
+newpath 319.0749 248.49896 moveto
+317.08894 249.84645 lineto stroke
+newpath 319.33203 251.49573 moveto
+316.96118 251.12297 lineto stroke
+newpath 318.74658 254.5192 moveto
+316.3787 254.12798 lineto stroke
+newpath 317.39854 256.73557 moveto
+317.9079 254.39027 lineto stroke
+newpath 314.64917 255.37296 moveto
+315.88043 253.31287 lineto stroke
+newpath 311.98206 253.83327 moveto
+313.14008 251.73117 lineto stroke
+newpath 309.27408 252.36606 moveto
+310.40257 250.24797 lineto stroke
+newpath 306.54713 250.93411 moveto
+307.6485 248.80177 lineto stroke
+newpath 303.79823 249.54529 moveto
+304.85855 247.39226 lineto stroke
+newpath 301.00597 248.24626 moveto
+301.95184 246.04053 lineto stroke
+newpath 298.10281 247.22145 moveto
+298.91074 244.96156 lineto stroke
+newpath 295.21214 246.1582 moveto
+296.0587 243.91249 lineto stroke
+newpath 292.33646 245.0552 moveto
+293.20901 242.81949 lineto stroke
+newpath 289.47551 243.91481 moveto
+290.38179 241.69257 lineto stroke
+newpath 286.65009 242.69005 moveto
+287.69395 240.52899 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 336.67 236.29 moveto
+336.67 236.29 331.45 237.54 328.57 237.9 curveto
+325.68 238.26 322.26 240.06 319.92 240.24 curveto
+317.58 240.42 316.68 242.04 317.22 245.46 curveto
+317.77 248.88 320.28 247.08 319.21 252.13 curveto
+318.13 257.18 318.85 256.1 318.13 256.64 curveto
+317.41 257.18 315.61 255.92 313.45 254.66 curveto
+311.29 253.4 302.29 248.56 299.96 247.85 curveto
+297.62 247.14 288.81 243.76 286.65 242.69 curveto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 370.85 610.42 moveto
+372.8544 611.73991 lineto stroke
+newpath 373.33054 608.51399 moveto
+374.47653 610.62268 lineto stroke
+newpath 376.35544 607.68227 moveto
+376.78229 610.04396 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 379.48553 607.45158 moveto
+379.30083 609.84444 lineto stroke
+newpath 382.58342 607.93149 moveto
+382.68669 610.32922 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 385.6735 607.54922 moveto
+385.05135 609.86716 lineto stroke
+newpath 388.406 609.07553 moveto
+386.98923 611.01273 lineto stroke
+newpath 390.91481 610.97226 moveto
+389.71439 613.05045 lineto stroke
+newpath 393.96777 611.23088 moveto
+394.42729 613.58646 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 397.07825 610.81598 moveto
+396.91536 613.21042 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 399.32729 612.7169 moveto
+397.12518 613.67113 lineto stroke
+newpath 401.02692 615.30363 moveto
+399.67995 617.28996 lineto stroke
+newpath 403.72427 616.91112 moveto
+402.86754 619.15295 lineto stroke
+newpath 406.78 616.96 moveto
+407.9984 619.0275 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 370.85 610.42 moveto
+371.2 609.84 373.12 608.52 373.8 608.3 curveto
+374.47 608.08 378.32 607.01 380.31 607.6 curveto
+382.37 608.21 383.37 607.87 384.66 607.52 curveto
+385.93 607.18 387.72 608.56 389.07 609.57 curveto
+390.42 610.57 391.19 611.68 393.25 611.36 curveto
+395.28 611.03 397.07 610.38 398.3 611.21 curveto
+399.5 612.02 399.49 614.42 401.12 615.36 curveto
+402.68 616.25 402.75 616.65 404.3 617.1 curveto
+405.83 617.53 406.78 616.96 406.78 616.96 curveto stroke
+newpath 58.96 142.25 moveto
+53.20476 140.74792 50.56024 149.01892 56.02005 151.12653 curveto stroke
+newpath 56.02005 151.12653 moveto
+52.30634 154.12224 55.69635 160.6901 61.26897 159.02522 curveto stroke
+newpath 61.26897 159.02522 moveto
+60.18732 163.5775 64.62413 167.32227 68.53825 165.40276 curveto stroke
+newpath 68.53825 165.40276 moveto
+68.09361 171.96399 78.79185 171.18605 77.13 164.35 curveto stroke
+newpath 77.13 164.35 moveto
+77.13 164.35 lineto stroke
+newpath 198.72 392.01 moveto
+207.79633 388.7784 192.90971 378.09647 191.8904 389.02904 curveto stroke
+newpath 191.8904 389.02904 moveto
+188.6153 386.70787 183.95808 389.61577 183.9264 394.33318 curveto stroke
+newpath 183.9264 394.33318 moveto
+180.54745 392.352 176.19984 393.93274 174.97797 397.62296 curveto stroke
+newpath 174.97797 397.62296 moveto
+172.19505 394.49725 167.15947 395.17021 165.48868 398.90138 curveto stroke
+newpath 165.48868 398.90138 moveto
+163.00185 395.46315 157.73497 395.9703 155.95387 399.81905 curveto stroke
+newpath 155.95387 399.81905 moveto
+153.50966 396.34973 148.23137 396.80345 146.41 400.64 curveto stroke
+newpath 146.41 400.64 moveto
+146.41 400.64 lineto stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -172.57 -431.35 moveto
+-172.57 -431.35 -172.93 -445.4 -167.71 -440.54 curveto
+-162.49 -435.68 -164.83 -431.72 -164.83 -432.98 curveto
+-164.83 -434.24 -167.53 -423.43 -171.85 -428.11 curveto
+-172.46 -428.77 -172.57 -431.35 -172.57 -431.35 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -172.57 -431.35 moveto
+-172.57 -431.35 -172.93 -445.4 -167.71 -440.54 curveto
+-162.49 -435.68 -164.83 -431.72 -164.83 -432.98 curveto
+-164.83 -434.24 -167.53 -423.43 -171.85 -428.11 curveto
+-172.46 -428.77 -172.57 -431.35 -172.57 -431.35 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -54.85 -74.38 moveto
+-54.85 -74.38 -48.56 -93.86 -34.15 -94.38 curveto
+-19.75 -94.9 -26.23 -77.79 -30.36 -74.55 curveto
+-34.51 -71.31 -39 -65.9 -51.79 -68.25 curveto
+-56.04 -69.03 -54.85 -74.38 -54.85 -74.38 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -54.85 -74.38 moveto
+-54.85 -74.38 -48.56 -93.86 -34.15 -94.38 curveto
+-19.75 -94.9 -26.23 -77.79 -30.36 -74.55 curveto
+-34.51 -71.31 -39 -65.9 -51.79 -68.25 curveto
+-56.04 -69.03 -54.85 -74.38 -54.85 -74.38 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -46.19 -51.11 moveto
+-46.19 -51.11 -51.78 -61.21 -45.12 -62.47 curveto
+-38.46 -63.74 -36.48 -59.04 -37.01 -53.81 curveto
+-37.55 -48.58 -38.09 -39.93 -42.95 -46.06 curveto
+-47.81 -52.19 -46.19 -51.11 -46.19 -51.11 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -46.19 -51.11 moveto
+-46.19 -51.11 -51.78 -61.21 -45.12 -62.47 curveto
+-38.46 -63.74 -36.48 -59.04 -37.01 -53.81 curveto
+-37.55 -48.58 -38.09 -39.93 -42.95 -46.06 curveto
+-47.81 -52.19 -46.19 -51.11 -46.19 -51.11 curveto closepath stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 13.04 128.51 moveto
+12.72604 130.88934 lineto stroke
+newpath 16.11835 128.78976 moveto
+16.0806 131.18944 lineto stroke
+newpath 19.2096 128.75125 moveto
+19.35652 131.14671 lineto stroke
+newpath 22.29144 128.49655 moveto
+22.57057 130.88022 lineto stroke
+newpath 25.3559 128.08443 moveto
+25.73529 130.45421 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 28.4024 127.55107 moveto
+28.86148 129.90672 lineto stroke
+newpath 31.43016 126.92056 moveto
+31.95482 129.26248 lineto stroke
+newpath 34.43956 126.20934 moveto
+35.02003 128.53804 lineto stroke
+newpath 37.43187 125.42879 moveto
+38.06119 127.74478 lineto stroke
+newpath 40.40778 124.5868 moveto
+41.08134 126.8903 lineto stroke
+newpath 43.36717 123.68849 moveto
+44.08244 125.9794 lineto stroke
+newpath 46.30914 122.73553 moveto
+47.06697 125.01271 lineto stroke
+newpath 49.23 121.72 moveto
+50.05817 123.97253 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 13.04 128.51 moveto
+25.46 130.51 49.23 121.72 49.23 121.72 curveto stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -293.13 -612.88 moveto
+-293.13 -612.88 -289.17 -618.15 -289.12 -618.42 curveto
+-289.08 -618.69 -286.24 -630.03 -286.24 -630.44 curveto
+-286.24 -630.84 -287.68 -631.92 -287.68 -631.92 curveto
+-287.68 -631.92 -290.43 -630.3 -290.52 -630.07 curveto
+-290.61 -629.85 -294.12 -621.57 -294.12 -621.57 curveto
+-294.12 -621.57 -293.35 -619.54 -293.35 -619.09 curveto
+-293.35 -618.64 -293.13 -612.88 -293.13 -612.88 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -293.13 -612.88 moveto
+-293.13 -612.88 -289.17 -618.15 -289.12 -618.42 curveto
+-289.08 -618.69 -286.24 -630.03 -286.24 -630.44 curveto
+-286.24 -630.84 -287.68 -631.92 -287.68 -631.92 curveto
+-287.68 -631.92 -290.43 -630.3 -290.52 -630.07 curveto
+-290.61 -629.85 -294.12 -621.57 -294.12 -621.57 curveto
+-294.12 -621.57 -293.35 -619.54 -293.35 -619.09 curveto
+-293.35 -618.64 -293.13 -612.88 -293.13 -612.88 curveto closepath stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 237.72 354.53 moveto
+240.03343 353.89093 lineto stroke
+newpath 236.75728 351.58289 moveto
+239.0156 350.77057 lineto stroke
+newpath 235.61736 348.69987 moveto
+237.80338 347.7094 lineto stroke
+newpath 234.11636 345.99072 moveto
+236.13368 344.69063 lineto stroke
+newpath 232.11354 343.68628 moveto
+233.42972 341.6794 lineto stroke
+newpath 229.69243 341.75705 moveto
+231.32127 339.99446 lineto stroke
+newpath 227.424 339.64288 moveto
+229.06548 337.89206 lineto stroke
+newpath 225.16475 337.51883 moveto
+226.81065 335.77217 lineto stroke
+newpath 222.91 335.39 moveto
+224.55962 333.6469 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 237.72 354.53 moveto
+237.72 354.53 237.17 352.53 236.08 349.8 curveto
+235 347.07 234.27 346.34 233.55 345.07 curveto
+232.83 343.8 232.11 343.97 230.12 342.15 curveto
+228.14 340.34 222.91 335.39 222.91 335.39 curveto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 246.92 356.4 moveto
+249.03816 357.52872 lineto stroke
+newpath 247.60039 353.4989 moveto
+249.99928 353.5706 lineto stroke
+newpath 247.1113 350.54982 moveto
+249.41772 349.88629 lineto stroke
+newpath 246.2351 347.6783 moveto
+248.53766 347.00143 lineto stroke
+newpath 245.6391 344.74237 moveto
+248.03365 344.58098 lineto stroke
+newpath 245.41663 341.75105 moveto
+247.78732 341.37733 lineto stroke
+newpath 244.54964 338.89398 moveto
+246.62152 337.68268 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 241.87013 338.03296 moveto
+242.12216 335.64626 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 239.0857 337.04268 moveto
+240.65067 335.22314 lineto stroke
+newpath 238.23859 334.28416 moveto
+240.63779 334.34558 lineto stroke
+newpath 238.34253 331.28369 moveto
+240.74228 331.31691 lineto stroke
+newpath 237.92482 328.33833 moveto
+240.08104 327.2845 lineto stroke
+newpath 235.68445 326.37183 moveto
+237.0761 324.41655 lineto stroke
+newpath 233.03603 325.01228 moveto
+233.61983 322.68443 lineto stroke
+newpath 230.14984 324.18608 moveto
+230.85292 321.89133 lineto stroke
+newpath 230.35228 321.20723 moveto
+232.75052 321.29794 lineto stroke
+newpath 230.24593 318.21143 moveto
+232.6174 317.84277 lineto stroke
+newpath 229.26086 315.38133 moveto
+231.44994 314.39755 lineto stroke
+newpath 227.78206 312.77509 moveto
+229.7157 311.35352 lineto stroke
+newpath 225.54364 310.82394 moveto
+226.57616 308.65744 lineto stroke
+newpath 222.59702 310.721 moveto
+222.06946 308.37973 lineto stroke
+newpath 219.7334 311.61313 moveto
+218.86996 309.37386 lineto stroke
+newpath 216.97665 312.80095 moveto
+215.95486 310.6294 lineto stroke
+newpath 214.30013 314.15994 moveto
+213.13585 312.06137 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 246.92 356.4 moveto
+246.92 356.4 247.99 354.42 247.45 351.88 curveto
+246.9 349.34 245.64 346.61 245.63 344.44 curveto
+245.63 342.27 245.09 338.12 243.46 338.1 curveto
+241.84 338.09 238.23 338.06 238.23 334.99 curveto
+238.23 331.94 238.77 328.89 237.51 327.8 curveto
+236.25 326.72 234.27 325.27 233.37 325.09 curveto
+232.47 324.9 230.13 324.18 230.13 324.18 curveto
+230.13 324.18 230.67 319.53 230.14 317.74 curveto
+229.6 315.95 227.81 311.12 224.75 310.58 curveto
+221.69 310.04 214.3 314.16 214.3 314.16 curveto stroke
+newpath -232.69 -597.66 moveto
+-235.62225 -593.18282 -228.49037 -587.45612 -223.90027 -592.95502 curveto
+ stroke
+newpath -223.90027 -592.95502 moveto
+-222.22746 -588.39555 -215.70528 -588.2671 -213.67027 -592.92192 curveto stroke
+newpath -213.67027 -592.92192 moveto
+-210.66617 -588.84512 -204.4281 -590.18962 -203.61461 -594.85779 curveto stroke
+newpath -203.61461 -594.85779 moveto
+-199.88165 -591.7382 -193.95758 -595.96486 -195.96 -601.42 curveto stroke
+newpath -195.96 -601.42 moveto
+-195.96 -601.42 lineto stroke
+newpath -80.24 -190.68 moveto
+-76.7996 -187.78917 -71.45294 -191.23073 -72.68776 -196.03877 curveto stroke
+newpath -72.68776 -196.03877 moveto
+-68.08095 -194.75284 -64.51382 -199.86696 -67.22188 -203.51424 curveto stroke
+newpath -67.22188 -203.51424 moveto
+-61.28424 -204.20055 -62.35919 -213.09338 -68.26237 -212.35832 curveto stroke
+newpath -68.26237 -212.35832 moveto
+-66.69539 -216.0675 -69.95734 -220.077 -74.17923 -219.55544 curveto stroke
+newpath -74.17923 -219.55544 moveto
+-72.5856 -223.31757 -75.4582 -227.44571 -79.50081 -227.20465 curveto stroke
+newpath -79.50081 -227.20465 moveto
+-77.4888 -231.22484 -80.66684 -235.72266 -84.71712 -234.91959 curveto stroke
+newpath -84.71712 -234.91959 moveto
+-83.02258 -239.90146 -88.73155 -243.58278 -92.08943 -240.41829 curveto stroke
+newpath -92.08943 -240.41829 moveto
+-93.29723 -245.5271 -100.92104 -244.77647 -101.07826 -239.34962 curveto stroke
+newpath -101.07826 -239.34962 moveto
+-105.13101 -241.84871 -109.98167 -237.53673 -107.95998 -233.17004 curveto
+ stroke
+newpath -107.95998 -233.17004 moveto
+-107.96 -233.17 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath -79.34 -188.52 moveto
+-79.68489 -186.14497 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath -76.25354 -187.8395 moveto
+-76.91508 -185.53252 lineto stroke
+newpath -73.26001 -186.82637 moveto
+-74.17487 -184.6076 lineto stroke
+newpath -70.42035 -185.44185 moveto
+-71.64505 -183.37788 lineto stroke
+newpath -67.86852 -183.58426 moveto
+-69.48729 -181.81241 lineto stroke
+newpath -65.87096 -181.14835 moveto
+-67.9305 -179.91621 lineto stroke
+newpath -64.80185 -178.19109 moveto
+-67.15962 -177.743 lineto stroke
+newpath -64.80905 -175.04257 moveto
+-67.19089 -175.33708 lineto stroke
+newpath -65.65372 -172.00171 moveto
+-67.91353 -172.80978 lineto stroke
+newpath -67.03342 -169.15974 moveto
+-69.14854 -170.29378 lineto stroke
+newpath -68.75014 -166.50607 moveto
+-70.73665 -167.8528 lineto stroke
+newpath -70.69 -164.01 moveto
+-72.57051 -165.50114 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath -79.34 -188.52 moveto
+-79.34 -188.52 -53.24 -184.91 -70.69 -164.01 curveto stroke
+newpath -80.24 -190.68 moveto
+-75.84244 -189.81865 -72.80515 -194.57993 -75.31024 -197.77364 curveto stroke
+newpath -75.31024 -197.77364 moveto
+-70.37434 -198.47704 -70.06458 -205.14076 -74.45735 -206.2334 curveto stroke
+newpath -74.45735 -206.2334 moveto
+-71.4499 -209.35115 -74.42924 -214.59921 -78.88704 -213.59422 curveto stroke
+newpath -78.88704 -213.59422 moveto
+-77.71603 -217.35492 -81.47714 -220.83043 -85.3017 -219.42654 curveto stroke
+newpath -85.3017 -219.42654 moveto
+-84.69583 -222.91858 -87.88777 -225.89386 -91.56369 -225.40222 curveto stroke
+newpath -91.56369 -225.40222 moveto
+-90.10156 -228.95276 -90.65651 -233.0445 -93.79083 -233.67949 curveto stroke
+newpath -93.79083 -233.67949 moveto
+-90.39665 -237.52226 -94.61343 -242.81888 -98.6 -240.73 curveto stroke
+newpath -98.6 -240.73 moveto
+-98.6 -240.73 lineto stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -284.67 -622.83 moveto
+-285.21 -622.79 -285.93 -622.92 -286.2 -622.97 curveto
+-286.47 -623.01 -286.83 -625.85 -286.92 -626.16 curveto
+-287.01 -626.48 -286.29 -629.09 -286.15 -629.67 curveto
+-286.02 -630.26 -283 -636.2 -282.51 -636.6 curveto
+-282.01 -637.01 -278.28 -639.12 -277.65 -638.99 curveto
+-277.02 -638.85 -276.36 -637.21 -276.07 -636.33 curveto
+-275.71 -635.21 -275.13 -633.99 -274.59 -632.19 curveto
+-274.13 -630.68 -274.45 -628.19 -274.59 -627.92 curveto
+-274.72 -627.65 -274.68 -625.67 -274.9 -625 curveto
+-275.13 -624.32 -276.66 -623.24 -278.19 -622.66 curveto
+-279.72 -622.07 -280.57 -622.34 -281.47 -622.38 curveto
+-282.37 -622.43 -284.13 -622.88 -284.67 -622.83 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -284.67 -622.83 moveto
+-285.21 -622.79 -285.93 -622.92 -286.2 -622.97 curveto
+-286.47 -623.01 -286.83 -625.85 -286.92 -626.16 curveto
+-287.01 -626.48 -286.29 -629.09 -286.15 -629.67 curveto
+-286.02 -630.26 -283 -636.2 -282.51 -636.6 curveto
+-282.01 -637.01 -278.28 -639.12 -277.65 -638.99 curveto
+-277.02 -638.85 -276.36 -637.21 -276.07 -636.33 curveto
+-275.71 -635.21 -275.13 -633.99 -274.59 -632.19 curveto
+-274.13 -630.68 -274.45 -628.19 -274.59 -627.92 curveto
+-274.72 -627.65 -274.68 -625.67 -274.9 -625 curveto
+-275.13 -624.32 -276.66 -623.24 -278.19 -622.66 curveto
+-279.72 -622.07 -280.57 -622.34 -281.47 -622.38 curveto
+-282.37 -622.43 -284.13 -622.88 -284.67 -622.83 curveto closepath stroke
+ 0.00002 0.00018 0.0002 setrgbcolor
+newpath -301.04 -604.5 moveto
+-301.04 -604.5 -294.57 -608.47 -294.07 -609.28 curveto
+-293.58 -610.09 -292.99 -611.94 -293.13 -612.88 curveto
+-293.26 -613.83 -293.22 -618.51 -293.44 -619.41 curveto
+-293.67 -620.31 -294.43 -623.14 -295.56 -622.02 curveto
+-296.68 -620.89 -300.5 -616.48 -300.5 -616.48 curveto
+-300.5 -616.48 -302.48 -607.47 -302.44 -606.84 curveto
+-302.39 -606.21 -302.26 -605.13 -302.26 -605.13 curveto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -301.04 -604.5 moveto
+-301.04 -604.5 -294.57 -608.47 -294.07 -609.28 curveto
+-293.58 -610.09 -292.99 -611.94 -293.13 -612.88 curveto
+-293.26 -613.83 -293.22 -618.51 -293.44 -619.41 curveto
+-293.67 -620.31 -294.43 -623.14 -295.56 -622.02 curveto
+-296.68 -620.89 -300.5 -616.48 -300.5 -616.48 curveto
+-300.5 -616.48 -302.48 -607.47 -302.44 -606.84 curveto
+-302.39 -606.21 -302.26 -605.13 -302.26 -605.13 curveto
+ closepath stroke
 showpage
 %%EOF

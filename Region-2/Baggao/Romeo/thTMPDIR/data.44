@@ -2,7 +2,7 @@
 %%BoundingBox: -1 -1 39 24 
 %%HiResBoundingBox: -0.42 -0.42 38.09999 23.70609 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2017.02.10:1555
+%%CreationDate: 2017.02.12:0802
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
@@ -18,22 +18,36 @@ newpath 0 0 moveto
 37.68 23.28609 lineto
 0 23.28609 lineto
  closepath fill
-newpath 6.02893 8.38301 moveto
-22.98482 4.89023 lineto
-34.28893 10.71176 lineto
-31.65106 18.16312 lineto
-14.31859 20.02605 lineto
-7.53589 12.80742 lineto
- closepath fill
- 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
- [] 0 setdash 1 setlinejoin 10 setmiterlimit
-newpath 6.02893 8.38301 moveto
-22.98482 4.89023 lineto
-34.28893 10.71176 lineto
-31.65106 18.16312 lineto
-14.31859 20.02605 lineto
-7.53589 12.80742 lineto
- closepath stroke
+ 0 0 0 setrgbcolor 0 0.42001 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 3.76823 13.9718 moveto
+5.26799 15.84546 lineto stroke
+newpath 6.43893 12.19228 moveto
+7.5668 14.3107 lineto stroke
+newpath 9.3745 10.89049 moveto
+10.18263 13.1503 lineto stroke
+newpath 12.4613 10.00188 moveto
+12.98769 12.3434 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 15.63187 9.48419 moveto
+15.89941 11.86922 lineto stroke
+newpath 18.84 9.31429 moveto
+18.84 11.71425 lineto stroke
+newpath 22.0484 9.48422 moveto
+21.78085 11.86925 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 25.21893 10.00194 moveto
+24.69255 12.34346 lineto stroke
+newpath 28.30571 10.89058 moveto
+27.49757 13.15039 lineto stroke
+newpath 31.24124 12.19238 moveto
+30.11333 14.31078 lineto stroke
+newpath 33.91176 13.9718 moveto
+32.412 15.84546 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 3.76823 13.9718 moveto
+7.32602 11.03972 12.90996 9.31429 18.84 9.31429 curveto
+24.77003 9.31429 30.35397 11.03972 33.91176 13.9718 curveto stroke
 grestore
  0 0 0 setrgbcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
  [] 0 setdash 1 setlinejoin 10 setmiterlimit

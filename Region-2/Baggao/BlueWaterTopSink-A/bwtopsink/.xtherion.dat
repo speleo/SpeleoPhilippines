@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 53.71m (surface 0.00m, duplicated 0.00m)\nvertical range: 9.73m (from 1.1@bwtopsink at 0.04m to 11.1@bwtopsink at -9.69m)\nnorth-south range: 13.06m (from 1.1@bwtopsink at 1.31m to 11.2@bwtopsink at -11.76m)\neast-west range: 44.33m (from 1.0@bwtopsink at 0.00m to 11.3@bwtopsink at -44.33m)\nnumber of shots: 36\nnumber of stations: 37"
+xth_cp_data_tree_insert 10 1 1 bwtopsink bwtopsink "" "" "length: 53.71m (surface 0.00m, duplicated 0.00m)\nvertical range: 9.73m (from 1.1@bwtopsink at 0.04m to 11.1@bwtopsink at -9.69m)\nnorth-south range: 13.06m (from 1.1@bwtopsink at 1.31m to 11.2@bwtopsink at -11.76m)\neast-west range: 44.33m (from 1.0@bwtopsink at 0.00m to 11.3@bwtopsink at -44.33m)\nnumber of shots: 36\nnumber of stations: 37"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 25X1 p1 1 bwtopsinkM bwtopsinkM@bwtopsink "" ""
+xth_cp_map_tree_insert map 1 26X1 p2 1 bwtopsinkME bwtopsinkME@bwtopsink "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 54 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1486761972
+

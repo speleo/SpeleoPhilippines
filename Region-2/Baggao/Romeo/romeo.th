@@ -9,9 +9,10 @@ survey romeo -title "Romeo System"
   input romeo_cathedral.th
   input lumio.th
 
-  join romeoSP1@romeo_entrance Romeo_1.12SP1@Romeo_1_12
-  join lumioSP1@lumio romeoSP1@romeo_entrance
+  join romeoSP4@romeo_entrance Romeo_1.12SP1@Romeo_1_12
+  join lumioSP1@lumio romeoSP5@romeo_entrance
   join romeo_cathedralSP1@romeo_cathedral romeoSP3@romeo_entrance
+  join romeoSP1@romeo_entrance Romeo_21_1SP1@Romeo_21_1
 
   centreline
     title "Romeo System"

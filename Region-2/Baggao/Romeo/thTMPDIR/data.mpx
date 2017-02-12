@@ -24,6 +24,17 @@ string _n[];
 vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
   addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
 _n0="cmss10";
+_s("Conspiracy",_n0,3.00000,0.0000,0.0000,);
+_s("Duck",_n0,3.00000,145.1229,0.0000,);
+setbounds _p to (0,-5.8115)--(210.0464,-5.8115)--
+ (210.0464,20.7555)--(0,20.7555)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
 _s("p5",_n0,3.00000,0.0000,0.0000,);
 setbounds _p to (0,-5.8115)--(30.3861,-5.8115)--
  (30.3861,19.5932)--(0,19.5932)--cycle;
@@ -152,17 +163,6 @@ _s("Crystal",_n1,5.40000,0.0000,0.0000,);
 _s("Canals",_n1,5.40000,174.2471,0.0000,);
 setbounds _p to (0,-10.4608)--(321.5950,-10.4608)--
  (321.5950,37.3599)--(0,37.3599)--cycle;
-_p endgroup
-mpxbreak
-begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
-string _n[];
-vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
-  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
-_n0="cmss10";
-_s("Conspiracy",_n0,3.00000,0.0000,0.0000,);
-_s("Duck",_n0,3.00000,145.1229,0.0000,);
-setbounds _p to (0,-5.8115)--(210.0464,-5.8115)--
- (210.0464,20.7555)--(0,20.7555)--cycle;
 _p endgroup
 mpxbreak
 begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
