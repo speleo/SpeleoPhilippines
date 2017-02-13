@@ -22,7 +22,7 @@ average distortion: 0.00%
 writing .\output\area_51.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 FEB 2017 12:12
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 08:08
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -38,14 +38,14 @@ Here is how much of MetaPost's memory you used:
  127794 words of memory out of 1500000
  1519 symbolic tokens out of 16384
  11i,75n,16p,334b,5f stack positions out of 300i,84n,5000p,390b,15f
- 70 string compactions (moved 959859 characters, 79273 strings)
+ 70 string compactions (moved 959761 characters, 79249 strings)
 48 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 FEB 2017 12:12
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 08:08
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -58,16 +58,16 @@ entering extended mode
 Here is how much of TeX's memory you used:
  288 strings out of 95617
  2893 string characters out of 1171098
- 239300 words of memory out of 1712278
+ 237780 words of memory out of 1710758
  1698 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 13i,5n,8p,1134b,74s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 13i,5n,8p,1126b,74s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program F
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 157102 bytes).
+Output written on data.pdf (1 page, 156268 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -80,7 +80,7 @@ writing .\output\area_51.3d ... done
 writing .\output\Area_51-map.kml ... done
 writing .\output\Area_51.kml ... done
 writing xtherion file ... done
-compilation time: 3 sec
+compilation time: 5 sec
 
 
 ###################### scrap distortions #######################

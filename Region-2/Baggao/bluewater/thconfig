@@ -220,8 +220,8 @@ export map -proj plan -layout local -o .\output\bluewater.pdf
 
 #export atlas -proj plan -layout local -o .\output\bluewater-atlas.pdf
 
-#export model -fmt kml -o .\output\bluewater.kml
-#export map -fmt kml -proj plan -layout local -o .\output\bluewater.kml
+export model -fmt kml -o .\output\bluewater.kml
+export map -fmt kml -proj plan -layout local -o .\output\bluewater-map.kml
 
 
 #export map -proj extended -layout local -o .\output\bluewater-elevation.pdf

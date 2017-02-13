@@ -11,6 +11,10 @@ export map -proj plan -layout local -o .\output\C4HelicopterHole.pdf
 
 #export map -proj extended -layout local -o .\output\C4HelicopterHoleEe.pdf
 
+export map -fmt kml -proj plan -layout local -o .\output\C4HelicopterHole-map.kml
+export model -fmt kml -o .\output\C4HelicopterHole.kml
+
+
 export model -fmt survex -o .\output\C4HelicopterHoleth.3d
 #Survex file showing centre line only
 

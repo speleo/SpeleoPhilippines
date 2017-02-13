@@ -26,7 +26,7 @@ copyright 2014 "GNU GPL"
   instrument  instruments "BEC DistoX2"
 
   explo-date 2005.07.02
-  station 1.0 "main ent." entrance
+  station 1.0 "Ovimph" entrance
   cs EPSG:32651
   fix 1.0 393661.88 1993480.85 196  
 

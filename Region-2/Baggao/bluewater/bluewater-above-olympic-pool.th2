@@ -649,7 +649,7 @@ line border -id l189-23672-10060 -subtype invisible
   smooth off
 endline
 
-line border -id baop_walk_up_right -subtype invisible
+line border -id baop_walk_up_right -reverse on -subtype invisible
   23584.5 10702.0
   23962.0 10800.0
 endline
@@ -815,7 +815,7 @@ endline
 line flowstone
 endline
 
-line wall -id l149-23136-12290 -close on
+line wall -id l149-23136-12290 -close on -outline in
   23084.0 12436.0
   23084.0 12436.0 23024.0 12344.0 23024.0 12312.0
   23024.0 12280.0 23016.0 12220.0 23020.0 12204.0
@@ -860,7 +860,7 @@ line wall -id l554-23236-12168 -reverse on
   smooth off
 endline
 
-line wall -id l141-23104-10250 -close on -reverse on
+line wall -id l141-23104-10250 -close on -reverse on -outline in
   23210.0 10407.0
   23204.33 10411.46 23179.0 10404.0 23167.0 10394.0
   23155.0 10384.0 23143.0 10375.0 23130.0 10366.0
@@ -963,7 +963,7 @@ line border -id l147-23908-10700 -subtype invisible
   smooth off
 endline
 
-line wall -id l148-21412-10446 -close off -reverse on
+line wall -id l148-21412-10446 -close off -reverse on -outline in
   21386.0 10574.0
   21300.0 10620.0
   21300.0 10620.0 21262.0 10650.0 21228.0 10620.0
@@ -1053,7 +1053,7 @@ line border -id l253-20045-10430
   smooth off
 endline
 
-line wall -id l19-20218-10324 -close on -reverse on
+line wall -id l19-20218-10324 -close on -reverse on -outline in
   19964.0 10876.0
   20004.0 10828.0 20044.0 10844.0 20076.0 10652.0
   20108.0 10460.0 20140.0 10424.0 20188.0 10368.0
@@ -1205,7 +1205,7 @@ endline
 
 point 18495.7494572 8541.1948031 station -name 1.31
 
-line wall -id l155-21252-10148 -close on
+line wall -id l155-21252-10148 -close on -outline in
   21076.0 10404.0
   21076.0 10404.0 21214.0 10322.0 21238.0 10304.0
   21262.0 10286.0 21306.0 10250.0 21282.0 10196.0
@@ -1218,7 +1218,7 @@ line wall -id l155-21252-10148 -close on
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   20894.0 10184.0
   20894.0 10184.0 20936.0 10088.0 20958.0 10068.0
   20980.0 10048.0 21000.0 10022.0 21000.0 10022.0
@@ -1229,7 +1229,7 @@ line wall -close on
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   20864.0 10092.0
   20861.0 10080.0 20848.0 10018.0 20848.0 10018.0
   smooth off

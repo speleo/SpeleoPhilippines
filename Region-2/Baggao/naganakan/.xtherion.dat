@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 128X1 p1 1 naganakanM naganakanM@naganakan "" ""
-xth_cp_map_tree_insert map 1 129X1 p2 1 naganakanME naganakanME@naganakan "" ""
+xth_cp_map_tree_insert map 1 119X1 p1 1 naganakanM naganakanM@naganakan "" ""
+xth_cp_map_tree_insert map 1 120X1 p2 1 naganakanME naganakanME@naganakan "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 255 2
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1486710688
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1486971029
 

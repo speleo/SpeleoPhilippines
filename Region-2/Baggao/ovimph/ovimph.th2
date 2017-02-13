@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 4983.0 6360.6771653619
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 5000.0 6360.6771653619
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2577.67959273 1 1.0} {4371.2780315 1.4} PocketTopo/ovimph_p.xvi 0 {}
 
 
@@ -89,15 +89,12 @@ point 2299.26959273 4272.2580315000005 station -name 1.2
 
 point 2171.87959273 4017.3180315000004 station -name 1.1
 
-line wall -reverse on
+line wall -reverse on -subtype presumed
   1289.0 1226.0
   1289.0 1226.0 1266.0 956.0 1265.0 896.0
   1264.0 836.0 1270.0 686.0 1275.0 628.0
   1280.0 570.0 1284.0 557.0 1284.0 557.0
   smooth off
-endline
-
-line wall
 endline
 
 line wall -reverse on
@@ -116,6 +113,7 @@ line wall -reverse on
   1634.0 1593.0 1704.0 1638.0 1618.0 1575.0
   1532.0 1512.0 1471.0 1402.0 1393.0 1341.0
   1315.0 1280.0 1303.0 1300.0 1289.0 1226.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -136,16 +134,13 @@ line wall -reverse on
   smooth off
 endline
 
-line wall -reverse on
+line wall -reverse on -subtype presumed
   1550.0 3303.0
   1550.0 3303.0 1562.0 3206.0 1557.0 3154.0
   1552.0 3102.0 1566.0 2736.0 1542.0 2618.0
   1518.0 2500.0 1471.0 2116.0 1456.0 2089.0
   1441.0 2062.0 1380.0 1844.0 1380.0 1844.0
   smooth off
-endline
-
-line wall
 endline
 
 line wall -id l52-3766-4492 -reverse on
@@ -301,7 +296,7 @@ line floor-step
   smooth off
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   3191.0 3540.0
   3186.0 3527.0 3180.0 3511.0 3187.0 3511.0
   3194.0 3511.0 3213.0 3510.0 3221.0 3512.0
@@ -309,7 +304,7 @@ line wall -close on -reverse on
   3212.0 3542.0 3196.0 3553.0 3191.0 3540.0
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   2970.0 3500.0
   2968.0 3494.0 2949.0 3490.0 2955.0 3482.0
   2961.0 3474.0 2962.0 3465.0 2971.0 3463.0
@@ -318,7 +313,7 @@ line wall -close on -reverse on
   2988.0 3504.0 2972.0 3506.0 2970.0 3500.0
 endline
 
-line wall -close on
+line wall -close on -reverse on -outline in
   3365.0 3600.0
   3359.0 3603.0 3343.0 3608.0 3345.0 3595.0
   3347.0 3582.0 3353.0 3571.0 3356.0 3564.0
@@ -329,7 +324,7 @@ line wall -close on
   3389.0 3574.0 3371.0 3597.0 3365.0 3600.0
 endline
 
-line wall -close on
+line wall -close on -outline in
   2862.0 4100.0
   2868.0 4100.0 2874.0 4108.0 2919.0 4088.0
   2964.0 4068.0 2985.0 4055.0 2966.0 4051.0
@@ -341,7 +336,7 @@ line wall -close on
   2825.0 4107.0 2856.0 4100.0 2862.0 4100.0
 endline
 
-line wall -close on
+line wall -close on -outline in
   3397.0 4092.0
   3418.0 4092.0 3429.0 4111.0 3453.0 4087.0
   3477.0 4063.0 3476.0 4076.0 3479.0 4054.0
@@ -359,7 +354,7 @@ line wall -close on
   3342.0 4099.0 3376.0 4092.0 3397.0 4092.0
 endline
 
-line wall -reverse on
+line wall -reverse on -outline in
   1483.13959273 3393.5180315000002
   1528.0 3394.0
   1528.0 3394.0 1550.0 3392.0 1554.0 3391.0
@@ -414,7 +409,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -subtype presumed
   957.0 5819.0
   957.0 5819.0 945.0 5559.0 938.0 5515.0
   931.0 5471.0 902.0 5217.0 896.0 5163.0
@@ -460,7 +455,7 @@ line floor-step -close on
   1826.0 3377.0
 endline
 
-line wall -close on
+line wall -close on -outline in
   1891.0 4418.0
   1918.0 4426.0 1913.0 4444.0 1931.0 4434.0
   1949.0 4424.0 1952.0 4425.0 1957.0 4397.0
@@ -475,7 +470,7 @@ line wall -close on
   1876.0 4419.0 1864.0 4410.0 1891.0 4418.0
 endline
 
-line wall -close on
+line wall -close on -outline in
   2606.0 4607.0
   2647.0 4635.0 2652.0 4638.0 2677.0 4650.0
   2702.0 4662.0 2739.0 4675.0 2766.0 4675.0
@@ -489,7 +484,7 @@ line wall -close on
   2601.0 4605.0 2565.0 4579.0 2606.0 4607.0
 endline
 
-line wall -close on
+line wall -close on -outline in
   2779.0 4518.0
   2761.0 4506.0 2775.0 4510.0 2738.0 4490.0
   2701.0 4470.0 2699.0 4464.0 2648.0 4445.0
@@ -501,7 +496,7 @@ line wall -close on
   2778.0 4545.0 2797.0 4530.0 2779.0 4518.0
 endline
 
-line wall -close on
+line wall -close on -outline in
   3289.0 4645.0
   3289.0 4645.0 3269.0 4571.0 3236.0 4559.0
   3203.0 4547.0 3156.0 4523.0 3121.0 4526.0
@@ -527,9 +522,10 @@ line border -id l61-3379-4715 -reverse on -subtype invisible
   3382.0 4670.0 3377.0 4713.0 3384.0 4742.0
   3391.0 4771.0 3424.0 4781.0 3426.0 4808.0
   3428.0 4835.0 3430.0 4882.0 3427.0 4888.0
+  smooth off
 endline
 
-line wall
+line wall -subtype presumed
   1606.0 4389.0
   1606.0 4389.0 1617.0 4432.0 1613.0 4459.0
   1609.0 4486.0 1612.0 4581.0 1603.0 4612.0
@@ -540,7 +536,7 @@ line wall
   smooth off
 endline
 
-line wall -reverse on
+line wall -reverse on -outline in -subtype presumed
   1488.0 4116.0
   1488.0 4116.0 1512.0 4066.0 1528.0 4005.0
   1544.0 3944.0 1552.0 3893.0 1559.0 3851.0
@@ -550,6 +546,7 @@ line wall -reverse on
   1495.0 3516.0 1476.0 3478.0 1479.0 3471.0
   1482.0 3464.0 1462.0 3461.0 1466.0 3445.0
   1470.0 3429.0 1476.28 3397.04 1483.13959273 3393.5180315000002
+  smooth off
 endline
 
 endscrap

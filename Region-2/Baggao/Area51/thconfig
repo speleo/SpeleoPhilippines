@@ -45,7 +45,7 @@ layout local
   statistics topo all
   statistics explo-length off
   
-  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-comment "Baggao, Cagayan<br>18 0'44.05 N<br>122 2'15.62 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
   
   doc-author   "Henry Bennett"
   doc-keywords "Bluewater Cave Baggao Philippines"

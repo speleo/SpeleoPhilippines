@@ -21,14 +21,14 @@ processing projection plan ... done
 average distortion: 0.00%
 writing .\output\ovimph.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 FEB 2017 23:20
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 07:49
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 [1]
 [Warning: scrap outline intersects itself in scrap ovimphSP1@ovimph] [2] [3]
 [4] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [5] [6] [7] [8] )
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [5] [6] [7] [8] [9] )
  
 Here is how much of MetaPost's memory you used:
  1334 strings out of 1638
@@ -36,38 +36,38 @@ Here is how much of MetaPost's memory you used:
  62052 words of memory out of 1500000
  1512 symbolic tokens out of 16384
  9i,75n,12p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 50 string compactions (moved 633276 characters, 51135 strings)
-20 output files written: data.1 .. data.4012
+ 50 string compactions (moved 633260 characters, 51135 strings)
+21 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 FEB 2017 23:20
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 07:49
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 56 numeric registers used out of 32768
+ 57 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 256 strings out of 95617
- 2597 string characters out of 1171098
+ 257 strings out of 95617
+ 2604 string characters out of 1171098
  36767 words of memory out of 1522745
- 1666 multiletter control sequences out of 15000+50000
+ 1667 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  10i,5n,7p,247b,86s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
 iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 46897 bytes).
+Output written on data.pdf (1 page, 47614 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
