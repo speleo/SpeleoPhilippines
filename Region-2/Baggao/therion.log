@@ -24,7 +24,7 @@ average distortion: 1.17%
 writing .\output\BlueWater-Helicopter.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  12 FEB 2017 21:48
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 17:38
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -34,7 +34,13 @@ _continuos_line.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_large
 _format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_legend_large_f
-ormat_20U.mp) [1] [2] [3] [4]
+ormat_20U.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_water_blue.mp)
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
+terline.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_60
+0.mp) [1] [2] [3] [4]
 [Warning: scrap outline intersects itself in scrap bluewater-above-climb-1-S2@b
 luewater.BlueWater-Helicopter] [5] [6] [7] [8] [9] [10] [11] [12]
 [Warning: scrap outline intersects itself in scrap bluewater-above-olympic-pool
@@ -68,17 +74,17 @@ assage@bluewater.BlueWater-Helicopter] [31] [32] [33] [34] [35] [36] [37] [38]
 Here is how much of MetaPost's memory you used:
  1746 strings out of 2233
  18565 string characters out of 34452
- 212946 words of memory out of 1500000
+ 216946 words of memory out of 1500000
  1526 symbolic tokens out of 16384
  11i,75n,16p,650b,5f stack positions out of 300i,84n,5000p,760b,15f
- 511 string compactions (moved 8417247 characters, 754757 strings)
+ 512 string compactions (moved 8429169 characters, 755767 strings)
 120 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  12 FEB 2017 21:48
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 17:39
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -96,7 +102,7 @@ Helicoptor_hole_5K_lowres.jpg>) (./th_pages.tex)
 Here is how much of TeX's memory you used:
  379 strings out of 95617
  3790 string characters out of 1171098
- 314994 words of memory out of 1768972
+ 319447 words of memory out of 1772425
  1786 multiletter control sequences out of 15000+50000
  23527 words of font info for 72 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -105,7 +111,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 7511794 bytes).
+Output written on data.pdf (1 page, 7511366 bytes).
 PDF statistics:
  322 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -114,11 +120,10 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-C:\Program Files (x86)\Therion\therion.exe: warning --  [0] -- source layout not found -- local
 writing .\output\BlueWater-Helicopter-map.kml ... done
 writing .\output\BlueWater-Helicopter.kml ... done
 writing xtherion file ... done
-compilation time: 16 sec
+compilation time: 31 sec
 
 
 ######################### loop errors ##########################

@@ -5,7 +5,7 @@
 <Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>http://pk-sofia.com/images/stories/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
 <Icon> <href>http://pk-sofia.com/images/stories/KmlIconMap.png</href> </Icon>
 <name><![CDATA[C1]]></name>
-<description><![CDATA[Length 360 m<br>Depth 50 m<br>Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>]]></description>
+<description><![CDATA[Length 360 m<br>Depth 50 m<br>Blue Water Sitio, Baggao, Cagayan<br>18 0'30.87 N<br>122 2'14.04 E<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>]]></description>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[C1]]></name>
 <Point> <coordinates>122.03723315444145,18.00857500638021,449.00000000000000</coordinates> </Point>
@@ -13,7 +13,7 @@
 <Placemark>
 <styleUrl>#ThMapStyle</styleUrl>
 <name><![CDATA[C1_Main]]></name>
-<Style> <PolyStyle> <color>cccccccc</color> </PolyStyle> </Style>
+<Style> <PolyStyle> <color>ccffffff</color> </PolyStyle> </Style>
 <MultiGeometry>
 <Polygon>
 <outerBoundaryIs>
@@ -46,7 +46,7 @@
 <Placemark>
 <styleUrl>#ThMapStyle</styleUrl>
 <name><![CDATA[C1_Lower]]></name>
-<Style> <PolyStyle> <color>cccccccc</color> </PolyStyle> </Style>
+<Style> <PolyStyle> <color>ccffffff</color> </PolyStyle> </Style>
 <MultiGeometry>
 <Polygon>
 <outerBoundaryIs>

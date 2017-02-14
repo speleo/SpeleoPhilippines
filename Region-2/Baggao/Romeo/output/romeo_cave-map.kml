@@ -5,7 +5,7 @@
 <Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>http://pk-sofia.com/images/stories/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
 <Icon> <href>http://pk-sofia.com/images/stories/KmlIconMap.png</href> </Icon>
 <name><![CDATA[Romeo System]]></name>
-<description><![CDATA[Length 1349 m<br>Depth 86 m<br>Baggao, Cagayan<br>18Â° 1'15.52 N<br>121Â°59'53.82 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>]]></description>
+<description><![CDATA[Length 1349 m<br>Depth 86 m<br>Baggao, Cagayan<br>18 0'48.40 N<br>122 2'16.40 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>]]></description>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Romeo]]></name>
 <Point> <coordinates>122.03788888745380,18.01344446589759,462.00000000000000</coordinates> </Point>

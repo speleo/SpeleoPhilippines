@@ -6,10 +6,10 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 168X1 p1 1 s1M s1M@Area51 "" ""
-xth_cp_map_tree_insert map 1 169X1 p3 1 s1ME s1ME@Area51 "" ""
+xth_cp_map_tree_insert map 1 225X1 p1 1 s1M s1M@Area51 "" ""
+xth_cp_map_tree_insert map 1 226X1 p3 1 s1ME s1ME@Area51 "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 265 7
+xth_cp_comp_stat 265 8
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1486973338
+set xth(th_exit_number) 1487007024
 

@@ -22,56 +22,66 @@ average distortion: 0.00%
 writing .\output\area_51.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 08:08
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 17:30
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1]
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_small
+_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_water_blue.mp)
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_15
+0.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
+terline.mp) [1]
 [Warning: scrap outline intersects itself in scrap s1-lower@Area51] [2] [3]
-[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] (./mptextmp.mp)
-[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
-[33] [34] [35] [36] )
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [21] [22] [23] [24] [25] [26] [27] [28] [29]
+[30] [31] [32] [33] [34] [35] [36] [37] [38] [39] )
  
 Here is how much of MetaPost's memory you used:
- 1391 strings out of 1638
- 17277 string characters out of 26823
- 127794 words of memory out of 1500000
- 1519 symbolic tokens out of 16384
+ 1415 strings out of 1638
+ 17425 string characters out of 26823
+ 126489 words of memory out of 1500000
+ 1521 symbolic tokens out of 16384
  11i,75n,16p,334b,5f stack positions out of 300i,84n,5000p,390b,15f
- 70 string compactions (moved 959761 characters, 79249 strings)
-48 output files written: data.1 .. data.4012
+ 72 string compactions (moved 993464 characters, 82409 strings)
+51 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 08:08
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 17:30
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 88 numeric registers used out of 32768
-
-[1] ) 
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex) <
+c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_300.p
+ng>) (./th_pages.tex)
+ 92 numeric registers used out of 32768
+ [1] ) 
 Here is how much of TeX's memory you used:
- 288 strings out of 95617
- 2893 string characters out of 1171098
- 237780 words of memory out of 1710758
- 1698 multiletter control sequences out of 15000+50000
+ 295 strings out of 95617
+ 2988 string characters out of 1171098
+ 237016 words of memory out of 1709994
+ 1702 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 13i,5n,8p,1126b,74s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program F
-iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
-texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
-cmssi10.pfb>
-Output written on data.pdf (1 page, 156268 bytes).
+ 11i,5n,7p,1262b,76s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
+/cmssi10.pfb>
+Output written on data.pdf (1 page, 189273 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -79,8 +89,74 @@ done
 writing .\output\area_51.3d ... done
 writing .\output\Area_51-map.kml ... done
 writing .\output\Area_51.kml ... done
+processing projection extended ... done
+average distortion: 0.00%
+writing .\output\area_51_elevation.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 17:30
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_small
+_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_water_blue.mp)
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_15
+0.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
+terline.mp)
+[Warning: scrap outline intersects itself in scrap s1SE1@Area51] [1] [2] [3]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+[14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1343 strings out of 1638
+ 17115 string characters out of 26823
+ 59792 words of memory out of 1500000
+ 1513 symbolic tokens out of 16384
+ 9i,75n,12p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 35 string compactions (moved 393435 characters, 31664 strings)
+26 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 17:30
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) <c:/Users/henry_bennett/
+Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_300.png>) (./th_pages.tex)
+ 62 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 262 strings out of 95617
+ 2644 string characters out of 1171098
+ 19142 words of memory out of 1505120
+ 1672 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 11i,5n,7p,1262b,72s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Fi
+les (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/
+texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 57796 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
 writing xtherion file ... done
-compilation time: 5 sec
+compilation time: 7 sec
 
 
 ###################### scrap distortions #######################
@@ -91,4 +167,12 @@ compilation time: 5 sec
    0.00%    0.05%  s1-main@Area51
    0.01%    0.03%  s1-upper@Area51
    0.01%    0.02%  s1-entrance@Area51
+   0.00%    0.02%  s1-pitchhead@Area51
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.12%  s1SE1@Area51
 ################### end of scrap distortions ###################

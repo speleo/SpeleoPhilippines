@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 13070.0 7200.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -144.0 13080.0 7208.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1717.11496063 1 1.0} {5387.45700787 1.4} PocketTopo/naganakan_p.xvi 0 {}
 
 
@@ -105,7 +105,7 @@ endline
 
 point 11133.0 1868.0 label -text "? continues low"
 
-area sump
+area water
   l98-7514-3530
 endarea
 
@@ -758,7 +758,7 @@ point 7651.0 3704.0 label -text "Dived 1987<br> Pio Munoz<br>continues" -align b
 
 point 7450.0 3843.5 label -text "4m Pitch to Sump"
 
-area sump
+area water
   l101-8634-3168
 endarea
 
@@ -784,11 +784,9 @@ endline
 
 point 8447.0 3285.0 label -text "Sump"
 
-point 1982.0 6750.0 label -text " 18° 1'2.78 N<br>121°59'31.68 E" -align right
-
 point 1325.0 7061.0 label -text "Entrance"
 
-area sump
+area water
   l18-12600-3154
   l17-12349-3242
   l92-12570-2774

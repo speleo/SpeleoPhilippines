@@ -5,7 +5,7 @@
 <Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>http://pk-sofia.com/images/stories/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
 <Icon> <href>http://pk-sofia.com/images/stories/KmlIconMap.png</href> </Icon>
 <name><![CDATA[BlueWater-Helicopter]]></name>
-<description><![CDATA[Length 6132 m<br>Depth 146 m<br>]]></description>
+<description><![CDATA[Length 6132 m<br>Depth 146 m<br>Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>]]></description>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Blue Water]]></name>
 <Point> <coordinates>121.99828252199347,18.02097637438430,204.00000000000000</coordinates> </Point>
@@ -17,7 +17,7 @@
 <Placemark>
 <styleUrl>#ThMapStyle</styleUrl>
 <name><![CDATA[bluewaterM]]></name>
-<Style> <PolyStyle> <color>bfffffff</color> </PolyStyle> </Style>
+<Style> <PolyStyle> <color>ccffffff</color> </PolyStyle> </Style>
 <MultiGeometry>
 <Polygon>
 <outerBoundaryIs>
@@ -264,7 +264,7 @@
 <Placemark>
 <styleUrl>#ThMapStyle</styleUrl>
 <name><![CDATA[C4HelicopterHoleM]]></name>
-<Style> <PolyStyle> <color>bfffffff</color> </PolyStyle> </Style>
+<Style> <PolyStyle> <color>ccffffff</color> </PolyStyle> </Style>
 <MultiGeometry>
 <Polygon>
 <outerBoundaryIs>

@@ -25,10 +25,10 @@ export model -fmt kml  -o .\output\romeo_cave.kml
 #Survex file showing walls only
 
 layout local
-  #scale 1 300
-  #base-scale 1 150
-  #scale-bar 20 m
-  # debug on
+  scale 1 300
+  base-scale 1 150
+  scale-bar 100 m
+  
   #Foreground color - turn on altitdude to see various heights
   #colour map-fg [80 80 80]
   color map-fg altitude
@@ -39,7 +39,7 @@ layout local
   statistics topo all
   statistics explo-length off
   
-  map-comment "Baggao, Cagayan<br>18Â° 1'15.52 N<br>121Â°59'53.82 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-comment "Baggao, Cagayan<br>18 0'48.40 N<br>122 2'16.40 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
   
   doc-author   "Henry Bennett and Rich Smith"
   doc-keywords "Romeo Cave System Baggao Philippines"
@@ -49,7 +49,7 @@ layout local
   debug off
   transparency on
   opacity 80
-  map-header 90 5 se
+  map-header 90 5 nw
   map-header-bg on
   #overlap 10 cm
 
@@ -60,7 +60,7 @@ layout local
   legend on
   legend-columns 1
   legend-width 15 cm
-  #colour-legend on
+  colour-legend on
   grid bottom
   grid-coords border
   #sketches on
@@ -78,34 +78,105 @@ layout local
 
   code metapost
     
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_scalebar_large_format"
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_legend_large_format"
+    input code/_grid_x_hair_to_continuos_line
+    input code/_scalebar_medium_format
+    input code/_legend_medium_format
+    input code/_water_blue
+    input code/_north_arrow_300
+    input code/_continuous_centerline
     
-    
-    # code to change the colour of the water
-    def a_water (expr p) =
-        T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
-    enddef;
     # should probably differentiate these so sumps are shown on the survey
     def a_sump (expr p) =
         T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
+        thfill p withcolor (0.1, 0.8, 0.8);
     enddef;
-    
-    
-    
-    # change centre line to continuous
-    def l_survey_cave (expr p) =
-        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
-    enddef;
+   
     
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
-    #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,30,54,80);
+    fonts_setup(6,18,40,64,80);
   
   endcode
+  
+  
+#################################################################
+#  
+#  TTTTTTT EEEEEEE XX    XX        MM    MM   AAA   PPPPPP  
+#    TTT   EE       XX  XX         MMM  MMM  AAAAA  PP   PP 
+#    TTT   EEEEE     XXXX   _____  MM MM MM AA   AA PPPPPP  
+#    TTT   EE       XX  XX         MM    MM AAAAAAA PP      
+#    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
+#
+################################################################# 
+  
+  code tex-map
+  \copyrights={Copyleft Creative Commons ShareAlike}
+  \cavename={Romeo Cave}
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+  \def\maplayout{
+    \legendbox{61}{87}{NW}{\northarrow}
+    \legendbox{10}{30}{nw} {\loadpicture{images/Logo_BEC_800.png}}
+    \legendbox{10}{79}{NW}{
+      \legendwidth 30 cm
+      \the\legendcontent
+      }
+    \legendbox{10}{61}{NW}{
+      \legendtextsize={\size[30]}
+      \hsize=\legendwidth
+      \input th_legendcolor
+      }
+    \legendbox{85}{50}{NW}{
+      \legendwidth 20 cm
+      \legendtextsize={\size[30]}
+      \hsize=\legendwidth
+      \input th_legend
+      }
+  #  \legendbox{0} {100} {S}  {\loadpicture{images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+  #\legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+  # \legendbox{55} {5} {nw} {\loadpicture{images/Logo_BC_1250.png}}
+  #\legendbox{65} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
+  
+    
+  }  
+
+
+   #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
+    \legendcontent={%
+      \hsize=\legendwidth
+      #\ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+         {\size[90]\the\cavename} \vskip1cm
+      \fi
+      \ifscalebar\scalebar\vskip1cm\fi
+      {\rightskip=0pt plus 3em\parskip=3bp
+        \edef\tmp{\the\comment} \ifx\tmp\empty \else
+           {\size[40]\the\comment} \par\medskip
+         \fi
+      \everypar{\hangindent=2em\hangafter=1}
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\size[40]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\size[40]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\size[40]\si\the\explotitle:
+        \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+        {\size[40]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+      \fi
+      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+        {\size[40]\si\the\cartotitle:
+        \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\size[40]\ss\the\copyrights\par}
+      \fi
+     }
+  }
+  
+  endcode #end of TeX code  
+
   
 endlayout

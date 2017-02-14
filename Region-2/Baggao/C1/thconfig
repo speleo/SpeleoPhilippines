@@ -11,7 +11,7 @@ export map -proj plan -layout local -o ./output/C1.pdf
 #Produces plan of cave, on a single sheet
 
 select C1ME@C1
-#export map -proj exended -layout local -o ./output/C1Ee.pdf
+export map -proj extended -layout local -o ./output/C1Ee.pdf
 
 export map -fmt kml -proj plan -layout local -o .\output\C1-map.kml
 export model -fmt kml -o .\output\C1.kml
@@ -25,22 +25,20 @@ export model -fmt survex -o ./output/C1th.3d
 #export map -proj plan -o C1_Walls.3d
 #Survex file showing walls only
 
-layout test
-endlayout
 
 layout local
-  #debug first
   scale-bar 50 m
+
   #Foreground color - turn on altitdude to see various heights
-  colour map-fg [80 80 80]
-  #color map-fg altitude
+  #colour map-fg [80 80 80]
+  color map-fg altitude
   
   language en
   statistics topo-length off
   statistics topo all
   statistics explo-length off
   
-  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-comment "Blue Water Sitio, Baggao, Cagayan<br>18 0'30.87 N<br>122 2'14.04 E<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
   
   doc-author   "Henry Bennett"
   doc-keywords "C1 Cave Baggao Philippines"
@@ -55,10 +53,10 @@ layout local
   symbol-hide group cave-centreline
   symbol-assign line slope SKBB
   
-  legend off
+  legend on
   legend-columns 2
   legend-width 15 cm
-  #colour-legend on
+  colour-legend on
   grid bottom
   grid-coords border
   #sketches on
@@ -77,65 +75,14 @@ layout local
   code metapost
     
     input code/_grid_x_hair_to_continuos_line
-    #input code/_scalebar_large_format
+    input code/_scalebar_medium_format
     #input code/_legend_large_format
-    
-    def s_scalebar (expr l, units, txt) =
-      begingroup
-        interim warningcheck:=0;
-        tmpl:=l / Scale * cm * units / 2;
-        tmpx:=l / Scale * cm * units / 5;
-        tmph:=25bp; % bar height
-      endgroup;
-      pickup PenC;
-      draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
-      p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
-      for i:=-2.5 step 2 until 2:
-        fill p shifted (i * tmpx,0);
-      endfor;
-      begingroup
-        interim labeloffset:=3.5bp;
-        for i:=0 step (l/5) until (l-1):
-          tmpx:=tmpl * (i * 2 / l - 1);
-          label.top(thTEX(decimal (i)) scaled 3.6, (tmpx,0));
-        endfor;
-        label.top(thTEX(decimal (l) & "\thinspace" & txt) scaled 3.6,(tmpl,0));
-        #label.bot(thTEX("Original Scale = 1 : " & decimal round(Scale*100)) scaled 1.6, (.6cm,-1.0cm)) transformed T;
-      endgroup;
-    enddef;
-        
-                
-    # code to change the colour of the water
-    def a_water (expr p) =
-        T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
-    enddef;
-    
-    # change centre line to continuous
-    def l_survey_cave (expr p) =
-        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
-    enddef;
-
-    def s_northarrow (expr rot) =
-      begingroup
-        interim defaultscale:=1.5; % scale your north arrow here
-        T:=identity scaled defaultscale rotated -rot;
-        pickup pencircle scaled (0.08cm * defaultscale);
-        thdraw (-.4cm,-1.4cm)--(0,2.8cm)--(.4cm,-1.4cm)--cycle;
-        p:=fullcircle scaled 1.6cm;
-        thclean p; thdraw p;
-        p:=(0.95cm,0)--(0.65cm,0);
-        thdraw p; thdraw p xscaled -1;
-        pickup pencircle scaled (0.12cm * defaultscale);
-        p:=(0.28cm,0.42cm);
-        thdraw p--(p yscaled -1)--(p xscaled -1)--(p scaled -1);
-      endgroup;
-    enddef;
-        
+    input code/_water_blue
+    input code/_north_arrow_150
+    input code/_continuous_centerline
    
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
-    #origional fonts_setup(6,8,10,14,20);
     fonts_setup(6,8,30,54,80);
   
   endcode
@@ -156,13 +103,14 @@ layout local
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
     \legendbox{0}{100}{NW}{\northarrow}
-    \legendbox{65}{100}{NW}{
+    \legendbox{88}{75}{nw} {\loadpicture{images/Logo_BEC_400.png}}
+    \legendbox{65}{99}{NW}{
       \legendwidth 35 cm
       \the\legendcontent
       }
     \legendbox{20}{20}{NW}{
       \legendwidth 65 cm
-      \legendtextsize={\size[40]}
+      \legendtextsize={\size[30]}
       \hsize=\legendwidth
       \input th_legend
       }

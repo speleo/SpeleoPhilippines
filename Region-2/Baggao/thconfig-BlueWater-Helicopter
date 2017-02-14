@@ -35,7 +35,7 @@ source BlueWater-Helicopter.th
 
   
 export map -proj plan -layout 600 -o .\output\BlueWater-Helicopter.pdf
-export map -fmt kml -proj plan -layout local -o .\output\BlueWater-Helicopter-map.kml
+export map -fmt kml -proj plan -layout 600 -o .\output\BlueWater-Helicopter-map.kml
 export model -fmt kml -o .\output\BlueWater-Helicopter.kml
 
 #Survex file showing centre line only
@@ -118,36 +118,10 @@ layout 600
     input code/_grid_x_hair_to_continuos_line
     input code/_scalebar_large_format
     input code/_legend_large_format_20U
-    
-    # code to change the colour of the water
-    def a_water (expr p) =
-        T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
-    enddef;
-    
-    # change centre line to continuous
-    def l_survey_cave (expr p) =
-        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
-    enddef;
-    
-    # Re-define North arrow to make it bigger
-    def s_northarrow (expr rot) =
-      T:=identity;
-      picture tmp_pic;
-      tmp_pic = image (
-        begingroup
-          interim defaultscale:=13;
-          label.top("N", origin shifted (0,22cm));
-        endgroup;
-        thdraw (-4cm,4cm)--(0,20cm)--(4cm,4cm)--(20cm,0cm)--(4cm,-4cm)--(0,-20cm)--(-4cm,-4cm)--(-20cm,0)--cycle;
-        thfill (-4cm,4cm)--(0,20cm)--(0,0)--cycle;
-        thfill (4cm,-4cm)--(0,-20cm)--(0,0)--cycle;
-        thfill (4cm,4cm)--(20cm,0)--(0,0)--cycle;
-        thfill (-4cm,-4cm)--(-20cm,0)--(0,0)--cycle;
-      );
-      draw tmp_pic scaled 0.5 rotatedaround(origin, -rot);
-    enddef;
-    
+    input code/_water_blue
+    input code/_continuous_centerline
+    input code/_north_arrow_600
+       
     def p_entrance (expr pos,theta,sc,al)=
       U:=(.2u,.5u);
       T:=identity aligned al rotated theta scaled sc shifted pos;

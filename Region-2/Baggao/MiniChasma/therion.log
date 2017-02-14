@@ -17,70 +17,158 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-processing projection extended ... done
-average distortion: 10.75%
-writing MinichasmaEe.pdf ...
+processing projection plan ... done
+average distortion: 0.00%
+writing ./output/Minichasma.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 FEB 2017 07:13
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 21:05
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] (./mptextmp.mp) [5] )
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_grid_x_hair_to
+_continuos_line.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_mediu
+m_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_water_blue.mp)
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_15
+0.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
+terline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[16] [17] [18] [19] [20] [21] [22] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
+[38] [39] [40] [41] [42] )
  
 Here is how much of MetaPost's memory you used:
- 1069 strings out of 1162
- 13261 string characters out of 20720
- 62538 words of memory out of 1500000
- 1370 symbolic tokens out of 16384
- 11i,75n,14p,234b,5f stack positions out of 300i,84n,5000p,250b,15f
- 38 string compactions (moved 405800 characters, 32068 strings)
-17 output files written: data.1 .. data.4012
+ 1369 strings out of 1638
+ 17303 string characters out of 26823
+ 65509 words of memory out of 1500000
+ 1520 symbolic tokens out of 16384
+ 11i,75n,16p,481b,5f stack positions out of 300i,84n,5000p,487b,15f
+ 66 string compactions (moved 895045 characters, 73289 strings)
+54 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 FEB 2017 07:13
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 21:05
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 53 numeric registers used out of 32768
- [1] ) 
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) <c:/Users/henry_bennett/
+Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_400.png>) (./th_pages.tex)
+ 95 numeric registers used out of 32768
+
+[1] ) 
 Here is how much of TeX's memory you used:
- 250 strings out of 95617
- 2539 string characters out of 1171098
- 45711 words of memory out of 1529689
- 1663 multiletter control sequences out of 15000+50000
- 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 295 strings out of 95617
+ 2966 string characters out of 1171098
+ 49467 words of memory out of 1532445
+ 1705 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
-Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 42105 bytes).
+ 10i,5n,7p,1262b,86s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
+texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
+cmssi10.pfb>
+Output written on data.pdf (1 page, 143859 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-processing projection plan ... done
-average distortion: 0.00%
+processing projection extended ... done
+average distortion: 10.75%
+writing MinichasmaEe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 21:05
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_grid_x_hair_to
+_continuos_line.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_mediu
+m_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_water_blue.mp)
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_15
+0.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
+terline.mp) [1] [2] [3] [4] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [5] [6] [7]
+[8] [9] [10] [11] [12] [13] [14] [15] [16] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1345 strings out of 1638
+ 17177 string characters out of 26823
+ 63032 words of memory out of 1500000
+ 1513 symbolic tokens out of 16384
+ 11i,75n,14p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 45 string compactions (moved 553982 characters, 44780 strings)
+28 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 21:05
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) <c:/Users/henry_bennett/
+Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_400.png>) (./th_pages.tex)
+ 64 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 264 strings out of 95617
+ 2661 string characters out of 1171098
+ 47191 words of memory out of 1531169
+ 1674 multiletter control sequences out of 15000+50000
+ 22378 words of font info for 69 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 10i,5n,7p,1262b,86s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Fi
+les (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/
+texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
+/cmsy10.pfb>
+Output written on data.pdf (1 page, 96394 bytes).
+PDF statistics:
+ 75 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
 writing .\output\Minichasma-map.kml ... done
 writing .\output\Minichasma.kml ... done
 writing .\output\Minichasma.3d ... done
 writing xtherion file ... done
-compilation time: 1 sec
+compilation time: 6 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.04%  MinichasmaSP1@Minichasma
+   0.00%    0.04%  MinichasmaSP3@Minichasma
+   0.00%    0.04%  MinichasmaSP2@Minichasma
+   0.00%    0.02%  MinichasmaSP4@Minichasma
+   0.00%    0.02%  MinichasmaSP1@Minichasma
+   0.00%    0.01%  MinichasmaSP5@Minichasma
+   0.00%    0.01%  MinichasmaOutside@Minichasma
 ################### end of scrap distortions ###################
 
 

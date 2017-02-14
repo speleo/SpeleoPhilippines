@@ -15,6 +15,6 @@ xth_cp_map_tree_insert map 0 2579X1 p1 1 map-test map-test@BlueWater-Helicopter 
 xth_cp_map_tree_insert map 1 2570X1 2579X1 2 C4HelicopterHoleM C4HelicopterHoleM@C4HelicopterHole.BlueWater-Helicopter "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 6132 32
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1486936136
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1487007558
 

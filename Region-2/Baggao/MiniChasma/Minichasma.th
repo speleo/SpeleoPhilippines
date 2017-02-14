@@ -6,6 +6,11 @@ input MinichasmaEe.th2
 
 map MinichasmaM
   MinichasmaSP1
+  MinichasmaSP2
+  MinichasmaSP3
+  MinichasmaSP4
+  MinichasmaSP5
+  MinichasmaOutside
 endmap
 
 map MinichasmaME
