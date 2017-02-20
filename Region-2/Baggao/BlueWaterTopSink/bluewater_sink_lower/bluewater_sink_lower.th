@@ -6,6 +6,8 @@ input bluewater_sink_lowerEe.th2
 
 map bluewater_sink_lowerM
   bluewater_sink_lowerSP1
+  bluewater_sink_lowerSP2
+  #bluewater_sink_lowerSP3
 endmap
 
 map bluewater_sink_lowerME
@@ -18,7 +20,7 @@ copyright 2017 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2014.07.01
+  date 2015.07.01
   team "Stu Gardiner" instruments
 
   instrument  instruments "UBSS DistoX1"

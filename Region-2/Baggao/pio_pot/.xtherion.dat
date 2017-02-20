@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 85.89m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.26m (from 1.0@pio_pot at 456.00m to 12.12@pio_pot at 445.74m)\nnorth-south range: 32.87m (from 1.2@pio_pot at 1992449.80m to 12.15@pio_pot at 1992416.93m)\neast-west range: 41.96m (from 1.0@pio_pot at 397255.00m to 12.21@pio_pot at 397213.04m)\nnumber of shots: 182\nnumber of stations: 183"
+xth_cp_data_tree_insert 12 1 1 pio_pot pio_pot "" "" "length: 85.89m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.26m (from 1.0@pio_pot at 456.00m to 12.12@pio_pot at 445.74m)\nnorth-south range: 32.87m (from 1.2@pio_pot at 1992449.80m to 12.15@pio_pot at 1992416.93m)\neast-west range: 41.96m (from 1.0@pio_pot at 397255.00m to 12.21@pio_pot at 397213.04m)\nnumber of shots: 182\nnumber of stations: 183"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 58X1 p1 1 pio_potM pio_potM@pio_pot "" ""
+xth_cp_map_tree_insert map 1 59X1 p2 1 pio_potME pio_potME@pio_pot "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 86 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1487322580
+

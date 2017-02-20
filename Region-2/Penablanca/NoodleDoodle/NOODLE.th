@@ -32,6 +32,7 @@ copyright 2016 "GNU GPL"
   fix 1.0 378520.11  1968555.43 65
   # N 17 46.841
   # E 121 49.863
+  station 1.0 "Noodle Doodle" entrance
 
 data normal from to tape compass clino ignoreall
   extend right

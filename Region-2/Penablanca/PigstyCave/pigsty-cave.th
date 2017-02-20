@@ -27,6 +27,7 @@ copyright 2016 "GNU GPL"
   cs EPSG:32651
   # not sure which is the correct station to pin
   fix 1.0 376114.86 1966428.12 164
+  station 1.0 "Pigsty" entrance
 
 
 data normal from to tape compass clino ignoreall

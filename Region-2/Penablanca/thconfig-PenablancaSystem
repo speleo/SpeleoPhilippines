@@ -4,8 +4,8 @@ source Penablanca.th
 ### choose which exports to use
 
   export map -proj plan -layout local -o .\_output\penablanca.pdf
-  #export map -fmt kml -proj plan -layout local -o .\_output\Penablanca_map.kml
-  #export model -fmt kml -o .\_output\penablanca.kml
+  export map -fmt kml -proj plan -layout local -o .\_output\Penablanca_map.kml
+  export model -fmt kml -o .\_output\penablanca.kml
 
   #Survex file showing centre line only
   export model -fmt survex -o .\_output\penablanca-survex.3d

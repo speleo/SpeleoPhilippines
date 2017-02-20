@@ -2,6 +2,8 @@ encoding  utf-8
 survey BlueWaterSink
   input bluewater_sink_canyon/bluewater_sink_canyon.th
   input bluewater_sink_lower/bluewater_sink_lower.th
+  
+  #join bluewater_sink_canyonSP2@bluewater_sink_canyon bluewater_sink_lowerSP1@bluewater_sink_lower
 
   centreline
     equate 11.3@bluewater_sink_canyon 2.1@bluewater_sink_lower

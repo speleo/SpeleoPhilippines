@@ -1,8 +1,6 @@
 encoding  utf-8
 survey romeo -title "Romeo System"
 
-
-
   input Romeo_entrance.th
   input Romeo_1_12.th
   input Romeo_21_1.th

@@ -1,0 +1,537 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -1152 679 128
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} AreasPlanSketch.jpg 0 {}
+
+
+
+scrap AreasPlan-s1 -projection plan -station-names [] @Areas -scale [-128 -1152 679 -1152 0.0 0.0 20.4978 0.0 m] -sketch AreasPlanSketch.jpg 0 -1024
+
+point 327.0 -932.0 label -text "13 snow" -scale xl
+
+area snow
+  l52-402--948
+endarea
+
+line border:invisible -id l52-402--948 -close on
+  393.0 -970.0
+  402.0 -961.0 407.0 -916.0 396.0 -904.0
+  385.0 -892.0 303.0 -892.0 285.0 -904.0
+  267.0 -916.0 277.0 -968.0 292.0 -975.0
+  307.0 -982.0 384.0 -979.0 393.0 -970.0
+endline
+
+point 434.0 -897.0 label -text "waterflow:conjectural"
+
+line rock-edge -place bottom
+  235.0 -899.5
+  251.5 -892.0
+  262.5 -891.5
+endline
+
+line rock-edge -place bottom
+  251.5 -892.0
+  239.0 -884.0
+endline
+
+line rock-border -close on -place bottom
+  235.0 -899.5
+  253.5 -902.5
+  262.5 -891.5
+  259.5 -885.0
+  239.0 -884.0
+  235.0 -899.5
+endline
+
+point 312.0 -807.0 stalagmite
+
+point 274.5 -809.0 stalactite
+
+line wall:pebbles -outline none
+  361.0 -634.0
+  371.0 -629.5 418.0 -632.0 428.5 -626.5
+  smooth off
+endline
+
+line wall:pebbles -outline none
+endline
+
+point 455.0 -586.0 pebbles
+
+point 403.0 -569.5 pebbles -scale xs
+
+point 404.5 -607.5 pebbles -scale xl
+
+point 402.5 -585.0 pebbles
+
+line wall:debris -outline none
+  362.0 -691.5
+  372.0 -686.0 416.0 -694.0 434.5 -687.5
+  smooth off
+endline
+
+point 459.5 -664.0 debris
+
+point 406.5 -669.5 debris
+
+point 406.0 -681.0 debris -scale xl
+
+point 405.5 -650.5 debris -scale xs
+
+point 459.0 -728.0 blocks
+
+point 406.5 -715.5 blocks
+
+line wall:blocks -outline none
+  367.0 -751.0
+  377.0 -743.0 424.5 -757.5 434.0 -748.5
+  smooth off
+endline
+
+point 406.5 -733.0 blocks -scale xl
+
+point 406.5 -700.0 blocks -scale xs
+
+point 205.0 -807.0 label -text "rock-border" -align l
+
+point 79.5 -877.0 label -text "The numbers represent the drawing order.<br>Therion places items drawn first, 1 at the bottom,<br>then each subsequent object overlies the one previous" -align r
+
+point 375.5 -164.0 label -text "walls and points at various scales"
+
+point 215.5 -851.0 label -text "rock-border<br>-place top" -align l
+
+point 223.0 -893.5 label -text "rock-border<br>-place bottom" -align l
+
+point 365.5 -777.0 label -text "permanent"
+
+line rock-edge
+  239.0 -796.5
+  216.0 -781.5
+endline
+
+line rock-edge
+  223.5 -814.0
+  239.0 -796.5
+  256.0 -794.0
+endline
+
+line rock-border -close on
+  223.5 -814.0
+  246.0 -818.0
+  254.0 -812.5
+  256.0 -794.0
+  216.0 -781.5
+  223.5 -814.0
+endline
+
+point 411.5 -938.0 snow
+
+point 410.5 -956.5 snow -scale xl
+
+point 412.0 -921.0 snow -scale xs
+
+point 150.5 -942.5 ice
+
+point 151.5 -961.0 ice -scale xl
+
+point 151.5 -924.0 ice -scale xs
+
+point 426.0 -773.0 label -text "intermittent"
+
+line wall -outline none
+  348.0 -400.0
+  360.5 -391.0 412.0 -403.5 424.5 -394.0
+  smooth off
+endline
+
+point 391.0 -350.5 bedrock -scale xs
+
+line u:blank
+  342.0 -212.5
+  354.0 -209.0 399.0 -210.5 409.5 -205.5
+  smooth off
+endline
+
+point 379.5 -204.0 u:blank -scale xl
+
+point 375.5 -183.5 u:blank -scale xs
+
+point 428.0 -192.5 u:blank
+
+point 377.5 -194.5 u:blank
+
+line wall:moonmilk -outline none
+  347.0 -271.5
+  355.5 -264.0 402.0 -273.0 413.5 -264.0
+  smooth off
+endline
+
+line wall:moonmilk -outline none
+endline
+
+point 383.5 -248.0 moonmilk -scale xl
+
+point 379.5 -214.0 moonmilk -scale xs
+
+point 381.5 -231.0 moonmilk
+
+point 432.5 -230.0 moonmilk
+
+line wall:flowstone -outline none
+  345.5 -344.5
+  357.0 -339.0 403.5 -346.5 417.0 -339.0
+  smooth off
+endline
+
+point 389.5 -317.5 flowstone -scale xl
+
+point 387.0 -283.0 flowstone -scale xs
+
+point 436.5 -296.5 flowstone
+
+point 390.5 -301.5 flowstone
+
+point 392.5 -378.5 bedrock -scale xl
+
+point 441.0 -360.0 bedrock
+
+point 391.5 -363.5 bedrock
+
+point 395.5 -448.5 clay -scale xl
+
+point 394.5 -410.5 clay -scale xs
+
+point 394.5 -429.0 clay
+
+point 444.5 -424.0 clay
+
+line wall:clay -outline none
+  349.5 -475.0
+  364.0 -469.0 409.0 -479.5 428.0 -468.5
+  smooth off
+endline
+
+line wall:sand -outline none
+  353.5 -556.0
+  363.5 -551.0 419.5 -555.5 431.0 -548.5
+  smooth off
+endline
+
+point 400.5 -525.5 sand -scale xl
+
+point 398.5 -494.0 sand -scale xs
+
+point 399.5 -508.0 sand
+
+point 450.0 -506.0 sand
+
+point 466.0 -768.0 label -text "paleo"
+
+point 216.5 -929.5 label -text "12 ice" -scale xl
+
+area ice
+  l49-263--951
+endarea
+
+line border:invisible -id l49-263--951 -close on
+  164.0 -975.0
+  171.0 -985.0 287.0 -994.0 297.0 -978.0
+  307.0 -962.0 307.0 -915.0 295.0 -909.0
+  283.0 -903.0 171.0 -902.0 164.0 -913.0
+  157.0 -924.0 157.0 -965.0 164.0 -975.0
+endline
+
+line border
+  51.0 -237.0
+  135.0 -293.0
+  205.0 -216.0
+  303.0 -286.0
+  378.0 -218.0
+  457.0 -292.0
+endline
+
+line border
+  164.0 -975.0
+  257.0 -911.0
+  173.0 -850.0
+  244.0 -788.0
+  159.0 -706.0
+  232.0 -656.0
+  147.0 -580.0
+  232.0 -493.0
+  142.0 -417.0
+  223.0 -350.0
+  138.0 -298.0
+  211.0 -217.0
+  132.0 -172.0
+endline
+
+point 88.0 -216.0 label -text "11 u:blank" -scale xl
+
+area u:blank
+  l46-234--193
+endarea
+
+line border:invisible -id l46-234--193 -close on
+  49.5 -247.5
+  56.5 -255.5 297.0 -240.0 300.0 -224.0
+  303.0 -208.0 308.69 -200.22 301.0 -191.0
+  296.0 -185.0 50.74 -202.01 47.0 -208.0
+  42.0 -216.0 42.5 -239.5 49.5 -247.5
+endline
+
+area moonmilk
+endarea
+
+point 87.0 -261.0 label -text "10 moonmilk" -scale xl
+
+area moonmilk
+  l42-315--238
+endarea
+
+line border:invisible -id l42-315--238 -close on
+  307.0 -280.0
+  318.0 -270.0 322.0 -223.0 300.0 -218.0
+  278.0 -213.0 53.5 -233.5 49.5 -247.5
+  45.5 -261.5 39.0 -282.0 52.0 -294.0
+  65.0 -306.0 296.0 -290.0 307.0 -280.0
+endline
+
+point 92.0 -317.0 label -text "9 flowstone" -scale xl
+
+area flowstone
+  l39-315--308
+endarea
+
+line border:invisible -id l39-315--308 -close on
+  298.0 -349.0
+  308.0 -335.0 333.0 -287.0 307.0 -280.0
+  281.0 -273.0 65.0 -262.0 52.0 -294.0
+  39.0 -326.0 44.0 -340.0 51.0 -354.0
+  58.0 -368.0 288.0 -363.0 298.0 -349.0
+endline
+
+point 93.0 -383.0 label -text "8 bedrock" -scale xl
+
+area bedrock
+  l36-308--370
+endarea
+
+line border:invisible -id l36-308--370 -close on
+  300.0 -407.0
+  308.0 -399.0 314.0 -343.0 296.0 -343.0
+  278.0 -343.0 60.0 -336.0 51.0 -354.0
+  42.0 -372.0 49.0 -408.0 57.0 -415.0
+  65.0 -422.0 292.0 -415.0 300.0 -407.0
+endline
+
+point 98.0 -456.0 label -text "7 clay" -scale xl
+
+area clay
+  l33-321--436
+endarea
+
+line border:invisible -id l33-321--436 -close on
+  69.0 -498.0
+  75.0 -505.0 295.0 -508.0 309.0 -486.0
+  323.0 -464.0 326.0 -408.0 306.0 -401.0
+  286.0 -394.0 78.0 -394.0 63.0 -420.0
+  48.0 -446.0 63.0 -491.0 69.0 -498.0
+endline
+
+point 105.0 -537.0 label -text "6 sand" -scale xl
+
+area sand
+  l30-323--513
+endarea
+
+line border:invisible -id l30-323--513 -close on
+  71.0 -584.0
+  90.0 -610.0 311.0 -579.0 317.0 -559.0
+  323.0 -539.0 336.0 -501.0 309.0 -486.0
+  282.0 -471.0 85.0 -483.0 69.0 -498.0
+  53.0 -513.0 52.0 -558.0 71.0 -584.0
+endline
+
+point 111.0 -619.0 label -text "5 pebbles" -scale xl
+
+area pebbles
+  l27-328--604
+endarea
+
+line border:invisible -id l27-328--604 -close on
+  70.0 -659.0
+  79.0 -670.0 310.0 -662.0 321.0 -643.0
+  332.0 -624.0 336.0 -564.0 317.0 -559.0
+  298.0 -554.0 82.0 -563.0 71.0 -584.0
+  60.0 -605.0 61.0 -648.0 70.0 -659.0
+endline
+
+point 116.0 -680.0 label -text "4 debris" -scale xl
+
+area debris
+  l24-300--641
+endarea
+
+line border:invisible -id l24-300--641 -close on
+  76.0 -722.0
+  83.0 -728.0 306.0 -720.0 317.0 -704.0
+  328.0 -688.0 341.0 -655.0 321.0 -643.0
+  301.0 -631.0 81.0 -636.0 70.0 -659.0
+  59.0 -682.0 69.0 -716.0 76.0 -722.0
+endline
+
+point 120.0 -751.0 label -text "3 blocks" -scale xl
+
+area blocks
+  l21-327--717
+endarea
+
+line border:invisible -id l21-327--717 -close on
+  80.0 -781.0
+  89.0 -789.0 315.0 -783.0 323.0 -774.0
+  331.0 -765.0 337.0 -711.0 317.0 -704.0
+  297.0 -697.0 82.0 -714.0 76.0 -722.0
+  70.0 -730.0 71.0 -773.0 80.0 -781.0
+endline
+
+point 289.0 -181.0 label -text "2 water" -scale xl
+
+area water
+  l18-394--371
+endarea
+
+line border:invisible -id l18-394--371 -close on
+  252.0 -910.0
+  260.19 -917.6 388.0 -921.0 402.0 -899.0
+  416.0 -877.0 398.0 -176.0 369.0 -161.0
+  340.0 -146.0 228.0 -146.0 214.0 -168.0
+  200.0 -190.0 238.0 -897.0 252.0 -910.0
+endline
+
+point 164.0 -181.0 label -text "1 sump" -scale xl
+
+area sump
+  l15-133--370
+endarea
+
+line border:invisible -id l15-133--370 -close on
+  163.0 -789.0
+  176.0 -799.0 236.0 -802.0 244.0 -788.0
+  252.0 -774.0 231.0 -176.0 203.0 -169.0
+  175.0 -162.0 146.0 -154.0 132.0 -172.0
+  118.0 -190.0 150.0 -779.0 163.0 -789.0
+endline
+
+point 465.0 -825.0 water-flow -orientation 90 -scale xl
+
+point 465.0 -782.0 water-flow -orientation 90 -scale xs
+
+point 475.5 -855.5 sink -orientation 90
+
+point 383.5 -862.0 sink -orientation 90
+
+point 414.5 -857.0 spring -orientation 90
+
+line water-flow:conjectural
+  306.0 -889.0
+  468.0 -887.0
+endline
+
+line water-flow:intermittent
+  422.0 -857.0
+  469.0 -856.0
+endline
+
+line water-flow
+  304.0 -863.0
+  374.0 -862.0
+endline
+
+point 295.0 -863.0 spring -orientation 90
+
+point 128.5 -850.0 water -scale xl
+
+point 129.5 -802.0 water -scale xs
+
+point 130.0 -827.0 water
+
+point 467.0 -804.0 water-flow:paleo -orientation 90
+
+point 427.0 -786.0 water-flow:intermittent -orientation 90 -scale xs
+
+point 428.0 -826.0 water-flow:intermittent -orientation 90 -scale xl
+
+point 427.0 -806.0 water-flow:intermittent -orientation 90
+
+point 367.0 -826.0 water-flow -orientation 90 -scale xl
+
+point 366.0 -792.0 water-flow -orientation 90 -scale xs
+
+point 367.0 -809.0 water-flow -orientation 90
+
+line rock-edge -place top
+  241.0 -843.5
+  224.0 -836.5
+endline
+
+line rock-edge -place top
+  232.0 -869.0
+  241.0 -843.5
+  256.0 -838.0
+endline
+
+line rock-border -close on -place top
+  232.0 -869.0
+  256.5 -854.0
+  256.0 -838.0
+  238.5 -830.5
+  224.0 -836.5
+  232.0 -869.0
+endline
+
+point 362.0 -604.5 label -text "0 clay" -scale xl
+
+area clay
+  l144-451--650
+endarea
+
+line border:invisible -id l144-451--650 -close on
+  141.0 -765.5
+  149.17 -776.87 433.0 -769.5 443.0 -760.5
+  453.0 -751.5 455.5 -594.0 439.5 -594.0
+  423.5 -594.0 138.0 -596.5 130.5 -609.5
+  123.26 -622.05 129.5 -749.5 141.0 -765.5
+endline
+
+line wall -close on
+  84.0 -980.0
+  98.0 -996.0 481.0 -987.0 491.0 -965.0
+  501.0 -943.0 477.0 -168.0 451.0 -159.0
+  425.0 -150.0 59.56 -152.75 49.0 -172.0
+  32.0 -203.0 70.0 -964.0 84.0 -980.0
+endline
+
+# point 268.0 -571.0 station -name 9
+
+
+# point 247.0 -166.0 station -name 8
+
+# point 284.0 -975.0 station -name 7
+
+# point 473.0 -567.0 station -name 6
+
+# point 71.0 -584.0 station -name 5
+
+
+point 451.0 -159.0 station -name 4
+
+point 49.0 -172.0 station -name 3
+
+point 491.0 -965.0 station -name 2
+
+point 84.0 -980.0 station -name 1
+
+endscrap
+
+

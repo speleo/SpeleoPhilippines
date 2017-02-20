@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -1505 777 139.5
+##XTHERION## xth_me_area_adjust -129.0 -1505 777 138.75
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {0 1 2.9512092266663856} {0 {}} 1992_Survey.JPG 0 {}
 
@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap MainWestSideSP1 -scale [437.5 4657.0 787.4 787.4 0 0 10 10 m]
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   389.75 -990.0
   389.75 -991.25 387.75 -997.0 387.5 -1000.5
   387.25 -1004.0 388.25 -1011.0 383.5 -1012.0

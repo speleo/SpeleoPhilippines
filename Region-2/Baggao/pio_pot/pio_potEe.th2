@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1285.02 -375.5 7710.14 2252.99
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {655.651781126 1 1.0} {1920.83005519 1.0} PocketTopo/pio_pot_e.xvi 0 {}
+
+
+scrap pio_potSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

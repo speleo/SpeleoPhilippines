@@ -6,6 +6,7 @@ input bluewater_sink_canyonEe.th2
 
 map bluewater_sink_canyonM
   bluewater_sink_canyonSP1
+  bluewater_sink_canyonSP2
 endmap
 
 map bluewater_sink_canyonME

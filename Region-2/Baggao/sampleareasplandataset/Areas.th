@@ -1,0 +1,41 @@
+encoding  utf-8
+#filename: Areas.th
+
+survey Areas -title "Areas overlapping other entities (survey)" 
+#==============================================
+
+centreline 
+
+   #Authors (data entry)
+   #---------   
+  author 2012.09.17 "Bruce Mutton" 
+    
+   units tape meter
+ 
+   #Identified Survey Stations
+   #--------------------------   
+
+   fix 1 0 0 0
+   station 1 "btm left"  
+   
+   # fix 2 240 0 0 #distorted
+   fix 2 200 0 0
+   station 2 "btm right"     
+   
+   # fix 3 0   300 0 #distorted
+   fix 3 0 380 0
+   # fix 4 240 300 0 #distorted
+   fix 4 200 380 0
+   
+   # fix 5 0   150 0 # left centre #distorted
+   # fix 6 240 150 0 # right centre #distorted
+   
+   # fix 7 120 0   0 #centre btm #distorted
+   # fix 8 120 300 0 #centre top #distorted
+   
+   # fix 9 120 150 0 #centre centre #distorted
+   
+endcentreline
+endsurvey Areas
+
+#END

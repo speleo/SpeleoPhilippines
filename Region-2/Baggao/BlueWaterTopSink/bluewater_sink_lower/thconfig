@@ -6,13 +6,13 @@ source bluewater_sink_lower.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ./output/bluewater_sink_lower.pdf
+#export map -proj plan -layout local -o ./output/bluewater_sink_lower.pdf
 #Produces plan of cave, on a single sheet
 
 export model -fmt kml -o .\output\bluewater_sink_lower.kml
 export map -fmt kml -o .\output\bluewater_sink_lower-map.kml
 
-#export map -proj extended -layout local -o ./output/bluewater_sink_lowerEe.pdf
+export map -proj extended -layout local -o ./output/bluewater_sink_lowerEe.pdf
 
 export model -fmt survex -o ./output/bluewater_sink_lowerth.3d
 #Survex file showing centre line only

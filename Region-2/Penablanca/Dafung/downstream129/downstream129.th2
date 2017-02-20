@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 5672.8818897595 10694.7165354316
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -136.0 -136.0 5672.8818897595 10694.7165354316
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {4206.62503937 1 1.0} {4338.737322835 1.38} PocketTopo/downstream129_p.xvi 0 {}
 
 
@@ -349,15 +349,6 @@ endline
 
 point 3849.68503937 960.417322835 station -name 1.29
 
-line wall
-endline
-
-line wall
-endline
-
-line floor-step
-endline
-
 line floor-step -id l46-2112-8384 -reverse on
   1726.0 8628.0
   1726.0 8628.0 1834.0 8523.0 1973.0 8453.0
@@ -526,7 +517,7 @@ point 2379.0 8455.0 stalagmites -scale s
 
 point 2150.0 8629.0 pillar -scale m
 
-line wall -close on -outline in
+line wall -close on -reverse on -outline in
   4078.0 4130.0
   4084.0 4110.0 4094.0 4098.0 4108.0 4090.0
   4122.0 4082.0 4138.0 4070.0 4138.0 4090.0
@@ -579,7 +570,7 @@ line rock-border -close on
   smooth off
 endline
 
-line wall
+line wall -reverse on -outline in
   3654.0 6984.0
   3654.0 6984.0 3618.0 6933.0 3655.0 6923.0
   3692.0 6913.0 3698.0 6933.0 3707.0 6960.0

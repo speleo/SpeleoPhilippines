@@ -23,7 +23,8 @@ copyright 2016 "GNU GPL"
   team "Henry Bennett" notes
   team "Hannah Bennett" instruments
   team "Pat " instruments
-
+  station 1.0 "Rhum Doodle" entrance
+  
   instrument  instruments "Henry Bennett DistoX2"
   #
   cs EPSG:32651

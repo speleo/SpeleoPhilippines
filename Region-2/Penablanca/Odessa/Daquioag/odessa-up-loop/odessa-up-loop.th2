@@ -30,7 +30,7 @@ area clay
   l92-8672-10014
 endarea
 
-line wall -id l94-5705-4389
+line wall -id l94-5705-4389 -outline in
   6798.0 8020.0
   6790.0 8002.0 6768.0 7941.0 6765.0 7920.0
   6762.0 7899.0 6747.0 7841.0 6748.0 7830.0
@@ -767,7 +767,7 @@ line border -id l99-6822-8021 -subtype invisible
   6798.0 8020.0
 endline
 
-line wall -id l234-6806-8043 -subtype presumed
+line wall -id l234-6806-8043 -subtype presumed -outline in
   6815.0 8077.0
   6798.0 8020.0
 endline
@@ -790,9 +790,6 @@ endline
 area water
   l229-7826-8595
   l89-7771-8611
-endarea
-
-area clay
 endarea
 
 area clay
@@ -1084,9 +1081,6 @@ line rock-edge
   3792.0 1452.0
   3854.0 1506.0
   3849.0 1551.0
-endline
-
-line ceiling-step
 endline
 
 line ceiling-step
@@ -1721,6 +1715,7 @@ line label -scale l -text [Serious Caving]
   6826.0 5676.0 6876.0 5876.0 6908.0 6096.0
   6940.0 6316.0 7190.0 6530.0 7210.0 6744.0
   7230.0 6958.0 7206.0 7226.0 7216.0 7334.0
+  smooth off
 endline
 
 line label -text [Joander's Loop] -scale l

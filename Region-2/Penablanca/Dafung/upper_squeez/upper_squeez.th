@@ -16,6 +16,7 @@ copyright 2016 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
+   date 2016.04.08
 
 data normal from to tape compass clino ignoreall
   extend right

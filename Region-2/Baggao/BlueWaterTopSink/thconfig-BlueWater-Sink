@@ -1,16 +1,22 @@
 encoding  utf-8
 source BlueWater-Sink.th
 
-layout local-old
-  scale 1 1500
-  base-scale 1 1500
-  scale-bar 100 m
-endlayout
+#Surveys to output
+#-----------------
+  export map -proj plan -layout local -o .\output\BlueWater-sink.pdf
+  export map -proj extended -layout local -o .\output\BlueWater-sinkEE.pdf
+
+  export map -fmt kml -proj plan -layout local -o .\output\BlueWater-sink-map.kml
+  export model -fmt kml -o .\output\BlueWater-sink.kml
+
+  #Survex file showing centre line only
+  export model -fmt survex -o .\output\bluewater-sink-survex.3d
+
 
 layout local
-  #scale 1 1200
-  #base-scale 1 1200
-  #scale-bar 100 m
+  #scale 1 150
+  #base-scale 1 150
+  scale-bar 20 m
   
   #Foreground color - turn on altitdude to see various heights
   #colour map-fg [80 80 80]
@@ -22,37 +28,33 @@ layout local
   statistics topo all
   statistics explo-length off
   
-  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
-  #map-image 50 50 ne images\sitckers-type4.jpg
-  #map-image 50 35 nw images\BertieBat.png
-  #map-image 80 35 nw images\bc_logo_2266xp.png
-  #map-image 90 15 nw images\CreativeCommonsShareAlike.png
-
+  map-comment "Blue Water Sitio, Baggao, Cagayan<br>18 1'13.35 N<br>122 2'12.72 E<br>Bristol Exploration Club<br>BCRA Grade 5B<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
   
   doc-author   "Henry Bennett"
-  doc-keywords "Bluewater Cave Baggao Philippines"
-  doc-subject  "Survey of Bluewater Cave 2014"
-  doc-title    "Bluewater Cave Survey Bristol Exploration Club 2015"
+  doc-keywords "Blue Water Sink Baggao Philippines"
+  doc-subject  "Survey of Blue Water Sink 2015"
+  doc-title    "Blue Water Sink Survey Bristol Exploration Club 2015"
       
   debug off
   transparency on
   opacity 80
-  map-header 0 100 nw
+  map-header 100 100 nw
   #overlap 10 cm
 
   symbol-set BCRA
   symbol-hide group cave-centreline
   symbol-assign line slope SKBB
-  
+  symbol-assign line pit AUT
+
+    
   legend on
-  legend-columns 4
-  legend-width 45 cm
+  legend-columns 2
+  legend-width 15 cm
   #colour-legend on
   grid bottom
   grid-coords border
   #sketches on
   
-
 ###################################################################
 #
 # MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
@@ -65,36 +67,19 @@ layout local
 
   code metapost
     
-    input code/_grid_x_hair_to_continuos_line
-    input code/_scalebar_large_format
-    input code/_legend_large_format
-    
-    
-    # code to change the colour of the water
-    def a_water (expr p) =
-        T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
-    enddef;
-    
-    # change centre line to continuous
-    def l_survey_cave (expr p) =
-        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
-    enddef;
-    
-    # Re-define North arrow to make it bigger
-    def s_northarrow (expr rot) =
-         T:=identity scaled 0.7 rotated -rot;
-	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
-	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
-    enddef;
-    
+    #input code/_grid_x_hair_to_continuos_line.mp
+    input code/_scalebar_small_format
+    #input code/_legend_large_format
+    input code/_water_blue
+    input code/_north_arrow_150
+    input code/_continuous_centerline
+       
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
-    #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,30,54,80);
+    fonts_setup(6,8,20,54,120);
   
   endcode
-
+  
 #################################################################
 #  
 #  TTTTTTT EEEEEEE XX    XX        MM    MM   AAA   PPPPPP  
@@ -104,74 +89,54 @@ layout local
 #    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
 #
 ################################################################# 
-  
   code tex-map
-  \copyrights={Copyleft Creative Commons ShareAlike}
-  \cavename={Blue Water Area Caves}
-  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
-  \def\maplayout{
-    \legendbox{0}{38}{NW}{
-      \legendwidth 70 cm
-      \the\legendcontent
-      }
-    \legendbox{40}{50}{NW}{
-      \legendwidth 65 cm
-      \legendtextsize={\size[42]}
-      \hsize=\legendwidth
-      \input th_legend
-      }
-  \legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
-  \legendbox{60} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
-  
-    
-  }  
 
-
-   #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
     \legendcontent={%
-      \hsize=\legendwidth
-      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
-      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
-         {\size[120]\the\cavename} \vskip1cm
+    \hsize=\legendwidth
+    \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+      {\size[60]\the\cavename} \vskip1cm
+    \fi
+    \ifscalebar\scalebar\vskip1cm\fi
+    {\rightskip=0pt plus 3em\parskip=3bp
+      \edef\tmp{\the\comment} \ifx\tmp\empty \else
+        {\size[12]\the\comment} \par\medskip
       \fi
-      \ifscalebar\scalebar\vskip1cm\fi
-      {\rightskip=0pt plus 3em\parskip=3bp
-        \edef\tmp{\the\comment} \ifx\tmp\empty \else
-           {\size[44]\the\comment} \par\medskip
-         \fi
       \everypar{\hangindent=2em\hangafter=1}
       \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
-        {\size[44]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+        {\size[12]\si\the\cavelengthtitle: \ss\the\cavelength\par}
       \fi
       \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
-        {\size[44]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+        {\size[12]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
       \fi
       \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-        {\size[44]\si\the\explotitle:
-        \ss\the\exploteam\quad\si\the\explodate\par}
+        {\size[12]\si\the\explotitle:
+  \ss\the\exploteam\quad\si\the\explodate\par}
       \fi
-      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-        {\size[44]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
-      \fi
-      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-        {\size[44]\si\the\cartotitle:
-        \ss\the\cartoteam\quad\si\the\cartodate\par}
+  \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+    {\size[12]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+  \fi
+  \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+    {\size[12]\si\the\cartotitle:
+  \ss\the\cartoteam\quad\si\the\cartodate\par}
       \fi
       \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
-        {\size[44]\ss\the\copyrights\par}
+        {\size[12]\ss\the\copyrights\par}
       \fi
-     }
-  }
+    }
+    \formattedlegend
+  }  
+    \cavename={Blue Water Sink}
+    \copyrights={Copyleft Creative Commons ShareAlike }
+    \def\maplayout{
+      \legendbox{70}{83}{NW}{
+        \the\legendcontent
+        }
+      \legendbox{75}{35}{nw} {\loadpicture{images/Logo_BEC_300.png}}
+      \legendbox{10}{98}{NW} {\northarrow}
+
+    }
   
-  endcode #end of TeX code
-
+    
+  endcode
+  
 endlayout
-
-export map -proj plan -layout local-old -o .\output\BlueWater-sink.pdf
-export map -proj extended -layout local-old -o .\output\BlueWater-sinkEE.pdf
-
-export map -fmt kml -proj plan -layout local -o .\output\BlueWater-sink-map.kml
-export model -fmt kml -o .\output\BlueWater-sink.kml
-
-#Survex file showing centre line only
-export model -fmt survex -o .\output\bluewater-sink-survex.3d

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 8136.0 8788.559055120299
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -132.0 -132.0 8119.0 8788.559055120299
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1686.8313385800002 1 1.0} {1037.6042519699995 30.9} PocketTopo/upper_squeez_p.xvi 0 {}
 
 
@@ -47,10 +47,7 @@ point 7504.12133858 7717.74425197 station -name 20.46
 
 point 7517.20133858 7806.48425197 station -name 20.45
 
-line wall
-endline
-
-line wall
+line wall -reverse on
   7495.0 7797.0
   7495.0 7797.0 7498.0 7816.0 7486.0 7814.0
   7474.0 7812.0 7472.0 7820.0 7452.0 7820.0
@@ -65,7 +62,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   6670.0 6698.0
   6670.0 6698.0 6690.0 6717.0 6715.0 6737.0
   6740.0 6757.0 6777.0 6775.0 6827.0 6805.0
@@ -83,9 +80,6 @@ line wall
   7463.0 7748.0 7481.0 7747.0 7486.0 7765.0
   7491.0 7783.0 7498.0 7782.0 7495.0 7797.0
   smooth off
-endline
-
-line rock-border
 endline
 
 line rock-border -close on
@@ -155,7 +149,7 @@ point 5268.0 4508.0 curtain
 
 point 4840.0 3908.0 curtain
 
-line wall -close on
+line wall -close on -reverse on -outline in
   1992.0 1200.0
   1992.0 1200.0 1913.86 1204.54 1928.0 1152.0
   1956.0 1048.0 2008.0 1028.0 2040.0 1072.0
@@ -171,9 +165,6 @@ point 3836.0 2688.0 stalagmites -scale xs
 point 3296.0 2200.0 stalagmites -scale xs
 
 point 2588.0 1944.0 stalagmites -scale xs
-
-line floor-step
-endline
 
 line floor-step -reverse on
   6104.0 4774.0
@@ -258,9 +249,6 @@ line wall
   1504.0 1468.0 1456.0 1400.0 1478.0 1388.0
   1500.0 1376.0 1530.0 1334.0 1530.0 1334.0
   smooth off
-endline
-
-line wall
 endline
 
 line wall

@@ -15,7 +15,7 @@ centreline
 
 copyright 2016 "GNU GPL"
 
-date 2016.04.08
+   date 2016.04.08
 
 team "Buddy Acenas"
 team "Ruth Allan"
@@ -50,6 +50,7 @@ instrument  instruments "UBSS DistoX1"
   fix 1.0 377280.87 1966711.40 164
   # N 17 46.841
   # E 121 49.863
+  station 1.0 "Dafung" entrance
 
 data normal from to tape compass clino ignoreall
   extend right

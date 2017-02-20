@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2742.77 -416.83 16456.6 2500.96
+##XTHERION## xth_me_area_adjust -144.0 -144.0 15268.0 2464.0
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {15080.353749 1 1.0} {368.59750138999993 2.14} PocketTopo/bluewater_sink_lower_e.xvi 0 {}
 
@@ -35,7 +35,7 @@ point 1601.103749 1521.21750139 station -name 2.2
 
 point 1371.383749 1705.10750139 station -name 2.1
 
-line wall -reverse on -subtype presumed
+line pit -reverse on -outline out
   1408.0 2100.0
   1468.0 2088.0 1872.0 2024.0 2052.0 1960.0
   2232.0 1896.0 2380.0 1780.0 2520.0 1684.0
@@ -101,6 +101,7 @@ line wall
   12312.0 692.0 12184.0 640.0 12084.0 636.0
   11984.0 632.0 11840.0 560.0 11756.0 692.0
   11672.0 824.0 11624.0 1120.0 11468.0 1088.0
+  smooth off
 endline
 
 endscrap

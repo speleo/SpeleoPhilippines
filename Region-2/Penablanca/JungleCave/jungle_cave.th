@@ -31,6 +31,7 @@ copyright 2016 "GNU GPL"
   # not sure which is the correct station to pin
   #fix 1.0 395440.34 1992943.49 294
   fix 1.0 377362.11  1966419.50 218
+  station 1.0 "Jungle Cave" entrance
 
 data normal from to tape compass clino ignoreall
   extend right

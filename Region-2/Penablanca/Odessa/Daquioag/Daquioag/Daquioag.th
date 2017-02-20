@@ -5,6 +5,7 @@ survey Daquioag
 
 map DaquioagM
   DaquioagSP1
+  DaquioagSP2
 endmap
 
 map DaquioagME
@@ -39,6 +40,8 @@ copyright 2016 "GNU GPL"
   #
   cs EPSG:32651
   fix 1.0 376017.63  1965590.54 168
+  station 1.4 "Daquioag" entrance
+
 
 data normal from to tape compass clino ignoreall
 #1.0  1.1  2.042  25.8  0.2  

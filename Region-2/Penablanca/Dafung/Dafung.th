@@ -10,6 +10,7 @@ survey Dafung
   input dafung-down-west/dafung-down-west.th
 
   centreline
+    date 2016.04.08
     equate 1.23@dafung-cave1  20.0@upstream
     equate 1.29@dafung-cave1 1.29@downstream129
     equate 1.24@dafung-cave1 1.24@downside

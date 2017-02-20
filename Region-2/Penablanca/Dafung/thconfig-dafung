@@ -6,6 +6,8 @@ source Dafung.th
   export map -proj plan -layout local        -o output/Dafung-2jpg.pdf
 
   export model -fmt kml -o output/Dafung.kml
+  export map -fmt kml -proj plan -layout local -o output/Dafung_map.kml
+
 
   #Survex file showing centre line only
   export model -fmt survex -o output/Dafung-survex.3d

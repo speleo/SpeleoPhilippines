@@ -29,6 +29,7 @@ copyright 2016 "GNU GPL"
   
   cs EPSG:32651
   fix 1.0 376708.76 1965914.53 194
+  station 1.0 "Gaping Jill" entrance
 
 
 data normal from to tape compass clino ignoreall

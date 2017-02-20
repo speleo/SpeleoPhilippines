@@ -5,8 +5,8 @@ select odessa-all-maps@Odessa
 
 ### choose which exports to use
   export map -proj plan -layout local-odessa -o .\_output\Odessa.pdf
-  #export map -fmt kml -proj plan -layout local-odessa -o .\_output\Odessa-map.kml
-  #export model -fmt kml -o .\_output\Odessa-model.kml
+  export map -fmt kml -proj plan -layout local-odessa -o .\_output\Odessa-map.kml
+  export model -fmt kml -o .\_output\Odessa-model.kml
 
   #Survex file showing centre line only
   export model -fmt survex -o .\_output\Odessa-survex.3d

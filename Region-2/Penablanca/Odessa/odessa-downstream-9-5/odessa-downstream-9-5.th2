@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 23428.787401570997 77390.9921259679
+##XTHERION## xth_me_area_adjust -144.0 -144.0 23428.787401570997 77390.9921259679
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {7556.99771654 1 1.0} {57838.37165354 4.70} PocketTopo/odessa-downstream-9-5_p.xvi 0 {}
 
@@ -161,7 +161,7 @@ point 19514.677716539998 71810.69165354 station -name 4.88
 
 point 20208.14771654 75203.43165354 station -name 3.28
 
-line wall -id l79-5328-48436
+line wall -id l79-5328-48436 -reverse on
   13330.0 58100.0
   13332.0 58150.0 13388.0 58178.0 13306.0 58200.0
   13224.0 58222.0 13092.0 58272.0 13050.0 58298.0
@@ -303,7 +303,7 @@ line wall -id l80-13788-58228 -reverse on
   smooth off
 endline
 
-line wall -id l82-13892-59460
+line wall -id l82-13892-59460 -reverse on
   13854.0 59578.0
   13854.0 59556.0 13870.0 59490.0 13882.0 59462.0
   13894.0 59434.0 13934.0 59370.0 13970.0 59350.0
@@ -395,7 +395,7 @@ line wall -id l82-13892-59460
   smooth off
 endline
 
-line wall -id l83-13240-59560
+line wall -id l83-13240-59560 -reverse on
   7526.0 58116.0
   7614.0 58180.0 8186.0 58492.0 8222.0 58512.0
   8258.0 58532.0 8478.0 58656.0 8570.0 58696.0
@@ -479,9 +479,6 @@ area clay
   l79-5328-48436
   l94-4594-45558
 endarea
-
-line water-flow
-endline
 
 line water-flow
   5724.0 50644.0
@@ -657,7 +654,7 @@ line border -id l213-4832-45208 -reverse on -subtype invisible
   smooth off
 endline
 
-line wall -id l83-5668-55288
+line wall -id l83-5668-55288 -reverse on
   4634.0 48952.0
   4642.0 48998.0 4652.0 49076.0 4684.0 49140.0
   4716.0 49204.0 4802.0 49312.0 4842.0 49360.0
@@ -696,7 +693,7 @@ line wall -id l83-5668-55288
   smooth off
 endline
 
-line wall -id l85-4780-45194
+line wall -id l85-4780-45194 -reverse on
   4812.0 45070.0
   4804.0 45106.0 4824.0 45060.0 4792.0 45156.0
   4760.0 45252.0 4764.0 45282.0 4744.0 45312.0
@@ -762,6 +759,7 @@ line label -text Gour -scale l
   9612.0 59180.0 10036.0 59240.0 10284.0 59212.0
   10532.0 59184.0 10940.0 59236.0 11128.0 59256.0
   11316.0 59276.0 11956.0 59568.0 11980.0 59568.0
+  smooth off
 endline
 
 point 5710.0 44920.0 stalactite
@@ -786,6 +784,7 @@ line flowstone
   6486.0 41636.0 6456.0 41566.0 6506.0 41646.0
   6556.0 41726.0 6578.0 41716.0 6560.0 41768.0
   6542.0 41820.0 6542.0 41844.0 6538.0 41856.0
+  smooth off
 endline
 
 point 5664.0 8340.0 label -text Hole -scale xs -align left
@@ -794,7 +793,7 @@ point 7396.0 8128.0 label -align top-right -scale m -text [Starship Enterprise]
 
 point 8284.0 7600.0 label -text [Pitch 8m] -align top-right -scale m
 
-line wall -id l85-6928-21664
+line wall -id l85-6928-21664 -reverse on
   10204.0 28032.0
   10196.0 27986.0 10212.0 27988.0 10202.0 27920.0
   10192.0 27852.0 10184.0 27790.0 10172.0 27744.0
@@ -931,9 +930,6 @@ line wall -id l85-6928-21664
   smooth off
 endline
 
-line wall
-endline
-
 line pit
   7576.0 7932.0
   7576.0 7932.0 7500.0 7844.0 7484.0 7792.0
@@ -955,7 +951,7 @@ line wall
   smooth off
 endline
 
-line wall -id l141-10106-29230 -close on
+line wall -id l141-10106-29230 -close on -outline in
   9952.0 29528.0
   9996.0 29524.0 10176.0 29420.0 10236.0 29300.0
   10296.0 29180.0 10424.0 28936.0 10448.0 28840.0
@@ -968,7 +964,7 @@ line wall -id l141-10106-29230 -close on
   9928.0 29516.0 9908.0 29532.0 9952.0 29528.0
 endline
 
-line wall
+line wall -reverse on
   10680.0 28428.0
   10680.0 28428.0 10708.0 28228.0 10736.0 28196.0
   10764.0 28164.0 10812.0 27968.0 10840.0 27956.0
