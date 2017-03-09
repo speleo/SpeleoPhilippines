@@ -1,9 +1,35 @@
 encoding  utf-8
 survey MinorSites
   input HoneyPot/HoneyPot.th
+  input GapingJill/GapingJill.th
+  input RedAntSink/RedAntSink.th
+  input RedHole/RedHole.th
+  input IllusionPot/IllusionPot.th
+  input HandBrakeHole/HandBrakeHole.th
+  input AguCave/AguCave.th
+  input CrystalMaze/CrystalMaze.th
+  input JunPot/JunPot.th
+  input LostYouPot/LostYouPot.th
+  input Romal/Romal.th
+  input GlessiPot/GlessiPot.th
+  input GlessiCave/GlessiCave.th
+
 
 map MinorSitesM
   HoneyPotM@HoneyPot
+  GapingJillM@GapingJill
+  RedAntSinkM@RedAntSink
+  RedHoleM@RedHole
+  IllusionPotM@IllusionPot
+  HandBrakeHoleM@HandBrakeHole
+  AguCaveM@AguCave
+  CrystalMazeM@CrystalMaze
+  JunPotM@JunPot
+  LostYouPotM@LostYouPot
+  RomalM@Romal
+  GlessiPotM@GlessiPot
+  GlessiCaveM@GlessiCave
 endmap
 
 endsurvey
+

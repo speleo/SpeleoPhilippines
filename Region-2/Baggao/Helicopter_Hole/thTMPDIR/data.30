@@ -1,8 +1,8 @@
 %!PS
 %%BoundingBox: -193 -347 166 257 
-%%HiResBoundingBox: -192.27174 -346.54076 165.9957 256.7231 
+%%HiResBoundingBox: -192.25175 -346.56076 165.9657 256.71309 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2017.02.12:1925
+%%CreationDate: 2017.03.02:1303
 %%Pages: 1
 %*Font: cmss10 1.9925 9.96265 0d:800000029fd0003000000da1e7a
 %*Font: cmss10 2.65666 9.96265 2c:8c001618090005fcfbc4
@@ -11,95 +11,95 @@
 %%EndProlog
 %%Page: 1 1
  0 0 0 setrgbcolor
-59.36743 -7.0701 moveto
+59.34744 -7.0801 moveto
 (+10m) cmss10 1.9925 fshow
-60.81555 38.3399 moveto
+60.80554 38.3099 moveto
 (+6m) cmss10 1.9925 fshow
-14.24834 26.2569 moveto
+14.22835 26.24689 moveto
 (-4m) cmss10 1.9925 fshow
-63.15555 121.9599 moveto
+63.13554 121.9599 moveto
 (+8m) cmss10 1.9925 fshow
--192.27174 -346.02415 moveto
+-192.25175 -346.04416 moveto
 (Helicopter) cmss10 2.65666 fshow
--180.12494 -346.02415 moveto
+-180.10495 -346.04416 moveto
 (Hole) cmss10 2.65666 fshow
--174.21384 -346.02415 moveto
+-174.19385 -346.04416 moveto
 (seen) cmss10 2.65666 fshow
--168.57584 -346.02415 moveto
+-168.55585 -346.04416 moveto
 (from) cmss10 2.65666 fshow
--162.53194 -346.02415 moveto
+-162.51195 -346.04416 moveto
 (Beaut) cmss10 2.65666 fshow
--156.04524 -346.02415 moveto
+-156.02525 -346.04416 moveto
 (y) cmss10 2.65666 fshow
--155.04164 -346.02415 moveto
+-155.02165 -346.04416 moveto
 (,) cmss10 2.65666 fshow
--153.41814 -346.02415 moveto
+-153.39815 -346.04416 moveto
 (photo) cmss10 2.65666 fshow
--146.17134 -346.02415 moveto
+-146.15135 -346.04416 moveto
 (cop) cmss10 2.65666 fshow
--142.36354 -346.02415 moveto
+-142.34355 -346.04416 moveto
 (yright) cmss10 2.65666 fshow
--135.05034 -346.02415 moveto
+-135.03035 -346.04416 moveto
 (Hellie) cmss10 2.65666 fshow
--128.01755 -346.02415 moveto
+-127.99756 -346.04416 moveto
 (Adams) cmss10 2.65666 fshow
-56.48555 90.0299 moveto
+56.47554 90.0199 moveto
 (+8m) cmss10 1.9925 fshow
-16.11275 159.80754 moveto
+16.09274 159.78755 moveto
 (?) cmss10 2.65666 fshow
-5.51555 177.3199 moveto
+5.49554 177.2999 moveto
 (+3m) cmss10 1.9925 fshow
-84.29219 208.43985 moveto
+84.2822 208.41986 moveto
 (Gour) cmss10 2.65666 fshow
-90.5575 208.43985 moveto
+90.5475 208.41986 moveto
 (dam) cmss10 2.65666 fshow
-85.17769 205.25185 moveto
+85.1677 205.23186 moveto
 (and) cmss10 2.65666 fshow
-90.08519 205.25185 moveto
+90.0752 205.23186 moveto
 (rapids) cmss10 2.65666 fshow
-54.48834 255.4169 moveto
+54.47835 255.40689 moveto
 (-2m) cmss10 1.9925 fshow
--73.70131 204.27371 moveto
+-73.6913 204.24371 moveto
 (Huge) cmss10 1.9925 fshow
--68.71451 204.27371 moveto
+-68.7045 204.24371 moveto
 (ero) cmss10 1.9925 fshow
--66.0966 204.27371 moveto
+-66.0866 204.24371 moveto
 (ded) cmss10 1.9925 fshow
--62.488 204.27371 moveto
+-62.478 204.24371 moveto
 (\015o) cmss10 1.9925 fshow
--60.47891 204.27371 moveto
+-60.4689 204.24371 moveto
 (wstone) cmss10 1.9925 fshow
--73.03711 201.8827 moveto
+-73.0271 201.8527 moveto
 (b) cmss10 1.9925 fshow
--71.95241 201.8827 moveto
+-71.9424 201.8527 moveto
 (oulders) cmss10 1.9925 fshow
--65.427 201.8827 moveto
+-65.41699 201.8527 moveto
 (and) cmss10 1.9925 fshow
--61.74641 201.8827 moveto
+-61.7364 201.8527 moveto
 (to) cmss10 1.9925 fshow
--60.08601 201.8827 moveto
+-60.076 201.8527 moveto
 (w) cmss10 1.9925 fshow
--58.77982 201.8827 moveto
+-58.7698 201.8527 moveto
 (ers) cmss10 1.9925 fshow
-145.46744 -136.5401 moveto
+145.44743 -136.5501 moveto
 (+25m) cmss10 1.9925 fshow
-153.17 -72.39845 moveto
+153.14 -72.41844 moveto
 (Pitch) cmss10 2.65666 fshow
-159.90019 -72.39845 moveto
+159.8702 -72.41844 moveto
 (100m) cmss10 2.65666 fshow
-153.17 -75.58646 moveto
+153.14 -75.60645 moveto
 (to) cmss10 2.65666 fshow
-156.3432 -75.58646 moveto
+156.3132 -75.60645 moveto
 (surface) cmss10 2.65666 fshow
--30.7729 -27.79416 moveto
+-30.78291 -27.82416 moveto
 (Strong) cmss10 2.65666 fshow
--22.5151 -27.79416 moveto
+-22.52512 -27.82416 moveto
 (draft) cmss10 2.65666 fshow
--133.117 -149.60765 moveto
+-133.117 -149.62766 moveto
 (Helicopter) cmss10 17.9325 fshow
--133.117 -171.12654 moveto
+-133.117 -171.14655 moveto
 (Hole) cmss10 17.9325 fshow
--133.117 -192.64545 moveto
+-133.117 -192.66545 moveto
 (Doline) cmss10 17.9325 fshow
 showpage
 %%EOF

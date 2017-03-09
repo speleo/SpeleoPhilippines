@@ -1,14 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -276.0 -144.0 6364.2487590619 30093.9286813641
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -261.0 -132.0 6364.2487590619 30093.9286813641
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {3269.88301103 1 1.0} {6891.483169559999 1.4} PocketTopo/odessa-entrance_p.xvi 0 {}
 
 
 
 scrap odessa-entranceSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-line wall
-endline
 
 point 2141.24301103 11367.64316956 station -name 1.28
 
@@ -504,8 +501,6 @@ scrap OdessaEntLower -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 3843.24301103 10818.28316956 station -name 1.33
 
-area sand
-endarea
 
 line floor-step
   3596.0 10376.0
@@ -1021,7 +1016,7 @@ endscrap
 
 scrap OdessaEntSide -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall -id l74-1286-7917
+line wall -id l74-1286-7917 -reverse on
   1224.0 8098.0
   1227.0 8058.0 1233.0 8042.0 1245.0 8011.0
   1257.0 7980.0 1268.0 7982.0 1281.0 7940.0
@@ -1046,7 +1041,7 @@ line wall -id l74-1286-7917
   smooth off
 endline
 
-line wall -id l75-632-7321
+line wall -id l75-632-7321 -reverse on
   617.0 7160.0
   609.0 7174.0 593.0 7188.0 585.0 7214.0
   577.0 7240.0 565.0 7277.0 572.0 7292.0
@@ -1096,7 +1091,7 @@ line wall -id l212-631-7153
   661.0 7144.0
 endline
 
-line wall -id l211-1203-8099 -reverse on
+line border -id l211-1203-8099 -reverse on
   1168.0 8106.0
   1224.0 8098.0
 endline

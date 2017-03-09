@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 73404.0229857141 32090.480314911
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -130.0 -130.0 73404.0229857141 32090.480314911
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
 
@@ -32,12 +32,6 @@ line border -id l412-33792-23304
   smooth off
 endline
 
-line border
-endline
-
-line border
-endline
-
 area clay
   l609-28376-15904
   l448-31378-21706
@@ -57,7 +51,7 @@ area flowstone
 endarea
 
 line border -id l613-28396-14960 -subtype invisible
-  28428.0 15144.0
+  28500.0 15180.0
   28416.0 14976.0
   28288.0 14844.0
 endline
@@ -65,12 +59,6 @@ endline
 line border -id l612-28416-16400 -subtype invisible
   28244.0 16492.0
   28608.0 16288.0
-endline
-
-line border -subtype invisible
-endline
-
-line border -subtype invisible
 endline
 
 line border -id l609-28376-15904 -subtype invisible
@@ -111,8 +99,8 @@ line wall -id l608-28328-14956 -subtype presumed
   28300.0 15042.0
   28376.0 14804.0
   28460.0 14604.0
-  28460.0 14604.0 28416.0 14656.0 28472.0 14584.0
-  28528.0 14512.0 28584.0 14456.0 28584.0 14456.0
+  28460.0 14604.0 28468.05 14589.49 28472.0 14584.0
+  28481.0 14571.5 28584.0 14456.0 28584.0 14456.0
   smooth off
 endline
 
@@ -259,15 +247,6 @@ line border -id l557-34134-22142 -reverse on
   34352.0 22076.0 34382.0 22074.0 34462.0 22034.0
   34542.0 21994.0 34576.0 21980.0 34576.0 21980.0
   smooth off
-endline
-
-line border
-endline
-
-line border
-endline
-
-line border
 endline
 
 line flowstone -id l655-36306-22342
@@ -598,9 +577,6 @@ line wall -id l423-34866-22146 -close on -outline in
   smooth off
 endline
 
-line floor-step
-endline
-
 line wall
   42070.0 22892.0
   42002.0 22914.0
@@ -804,15 +780,6 @@ endline
 
 point 27870.0 17934.0 gradient -orientation 142.3
 
-line border -subtype invisible
-endline
-
-line border -subtype invisible
-endline
-
-line border -subtype invisible
-endline
-
 point 26368.0 18100.0 gradient -orientation 40.6
 
 point 26304.0 18176.0 gradient -orientation 40.6
@@ -925,9 +892,14 @@ line border -id l568-31832-21992 -subtype invisible
   32532.0 22024.0
 endline
 
-line wall -id l448-31378-21706
+line border
   28378.0 15110.0
   28438.0 15088.0 28516.0 15112.0 28500.0 15180.0
+  smooth off
+endline
+
+line wall -id l448-31378-21706
+  28500.0 15180.0
   28484.0 15248.0 28450.0 15248.0 28456.0 15324.0
   28462.0 15400.0 28458.8 15416.4 28462.0 15434.0
   28470.0 15478.0 28498.0 15484.0 28516.0 15480.0
@@ -941,7 +913,7 @@ line wall -id l448-31378-21706
   28726.0 16822.0 28744.0 16732.0 28756.0 16836.0
   28768.0 16940.0 28638.0 17072.0 28618.0 17082.0
   28598.0 17092.0 28592.0 17138.0 28448.0 17116.0
-  28304.0 17094.0 28402.0 17104.0 28402.0 17104.0
+  28424.52 17112.41 28402.0 17104.0 28402.0 17104.0
   smooth off
   28402.0 17104.0 28327.19 17173.93 28428.0 17298.0
   28454.0 17330.0 28446.0 17400.0 28424.0 17450.0
@@ -1221,9 +1193,6 @@ line rock-border -id l553-30970-22800 -reverse on
   smooth off
 endline
 
-line border -subtype invisible
-endline
-
 area blocks
   l475-35942-23024
   l562-35778-22620
@@ -1298,12 +1267,14 @@ line wall -id l475-35942-23024
   smooth off
   27796.0 20808.0 27716.0 20732.0 27676.0 20764.0
   27636.0 20796.0 27484.0 20744.0 27504.0 20636.0
+  smooth off
 endline
 
 line border -id l202-27568-20336
   27504.0 20636.0
   27524.0 20528.0 27528.0 20404.0 27568.0 20348.0
   27608.0 20292.0 27671.6 20244.61 27696.0 20208.0
+  smooth off
 endline
 
 line wall -id l203-27476-19176
@@ -1328,6 +1299,7 @@ line wall
   42446.0 23464.0
   42446.0 23464.0 42290.0 23342.0 42214.0 23192.0
   42138.0 23042.0 42098.0 23000.0 42070.0 22892.0
+  smooth off
 endline
 
 line wall

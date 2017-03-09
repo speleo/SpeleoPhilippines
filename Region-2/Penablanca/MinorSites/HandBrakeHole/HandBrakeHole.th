@@ -1,0 +1,24 @@
+encoding  utf-8
+survey HandBrakeHole
+input HandBrakeHole.th2
+
+map HandBrakeHoleM
+  HandBrakeHoleSP1
+endmap
+
+centreline
+  copyright 2016 "GNU GPL"
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  date 2016.04.14
+  cs EPSG:32651
+  
+  fix 1.0 376696.20 1966169.11 198
+  station 1.0 "Handbrake Hole" entrance
+
+  data normal from to tape compass clino ignoreall
+    extend right
+  1.0  -  0.0  0.0  0.0  
+endcentreline
+
+endsurvey
+

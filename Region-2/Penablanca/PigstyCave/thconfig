@@ -30,7 +30,7 @@ layout local
 #copy legend_large_format
 #copy legend_large_format_20U
 #copy grid_2_continuous
-copy bats
+#copy bats
 legend on
   debug off
   map-header 0 0 ne

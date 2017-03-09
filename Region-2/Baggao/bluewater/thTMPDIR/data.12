@@ -1,61 +1,184 @@
 %!PS
-%%BoundingBox: -620 -180 678 362 
-%%HiResBoundingBox: -619.6458 -179.89775 677.93564 361.10619 
+%%BoundingBox: -1893 -832 1870 934 
+%%HiResBoundingBox: -1892.5657 -831.54 1869.00215 933.6574 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2014.08.12:0807
+%%CreationDate: 2017.03.03:1418
 %%Pages: 1
-%*Font: cmss10 7.97015 9.96265 2b:87c400a0400803727dcc
-%*Font: cmss10 29.88794 9.96265 2e:95000040200015f74fc
+%*Font: cmss10 6.97382 9.96265 2d:df90020012000fbbe7e
+%*Font: cmss10 13.94765 9.96265 2d:8a00000012000e99a7e
+%*Font: cmss10 7.97015 9.96265 2e:bff00040000011f24dc
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
  0 0 0 setrgbcolor
--619.6458 -103.15741 moveto
-(Climb) cmss10 7.97015 fshow
--597.6394 -103.15741 moveto
-(do) cmss10 7.97015 fshow
--589.7578 -103.15741 moveto
-(wn) cmss10 7.97015 fshow
--577.5369 -103.15741 moveto
-(3m) cmss10 7.97015 fshow
--562.68 -179.89775 moveto
-(Pitch) cmss10 29.88794 fshow
--486.96379 -179.89775 moveto
-(13m) cmss10 29.88794 fshow
--241.32271 340.3507 moveto
-(Gour) cmss10 29.88794 fshow
--170.8368 340.3507 moveto
-(w) cmss10 29.88794 fshow
--151.2436 340.3507 moveto
-(all) cmss10 29.88794 fshow
--241.32271 304.48529 moveto
-(3.5m) cmss10 29.88794 fshow
--169.42542 304.48529 moveto
-(high) cmss10 29.88794 fshow
--156.06674 124.30495 moveto
-(static) cmss10 29.88794 fshow
--78.27495 124.30495 moveto
-(shallo) cmss10 29.88794 fshow
--8.61934 124.30495 moveto
-(w) cmss10 29.88794 fshow
--156.06674 88.43954 moveto
-(lak) cmss10 29.88794 fshow
--120.78224 88.43954 moveto
-(e) cmss10 29.88794 fshow
-613.34435 258.63765 moveto
-(high) cmss10 29.88794 fshow
-613.34435 222.77225 moveto
-(level) cmss10 29.88794 fshow
-613.34435 186.90685 moveto
-(fossil) cmss10 29.88794 fshow
-229.47496 135.21754 moveto
-(40) cmss10 7.97015 fshow
- 0 0.35 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+-1216.7825 -271.04144 moveto
+(Climb) cmss10 6.97382 fshow
+-1197.5269 -271.04144 moveto
+(do) cmss10 6.97382 fshow
+-1190.6306 -271.04144 moveto
+(wn) cmss10 6.97382 fshow
+-1179.9373 -271.04144 moveto
+(3m) cmss10 6.97382 fshow
+-1892.5657 714.64565 moveto
+(1st) cmss10 13.94765 fshow
+-1870.55931 714.64565 moveto
+(Pitch) cmss10 13.94765 fshow
+-1892.5657 697.90845 moveto
+(13m) cmss10 13.94765 fshow
+-38.84961 928.12259 moveto
+(Gour) cmss10 7.97015 fshow
+-20.0534 928.12259 moveto
+(w) cmss10 7.97015 fshow
+-14.8285 928.12259 moveto
+(all) cmss10 7.97015 fshow
+-33.96759 832.00656 moveto
+(3.5m) cmss10 6.97382 fshow
+-17.19159 832.00656 moveto
+(high) cmss10 6.97382 fshow
+62.8908 287.0697 moveto
+(static) cmss10 6.97382 fshow
+62.8908 278.70111 moveto
+(shallo) cmss10 6.97382 fshow
+79.14369 278.70111 moveto
+(w) cmss10 6.97382 fshow
+62.8908 270.3325 moveto
+(lak) cmss10 6.97382 fshow
+71.1238 270.3325 moveto
+(e) cmss10 6.97382 fshow
+1851.77785 384.8067 moveto
+(high) cmss10 7.97015 fshow
+1851.77785 375.2426 moveto
+(level) cmss10 7.97015 fshow
+1851.77785 365.6785 moveto
+(fossil) cmss10 7.97015 fshow
+825.76309 329.74414 moveto
+(40) cmss10 6.97382 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop [] 0 setdash
  1 setlinejoin 10 setmiterlimit
-newpath 228.67496 138.57095 moveto
-228.67496 144.95102 238.24506 144.95102 238.24506 138.57095 curveto
-238.24506 134.41754 lineto
-228.67496 134.41754 lineto
+newpath 825.3631 329.34415 moveto
+827.30392 326.74763 831.19606 326.74763 833.13689 329.34415 curveto
+834.32738 330.93683 834.32738 333.12315 833.13689 334.71584 curveto
+831.19606 337.31235 827.30392 337.31235 825.3631 334.71584 curveto
+824.1726 333.12315 824.1726 330.93683 825.3631 329.34415 curveto closepath
+ stroke
+49.5 723.99 moveto
+(14.12) cmss10 7.97015 fshow
+340.74 465.04001 moveto
+(14.14) cmss10 7.97015 fshow
+412.87001 281.31 moveto
+(14.15) cmss10 7.97015 fshow
+563.75 425.98 moveto
+(14.16) cmss10 7.97015 fshow
+565.56 431.66 moveto
+(14.17) cmss10 7.97015 fshow
+446.28 633.13 moveto
+(14.18) cmss10 7.97015 fshow
+537.54001 583.16 moveto
+(14.19) cmss10 7.97015 fshow
+606.76001 573.19 moveto
+(14.20) cmss10 7.97015 fshow
+636.45 534.37001 moveto
+(14.21) cmss10 7.97015 fshow
+696.14 450.07 moveto
+(14.22) cmss10 7.97015 fshow
+780.97 464.13 moveto
+(14.23) cmss10 7.97015 fshow
+891.93001 414.13 moveto
+(14.24) cmss10 7.97015 fshow
+1094.74 415.78 moveto
+(15.0) cmss10 7.97015 fshow
+1118.59 488.76001 moveto
+(15.1) cmss10 7.97015 fshow
+1224.58 440.71 moveto
+(14.26) cmss10 7.97015 fshow
+1094.74 415.78 moveto
+(14.25) cmss10 7.97015 fshow
+1362.14 531.02 moveto
+(14.27) cmss10 7.97015 fshow
+1411.99 459.15001 moveto
+(14.28) cmss10 7.97015 fshow
+1486.56 376.63 moveto
+(14.29) cmss10 7.97015 fshow
+1532.19 459.22 moveto
+(14.30) cmss10 7.97015 fshow
+1620.32 516.95 moveto
+(14.31) cmss10 7.97015 fshow
+1628.39 570.72 moveto
+(14.32) cmss10 7.97015 fshow
+1675.41 604.7 moveto
+(14.33) cmss10 7.97015 fshow
+1689.57 686.98 moveto
+(14.34) cmss10 7.97015 fshow
+1698.52 736.49 moveto
+(14.35) cmss10 7.97015 fshow
+-1185.17 -383.18 moveto
+(12.22) cmss10 7.97015 fshow
+-1165.14 -312.34999 moveto
+(12.23) cmss10 7.97015 fshow
+-1021.78 -219.59999 moveto
+(12.24) cmss10 7.97015 fshow
+-981.81 -273.39 moveto
+(12.25) cmss10 7.97015 fshow
+-864.62999 -292.31999 moveto
+(12.26) cmss10 7.97015 fshow
+-837.56999 -369.56 moveto
+(12.27) cmss10 7.97015 fshow
+-798.45 -423.48999 moveto
+(12.28) cmss10 7.97015 fshow
+-820.69 -479.03 moveto
+(12.29) cmss10 7.97015 fshow
+-731.03 -466.93 moveto
+(12.30) cmss10 7.97015 fshow
+-729.02 -525.45999 moveto
+(12.31) cmss10 7.97015 fshow
+-713.53 -560.09999 moveto
+(12.32) cmss10 7.97015 fshow
+-749.62999 -593.87999 moveto
+(12.33) cmss10 7.97015 fshow
+-782.09999 -591.5 moveto
+(12.34) cmss10 7.97015 fshow
+-820.72 -658.47 moveto
+(12.35) cmss10 7.97015 fshow
+-801.3 -764.23999 moveto
+(12.36) cmss10 7.97015 fshow
+-743.97 -831.54 moveto
+(12.37) cmss10 7.97015 fshow
+-901.45999 -137.03 moveto
+(14.1) cmss10 7.97015 fshow
+-864.62999 -292.31999 moveto
+(14.0) cmss10 7.97015 fshow
+-826.48999 -4.11 moveto
+(14.2) cmss10 7.97015 fshow
+-856.03 140.44 moveto
+(14.3) cmss10 7.97015 fshow
+-729.29 213.97 moveto
+(14.4) cmss10 7.97015 fshow
+-604.84 265.8 moveto
+(14.5) cmss10 7.97015 fshow
+-449.29 332.97 moveto
+(14.6) cmss10 7.97015 fshow
+-349.23 413.44 moveto
+(14.7) cmss10 7.97015 fshow
+-315.48 594.76001 moveto
+(14.8) cmss10 7.97015 fshow
+-188.7 609.18001 moveto
+(14.9) cmss10 7.97015 fshow
+-53.14 728.82 moveto
+(14.10) cmss10 7.97015 fshow
+50.58 760.28 moveto
+(14.11) cmss10 7.97015 fshow
+58.47 584.71 moveto
+(14.13) cmss10 7.97015 fshow
+-80.5675 -4.84296 moveto
+(bluew) cmss10 13.94765 fshow
+-47.48041 -4.84296 moveto
+(ater-ab) cmss10 13.94765 fshow
+-5.8309 -4.84296 moveto
+(ove-climb-1-S1) cmss10 13.94765 fshow
+newpath -82.5675 -6.84296 moveto
+82.56749 -6.84296 lineto
+82.56749 6.84294 lineto
+-82.5675 6.84294 lineto
  closepath stroke
 showpage
 %%EOF

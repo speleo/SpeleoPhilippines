@@ -1,8 +1,8 @@
 %!PS
 %%BoundingBox: -78 -164 322 160 
-%%HiResBoundingBox: -77.0989 -163.02246 321.18445 159.81244 
+%%HiResBoundingBox: -77.1089 -163.01245 321.16446 159.81244 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2017.02.12:1925
+%%CreationDate: 2017.03.02:1303
 %%Pages: 1
 %*Font: cmss10 2.65666 9.96265 2b:81e009400800036a79e
 %*Font: cmss10 1.9925 9.96265 2b:81500040000000a2adc
@@ -10,39 +10,39 @@
 %%EndProlog
 %%Page: 1 1
  0 0 0 setrgbcolor
-36.1948 -163.02246 moveto
+36.1748 -163.01245 moveto
 (Old) cmss10 2.65666 fshow
-41.0432 -163.02246 moveto
+41.02321 -163.01245 moveto
 (inlet) cmss10 2.65666 fshow
-94.85 -88.17274 moveto
+94.82 -88.16273 moveto
 (5m) cmss10 2.65666 fshow
-94.85 -91.36075 moveto
+94.82 -91.35074 moveto
 (gour) cmss10 2.65666 fshow
-94.85 -94.54875 moveto
+94.82 -94.53874 moveto
 (dam) cmss10 2.65666 fshow
-228.32 100.48755 moveto
+228.3 100.48755 moveto
 (Bats) cmss10 2.65666 fshow
-219.76 114.056 moveto
+219.74 114.046 moveto
 (+2m) cmss10 1.9925 fshow
-317.05554 20.7899 moveto
+317.03555 20.7899 moveto
 (+4m) cmss10 1.9925 fshow
-294.80554 -6.9601 moveto
+294.78555 -6.9601 moveto
 (+4m) cmss10 1.9925 fshow
-9.2805 -106.95259 moveto
+9.27051 -106.9426 moveto
 (Drip) cmss10 1.9925 fshow
-9.2805 -109.3436 moveto
+9.27051 -109.3336 moveto
 (p) cmss10 1.9925 fshow
-10.3653 -109.3436 moveto
+10.3553 -109.3336 moveto
 (o) cmss10 1.9925 fshow
-11.4169 -109.3436 moveto
+11.4069 -109.3336 moveto
 (ck) cmss10 1.9925 fshow
-13.2212 -109.3436 moveto
+13.21121 -109.3336 moveto
 (ets) cmss10 1.9925 fshow
-19.01555 134.5099 moveto
+18.99554 134.5099 moveto
 (+6m) cmss10 1.9925 fshow
--43.88725 157.96754 moveto
+-43.89726 157.96754 moveto
 (?) cmss10 2.65666 fshow
--77.0989 109.16989 moveto
+-77.1089 109.16989 moveto
 (+4m) cmss10 1.9925 fshow
 showpage
 %%EOF

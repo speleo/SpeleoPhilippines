@@ -10,7 +10,7 @@
 		 P => "data.4bbox",
 		 Y => 1,
 		 V => -4,
-		 S => "3752.41 -473.67",
+		 S => "11070.25 -1877.11",
 	},
 	# scrap: bluewater-above-climb-1-S2
 	aaaaaab => {
@@ -23,7 +23,7 @@
 		 P => "data.8bbox",
 		 Y => 1,
 		 V => -4,
-		 S => "3475.09 -524.68",
+		 S => "8009.78 -488.45",
 	},
 	# scrap: bluewater-above-climb-1-S1
 	aaaaaac => {
@@ -36,7 +36,7 @@
 		 P => "data.12bbox",
 		 Y => 1,
 		 V => -4,
-		 S => "1875.54 -783.16",
+		 S => "4440.63 -1955.25",
 	},
 	# scrap: bluewater-above-olympic-pool
 	aaaaaad => {
@@ -49,7 +49,7 @@
 		 P => "data.16bbox",
 		 Y => 1,
 		 V => -4,
-		 S => "1055.75 -1145.86",
+		 S => "2637.49 -2932.49",
 	},
 	# scrap: bluewater-fossil
 	aaaaaae => {
@@ -62,7 +62,7 @@
 		 P => "data.20bbox",
 		 Y => 1,
 		 V => -3,
-		 S => "1121.85 -1225.96",
+		 S => "2776.08 -3069.36",
 	},
 	# scrap: bluewater-olympic-pool
 	aaaaaaf => {
@@ -71,44 +71,50 @@
 		 I => "data.22bg",
 		 C => "data.22clip",
 		 E => "data.23",
+		 X => "data.24",
+		 P => "data.24bbox",
 		 Y => 1,
 		 V => -3,
-		 S => "637.50 -1679.25",
+		 S => "1592.34 -4214.23",
 	},
 	# scrap: bluewater-entrance-olympic-pool
 	aaaaaag => {
-		 F => "data.24",
-		 B => "data.25",
-		 I => "data.25bg",
-		 C => "data.25clip",
-		 E => "data.26",
-		 X => "data.27",
-		 P => "data.27bbox",
+		 F => "data.25",
+		 B => "data.26",
+		 I => "data.26bg",
+		 C => "data.26clip",
+		 E => "data.27",
+		 X => "data.28",
+		 P => "data.28bbox",
 		 Y => 1,
 		 V => -3,
-		 S => "477.64 -1721.74",
+		 S => "1193.56 -4320.14",
 	},
 	# scrap: bluewater-entrance_detail
 	aaaaaah => {
-		 F => "data.28",
-		 B => "data.29",
-		 I => "data.29bg",
-		 C => "data.29clip",
-		 E => "data.30",
+		 F => "data.29",
+		 B => "data.30",
+		 I => "data.30bg",
+		 C => "data.30clip",
+		 E => "data.31",
+		 X => "data.32",
+		 P => "data.32bbox",
 		 Y => 1,
 		 V => -2,
-		 S => "90.01 -1881.58",
+		 S => "224.43 -4757.80",
 	},
 	# scrap: bluewater-entrance-overlay-passage
 	aaaaaai => {
-		 F => "data.31",
-		 B => "data.32",
-		 I => "data.32bg",
-		 C => "data.32clip",
-		 E => "data.33",
+		 F => "data.33",
+		 B => "data.34",
+		 I => "data.34bg",
+		 C => "data.34clip",
+		 E => "data.35",
+		 X => "data.36",
+		 P => "data.36bbox",
 		 Y => 1,
 		 V => -1,
-		 S => "86.85 -1912.83",
+		 S => "318.21 -4675.45",
 	},
 );
 

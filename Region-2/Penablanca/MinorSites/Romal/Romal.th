@@ -1,0 +1,24 @@
+encoding  utf-8
+survey Romal
+input Romal.th2
+
+map RomalM
+  RomalSP1
+endmap
+
+centreline
+  copyright 2016 "GNU GPL"
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  date 2016.04.14
+  cs EPSG:32651
+  
+  fix 1.0 376840.21 1965742.19 208
+  station 1.0 "Romal" entrance
+
+  data normal from to tape compass clino ignoreall
+    extend right
+  1.0  -  0.0  0.0  0.0  
+endcentreline
+
+endsurvey
+

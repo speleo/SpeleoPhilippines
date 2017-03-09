@@ -1,15 +1,15 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 282.59m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.60m (from 44.25@oxbow-up-20-04 at 3.60m to 22.22@oxbow-up-20-04 at 0.00m)\nnorth-south range: 143.45m (from 44.26@oxbow-up-20-04 at 143.45m to 22.22@oxbow-up-20-04 at 0.00m)\neast-west range: 123.74m (from 44.28@oxbow-up-20-04 at 116.90m to 44.5@oxbow-up-20-04 at -6.84m)\nnumber of shots: 234\nnumber of stations: 235"
-xth_cp_data_tree_insert 9 1 1 oxbow-up-20-04 oxbow-up-20-04 "" "" "length: 282.59m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.60m (from 44.25@oxbow-up-20-04 at 3.60m to 22.22@oxbow-up-20-04 at 0.00m)\nnorth-south range: 143.45m (from 44.26@oxbow-up-20-04 at 143.45m to 22.22@oxbow-up-20-04 at 0.00m)\neast-west range: 123.74m (from 44.28@oxbow-up-20-04 at 116.90m to 44.5@oxbow-up-20-04 at -6.84m)\nnumber of shots: 234\nnumber of stations: 235"
+xth_cp_data_tree_insert 11 1 1 oxbow-up-20-04 oxbow-up-20-04 "" "" "length: 282.59m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.60m (from 44.25@oxbow-up-20-04 at 3.60m to 22.22@oxbow-up-20-04 at 0.00m)\nnorth-south range: 143.45m (from 44.26@oxbow-up-20-04 at 143.45m to 22.22@oxbow-up-20-04 at 0.00m)\neast-west range: 123.74m (from 44.28@oxbow-up-20-04 at 116.90m to 44.5@oxbow-up-20-04 at -6.84m)\nnumber of shots: 234\nnumber of stations: 235"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 113X1 p1 1 oxbow-up-20-04M oxbow-up-20-04M@oxbow-up-20-04 "" ""
-xth_cp_map_tree_insert map 1 114X1 p3 1 oxbow-up-20-04ME oxbow-up-20-04ME@oxbow-up-20-04 "" ""
+xth_cp_map_tree_insert map 1 115X1 p1 1 oxbow-up-20-04M oxbow-up-20-04M@oxbow-up-20-04 "" ""
+xth_cp_map_tree_insert map 1 116X1 p3 1 oxbow-up-20-04ME oxbow-up-20-04ME@oxbow-up-20-04 "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 283 3
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1462605691
+set xth(th_exit_number) 1488907311
 

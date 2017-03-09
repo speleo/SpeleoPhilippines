@@ -3,18 +3,19 @@ survey OdessaAreaCaves
   input HeadlessChicken/HeadlessChicken.th
   input odessa/odessa.th
   input PigstyCave/pigsty-cave.th
-  input GapingJill/GapingJill.th
+  #input GapingJill/GapingJill.th
   input MinorSites/MinorSites.th
   input Dafung/Dafung.th
+  input JungleCave/jungle_cave.th
 
   map OdessaAreaCavesMap
     #survey Odessa
     odessa-all-maps@Odessa
     HeadlessChickenOverviewM@HeadlessChicken
     pigsty-caveM@pigsty-cave
-    GapingJillM@GapingJill
     MinorSitesM@MinorSites
     DafungM@Dafung
+    jungle_caveM@jungle_cave
   endmap
 
 endsurvey

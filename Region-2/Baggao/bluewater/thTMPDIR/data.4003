@@ -1,17 +1,17 @@
 %!PS
-%%BoundingBox: 1 0 9 8 
-%%HiResBoundingBox: 1.74997 0.75006 8.25003 7.24997 
+%%BoundingBox: 2 0 10 9 
+%%HiResBoundingBox: 2.09996 0.90007 9.90004 8.69997 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2014.08.12:0807
+%%CreationDate: 2017.03.03:1418
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
- 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ 0 0 0 setrgbcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
  [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
-newpath 1.99997 3.00003 moveto 0 0 rlineto stroke
-newpath 3.50006 6.99997 moveto 0 0 rlineto stroke
-newpath 6.00006 5 moveto 0 0 rlineto stroke
-newpath 8.00003 1.00006 moveto 0 0 rlineto stroke
+newpath 2.39996 3.60004 moveto 0 0 rlineto stroke
+newpath 4.20007 8.39996 moveto 0 0 rlineto stroke
+newpath 7.20007 6 moveto 0 0 rlineto stroke
+newpath 9.60004 1.20007 moveto 0 0 rlineto stroke
 showpage
 %%EOF

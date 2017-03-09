@@ -1,0 +1,24 @@
+encoding  utf-8
+survey JunPot
+input JunPot.th2
+
+map JunPotM
+  JunPotSP1
+endmap
+
+centreline
+  copyright 2016 "GNU GPL"
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  date 2016.04.14
+  cs EPSG:32651
+  
+  fix 1.0 376671.49 1965603.07 202
+  station 1.0 "Jun Pot" entrance
+
+  data normal from to tape compass clino ignoreall
+    extend right
+  1.0  -  0.0  0.0  0.0  
+endcentreline
+
+endsurvey
+

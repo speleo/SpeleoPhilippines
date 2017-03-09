@@ -13,16 +13,70 @@ geomag declinations (deg):
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> 
+ 4> Survey contains 268 survey stations, joined by 267 shots.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey shots =  939.78m ( 939.78m adjusted)
+ 8> Total plan length of survey shots =  820.33m
+ 9> Total vertical length of survey shots =  275.39m
+10> Vertical range = 34.54m (from 2 at 456.00m to 268 at 421.46m)
+11> North-South range = 65.21m (from 74 at 1991815.89m to 268 at 1991750.68m)
+12> East-West range = 47.50m (from 2 at 398164.25m to 48 at 398116.75m)
+13>  215 1-nodes.
+14>   10 2-nodes.
+15>    6 3-nodes.
+16>    5 4-nodes.
+17>    8 5-nodes.
+18>   10 6-nodes.
+19>    2 7-nodes.
+20>    2 8-nodes.
+21>    2 10-nodes.
+22>    3 11-nodes.
+23>    1 12-node.
+24>    1 13-node.
+25>    1 14-node.
+26>    1 18-node.
+27>    1 21-node.
+28> 
+######################### transcription ########################
+ 4> 268 : 10.2@Area51 -- 267 : -@Area51
+ 5> 1 : 1.0@Area51
+ 6> 2 : -@Area51
+10> 2 : -@Area51 -- 268 : 10.2@Area51
+11> 74 : -@Area51 -- 268 : 10.2@Area51
+12> 2 : -@Area51 -- 48 : -@Area51
+13> 215 : -@Area51
+14> 10 : 1.2@Area51
+15> 6 : 1.1@Area51
+16> 5 : -@Area51
+17> 8 : -@Area51
+18> 10 : 1.2@Area51
+19> 2 : -@Area51
+20> 2 : -@Area51
+21> 2 : -@Area51
+22> 3 : -@Area51
+23> 1 : 1.0@Area51
+24> 1 : 1.0@Area51
+25> 1 : 1.0@Area51
+26> 1 : 1.0@Area51
+27> 1 : 1.0@Area51
+#################### end of cavern log file ####################
+done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.00%
-writing .\output\area_51.pdf ...
+average distortion: 0.06%
+writing .\_output\area_51.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 17:30
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  28 FEB 2017 09:24
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -34,27 +88,27 @@ _format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_15
 0.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
-terline.mp) [1]
-[Warning: scrap outline intersects itself in scrap s1-lower@Area51] [2] [3]
-[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+terline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+[Warning: scrap outline intersects itself in scrap s1-entrance_upper_west@Area5
+1] [12] [13] [14] [15] [16] [17] [18] [19] [20] (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) [21] [22] [23] [24] [25] [26] [27] [28] [29]
-[30] [31] [32] [33] [34] [35] [36] [37] [38] [39] )
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+[36] [37] [38] )
  
 Here is how much of MetaPost's memory you used:
- 1415 strings out of 1638
- 17425 string characters out of 26823
- 126489 words of memory out of 1500000
+ 1414 strings out of 1638
+ 17420 string characters out of 26823
+ 127489 words of memory out of 1500000
  1521 symbolic tokens out of 16384
  11i,75n,16p,334b,5f stack positions out of 300i,84n,5000p,390b,15f
- 72 string compactions (moved 993464 characters, 82409 strings)
-51 output files written: data.1 .. data.4012
+ 71 string compactions (moved 976647 characters, 80960 strings)
+50 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 17:30
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  28 FEB 2017 09:24
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -63,13 +117,13 @@ entering extended mode
 (./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex) <
 c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_300.p
 ng>) (./th_pages.tex)
- 92 numeric registers used out of 32768
+ 91 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 295 strings out of 95617
- 2988 string characters out of 1171098
- 237016 words of memory out of 1709994
- 1702 multiletter control sequences out of 15000+50000
+ 294 strings out of 95617
+ 2981 string characters out of 1171098
+ 238967 words of memory out of 1711945
+ 1701 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  11i,5n,7p,1262b,76s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -77,23 +131,24 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 189273 bytes).
+Output written on data.pdf (1 page, 189109 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\area_51.3d ... done
-writing .\output\Area_51-map.kml ... done
-writing .\output\Area_51.kml ... done
+writing .\_output\area_51.3d ... done
+writing .\_output\Area_51-map.kml ... done
+writing .\_output\Area_51.kml ... done
+writing .\_output\Area_51.lox ......... done
 processing projection extended ... done
-average distortion: 0.00%
-writing .\output\area_51_elevation.pdf ...
+average distortion: 0.01%
+writing .\_output\area_51_elevation.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 FEB 2017 17:30
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  28 FEB 2017 09:24
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -113,18 +168,18 @@ terline.mp)
  
 Here is how much of MetaPost's memory you used:
  1343 strings out of 1638
- 17115 string characters out of 26823
+ 17114 string characters out of 26823
  59792 words of memory out of 1500000
  1513 symbolic tokens out of 16384
  9i,75n,12p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 35 string compactions (moved 393435 characters, 31664 strings)
+ 35 string compactions (moved 393434 characters, 31664 strings)
 26 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 FEB 2017 17:30
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  28 FEB 2017 09:24
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -146,7 +201,7 @@ Here is how much of TeX's memory you used:
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Fi
 les (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 57796 bytes).
+Output written on data.pdf (1 page, 57791 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -156,23 +211,23 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 writing xtherion file ... done
-compilation time: 7 sec
+compilation time: 6 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.01%    0.17%  s1-lower@Area51
-   0.00%    0.05%  s1-entrance_chamber@Area51
-   0.00%    0.05%  s1-main@Area51
-   0.01%    0.03%  s1-upper@Area51
-   0.01%    0.02%  s1-entrance@Area51
-   0.00%    0.02%  s1-pitchhead@Area51
+   0.06%    1.63%  s1-lower@Area51
+   0.12%    1.16%  s1-entrance_upper_west@Area51
+   0.08%    0.96%  s1-upper@Area51
+   0.06%    0.68%  s1-pitchhead@Area51
+   0.04%    0.49%  s1-main@Area51
+   0.02%    0.12%  s1-entrance@Area51
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.12%  s1SE1@Area51
+   0.01%    0.56%  s1SE1@Area51
 ################### end of scrap distortions ###################

@@ -2,15 +2,15 @@ encoding  utf-8
 source Dafung.th
 
 ### choose which exports to use
-  export map -proj plan -layout local-dafung -o output/Dafung.pdf
-  export map -proj plan -layout local        -o output/Dafung-2jpg.pdf
+  export map -proj plan -layout local-dafung -o _output/Dafung.pdf
+  #export map -proj plan -layout local        -o _output/Dafung-2jpg.pdf
 
-  export model -fmt kml -o output/Dafung.kml
-  export map -fmt kml -proj plan -layout local -o output/Dafung_map.kml
+  #export model -fmt kml -o _output/Dafung.kml
+  #export map -fmt kml -proj plan -layout local -o _output/Dafung_map.kml
 
 
   #Survex file showing centre line only
-  export model -fmt survex -o output/Dafung-survex.3d
+  #export model -fmt survex -o _output/Dafung-survex.3d
 
 #inject standard code for layouts
   input ..\..\..\CodeLibrary\_translations.txt  # custom translations

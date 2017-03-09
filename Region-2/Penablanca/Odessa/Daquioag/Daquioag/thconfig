@@ -14,7 +14,8 @@ source Daquioag.th
   export model -fmt survex -o .\_output\Daquioag.3d
   #Survex file showing centre line only
 
-  #export model -o .\_output\Daquioag.lox
+  unselect Road@Daquioag
+  export model -o .\_output\Daquioag.lox
   #3d therion model to be viewed in the therion viewer
 
   #export map -proj plan -o .\_output\Daquioag_Walls.3d
@@ -27,6 +28,7 @@ source Daquioag.th
   input ..\..\..\..\..\CodeLibrary\_layouts.thc       # custom layouts
   
 layout local
+  debug on
   copy custom_water_blue
   copy custom_entrance_theta
   copy custom_northarrow_large

@@ -1,7 +1,7 @@
-therion 5.3.16
-initialization file: /etc/therion.ini
+therion 5.3.16 (beta Vladimir)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-configuration file: /home/rls/Desktop/dafung/dafung-down-west/thconfig
+configuration file: thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -10,19 +10,19 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.22
- 2> Copyright © 1990-2015 Olly Betts
- 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 1> Survex 1.2.30
+ 2> Copyright � 1990-2016 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 671 survey stations, joined by 670 legs.
+ 5> Survey contains 670 survey stations, joined by 669 shots.
  6> There are 0 loops.
- 7> Total length of survey legs = 3398.63m (3398.63m adjusted)
- 8> Total plan length of survey legs = 3179.16m
- 9> Total vertical length of survey legs =  566.89m
-10> Vertical range = 16.32m (from 166 at 6.73m to 566 at -9.58m)
-11> North-South range = 223.82m (from 123 at 71.58m to 627 at -152.24m)
-12> East-West range = 198.12m (from 2 at 0.00m to 582 at -198.12m)
-13>  599 1-nodes.
+ 7> Total length of survey shots = 3302.34m (3302.34m adjusted)
+ 8> Total plan length of survey shots = 3082.87m
+ 9> Total vertical length of survey shots =  565.31m
+10> Vertical range = 16.32m (from 165 at 6.73m to 565 at -9.58m)
+11> North-South range = 164.02m (from 607 at 11.78m to 626 at -152.24m)
+12> East-West range = 198.12m (from 2 at 0.00m to 581 at -198.12m)
+13>  598 1-nodes.
 14>   10 2-nodes.
 15>    1 4-node.
 16>    1 5-node.
@@ -35,8 +35,8 @@ processing survey data ...
 23>    2 12-nodes.
 24>    3 13-nodes.
 25>    1 14-node.
-26>    6 15-nodes.
-27>    3 16-nodes.
+26>    7 15-nodes.
+27>    2 16-nodes.
 28>    1 17-node.
 29>    3 18-nodes.
 30>    2 20-nodes.
@@ -47,11 +47,11 @@ processing survey data ...
 35> 
 ######################### transcription ########################
  3> 1 : 1.4@dafung-down-west
- 5> 671 : -@dafung-down-west -- 670 : -@dafung-down-west
-10> 166 : -@dafung-down-west -- 566 : -@dafung-down-west
-11> 123 : -@dafung-down-west -- 627 : 19.5@dafung-down-west
-12> 2 : 8.0@dafung-down-west -- 582 : -@dafung-down-west
-13> 599 : -@dafung-down-west
+ 5> 670 : -@dafung-down-west -- 669 : -@dafung-down-west
+10> 165 : -@dafung-down-west -- 565 : -@dafung-down-west
+11> 607 : -@dafung-down-west -- 626 : 19.5@dafung-down-west
+12> 2 : 8.0@dafung-down-west -- 581 : -@dafung-down-west
+13> 598 : -@dafung-down-west
 14> 10 : -@dafung-down-west
 15> 1 : 1.4@dafung-down-west
 16> 1 : 1.4@dafung-down-west
@@ -64,8 +64,8 @@ processing survey data ...
 23> 2 : 8.0@dafung-down-west
 24> 3 : 8.1@dafung-down-west
 25> 1 : 1.4@dafung-down-west
-26> 6 : -@dafung-down-west
-27> 3 : 8.1@dafung-down-west
+26> 7 : -@dafung-down-west
+27> 2 : 8.0@dafung-down-west
 28> 1 : 1.4@dafung-down-west
 29> 3 : 8.1@dafung-down-west
 30> 2 : 8.0@dafung-down-west
@@ -79,5 +79,69 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-writing /home/rls/Desktop/dafung/dafung-down-west/dafung-down-westth.3d ... done
-compilation time: 0 sec
+processing projection plan ... done
+average distortion: 0.03%
+writing _output\dafung-down-west.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  5 MAR 2017 22:37
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] [8] [9]
+[Warning: scrap outline intersects itself in scrap dafung-down-westSP1@dafung-d
+own-west] [10] [11] [12] [13] (./mptextmp.mp) [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1313 strings out of 1638
+ 14022 string characters out of 26823
+ 1374925 words of memory out of 1500000
+ 1380 symbolic tokens out of 16384
+ 11i,75n,16p,437b,5f stack positions out of 300i,84n,5000p,487b,15f
+ 270 string compactions (moved 3510514 characters, 297617 strings)
+26 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  5 MAR 2017 22:37
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 66 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 263 strings out of 95617
+ 2665 string characters out of 1171098
+ 1114616 words of memory out of 2449594
+ 1676 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 379152 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing _output\dafung-down-westth.3d ... done
+writing xtherion file ... done
+compilation time: 9 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.03%    4.52%  dafung-down-westSP1@dafung-down-west
+   0.11%    0.68%  seriousdrinking@dafung-down-west
+   0.02%    0.55%  west-south@dafung-down-west
+   0.00%    0.00%  scrap439@dafung-down-west
+################### end of scrap distortions ###################

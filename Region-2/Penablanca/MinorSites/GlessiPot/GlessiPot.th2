@@ -1,0 +1,24 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 47.59055118000026 97.19685040000024 2902.0157480299 3502.803149612
+##XTHERION## xth_me_area_zoom_to 50
+
+
+
+scrap GlessiPotSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1978.74015748 2307.87401575 station -name 1.0
+
+point 1972.0 2738.0 label -scale m -text [Glessi Pot] -align center
+
+line wall -close on -reverse on -outline in
+  1977.5 2338.0
+  1982.5 2338.0 2008.5 2332.5 2008.5 2307.5
+  2008.5 2279.5 1987.0 2275.0 1978.0 2274.0
+  1969.0 2273.0 1947.0 2278.5 1946.5 2304.0
+  1946.0 2329.5 1977.5 2338.0 1977.5 2338.0
+  smooth off
+endline
+
+endscrap
+
+

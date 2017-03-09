@@ -1,0 +1,24 @@
+encoding  utf-8
+survey CrystalMaze
+input CrystalMaze.th2
+
+map CrystalMazeM
+  CrystalMazeSP1
+endmap
+
+centreline
+  copyright 2016 "GNU GPL"
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  date 2016.04.14
+  cs EPSG:32651
+  
+  fix 1.0 376653.08 1966053.19 195
+  station 1.0 "Crystal Maze & Not for Boys" entrance
+
+  data normal from to tape compass clino ignoreall
+    extend right
+  1.0  -  0.0  0.0  0.0  
+endcentreline
+
+endsurvey
+

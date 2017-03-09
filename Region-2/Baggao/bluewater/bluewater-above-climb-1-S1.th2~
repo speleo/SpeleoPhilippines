@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 73404.0229857141 32090.480314911
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -132.0 73404.0229857141 32090.480314911
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
 
@@ -32,12 +32,6 @@ line border -id l412-33792-23304
   smooth off
 endline
 
-line border
-endline
-
-line border
-endline
-
 area clay
   l609-28376-15904
   l448-31378-21706
@@ -67,12 +61,6 @@ line border -id l612-28416-16400 -subtype invisible
   28608.0 16288.0
 endline
 
-line border -subtype invisible
-endline
-
-line border -subtype invisible
-endline
-
 line border -id l609-28376-15904 -subtype invisible
   28384.0 16198.0
   28384.0 16198.0 28340.0 16068.0 28360.0 15952.0
@@ -83,7 +71,7 @@ line border -id l609-28376-15904 -subtype invisible
   smooth off
 endline
 
-line wall -subtype presumed
+line wall -reverse on -subtype presumed
   42446.0 23464.0
   42522.0 23712.0
   42522.0 23712.0 42578.0 23824.0 42600.0 23878.0
@@ -98,7 +86,7 @@ line wall -subtype presumed
   43114.0 23870.0
 endline
 
-line wall -subtype presumed
+line wall -reverse on -subtype presumed
   28500.0 15180.0
   28500.0 15180.0 28508.0 15072.0 28544.0 15020.0
   28580.0 14968.0 28620.0 14852.0 28640.0 14840.0
@@ -121,11 +109,13 @@ area blocks
   l567-30386-21834
   l448-31378-21706
   l606-28144-19060
+  l203-27476-19176
+  l202-27568-20336
 endarea
 
 area pebbles
   l620-26508-18484
-  l475-35942-23024
+  l203-27476-19176
   l606-28144-19060
   l617-27740-18428
   l456-27992-16208
@@ -146,14 +136,14 @@ line border -id l606-28144-19060 -subtype invisible
   smooth off
 endline
 
-line wall -subtype presumed
+line border
   27504.0 20636.0
   27484.0 20564.0 27518.0 20592.0 27448.0 20526.0
   27378.0 20460.0 27340.0 20436.0 27340.0 20436.0
   smooth off
 endline
 
-line wall -subtype presumed
+line border -reverse on
   27696.0 20208.0
   27696.0 20208.0 27688.0 20244.0 27614.0 20182.0
   27540.0 20120.0 27486.0 20134.0 27486.0 20134.0
@@ -257,15 +247,6 @@ line border -id l557-34134-22142 -reverse on
   34352.0 22076.0 34382.0 22074.0 34462.0 22034.0
   34542.0 21994.0 34576.0 21980.0 34576.0 21980.0
   smooth off
-endline
-
-line border
-endline
-
-line border
-endline
-
-line border
 endline
 
 line flowstone -id l655-36306-22342
@@ -459,7 +440,7 @@ point 38474.0 21734.0 gradient -orientation 184.7
 
 point 38680.0 21734.0 gradient -orientation 184.7
 
-point 37384.0 21102.0 passage-height -value "+40" -scale xs
+point 37384.0 21102.0 passage-height -value "40" -scale xs
 
 point 40626.0 22178.0 gradient -orientation 28.0
 
@@ -596,16 +577,14 @@ line wall -id l423-34866-22146 -close on -outline in
   smooth off
 endline
 
-line floor-step
-endline
 
-line wall -subtype presumed
+line wall
   42070.0 22892.0
   42002.0 22914.0
   41936.0 22938.0
 endline
 
-line wall -subtype presumed
+line wall -reverse on
   42038.0 22756.0
   41964.0 22832.0
   41882.0 22854.0
@@ -678,7 +657,7 @@ line floor-step -id l180-41162-21320
   smooth off
 endline
 
-line wall -close on -outline in
+line wall -close on -reverse on -outline in
   40820.5 21812.75
   40820.5 21812.75 40824.0 21798.0 40888.0 21794.0
   40952.0 21790.0 40962.0 21772.0 40996.0 21808.0
@@ -802,24 +781,6 @@ endline
 
 point 27870.0 17934.0 gradient -orientation 142.3
 
-line border -subtype invisible
-endline
-
-line border -subtype invisible
-endline
-
-line border -subtype invisible
-endline
-
-area water
-  l408-25068-17676
-  l630-25136-17892
-  l209-25312-17578
-  l211-25730-17392
-  l210-25640-17174
-  l624-25288-17096
-endarea
-
 point 26368.0 18100.0 gradient -orientation 40.6
 
 point 26304.0 18176.0 gradient -orientation 40.6
@@ -830,7 +791,7 @@ point 26228.0 18032.0 gradient -orientation 44.8
 
 point 26182.0 18074.0 gradient -orientation 44.8
 
-line rock-edge
+line pit
   25886.0 17760.0
   26058.0 17590.0
 endline
@@ -932,9 +893,13 @@ line border -id l568-31832-21992 -subtype invisible
   32532.0 22024.0
 endline
 
-line wall -id l448-31378-21706
+line border
   28378.0 15110.0
   28438.0 15088.0 28516.0 15112.0 28500.0 15180.0
+endline
+
+line wall -id l448-31378-21706
+  28500.0 15180.0
   28484.0 15248.0 28450.0 15248.0 28456.0 15324.0
   28462.0 15400.0 28458.8 15416.4 28462.0 15434.0
   28470.0 15478.0 28498.0 15484.0 28516.0 15480.0
@@ -1228,9 +1193,6 @@ line rock-border -id l553-30970-22800 -reverse on
   smooth off
 endline
 
-line border -subtype invisible
-endline
-
 area blocks
   l475-35942-23024
   l562-35778-22620
@@ -1305,9 +1267,19 @@ line wall -id l475-35942-23024
   smooth off
   27796.0 20808.0 27716.0 20732.0 27676.0 20764.0
   27636.0 20796.0 27484.0 20744.0 27504.0 20636.0
+  smooth off
+endline
+
+line border -id l202-27568-20336
+  27504.0 20636.0
   27524.0 20528.0 27528.0 20404.0 27568.0 20348.0
-  27608.0 20292.0 27720.0 20208.0 27720.0 20164.0
-  27720.0 20120.0 27780.0 20072.0 27688.0 19960.0
+  27608.0 20292.0 27671.6 20244.61 27696.0 20208.0
+  smooth off
+endline
+
+line wall -id l203-27476-19176
+  27696.0 20208.0
+  27736.0 20148.0 27780.0 20072.0 27688.0 19960.0
   27624.52 19882.72 27668.0 19840.0 27696.0 19744.0
   27724.0 19648.0 27816.0 19404.0 27708.0 19336.0
   27600.0 19268.0 27484.0 19208.0 27464.0 19152.0
@@ -1320,13 +1292,19 @@ line wall -id l475-35942-23024
   26340.0 18408.0 26160.0 18120.0 26160.0 18120.0
   smooth off
   26160.0 18120.0 25864.0 17764.0 25904.0 17744.0
+  smooth off
 endline
 
 line wall
   42446.0 23464.0
   42446.0 23464.0 42290.0 23342.0 42214.0 23192.0
-  42138.0 23042.0 42084.0 22958.0 42056.0 22850.0
-  42028.0 22742.0 42054.0 22538.0 41986.0 22422.0
+  42138.0 23042.0 42098.0 23000.0 42070.0 22892.0
+  smooth off
+endline
+
+line wall
+  42038.0 22756.0
+  42010.0 22648.0 42054.0 22538.0 41986.0 22422.0
   41918.0 22306.0 41820.0 22182.0 41762.0 22178.0
   41704.0 22174.0 41614.0 22232.0 41580.0 22266.0
   41546.0 22300.0 41532.0 22346.0 41448.0 22366.0
@@ -1336,99 +1314,6 @@ line wall
   40720.0 22602.0 40510.0 22496.0 40256.0 22496.0
   40002.0 22496.0 39792.0 22488.0 39710.0 22528.0
   39628.0 22568.0 39504.0 22564.0 39500.0 22596.0
-  smooth off
-endline
-
-endscrap
-
-
-
-scrap scrap212 -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-line wall -id l408-25068-17676
-  25091.0 17845.0
-  25086.0 17821.0 25065.0 17661.0 25062.0 17630.0
-  25059.0 17599.0 25037.0 17471.0 25031.0 17443.0
-  25025.0 17415.0 25013.0 17244.0 25011.0 17217.0
-  smooth off
-endline
-
-line wall -reverse on -subtype presumed
-  25091.0 17845.0
-  25084.0 17984.0
-  25084.0 17984.0 25080.0 18080.0 25096.0 18096.0
-  smooth off
-endline
-
-line border -id l624-25288-17096 -subtype invisible
-  25011.0 17217.0
-  25389.0 17124.0
-endline
-
-line border -id l630-25136-17892 -subtype invisible
-  25015.5 17824.0
-  25276.0 17747.0
-endline
-
-line wall -id l209-25312-17578
-  25677.0 17447.0
-  25626.0 17477.0 25577.0 17509.0 25564.0 17516.0
-  25551.0 17523.0 25422.0 17559.0 25381.0 17567.0
-  25340.0 17575.0 25279.0 17574.0 25260.0 17620.0
-  25241.0 17666.0 25238.0 17690.0 25221.0 17729.0
-  25204.0 17768.0 25202.0 17778.0 25201.0 17809.0
-  smooth off
-endline
-
-line wall -subtype presumed
-  25201.0 17809.0
-  25201.0 17809.0 25232.0 17932.0 25224.0 17948.0
-  25216.0 17964.0 25212.0 18024.0 25220.0 18080.0
-  smooth off
-endline
-
-line wall -reverse on
-  25904.0 17744.0
-  25944.0 17724.0 25752.0 17788.0 25752.0 17788.0
-  smooth off
-  25752.0 17788.0 25644.0 17816.0 25648.0 17732.0
-  25652.0 17648.0 25668.0 17520.0 25668.0 17520.0
-  smooth off
-  25677.0 17447.0
-endline
-
-line wall
-  25744.0 17267.0
-  25832.0 17242.0
-  25832.0 17242.0 25928.0 17230.0 25988.0 17302.0
-  26048.0 17374.0 26070.0 17456.0 26050.0 17526.0
-  26030.0 17596.0 26020.0 17624.0 26020.0 17624.0
-  smooth off
-endline
-
-point 25636.2294572 17447.1648031 station -name 12.17
-
-point 25799.4994572 17460.1348031 station -name 12.18
-
-point 25907.3694572 17369.7548031 station -name 12.20
-
-point 25711.3294572 17262.6348031 station -name 12.19
-
-point 25872.8894572 17665.3848031 station -name 12.21
-
-line wall -id l210-25640-17174
-  25389.0 17124.0
-  25442.0 17149.0 25519.0 17165.0 25573.0 17170.0
-  25627.0 17175.0 25692.0 17171.0 25707.0 17195.0
-  25722.0 17219.0 25738.0 17231.0 25742.0 17244.0
-  25746.0 17257.0 25744.0 17267.0 25744.0 17267.0
-  smooth off
-endline
-
-line rock-border -id l211-25730-17392
-  25744.0 17267.0
-  25744.0 17267.0 25774.0 17294.0 25746.0 17344.0
-  25718.0 17394.0 25728.0 17417.0 25677.0 17447.0
   smooth off
 endline
 

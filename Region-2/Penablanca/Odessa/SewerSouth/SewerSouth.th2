@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -207.0 4104.377952755905 25797.291338582672
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -259.0 4104.377952755905 25797.291338582672
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {3408.3854330708664 1 1.0} {24490.629921259842 32.0} SewerSouth1_p.xvi 0 {}
 
 
@@ -202,6 +202,7 @@ line label -text [The Sewer] -scale xl
   2354.0 5530.0
   2346.0 5482.0 2248.0 3770.0 2242.0 3708.0
   2236.0 3646.0 3086.0 1306.0 3098.0 1266.0
+  smooth off
 endline
 
 line wall -id SewerSouthRHW -reverse on
@@ -248,7 +249,7 @@ line border -id l40-1650-4649 -close on -reverse on
   1643.5 4681.0 1643.0 4678.5 1645.0 4675.5
 endline
 
-line wall -id l39-2295-6115 -reverse on -subtype invisible
+line border -id l39-2295-6115 -reverse on
   2230.0 6137.0
   2373.0 6086.0
 endline

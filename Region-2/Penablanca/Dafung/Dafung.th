@@ -8,6 +8,18 @@ survey Dafung
   input upper_squeez/upper_squeez.th
   input upstream2/upstream2.th
   input dafung-down-west/dafung-down-west.th
+  
+  
+  #join Catch Eel to main passage
+    # walls (downside)
+      join downsside_small_n@downside dafung_N2@dafung-cave1
+      join downsside_small_s@downside dafung_N@dafung-cave1
+
+      join downsside_big_n@downside dafung_N@dafung-cave1:end
+      join downsside_big_s@downside dafung_N3@dafung-cave1
+
+     #join Downstream95_CatchEelRHS@odessa-downstream-9-5:end l44-11528-9698@catcheel
+ 
 
   centreline
     date 2016.04.08

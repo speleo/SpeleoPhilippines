@@ -6,18 +6,18 @@ source odessa-up-loop.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o odessa-up-loop.pdf
+export map -proj plan -layout local -o _output/odessa-up-loop.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o odessa-up-loopEe.pdf
+#export map -proj extended -layout local -o _output/odessa-up-loopEe.pdf
 
-export model -fmt survex -o odessa-up-loop.3d
+export model -fmt survex -o _output/odessa-up-loop.3d
 #Survex file showing centre line only
 
-#export model -o odessa-up-loop.lox
+export model -o _output/odessa-up-loop.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o odessa-up-loop_Walls.3d
+#export map -proj plan -o _output/odessa-up-loop_Walls.3d
 #Survex file showing walls only
 
 layout local

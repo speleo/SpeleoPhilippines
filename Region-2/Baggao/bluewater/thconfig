@@ -1,7 +1,32 @@
 encoding  utf-8
 source bluewater.th
-source .\surface\surface_10m.th
+source .\Surface\surface_10m.th
 # Change name to the main therion file
+
+#Surveys to output
+#-----------------
+
+  #Produces plan of cave, on a single sheet
+  export map -proj plan -layout debug -o .\_output\bluewater.pdf
+  #export map -proj plan -layout local -o .\_output\bluewater.pdf
+
+  #export atlas -proj plan -layout local -o .\_output\bluewater-atlas.pdf
+
+  #export model -fmt kml -o .\_output\bluewater.kml
+  #export map -fmt kml -proj plan -layout local -o .\_output\bluewater-map.kml
+
+  #export map -proj extended -layout local -o .\_output\bluewater-elevation.pdf
+
+  #export model -fmt survex -o .\_output\bluewater-survex.3d
+  #Survex file showing centre line only
+
+  #export model -o .\_output\bluewater.lox -enable surface
+  #3d therion model to be viewed in the therion viewer
+
+  #export map -proj plan -o .\_output\bluewater_Walls.3d
+  #Survex file showing walls only
+
+
 
 #to do
 #  change sand fill
@@ -43,10 +68,11 @@ text en "line border"                "alad"
 
 #input text_Substitution.txt
 
-layout test
-  scale 1 500
-  base-scale 1 500
-  legend on
+layout debug
+  #scale 1 500
+  #base-scale 1 500
+  legend off
+  debug all
  
 endlayout
 
@@ -208,29 +234,3 @@ layout local
   endcode #end of TeX code
 
 endlayout
-
-
-#Surveys to output
-#-----------------
-
-#Produces plan of cave, on a single sheet
-#export map -proj plan -layout test -o .\output\bluewater.pdf
-export map -proj plan -layout local -o .\output\bluewater.pdf
-
-
-#export atlas -proj plan -layout local -o .\output\bluewater-atlas.pdf
-
-export model -fmt kml -o .\output\bluewater.kml
-export map -fmt kml -proj plan -layout local -o .\output\bluewater-map.kml
-
-
-#export map -proj extended -layout local -o .\output\bluewater-elevation.pdf
-
-#export model -fmt survex -o .\output\bluewater-survex.3d
-#Survex file showing centre line only
-
-#export model -o .\output\bluewater.lox -enable surface
-#3d therion model to be viewed in the therion viewer
-
-#export map -proj plan -o .\output\bluewater_Walls.3d
-#Survex file showing walls only

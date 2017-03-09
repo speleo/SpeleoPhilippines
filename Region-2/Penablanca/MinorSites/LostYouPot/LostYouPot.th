@@ -1,0 +1,24 @@
+encoding  utf-8
+survey LostYouPot
+input LostYouPot.th2
+
+map LostYouPotM
+  LostYouPotSP1
+endmap
+
+centreline
+  copyright 2016 "GNU GPL"
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  date 2016.04.14
+  cs EPSG:32651
+  
+  fix 1.0 376668.63 1965711.90 199
+  station 1.0 "Lost You Pot" entrance
+
+  data normal from to tape compass clino ignoreall
+    extend right
+  1.0  -  0.0  0.0  0.0  
+endcentreline
+
+endsurvey
+

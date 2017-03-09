@@ -1,17 +1,120 @@
 %!PS
-%%BoundingBox: -98 -181 -64 -175 
-%%HiResBoundingBox: -97.21 -180.6974 -64.8867 -175.1626 
+%%BoundingBox: -350 -540 331 382 
+%%HiResBoundingBox: -349.86 -539.76 330.7491 381.5049 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2014.08.12:0807
+%%CreationDate: 2017.03.03:1418
 %%Pages: 1
-%*Font: cmss10 7.97015 9.96265 34:80010001000204c84
+%*Font: cmss10 6.97382 9.96265 2d:8100000000000e89b5e8
+%*Font: cmss10 7.97015 9.96265 2e:bff
+%*Font: cmss10 13.94765 9.96265 2d:8000000000000cc927a
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
  0 0 0 setrgbcolor
--97.21 -180.6974 moveto
-(Climb) cmss10 7.97015 fshow
--75.20361 -180.6974 moveto
-(4m) cmss10 7.97015 fshow
+-206.63 -417.82715 moveto
+(climb) cmss10 6.97382 fshow
+-206.63 -426.19576 moveto
+(4m) cmss10 6.97382 fshow
+-234.08 -494.36 moveto
+(4.0) cmss10 7.97015 fshow
+-252.41 -433.23 moveto
+(2.1) cmss10 7.97015 fshow
+-288.25 -410.18 moveto
+(2.2) cmss10 7.97015 fshow
+-343.86 -241.95999 moveto
+(2.4) cmss10 7.97015 fshow
+-342.44 -108.43 moveto
+(2.3) cmss10 7.97015 fshow
+-343.83 -166.84 moveto
+(2.5) cmss10 7.97015 fshow
+-342.44 -108.43 moveto
+(2.6) cmss10 7.97015 fshow
+-343.83 -166.84 moveto
+(2.5) cmss10 7.97015 fshow
+-342.44 -108.43 moveto
+(2.6) cmss10 7.97015 fshow
+-349.86 -20.45999 moveto
+(2.7) cmss10 7.97015 fshow
+-347.44 30.44 moveto
+(2.8) cmss10 7.97015 fshow
+-314.77 17.01001 moveto
+(2.9) cmss10 7.97015 fshow
+-247.23 56.2 moveto
+(2.10) cmss10 7.97015 fshow
+-280.67 82.1 moveto
+(2.11) cmss10 7.97015 fshow
+-212.93 109.54001 moveto
+(2.12) cmss10 7.97015 fshow
+-186.31999 89.69 moveto
+(2.13) cmss10 7.97015 fshow
+-156.75 98.92 moveto
+(2.14) cmss10 7.97015 fshow
+-144.48999 113.16 moveto
+(2.15) cmss10 7.97015 fshow
+-99.62 177.18001 moveto
+(2.16) cmss10 7.97015 fshow
+-71.67 251.03 moveto
+(2.17) cmss10 7.97015 fshow
+4.83 284.33 moveto
+(2.18) cmss10 7.97015 fshow
+90.67 267.92 moveto
+(2.19) cmss10 7.97015 fshow
+161.45 284.46 moveto
+(3.0) cmss10 7.97015 fshow
+223.17 324.33 moveto
+(2.21) cmss10 7.97015 fshow
+273.48 352.38 moveto
+(2.22) cmss10 7.97015 fshow
+316.58 376.28 moveto
+(2.23) cmss10 7.97015 fshow
+116.49 209.66 moveto
+(3.1) cmss10 7.97015 fshow
+106.19 200.68001 moveto
+(3.2) cmss10 7.97015 fshow
+105.66 168.22 moveto
+(3.3) cmss10 7.97015 fshow
+116.92 102.66 moveto
+(3.4) cmss10 7.97015 fshow
+134.99 62.78 moveto
+(3.5) cmss10 7.97015 fshow
+139.22 15.47 moveto
+(3.6) cmss10 7.97015 fshow
+132.8 -30.34999 moveto
+(3.7) cmss10 7.97015 fshow
+141.74 -58.65 moveto
+(3.8) cmss10 7.97015 fshow
+150.44 -94.87999 moveto
+(3.9) cmss10 7.97015 fshow
+152.65001 -110.75 moveto
+(3.10) cmss10 7.97015 fshow
+133.25 -166.98 moveto
+(3.11) cmss10 7.97015 fshow
+124.62001 -197.64 moveto
+(3.12) cmss10 7.97015 fshow
+123.6 -244.42 moveto
+(3.13) cmss10 7.97015 fshow
+122.08 -332.58 moveto
+(3.14) cmss10 7.97015 fshow
+102.43001 -394.62999 moveto
+(3.15) cmss10 7.97015 fshow
+137.51001 -407.19 moveto
+(3.16) cmss10 7.97015 fshow
+139.59 -451.83 moveto
+(3.17) cmss10 7.97015 fshow
+129.85 -539.76 moveto
+(3.19) cmss10 7.97015 fshow
+136.43001 -496.20999 moveto
+(3.18) cmss10 7.97015 fshow
+-44.51651 -4.84296 moveto
+(bluew) cmss10 13.94765 fshow
+-11.42941 -4.84296 moveto
+(ater-fossil) cmss10 13.94765 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath -46.51651 -6.84296 moveto
+46.5165 -6.84296 lineto
+46.5165 6.84294 lineto
+-46.51651 6.84294 lineto
+ closepath stroke
 showpage
 %%EOF

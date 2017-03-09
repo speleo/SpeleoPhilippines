@@ -17,7 +17,8 @@ survey Odessa
   input downstream-sump/downstream-sump.th
       
   #  comment out the line below to remove surface details
-  input Surface/Surface.th
+  #  you will also need to comment out the SurfaceM@Surface in the map section below
+  #input Surface/Surface.th
    
   #add other caves nearby too
   input tumbali-day1-c2/tumbali-day1-c2.th
@@ -37,7 +38,7 @@ survey Odessa
       
   #join Main Passage with Tumbali exit
     # walls
-      join l80-13788-58228@odessa-downstream-9-5:0 TumbaliExitLHW@tumbali-d1-c3:end
+      join l80-13788-58228@odessa-downstream-9-5:0 TumbaliExitLHW_2@tumbali-d1-c3:end
       join l82-13892-59460@odessa-downstream-9-5:end DiaLightExitLHW@tumbali-d1-c3:end
       
   #join Main Passage with Sewer North
@@ -105,15 +106,15 @@ survey Odessa
     equate 35.0@SewerSouth             5.1@odessa-lower-sewer
     equate 34.0@SewerNorthSide         5.16@odessa-lower-sewer
     equate 4.70@Main2Sewer             4.70@odessa-downstream-9-5
-    equate 34.1@Main2Sewer             34.1@SewerNorthSide 
+    #equate 34.1@Main2Sewer             34.1@SewerNorthSide 
     equate 4.18@odessa-downstream-9-5  1.10@MainWestSide
     equate 4.4@odessa-entrance         2.6@MainWestSide
     equate 1.36@odessa-entrance        1.0@downstream-sump
   endcentreline
 
   map odessa-all-maps
-    SurfaceM@Surface
-      break
+    #SurfaceM@Surface
+    #  break
     odessa-entranceM@odessa-entrance
       break
     Daquioag_BranchM@Daquioag_Branch 
@@ -132,7 +133,6 @@ survey Odessa
     shepherdM@shepherd
     smallloopM@smallloop
     MainWestSideM@MainWestSide
-#    SurfaceM@Surface
   endmap
 
 endsurvey

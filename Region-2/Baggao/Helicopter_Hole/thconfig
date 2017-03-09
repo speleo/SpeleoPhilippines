@@ -6,22 +6,22 @@ source C4HelicopterHole.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o .\output\C4HelicopterHole.pdf
+export map -proj plan -layout local -o .\_output\C4HelicopterHole.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o .\output\C4HelicopterHoleEe.pdf
+export map -proj extended -layout local -o .\_output\C4HelicopterHoleEe.pdf
 
-export map -fmt kml -proj plan -layout local -o .\output\C4HelicopterHole-map.kml
-export model -fmt kml -o .\output\C4HelicopterHole.kml
+export map -fmt kml -proj plan -layout local -o .\_output\C4HelicopterHole-map.kml
+export model -fmt kml -o .\_output\C4HelicopterHole.kml
 
 
-export model -fmt survex -o .\output\C4HelicopterHoleth.3d
+export model -fmt survex -o .\_output\C4HelicopterHoleth.3d
 #Survex file showing centre line only
 
-#export model -o C4HelicopterHole.lox
+#export model -o .\_output\C4HelicopterHole.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o C4HelicopterHole_Walls.3d
+#export map -proj plan -o .\_output\C4HelicopterHole_Walls.3d
 #Survex file showing walls only
 
 layout local

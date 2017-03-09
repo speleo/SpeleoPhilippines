@@ -15,7 +15,7 @@ source Daquioag_branch.th
   export model -fmt survex -o .\_output\Daquioag_branch.3d
   #Survex file showing centre line only
 
-  #export model -o .\_output\Daquioag_branch.lox
+  export model -o .\_output\Daquioag_branch.lox
   #3d therion model to be viewed in the therion viewer
 
   #export map -proj plan -o .\_output\Daquioag_branch_Walls.3d

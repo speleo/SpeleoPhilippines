@@ -7,7 +7,7 @@ input tumbali-day1-c2Ee.th2
 map tumbali-day1-c2M
   UpperLevel
     break
-  LowerLevel
+  #LowerLevel
 endmap
 
 map tumbali-day1-c2ME

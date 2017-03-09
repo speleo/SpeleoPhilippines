@@ -6,6 +6,9 @@ input tumbali-d1-c3Ee.th2
 
 map tumbali-d1-c3M
   tumbali-d1-c3SP1
+  #DiasLightSP
+  #PythonRetreatSP
+  #PythonSP
 endmap
 
 map tumbali-d1-c3ME

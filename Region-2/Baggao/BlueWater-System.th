@@ -10,6 +10,7 @@ survey BlueWaterSystem
   input ovimph/ovimph.th
   input BlueWaterTopSink/BlueWater-Sink.th
   input pio_pot/pio_pot.th
+  input surface/Bluewater_4.th
 
 
   centreline

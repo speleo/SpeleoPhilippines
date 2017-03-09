@@ -5,7 +5,13 @@ input ND2.th2
 input ND2Ee.th2
 
 map ND2M
-  ND2SP1
+  rdSP1
+  rdSP2
+    break
+  rdSP3
+  rdSP4
+    break
+  rdSP5
 endmap
 
 map ND2ME

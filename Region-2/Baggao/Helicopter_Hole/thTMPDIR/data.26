@@ -1,84 +1,83 @@
 %!PS
-%%BoundingBox: -186 -194 163 254 
-%%HiResBoundingBox: -185.97 -193.88246 162.99445 253.3168 
+%%BoundingBox: -186 -194 164 254 
+%%HiResBoundingBox: -185.96 -193.85245 163.00446 253.28752 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2017.02.12:1925
+%%CreationDate: 2017.03.02:1303
 %%Pages: 1
 %*Font: cmss10 1.9925 9.96265 0d:800000021d50015010200fbbf7a
 %*Font: cmss10 2.65666 9.96265 3f:9000000034211c
-%*Font: cmss10 17.93234 9.96265 42:8000000110006
+%*Font: cmss10 17.9325 9.96265 42:8000000110006
 %*Font: cmss10 9.9625 9.96265 47:800000240582
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
  0 0 0 setrgbcolor
-158.86554 55.24991 moveto
+158.87555 55.2699 moveto
 (+4m) cmss10 1.9925 fshow
-27.69275 -182.23245 moveto
+27.70274 -182.20245 moveto
 (?) cmss10 2.65666 fshow
-53.56555 -184.1601 moveto
+53.56555 -184.1301 moveto
 (+4m) cmss10 1.9925 fshow
-gsave [0.95634 0.29222 -0.29222 0.95634 -182.03572 137.91106 
+gsave [0.95633 0.2923 -0.2923 0.95633 -182.0239 137.9332 ] concat 0 0 moveto
+(B) cmss10 17.9325 fshow grestore
+gsave [0.91753 0.39769 -0.39769 0.91753 -125.64781 159.93745 
 ] concat 0 0 moveto
-(B) cmss10 17.93234 fshow grestore
-gsave [0.91753 0.39767 -0.39767 0.91753 -125.64305 159.91399 
-] concat 0 0 moveto
-(e) cmss10 17.93234 fshow grestore
-gsave [0.80104 0.59862 -0.59862 0.80104 -81.98091 182.64383 ] concat 0 0 moveto
-(a) cmss10 17.93234 fshow grestore
-gsave [0.71239 0.7018 -0.7018 0.71239 -47.31854 213.91002 ] concat 0 0 moveto
-(s) cmss10 17.93234 fshow grestore
-gsave [0.69312 0.72084 -0.72084 0.69312 -19.57146 241.54651 ] concat 0 0 moveto
-(t) cmss10 17.93234 fshow grestore
-97.87 -193.88246 moveto
+(e) cmss10 17.9325 fshow grestore
+gsave [0.80148 0.59802 -0.59802 0.80148 -81.99117 182.64336 ] concat 0 0 moveto
+(a) cmss10 17.9325 fshow grestore
+gsave [0.71242 0.70175 -0.70175 0.71242 -47.32379 213.89429 ] concat 0 0 moveto
+(s) cmss10 17.9325 fshow grestore
+gsave [0.69312 0.72083 -0.72083 0.69312 -19.57622 241.51723 ] concat 0 0 moveto
+(t) cmss10 17.9325 fshow grestore
+97.87 -193.85245 moveto
 (Bats) cmss10 2.65666 fshow
-47.46274 -191.88246 moveto
+47.46274 -191.85245 moveto
 (?) cmss10 2.65666 fshow
-60.599 -167.43 moveto
+60.60901 -167.4 moveto
 (W) cmss10 1.9925 fshow
-62.4254 -167.43 moveto
+62.43541 -167.4 moveto
 (ater) cmss10 1.9925 fshow
-66.3329 -167.43 moveto
+66.34291 -167.4 moveto
 (sinks) cmss10 1.9925 fshow
-4.02 0.3508 moveto
+4.02 0.3708 moveto
 (Guanoland) cmss10 9.9625 fshow
--2.08446 133.1699 moveto
+-2.11446 133.1999 moveto
 (+8m) cmss10 1.9925 fshow
--114.15 21.79555 moveto
+-114.16 21.82555 moveto
 (Bats) cmss10 2.65666 fshow
--114.15 18.60754 moveto
+-114.16 18.63754 moveto
 (and) cmss10 2.65666 fshow
--114.15 15.41954 moveto
+-114.16 15.44954 moveto
 (birds) cmss10 2.65666 fshow
--63.73445 154.6099 moveto
+-63.71445 154.63991 moveto
 (+6m) cmss10 1.9925 fshow
--113.2352 117.25919 moveto
+-113.2352 117.28918 moveto
 (P) cmss10 1.9925 fshow
--112.0176 117.25919 moveto
+-112.0176 117.28918 moveto
 (erched) cmss10 1.9925 fshow
--113.2352 114.8682 moveto
+-113.2352 114.8982 moveto
 (\015o) cmss10 1.9925 fshow
--111.2261 114.8682 moveto
+-111.2261 114.8982 moveto
 (wstone) cmss10 1.9925 fshow
--113.2352 112.47719 moveto
+-113.2352 112.50719 moveto
 (b) cmss10 1.9925 fshow
--112.1504 112.47719 moveto
+-112.1504 112.50719 moveto
 (oulder) cmss10 1.9925 fshow
--91 80.0337 moveto
+-91.01 80.07372 moveto
 (Flo) cmss10 1.9925 fshow
--88.4485 80.0337 moveto
+-88.4585 80.07372 moveto
 (wstone) cmss10 1.9925 fshow
--91 77.6427 moveto
+-91.01 77.68271 moveto
 (a) cmss10 1.9925 fshow
--90.0979 77.6427 moveto
+-90.1079 77.68271 moveto
 (rch) cmss10 1.9925 fshow
--70.16 102.91371 moveto
+-70.16 102.9337 moveto
 (Huge) cmss10 1.9925 fshow
--70.16 100.5227 moveto
+-70.16 100.5427 moveto
 (\015ak) cmss10 1.9925 fshow
--67.2155 100.5227 moveto
+-67.2155 100.5427 moveto
 (e) cmss10 1.9925 fshow
--185.97 -13.4101 moveto
+-185.96 -13.3901 moveto
 (+10m) cmss10 1.9925 fshow
 showpage
 %%EOF

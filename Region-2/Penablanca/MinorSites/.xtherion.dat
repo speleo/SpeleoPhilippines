@@ -1,0 +1,40 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 41.46m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.80m (from 1.1@GapingJill.MinorSites at 194.05m to 1.9@GapingJill.MinorSites at 178.25m)\nnorth-south range: 19.69m (from 1.9@GapingJill.MinorSites at 1965934.22m to 1.0@GapingJill.MinorSites at 1965914.53m)\neast-west range: 15.97m (from 1.1@GapingJill.MinorSites at 376709.00m to 1.7@GapingJill.MinorSites at 376693.03m)\nnumber of shots: 135\nnumber of stations: 148"
+xth_cp_data_tree_insert 19 1 1 MinorSites MinorSites "" "" "length: 41.46m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.80m (from 1.1@GapingJill.MinorSites at 194.05m to 1.9@GapingJill.MinorSites at 178.25m)\nnorth-south range: 19.69m (from 1.9@GapingJill.MinorSites at 1965934.22m to 1.0@GapingJill.MinorSites at 1965914.53m)\neast-west range: 15.97m (from 1.1@GapingJill.MinorSites at 376709.00m to 1.7@GapingJill.MinorSites at 376693.03m)\nnumber of shots: 135\nnumber of stations: 148"
+xth_cp_data_tree_insert 21 19 2 HoneyPot HoneyPot.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 31 19 2 GapingJill GapingJill.MinorSites "" "" "length: 41.46m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.80m (from 1.1@GapingJill.MinorSites at 194.05m to 1.9@GapingJill.MinorSites at 178.25m)\nnorth-south range: 19.69m (from 1.9@GapingJill.MinorSites at 1965934.22m to 1.0@GapingJill.MinorSites at 1965914.53m)\neast-west range: 15.97m (from 1.1@GapingJill.MinorSites at 376709.00m to 1.7@GapingJill.MinorSites at 376693.03m)\nnumber of shots: 123\nnumber of stations: 124"
+xth_cp_data_tree_insert 78 19 2 RedAntSink RedAntSink.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 88 19 2 RedHole RedHole.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 98 19 2 IllusionPot IllusionPot.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 108 19 2 HandBrakeHole HandBrakeHole.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 118 19 2 AguCave AguCave.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 128 19 2 CrystalMaze CrystalMaze.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 138 19 2 JunPot JunPot.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 148 19 2 LostYouPot LostYouPot.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 158 19 2 Romal Romal.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 168 19 2 GlessiPot GlessiPot.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 178 19 2 GlessiCave GlessiCave.MinorSites "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 75X1 p2 1 GapingJillME GapingJillME@GapingJill.MinorSites "" ""
+xth_cp_map_tree_insert map 0 188X1 p1 1 MinorSitesM MinorSitesM@MinorSites "" ""
+xth_cp_map_tree_insert map 1 28X1 188X1 2 HoneyPotM HoneyPotM@HoneyPot.MinorSites "" ""
+xth_cp_map_tree_insert map 1 74X1 188X1 2 GapingJillM GapingJillM@GapingJill.MinorSites "" ""
+xth_cp_map_tree_insert map 1 85X1 188X1 2 RedAntSinkM RedAntSinkM@RedAntSink.MinorSites "" ""
+xth_cp_map_tree_insert map 1 95X1 188X1 2 RedHoleM RedHoleM@RedHole.MinorSites "" ""
+xth_cp_map_tree_insert map 1 105X1 188X1 2 IllusionPotM IllusionPotM@IllusionPot.MinorSites "" ""
+xth_cp_map_tree_insert map 1 115X1 188X1 2 HandBrakeHoleM HandBrakeHoleM@HandBrakeHole.MinorSites "" ""
+xth_cp_map_tree_insert map 1 125X1 188X1 2 AguCaveM AguCaveM@AguCave.MinorSites "" ""
+xth_cp_map_tree_insert map 1 135X1 188X1 2 CrystalMazeM CrystalMazeM@CrystalMaze.MinorSites "" ""
+xth_cp_map_tree_insert map 1 145X1 188X1 2 JunPotM JunPotM@JunPot.MinorSites "" ""
+xth_cp_map_tree_insert map 1 155X1 188X1 2 LostYouPotM LostYouPotM@LostYouPot.MinorSites "" ""
+xth_cp_map_tree_insert map 1 165X1 188X1 2 RomalM RomalM@Romal.MinorSites "" ""
+xth_cp_map_tree_insert map 1 175X1 188X1 2 GlessiPotM GlessiPotM@GlessiPot.MinorSites "" ""
+xth_cp_map_tree_insert map 1 185X1 188X1 2 GlessiCaveM GlessiCaveM@GlessiCave.MinorSites "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 41 15
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1488842410
+

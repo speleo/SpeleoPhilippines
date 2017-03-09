@@ -1,2 +1,2 @@
 verbatimtex \input th_enc.tex etex
-btex \mainfont Original Scale = 1 : 500 etex
+btex \mainfont 10\thinspace\thfb\char109 \mainfont{} etex

@@ -24,7 +24,7 @@ export model -fmt survex -o tumbali-day1-c2th.3d
 #Survex file showing walls only
 
 layout local
-  debug off
+  debug on
   map-header 0 0 ne
   #symbol-hide group cave-centreline
 

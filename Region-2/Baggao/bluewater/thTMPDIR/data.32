@@ -1,26 +1,95 @@
 %!PS
-%%BoundingBox: 21 34 60 56 
-%%HiResBoundingBox: 21.395 34.72983 59.99501 55.74501 
+%%BoundingBox: -199 -243 381 315 
+%%HiResBoundingBox: -198.01 -242.73 380.9842 314.34491 
 %%Creator: MetaPost 1.209
-%%CreationDate: 2014.08.12:0807
+%%CreationDate: 2017.03.03:1418
 %%Pages: 1
+%*Font: cmss10 7.97015 9.96265 2d:dff8000000000e89f5a8
+%*Font: cmss10 13.94765 9.96265 2d:c000000000000f8945a
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
- 0 0 0 setrgbcolor 0 0.35 dtransform truncate idtransform setlinewidth pop
- [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
-newpath 59.82 55.57 moveto
-59.82 55.57 57.95 54.84 57.09 54.26 curveto
-56.23 53.68 52 50.15 51.21 49.35 curveto
-50.42 48.56 45.7 42.52 44.19 41.58 curveto
-42.68 40.64 36.29 36.74 33.92 36.26 curveto
-31.55 35.77 28.91 34.77 25.9 34.92 curveto
-22.88 35.06 21.57 36.94 21.57 36.94 curveto stroke
-newpath 29.31 39.62 moveto
-29.31 39.62 29.78 39.89 29.92 39.17 curveto
-30.07 38.45 29.65 37.6 28.97 37.11 curveto
-28.29 36.61 27.4 36.29 27.25 36.82 curveto
-27.1 37.36 27.02 38.8 27.56 39.15 curveto
-28.25 39.6 29.31 39.62 29.31 39.62 curveto closepath stroke
+ 0 0 0 setrgbcolor
+362.83 309.12001 moveto
+(11.11) cmss10 7.97015 fshow
+-67.56 32.56 moveto
+(11.39) cmss10 7.97015 fshow
+-41.04 83.73 moveto
+(11.38) cmss10 7.97015 fshow
+34.02 67.26001 moveto
+(11.37) cmss10 7.97015 fshow
+32.18001 146.2 moveto
+(11.36) cmss10 7.97015 fshow
+34.45 67.83 moveto
+(11.34) cmss10 7.97015 fshow
+14.40001 51.85 moveto
+(11.33) cmss10 7.97015 fshow
+-27.48 12.08 moveto
+(11.32) cmss10 7.97015 fshow
+-138.12999 -127.69 moveto
+(11.31) cmss10 7.97015 fshow
+-99.04 -95.45 moveto
+(11.30) cmss10 7.97015 fshow
+-48.48999 -60.73999 moveto
+(11.29) cmss10 7.97015 fshow
+-10.75 -14.33 moveto
+(11.28) cmss10 7.97015 fshow
+-37.36 3.95 moveto
+(11.27) cmss10 7.97015 fshow
+-70.78 -26.42 moveto
+(11.26) cmss10 7.97015 fshow
+-122.25 -50.65 moveto
+(11.25) cmss10 7.97015 fshow
+-185.09 -66.43 moveto
+(11.24) cmss10 7.97015 fshow
+-181.03 -242.73 moveto
+(11.23) cmss10 7.97015 fshow
+-168.26 -164.98999 moveto
+(11.22) cmss10 7.97015 fshow
+-29.81 -187.20999 moveto
+(11.21) cmss10 7.97015 fshow
+28.26001 -154.16 moveto
+(11.20) cmss10 7.97015 fshow
+101.37001 -122.58 moveto
+(11.19) cmss10 7.97015 fshow
+248.42 -56.31999 moveto
+(11.18) cmss10 7.97015 fshow
+96.55 -96.67 moveto
+(11.17) cmss10 7.97015 fshow
+145.13 43.05 moveto
+(11.16) cmss10 7.97015 fshow
+127.32 114.39 moveto
+(11.15) cmss10 7.97015 fshow
+164.61 189.85 moveto
+(11.14) cmss10 7.97015 fshow
+205.63 233.16 moveto
+(11.13) cmss10 7.97015 fshow
+305.28 256.94 moveto
+(11.12) cmss10 7.97015 fshow
+53.8 186 moveto
+(0.6) cmss10 7.97015 fshow
+-26.23999 151.13 moveto
+(0.5) cmss10 7.97015 fshow
+-115.17 136.62001 moveto
+(0.4) cmss10 7.97015 fshow
+-194.34999 101.05 moveto
+(0.3) cmss10 7.97015 fshow
+-194.62 46.48 moveto
+(0.2) cmss10 7.97015 fshow
+-198.01 16.84 moveto
+(0.1) cmss10 7.97015 fshow
+-185.09 -66.43 moveto
+(0.0) cmss10 7.97015 fshow
+-72.81876 -4.84296 moveto
+(bluew) cmss10 13.94765 fshow
+-39.73166 -4.84296 moveto
+(ater-entrance.detail) cmss10 13.94765 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath -74.81876 -6.84296 moveto
+74.81874 -6.84296 lineto
+74.81874 6.84294 lineto
+-74.81876 6.84294 lineto
+ closepath stroke
 showpage
 %%EOF

@@ -10,6 +10,12 @@ select odessa-all-maps@Odessa
 
   #Survex file showing centre line only
   export model -fmt survex -o .\_output\Odessa-survex.3d
+  export map -proj plan -fmt survex -o .\_output\Odessa-survex_map.3d
+
+
+  unselect SurfaceM@Surface
+  export model -o .\_output\Odessa.lox
+
 
 #inject standard code for layouts
   input ..\..\..\CodeLibrary\_translations.txt  # custom translations

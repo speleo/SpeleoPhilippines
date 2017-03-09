@@ -5,13 +5,16 @@ select OdessaAreaCavesMap@OdessaAreaCaves
 
 ### choose which exports to use
   export map -proj plan -layout local-odessa -o .\_output\OdessaAreaCaves.pdf
-  export map -proj plan -layout local        -o .\_output\OdessaAreaCaves-2jpg.pdf
+  #export map -proj plan -layout local        -o .\_output\OdessaAreaCaves-2jpg.pdf
 
   export map -fmt kml -proj plan -layout local -o .\_output\OdessaAreaCaves-map.kml
   export model -fmt kml -o .\_output\OdessaAreaCaves-model.kml
 
   #Survex file showing centre line only
-  export model -fmt survex -o .\_output\OdessaAreaCaves-survex.3d
+  #export model -fmt survex -o .\_output\OdessaAreaCaves-survex.3d
+  
+  export model -o .\_output\OdessaAreaCaves.lox
+
 
 #inject standard code for layouts
   input ..\..\CodeLibrary\_translations.txt  # custom translations

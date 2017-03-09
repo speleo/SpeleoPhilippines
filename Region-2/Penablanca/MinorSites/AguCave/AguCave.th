@@ -1,0 +1,24 @@
+encoding  utf-8
+survey AguCave
+input AguCave.th2
+
+map AguCaveM
+  AguCaveSP1
+endmap
+
+centreline
+  copyright 2016 "GNU GPL"
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  date 2016.04.14
+  cs EPSG:32651
+  
+  fix 1.0 376969.16 1966021.72 203
+  station 1.0 "Agu Cave" entrance
+
+  data normal from to tape compass clino ignoreall
+    extend right
+  1.0  -  0.0  0.0  0.0  
+endcentreline
+
+endsurvey
+

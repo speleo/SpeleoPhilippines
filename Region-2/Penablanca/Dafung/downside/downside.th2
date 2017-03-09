@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 5062.109028647401 4700.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {2741.9305749500004 1 1.0} {1212.6183464599999 6.6} PocketTopo/downside_p.xvi 0 {}
 
 
@@ -40,11 +40,12 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id downsside_small_n
   3224.0 4093.0
   3224.0 4093.0 3271.0 4237.0 3486.0 4251.0
   3701.0 4265.0 3637.0 4364.0 3735.0 4366.0
   3833.0 4368.0 3888.92 4517.08 3942.0 4552.0
+  smooth off
 endline
 
 line wall
@@ -60,11 +61,10 @@ line wall
   smooth off
 endline
 
-line wall
-  4116.0 3928.0
-  4084.0 3972.0 4032.0 3991.0 4032.0 3991.0
-  smooth off
-  4032.0 3991.0 3928.0 4034.0 3900.0 4038.0
+line wall -id downsside_big_n
+  4371.0 3836.0
+  4247.0 3816.0 4106.0 3952.0 4032.0 3991.0
+  4006.97 4004.19 3928.0 4034.0 3900.0 4038.0
   3872.0 4042.0 3716.0 4087.0 3696.0 4081.0
   3676.0 4075.0 3629.0 4014.0 3623.0 4002.0
   3617.0 3990.0 3579.0 3902.0 3551.0 3899.0
@@ -78,7 +78,7 @@ endline
 line wall
 endline
 
-line wall
+line wall -id downsside_big_s
   2922.0 740.0
   2922.0 740.0 2947.0 794.0 2953.0 798.0
   2959.0 802.0 2965.0 838.0 2965.0 838.0
@@ -120,7 +120,7 @@ line wall
   smooth off
   4293.0 3164.0 4318.0 3207.0 4327.0 3222.0
   4336.0 3237.0 4344.5 3244.56 4355.0 3257.0
-  4371.88 3277.0 4431.0 3300.0 4431.0 3300.0
+  4371.88 3277.0 4425.0 3339.0 4425.0 3339.0
   smooth off
 endline
 
@@ -145,8 +145,8 @@ area sand
 endarea
 
 line border -id l34-3508-4400 -close on -subtype invisible
-  3740.0 4528.0
-  4240.0 4296.0
+  3848.0 4588.0
+  4266.0 4481.0
   4376.0 3020.0
   3648.0 2176.0
   3404.0 1596.0
@@ -159,7 +159,7 @@ line border -id l34-3508-4400 -close on -subtype invisible
   2432.0 3460.0
   2784.0 3916.0
   3360.0 4328.0
-  3740.0 4528.0
+  3848.0 4588.0
 endline
 
 point 2816.0 658.0 narrow-end
@@ -188,10 +188,11 @@ point 2789.0 3157.0 stalactites
 
 point 2710.0 3674.0 low-end
 
-line wall
+line wall -id downsside_small_s
   3397.0 4057.0
   3397.0 4057.0 3470.0 4165.0 3755.0 4156.0
   3899.57 4151.43 4081.4 4473.89 4090.0 4479.0
+  smooth off
 endline
 
 endscrap

@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 9104.377952755904 13513.826771653541
+##XTHERION## xth_me_area_adjust -136.0 -136.0 9106.0 13513.826771653541
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {3758.420236220474 1 1.0} {1521.2578740157496 28.15} odessa-up-loop_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {3758.420236220474 1 1.0} {1521.2578740157496 28.15} PocketTopo/odessa-up-loop_p.xvi 0 {}
 
 
 
