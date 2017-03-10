@@ -101,7 +101,7 @@ processing survey data ...
  6> 4 : -@odessa-entrance.Odessa
 10> 4 : -@odessa-entrance.Odessa -- 9615 : -@tumbali-day1-c2.Odessa
 11> 9642 : -@tumbali-day1-c2.Odessa -- 3170 : -@Daquioag.Daquioag_Branch.Odessa
-12> 7603 : -@tumbali-d1-c3.Odessa -- 2688 : -@Daquioag.Daquioag_Branch.Odessa
+12> 7603 : -@Python.Odessa -- 2688 : -@Daquioag.Daquioag_Branch.Odessa
 13> 8683 : -@catcheel.Odessa
 14> 77 : -@odessa-entrance.Odessa
 15> 18 : -@odessa-entrance.Odessa
@@ -157,7 +157,7 @@ average distortion: 0.37%
 writing .\_output\Odessa.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 MAR 2017 08:38
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  9 MAR 2017 23:11
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -180,30 +180,29 @@ ag_Branch.Odessa] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
 [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
 [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
 [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
-[164]
-[Warning: scrap outline intersects itself in scrap tumbali-d1-c3SP1@tumbali-d1-
-c3.Odessa] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175]
-[176] [177] [178] [179] [180] [181] [182] [183] [184] [185] (./mptextmp.mp)
+[164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176]
+[177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189]
+[190] [191] [192] [193] [194] [195] [196] [197] [198] [199] [200]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [186] [187] [188] [189] [190] [191] [192] [193] [194] [195]
-[196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+(./mptextmp.mp) (./mptextmp.mp) [201] [202] [203] [204] [205] [206] [207] [208]
 [209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
-[222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] )
+[222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234]
+[235] [236] [237] [238] [239] [240] [241] [242] [243] [244] [245] [246] [247] )
+
  
 Here is how much of MetaPost's memory you used:
- 3089 strings out of 3907
- 19829 string characters out of 43988
- 997713 words of memory out of 1500000
+ 3202 strings out of 3907
+ 19975 string characters out of 43988
+ 999713 words of memory out of 1500000
  1533 symbolic tokens out of 16384
- 11i,75n,16p,576b,5f stack positions out of 300i,84n,5000p,608b,15f
- 1233 string compactions (moved 21654754 characters, 2819889 strings)
-245 output files written: data.1 .. data.4013
+ 11i,75n,16p,596b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 1263 string compactions (moved 22247092 characters, 2912218 strings)260 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 MAR 2017 08:39
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  9 MAR 2017 23:11
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -216,10 +215,10 @@ Normal \count register pool exhausted, switching to extended pool.)
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 606 strings out of 95617
- 6236 string characters out of 1171098
- 2187540 words of memory out of 3500000
- 2013 multiletter control sequences out of 15000+50000
+ 633 strings out of 95617
+ 6529 string characters out of 1171098
+ 2185371 words of memory out of 3500000
+ 2040 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  10i,8n,9p,1577b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -227,11 +226,11 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 4768940 bytes).
+Output written on data.pdf (1 page, 4883707 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
+ 866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 2369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2531 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -240,9 +239,8 @@ writing .\_output\Odessa-map.kml ... done
 writing .\_output\Odessa-model.kml ... done
 writing .\_output\Odessa-survex.3d ... done
 writing .\_output\Odessa-survex_map.3d ... done
-writing .\_output\Odessa.lox ..................................... done
 writing xtherion file ... done
-compilation time: 3545 sec
+compilation time: 65 sec
 
 
 ######################### loop errors ##########################
@@ -270,7 +268,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.87%   59.91%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag_Branch.Odessa
    1.04%   55.80%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag_Branch.Odessa
    8.34%   55.00%  MainWestSideSP1@MainWestSide.Odessa
-   0.04%   52.29%  DiasLightSP@tumbali-d1-c3.Odessa
+   0.04%   52.29%  DiasLightSP@Python.Odessa
    0.30%   51.02%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag_Branch.Odessa
    0.07%   45.99%  odessa-up-loopSP1@odessa-up-loop.Daquioag_Branch.Odessa
    0.65%   45.80%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag_Branch.Odessa
@@ -287,9 +285,10 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.07%    1.03%  LowerLevel@tumbali-day1-c2.Odessa
    0.06%    0.70%  UpperLevel@tumbali-day1-c2.Odessa
    0.06%    0.64%  OdessaEntSide@odessa-entrance.Odessa
-   0.01%    0.28%  tumbali-d1-c3SP1@tumbali-d1-c3.Odessa
+   0.02%    0.29%  DL_PythonSP@Python.Odessa
    0.02%    0.25%  shepherdSP1@shepherd.Odessa
+   0.02%    0.16%  Dry_EntranceSP@Python.Odessa
    0.03%    0.15%  OdessaEntLowSide@odessa-entrance.Odessa
-   0.01%    0.14%  PythonSP@tumbali-d1-c3.Odessa
-   0.02%    0.13%  PythonRetreatSP@tumbali-d1-c3.Odessa
+   0.01%    0.14%  PythonSP@Python.Odessa
+   0.02%    0.13%  PythonRetreatSP@Python.Odessa
 ################### end of scrap distortions ###################

@@ -80,68 +80,68 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.03%
+average distortion: 0.04%
 writing _output\dafung-down-west.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  5 MAR 2017 22:37
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 MAR 2017 13:50
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5] [6] [7] [8] [9]
-[Warning: scrap outline intersects itself in scrap dafung-down-westSP1@dafung-d
-own-west] [10] [11] [12] [13] (./mptextmp.mp) [14] )
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
  
 Here is how much of MetaPost's memory you used:
- 1313 strings out of 1638
- 14022 string characters out of 26823
- 1374925 words of memory out of 1500000
- 1380 symbolic tokens out of 16384
- 11i,75n,16p,437b,5f stack positions out of 300i,84n,5000p,487b,15f
- 270 string compactions (moved 3510514 characters, 297617 strings)
-26 output files written: data.1 .. data.4012
+ 1055 strings out of 1162
+ 13254 string characters out of 15838
+ 59646 words of memory out of 1500000
+ 1371 symbolic tokens out of 16384
+ 8i,75n,16p,279b,5f stack positions out of 300i,84n,5000p,312b,15f
+ 27 string compactions (moved 262448 characters, 21120 strings)
+18 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  5 MAR 2017 22:37
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 MAR 2017 13:50
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 66 numeric registers used out of 32768
+ 56 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 263 strings out of 95617
- 2665 string characters out of 1171098
- 1114616 words of memory out of 2449594
- 1676 multiletter control sequences out of 15000+50000
+ 253 strings out of 95617
+ 2572 string characters out of 1171098
+ 24043 words of memory out of 1510021
+ 1666 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 379152 bytes).
+Output written on data.pdf (1 page, 24233 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing _output\dafung-down-westth.3d ... done
+writing _output\dafung-down-west.lox ........ done
 writing xtherion file ... done
-compilation time: 9 sec
+compilation time: 7 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.03%    4.52%  dafung-down-westSP1@dafung-down-west
+   0.05%    4.51%  dafung-down-westSP1@dafung-down-west
    0.11%    0.68%  seriousdrinking@dafung-down-west
    0.02%    0.55%  west-south@dafung-down-west
-   0.00%    0.00%  scrap439@dafung-down-west
+   0.05%    0.48%  dafung-down-westSP2@dafung-down-west
+   0.02%    0.24%  dafung-down-westSP3@dafung-down-west
 ################### end of scrap distortions ###################

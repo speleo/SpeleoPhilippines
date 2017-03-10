@@ -4,7 +4,7 @@ encoding  utf-8
 ##XTHERION## xth_me_image_insert {6018.99118034 1 1.0} {1249.14686878 1.0} PocketTopo/tumbali-d1-c3_e.xvi 0 {}
 
 
-scrap tumbali-d1-c3SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+scrap PythonSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
 endscrap
 

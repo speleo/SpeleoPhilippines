@@ -2,12 +2,14 @@ encoding  utf-8
 source HeadlessChicken.th
 
 select HeadlessChickenM@HeadlessChicken
-export map -proj plan -layout local -o .\output\HeadlessChicken.pdf
-#export map -fmt kml -proj plan -layout local -o .\output\HeadlessChicken.kml
-export model -fmt kml -o .\output\HeadlessChicken.kml
+  export map -proj plan -layout local -o .\_output\HeadlessChicken.pdf
+  #export map -fmt kml -proj plan -layout local -o .\_output\HeadlessChicken.kml
+  export model -fmt kml -o .\_output\HeadlessChicken.kml
 
-#Survex file showing centre line only
-export model -fmt survex -o .\output\HeadlessChicken-survex.3d
+  #Survex file showing centre line only
+  export model -fmt survex -o .\_output\HeadlessChicken-survex.3d
+
+  export model -o .\_output\HeadlessChicken.lox
 
 
 layout local

@@ -1,5 +1,5 @@
-therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+therion 5.3.16 (beta Vladimir)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
 reading ... done
@@ -10,16 +10,16 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
- 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 169 survey stations, joined by 168 legs.
+ 5> Survey contains 169 survey stations, joined by 168 shots.
  6> There is 1 loop.
  7> Survey has 2 connected components.
- 8> Total length of survey legs =  508.22m ( 508.22m adjusted)
- 9> Total plan length of survey legs =  393.66m
-10> Total vertical length of survey legs =  174.50m
+ 8> Total length of survey shots =  508.22m ( 508.22m adjusted)
+ 9> Total plan length of survey shots =  393.66m
+10> Total vertical length of survey shots =  174.50m
 11> Vertical range = 37.95m (from 4 at 15.26m to 142 at -22.68m)
 12> North-South range = 21.41m (from 91 at 20.36m to 9 at -1.05m)
 13> East-West range = 39.39m (from 168 at 21.50m to 52 at -17.89m)
@@ -62,49 +62,47 @@ processing references ... done
 selecting export objects ... done
 processing projection plan ... done
 average distortion: 0.03%
-writing MARTHA-2.pdf ...
+writing _output\MARTHA-2.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  12 APR 2016 13:54
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 MAR 2017 09:02
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[Error: area borders l23-2816-1214 and l22-3108-1358 don't intersect in scrap M
-ARTHA-2SP1@MARTHA-2 (file MARTHA-2.th2 [292])] [1] [2] [3] [4] [5]
-(./mptextmp.mp) [6] )
+[1] [2] [3] [4] [5] (./mptextmp.mp) [6] )
  
 Here is how much of MetaPost's memory you used:
- 1057 strings out of 1162
- 13204 string characters out of 20720
- 61092 words of memory out of 1500000
- 1369 symbolic tokens out of 16384
+ 1076 strings out of 1162
+ 13400 string characters out of 15838
+ 61192 words of memory out of 1500000
+ 1372 symbolic tokens out of 16384
  8i,75n,16p,219b,5f stack positions out of 300i,84n,5000p,250b,15f
- 50 string compactions (moved 462193 characters, 37489 strings)
+ 40 string compactions (moved 435229 characters, 34978 strings)
 18 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  12 APR 2016 13:54
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 MAR 2017 09:02
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
-rogram Files/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  55 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  252 strings out of 95617
- 2536 string characters out of 1171098
- 30545 words of memory out of 1516523
+ 2554 string characters out of 1171098
+ 31621 words of memory out of 1517599
  1665 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
-Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 31975 bytes).
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 32154 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -113,7 +111,8 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing MARTHA-2th.3d ... done
+writing _output\MARTHA-2th.3d ... done
+writing _output\MARTHA-2.lox .... done
 writing xtherion file ... done
 compilation time: 2 sec
 
@@ -121,5 +120,5 @@ compilation time: 2 sec
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.03%    0.50%  MARTHA-2SP1@MARTHA-2
+   0.03%    0.56%  MARTHA-2SP1@MARTHA-2
 ################### end of scrap distortions ###################

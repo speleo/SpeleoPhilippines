@@ -1,18 +1,19 @@
 encoding  utf-8
-survey tumbali-d1-c3
+survey Python
 
-input tumbali-d1-c3.th2
-input tumbali-d1-c3Ee.th2
+input Python.th2
+input PythonEe.th2
 
-map tumbali-d1-c3M
-  tumbali-d1-c3SP1
-  #DiasLightSP
-  #PythonRetreatSP
-  #PythonSP
+map PythonM
+  DL_PythonSP
+  Dry_EntranceSP
+  DiasLightSP
+  PythonRetreatSP
+  PythonSP
 endmap
 
-map tumbali-d1-c3ME
-  tumbali-d1-c3SE1
+map PythonME
+  PythonSE1
 endmap
 centreline
 

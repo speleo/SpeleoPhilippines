@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 3590.0311936423 1997.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -136.0 3590.0311936423 2002.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {784.5697763200001 1 1.0} {728.5171653540001 1.4} PocketTopo/MARTHA-2_p.xvi 0 {}
 
 
@@ -43,7 +43,7 @@ point 1507.83977632 553.177165354 station -name 1.2
 
 point 1664.0097763200001 178.07716535400002 station -name 1.1
 
-line wall -id l23-2816-1214
+line wall -id l23-2816-1214 -reverse on
   2936.0 1178.0
   2919.0 1180.0 2887.0 1186.0 2870.0 1194.0
   2853.0 1202.0 2806.0 1223.0 2789.0 1228.0
@@ -106,7 +106,7 @@ line wall -id l23-2816-1214
   smooth off
 endline
 
-line wall -id l22-3108-1358
+line wall -id l22-3108-1358 -reverse on
   1639.0 167.0
   1631.0 186.0 1596.0 250.0 1591.0 267.0
   1586.0 284.0 1580.0 325.0 1572.0 336.0
@@ -195,6 +195,7 @@ line border -id l50-1621-324 -subtype invisible
   1572.0 298.0
   1582.0 301.0 1585.0 315.0 1604.0 322.0
   1623.0 329.0 1636.0 310.0 1659.0 330.0
+  smooth off
 endline
 
 line border -id l49-1706-210 -subtype invisible
@@ -356,7 +357,7 @@ line border -id l36-1541-1737 -close on -reverse on -subtype invisible
   1436.5 1806.0 1438.0 1807.0 1450.0 1806.5
 endline
 
-line wall -close on
+line wall -close on -outline in
   2908.0 1436.0
   2896.0 1427.0 2869.0 1422.0 2866.0 1408.0
   2863.0 1394.0 2851.0 1381.0 2859.0 1364.0

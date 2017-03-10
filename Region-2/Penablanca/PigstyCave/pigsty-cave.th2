@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 2902.0157480299 3502.803149612
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 2902.0157480299 3502.803149612
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1237.6601574800002 1 1.0} {1311.2940157500002 1.4} PocketTopo/pigsty-cave_p.xvi 0 {}
 
 
@@ -27,7 +27,7 @@ line wall -id l21-2062-2182 -reverse on -subtype invisible
   2109.0 2067.0
 endline
 
-line wall -outline in
+line wall -outline none -clip off
   734.0 747.0
   734.0 747.0 724.0 844.0 726.0 866.0
   728.0 888.0 702.0 948.0 690.0 964.0
@@ -60,7 +60,7 @@ line wall -close on -outline in
   1168.0 1182.0 1200.0 1190.0 1216.0 1186.0
 endline
 
-line wall -reverse on -outline in
+line wall -reverse on -outline none -clip off
   722.0 503.0
   722.0 503.0 742.0 432.0 734.0 378.0
   726.0 324.0 710.0 270.0 684.0 256.0

@@ -4,7 +4,7 @@ survey Odessa
   input odessa-heaven/odessa-heaven.th
   input odessa-downstream-9-5/odessa-downstream-9-5.th
   input Daquioag/Daquioag_Branch.th 
-  input tumbali-d1-c3/tumbali-d1-c3.th 
+  input Python/Python.th 
   input odessa-lower-sewer/odessa-lower-sewer.th
   input odessa-lower-sewer/Main2Sewer/Main2Sewer.th
   input catcheel/catcheel.th
@@ -38,8 +38,8 @@ survey Odessa
       
   #join Main Passage with Tumbali exit
     # walls
-      join l80-13788-58228@odessa-downstream-9-5:0 TumbaliExitLHW_2@tumbali-d1-c3:end
-      join l82-13892-59460@odessa-downstream-9-5:end DiaLightExitLHW@tumbali-d1-c3:end
+      join l80-13788-58228@odessa-downstream-9-5:0 TumbaliExitLHW_2@Python:end
+      join l82-13892-59460@odessa-downstream-9-5:end DiaLightExitLHW@Python:end
       
   #join Main Passage with Sewer North
     #walls
@@ -93,14 +93,14 @@ survey Odessa
     # above taken out as duplicate survey
     equate 7.1@odessa-heaven           1.30@odessa-entrance
     equate 4.13@odessa-downstream-9-5  4.13@odessa-entrance
-    equate 3.28@odessa-downstream-9-5  3.28@tumbali-d1-c3
+    equate 3.28@odessa-downstream-9-5  3.28@Python
     equate 1.30@odessa-entrance        1.66@odessaupday2oliandpete.Daquioag_Branch 
     #equate 22.22@Daquioag             1.0@odessaupday2oliandpete  
     equate 5.0@odessa-lower-sewer      4.75@odessa-downstream-9-5
     equate 5.60@odessa-lower-sewer     5.60@SewerNorthTop
     equate 4.61@catcheel               4.61@odessa-downstream-9-5
     equate 17.9@catcheel               4.54@odessa-downstream-9-5
-    equate 18.0@shepherd               3.62@tumbali-d1-c3
+    equate 18.0@shepherd               3.62@Python
     equate 8.8@odessa-heaven           9.7@smallloop
     equate 8.9@odessa-heaven           9.0@smallloop
     equate 35.0@SewerSouth             5.1@odessa-lower-sewer
@@ -127,7 +127,7 @@ survey Odessa
     SewerNorthSideM@SewerNorthSide 
     SewerSouthM@SewerSouth
     odessa-downstream-9-5M@odessa-downstream-9-5
-    tumbali-d1-c3M@tumbali-d1-c3 
+    PythonM@Python 
     tumbali-day1-c2M@tumbali-day1-c2 
     Main2SewerM@Main2Sewer
     shepherdM@shepherd

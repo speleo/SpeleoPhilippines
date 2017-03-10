@@ -6,7 +6,10 @@ input dafung-down-westEe.th2
 
 map dafung-down-westM2
   dafung-down-westSP1
+  dafung-down-westSP2
+  dafung-down-westSP3
   west-south
+  #seriousdrinking
 endmap
 
 map seriousdrinking-offset
@@ -15,7 +18,7 @@ endmap
 
 map dafung-down-westM
     dafung-down-westM2
-    break
+      break
     seriousdrinking-offset [-7 12 m] below
     preview below dafung-down-westM
 endmap

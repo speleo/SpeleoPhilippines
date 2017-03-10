@@ -1,5 +1,5 @@
-therion 5.3.16
-initialization file: C:\Program Files\Therion/therion.ini
+therion 5.3.16 (beta Vladimir)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
 reading ... done
@@ -10,16 +10,16 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
- 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 76 survey stations, joined by 75 legs.
+ 5> Survey contains 76 survey stations, joined by 75 shots.
  6> There is 1 loop.
  7> Survey has 2 connected components.
- 8> Total length of survey legs =  259.36m ( 259.36m adjusted)
- 9> Total plan length of survey legs =  175.07m
-10> Total vertical length of survey legs =  128.66m
+ 8> Total length of survey shots =  259.36m ( 259.36m adjusted)
+ 9> Total plan length of survey shots =  175.07m
+10> Total vertical length of survey shots =  128.66m
 11> Vertical range = 21.32m (from 6 at 16.77m to 7 at -4.54m)
 12> North-South range = 17.44m (from 65 at 12.48m to 6 at -4.96m)
 13> East-West range = 11.86m (from 6 at 6.47m to 18 at -5.39m)
@@ -50,6 +50,17 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-writing martha_inletth.3d ... done
+writing _output\martha_inletth.3d ... done
+writing _output\martha_inlet.lox ...
+processing projection plan ... done
+average distortion: 0.06%
+. done
 writing xtherion file ... done
-compilation time: 0 sec
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.06%    0.60%  martha_inletSP1@martha_inlet
+################### end of scrap distortions ###################

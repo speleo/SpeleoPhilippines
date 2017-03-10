@@ -19,6 +19,10 @@ line wall -close on -reverse on -outline in
   smooth off
 endline
 
+line wall -close on -reverse on -outline in
+endline
+
+
 endscrap
 
 

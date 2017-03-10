@@ -59,9 +59,9 @@ processing references ... done
 selecting export objects ... done
 processing projection plan ... done
 average distortion: 0.04%
-writing pigsty-cave.pdf ...
+writing _output\pigsty-cave.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  5 MAR 2017 13:31
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 MAR 2017 08:12
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -73,14 +73,14 @@ Here is how much of MetaPost's memory you used:
  68022 words of memory out of 1500000
  1373 symbolic tokens out of 16384
  11i,75n,16p,245b,5f stack positions out of 300i,84n,5000p,250b,15f
- 28 string compactions (moved 276400 characters, 22084 strings)
+ 27 string compactions (moved 263172 characters, 21059 strings)
 23 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  5 MAR 2017 13:31
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 MAR 2017 08:12
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -93,14 +93,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  259 strings out of 95617
  2622 string characters out of 1171098
- 56937 words of memory out of 1540915
+ 56411 words of memory out of 1540389
  1669 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  12i,8n,8p,703b,83s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
 iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 44075 bytes).
+Output written on data.pdf (1 page, 43574 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -109,9 +109,10 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing pigsty-caveth.3d ... done
+writing _output\pigsty-caveth.3d ... done
+writing _output\pigsty-cave.lox ..... done
 writing xtherion file ... done
-compilation time: 1 sec
+compilation time: 2 sec
 
 
 ###################### scrap distortions #######################

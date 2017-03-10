@@ -1,4 +1,4 @@
-therion 5.3.16
+therion 5.3.16 (beta Vladimir)
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig-HeadlessChicken
@@ -8,17 +8,6 @@ preprocessing database ... done
 output coordinate system: UTM51
 meridian convergence (deg): 0.3570
 geomag declinations (deg):
-  2005.1.1  -1.9604
-  2006.1.1  -2.0064
-  2007.1.1  -2.0525
-  2008.1.1  -2.0986
-  2009.1.1  -2.1448
-  2010.1.1  -2.1910
-  2011.1.1  -2.2712
-  2012.1.1  -2.3514
-  2013.1.1  -2.4317
-  2014.1.1  -2.5119
-  2015.1.1  -2.5922
   2016.1.1  -2.6814
   2017.1.1  -2.7707
 scanning centreline tree ... done
@@ -26,8 +15,8 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.12
- 2> Copyright ¸ 1990-2014 Olly Betts
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
  3> 
  4> Survey contains 602 survey stations, joined by 601 shots.
  5> There is 1 loop.
@@ -99,10 +88,10 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.08%
-writing .\output\HeadlessChicken.pdf ...
+average distortion: 0.09%
+writing .\_output\HeadlessChicken.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 MAY 2016 09:31
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 MAR 2017 09:03
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -111,19 +100,19 @@ This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31) 
 [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] )
  
 Here is how much of MetaPost's memory you used:
- 1345 strings out of 1638
- 17077 string characters out of 26823
- 62709 words of memory out of 1500000
- 1518 symbolic tokens out of 16384
+ 1355 strings out of 1638
+ 17218 string characters out of 26823
+ 62809 words of memory out of 1500000
+ 1520 symbolic tokens out of 16384
  9i,75n,16p,459b,5f stack positions out of 300i,84n,5000p,487b,15f
- 87 string compactions (moved 1017017 characters, 83444 strings)
+ 68 string compactions (moved 923525 characters, 75440 strings)
 55 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 MAY 2016 09:31
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 MAR 2017 09:03
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -136,7 +125,7 @@ entering extended mode
 Here is how much of TeX's memory you used:
  304 strings out of 95617
  3031 string characters out of 1171098
- 45151 words of memory out of 1529129
+ 44307 words of memory out of 1528285
  1714 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -145,7 +134,7 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
 texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
 cmssi10.pfb>
-Output written on data.pdf (1 page, 126994 bytes).
+Output written on data.pdf (1 page, 126134 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -154,10 +143,11 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\HeadlessChicken.kml ... done
-writing .\output\HeadlessChicken-survex.3d ... done
+writing .\_output\HeadlessChicken.kml ... done
+writing .\_output\HeadlessChicken-survex.3d ... done
+writing .\_output\HeadlessChicken.lox ....... done
 writing xtherion file ... done
-compilation time: 4 sec
+compilation time: 7 sec
 
 
 ###################### scrap distortions #######################
@@ -165,6 +155,6 @@ compilation time: 4 sec
  AVERAGE  MAXIMAL  SCRAP
    0.07%   60.03%  marthaStreamway@martha.HeadlessChicken
    0.13%   54.15%  MARTHA-2SP1@MARTHA-2.HeadlessChicken
+   0.14%    0.84%  martha_inletSP1@martha_inlet.HeadlessChicken
    0.06%    0.68%  marthaEntrance@martha.HeadlessChicken
-   0.08%    0.48%  martha_inletSP1@martha_inlet.HeadlessChicken
 ################### end of scrap distortions ###################
