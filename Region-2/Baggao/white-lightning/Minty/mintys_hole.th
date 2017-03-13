@@ -11,8 +11,10 @@ endmap
 map mintys_holeME
   mintys_holeSE1
 endmap
+
 centreline
 
+  #equate 5.0 5.10
 copyright 2015 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
@@ -56,7 +58,13 @@ data normal from to tape compass clino ignoreall
 #1.1  1.2  4.766  200.6  -69.76  
 #1.1  1.2  4.765  199.8  -69.8  
 1.1  1.2  4.769  200.71  -69.8  Calculated leg from 3 above
-1.2  -  101.26  142.02  -87.47  
+# section below is not real
+1.1  -  1.000 0 0 
+1.1  -  1.000 90 0 
+1.1  -  1.000 180 0 
+1.1  -  1.000 270 0 
+# section above is not real
+#1.2  -  101.26  142.02  -87.47  
 1.2  -  18.476  140.5  -86.86  
 1.2  -  16.042  135.19  -86.65  
 1.2  -  15.767  126.99  -86.81  

@@ -114,7 +114,7 @@ processing projection plan ... done
 average distortion: 0.98%
 writing .\_output\bluewater.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  3 MAR 2017 14:18
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 21:48
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -129,18 +129,18 @@ uewater] [30] [31] [32] [33] [34] [35] [36] [37] (./mptextmp.mp) [38] )
  
 Here is how much of MetaPost's memory you used:
  1754 strings out of 2233
- 14604 string characters out of 34452
- 226328 words of memory out of 1500000
+ 14611 string characters out of 34452
+ 227328 words of memory out of 1500000
  1384 symbolic tokens out of 16384
  11i,75n,16p,440b,5f stack positions out of 300i,84n,5000p,487b,15f
- 916 string compactions (moved 12709714 characters, 1356358 strings)
+ 917 string compactions (moved 12731322 characters, 1357833 strings)
 50 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  3 MAR 2017 14:18
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 21:48
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -152,14 +152,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  293 strings out of 95617
  2990 string characters out of 1171098
- 502880 words of memory out of 1944858
+ 508993 words of memory out of 1949971
  1706 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,248b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 585626 bytes).
+Output written on data.pdf (1 page, 587367 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -169,7 +169,7 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 writing xtherion file ... done
-compilation time: 9 sec
+compilation time: 6 sec
 
 
 ######################### loop errors ##########################

@@ -1,2 +1,0 @@
-This file should be used to add copyright information, and permission for use.
-This file covers all directories and subdirectories in the tree below, where no Copyrigh.txt exists.

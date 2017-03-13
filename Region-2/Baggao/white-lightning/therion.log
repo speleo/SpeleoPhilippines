@@ -1,4 +1,4 @@
-therion 5.3.16
+therion 5.3.16 (beta Vladimir)
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig.thc
@@ -10,26 +10,26 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.12
- 2> Copyright ¸ 1990-2014 Olly Betts
- 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 216 survey stations, joined by 215 shots.
+ 5> Survey contains 219 survey stations, joined by 218 shots.
  6> There is 1 loop.
  7> Survey has 2 connected components.
- 8> Total length of survey shots = 1197.04m (1197.04m adjusted)
- 9> Total plan length of survey shots =  789.52m
-10> Total vertical length of survey shots =  594.21m
-11> Vertical range = 110.91m (from 111 at 17.21m to 136 at -93.70m)
-12> North-South range = 31.31m (from 183 at 8.05m to 34 at -23.26m)
-13> East-West range = 80.92m (from 204 at 27.27m to 76 at -53.65m)
-14>  184 1-nodes.
-15>    3 2-nodes.
+ 8> Total length of survey shots = 1099.78m (1099.78m adjusted)
+ 9> Total plan length of survey shots =  789.05m
+10> Total vertical length of survey shots =  493.04m
+11> Vertical range = 41.60m (from 111 at 17.21m to 80 at -24.39m)
+12> North-South range = 31.31m (from 186 at 8.05m to 34 at -23.26m)
+13> East-West range = 80.92m (from 207 at 27.27m to 76 at -53.65m)
+14>  187 1-nodes.
+15>    2 2-nodes.
 16>    1 3-node.
 17>    2 4-nodes.
-18>    7 6-nodes.
-19>    4 7-nodes.
-20>    3 8-nodes.
+18>    8 6-nodes.
+19>    5 7-nodes.
+20>    2 8-nodes.
 21>    6 9-nodes.
 22>    2 11-nodes.
 23>    3 12-nodes.
@@ -37,19 +37,19 @@ processing survey data ...
 25> 
 ######################### transcription ########################
  3> 1 : 1.0@white_lightning_data.white_lightning
- 5> 216 : 5.10@mintys_hole.white_lightning -- 215 : 5.9@mintys_hole.white_lightning
+ 5> 219 : 5.10@mintys_hole.white_lightning -- 218 : 5.9@mintys_hole.white_lightning
  6> 1 : 1.0@white_lightning_data.white_lightning
  7> 2 : -@white_lightning_data.white_lightning
-11> 111 : -@white_lightning_data.white_lightning -- 136 : -@mintys_hole.white_lightning
-12> 183 : -@mintys_hole.white_lightning -- 34 : -@white_lightning_data.white_lightning
-13> 204 : -@mintys_hole.white_lightning -- 76 : -@white_lightning_data.white_lightning
-14> 184 : -@mintys_hole.white_lightning
-15> 3 : -@white_lightning_data.white_lightning
+11> 111 : -@white_lightning_data.white_lightning -- 80 : -@white_lightning_data.white_lightning
+12> 186 : -@mintys_hole.white_lightning -- 34 : -@white_lightning_data.white_lightning
+13> 207 : -@mintys_hole.white_lightning -- 76 : -@white_lightning_data.white_lightning
+14> 187 : -@mintys_hole.white_lightning
+15> 2 : -@white_lightning_data.white_lightning
 16> 1 : 1.0@white_lightning_data.white_lightning
 17> 2 : -@white_lightning_data.white_lightning
-18> 7 : 1.1@white_lightning_data.white_lightning
-19> 4 : -@white_lightning_data.white_lightning
-20> 3 : -@white_lightning_data.white_lightning
+18> 8 : -@white_lightning_data.white_lightning
+19> 5 : -@white_lightning_data.white_lightning
+20> 2 : -@white_lightning_data.white_lightning
 21> 6 : -@white_lightning_data.white_lightning
 22> 2 : -@white_lightning_data.white_lightning
 23> 3 : -@white_lightning_data.white_lightning
@@ -60,14 +60,12 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-writing wl.3d ... done
-writing wl.lox ...
+writing ./_output/wl_model.3d ... done
 processing projection plan ... done
 average distortion: 0.05%
-..... done
-writing ./output/White Lightning.pdf ...
+writing ./_output/wl.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  20 JUL 2015 21:05
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 23:48
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -77,19 +75,19 @@ hite_lightning] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
 [16] [17] [18] [19] [20] (./mptextmp.mp) [21] )
  
 Here is how much of MetaPost's memory you used:
- 1104 strings out of 1162
- 13283 string characters out of 20720
- 78830 words of memory out of 1500000
- 1369 symbolic tokens out of 16384
+ 1115 strings out of 1162
+ 13412 string characters out of 20720
+ 79692 words of memory out of 1500000
+ 1371 symbolic tokens out of 16384
  11i,75n,16p,267b,5f stack positions out of 300i,84n,5000p,312b,15f
- 106 string compactions (moved 1201005 characters, 98563 strings)
+ 114 string compactions (moved 1418821 characters, 116271 strings)
 33 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  20 JUL 2015 21:05
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 23:48
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -101,14 +99,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  273 strings out of 95617
  2765 string characters out of 1171098
- 64133 words of memory out of 1544111
+ 65468 words of memory out of 1545446
  1686 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 73386 bytes).
+Output written on data.pdf (1 page, 76842 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -117,14 +115,16 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
+writing ./_output/wl.3d ... done
+writing ./_output/wl.lox ........ done
 writing xtherion file ... done
-compilation time: 3 sec
+compilation time: 2 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.07%    3.31%  mintys_holeSP1@mintys_hole.white_lightning
+   0.06%    3.31%  mintys_holeSP1@mintys_hole.white_lightning
    0.05%    0.60%  wlSP2@white_lightning_data.white_lightning
    0.02%    0.18%  wlSP4@white_lightning_data.white_lightning
    0.02%    0.12%  wlSP1@white_lightning_data.white_lightning
