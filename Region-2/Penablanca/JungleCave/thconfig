@@ -14,7 +14,7 @@ source jungle_cave.th
   export model -fmt survex -o _output\jungle_caveth.3d
   #Survex file showing centre line only
 
-  #export model -o _output\jungle_cave.lox
+  export model -o _output\jungle_cave.lox
   #3d therion model to be viewed in the therion viewer
 
   #export map -proj plan -o _output\jungle_cave_Walls.3d

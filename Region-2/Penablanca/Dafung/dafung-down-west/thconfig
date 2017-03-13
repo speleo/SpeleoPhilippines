@@ -23,7 +23,7 @@ select dafung-down-westM@dafung-down-west
   #Survex file showing walls only
 
 layout local
-debug on
+debug off
 map-header 0 0 ne
 #symbol-hide group cave-centreline
 endlayout

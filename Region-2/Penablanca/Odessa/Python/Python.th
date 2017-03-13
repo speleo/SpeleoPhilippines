@@ -33,6 +33,7 @@ copyright 2016 "GNU GPL"
   instrument instruments "PDA 4 + Henry Bennett DistoX2"
   #
   cs EPSG:32651
+  station 3.62 "Python Retreats" entrance
 
 data normal from to tape compass clino ignoreall
   extend right

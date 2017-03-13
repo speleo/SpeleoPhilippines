@@ -65,7 +65,7 @@ processing projection plan ... done
 average distortion: 0.02%
 writing _output\jungle_cave.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  7 MAR 2017 08:34
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  10 MAR 2017 22:02
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -77,14 +77,14 @@ Here is how much of MetaPost's memory you used:
  61982 words of memory out of 1500000
  1370 symbolic tokens out of 16384
  8i,75n,11p,234b,5f stack positions out of 300i,84n,5000p,250b,15f
- 41 string compactions (moved 443699 characters, 34991 strings)
+ 41 string compactions (moved 443670 characters, 34989 strings)
 17 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  7 MAR 2017 08:34
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  10 MAR 2017 22:02
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -113,8 +113,9 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 writing _output\jungle_caveth.3d ... done
+writing _output\jungle_cave.lox .... done
 writing xtherion file ... done
-compilation time: 2 sec
+compilation time: 3 sec
 
 
 ###################### scrap distortions #######################

@@ -10,7 +10,7 @@ survey PenablancaSystem
   input JungleCave/jungle_cave.th
   input RumDoodle/nd2.th
   input PigstyCave/pigsty-cave.th
-  input GapingJill/GapingJill.th
+  #input GapingJill/GapingJill.th
   input MinorSites/MinorSites.th
 
   

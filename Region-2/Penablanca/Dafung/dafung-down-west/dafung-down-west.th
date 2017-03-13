@@ -9,10 +9,11 @@ map dafung-down-westM2
   dafung-down-westSP2
   dafung-down-westSP3
   west-south
-  #seriousdrinking
 endmap
 
 map seriousdrinking-offset
+   seriousdrinking2
+    break
    seriousdrinking
 endmap
 

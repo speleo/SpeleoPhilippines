@@ -5,12 +5,12 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 455X1 p1 1 seriousdrinking-offset seriousdrinking-offset@dafung-down-west "" ""
-xth_cp_map_tree_insert map 0 456X1 p1 1 dafung-down-westM dafung-down-westM@dafung-down-west "" ""
-xth_cp_map_tree_insert map 1 454X1 456X1 2 dafung-down-westM2 dafung-down-westM2@dafung-down-west "" ""
-xth_cp_map_tree_insert map 1 457X1 p2 1 dafung-down-westME dafung-down-westME@dafung-down-west "" ""
+xth_cp_map_tree_insert map 0 460X1 p1 1 dafung-down-westM dafung-down-westM@dafung-down-west "" ""
+xth_cp_map_tree_insert map 1 458X1 460X1 2 dafung-down-westM2 dafung-down-westM2@dafung-down-west "" ""
+xth_cp_map_tree_insert map 1 459X1 460X1 2 seriousdrinking-offset seriousdrinking-offset@dafung-down-west "" ""
+xth_cp_map_tree_insert map 1 461X1 p2 1 dafung-down-westME dafung-down-westME@dafung-down-west "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 478 6
+xth_cp_comp_stat 478 7
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1489153829
+set xth(th_exit_number) 1489182701
 
