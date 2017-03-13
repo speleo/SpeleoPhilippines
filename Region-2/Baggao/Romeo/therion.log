@@ -7,18 +7,70 @@ reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM51
 meridian convergence (deg): 0.2975
+geomag declinations (deg):
+  2015.1.1  -2.6554
+  2016.1.1  -2.7448
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> 
+ 4> Survey contains 909 survey stations, joined by 908 shots.
+ 5> There are 0 loops.
+ 6> Total length of survey shots = 4114.05m (4114.05m adjusted)
+ 7> Total plan length of survey shots = 3048.09m
+ 8> Total vertical length of survey shots = 1643.36m
+ 9> Vertical range = 87.91m (from 808 at 468.37m to 793 at 380.46m)
+10> North-South range = 515.25m (from 485 at 1992392.66m to 694 at 1991877.41m)
+11> East-West range = 192.90m (from 411 at 398258.27m to 693 at 398065.38m)
+12>  735 1-nodes.
+13>    7 2-nodes.
+14>    2 3-nodes.
+15>    2 4-nodes.
+16>   36 5-nodes.
+17>   82 6-nodes.
+18>   22 7-nodes.
+19>    8 8-nodes.
+20>    3 9-nodes.
+21>    5 10-nodes.
+22>    3 11-nodes.
+23>    2 12-nodes.
+24>    1 14-node.
+25>    1 15-node.
+26> 
+######################### transcription ########################
+ 4> 909 : -@lumio.romeo -- 908 : -@lumio.romeo
+ 9> 808 : -@lumio.romeo -- 793 : -@romeo_cathedral.romeo
+10> 485 : 1.98@romeo_entrance.romeo -- 694 : -@fatcamp.romeo
+11> 411 : -@romeo_entrance.romeo -- 693 : -@fatcamp.romeo
+12> 735 : -@Romeo_W_loop.romeo
+13> 7 : -@romeo_entrance.romeo
+14> 2 : -@romeo_entrance.romeo
+15> 2 : -@romeo_entrance.romeo
+16> 36 : -@romeo_entrance.romeo
+17> 82 : -@romeo_entrance.romeo
+18> 22 : -@romeo_entrance.romeo
+19> 8 : -@romeo_entrance.romeo
+20> 3 : -@romeo_entrance.romeo
+21> 5 : 1.1@romeo_entrance.romeo
+22> 3 : -@romeo_entrance.romeo
+23> 2 : -@romeo_entrance.romeo
+24> 1 : 1.0@romeo_entrance.romeo
+25> 1 : 1.0@romeo_entrance.romeo
+#################### end of cavern log file ####################
+done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.46%
-writing ./output/Romeo.pdf ...
+average distortion: 0.47%
+writing ./_output/Romeo.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  16 FEB 2017 23:20
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 20:48
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -34,30 +86,28 @@ format.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_30
 0.mp)
 (c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
-terline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
-[Warning: scrap outline intersects itself in scrap romeoSP3@romeo_entrance.rome
-o] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
-[Warning: scrap outline intersects itself in scrap Romeo_21_1SP1@Romeo_21_1.rom
-eo] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] (./mptextmp.mp)
+terline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+[31] [32] [33] [34] [35] [36] [37] [38] [39] (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
-[52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66]
-[67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] )
+[40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
+[55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+[70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] )
  
 Here is how much of MetaPost's memory you used:
  1397 strings out of 1638
- 17382 string characters out of 26823
- 300831 words of memory out of 1500000
+ 17387 string characters out of 26823
+ 304809 words of memory out of 1500000
  1523 symbolic tokens out of 16384
  11i,75n,16p,280b,5f stack positions out of 300i,84n,5000p,312b,15f
- 145 string compactions (moved 2180074 characters, 181855 strings)
+ 144 string compactions (moved 2168442 characters, 180904 strings)
 92 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  16 FEB 2017 23:20
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 20:48
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -71,7 +121,7 @@ ng>) (./th_pages.tex)
 Here is how much of TeX's memory you used:
  346 strings out of 95617
  3411 string characters out of 1171098
- 637258 words of memory out of 2088236
+ 638648 words of memory out of 2089626
  1753 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -80,7 +130,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 767667 bytes).
+Output written on data.pdf (1 page, 788602 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -89,24 +139,24 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\romeo_cave-map.kml ... done
-writing .\output\romeo_cave.kml ... done
+writing .\_output\romeo_cave-map.kml ... done
+writing .\_output\romeo_cave.kml ... done
+writing .\_output\romeo_caveth.3d ... done
 writing xtherion file ... done
-compilation time: 9 sec
+compilation time: 10 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.57%   98.90%  lumioSP1@lumio.romeo
-   0.62%   81.35%  Romeo_1.12SP1@Romeo_1_12.romeo
-   2.01%   74.60%  romeoSP5@romeo_entrance.romeo
-   2.08%   57.88%  romeo_cathedralSP1@romeo_cathedral.romeo
-   0.36%   32.41%  romeoSP1@romeo_entrance.romeo
-   0.51%   25.43%  romeoSP3@romeo_entrance.romeo
-   0.46%   19.63%  Romeo_21_1SP1@Romeo_21_1.romeo
-   0.39%   15.55%  romeoSP4@romeo_entrance.romeo
-   0.00%    0.11%  romeoSP0@romeo_entrance.romeo
-   0.00%    0.03%  romeoSP2@romeo_entrance.romeo
-   0.00%    0.00%  scrap276@romeo_entrance.romeo
+   0.57%   99.02%  lumioSP1@lumio.romeo
+   0.61%   81.57%  Romeo_1.12SP1@fatcamp.romeo
+   2.01%   74.63%  romeoSP5@romeo_entrance.romeo
+   2.09%   57.82%  romeo_cathedralSP1@romeo_cathedral.romeo
+   0.36%   32.49%  romeoSP1@romeo_entrance.romeo
+   0.52%   25.45%  romeoSP3@romeo_entrance.romeo
+   0.46%   19.69%  Romeo_21_1SP1@Romeo_W_loop.romeo
+   0.39%   15.53%  romeoSP4@romeo_entrance.romeo
+   0.01%    0.71%  romeoSP2@romeo_entrance.romeo
+   0.02%    0.57%  romeoSP0@romeo_entrance.romeo
 ################### end of scrap distortions ###################

@@ -13,15 +13,54 @@ geomag declinations (deg):
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> 
+ 4> Survey contains 91 survey stations, joined by 90 shots.
+ 5> There are 0 loops.
+ 6> Total length of survey shots =  783.80m ( 783.81m adjusted)
+ 7> Total plan length of survey shots =  691.87m
+ 8> Total vertical length of survey shots =  217.06m
+ 9> Vertical range = 28.52m (from 8 at 423.53m to 68 at 395.02m)
+10> North-South range = 131.26m (from 8 at 1992710.02m to 90 at 1992578.76m)
+11> East-West range = 72.33m (from 2 at 398048.00m to 66 at 397975.67m)
+12>   69 1-nodes.
+13>    7 2-nodes.
+14>    2 3-nodes.
+15>    4 4-nodes.
+16>    2 5-nodes.
+17>    4 6-nodes.
+18>    1 9-node.
+19>    1 15-node.
+20>    1 17-node.
+21> 
+######################### transcription ########################
+ 4> 91 : -@bluewater_sink_lower.BlueWaterSink -- 90 : -@bluewater_sink_lower.BlueWaterSink
+ 9> 8 : -@bluewater_sink_canyon.BlueWaterSink -- 68 : -@bluewater_sink_lower.BlueWaterSink
+10> 8 : -@bluewater_sink_canyon.BlueWaterSink -- 90 : -@bluewater_sink_lower.BlueWaterSink
+11> 2 : -@bluewater_sink_canyon.BlueWaterSink -- 66 : -@bluewater_sink_lower.BlueWaterSink
+12> 69 : 2.10@bluewater_sink_lower.BlueWaterSink
+13> 7 : -@bluewater_sink_canyon.BlueWaterSink
+14> 2 : -@bluewater_sink_canyon.BlueWaterSink
+15> 4 : -@bluewater_sink_canyon.BlueWaterSink
+16> 2 : -@bluewater_sink_canyon.BlueWaterSink
+17> 4 : -@bluewater_sink_canyon.BlueWaterSink
+18> 1 : 1.0@bluewater_sink_canyon.BlueWaterSink
+19> 1 : 1.0@bluewater_sink_canyon.BlueWaterSink
+20> 1 : 1.0@bluewater_sink_canyon.BlueWaterSink
+#################### end of cavern log file ####################
+done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.00%
-writing .\output\BlueWater-sink.pdf ...
+average distortion: 0.02%
+writing .\_output\BlueWater-sink.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  16 FEB 2017 21:05
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 20:59
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -40,18 +79,18 @@ terline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
  
 Here is how much of MetaPost's memory you used:
  1361 strings out of 1638
- 16427 string characters out of 26823
+ 16422 string characters out of 26823
  92488 words of memory out of 1500000
  1520 symbolic tokens out of 16384
  11i,75n,16p,303b,5f stack positions out of 300i,84n,5000p,312b,15f
- 45 string compactions (moved 554958 characters, 44907 strings)
+ 45 string compactions (moved 554870 characters, 44903 strings)
 50 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  16 FEB 2017 21:05
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 20:59
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -65,7 +104,7 @@ ng>) (./th_pages.tex)
 Here is how much of TeX's memory you used:
  293 strings out of 95617
  2944 string characters out of 1171098
- 159747 words of memory out of 1633725
+ 159259 words of memory out of 1633237
  1700 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -74,7 +113,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 170925 bytes).
+Output written on data.pdf (1 page, 170870 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -84,10 +123,10 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 processing projection extended ... done
-average distortion: 0.00%
-writing .\output\BlueWater-sinkEE.pdf ...
+average distortion: 0.01%
+writing .\_output\BlueWater-sinkEE.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  16 FEB 2017 21:05
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 20:59
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -105,18 +144,18 @@ terline.mp) [1] [2] [3] [4] [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
  
 Here is how much of MetaPost's memory you used:
  1342 strings out of 1638
- 16287 string characters out of 26823
+ 16278 string characters out of 26823
  66506 words of memory out of 1500000
  1513 symbolic tokens out of 16384
  9i,75n,12p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 39 string compactions (moved 457275 characters, 36884 strings)
+ 39 string compactions (moved 457291 characters, 36884 strings)
 30 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  16 FEB 2017 21:05
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 20:59
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -139,7 +178,7 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type
 1/cmsy10.pfb>
-Output written on data.pdf (1 page, 83069 bytes).
+Output written on data.pdf (1 page, 83225 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -148,26 +187,26 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing .\output\BlueWater-sink-map.kml ... done
-writing .\output\BlueWater-sink.kml ... done
-writing .\output\bluewater-sink-survex.3d ... done
+writing .\_output\BlueWater-sink-map.kml ... done
+writing .\_output\BlueWater-sink.kml ... done
+writing .\_output\bluewater-sink-survex.3d ... done
 writing xtherion file ... done
-compilation time: 10 sec
+compilation time: 7 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.07%  bluewater_sink_lowerSP2@bluewater_sink_lower.BlueWaterSink
-   0.00%    0.02%  bluewater_sink_canyonSP1@bluewater_sink_canyon.BlueWaterSink
-   0.00%    0.01%  bluewater_sink_canyonSP2@bluewater_sink_canyon.BlueWaterSink
-   0.00%    0.01%  bluewater_sink_lowerSP1@bluewater_sink_lower.BlueWaterSink
+   0.05%    0.30%  bluewater_sink_canyonSP1@bluewater_sink_canyon.BlueWaterSink
+   0.04%    0.27%  bluewater_sink_canyonSP2@bluewater_sink_canyon.BlueWaterSink
+   0.01%    0.17%  bluewater_sink_lowerSP2@bluewater_sink_lower.BlueWaterSink
+   0.01%    0.06%  bluewater_sink_lowerSP1@bluewater_sink_lower.BlueWaterSink
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.01%  bluewater_sink_canyonSE1@bluewater_sink_canyon.BlueWaterSink
-   0.00%    0.00%  bluewater_sink_lowerSE1@bluewater_sink_lower.BlueWaterSink
+   0.01%    0.13%  bluewater_sink_canyonSE1@bluewater_sink_canyon.BlueWaterSink
+   0.00%    0.10%  bluewater_sink_lowerSE1@bluewater_sink_lower.BlueWaterSink
 ################### end of scrap distortions ###################

@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 43.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.22m (from 1.0@romeo_cathedral at 0.00m to 1.5@romeo_cathedral at -17.22m)\nnorth-south range: 7.42m (from 1.5@romeo_cathedral at 6.97m to 1.1@romeo_cathedral at -0.45m)\neast-west range: 26.83m (from 1.0@romeo_cathedral at 0.00m to 1.4@romeo_cathedral at -26.83m)\nnumber of shots: 26\nnumber of stations: 27"
+xth_cp_data_tree_insert 10 1 1 romeo_cathedral romeo_cathedral "" "" "length: 43.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.22m (from 1.0@romeo_cathedral at 0.00m to 1.5@romeo_cathedral at -17.22m)\nnorth-south range: 7.42m (from 1.5@romeo_cathedral at 6.97m to 1.1@romeo_cathedral at -0.45m)\neast-west range: 26.83m (from 1.0@romeo_cathedral at 0.00m to 1.4@romeo_cathedral at -26.83m)\nnumber of shots: 26\nnumber of stations: 27"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 51X1 p1 1 romeo_cathedralM romeo_cathedralM@romeo_cathedral "" ""
+xth_cp_map_tree_insert map 1 52X1 p2 1 romeo_cathedralME romeo_cathedralME@romeo_cathedral "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 43 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1489437388
+

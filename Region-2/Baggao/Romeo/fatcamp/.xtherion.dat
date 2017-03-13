@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 79.04m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.60m (from 20.10@fatcamp at 4.60m to 1.12@fatcamp at 0.00m)\nnorth-south range: 49.75m (from 1.12@fatcamp at 0.00m to 20.10@fatcamp at -49.75m)\neast-west range: 49.27m (from 1.12@fatcamp at 0.00m to 20.10@fatcamp at -49.27m)\nnumber of shots: 62\nnumber of stations: 63"
+xth_cp_data_tree_insert 9 1 1 fatcamp fatcamp "" "" "length: 79.04m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.60m (from 20.10@fatcamp at 4.60m to 1.12@fatcamp at 0.00m)\nnorth-south range: 49.75m (from 1.12@fatcamp at 0.00m to 20.10@fatcamp at -49.75m)\neast-west range: 49.27m (from 1.12@fatcamp at 0.00m to 20.10@fatcamp at -49.27m)\nnumber of shots: 62\nnumber of stations: 63"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 119X1 p1 1 Romeo_1.12M Romeo_1.12M@fatcamp "" ""
+xth_cp_map_tree_insert map 1 120X1 p2 1 Romeo_1.12ME Romeo_1.12ME@fatcamp "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 79 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1489437013
+

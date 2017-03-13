@@ -1,0 +1,107 @@
+encoding  utf-8
+source romeo_entrance.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout test -o ./_output/romeo_entrance.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -fmt kml -proj plan -layout local -o .\_output\romeo_entrance.kml
+
+#export map -proj extended -layout local -o .\_output\romeo_entranceEe.pdf
+
+export model -fmt survex -o ./_output/romeo_entrance.3d
+#Survex file showing centre line only
+
+#export model -o .\_output\romeo_entrance.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o .\_output\romeo_entrance_Walls.3d
+#Survex file showing walls only
+
+layout test
+  scale 1 30
+  debug on
+endlayout
+
+layout local
+  scale 1 150
+  base-scale 1 150
+  scale-bar 20 m
+
+  
+  #Foreground color - turn on altitdude to see various heights
+  colour map-fg [80 80 80]
+  #color map-fg altitude
+  #colour map-bg [70 90 70]
+  
+  language en
+  statistics topo-length off
+  statistics topo all
+  statistics explo-length off
+  
+  map-comment "Baggao, Cagayan<br>18Â° 1'15.52 N<br>121Â°59'53.82 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  
+  doc-author   "Henry Bennett"
+  doc-keywords "Bluewater Cave Baggao Philippines"
+  doc-subject  "Survey of Bluewater Cave 2014"
+  doc-title    "Bluewater Cave Survey Bristol Exploration Club 2014"
+      
+  debug off
+  transparency on
+  opacity 80
+  map-header 100 100 nw
+  #overlap 10 cm
+
+  symbol-set BCRA
+  symbol-hide group cave-centreline
+  symbol-assign line slope SKBB
+  
+  legend on
+  legend-columns 1
+  legend-width 15 cm
+  #colour-legend on
+  grid bottom
+  grid-coords border
+  #sketches on
+  
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    
+    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
+    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_scalebar_large_format"
+    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_legend_large_format"
+    
+    
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    # change centre line to continuous
+    def l_survey_cave (expr p) =
+        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    enddef;
+    
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    fonts_setup(6,8,30,54,80);
+  
+  endcode
+  
+endlayout

@@ -8,15 +8,52 @@ preprocessing database ... done
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 54 survey stations, joined by 53 shots.
+ 6> There are 0 loops.
+ 7> Total length of survey shots =  456.43m ( 456.43m adjusted)
+ 8> Total plan length of survey shots =  392.60m
+ 9> Total vertical length of survey shots =  121.30m
+10> Vertical range = 26.47m (from 53 at 7.46m to 31 at -19.01m)
+11> North-South range = 114.47m (from 2 at 0.00m to 53 at -114.47m)
+12> East-West range = 36.19m (from 49 at 3.72m to 29 at -32.47m)
+13>   40 1-nodes.
+14>    1 2-node.
+15>    3 3-nodes.
+16>    3 4-nodes.
+17>    2 5-nodes.
+18>    4 6-nodes.
+19>    1 9-node.
+20> 
+######################### transcription ########################
+ 3> 1 : 2.1@bluewater_sink_lower
+ 5> 54 : -@bluewater_sink_lower -- 53 : -@bluewater_sink_lower
+10> 53 : -@bluewater_sink_lower -- 31 : -@bluewater_sink_lower
+11> 2 : -@bluewater_sink_lower -- 53 : -@bluewater_sink_lower
+12> 49 : -@bluewater_sink_lower -- 29 : -@bluewater_sink_lower
+13> 40 : -@bluewater_sink_lower
+14> 1 : 2.1@bluewater_sink_lower
+15> 3 : -@bluewater_sink_lower
+16> 3 : -@bluewater_sink_lower
+17> 2 : -@bluewater_sink_lower
+18> 4 : 2.2@bluewater_sink_lower
+19> 1 : 2.1@bluewater_sink_lower
+#################### end of cavern log file ####################
+done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection extended ... done
 average distortion: 0.00%
-writing ./output/bluewater_sink_lowerEe.pdf ...
+writing ./_output/bluewater_sink_lowerEe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  15 FEB 2017 08:27
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 20:58
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
@@ -24,18 +61,18 @@ This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31) 
  
 Here is how much of MetaPost's memory you used:
  1044 strings out of 1162
- 13212 string characters out of 20720
- 60926 words of memory out of 1500000
+ 13209 string characters out of 20720
+ 64119 words of memory out of 1500000
  1369 symbolic tokens out of 16384
  8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 20 string compactions (moved 170520 characters, 13763 strings)
+ 21 string compactions (moved 183377 characters, 14746 strings)
 17 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  15 FEB 2017 08:27
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 20:58
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -47,14 +84,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  250 strings out of 95617
  2539 string characters out of 1171098
- 43673 words of memory out of 1526651
+ 50391 words of memory out of 1533369
  1663 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 31623 bytes).
+Output written on data.pdf (1 page, 32356 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -63,7 +100,7 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing ./output/bluewater_sink_lowerth.3d ... done
+writing ./_output/bluewater_sink_lowerth.3d ... done
 writing xtherion file ... done
 compilation time: 1 sec
 
@@ -71,5 +108,5 @@ compilation time: 1 sec
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.00%  bluewater_sink_lowerSE1@bluewater_sink_lower
+   0.00%    0.08%  bluewater_sink_lowerSE1@bluewater_sink_lower
 ################### end of scrap distortions ###################

@@ -3,14 +3,14 @@ source BlueWater-Sink.th
 
 #Surveys to output
 #-----------------
-  export map -proj plan -layout local -o .\output\BlueWater-sink.pdf
-  export map -proj extended -layout local -o .\output\BlueWater-sinkEE.pdf
+  export map -proj plan -layout local -o .\_output\BlueWater-sink.pdf
+  export map -proj extended -layout local -o .\_output\BlueWater-sinkEE.pdf
 
-  export map -fmt kml -proj plan -layout local -o .\output\BlueWater-sink-map.kml
-  export model -fmt kml -o .\output\BlueWater-sink.kml
+  export map -fmt kml -proj plan -layout local -o .\_output\BlueWater-sink-map.kml
+  export model -fmt kml -o .\_output\BlueWater-sink.kml
 
   #Survex file showing centre line only
-  export model -fmt survex -o .\output\bluewater-sink-survex.3d
+  export model -fmt survex -o .\_output\bluewater-sink-survex.3d
 
 
 layout local

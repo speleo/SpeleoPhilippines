@@ -13,62 +13,91 @@ geomag declinations (deg):
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> 
+ 4> Survey contains 37 survey stations, joined by 36 shots.
+ 5> There are 0 loops.
+ 6> Total length of survey shots =  327.38m ( 327.38m adjusted)
+ 7> Total plan length of survey shots =  299.28m
+ 8> Total vertical length of survey shots =   95.77m
+ 9> Vertical range = 10.22m (from 8 at 423.53m to 35 at 413.31m)
+10> North-South range = 18.44m (from 8 at 1992710.02m to 36 at 1992691.58m)
+11> East-West range = 43.88m (from 2 at 398048.00m to 37 at 398004.12m)
+12>   30 1-nodes.
+13>    5 2-nodes.
+14>    1 15-node.
+15>    1 17-node.
+16> 
+######################### transcription ########################
+ 4> 37 : 11.3@bluewater_sink_canyon -- 36 : 11.2@bluewater_sink_canyon
+ 9> 8 : -@bluewater_sink_canyon -- 35 : 11.1@bluewater_sink_canyon
+10> 8 : -@bluewater_sink_canyon -- 36 : 11.2@bluewater_sink_canyon
+11> 2 : -@bluewater_sink_canyon -- 37 : 11.3@bluewater_sink_canyon
+12> 30 : -@bluewater_sink_canyon
+13> 5 : -@bluewater_sink_canyon
+14> 1 : 1.0@bluewater_sink_canyon
+15> 1 : 1.0@bluewater_sink_canyon
+#################### end of cavern log file ####################
+done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.00%
-writing ./output/bluewater_sink_canyon.pdf ...
+average distortion: 0.04%
+writing ./_output/bluewater_sink_canyon.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  11 FEB 2017 08:54
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 20:57
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] (./mptextmp.mp) [5] )
+[1] [2] [3] [4] [5] [6] [7] [8] (./mptextmp.mp) [9] )
  
 Here is how much of MetaPost's memory you used:
- 1039 strings out of 1162
- 13254 string characters out of 20720
- 59728 words of memory out of 1500000
- 1370 symbolic tokens out of 16384
- 8i,75n,11p,263b,5f stack positions out of 300i,84n,5000p,312b,15f
- 18 string compactions (moved 144298 characters, 11711 strings)
-17 output files written: data.1 .. data.4012
+ 1055 strings out of 1162
+ 13361 string characters out of 20720
+ 59831 words of memory out of 1500000
+ 1377 symbolic tokens out of 16384
+ 8i,75n,16p,263b,5f stack positions out of 300i,84n,5000p,312b,15f
+ 23 string compactions (moved 210666 characters, 16959 strings)
+21 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  11 FEB 2017 08:54
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 20:57
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 53 numeric registers used out of 32768
+ 58 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 250 strings out of 95617
- 2539 string characters out of 1171098
- 19858 words of memory out of 1506836
- 1663 multiletter control sequences out of 15000+50000
+ 255 strings out of 95617
+ 2593 string characters out of 1171098
+ 37498 words of memory out of 1521476
+ 1668 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
  9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 22595 bytes).
+Output written on data.pdf (1 page, 33202 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing ./output/bluewater_sink_canyonth.3d ... done
+writing ./_output/bluewater_sink_canyonth.3d ... done
 writing xtherion file ... done
 compilation time: 1 sec
 
@@ -76,5 +105,6 @@ compilation time: 1 sec
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.01%  bluewater_sink_canyonSP1@bluewater_sink_canyon
+   0.05%    0.30%  bluewater_sink_canyonSP1@bluewater_sink_canyon
+   0.04%    0.27%  bluewater_sink_canyonSP2@bluewater_sink_canyon
 ################### end of scrap distortions ###################

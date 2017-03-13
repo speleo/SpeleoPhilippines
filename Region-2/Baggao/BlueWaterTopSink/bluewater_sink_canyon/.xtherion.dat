@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 25X1 p1 1 bluewater_sink_canyonM bluewater_sink_canyonM@bluewater_sink_canyon "" ""
-xth_cp_map_tree_insert map 1 26X1 p2 1 bluewater_sink_canyonME bluewater_sink_canyonME@bluewater_sink_canyon "" ""
+xth_cp_map_tree_insert map 1 74X1 p1 1 bluewater_sink_canyonM bluewater_sink_canyonM@bluewater_sink_canyon "" ""
+xth_cp_map_tree_insert map 1 75X1 p2 1 bluewater_sink_canyonME bluewater_sink_canyonME@bluewater_sink_canyon "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 54 2
+xth_cp_comp_stat 54 3
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1486803286
+set xth(th_exit_number) 1489438646
 
