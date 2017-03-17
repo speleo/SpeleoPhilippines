@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -132.0 -132.0 192670.1102361872 157069.9055117839
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 

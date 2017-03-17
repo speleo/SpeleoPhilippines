@@ -1,0 +1,43 @@
+encoding  utf-8
+survey doline
+
+input doline.th2
+input dolineEe.th2
+
+map dolineM
+  dolineSP1
+endmap
+
+map dolineME
+  dolineSE1
+endmap
+centreline
+
+copyright 2016 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#
+  date 2016.04.14
+
+  cs EPSG:32651
+  fix 1.0 395444.41 1992935.16 394
+  station 1.0 "Helicopter" entrance
+
+
+data normal from to tape compass clino ignoreall
+  extend right
+1.0  -  0.0  0.0  0.0  
+1.0  1.1  21.86  270.0  0.0  
+1.0  1.2  26.38  226.56  0.0  
+1.0  1.3  17.96  328.26  0.0  
+1.0  2.0  100.0  0.0  -90.0  
+1.1  -  100.0  0.0  -90.0  
+1.2  -  100.0  0.0  -90.0  
+1.3  -  100.0  0.0  -90.0  
+2.0  2.1  21.86  270.0  0.0  
+2.0  2.2  26.38  226.56  0.0  
+2.0  2.3  17.96  0.0  0.0 
+
+endcentreline
+endsurvey
+

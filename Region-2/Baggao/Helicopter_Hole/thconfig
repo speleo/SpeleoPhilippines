@@ -28,7 +28,7 @@ layout local
   scale 1 1500
   base-scale 1 500
   scale-bar 100 m
-  debug off
+  debug on
   map-header 0 0 ne
   #symbol-hide group cave-centreline
   

@@ -27,7 +27,7 @@ layout local
 #copy scalebar_large_format
 #copy legend_large_format
 #copy legend_large_format_20U
-#copy grid_2_continuous
+ copy grid_2_continuous
 #copy bats
 legend on
   debug off

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>http://pk-sofia.com/images/stories/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>http://pk-sofia.com/images/stories/KmlIconModel.png</href> </Icon>
+<name><![CDATA[doline]]></name>
+<description><![CDATA[Length 232 m<br>Depth 100 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Helicopter]]></name>
+<Point> <coordinates>122.01226189633898,18.02233235862060,394.00000000000000</coordinates> </Point>
+</Placemark>
+<Placemark>
+<name>1.0</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,394.00000000000000 	122.01226189633898,18.02233235862060,394.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,394.00000000000000 	122.01205564344568,18.02232281065498,394.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,394.00000000000000 	122.01208942307615,18.02216021724683,394.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,394.00000000000000 	122.01216574359690,18.02246607514607,394.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,394.00000000000000 	122.01226189633898,18.02233235862060,294.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01205564344568,18.02232281065498,394.00000000000000 	122.01205564344568,18.02232281065498,294.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01208942307615,18.02216021724683,394.00000000000000 	122.01208942307615,18.02216021724683,294.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01216574359690,18.02246607514607,394.00000000000000 	122.01216574359690,18.02246607514607,294.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,294.00000000000000 	122.01205564344568,18.02232281065498,294.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,294.00000000000000 	122.01208942307615,18.02216021724683,294.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.01226189633898,18.02233235862060,294.00000000000000 	122.01225371898899,18.02249445009610,294.00000000000000 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</kml>

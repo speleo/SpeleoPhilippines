@@ -1,0 +1,37 @@
+encoding  utf-8
+source doline.th
+# Change name to the main therion file
+
+#Surveys to output
+#-----------------
+
+  export map -proj plan -layout local -o _output\doline.pdf
+  #Produces plan of cave, on a single sheet
+
+  export map -proj extended -layout local -o _output\dolineEe.pdf
+
+  export model -fmt survex -o _output\dolineth.3d
+  #Survex file showing centre line only
+  
+  export map -fmt kml -proj plan -layout local -o .\_output\doline-map.kml
+  export model -fmt kml -o .\_output\doline-model.kml
+
+  export model -o _output\doline.lox
+  #3d therion model to be viewed in the therion viewer
+
+  #export map -proj plan -o _output\doline_Walls.3d
+  #Survex file showing walls only
+
+
+layout local
+#copy scalebar_large_format
+#copy legend_large_format
+#copy legend_large_format_20U
+#copy grid_2_continuous
+#copy bats
+legend on
+  debug on
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
+
+endlayout
