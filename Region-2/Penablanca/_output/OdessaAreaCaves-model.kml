@@ -20,6 +20,10 @@
 <Point> <coordinates>121.83034565521528,17.77426430396598,161.74000000000001</coordinates> </Point>
 </Placemark>
 <Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Python Retreats]]></name>
+<Point> <coordinates>121.83854594284209,17.79122554116949,135.47000000000000</coordinates> </Point>
+</Placemark>
+<Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Pigsty]]></name>
 <Point> <coordinates>121.83125122248072,17.78177464920598,164.00000000000000</coordinates> </Point>
 </Placemark>

@@ -69,9 +69,9 @@ layout henry
 
   code metapost
     
-    #input code/_grid_x_hair_to_continuos_line
-    #input code/_scalebar_large_format
-    #input code/_legend_large_format
+    #input CodeLibrary/_grid_x_hair_to_continuos_line
+    #input CodeLibrary/_scalebar_large_format
+    #input CodeLibrary/_legend_large_format
 
     def a_water (expr p) =
     T:=identity;

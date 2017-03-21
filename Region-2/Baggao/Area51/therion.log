@@ -76,19 +76,19 @@ average distortion: 0.06%
 writing .\_output\area_51.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  28 FEB 2017 09:24
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  18 MAR 2017 23:52
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_small
-_format.mp)
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_water_blue.mp)
-
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_15
-0.mp)
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
-terline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_scaleba
+r_small_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_water_b
+lue.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_north_a
+rrow_150.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_continu
+ous_centerline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
 [Warning: scrap outline intersects itself in scrap s1-entrance_upper_west@Area5
 1] [12] [13] [14] [15] [16] [17] [18] [19] [20] (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
@@ -98,17 +98,17 @@ terline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
 Here is how much of MetaPost's memory you used:
  1414 strings out of 1638
  17420 string characters out of 26823
- 127489 words of memory out of 1500000
+ 126489 words of memory out of 1500000
  1521 symbolic tokens out of 16384
  11i,75n,16p,334b,5f stack positions out of 300i,84n,5000p,390b,15f
- 71 string compactions (moved 976647 characters, 80960 strings)
+ 71 string compactions (moved 976676 characters, 80962 strings)
 50 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  28 FEB 2017 09:24
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  18 MAR 2017 23:52
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -122,7 +122,7 @@ ng>) (./th_pages.tex)
 Here is how much of TeX's memory you used:
  294 strings out of 95617
  2981 string characters out of 1171098
- 238967 words of memory out of 1711945
+ 236442 words of memory out of 1709420
  1701 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
@@ -131,7 +131,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 189109 bytes).
+Output written on data.pdf (1 page, 188124 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
@@ -148,19 +148,19 @@ processing projection extended ... done
 average distortion: 0.01%
 writing .\_output\area_51_elevation.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  28 FEB 2017 09:24
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  18 MAR 2017 23:52
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
 
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_scalebar_small
-_format.mp)
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_water_blue.mp)
-
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_north_arrow_15
-0.mp)
-(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/code/_continuous_cen
-terline.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_scaleba
+r_small_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_water_b
+lue.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_north_a
+rrow_150.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_continu
+ous_centerline.mp)
 [Warning: scrap outline intersects itself in scrap s1SE1@Area51] [1] [2] [3]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
@@ -179,7 +179,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  28 FEB 2017 09:24
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  18 MAR 2017 23:52
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -211,7 +211,7 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 writing xtherion file ... done
-compilation time: 6 sec
+compilation time: 7 sec
 
 
 ###################### scrap distortions #######################

@@ -67,12 +67,12 @@ layout local
 
   code metapost
     
-    #input code/_grid_x_hair_to_continuos_line.mp
-    input code/_scalebar_small_format
-    #input code/_legend_large_format
-    input code/_water_blue
-    input code/_north_arrow_150
-    input code/_continuous_centerline
+    #input CodeLibrary/_grid_x_hair_to_continuos_line.mp
+    input CodeLibrary/_scalebar_small_format
+    #input CodeLibrary/_legend_large_format
+    input CodeLibrary/_water_blue
+    input CodeLibrary/_north_arrow_150
+    input CodeLibrary/_continuous_centerline
        
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);

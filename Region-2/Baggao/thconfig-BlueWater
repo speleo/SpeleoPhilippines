@@ -115,9 +115,9 @@ layout 600
 
   code metapost
     
-    input "C:/Users/henry_bennett/Documents/GitHub\SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
-    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/code/_scalebar_large_format"
-    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/code/_legend_large_format_20U"
+    input "C:/Users/henry_bennett/Documents/GitHub\SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/CodeLibrary/_grid_x_hair_to_continuos_line.mp"
+    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/CodeLibrary/_scalebar_large_format"
+    input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/CodeLibrary/_legend_large_format_20U"
     
     # code to change the colour of the water
     def a_water (expr p) =

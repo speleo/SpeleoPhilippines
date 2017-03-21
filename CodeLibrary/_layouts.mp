@@ -1,13 +1,21 @@
-### index of file options
+### index of file options from _layouts.mp
   #copy custom_water_blue
   #copy custom_entrance_theta
-  #copy custom_northarrow_large
   #copy custom_scalebar_large_format
+  #copy custom_scalebar_medium_format
+  #copy custom_scalebar
   #copy custom_legend_large_format
+  #copy custom_legend_large_format_5U
   #copy custom_legend_large_format_20U
   #copy custom_grid_2_continuous
   #copy custom_centerline_2_continuous
   #copy custom_bats
+  #copy custom_north_arrow_150
+  #copy custom_north_arrow_300
+  #copy custom_north_arrow_600
+  #copy custom_northarrow_large
+  #copy custom_line_doline
+
 
 #############################################################################################################################
 layout custom_water_blue
@@ -35,24 +43,13 @@ layout custom_entrance_theta
   endcode
 endlayout
 
-##############################################################################################################################
-layout custom_northarrow_large
-  code metapost
-    # Re-define North arrow to make it bigger
-    def s_northarrow (expr rot) =
-         T:=identity scaled 0.7 rotated -rot;
-	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
-	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
-    enddef;
-  endcode
-endlayout
 
 #############################################################################################################################
-layout custom_scalebar_large_format
+layout custom_scalebar_large_format_origional
   code metapost
   %  Change the scalebar to this one from this example
   %
-  %  http://therion.speleo.sk/wiki/doku.php/metapost
+  %  https://therion.speleo.sk/wiki/metapost?s[]=scalebar
 
     def s_scalebar (expr l, units, txt) =
       begingroup
@@ -81,6 +78,108 @@ layout custom_scalebar_large_format
 endlayout
 
 #############################################################################################################################
+layout custom_scalebar_large_format
+  code metapost
+  %  Change the scalebar to this one from this example
+  %
+  %  https://therion.speleo.sk/wiki/metapost?s[]=scalebar
+
+    def s_scalebar (expr l, units, txt) =
+      begingroup
+        interim warningcheck:=0;
+        tmpl:=l / Scale * cm * units / 2;
+        tmpx:=l / Scale * cm * units / 5;
+        tmph:=25bp; % bar height
+      endgroup;
+      pickup PenC;
+      draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+      p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+      for i:=-2.5 step 2 until 2:
+        fill p shifted (i * tmpx,0);
+      endfor;
+      begingroup
+        interim labeloffset:=3.5bp;
+        for i:=0 step (l/5) until (l-1):
+          tmpx:=tmpl * (i * 2 / l - 1);
+          label.top(thTEX(decimal (i)) scaled 3.6, (tmpx,0));
+        endfor;
+        label.top(thTEX(decimal (l) & "\thinspace" & txt) scaled 3.6,(tmpl,0));
+        label.bot(thTEX("Original Scale = 1 : " & decimal round(Scale*100)) scaled 5.6, (.6cm,-1.6cm)) ;
+      endgroup;
+    enddef;
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_scalebar_medium_format
+  code metapost
+  %  Change the scalebar to this one from this example
+  %
+  %  https://therion.speleo.sk/wiki/metapost?s[]=scalebar
+  %
+  def s_scalebar (expr l, units, txt) =
+    begingroup
+      interim warningcheck:=0;
+      tmpl:=l / Scale * cm * units / 2;
+      tmpx:=l / Scale * cm * units / 5;
+      tmph:=15bp; % bar height
+    endgroup;
+    pickup PenC;
+    draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+    p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+    for i:=-2.5 step 2 until 2:
+      fill p shifted (i * tmpx,0);
+    endfor;
+    begingroup
+      interim labeloffset:=3.5bp;
+      for i:=0 step (l/5) until (l-1):
+        tmpx:=tmpl * (i * 2 / l - 1);
+          label.top(thTEX(decimal (i)) scaled 1.8, (tmpx,0));
+        endfor;
+        label.top(thTEX(decimal (l) & "\thinspace" & txt) scaled 1.8,(tmpl,0));
+        label.bot(thTEX("Original Scale = 1 : " & decimal round(Scale*100)) scaled 1.8, (.6cm,-1.6cm)) ;
+    endgroup;
+  enddef;
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_scalebar
+  code metapost
+  %  Change the scalebar to this one from this example
+  %
+  %  https://therion.speleo.sk/wiki/metapost?s[]=scalebar
+  %
+  def s_scalebar (expr l, units, txt) =
+    begingroup
+      interim warningcheck:=0;
+      tmpl:=l / Scale * cm * units / 2;
+      tmpx:=l / Scale * cm * units / 5;
+      tmph:=5bp; % bar height
+    endgroup;
+    pickup PenC;
+    draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+    p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+    for i:=-2.5 step 2 until 2:
+      fill p shifted (i * tmpx,0);
+    endfor;
+    begingroup
+      interim labeloffset:=3.5bp;
+      for i:=0 step (l/5) until (l-1):
+        tmpx:=tmpl * (i * 2 / l - 1);
+        label.top(thTEX(decimal (i)),(tmpx,0));
+      endfor;
+      label.top(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,0));
+      label.bot(thTEX("Original Scale = 1 : " & decimal round(Scale*100)),(0,-tmph));
+    endgroup;
+  enddef;
+  endcode
+endlayout
+
+
+#############################################################################################################################
+
+
 layout custom_legend_large_format
   code metapost
     % code to make the legend boxes much bigger
@@ -97,6 +196,36 @@ layout custom_legend_large_format
     %clear the background of the larger legend boxes    
     def clean_legend_box =
         unfill unitsquare scaled 10u;
+    enddef;
+    
+    %change the value of inscale to fill the legend boxes
+    def inscale = 
+        xscaled legend_scale yscaled (0.618*legend_scale)
+        %xscaled legend_scale yscaled legend_scale
+     enddef;
+
+  endcode
+endlayout
+
+#############################################################################################################################
+
+
+layout custom_legend_large_format_5U
+  code metapost
+    % code to make the legend boxes much bigger
+    %  
+    def draw_legend_box =
+        %make the objects in the legend boxes bigger
+        currentpicture := currentpicture scaled 1.7;
+        clip currentpicture to unitsquare scaled 5u;
+        drawoptions();
+        pickup PenB;
+        draw unitsquare scaled 5u ;
+    enddef;
+
+    %clear the background of the larger legend boxes    
+    def clean_legend_box =
+        unfill unitsquare scaled 5u;
     enddef;
     
     %change the value of inscale to fill the legend boxes
@@ -257,3 +386,121 @@ layout custom_bats
   endcode
 endlayout
 
+#############################################################################################################################
+
+layout custom_north_arrow_150
+  code metapost
+    % code to make a groovy North Arrow
+    %
+
+    def s_northarrow (expr rot) =
+      T:=identity;
+      picture tmp_pic;
+      tmp_pic = image (
+        begingroup
+          interim defaultscale:=13;
+          label.top("N", origin shifted (0,22cm));
+        endgroup;
+        thdraw (-4cm,4cm)--(0,20cm)--(4cm,4cm)--(20cm,0cm)--(4cm,-4cm)--(0,-20cm)--(-4cm,-4cm)--(-20cm,0)--cycle;
+        thfill (-4cm,4cm)--(0,20cm)--(0,0)--cycle;
+        thfill (4cm,-4cm)--(0,-20cm)--(0,0)--cycle;
+        thfill (4cm,4cm)--(20cm,0)--(0,0)--cycle;
+        thfill (-4cm,-4cm)--(-20cm,0)--(0,0)--cycle;
+      );
+      draw tmp_pic scaled 0.15 rotatedaround(origin, -rot);
+    enddef; 
+  endcode
+endlayout
+
+#############################################################################################################################
+
+layout custom_north_arrow_300
+  code metapost
+    % code to make a groovy North Arrow
+    %
+
+    def s_northarrow (expr rot) =
+      T:=identity;
+      picture tmp_pic;
+      tmp_pic = image (
+        begingroup
+          interim defaultscale:=13;
+          label.top("N", origin shifted (0,22cm));
+        endgroup;
+        thdraw (-4cm,4cm)--(0,20cm)--(4cm,4cm)--(20cm,0cm)--(4cm,-4cm)--(0,-20cm)--(-4cm,-4cm)--(-20cm,0)--cycle;
+        thfill (-4cm,4cm)--(0,20cm)--(0,0)--cycle;
+        thfill (4cm,-4cm)--(0,-20cm)--(0,0)--cycle;
+        thfill (4cm,4cm)--(20cm,0)--(0,0)--cycle;
+        thfill (-4cm,-4cm)--(-20cm,0)--(0,0)--cycle;
+      );
+      draw tmp_pic scaled 0.25 rotatedaround(origin, -rot);
+    enddef;    
+  endcode
+endlayout
+
+#############################################################################################################################
+
+
+layout custom_north_arrow_600
+  code metapost
+    % code to make a groovy North Arrow
+    %
+
+    def s_northarrow (expr rot) =
+      T:=identity;
+      picture tmp_pic;
+      tmp_pic = image (
+        begingroup
+          interim defaultscale:=13;
+          label.top("N", origin shifted (0,22cm));
+        endgroup;
+        thdraw (-4cm,4cm)--(0,20cm)--(4cm,4cm)--(20cm,0cm)--(4cm,-4cm)--(0,-20cm)--(-4cm,-4cm)--(-20cm,0)--cycle;
+        thfill (-4cm,4cm)--(0,20cm)--(0,0)--cycle;
+        thfill (4cm,-4cm)--(0,-20cm)--(0,0)--cycle;
+        thfill (4cm,4cm)--(20cm,0)--(0,0)--cycle;
+        thfill (-4cm,-4cm)--(-20cm,0)--(0,0)--cycle;
+      );
+      draw tmp_pic scaled 0.5 rotatedaround(origin, -rot);
+    enddef;   
+  endcode
+endlayout
+
+##############################################################################################################################
+layout custom_northarrow_large
+  code metapost
+    # Re-define North arrow to make it bigger
+    def s_northarrow (expr rot) =
+         T:=identity scaled 0.7 rotated -rot;
+	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
+	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
+    enddef;
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_line_doline
+  code metapost
+   def l_u_doline (expr P) =
+    T:=identity;
+    laenge:= arclength P;
+    symsize:=adjust_step(laenge,2u);
+    triangle_width:=symsize/10;
+    cur:=(symsize-triangle_width)/2;
+    pickup PenC;
+    forever:
+      t1 := arctime (cur) of P;
+      t  := arctime (cur + triangle_width/2) of P;
+      t2 := arctime (cur + triangle_width) of P;
+        thfill (subpath (t1,t2) of P) -- 
+          ((point t of P) + symsize/2 * unitvector(thdir(P,t) rotated 90)) -- 
+          cycle;
+        thdraw (point t2 of P) --((point t of P) + symsize/2 * unitvector(thdir(P,t) rotated 90)) -- 
+          (point t1 of P) withcolor (0.5, 0, 0);
+      cur := cur + symsize;
+      exitif cur > laenge - (1*symsize/3); % for rounding errors
+      t1:=arctime (cur) of P;
+    endfor;
+  enddef;
+  endcode
+endlayout
+#############################################################################################################################  

@@ -138,7 +138,7 @@ point 429.0 -1034.5 station -name 3.2
 
 point 394.0 -1042.5 station -name 3.1
 
-line label -text [Lies, Lies, and Damn Lies]
+line label -reverse on -text [Lies, Lies, and Damn Lies]
   270.0 -599.0
   252.0 -626.0 205.0 -686.0 192.0 -725.0
   179.0 -764.0 171.0 -831.0 181.0 -868.0

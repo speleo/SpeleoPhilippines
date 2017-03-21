@@ -14,7 +14,7 @@ survey HeadlessChicken
   map HeadlessChickenM
     marthaM@martha
     MARTHA-2M@MARTHA-2
-    break
+      break
     martha_inletM@martha_inlet [-20 10 m] above
   endmap
 

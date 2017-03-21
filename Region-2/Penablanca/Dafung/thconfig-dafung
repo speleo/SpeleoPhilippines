@@ -3,7 +3,7 @@ source Dafung.th
 
 ### choose which exports to use
   export map -proj plan -layout local-dafung -o _output/Dafung.pdf
-  #export map -proj plan -layout local        -o _output/Dafung-2jpg.pdf
+  export map -proj plan -layout rotate90     -o _output/Dafung90.pdf
 
   #export model -fmt kml -o _output/Dafung.kml
   #export map -fmt kml -proj plan -layout local -o _output/Dafung_map.kml
@@ -12,7 +12,7 @@ source Dafung.th
   #Survex file showing centre line only
   #export model -fmt survex -o _output/Dafung-survex.3d
 
-  export model -o _output/Dafung.lox
+  #export model -o _output/Dafung.lox
 
 
 #inject standard code for layouts
@@ -22,29 +22,41 @@ source Dafung.th
   input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
 
 layout local-dafung
-  copy custom_water_blue
-  copy custom_entrance_theta
-  copy custom_northarrow_large
-  copy custom_scalebar_large_format
-  #copy custom_legend_large_format
+
+  ### index of file options from _layouts.mp
+   copy custom_water_blue
+   copy custom_entrance_theta
+  #copy custom_northarrow_large
+   copy custom_scalebar_large_format
+  #copy custom_scalebar
+   copy custom_legend_large_format
+  #copy custom_legend_large_format_5U
   #copy custom_legend_large_format_20U
-  copy custom_grid_2_continuous
-  copy custom_centerline_2_continuous
-  copy custom_bats 
-  
-  copy custom_colorlegendbox
-  copy custom_legendsymbolbox
-  copy custom_title_area_format
+   copy custom_grid_2_continuous
+   copy custom_centerline_2_continuous
+   copy custom_bats
+  #copy custom_north_arrow_150
+   copy custom_north_arrow_300
+  #copy custom_north_arrow_600
+
+  ### index of file options from _layouts.tex
+   copy custom_colorlegendbox
+   copy custom_legendsymbolbox
+   copy custom_title_area_format
+  #copy custom_title_area_format_1000
   #copy custom_logos
   
-  copy custom_symbols
-  copy custom_color
+  ### index of file options from _layouts.thc
+   copy custom_symbols
+   copy custom_color
   #copy custom_large_odessa
+  #copy custom_small_odessa
   
   legend on
   legend-columns 2
   legend-width 45 cm
   colour-legend on
+  scale-bar 100 m
 
   doc-author   "Henry Bennett"
   doc-keywords "Odessa Cave Penablanca Philippines"
@@ -52,7 +64,7 @@ layout local-dafung
   doc-title    "Odessa Cave Survey Bristol Exploration Club 2016"
 
   
-  map-comment "Penablanca, Cagayan<br>51Q 376674.73m E 1966124.98 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-comment "Penablanca, Cagayan<br>51Q 377280.87 m E 1966711.40 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
   #map-image 50 50 ne images\sitckers-type4.jpg
   #map-image 50 35 nw images\BertieBat.png
   #map-image 80 35 nw images\bc_logo_2266xp.png
@@ -91,7 +103,7 @@ layout local-dafung
   \cavename={Dafung}
   \def\maplayout{
     \legendbox{05}{97}{NW}{
-      \legendwidth 60 cm
+      \legendwidth 65 cm
       \the\legendcontent
       }
     \legendbox{05}{84}{NW}{
@@ -106,6 +118,9 @@ layout local-dafung
       \hsize=\legendwidth
       \input th_legendcolor
       }
+    \legendbox{12} {59} {nw} {\loadpicture{images/Logo_BEC_1500.png}}
+    \legendbox{33} {60} {nw} {\loadpicture{images/Logo_GaiaEC_1000.jpg}}
+    \legendbox{42} {60} {nw} {\loadpicture{images/Logo_SMOC_1450.png}}
   }
 
   endcode #end of TeX code
@@ -114,16 +129,54 @@ endlayout
 
 
 
-layout local
-  scale 1 1500
-  base-scale 1 1500
+layout rotate90
+  rotate 90
+  scale 1 1000
+  base-scale 1 1000
   scale-bar 100 m
-
-  copy custom_color
   
-  symbol-set BCRA
-  symbol-hide group cave-centreline
-  symbol-assign line slope SKBB
+  ### index of file options from _layouts.mp
+   copy custom_water_blue
+   copy custom_entrance_theta
+  #copy custom_northarrow_large
+  #copy custom_scalebar_large_format
+   copy custom_scalebar
+  #copy custom_legend_large_format
+   copy custom_legend_large_format_5U
+  #copy custom_legend_large_format_20U
+   copy custom_grid_2_continuous
+   copy custom_centerline_2_continuous
+   copy custom_bats
+   copy custom_north_arrow_150
+  #copy custom_north_arrow_300
+  #copy custom_north_arrow_600
+
+  ### index of file options from _layouts.tex
+  #copy custom_colorlegendbox
+  #copy custom_legendsymbolbox
+  #copy custom_title_area_format
+   copy custom_title_area_format_1000
+  #copy custom_logos
+  
+  ### index of file options from _layouts.thc
+   copy custom_symbols
+   copy custom_color
+  #copy custom_large_odessa
+  #copy custom_small_odessa
+
+  legend off
+  legend-columns 2
+  legend-width 45 cm
+  colour-legend on
+
+  doc-author   "Henry Bennett"
+  doc-keywords "Dafung Cave Penablanca Philippines"
+  doc-subject  "Survey of Dafung Cave 2016"
+  doc-title    "Dafung Cave Survey Bristol Exploration Club 2016"
+
+  
+  map-comment "Penablanca, Cagayan<br>51Q 377280.87 m E 1966711.40 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+
 
 ###################################################################
 #
@@ -140,7 +193,7 @@ layout local
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,10,14,20); 
+    fonts_setup(6,8,10,24,30); 
   endcode
   
 #################################################################
@@ -156,16 +209,25 @@ layout local
   code tex-map
   \cavename={Dafung}
   \def\maplayout{
-    \legendbox{02}{97}{NW}{
-      \legendwidth 10 cm
+    \legendbox{55}{97}{NW}{
+      \legendwidth 30 cm
       \the\legendcontent
       }
     \legendbox{05}{84}{NW}{
       \legendwidth 65 cm
-      \legendtextsize={\size[42]}
+      \legendtextsize={\size[20]}
       \hsize=\legendwidth
       \input th_legend
       }
+    \legendbox{05}{85}{NW}{
+      \legendwidth 65 cm
+      \legendtextsize={\size[20]}
+      \hsize=\legendwidth
+      \input th_legendcolor
+      }
+    \legendbox{15} {5} {nw} {\loadpicture{images/Logo_BEC_300.png}}
+    \legendbox{23} {4} {nw} {\loadpicture{images/Logo_GaiaEC_150.jpg}}
+    \legendbox{30} {5} {nw} {\loadpicture{images/Logo_SMOC_500.png}}
   }
 
   endcode #end of TeX code

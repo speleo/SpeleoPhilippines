@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 12078.0787401517 39799.5748031577
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -144.0 12078.0787401517 39799.5748031577
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {9329.936929129999 1 1.0} {23271.6041732 1.4} PocketTopo/dafung-cave1_p.xvi 0 {}
 
 
@@ -219,7 +219,7 @@ point 7082.17692913 32375.5641732 station -name 1.25
 
 point 7985.48692913 30539.7641732 station -name 1.24
 
-line label -text Downstream -scale l
+line label -reverse on -text Upstream -scale l
   6524.0 38556.0
   6524.0 38556.0 6732.0 37196.0 6748.0 37036.0
   6764.0 36876.0 7016.0 35584.0 7040.0 35532.0
@@ -229,7 +229,7 @@ line label -text Downstream -scale l
   smooth off
 endline
 
-line label -text Downstream -scale l
+line label -reverse on -text Downstream -scale l
   11412.0 27000.0
   11412.0 27000.0 11772.0 25892.0 11800.0 25468.0
   11822.67 25124.73 11776.0 24792.0 11724.0 24456.0
@@ -240,7 +240,7 @@ endline
 line wall
 endline
 
-point 9796.0 29440.0 label -text Dafung<br>Entrance -scale xl -align right
+point 10048.0 29448.0 label -text Dafung<br>Entrance -scale xl -align right
 
 point 8594.56692913 28856.6141732 station -name 1.0
 

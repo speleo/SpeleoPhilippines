@@ -2,6 +2,381 @@ therion 5.3.16 (beta Vladimir)
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig-odessa
-reading ...
-C:\Program Files (x86)\Therion\therion.exe: error -- thconfig-odessa [21] -- can't open file for input -- ..\..\..\CodeLibrary\_translations.txt
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM51
+meridian convergence (deg): 0.3560
+geomag declinations (deg):
+  1992.1.1  -1.6611
+  1993.1.1  -1.6805
+  1994.1.1  -1.6998
+  1995.1.1  -1.7191
+  1996.1.1  -1.7361
+  1997.1.1  -1.7531
+  1998.1.1  -1.7702
+  1999.1.1  -1.7872
+  2000.1.1  -1.8042
+  2001.1.1  -1.8355
+  2002.1.1  -1.8668
+  2003.1.1  -1.8981
+  2004.1.1  -1.9294
+  2005.1.1  -1.9608
+  2006.1.1  -2.0069
+  2007.1.1  -2.0530
+  2008.1.1  -2.0991
+  2009.1.1  -2.1452
+  2010.1.1  -2.1914
+  2011.1.1  -2.2717
+  2012.1.1  -2.3519
+  2013.1.1  -2.4321
+  2014.1.1  -2.5124
+  2015.1.1  -2.5926
+  2016.1.1  -2.6819
+  2017.1.1  -2.7712
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.40%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
+ 3> 
+ 4> Survey contains 9652 survey stations, joined by 9654 shots.
+ 5> There are 6 loops.
+ 6> Survey has 4 connected components.
+ 7> Total length of survey shots = 50933.41m (50932.06m adjusted)
+ 8> Total plan length of survey shots = 47576.99m
+ 9> Total vertical length of survey shots = 8637.39m
+10> Vertical range = 114.83m (from 4 at 214.30m to 9615 at 99.47m)
+11> North-South range = 2102.87m (from 9642 at 1967598.24m to 3170 at 1965495.37m)
+12> East-West range = 1102.75m (from 7603 at 377020.64m to 2688 at 375917.89m)
+13> 8683 1-nodes.
+14>   77 2-nodes.
+15>   18 3-nodes.
+16>   26 4-nodes.
+17>   42 5-nodes.
+18>  164 6-nodes.
+19>   45 7-nodes.
+20>   71 8-nodes.
+21>   72 9-nodes.
+22>   70 10-nodes.
+23>   39 11-nodes.
+24>   38 12-nodes.
+25>   36 13-nodes.
+26>   39 14-nodes.
+27>   34 15-nodes.
+28>   25 16-nodes.
+29>   20 17-nodes.
+30>   25 18-nodes.
+31>   14 19-nodes.
+32>   17 20-nodes.
+33>    7 21-nodes.
+34>   13 22-nodes.
+35>    9 23-nodes.
+36>    8 24-nodes.
+37>   10 25-nodes.
+38>    6 26-nodes.
+39>   10 27-nodes.
+40>    5 28-nodes.
+41>    5 29-nodes.
+42>    3 30-nodes.
+43>    2 31-nodes.
+44>    2 32-nodes.
+45>    5 33-nodes.
+46>    2 35-nodes.
+47>    2 37-nodes.
+48>    1 39-node.
+49>    1 42-node.
+50>    2 45-nodes.
+51>    1 46-node.
+52>    1 47-node.
+53>    1 50-node.
+54>    1 51-node.
+55> 
+######################### transcription ########################
+ 4> 9652 : -@tumbali-day1-c2.Odessa
+ 5> 6 : 1.1@odessa-entrance.Odessa
+ 6> 4 : -@odessa-entrance.Odessa
+10> 4 : -@odessa-entrance.Odessa -- 9615 : -@tumbali-day1-c2.Odessa
+11> 9642 : -@tumbali-day1-c2.Odessa -- 3170 : -@Daquioag.Daquioag_Branch.Odessa
+12> 7603 : -@Python.Odessa -- 2688 : -@Daquioag.Daquioag_Branch.Odessa
+13> 8683 : -@catcheel.Odessa
+14> 77 : -@odessa-entrance.Odessa
+15> 18 : -@odessa-entrance.Odessa
+16> 26 : -@odessa-entrance.Odessa
+17> 42 : -@odessa-entrance.Odessa
+18> 164 : -@odessa-entrance.Odessa
+19> 45 : 1.6@odessa-entrance.Odessa
+20> 71 : -@odessa-entrance.Odessa
+21> 72 : -@odessa-entrance.Odessa
+22> 70 : -@odessa-entrance.Odessa
+23> 39 : -@odessa-entrance.Odessa
+24> 38 : -@odessa-entrance.Odessa
+25> 36 : 1.4@odessa-entrance.Odessa
+26> 39 : -@odessa-entrance.Odessa
+27> 34 : -@odessa-entrance.Odessa
+28> 25 : -@odessa-entrance.Odessa
+29> 20 : -@odessa-entrance.Odessa
+30> 25 : -@odessa-entrance.Odessa
+31> 14 : -@odessa-entrance.Odessa
+32> 17 : -@odessa-entrance.Odessa
+33> 7 : 1.2@odessa-entrance.Odessa
+34> 13 : -@odessa-entrance.Odessa
+35> 9 : -@odessa-entrance.Odessa
+36> 8 : -@odessa-entrance.Odessa
+37> 10 : -@odessa-entrance.Odessa
+38> 6 : 1.1@odessa-entrance.Odessa
+39> 10 : -@odessa-entrance.Odessa
+40> 5 : -@odessa-entrance.Odessa
+41> 5 : -@odessa-entrance.Odessa
+42> 3 : -@odessa-entrance.Odessa
+43> 2 : -@odessa-entrance.Odessa
+44> 2 : -@odessa-entrance.Odessa
+45> 5 : -@odessa-entrance.Odessa
+46> 2 : -@odessa-entrance.Odessa
+47> 2 : -@odessa-entrance.Odessa
+48> 1 : 1.0@odessa-entrance.Odessa
+49> 1 : 1.0@odessa-entrance.Odessa
+50> 2 : -@odessa-entrance.Odessa
+51> 1 : 1.0@odessa-entrance.Odessa
+52> 1 : 1.0@odessa-entrance.Odessa
+53> 1 : 1.0@odessa-entrance.Odessa
+54> 1 : 1.0@odessa-entrance.Odessa
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- thconfig-odessa [17] -- object not found -- "SurfaceM"
+done
+processing projection plan ... done
+average distortion: 0.37%
+writing .\_output\Odessa90.pdf ...
+processing projection none ... done
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  19 MAR 2017 22:04
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[4013] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17]
+[Warning: text scaled down to fit the path in scrap DaquioagSP2@Daquioag.Daquio
+ag_Branch.Odessa]
+[Warning: text scaled down to fit the path in scrap DaquioagSP2@Daquioag.Daquio
+ag_Branch.Odessa]
+[Warning: text scaled down to fit the path in scrap DaquioagSP2@Daquioag.Daquio
+ag_Branch.Odessa] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
+[30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Daquio
+ag_Branch.Odessa] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
+[84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+[99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
+[112] [113] [114] [115]
+[Warning: scrap outline intersects itself in scrap odessa-heavenSP1@odessa-heav
+en.Odessa] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126]
+[127] [128] [129] [130] [131] [132] [133] [134]
+[Warning: scrap outline intersects itself in scrap catcheelSP1@catcheel.Odessa]
+[135] [136] [137] [138]
+[Warning: scrap outline intersects itself in scrap downstream-sumpSP1@downstrea
+m-sump.Odessa] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148]
+[149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161]
+[162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174]
+[175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187]
+[188] [189] [190] [191] [192] [193] [194] [195] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+[209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
+[222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234]
+[235] [236] [237] [238] [239] [240] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2227 strings out of 2233
+ 19962 string characters out of 34452
+ 1002407 words of memory out of 1500000
+ 1532 symbolic tokens out of 16384
+ 11i,75n,16p,598b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 1479 string compactions (moved 25848371 characters, 2606458 strings)
+253 output files written: data.1 .. data.4013
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  19 MAR 2017 22:05
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legend.tex) (./th_legendcolor.tex) <c:/Users/henry_benn
+ett/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_1250.png> <c:/Users/henr
+y_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_GaiaExplorationClub.jp
+g> <c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_SMOC_
+1250.png>) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 626 strings out of 95617
+ 6465 string characters out of 1171098
+ 2210498 words of memory out of 3500000
+ 2033 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 10i,8n,9p,1577b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
+/cmssi10.pfb>
+Output written on data.pdf (1 page, 5048526 bytes).
+PDF statistics:
+ 858 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 2504 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing .\_output\Odessa.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  19 MAR 2017 22:05
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[4013] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17]
+[Warning: text scaled down to fit the path in scrap DaquioagSP2@Daquioag.Daquio
+ag_Branch.Odessa]
+[Warning: text scaled down to fit the path in scrap DaquioagSP2@Daquioag.Daquio
+ag_Branch.Odessa]
+[Warning: text scaled down to fit the path in scrap DaquioagSP2@Daquioag.Daquio
+ag_Branch.Odessa] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
+[30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
+[Warning: text scaled down to fit the path in scrap DaquioagSP1@Daquioag.Daquio
+ag_Branch.Odessa] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
+[84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+[99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
+[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
+[125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+[151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
+[164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176]
+[177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189]
+[190] [191] [192] [193] [194] [195] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+[209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
+[222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234]
+[235] [236] [237] [238] [239] [240] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2225 strings out of 2233
+ 19963 string characters out of 34452
+ 996711 words of memory out of 1500000
+ 1532 symbolic tokens out of 16384
+ 11i,75n,16p,596b,5f stack positions out of 300i,84n,5000p,608b,15f
+ 1458 string compactions (moved 25462434 characters, 2562471 strings)
+253 output files written: data.1 .. data.4013
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  19 MAR 2017 22:05
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legend.tex) (./th_legendcolor.tex)) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 626 strings out of 95617
+ 6465 string characters out of 1171098
+ 2182314 words of memory out of 3500000
+ 2033 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 10i,8n,9p,1577b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion/
+texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/
+cmssi10.pfb>
+Output written on data.pdf (1 page, 4712904 bytes).
+PDF statistics:
+ 852 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 2489 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing .\_output\Odessa-map.kml ... done
+writing .\_output\Odessa-model.kml ... done
+writing .\_output\Odessa-survex.3d ... done
+writing .\_output\Odessa-survex_map.3d ... done
 writing xtherion file ... done
+compilation time: 87 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  9.53%    6.1m   64.5m   7    2.8m   -5.5m    0.0m [2.4@MainWestSide.Odessa - 3.2 - 3.1 - 1.2 - 2.1 - 2.2 - 2.3 - 2.4]
+  3.13%   14.8m  473.6m  27   -3.2m   11.7m   -8.5m [2.6@MainWestSide.Odessa - 2.5 - 2.4 - 3.2 - 3.1 - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 = 4.18@odessa-downstream-9-5.Odessa - 4.17 - 4.16 - 4.15 - 4.14 - 4.13 = 4.13@odessa-entrance.Odessa - 4.12 - 4.11 - 4.10 - 4.9 - 4.8 - 4.7 - 4.6 - 4.5 - 4.4 = 2.6@MainWestSide.Odessa]
+  1.30%    1.0m   73.5m   8    0.4m   -0.8m   -0.2m [9.7@smallloop.Odessa - 9.6 - 9.5 - 9.4 - 9.3 - 9.2 - 9.1 - 9.0 = 8.9@odessa-heaven.Odessa - 8.8 = 9.7@smallloop.Odessa]
+  1.04%   18.7m 1800.1m 198   12.9m   -3.2m  -13.2m [1.0@odessa-entrance.Odessa - 1.2 - 1.3 - 1.4 - 1.5 - 1.6 - 1.7 - 1.8 - 1.9 - 1.10 - 1.28 - 1.29 - 1.30 = 1.66@odessaupday2oliandpete.Daquioag_Branch.Odessa - 1.65 - 1.64 - 1.63 - 1.62 - 1.61 - 1.60 - 1.59 - 1.58 - 1.57 - 1.56 - 1.55 - 1.54 - 1.53 - 1.52 - 1.51 - 1.50 - 1.49 - 1.48 - 1.47 - 1.46 - 1.45 - 1.44 - 1.43 - 1.42 - 1.41 - 1.40 - 1.39 - 1.38 - 1.37 - 1.36 - 1.35 - 1.34 - 1.33 - 1.32 - 1.31 - 1.30 - 1.29 - 1.28 - 1.27 - 1.26 - 1.25 - 1.24 - 1.23 - 1.22 - 1.21 - 1.20 - 1.19 - 1.18 - 1.17 - 1.16 - 1.15 - 1.14 - 1.13 - 1.12 - 1.11 - 1.10 - 1.9 - 1.8 - 1.7 - 1.6 - 1.5 - 1.4 - 1.3 - 1.2 = 51.2@Daquioag.Daquioag_Branch.Odessa - 51.1 - 51.0 - 22.22 - 22.21 - 22.20 - 22.19 - 22.18 - 22.17 - 22.16 - 22.15 - 22.14 - 22.13 - 22.12 - 22.11 - 22.10 - 22.9 - 22.8 - 22.7 - 22.6 - 22.5 - 22.4 - 22.3 - 22.2 - 22.1 - 22.0 - 20.91 - 20.90 - 20.89 - 20.88 - 20.87 - 20.86 - 20.85 - 20.84 - 20.83 - 20.82 - 20.81 - 20.80 - 20.79 - 20.78 - 20.77 - 20.76 - 20.75 - 20.74 - 20.73 - 20.72 - 20.71 - 20.70 - 20.69 - 20.68 - 20.67 - 20.66 - 20.65 - 20.64 - 20.63 - 20.62 - 20.61 - 20.60 - 20.59 - 20.58 - 20.57 - 20.56 - 20.55 - 20.54 - 20.53 - 20.52 - 20.51 - 20.50 - 20.49 - 20.48 - 20.47 - 20.46 - 20.45 - 20.44 - 20.42 - 20.41 - 20.40 - 20.39 - 20.38 - 20.37 - 20.36 - 20.35 - 20.34 - 20.33 - 20.32 - 20.31 - 20.30 - 20.29 - 20.28 - 20.27 - 20.26 - 20.25 - 20.24 - 20.23 - 20.22 - 20.21 - 20.20 - 20.19 - 20.18 - 20.17 - 20.16 - 20.15 - 20.14 - 20.13 - 20.12 - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 1.5 - 1.4 - 1.3 - 1.2 - 1.1 - 1.0]
+  0.30%    0.6m  205.1m  28    0.5m   -0.0m    0.4m [17.9@catcheel.Odessa - 17.8 - 17.7 - 17.6 - 17.5 - 17.4 - 17.3 - 17.2 - 17.1 - 17.0 - 16.10 - 16.9 - 16.8 - 16.7 - 16.6 - 16.5 - 16.4 - 16.3 - 16.2 - 16.1 - 16.0 - 4.61 = 4.61@odessa-downstream-9-5.Odessa - 4.60 - 4.59 - 4.58 - 4.57 - 4.56 - 4.55 - 4.54 = 17.9@catcheel.Odessa]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   1.46%   84.77%  OdessaEntLower@odessa-entrance.Odessa
+   0.27%   82.31%  odessa-downstream-9-5SP1@odessa-downstream-9-5.Odessa
+   4.41%   81.02%  odessa-up-loopSP2@odessa-up-loop.Daquioag_Branch.Odessa
+   0.10%   78.01%  odessa-lower-sewerSP1@odessa-lower-sewer.Odessa
+   0.34%   74.85%  catcheelSP1@catcheel.Odessa
+   0.90%   74.38%  odessa-up-side-3SP1@odessa-up-side-3.Daquioag_Branch.Odessa
+   0.17%   70.99%  downstream-sumpSP1@downstream-sump.Odessa
+   5.39%   65.77%  odessa-up-loop-28d3-36d3SP1@odessa-up-loop-28d3-36d3.Daquioag_Branch.Odessa
+   0.30%   64.00%  DaquioagSP1@Daquioag.Daquioag_Branch.Odessa
+   0.87%   59.91%  odessa-up-side-2SP1@odessa-up-side-2.Daquioag_Branch.Odessa
+   1.04%   55.80%  odessa-up-side-1SP1@odessa-up-side-1.Daquioag_Branch.Odessa
+   8.34%   55.00%  MainWestSideSP1@MainWestSide.Odessa
+   0.04%   52.29%  DiasLightSP@Python.Odessa
+   0.30%   51.02%  odessaupday2oliandpeteSP1@odessaupday2oliandpete.Daquioag_Branch.Odessa
+   0.07%   45.99%  odessa-up-loopSP1@odessa-up-loop.Daquioag_Branch.Odessa
+   0.65%   45.80%  odessa-up-crawlleadSP1@odessa-up-crawllead.Daquioag_Branch.Odessa
+   0.15%   39.21%  SewerSouth@SewerSouth.Odessa
+   0.39%   34.37%  smallloopSP1@smallloop.Odessa
+   0.15%   32.68%  odessa-heavenSP1@odessa-heaven.Odessa
+   0.30%   28.03%  oxbow-up-20-04SP1@oxbow-up-20-04.Daquioag_Branch.Odessa
+   0.90%   25.08%  Main2SewerSP1@Main2Sewer.Odessa
+   0.08%   21.88%  SewerNorthTopSP1@SewerNorthTop.Odessa
+   0.10%   17.87%  seriouscavingupstreamSP1@seriouscavingupstream.Daquioag_Branch.Odessa
+   0.95%   16.97%  SewerNorthSide@SewerNorthSide.Odessa
+   0.37%   12.14%  odessa-entranceSP1@odessa-entrance.Odessa
+   0.17%    2.17%  DaquioagSP2@Daquioag.Daquioag_Branch.Odessa
+   0.07%    1.03%  LowerLevel@tumbali-day1-c2.Odessa
+   0.06%    0.70%  UpperLevel@tumbali-day1-c2.Odessa
+   0.06%    0.64%  OdessaEntSide@odessa-entrance.Odessa
+   0.02%    0.29%  DL_PythonSP@Python.Odessa
+   0.02%    0.25%  shepherdSP1@shepherd.Odessa
+   0.02%    0.16%  Dry_EntranceSP@Python.Odessa
+   0.03%    0.15%  OdessaEntLowSide@odessa-entrance.Odessa
+   0.01%    0.14%  PythonSP@Python.Odessa
+   0.02%    0.13%  PythonRetreatSP@Python.Odessa
+################### end of scrap distortions ###################

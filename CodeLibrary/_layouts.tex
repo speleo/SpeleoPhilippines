@@ -1,7 +1,9 @@
-### index of file options
+### index of file options from _layouts.tex
   #copy custom_colorlegendbox
   #copy custom_legendsymbolbox
   #copy custom_title_area_format
+  #copy custom_title_area_format_20
+  #copy custom_title_area_format_1000
   #copy custom_logos
 
 #############################################################################################################################
@@ -86,6 +88,102 @@ layout custom_title_area_format
       \fi
       \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
         {\size[44]\ss\the\copyrights\par}
+      \fi
+     }
+  }
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_title_area_format_20
+  code tex-map
+  \copyrights={Copyleft Creative Commons ShareAlike}
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+  # \legendbox{0} {100} {S} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+  # \legendbox{40} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_BEC_1250.png}}
+  # \legendbox{55} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/Logo_BC_1250.png}}
+  # \legendbox{60} {5} {nw} {\loadpicture{C:/Users/Dell/Documents/Philippines/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_SMOC_1250.png}}
+  
+  #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
+    \legendcontent={%
+      \hsize=\legendwidth
+      #\ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+         {\size[44]\the\cavename} \vskip1cm
+      \fi
+      \ifscalebar\scalebar\vskip1cm\fi
+      {\rightskip=0pt plus 3em\parskip=3bp
+        \edef\tmp{\the\comment} \ifx\tmp\empty \else
+           {\size[20]\the\comment} \par\medskip
+         \fi
+      \everypar{\hangindent=2em\hangafter=1}
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\size[20]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\size[20]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\size[20]\si\the\explotitle:
+        \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+        {\size[20]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+      \fi
+      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+        {\size[20]\si\the\cartotitle:
+        \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\size[20]\ss\the\copyrights\par}
+      \fi
+     }
+  }
+  endcode
+endlayout
+
+#############################################################################################################################
+layout custom_title_area_format_1000
+  code tex-map
+  \copyrights={Copyleft Creative Commons ShareAlike}
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+  # \legendbox{0} {100} {S} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
+  # \legendbox{40} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_BEC_1250.png}}
+  # \legendbox{55} {5} {nw} {\loadpicture{C:/Users/henry_bennett/Documents/Personal/2015/Speleo Philippines/Registry Repository/Project/bluewater-v6/images/Logo_BC_1250.png}}
+  # \legendbox{60} {5} {nw} {\loadpicture{C:/Users/Dell/Documents/Philippines/GitHub/philippine-surveys-2015/bluewater-v7/images/Logo_SMOC_1250.png}}
+  
+  #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
+    \legendcontent={%
+      \hsize=\legendwidth
+      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+         {\size[60]\the\cavename} \vskip1cm
+      \fi
+      \ifscalebar\scalebar\vskip1cm\fi
+      {\rightskip=0pt plus 3em\parskip=3bp
+        \edef\tmp{\the\comment} \ifx\tmp\empty \else
+           {\size[20]\the\comment} \par\medskip
+         \fi
+      \everypar{\hangindent=2em\hangafter=1}
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\size[20]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\size[20]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\size[20]\si\the\explotitle:
+        \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+        {\size[20]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+      \fi
+      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+        {\size[20]\si\the\cartotitle:
+        \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\size[20]\ss\the\copyrights\par}
       \fi
      }
   }

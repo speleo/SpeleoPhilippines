@@ -21,9 +21,16 @@ source martha.th
 
   #export map -proj plan -o _output\martha_Walls.3d
   #Survex file showing walls only
+  
+#inject standard code for layouts
+  input ..\..\..\..\CodeLibrary\_translations.txt
+  input ..\..\..\..\CodeLibrary\_layouts.mp
 
 layout local
-  debug off
+  debug on
+  copy custom_centerline_2_continuous
+
+  scale 1 20
   map-header 0 0 ne
-  symbol-hide group cave-centreline
+  #symbol-hide group cave-centreline
 endlayout

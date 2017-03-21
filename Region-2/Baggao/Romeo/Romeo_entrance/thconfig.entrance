@@ -81,9 +81,9 @@ layout local
 
   code metapost
     
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_grid_x_hair_to_continuos_line.mp"
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_scalebar_large_format"
-    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/code/_legend_large_format"
+    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/CodeLibrary/_grid_x_hair_to_continuos_line.mp"
+    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/CodeLibrary/_scalebar_large_format"
+    #input "C:/Users/henry_bennett/Documents/GitHub/philippine-surveys-2015/bluewater-v7/CodeLibrary/_legend_large_format"
     
     
     # code to change the colour of the water

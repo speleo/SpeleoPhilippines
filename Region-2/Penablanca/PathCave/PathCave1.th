@@ -24,6 +24,11 @@ copyright 2016 "GNU GPL"
   team "Alison Moody" instruments
 
   instrument  instruments "UBSS DistoX1"
+  cs EPSG:32651
+  # not sure which is the correct station to pin
+  fix 1.0 376114.86 1966428.12 164
+  station 1.0 "Pigsty" entrance
+  
   station 1.0 "Path Cave" entrance  
 
 data normal from to tape compass clino ignoreall

@@ -198,7 +198,7 @@ line wall -id l44-1643-4156 -subtype unsurveyed
   smooth off
 endline
 
-line label -text [The Sewer] -scale xl
+line label -reverse on -text [The Sewer] -scale xl
   2354.0 5530.0
   2346.0 5482.0 2248.0 3770.0 2242.0 3708.0
   2236.0 3646.0 3086.0 1306.0 3098.0 1266.0

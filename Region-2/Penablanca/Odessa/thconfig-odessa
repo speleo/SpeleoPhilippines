@@ -4,8 +4,9 @@ source Odessa.th
 select odessa-all-maps@Odessa
 
 ### choose which exports to use
-  export map -proj plan -layout odessa-rotate -o .\_output\Odessa.pdf
-  export map -fmt kml -proj plan -layout local-odessa -o .\_output\Odessa-map.kml
+  export map -proj plan -layout odessa-rotate -o .\_output\Odessa90.pdf
+  export map -proj plan -layout local -o .\_output\Odessa.pdf
+  export map -fmt kml -proj plan -layout local -o .\_output\Odessa-map.kml
   export model -fmt kml -o .\_output\Odessa-model.kml
 
   #Survex file showing centre line only
@@ -23,7 +24,7 @@ select odessa-all-maps@Odessa
   input ..\..\..\CodeLibrary\_layouts.tex       # custom tex
   input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts
 
-layout local-odessa
+layout local
   copy custom_water_blue
   copy custom_entrance_theta
   copy custom_northarrow_large
@@ -105,9 +106,10 @@ layout local-odessa
 endlayout
 
 layout odessa-rotate
+  rotate 90
   copy custom_water_blue
   copy custom_entrance_theta
-  copy custom_northarrow_large
+  #copy custom_northarrow_large
   copy custom_scalebar_large_format
   copy custom_legend_large_format
   #copy custom_legend_large_format_20U
@@ -119,6 +121,7 @@ layout odessa-rotate
   copy custom_legendsymbolbox
   copy custom_title_area_format
   #copy custom_logos
+  copy custom_north_arrow_600
   
   copy custom_symbols
   copy custom_large_odessa
@@ -130,10 +133,6 @@ layout odessa-rotate
 
   
   map-comment "Penablanca, Cagayan<br>51Q 376674.73m E 1966124.98 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
-  #map-image 50 50 ne images\sitckers-type4.jpg
-  #map-image 50 35 nw images\BertieBat.png
-  #map-image 80 35 nw images\bc_logo_2266xp.png
-  #map-image 90 15 nw images\CreativeCommonsShareAlike.png
   
 ###################################################################
 #
@@ -164,22 +163,25 @@ layout odessa-rotate
   code tex-map
     \cavename={Odessa-Tumbali System}
     \def\maplayout{
-      \legendbox{05}{97}{NW}{
+      \legendbox{35}{97}{NW}{
         \legendwidth 60 cm
         \the\legendcontent
         }
-      \legendbox{05}{84}{NW}{
+      \legendbox{65}{97}{NW}{
         \legendwidth 65 cm
         \legendtextsize={\size[42]}
         \hsize=\legendwidth
         \input th_legend
         }
-      \legendbox{05}{60}{NW}{
+      \legendbox{05}{40}{NW}{
         \legendwidth 65 cm
         \legendtextsize={\size[42]}
         \hsize=\legendwidth
         \input th_legendcolor
         }
+      \legendbox{35} {59} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+      \legendbox{45} {60} {nw} {\loadpicture{images/Logo_GaiaExplorationClub.jpg}}
+      \legendbox{52} {60} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
     }
   endcode #end of TeX code
 

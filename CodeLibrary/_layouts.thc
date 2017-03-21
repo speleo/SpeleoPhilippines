@@ -1,11 +1,13 @@
-### index of file options
+### index of file options from _layouts.thc
   #copy custom_symbols
+  #copy custom_color
   #copy custom_large_odessa
+  #copy custom_small_odessa
 
 #############################################################################################################################
 layout custom_symbols
   symbol-set BCRA
-  #symbol-hide group cave-centreline
+  symbol-hide group cave-centreline
   symbol-assign line slope SKBB
   symbol-assign area sand AUT
 endlayout

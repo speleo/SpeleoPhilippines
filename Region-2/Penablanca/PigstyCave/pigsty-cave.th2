@@ -78,9 +78,9 @@ line wall -id l18-1470-434 -subtype invisible
   1499.0 450.0
 endline
 
-point 592.0 588.0 label -text Entrance -scale xs -align left
+point 668.0 620.0 label -text Entrance -scale xs -align left
 
-point 2384.0 2364.0 label -text Entrance -scale xs -align right
+point 2132.0 2368.0 label -text Entrance -scale xs -align right
 
 line wall -id l2-2178-1870
   1499.0 450.0
@@ -159,8 +159,6 @@ point 1867.06015748 1667.01401575 station -name 1.2
 point 1998.1301574800002 2009.1040157500001 station -name 1.1
 
 point 1978.74015748 2307.87401575 station -name 1.0
-
-point 1648.0 2900.0 label -text [Pigsty Cave] -scale m
 
 line wall -reverse on -outline none -clip off
   1894.0 2590.0

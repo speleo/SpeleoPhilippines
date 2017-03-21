@@ -11,7 +11,7 @@ survey OdessaAreaCaves
   map OdessaAreaCavesMap
     #survey Odessa
     odessa-all-maps@Odessa
-    HeadlessChickenOverviewM@HeadlessChicken
+    HeadlessChickenM@HeadlessChicken
     pigsty-caveM@pigsty-cave
     MinorSitesM@MinorSites
     DafungM@Dafung

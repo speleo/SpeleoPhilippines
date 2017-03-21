@@ -106,6 +106,12 @@ line wall -id l23-2816-1214 -reverse on
   smooth off
 endline
 
+point 1838.0 248.0 label -scale xs -text cascade -align right
+
+point 2446.0 1696.0 label -scale xs -text [deep mud and<br>waist deep water]
+
+point 2698.0 958.0 label -text [Swamp land] -scale s
+
 line wall -id l22-3108-1358 -reverse on
   1639.0 167.0
   1631.0 186.0 1596.0 250.0 1591.0 267.0
@@ -180,9 +186,26 @@ line pit -id l33-1597-1691
   smooth off
 endline
 
-point 1112.0 756.0 label -text [2m climb] -scale s
+point 524.0 742.0 flowstone
 
-point 1356.0 1864.0 label -text [2m climb] -scale s
+point 468.0 938.0 flowstone
+
+point 414.0 1008.0 flowstone
+
+point 3154.0 1486.0 label -scale xs -align right -text continues<br>low<br>wet
+
+point 1130.0 754.0 label -scale xs -text [climb to<br>high level] -align right
+
+point 1060.0 540.0 label -text [2m climb] -align top-right -scale xs
+
+line label -text [Double Pots] -scale s
+  1316.0 1520.0
+  1316.0 1520.0 1572.0 1338.0 1632.0 1326.0
+  1692.0 1314.0 1964.0 1262.0 2014.0 1282.0
+  smooth off
+endline
+
+point 1356.0 1864.0 label -text [2m climb] -scale xs
 
 area water
   l23-2816-1214
@@ -203,9 +226,9 @@ line border -id l49-1706-210 -subtype invisible
   1639.0 167.0
 endline
 
-point 1630.0 1768.0 label -text [2m climb] -scale xs
+point 1630.0 1768.0 label -scale xs -align right -text 2m<br>climb
 
-point 2030.0 1706.0 label -text [2m climb] -scale xs
+point 2082.0 1440.0 label -scale xs -text 2m<br>climb -align right
 
 line border -id l26-3140-1130 -subtype invisible
   2936.0 1178.0

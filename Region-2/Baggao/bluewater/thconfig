@@ -7,8 +7,8 @@ source .\Surface\surface_10m.th
 #-----------------
 
   #Produces plan of cave, on a single sheet
-  export map -proj plan -layout debug -o .\_output\bluewater.pdf
-  #export map -proj plan -layout local -o .\_output\bluewater.pdf
+  #export map -proj plan -layout debug -o .\_output\bluewater.pdf
+  export map -proj plan -layout local -o .\_output\bluewater.pdf
 
   #export atlas -proj plan -layout local -o .\_output\bluewater-atlas.pdf
 
@@ -32,6 +32,9 @@ source .\Surface\surface_10m.th
 #  change sand fill
 # http://therion.speleo.sk/wiki/doku.php/tbe:wiki6
 
+#inject standard code for layouts
+  input ..\..\..\CodeLibrary\_translations.txt
+  input ..\..\..\CodeLibrary\_layouts.mp
 
 #REDFINE LEGEND & OTHER OUTPUT ELEMENT TEXT
 #==========================================
@@ -39,34 +42,6 @@ source .\Surface\surface_10m.th
 # As this file is called up by an 'input' statement in our standard th-config files placing
 # it here allows us to always have it without putting it in EVERY thconfig file
 
-#text en "area sand"              "darat"
-#text en "climb"                 "umuli" 
-#or agpangatu
-#text en "climb down"            "umulog"
-#text en "swimming"              "aglangoy"
-#text en "cascade"               "agayus a danum"
-#text en "limit of exploration"  "patingga ti panakarukud"
-#text en "altitude"              "kinangatu"
-text en "line wall"                  "diding"
-#text en "column"                "adigi"
-text en "line border"                "alad"
-#text en "area water"                 "danum"
-#text en "height above water level" "kinangatu nga labes ti rukud ti danum"
-#text en "line floor-step"            "floor step<br>pagbaddekan"
-
-#text en "clay flowstone"        "napitak a bato"
-#text en "pebbles"               "babassit a bato"
-#text en "pillar"                "dadakkel nga adigi"
-#text en "flowstone"             "kasla agay-ayus a bato"
-#text en "sump"                  "napitak a nadanum"
-#text en "entrance series"       "agsasarunu nga pagserkan"
-#text en "passage approximate height" "tantiya ti kinangatu ti pagnaan"
-#text en "approximate width"     "tantiya ti kinalawa"
-#text en "water flow"            "ayus ti danum"
-#text en "chimney"               "abut iti ngatu nga paset"
-
-
-#input text_Substitution.txt
 
 layout debug
   #scale 1 500
@@ -134,9 +109,10 @@ layout local
 
   code metapost
     
-    input code/_grid_x_hair_to_continuos_line
-    input code/_scalebar_large_format
-    input code/_legend_large_format
+    input CodeLibrary/_grid_x_hair_to_continuos_line
+    input CodeLibrary/_scalebar_large_format
+    input CodeLibrary/_legend_large_format
+    input CodeLibrary/_north_arrow_150
     
     # code to change the colour of the water
     def a_water (expr p) =
@@ -149,12 +125,7 @@ layout local
         draw p withpen PenD withcolor (0.6, 0.6, 0.6);
     enddef;
     
-    # Re-define North arrow to make it bigger
-    def s_northarrow (expr rot) =
-         T:=identity scaled 0.7 rotated -rot;
-	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
-	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
-    enddef;
+
     
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
@@ -183,13 +154,13 @@ layout local
       \the\legendcontent
       }
     \legendbox{40}{50}{NW}{
-      \legendwidth 65 cm
-      \legendtextsize={\size[42]}
+      \legendwidth 75 cm
+      \legendtextsize={\size[20]}
       \hsize=\legendwidth
       \input th_legend
       }
-  \legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
-  \legendbox{65} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
+  \legendbox{85} {25} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+  \legendbox{88} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
   
     
   }  
@@ -198,7 +169,7 @@ layout local
    #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
     \legendcontent={%
       \hsize=\legendwidth
-      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+      \ifnortharrow\vbox to 0pt {\hskip6cm \line{\hfil\northarrow}\vss}\fi
       \edef\tmp{\the\cavename} \ifx\tmp\empty \else
          {\size[180]\the\cavename} \vskip6cm
       \fi

@@ -114,56 +114,91 @@ processing projection plan ... done
 average distortion: 0.98%
 writing .\_output\bluewater.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 21:48
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  17 MAR 2017 22:15
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1] [2] [3] [4] [5]
+
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_grid_x_
+hair_to_continuos_line.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_scaleba
+r_large_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_legend_
+large_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_north_a
+rrow_150.mp) [1] [2] [3] [4]
 [Warning: scrap outline intersects itself in scrap bluewater-above-climb-1-S2@b
-luewater] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-[20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
+luewater] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[Warning: text scaled down to fit the path in scrap bluewater-above-olympic-poo
+l@bluewater] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
+[Warning: text scaled down to fit the path in scrap bluewater-entrance-olympic-
+pool@bluewater] [26] [27]
 [Warning: scrap outline intersects itself in scrap bluewater-entrance_detail@bl
 uewater]
 [Warning: scrap outline intersects itself in scrap bluewater-entrance_detail@bl
-uewater] [30] [31] [32] [33] [34] [35] [36] [37] (./mptextmp.mp) [38] )
+uewater]
+[Warning: scrap outline intersects itself in scrap bluewater-entrance_detail@bl
+uewater] [28] [29] [30] [31] [32] [33] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+[49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] )
  
 Here is how much of MetaPost's memory you used:
- 1754 strings out of 2233
- 14611 string characters out of 34452
- 227328 words of memory out of 1500000
- 1384 symbolic tokens out of 16384
- 11i,75n,16p,440b,5f stack positions out of 300i,84n,5000p,487b,15f
- 917 string compactions (moved 12731322 characters, 1357833 strings)
-50 output files written: data.1 .. data.4012
+ 1493 strings out of 1638
+ 17773 string characters out of 26823
+ 98841 words of memory out of 1500000
+ 1526 symbolic tokens out of 16384
+ 11i,75n,16p,349b,5f stack positions out of 300i,84n,5000p,390b,15f
+ 195 string compactions (moved 3020249 characters, 256306 strings)
+80 output files written: data.1 .. data.4012
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 21:48
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  17 MAR 2017 22:15
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 96 numeric registers used out of 32768
+(./th_formdef.tex) (./th_pagedef.tex
+Overfull \hbox (170.71652pt too wide) in paragraph at lines 12--12
+[] [] |
+
+\hbox(194.7275+0.0)x995.84645
+.\hbox(0.0+0.0)x0.0
+.\glue 170.71652
+.\hbox(194.7275+0.0)x995.84645, glue set 823.20146fil
+..\glue 0.0 plus 1.0fil
+..\pdfrefxform(194.7275+0.0)x172.64499
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.etc.
+
+(./th_legend.tex) <c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/im
+ages/Logo_BEC_1250.png> <c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippi
+nes/images/Logo_SMOC_1250.png>) (./th_pages.tex)
+ 125 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 293 strings out of 95617
- 2990 string characters out of 1171098
- 508993 words of memory out of 1949971
- 1706 multiletter control sequences out of 15000+50000
- 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 325 strings out of 95617
+ 3225 string characters out of 1171098
+ 172224 words of memory out of 1646202
+ 1735 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 9i,5n,8p,248b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
-Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 587367 bytes).
+ 10i,8n,7p,1719b,97s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
+/cmssi10.pfb>
+Output written on data.pdf (1 page, 2287724 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 204 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 537 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################

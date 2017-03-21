@@ -725,7 +725,7 @@ line wall -id l85-4780-45194 -reverse on
   4634.0 48952.0
 endline
 
-line label -text [Gour Passage] -scale xl
+line label -reverse on -text [Gour Passage] -scale xl
   7340.0 55692.0
   7312.0 55620.0 7184.0 54948.0 7148.0 54816.0
   7112.0 54684.0 6876.0 53980.0 6844.0 53852.0

@@ -13,7 +13,7 @@ select OdessaAreaCavesMap@OdessaAreaCaves
   #Survex file showing centre line only
   #export model -fmt survex -o .\_output\OdessaAreaCaves-survex.3d
   
-  export model -o .\_output\OdessaAreaCaves.lox
+  #export model -o .\_output\OdessaAreaCaves.lox
 
 
 #inject standard code for layouts
@@ -32,6 +32,7 @@ layout local-odessa
   copy custom_grid_2_continuous
   copy custom_centerline_2_continuous
   copy custom_bats 
+  copy custom_line_doline
   
   copy custom_colorlegendbox
   copy custom_legendsymbolbox
@@ -90,13 +91,13 @@ layout local-odessa
       \legendwidth 60 cm
       \the\legendcontent
       }
-    \legendbox{05}{84}{NW}{
+    \legendbox{05}{83}{NW}{
       \legendwidth 65 cm
       \legendtextsize={\size[42]}
       \hsize=\legendwidth
       \input th_legend
       }
-    \legendbox{05}{55}{NW}{
+    \legendbox{05}{35}{NW}{
       \legendwidth 65 cm
       \legendtextsize={\size[42]}
       \hsize=\legendwidth
