@@ -29,8 +29,8 @@ layout local
   scale-bar 20 m
   
   #Foreground color - turn on altitdude to see various heights
-  #colour map-fg [80 80 80]
-  color map-fg altitude
+  colour map-fg [80 80 80]
+  #color map-fg altitude
   #colour map-bg [70 90 70]
   
   language en
@@ -58,7 +58,7 @@ layout local
   legend on
   legend-columns 2
   legend-width 15 cm
-  #colour-legend on
+  colour-legend on
   grid bottom
   grid-coords border
   #sketches on
@@ -133,7 +133,7 @@ layout local
     }
     \formattedlegend
   }  
-    \cavename={Pio Pot}
+    \cavename={Juness (Pio's Pot) }
     \copyrights={Copyleft Creative Commons ShareAlike }
     \def\maplayout{
       \legendbox{10}{93}{NW}{
