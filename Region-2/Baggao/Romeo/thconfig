@@ -18,10 +18,10 @@ export model -fmt kml  -o .\_output\romeo_cave.kml
 export model -fmt survex -o .\_output\romeo_caveth.3d
 #Survex file showing centre line only
 
-#export model -o .\_output\romeo_cave.lox
+export model -o .\_output\romeo_cave.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o .\_output\romeo_cave_Walls.3d
+export map -proj plan -o .\_output\romeo_cave_Walls.3d
 #Survex file showing walls only
 
 layout local

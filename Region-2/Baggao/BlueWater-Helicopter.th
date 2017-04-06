@@ -20,7 +20,7 @@ survey BlueWater-Helicopter
   endcentreline
 
   map map-test
-    #bluewaterM@bluewater
+    bluewaterM@bluewater
     C4HelicopterHoleM@C4HelicopterHole
   endmap
 

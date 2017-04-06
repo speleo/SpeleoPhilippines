@@ -1,18 +1,18 @@
 encoding  utf-8
 source BlueWater-System.th
 
-export map -proj plan -layout local -o .\_output\BlueWater-System.pdf
+#export map -proj plan -layout local -o .\_output\BlueWater-System.pdf
 #export map -fmt kml -proj plan -layout local -o .\_output\BlueWater-System.kml
 export model -fmt kml -o .\_output\BlueWater-System.kml
 
 #Survex file showing centre line only
 export model -fmt survex -o .\_output\bluewater-System-survex.3d
-export model -o .\_output\BlueWater-System.lox
-export model -o .\_output\BlueWater-System -format esri
-export model -o .\_output\BlueWater-System -format dxf
-export model -o .\_output\BlueWater-System.vrml
-export model -o .\_output\BlueWater-System.3dmf
-export model -o .\_output\BlueWater-System.plt
+#export model -o .\_output\BlueWater-System.lox
+#export model -o .\_output\BlueWater-System -format esri
+#export model -o .\_output\BlueWater-System -format dxf
+#export model -o .\_output\BlueWater-System.vrml
+#export model -o .\_output\BlueWater-System.3dmf
+#export model -o .\_output\BlueWater-System.plt
 
 layout local-old
   scale 1 1500

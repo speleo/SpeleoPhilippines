@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 484.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 19.70m (from 20.32@Romeo_1_12 at 19.70m to 1.12@Romeo_1_12 at 0.00m)\nnorth-south range: 216.40m (from 1.12@Romeo_1_12 at 0.00m to 31.14@Romeo_1_12 at -216.40m)\neast-west range: 156.34m (from 33.2@Romeo_1_12 at 56.99m to 34.3@Romeo_1_12 at -99.35m)\nnumber of shots: 337\nnumber of stations: 338"
+xth_cp_data_tree_insert 10 1 1 Romeo_1_12 Romeo_1_12 "" "" "length: 484.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 19.70m (from 20.32@Romeo_1_12 at 19.70m to 1.12@Romeo_1_12 at 0.00m)\nnorth-south range: 216.40m (from 1.12@Romeo_1_12 at 0.00m to 31.14@Romeo_1_12 at -216.40m)\neast-west range: 156.34m (from 33.2@Romeo_1_12 at 56.99m to 34.3@Romeo_1_12 at -99.35m)\nnumber of shots: 337\nnumber of stations: 338"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 94X1 p1 1 Romeo_1_12M Romeo_1_12M@Romeo_1_12 "" ""
+xth_cp_map_tree_insert map 1 95X1 p2 1 Romeo_1_12ME Romeo_1_12ME@Romeo_1_12 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 484 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1490312207
+

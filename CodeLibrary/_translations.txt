@@ -31,3 +31,26 @@
   text en "line rock-edge"       "rock edges<br>gilid na bato sa linyang sinukat"
   text en "line section"         "cross-section<br>"
   text en "line slope"           "slope<br>libis"  
+
+# Bats- kurarapnit 
+#Bats and birds- kurarapnit ken billit
+#Climb- umuli
+#The library- pagbasaan ti libro
+#30m to end- trenta metro agingana punto
+#Water sinks- lababo
+#Swimming in guano- aglangoy diay takki
+#Canal- kanal
+#Assumed flow- kasla agay-ayos
+#Cascade- agay-ayos nga danom
+#Climb down- ag-pababa
+#Continues large and open- dirdiritso nga dakel nga naka-lukat
+#Entrance series- agpa-uneg
+#Pitch- pag-tatderan
+#Presumed connection- kasla konektado
+#Debris- rugit
+#Limit of exploration- hangganan ti pagsaliksik
+#Old inlet- dati nga intrada
+#Potential high level  passage over canal- mabalin nga pagdalanan ti kanal
+#Waterfall- danom nga ag-pababa
+#Strong draught- nalam-eg ti angin
+#Pitch 100m to surface- maysa nga gasut nga metro ti pag-tadderan anggana diay ngato

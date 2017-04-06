@@ -12,13 +12,13 @@ survey C4HelicopterHole
   input doline/doline.th
 
   map C4HelicopterHoleM
-    #Beauty_Above_Pitch_3_Sec_1
-    #Beauty_Above_Pitch_3_Sec_2
+    Beauty_Above_Pitch_3_Sec_1
+    Beauty_Above_Pitch_3_Sec_2
     Beast_Sec_1
-    #Beast_Sec_2
-    #Beast_Sec_3
-    #Beast_Sec_4
-    #Beast_Sec_5
+    Beast_Sec_2
+    Beast_Sec_3
+    Beast_Sec_4
+    Beast_Sec_5
     ##Helicopter_Image_labels
    endmap
 
