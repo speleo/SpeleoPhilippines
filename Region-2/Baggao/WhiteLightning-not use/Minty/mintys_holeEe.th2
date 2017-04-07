@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -824.31 -2045.07 4945.84 12270.42
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1533.68724656 1 1.0} {9257.33423885 1.0} PocketTopo/mintys_hole_e.xvi 0 {}
+
+
+scrap mintys_holeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

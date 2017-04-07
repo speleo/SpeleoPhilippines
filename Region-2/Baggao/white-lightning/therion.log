@@ -1,7 +1,7 @@
 therion 5.3.16 (beta Vladimir)
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-configuration file: thconfig.thc
+configuration file: thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -60,65 +60,70 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-writing ./_output/wl_model.3d ... done
+writing ./_output/whitelightning_minty_model.3d ... done
 processing projection plan ... done
 average distortion: 0.05%
-writing ./_output/wl.pdf ...
+writing ./_output/whitelightning_minty.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  13 MAR 2017 23:48
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  7 APR 2017 01:18
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012]
-[1]
+[4013] [1] [2] [3]
 [Warning: scrap outline intersects itself in scrap wlSP3@white_lightning_data.w
-hite_lightning] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-[16] [17] [18] [19] [20] (./mptextmp.mp) [21] )
+hite_lightning] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [21] [22] [23]
+[24] [25] [26] [27] [28] [29] [30] )
  
 Here is how much of MetaPost's memory you used:
- 1115 strings out of 1162
- 13412 string characters out of 20720
- 79692 words of memory out of 1500000
- 1371 symbolic tokens out of 16384
+ 1380 strings out of 1638
+ 16451 string characters out of 26823
+ 78533 words of memory out of 1500000
+ 1523 symbolic tokens out of 16384
  11i,75n,16p,267b,5f stack positions out of 300i,84n,5000p,312b,15f
- 114 string compactions (moved 1418821 characters, 116271 strings)
-33 output files written: data.1 .. data.4012
+ 58 string compactions (moved 767043 characters, 62640 strings)
+43 output files written: data.1 .. data.4013
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  13 MAR 2017 23:48
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  7 APR 2017 01:18
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 76 numeric registers used out of 32768
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex) <
+c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_400.p
+ng> <c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_SMOC
+_400.png>) (./th_pages.tex)
+ 93 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 273 strings out of 95617
- 2765 string characters out of 1171098
- 65468 words of memory out of 1545446
- 1686 multiletter control sequences out of 15000+50000
- 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 296 strings out of 95617
+ 3023 string characters out of 1171098
+ 63193 words of memory out of 1544171
+ 1703 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 13i,5n,8p,1402b,80s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 76842 bytes).
+Output written on data.pdf (1 page, 141929 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing ./_output/wl.3d ... done
-writing ./_output/wl.lox ........ done
+writing ./_output/whitelightning_minty.3d ... done
+writing ./_output/whitelightning_minty.lox ........ done
 writing xtherion file ... done
-compilation time: 2 sec
+compilation time: 3 sec
 
 
 ###################### scrap distortions #######################

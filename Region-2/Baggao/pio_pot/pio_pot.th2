@@ -290,6 +290,7 @@ line flowstone -reverse on
   2619.0 1424.0 2663.0 1375.0 2674.0 1362.0
   2685.0 1349.0 2722.0 1325.0 2743.0 1323.0
   2764.0 1321.0 2836.0 1307.0 2837.0 1299.0
+  smooth off
 endline
 
 point 2545.0 1616.0 label -align left -text [Climbs down<br>stall bosses]

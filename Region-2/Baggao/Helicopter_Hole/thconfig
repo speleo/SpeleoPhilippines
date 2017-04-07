@@ -9,7 +9,7 @@ source C4HelicopterHole.th
 export map -proj plan -layout local -o .\_output\C4HelicopterHole.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o .\_output\C4HelicopterHoleEe.pdf
+#export map -proj extended -layout local -o .\_output\C4HelicopterHoleEe.pdf
 
 export map -fmt kml -proj plan -layout local -o .\_output\C4HelicopterHole-map.kml
 export model -fmt kml -o .\_output\C4HelicopterHole.kml
