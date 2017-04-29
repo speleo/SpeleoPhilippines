@@ -1,0 +1,7 @@
+encoding  utf-8
+
+source "Rider.th"
+
+export map -proj plan -layout local -o "Rider-plan.pdf"
+
+export map -proj extended -layout local -o "Rider-ee.pdf"

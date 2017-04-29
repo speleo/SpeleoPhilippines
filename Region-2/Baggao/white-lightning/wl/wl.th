@@ -23,6 +23,11 @@ survey white_lightning_data
 centreline
 
   date 2015.04.2
+  
+  cs EPSG:32651
+  fix 1.0 396733.75 1993423.30 455
+  station 1.0 "White Lightning" entrance
+  
   copyright 2015.06.28 "Rich Smith"
   author 2015.06.28 "Rich Smith"
   team "Ruth Allan" instruments

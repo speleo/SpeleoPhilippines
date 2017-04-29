@@ -3,6 +3,9 @@ survey BlueWater-Helicopter
   input bluewater/bluewater.th
   input Helicopter_Hole/C4HelicopterHole.th
   input surface/Bluewater_2.th
+  input BlueWaterTopSink/BlueWater-Sink.th
+  input White-Lightning/WhiteLightning.th
+  
   #input S1/S1.th
   #input Romeo/Romeo.th
   #input WhiteLightning/WhiteLightning.th
@@ -17,6 +20,7 @@ survey BlueWater-Helicopter
 
   centreline
     equate 6.66@C4HelicopterHole 15.57@bluewater
+    equate 16.1@C4HelicopterHole 33.232@whitelightning12.white_lightning
   endcentreline
 
   map map-test

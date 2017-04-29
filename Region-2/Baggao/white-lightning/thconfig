@@ -2,8 +2,10 @@ encoding  utf-8
 source whitelightning.th
 # Change name to the main therion file
 
-select map@white_lightning_data.white_lightning
-select mintys_holeM@mintys_hole.white_lightning
+#select map@white_lightning_data.white_lightning
+#select mintys_holeM@mintys_hole.white_lightning
+#select whitelightning2a.white_lightning
+
 
 
 #Surveys to output
@@ -18,7 +20,7 @@ select mintys_holeM@mintys_hole.white_lightning
   export model -fmt survex -o ./_output/whitelightning_minty.3d
   #Survex file showing centre line only
 
-  export model -o ./_output/whitelightning_minty.lox
+  #export model -o ./_output/whitelightning_minty.lox
   #3d therion model to be viewed in the therion viewer
 
   #export map -proj plan -o ./_output/whitelightning_minty_Walls.3d

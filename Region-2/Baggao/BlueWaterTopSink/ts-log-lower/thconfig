@@ -1,0 +1,27 @@
+encoding  utf-8
+source ts-log-lower.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o .\_output\ts-log-lower.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o .\_output\ts-log-lowerEe.pdf
+
+export model -fmt survex -o .\_output\ts-log-lowerth.3d
+#Survex file showing centre line only
+
+#export model -o .\_output\ts-log-lower.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o .\_output\ts-log-lower_Walls.3d
+#Survex file showing walls only
+
+layout local
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
+endlayout

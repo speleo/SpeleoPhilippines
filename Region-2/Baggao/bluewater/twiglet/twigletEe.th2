@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2967.7 -511.64 17806.18 3069.83
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1796.5222527 1 1.0} {458.691653789 1.0} PocketTopo/twiglet_e.xvi 0 {}
+
+
+scrap twigletSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

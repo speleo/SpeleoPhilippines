@@ -1,28 +1,31 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1348.86m (surface 0.00m, duplicated 0.00m)\nvertical range: 85.92m (from 1.0@lumio.romeo at 467.02m to 1.5@romeo_cathedral.romeo at 381.10m)\nnorth-south range: 514.24m (from 1.98@romeo_entrance.romeo at 1992392.66m to 20.10@fatcamp.romeo at 1991878.42m)\neast-west range: 188.91m (from 1.79@romeo_entrance.romeo at 398256.54m to 20.10@fatcamp.romeo at 398067.63m)\nnumber of shots: 904\nnumber of stations: 909"
-xth_cp_data_tree_insert 14 1 1 romeo romeo "Romeo System" "Romeo System" "length: 1348.86m (surface 0.00m, duplicated 0.00m)\nvertical range: 85.92m (from 1.0@lumio.romeo at 467.02m to 1.5@romeo_cathedral.romeo at 381.10m)\nnorth-south range: 514.24m (from 1.98@romeo_entrance.romeo at 1992392.66m to 20.10@fatcamp.romeo at 1991878.42m)\neast-west range: 188.91m (from 1.79@romeo_entrance.romeo at 398256.54m to 20.10@fatcamp.romeo at 398067.63m)\nnumber of shots: 904\nnumber of stations: 909"
-xth_cp_data_tree_insert 16 14 2 romeo_entrance romeo_entrance.romeo "" "" "length: 944.19m (surface 0.00m, duplicated 0.00m)\nvertical range: 63.69m (from 1.0@romeo_entrance.romeo at 462.00m to 1.121@romeo_entrance.romeo at 398.31m)\nnorth-south range: 492.17m (from 1.98@romeo_entrance.romeo at 1992392.66m to 1.8@romeo_entrance.romeo at 1991900.49m)\neast-west range: 164.62m (from 1.79@romeo_entrance.romeo at 398256.54m to 1.118@romeo_entrance.romeo at 398091.92m)\nnumber of shots: 633\nnumber of stations: 634"
-xth_cp_data_tree_insert 679 14 2 fatcamp fatcamp.romeo "" "" "length: 79.04m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.60m (from 20.10@fatcamp.romeo at 437.63m to 1.12@fatcamp.romeo at 433.03m)\nnorth-south range: 51.75m (from 1.12@fatcamp.romeo at 1991930.17m to 20.10@fatcamp.romeo at 1991878.42m)\neast-west range: 47.15m (from 1.12@fatcamp.romeo at 398114.78m to 20.10@fatcamp.romeo at 398067.63m)\nnumber of shots: 62\nnumber of stations: 63"
-xth_cp_data_tree_insert 793 14 2 Romeo_W_loop Romeo_W_loop.romeo "" "" "length: 134.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.96m (from 21.7@Romeo_W_loop.romeo at 433.13m to 21.10@Romeo_W_loop.romeo at 429.17m)\nnorth-south range: 46.37m (from 21.3@Romeo_W_loop.romeo at 1992165.62m to 21.11@Romeo_W_loop.romeo at 1992119.25m)\neast-west range: 50.33m (from 1.0@Romeo_W_loop.romeo at 398177.92m to 21.9@Romeo_W_loop.romeo at 398127.59m)\nnumber of shots: 76\nnumber of stations: 77"
-xth_cp_data_tree_insert 881 14 2 romeo_cathedral romeo_cathedral.romeo "" "" "length: 43.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.21m (from 1.0@romeo_cathedral.romeo at 398.31m to 1.5@romeo_cathedral.romeo at 381.10m)\nnorth-south range: 7.17m (from 1.5@romeo_cathedral.romeo at 1992330.40m to 1.1@romeo_cathedral.romeo at 1992323.23m)\neast-west range: 26.91m (from 1.0@romeo_cathedral.romeo at 398096.92m to 1.4@romeo_cathedral.romeo at 398070.01m)\nnumber of shots: 26\nnumber of stations: 27"
-xth_cp_data_tree_insert 926 14 2 lumio lumio.romeo "" "" "length: 148.22m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.36m (from 1.0@lumio.romeo at 467.02m to 2.1@lumio.romeo at 434.66m)\nnorth-south range: 93.24m (from 2.1@lumio.romeo at 1992170.96m to 1.0@lumio.romeo at 1992077.72m)\neast-west range: 45.45m (from 2.1@lumio.romeo at 398194.36m to 1.0@lumio.romeo at 398148.91m)\nnumber of shots: 107\nnumber of stations: 108"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1833.06m (surface 0.00m, duplicated 0.00m)\nvertical range: 85.92m (from 1.0@lumio.romeo at 467.02m to 1.5@romeo_cathedral.romeo at 381.10m)\nnorth-south range: 678.48m (from 1.98@romeo_entrance.romeo at 1992392.66m to 31.14@Romeo_1_12.romeo at 1991714.18m)\neast-west range: 236.82m (from 1.79@romeo_entrance.romeo at 398256.54m to 34.3@Romeo_1_12.romeo at 398019.72m)\nnumber of shots: 1241\nnumber of stations: 1247"
+xth_cp_data_tree_insert 23 1 1 romeo romeo "Romeo System" "Romeo System" "length: 1833.06m (surface 0.00m, duplicated 0.00m)\nvertical range: 85.92m (from 1.0@lumio.romeo at 467.02m to 1.5@romeo_cathedral.romeo at 381.10m)\nnorth-south range: 678.48m (from 1.98@romeo_entrance.romeo at 1992392.66m to 31.14@Romeo_1_12.romeo at 1991714.18m)\neast-west range: 236.82m (from 1.79@romeo_entrance.romeo at 398256.54m to 34.3@Romeo_1_12.romeo at 398019.72m)\nnumber of shots: 1241\nnumber of stations: 1247"
+xth_cp_data_tree_insert 25 23 2 romeo_entrance romeo_entrance.romeo "" "" "length: 944.19m (surface 0.00m, duplicated 0.00m)\nvertical range: 63.69m (from 1.0@romeo_entrance.romeo at 462.00m to 1.121@romeo_entrance.romeo at 398.31m)\nnorth-south range: 492.17m (from 1.98@romeo_entrance.romeo at 1992392.66m to 1.8@romeo_entrance.romeo at 1991900.49m)\neast-west range: 164.62m (from 1.79@romeo_entrance.romeo at 398256.54m to 1.118@romeo_entrance.romeo at 398091.92m)\nnumber of shots: 633\nnumber of stations: 634"
+xth_cp_data_tree_insert 688 23 2 fatcamp fatcamp.romeo "" "" "length: 79.04m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.60m (from 20.10@fatcamp.romeo at 437.63m to 1.12@fatcamp.romeo at 433.03m)\nnorth-south range: 51.75m (from 1.12@fatcamp.romeo at 1991930.17m to 20.10@fatcamp.romeo at 1991878.42m)\neast-west range: 47.15m (from 1.12@fatcamp.romeo at 398114.78m to 20.10@fatcamp.romeo at 398067.63m)\nnumber of shots: 62\nnumber of stations: 63"
+xth_cp_data_tree_insert 802 23 2 Romeo_W_loop Romeo_W_loop.romeo "" "" "length: 134.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.96m (from 21.7@Romeo_W_loop.romeo at 433.13m to 21.10@Romeo_W_loop.romeo at 429.17m)\nnorth-south range: 46.37m (from 21.3@Romeo_W_loop.romeo at 1992165.62m to 21.11@Romeo_W_loop.romeo at 1992119.25m)\neast-west range: 50.33m (from 1.0@Romeo_W_loop.romeo at 398177.92m to 21.9@Romeo_W_loop.romeo at 398127.59m)\nnumber of shots: 76\nnumber of stations: 77"
+xth_cp_data_tree_insert 890 23 2 romeo_cathedral romeo_cathedral.romeo "" "" "length: 43.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.21m (from 1.0@romeo_cathedral.romeo at 398.31m to 1.5@romeo_cathedral.romeo at 381.10m)\nnorth-south range: 7.17m (from 1.5@romeo_cathedral.romeo at 1992330.40m to 1.1@romeo_cathedral.romeo at 1992323.23m)\neast-west range: 26.91m (from 1.0@romeo_cathedral.romeo at 398096.92m to 1.4@romeo_cathedral.romeo at 398070.01m)\nnumber of shots: 26\nnumber of stations: 27"
+xth_cp_data_tree_insert 935 23 2 lumio lumio.romeo "" "" "length: 148.22m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.36m (from 1.0@lumio.romeo at 467.02m to 2.1@lumio.romeo at 434.66m)\nnorth-south range: 93.24m (from 2.1@lumio.romeo at 1992170.96m to 1.0@lumio.romeo at 1992077.72m)\neast-west range: 45.45m (from 2.1@lumio.romeo at 398194.36m to 1.0@lumio.romeo at 398148.91m)\nnumber of shots: 107\nnumber of stations: 108"
+xth_cp_data_tree_insert 1077 23 2 Romeo_1_12 Romeo_1_12.romeo "" "" "length: 484.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 19.70m (from 20.32@Romeo_1_12.romeo at 452.73m to 1.12@Romeo_1_12.romeo at 433.03m)\nnorth-south range: 215.99m (from 1.12@Romeo_1_12.romeo at 1991930.17m to 31.14@Romeo_1_12.romeo at 1991714.18m)\neast-west range: 158.30m (from 33.2@Romeo_1_12.romeo at 398178.02m to 34.3@Romeo_1_12.romeo at 398019.72m)\nnumber of shots: 337\nnumber of stations: 338"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
-xth_cp_map_tree_insert map 1 675X1 p1 1 romeo_entranceM romeo_entranceM@romeo_entrance.romeo "" ""
-xth_cp_map_tree_insert map 1 676X1 p2 1 romeo_entranceME romeo_entranceME@romeo_entrance.romeo "" ""
-xth_cp_map_tree_insert map 1 789X1 p1 1 Romeo_1.12M Romeo_1.12M@fatcamp.romeo "" ""
-xth_cp_map_tree_insert map 1 790X1 p2 1 Romeo_1.12ME Romeo_1.12ME@fatcamp.romeo "" ""
-xth_cp_map_tree_insert map 1 877X1 p1 1 Romeo_21_1M Romeo_21_1M@Romeo_W_loop.romeo "" ""
-xth_cp_map_tree_insert map 1 878X1 p2 1 Romeo_21_1ME Romeo_21_1ME@Romeo_W_loop.romeo "" ""
-xth_cp_map_tree_insert map 1 922X1 p1 1 romeo_cathedralM romeo_cathedralM@romeo_cathedral.romeo "" ""
-xth_cp_map_tree_insert map 1 923X1 p2 1 romeo_cathedralME romeo_cathedralME@romeo_cathedral.romeo "" ""
-xth_cp_map_tree_insert map 1 1064X1 p1 1 lumioM lumioM@lumio.romeo "" ""
-xth_cp_map_tree_insert map 1 1065X1 p3 1 lumioME lumioME@lumio.romeo "" ""
+xth_cp_map_tree_insert map 1 684X1 p1 1 romeo_entranceM romeo_entranceM@romeo_entrance.romeo "" ""
+xth_cp_map_tree_insert map 1 685X1 p2 1 romeo_entranceME romeo_entranceME@romeo_entrance.romeo "" ""
+xth_cp_map_tree_insert map 1 798X1 p1 1 Romeo_1.12M Romeo_1.12M@fatcamp.romeo "" ""
+xth_cp_map_tree_insert map 1 799X1 p2 1 Romeo_1.12ME Romeo_1.12ME@fatcamp.romeo "" ""
+xth_cp_map_tree_insert map 1 886X1 p1 1 Romeo_21_1M Romeo_21_1M@Romeo_W_loop.romeo "" ""
+xth_cp_map_tree_insert map 1 887X1 p2 1 Romeo_21_1ME Romeo_21_1ME@Romeo_W_loop.romeo "" ""
+xth_cp_map_tree_insert map 1 931X1 p1 1 romeo_cathedralM romeo_cathedralM@romeo_cathedral.romeo "" ""
+xth_cp_map_tree_insert map 1 932X1 p2 1 romeo_cathedralME romeo_cathedralME@romeo_cathedral.romeo "" ""
+xth_cp_map_tree_insert map 1 1073X1 p1 1 lumioM lumioM@lumio.romeo "" ""
+xth_cp_map_tree_insert map 1 1074X1 p3 1 lumioME lumioME@lumio.romeo "" ""
+xth_cp_map_tree_insert map 1 1161X1 p1 1 Romeo_1_12M Romeo_1_12M@Romeo_1_12.romeo "" ""
+xth_cp_map_tree_insert map 1 1162X1 p2 1 Romeo_1_12ME Romeo_1_12ME@Romeo_1_12.romeo "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 1349 15
+xth_cp_comp_stat 1833 17
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1491329252
+set xth(th_exit_number) 1492940896
 

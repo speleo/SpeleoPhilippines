@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1558.76 -802.05 9352.58 4812.31
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {779.381969768 1 1.0} {4226.72613258 1.23} PocketTopo/juness3_e.xvi 0 {}
+
+
+scrap juness3SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

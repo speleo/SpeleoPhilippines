@@ -57,7 +57,7 @@ endlayout
 layout 600
   # set the scale to large enough to banner print.
   # 600 creates a pdf that will print 1.37m high and 4.75m long
-  scale 1 600
+  scale 1 1000
   # base scale affects the size of the text 
   # 1200 works well
   base-scale 1 1200
@@ -208,13 +208,13 @@ layout 600
       \legendtextsize={\size[54]}
       \the\legendcontent
       }
-    \legendbox{75}{80}{NW}{
+    \legendbox{65}{98}{NW}{
       \legendwidth 140 cm
       \legendtextsize={\size[54]}
       \hsize=\legendwidth
       \input th_legend
       }
-    \legendbox{70}{80}{NW}{
+    \legendbox{60}{90}{NW}{
       \legendwidth 65 cm
       \legendtextsize={\size[42]}
       \hsize=\legendwidth
@@ -222,9 +222,9 @@ layout 600
       }
   \legendbox{34}{30}{nw} {\loadpicture{images/Logo_BEC_1250.png}}
   \legendbox{35}{20}{nw} {\loadpicture{images/Logo_SMOC_1250.png}}
-  \legendbox{02}{00}{nw} {\loadpicture{Region-2/Baggao/bluewater/images/BlueWaterEntrance_7.5K_lowres.jpg}}
-  \legendbox{02}{39}{NW} {\size[40]Blue Water Entrance Series, photo copyright Stu Gardiner} \par
-  \legendbox{43}{00}{nw} {\loadpicture{Region-2/Baggao/Helicopter_Hole/images/Helicoptor_hole_5K_lowres.jpg}}
+  #\legendbox{02}{00}{nw} {\loadpicture{Region-2/Baggao/bluewater/images/BlueWaterEntrance_7.5K_lowres.jpg}}
+  #\legendbox{02}{39}{NW} {\size[40]Blue Water Entrance Series, photo copyright Stu Gardiner} \par
+  #\legendbox{43}{00}{nw} {\loadpicture{Region-2/Baggao/Helicopter_Hole/images/Helicoptor_hole_5K_lowres.jpg}}
 
     #\legendbox{43}{53}{nw} {\size[30]Helicopter Hole seen from Beauty, photo copyright Hellie Adams} # causes an error
     

@@ -9,6 +9,9 @@ input scraps/bluewater-fossil.th2
 input scraps/bluewater-above-climb-1-S1.th2
 input scraps/bluewater-above-climb-1-S2.th2
 input scraps/bluewaterEe.th2
+input twiglet/twiglet.th
+
+equate 12.35 1.0@twiglet
 
 #join l556-21796-11116@bluewater-above-olympic-pool  l81-17084-9672@bluewater-olympic-pool 
 #join l58-19828-10298@bluewater-above-olympic-pool  l84-19088-8592@bluewater-olympic-pool 
@@ -39,7 +42,8 @@ map bluewaterM
   bluewater-above-olympic-pool
   bluewater-above-climb-1-S1
   bluewater-above-climb-1-S2
-  bluewater-above-climb-2 
+  bluewater-above-climb-2
+  twigletSP1@twiglet
 endmap
 
 map bluewaterME

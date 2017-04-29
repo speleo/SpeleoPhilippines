@@ -2,17 +2,21 @@ encoding  utf-8
 survey BlueWaterSink
   input bluewater_sink_canyon/bluewater_sink_canyon.th
   input bluewater_sink_lower/bluewater_sink_lower.th
+  input traverse21/traverse21.th
+  input ts-log-lower/ts-log-lower.th
   
   #join bluewater_sink_canyonSP2@bluewater_sink_canyon bluewater_sink_lowerSP1@bluewater_sink_lower
 
   centreline
     equate 11.3@bluewater_sink_canyon 2.1@bluewater_sink_lower
+    equate 2.14@bluewater_sink_lower 1.0@traverse21
+    equate 1.4@traverse21 3.0@ts-log-lower
   endcentreline
 
-  map map-test
+  #map map-test
     #bluewaterM@bluewater
-    bluewater_sink_lowerM@bluewater_sink_lower
-  endmap
+    #bluewater_sink_lowerM@bluewater_sink_lower 1.0@traverse21
+  #endmap
 
 endsurvey
 

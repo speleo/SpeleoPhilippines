@@ -2,8 +2,8 @@ encoding  utf-8
 source BlueWater-System.th
 
 #export map -proj plan -layout local -o .\_output\BlueWater-System.pdf
-#export map -fmt kml -proj plan -layout local -o .\_output\BlueWater-System.kml
-export model -fmt kml -o .\_output\BlueWater-System.kml
+export map -fmt kml -proj plan -o .\_output\BlueWater-System.kml
+export model -fmt kml -o .\_output\BlueWater-System-model.kml
 
 #Survex file showing centre line only
 export model -fmt survex -o .\_output\bluewater-System-survex.3d

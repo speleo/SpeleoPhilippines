@@ -1,11 +1,32 @@
 encoding  utf-8
 survey white_lightning -title "White Lightning"
   input wl/wl.th
-  input Minty/mintys_hole.th
+  #input Minty/mintys_hole.th
+  input whitelightning2a/whitelightning2a.th
+  input whitelightning3/whitelightning3.th
+  input whitelightning4/whitelightning4.th
+  input whitelightning5/whitelightning5.th
+  input whitelightning6/whitelightning6.th
+  input whitelightning7/whitelightning7.th
+  input whitelightning8/whitelightning8.th
+  input whitelightning9/whitelightning9.th
+  input whitelightning10/whitelightning10.th
+  input whitelightning11/whitelightning11.th
+  input whitelightning12/whitelightning12.th
 
   centreline
-    equate 1.15@white_lightning_data 1.0@mintys_hole
+    #equate 1.15@white_lightning_data 1.0@mintys_hole
+    equate 1.10@white_lightning_data  25.0@whitelightning2a
+    equate 28.12@whitelightning2a     29.0@whitelightning3
+    equate 30.11@whitelightning3      30.11@whitelightning4
+    equate 33.7@whitelightning4       33.7@whitelightning5
+    equate 33.53@whitelightning5      33.53@whitelightning6
+    equate 33.109@whitelightning6     33.109@whitelightning7
+    equate 33.126@whitelightning7     33.126@whitelightning8
+    equate 33.116@whitelightning7     33.116@whitelightning9
+    equate 33.113@whitelightning7     33.113@whitelightning10
+    equate 33.77@whitelightning6      33.77@whitelightning11
+    equate 33.80@whitelightning6      33.80@whitelightning12
   endcentreline
-    
 endsurvey
 

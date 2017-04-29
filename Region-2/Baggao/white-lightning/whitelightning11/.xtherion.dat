@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 116.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.47m (from 33.199@whitelightning11 at 7.47m to 33.77@whitelightning11 at 0.00m)\nnorth-south range: 69.36m (from 33.191@whitelightning11 at 1.18m to 33.203@whitelightning11 at -68.18m)\neast-west range: 61.96m (from 33.202@whitelightning11 at 61.29m to 33.191@whitelightning11 at -0.67m)\nnumber of shots: 135\nnumber of stations: 136"
+xth_cp_data_tree_insert 19 1 1 whitelightning11 whitelightning11 "" "" "length: 116.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.47m (from 33.199@whitelightning11 at 7.47m to 33.77@whitelightning11 at 0.00m)\nnorth-south range: 69.36m (from 33.191@whitelightning11 at 1.18m to 33.203@whitelightning11 at -68.18m)\neast-west range: 61.96m (from 33.202@whitelightning11 at 61.29m to 33.191@whitelightning11 at -0.67m)\nnumber of shots: 135\nnumber of stations: 136"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 44X1 p1 1 whitelightning11M whitelightning11M@whitelightning11 "" ""
+xth_cp_map_tree_insert map 1 45X1 p3 1 whitelightning11ME whitelightning11ME@whitelightning11 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 117 4
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1493214792
+

@@ -10,7 +10,10 @@ survey C4HelicopterHole
   input C4HelicopterHole_Beast_Sec_5.th2
   input C4HelicopterHoleEe.th2
   input doline/doline.th
-
+  input Beast20170423/Beast20170423.th
+  input Beast20170424/Beast20170424.th
+  input Beast20170424b/Beast20170424b.th
+  
   map C4HelicopterHoleM
     Beauty_Above_Pitch_3_Sec_1
     Beauty_Above_Pitch_3_Sec_2
@@ -19,6 +22,7 @@ survey C4HelicopterHole
     Beast_Sec_3
     Beast_Sec_4
     Beast_Sec_5
+    #Beast20170423M.Beast20170423
     ##Helicopter_Image_labels
    endmap
 
@@ -40,6 +44,10 @@ copyright 2015 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
+
+  equate 1.132 16.63@beast20170424b   
+  equate 13.2@beast20170424b 13.2@Beast20170423
+  equate 13.21@Beast20170423 13.21@beast20170424
 
   date 2015.03.04
 

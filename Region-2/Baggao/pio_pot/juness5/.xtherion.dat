@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 53.03m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.73m (from 5.1@juness5 at 0.21m to 5.12@juness5 at -20.52m)\nnorth-south range: 21.67m (from 4.10@juness5 at 0.00m to 5.12@juness5 at -21.67m)\neast-west range: 20.54m (from 5.11@juness5 at 9.79m to 5.2@juness5 at -10.75m)\nnumber of shots: 70\nnumber of stations: 71"
+xth_cp_data_tree_insert 19 1 1 juness5 juness5 "" "" "length: 53.03m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.73m (from 5.1@juness5 at 0.21m to 5.12@juness5 at -20.52m)\nnorth-south range: 21.67m (from 4.10@juness5 at 0.00m to 5.12@juness5 at -21.67m)\neast-west range: 20.54m (from 5.11@juness5 at 9.79m to 5.2@juness5 at -10.75m)\nnumber of shots: 70\nnumber of stations: 71"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 45X1 p1 1 juness5M juness5M@juness5 "" ""
+xth_cp_map_tree_insert map 1 46X1 p2 1 juness5ME juness5ME@juness5 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 53 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1492439499
+

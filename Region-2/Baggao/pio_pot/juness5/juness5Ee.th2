@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -741.7 -326.29 4450.19 1957.73
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {370.849087499 1 1.0} {1778.3909055 4.10} PocketTopo/juness5_e.xvi 0 {}
+
+
+scrap juness5SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

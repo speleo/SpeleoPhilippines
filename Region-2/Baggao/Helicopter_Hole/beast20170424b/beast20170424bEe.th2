@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -14901.97 -523.62 89411.84 3141.75
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {7451.23232434 1 1.0} {1728.18232408 13.2} PocketTopo/beast20170424b_e.xvi 0 {}
+
+
+scrap beast20170424bSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

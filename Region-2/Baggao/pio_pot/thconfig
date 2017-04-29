@@ -6,21 +6,21 @@ source pio_pot.th
 #Surveys to output
 #-----------------
 
-  export map -proj plan -layout local -o .\_output\pio_pot.pdf
+  export map -proj plan -layout local -o .\_output\juness.pdf
   #Produces plan of cave, on a single sheet
 
-  #export map -proj extended -layout local -o .\_output\pio_potEe.pdf
+  #export map -proj extended -layout local -o .\_output\junessEe.pdf
 
-  export map -fmt kml -proj plan -layout local -o .\_output\pio_pot-map.kml
-  export model -fmt kml -o .\_output\pio_pot.kml
+  export map -fmt kml -proj plan -layout local -o .\_output\juness-map.kml
+  export model -fmt kml -o .\_output\juness.kml
 
-  export model -fmt survex -o .\_output\pio_potth.3d
+  export model -fmt survex -o .\_output\juness.3d
   #Survex file showing centre line only
 
-  #export model -o .\output\_pio_pot.lox
+  #export model -o .\output\juness.lox
   #3d therion model to be viewed in the therion viewer
 
-  #export map -proj plan -o .\_output\pio_pot_Walls.3d
+  #export map -proj plan -o .\_output\juness_Walls.3d
   #Survex file showing walls only
 
 layout local

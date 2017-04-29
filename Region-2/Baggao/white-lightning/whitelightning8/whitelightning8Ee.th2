@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -5245.78 -494.32 31474.67 2965.93
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3275.98408586 1 1.0} {1551.59736355 33.126} PocketTopo/whitelightning8_e.xvi 0 {}
+
+
+scrap whitelightning8SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
