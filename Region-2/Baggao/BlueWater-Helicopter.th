@@ -21,6 +21,8 @@ survey BlueWater-Helicopter
   centreline
     equate 6.66@C4HelicopterHole 15.57@bluewater
     equate 16.1@C4HelicopterHole 33.232@whitelightning12.white_lightning
+    # line below fixes both end of the sump via a dummy shot thru the sump
+    equate 15.24@beast20170424.C4HelicopterHole 3.10@ts-log-lower.BlueWaterSink
   endcentreline
 
   map map-test

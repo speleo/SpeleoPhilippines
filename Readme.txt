@@ -8,3 +8,7 @@ MPINPUTS = C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/;.
 
 
 you will need to change this to your source paths.
+
+note
+----
+you may find that you are unable to save this file unless you edit it as the host administrator.  To do this open a command prompt as an administrator and then edit the file directly from there.

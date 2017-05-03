@@ -15,7 +15,7 @@ survey BlueWaterSystem
 
   centreline
     equate 6.66@C4HelicopterHole 15.57@bluewater
-    equate 16.1@C4HelicopterHole 33.232@whitelightning12.white_lightning
+    #equate 16.1@C4HelicopterHole 33.232@whitelightning12.white_lightning
   endcentreline
 
   map map-test
