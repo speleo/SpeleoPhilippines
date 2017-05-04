@@ -5,14 +5,9 @@ survey BlueWater-Helicopter
   input surface/Bluewater_2.th
   input BlueWaterTopSink/BlueWater-Sink.th
   input White-Lightning/WhiteLightning.th
-  
-  #input S1/S1.th
-  #input Romeo/Romeo.th
-  #input WhiteLightning/WhiteLightning.th
-  #input Minichasma/Minichasma.th
-  #input naganakan/naganakan.th
-  #input ovimph/ovimph.th
+  input pio_pot/pio_pot.th
 
+  
   #join bluewater-above-climb-1-S2@bluewater Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole 
   join BelowP3_Left_Wall@bluewater AboveP3_Left_Wall@C4HelicopterHole 
   join BelowP3_Right_Wall@bluewater AboveP3_Right_Wall@C4HelicopterHole 
@@ -24,11 +19,6 @@ survey BlueWater-Helicopter
     # line below fixes both end of the sump via a dummy shot thru the sump
     equate 15.24@beast20170424.C4HelicopterHole 3.10@ts-log-lower.BlueWaterSink
   endcentreline
-
-  map map-test
-    bluewaterM@bluewater
-    C4HelicopterHoleM@C4HelicopterHole
-  endmap
 
 endsurvey
 

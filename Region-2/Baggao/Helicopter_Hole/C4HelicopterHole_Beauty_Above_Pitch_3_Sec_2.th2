@@ -1356,8 +1356,6 @@ point 82620.0 73104.0 label -text [?] -scale s
 
 point 84224.0 70104.0 label -text [+8m] -scale xs
 
-point 74432.0 52376.0 label -text [Helicopter Hole seen from Beauty, photo copyright Hellie Adams] -scale s
-
 point 84564.0 71420.0 label -text [+8m] -scale xs
 
 point 82324.0 67536.0 label -text -4m -scale xs

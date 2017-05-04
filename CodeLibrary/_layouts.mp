@@ -1,6 +1,7 @@
 ### index of file options from _layouts.mp
   #copy custom_water_blue
   #copy custom_entrance_theta
+  #copy custom_entrance_theta_large
   #copy custom_scalebar_large_format
   #copy custom_scalebar_medium_format
   #copy custom_scalebar
@@ -43,6 +44,19 @@ layout custom_entrance_theta
   endcode
 endlayout
 
+#############################################################################################################################
+layout custom_entrance_theta_large
+  code metapost
+    def p_entrance (expr pos,theta,sc,al)=
+      U:=(.2u,.5u);
+      T:=identity aligned al rotated theta scaled sc shifted pos;
+      path p;
+      p = (-.3u,-.25u) -- (-.2u,-.25u){dir 135} .. (0u, .25u) .. {dir 225}(.2u,-.25u) -- (.3u,-.25u);
+      thdraw p withpen PenA;
+      thdraw unitsquare scaled u shifted (-0.5u,-0.5u) rotated 45 withpen PenD;
+    enddef;
+  endcode
+endlayout
 
 #############################################################################################################################
 layout custom_scalebar_large_format_origional

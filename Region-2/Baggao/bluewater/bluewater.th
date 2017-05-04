@@ -43,7 +43,7 @@ map bluewaterM
   bluewater-above-climb-1-S1
   bluewater-above-climb-1-S2
   bluewater-above-climb-2
-  twigletSP1@twiglet
+  #twigletSP1@twiglet
 endmap
 
 map bluewaterME

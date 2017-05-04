@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -130.0 3588.5669291338577 4254.488188976377
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2152.3622047244094 1 1.0} {2192.125984251968 1.0} whitelightning_p1.xvi 0 {}
 ##XTHERION## xth_me_image_insert {417.22047244094483 1 1.0} {3461.1338582677163 1.0} whitelightning_e0.xvi 0 {}
 
@@ -26,7 +26,7 @@ endline
 
 point 1714.0 1764.0 low-end
 
-point 1470.5 1601.5 label -text p9
+point 1470.5 1601.5 label -text p9 -scale xs
 
 point 1590.0 1761.5 stalagmites
 
@@ -105,15 +105,15 @@ point 1748.6222047244094 2242.6359842519682 station -name 1.1
 
 point 2152.3622047244094 2192.125984251968 station -name 1.0
 
-point 2055.0 2152.0 label -text "tree trunk"
+point 2055.0 2152.0 label -text "tree trunk" -scale xs
 
 point 2247.0 2051.0 entrance -orientation 0.0
 
-point 2282.0 2051.0 label -text p7
+point 2282.0 2051.0 label -text p7 -scale xs
 
-point 2119.0 2287.0 label -text p3
+point 2119.0 2287.0 label -text p3 -scale xs
 
-point 1440.0 1551.0 label -text p12
+point 1440.0 1551.0 label -text p12 -scale xs
 
 point 1361.5 1561.0 water-flow -orientation 225.9
 
@@ -216,6 +216,8 @@ line wall
   2150.5 2129.5 2162.5 2123.5 2164.0 2122.0
   smooth off
 endline
+
+point 2056.0 3182.0 label -scale l -text [White Lightning]
 
 line wall
   2164.0 2122.0
@@ -389,9 +391,9 @@ point 892.0 1831.5 gradient -orientation 35.4
 
 point 936.0 1734.5 gradient -orientation 18.1
 
-point 828.0 1441.0 label -text "flood debris"
+point 828.0 1441.0 label -text "flood debris" -scale xs
 
-point 967.0 2016.5 label -text p10?
+point 967.0 2016.5 label -text p10? -scale xs
 
 point 1027.0 1963.0 entrance -orientation 210.2
 
@@ -558,13 +560,11 @@ endline
 line pit
 endline
 
-point 333.0 1878.0 label -text p3
+point 333.0 1878.0 label -text p3 -scale xs
 
-point 20.0 1984.5 label -text "presumed sump"
+point 372.0 2066.0 label -text "flood debris" -scale xs
 
-point 372.0 2066.0 label -text "flood debris"
-
-point 713.0 1622.5 label -text p5
+point 713.0 1622.5 label -text p5 -scale xs
 
 line wall
   299.0 2033.5

@@ -235,6 +235,8 @@ line border -id l12-3428-1436 -subtype invisible
   smooth off
 endline
 
+point 2971.0 2384.0 label -text [Blue Water Sink] -scale l -align top
+
 endscrap
 
 

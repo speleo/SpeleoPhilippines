@@ -258,11 +258,7 @@ line flowstone -reverse on
   smooth off
 endline
 
-point 4361.0 2205.0 label -orientation 90 -text [Entrance] -align center
-
-point 447.0 744.0 label -align top-right -text [Passage continues for several<br>hundred meters to the head<br>of  approx 30m pitch into<br>massive passage]
-
-point 912.0 430.0 label -text [Two pitches<br>9m and 13m] -align bottom-right
+point 4361.0 2205.0 label -text [Juness] -align right -scale l
 
 line wall -subtype presumed
   900.0 564.0
@@ -293,9 +289,7 @@ line flowstone -reverse on
   smooth off
 endline
 
-point 2545.0 1616.0 label -align left -text [Climbs down<br>stall bosses]
-
-point 3529.0 1512.0 label -text [?]
+point 3529.0 1512.0 label -text [?] -scale xs
 
 line wall -subtype presumed
   4183.0 2529.0
@@ -304,7 +298,7 @@ line wall -subtype presumed
   4251.0 2741.0
 endline
 
-point 4159.0 2819.0 label -text [Too tight<br>to surface]
+point 4159.0 2819.0 label -text [Too tight<br>to surface] -scale xs
 
 endscrap
 
