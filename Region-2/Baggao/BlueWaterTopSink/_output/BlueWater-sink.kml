@@ -3,10 +3,10 @@
 <Folder>
 <Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
 <Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
-<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>http://pk-sofia.com/images/stories/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
-<Icon> <href>http://pk-sofia.com/images/stories/KmlIconModel.png</href> </Icon>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
 <name><![CDATA[BlueWaterSink]]></name>
-<description><![CDATA[Length 384 m<br>Depth 47 m]]></description>
+<description><![CDATA[Length 396 m<br>Depth 47 m]]></description>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Blue Water Sink]]></name>
 <Point> <coordinates>122.03686677068323,18.02037627270682,423.00000000000000</coordinates> </Point>
@@ -883,6 +883,9 @@
 </coordinates></LineString>
 <LineString><coordinates>
 	122.03604703820604,18.01862088990696,380.06000000000000 	122.03601709662813,18.01856832283940,380.31999999999999 
+</coordinates></LineString>
+<LineString><coordinates>
+	122.03601587456734,18.01856723224419,380.29000000000002 	122.03595260281880,18.01847726435703,380.29000000000002 
 </coordinates></LineString>
 </MultiGeometry>
 </Placemark>

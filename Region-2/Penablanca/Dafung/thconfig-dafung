@@ -4,6 +4,7 @@ source Dafung.th
 ### choose which exports to use
   export map -proj plan -layout local-dafung -o _output/Dafung.pdf
   export map -proj plan -layout rotate90     -o _output/Dafung90.pdf
+  export map -proj plan -layout local-dafung -o _output/Dafung.pdf
 
   #export model -fmt kml -o _output/Dafung.kml
   #export map -fmt kml -proj plan -layout local -o _output/Dafung_map.kml

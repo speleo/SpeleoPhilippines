@@ -1,6 +1,7 @@
   text en "point u:bat"    "bat"
   text en "line u:bat"     "bat path"
   text en "area u:bat"     "lot of bats"
+  text en "line u:doline"  "doline"
   text en "area sand"      "sand<br>darat"
   text en "area water"     "water<br>danum"
   text en "area clay"      "clay<br>luad"

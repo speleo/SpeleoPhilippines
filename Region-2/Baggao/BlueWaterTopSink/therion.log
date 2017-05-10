@@ -1,5 +1,5 @@
-therion 5.4.0 (2017-04-03)
-initialization file: C:\Program Files\Therion/therion.ini
+therion 5.4.1 (2017-04-18)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig-BlueWater-Sink
 reading ... done
@@ -25,19 +25,19 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.17
- 2> Copyright ¸ 1990-2015 Olly Betts
+ 1> Survex 1.2.30
+ 2> Copyright ¸ 1990-2016 Olly Betts
  3> 
- 4> Survey contains 316 survey stations, joined by 315 legs.
+ 4> Survey contains 317 survey stations, joined by 316 shots.
  5> There are 0 loops.
- 6> Total length of survey legs = 2142.70m (2142.70m adjusted)
- 7> Total plan length of survey legs = 1856.31m
- 8> Total vertical length of survey legs =  642.43m
+ 6> Total length of survey shots = 2154.70m (2154.70m adjusted)
+ 7> Total plan length of survey shots = 1868.31m
+ 8> Total vertical length of survey shots =  642.43m
  9> Vertical range = 48.17m (from 120 at 424.34m to 274 at 376.17m)
-10> North-South range = 204.72m (from 8 at 1992710.02m to 315 at 1992505.30m)
-11> East-West range = 91.12m (from 2 at 398048.00m to 315 at 397956.88m)
+10> North-South range = 214.64m (from 8 at 1992710.02m to 317 at 1992495.38m)
+11> East-West range = 97.87m (from 2 at 398048.00m to 317 at 397950.13m)
 12>  278 1-nodes.
-13>    9 2-nodes.
+13>   10 2-nodes.
 14>    2 3-nodes.
 15>    4 4-nodes.
 16>    3 5-nodes.
@@ -57,12 +57,12 @@ processing survey data ...
 30>    1 29-node.
 31> 
 ######################### transcription ########################
- 4> 316 : -@ts-log-lower.BlueWaterSink -- 315 : 3.9@ts-log-lower.BlueWaterSink
+ 4> 317 : 3.10@ts-log-lower.BlueWaterSink -- 316 : -@ts-log-lower.BlueWaterSink
  9> 120 : -@traverse21.BlueWaterSink -- 274 : -@ts-log-lower.BlueWaterSink
-10> 8 : -@bluewater_sink_canyon.BlueWaterSink -- 315 : 3.9@ts-log-lower.BlueWaterSink
-11> 2 : -@bluewater_sink_canyon.BlueWaterSink -- 315 : 3.9@ts-log-lower.BlueWaterSink
+10> 8 : -@bluewater_sink_canyon.BlueWaterSink -- 317 : 3.10@ts-log-lower.BlueWaterSink
+11> 2 : -@bluewater_sink_canyon.BlueWaterSink -- 317 : 3.10@ts-log-lower.BlueWaterSink
 12> 278 : -@ts-log-lower.BlueWaterSink
-13> 9 : -@bluewater_sink_canyon.BlueWaterSink
+13> 10 : -@bluewater_sink_canyon.BlueWaterSink
 14> 2 : -@bluewater_sink_canyon.BlueWaterSink
 15> 4 : -@bluewater_sink_canyon.BlueWaterSink
 16> 3 : 1.1@bluewater_sink_canyon.BlueWaterSink
@@ -87,157 +87,83 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.02%
+average distortion: 0.82%
 writing .\_output\BlueWater-sink.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 APR 2017 18:23
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  7 MAY 2017 17:01
 **data.mp
 (./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
 ] [4011] [4012] [4013]
-
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_scalebar_small_f
-ormat.mp)
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_water_blue.mp)
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_north_arrow_150.
-mp)
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_continuous_cente
-rline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-[16] [17] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [18] [19] [20] [21] [22] [23]
-[24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
-[39] [40] )
+[4014]
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_scaleba
+r_small_format.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_water_b
+lue.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_north_a
+rrow_150.mp)
+(c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_continu
+ous_centerline.mp) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+[14] [15] [16] [17] [18] [19] [20] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] )
  
 Here is how much of MetaPost's memory you used:
- 1374 strings out of 1638
- 16497 string characters out of 26823
- 93408 words of memory out of 1500000
- 1536 symbolic tokens out of 16384
- 11i,75n,16p,303b,5f stack positions out of 300i,84n,5000p,312b,15f
- 51 string compactions (moved 643527 characters, 52558 strings)
-53 output files written: data.1 .. data.4013
+ 1535 strings out of 1638
+ 17700 string characters out of 20720
+ 84012 words of memory out of 1500000
+ 1547 symbolic tokens out of 16384
+ 11i,75n,16p,299b,5f stack positions out of 300i,84n,5000p,312b,15f
+ 76 string compactions (moved 1076533 characters, 93817 strings)
+59 output files written: data.1 .. data.4014
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 APR 2017 18:23
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  7 MAY 2017 17:01
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
-rogram Files/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex) <
-c:/Users/dell/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_300.png>)
-(./th_pages.tex)
- 95 numeric registers used out of 32768
+c:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_300.p
+ng>) (./th_pages.tex)
+ 102 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 298 strings out of 95617
- 2965 string characters out of 1171098
- 161907 words of memory out of 1635885
- 1705 multiletter control sequences out of 15000+50000
+ 305 strings out of 95617
+ 3044 string characters out of 1171098
+ 123451 words of memory out of 1600429
+ 1712 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  849 hyphenation exceptions out of 1000
- 11i,5n,7p,1262b,76s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program Files/
-Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files/Therion/texmf/fonts/type1
-/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 180595 bytes).
-PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-processing projection extended ... done
-average distortion: 0.01%
-writing .\_output\BlueWater-sinkEE.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  25 APR 2017 18:23
-**data.mp
-(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
-] [4011] [4012] [4013]
-
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_scalebar_small_f
-ormat.mp)
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_water_blue.mp)
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_north_arrow_150.
-mp)
-(c:/Users/dell/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_continuous_cente
-rline.mp) [1] [2] [3] [4] [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8]
-[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] )
- 
-Here is how much of MetaPost's memory you used:
- 1355 strings out of 1638
- 16353 string characters out of 26823
- 66803 words of memory out of 1500000
- 1529 symbolic tokens out of 16384
- 9i,75n,12p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
- 40 string compactions (moved 471821 characters, 38347 strings)
-31 output files written: data.1 .. data.4013
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  25 APR 2017 18:23
-entering extended mode
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
-rogram Files/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex) <
-c:/Users/dell/Documents/GitHub/SpeleoPhilippines/images/Logo_BEC_300.png>)
-(./th_pages.tex)
- 70 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 273 strings out of 95617
- 2734 string characters out of 1171098
- 87891 words of memory out of 1566869
- 1680 multiletter control sequences out of 15000+50000
- 21229 words of font info for 66 fonts, out of 1000000 for 2000
- 849 hyphenation exceptions out of 1000
- 11i,5n,7p,1262b,76s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files/T
-herion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1
+ 11i,8n,7p,1262b,83s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 81941 bytes).
+Output written on data.pdf (1 page, 170892 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing .\_output\BlueWater-sink-map.kml ... done
-writing .\_output\BlueWater-sink.kml ... done
-writing .\_output\bluewater-sink-survex.3d ... done
 writing xtherion file ... done
-compilation time: 9 sec
+compilation time: 3 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.04%    0.53%  ts-log-lowerSP1@ts-log-lower.BlueWaterSink
-   0.02%    0.35%  traverse21SP1@traverse21.BlueWaterSink
+   1.38%   73.04%  traverse21SP1@traverse21.BlueWaterSink
+   1.63%   58.66%  bluewater_sink_lowerSP2@bluewater_sink_lower.BlueWaterSink
+   0.03%    0.53%  ts-log-lowerSP1@ts-log-lower.BlueWaterSink
    0.05%    0.30%  bluewater_sink_canyonSP1@bluewater_sink_canyon.BlueWaterSink
    0.04%    0.27%  bluewater_sink_canyonSP2@bluewater_sink_canyon.BlueWaterSink
-   0.03%    0.22%  bluewater_sink_lowerSP2@bluewater_sink_lower.BlueWaterSink
    0.01%    0.08%  bluewater_sink_lowerSP1@bluewater_sink_lower.BlueWaterSink
-################### end of scrap distortions ###################
-
-
-###################### scrap distortions #######################
- PROJECTION: extended
- AVERAGE  MAXIMAL  SCRAP
-   0.01%    0.13%  bluewater_sink_canyonSE1@bluewater_sink_canyon.BlueWaterSink
-   0.00%    0.10%  bluewater_sink_lowerSE1@bluewater_sink_lower.BlueWaterSink
-   0.00%    0.00%  ts-log-lowerSE1@ts-log-lower.BlueWaterSink
-   0.00%    0.00%  traverse21SE1@traverse21.BlueWaterSink
 ################### end of scrap distortions ###################

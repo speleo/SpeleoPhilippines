@@ -88,7 +88,7 @@ layout 600
     copy custom_symbols
     copy custom_color
     copy custom_large_odessa
-    #copy custom_small_odess
+    #copy custom_small_odessa
   
 ###################################################################
 #

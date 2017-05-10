@@ -6,6 +6,7 @@ survey BlueWaterSink
   input ts-log-lower/ts-log-lower.th
   
   #join bluewater_sink_canyonSP2@bluewater_sink_canyon bluewater_sink_lowerSP1@bluewater_sink_lower
+  join traverse21SP1@traverse21 bluewater_sink_lowerSP2@bluewater_sink_lower
 
   centreline
     equate 11.3@bluewater_sink_canyon 2.1@bluewater_sink_lower

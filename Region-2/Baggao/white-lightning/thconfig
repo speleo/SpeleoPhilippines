@@ -33,7 +33,7 @@ source whitelightning.th
   input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
   
 layout local
-
+  scale 1 20
   ### index of file options from _layouts.mp
    copy custom_water_blue
   #copy custom_entrance_theta

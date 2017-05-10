@@ -4,14 +4,19 @@ source BlueWater-Sink.th
 #Surveys to output
 #-----------------
   export map -proj plan -layout local -o .\_output\BlueWater-sink.pdf
-  export map -proj extended -layout local -o .\_output\BlueWater-sinkEE.pdf
+  #export map -proj extended -layout local -o .\_output\BlueWater-sinkEE.pdf
 
-  export map -fmt kml -proj plan -layout local -o .\_output\BlueWater-sink-map.kml
-  export model -fmt kml -o .\_output\BlueWater-sink.kml
+  #export map -fmt kml -proj plan -layout local -o .\_output\BlueWater-sink-map.kml
+  #export model -fmt kml -o .\_output\BlueWater-sink.kml
 
   #Survex file showing centre line only
-  export model -fmt survex -o .\_output\bluewater-sink-survex.3d
-
+  #export model -fmt survex -o .\_output\bluewater-sink-survex.3d
+  
+#inject standard code for layouts
+  input ..\..\..\CodeLibrary\_translations.txt  # custom translations
+  input ..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts  
 
 layout local
   #scale 1 150
@@ -32,8 +37,8 @@ layout local
   
   doc-author   "Henry Bennett"
   doc-keywords "Blue Water Sink Baggao Philippines"
-  doc-subject  "Survey of Blue Water Sink 2015"
-  doc-title    "Blue Water Sink Survey Bristol Exploration Club 2015"
+  doc-subject  "Survey of Blue Water Sink 2017"
+  doc-title    "Blue Water Sink Survey Bristol Exploration Club 2017"
       
   debug off
   transparency on
@@ -54,6 +59,39 @@ layout local
   grid bottom
   grid-coords border
   #sketches on
+  
+  ### index of file options from _layouts.mp
+    copy custom_water_blue
+    #copy custom_entrance_theta
+    copy custom_entrance_theta_large
+    #copy custom_scalebar_large_format
+    #copy custom_scalebar_medium_format
+    #copy custom_scalebar
+    #copy custom_legend_large_format
+    #copy custom_legend_large_format_5U
+    #copy custom_legend_large_format_20U
+    copy custom_grid_2_continuous
+    #copy custom_centerline_2_continuous
+    copy custom_bats
+    #copy custom_north_arrow_150
+    #copy custom_north_arrow_300
+    #copy custom_north_arrow_600
+    #copy custom_northarrow_large
+    copy custom_line_doline
+  
+  ### index of file options from _layouts.tex
+    #copy custom_colorlegendbox
+    #copy custom_legendsymbolbox
+    #copy custom_title_area_format
+    #copy custom_title_area_format_20
+    #copy custom_title_area_format_1000
+    #copy custom_logos
+
+  ### index of file options from _layouts.thc
+    copy custom_symbols
+    copy custom_color
+    copy custom_large_odessa
+    #copy custom_small_odessa
   
 ###################################################################
 #
@@ -133,7 +171,6 @@ layout local
         }
       \legendbox{75}{35}{nw} {\loadpicture{images/Logo_BEC_300.png}}
       \legendbox{10}{98}{NW} {\northarrow}
-
     }
   
     
