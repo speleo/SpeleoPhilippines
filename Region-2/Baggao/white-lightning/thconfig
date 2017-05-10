@@ -35,6 +35,7 @@ source whitelightning.th
 layout local
   scale 1 20
   ### index of file options from _layouts.mp
+  scale 1 1000
    copy custom_water_blue
   #copy custom_entrance_theta
   #copy custom_northarrow_large
@@ -107,31 +108,31 @@ layout local
 #
 ################################################################# 
   
-  code tex-map
-  \cavename={White Lightning / Minty}
-  \def\maplayout{
-    \legendbox{05}{05}{NW}{
-      \legendwidth 15 cm
-      \the\legendcontent
-      }
-    \legendbox{05}{84}{NW}{
-      \legendwidth 15 cm
-      \legendtextsize={\size[12]}
-      \hsize=\legendwidth
-      \input th_legend
-      }
-    \legendbox{05}{55}{NW}{
-      \legendwidth 15 cm
-      \legendtextsize={\size[12]}
-      \hsize=\legendwidth
-      #\input th_legendcolor
-      }
-    \legendbox{12} {19} {nw} {\loadpicture{images/Logo_BEC_400.png}}
-    #\legendbox{33} {60} {nw} {\loadpicture{images/Logo_GaiaEC_1000.jpg}}
-    \legendbox{42} {20} {nw} {\loadpicture{images/Logo_SMOC_400.png}}
-  }
+  #code tex-map
+  #\cavename={White Lightning / Minty}
+  #\def\maplayout{
+  #  \legendbox{05}{05}{NW}{
+  #    \legendwidth 15 cm
+  #    \the\legendcontent
+  #    }
+  #  \legendbox{05}{84}{NW}{
+  #    \legendwidth 15 cm
+  #    \legendtextsize={\size[12]}
+  #    \hsize=\legendwidth
+  #    \input th_legend
+  #    }
+  #  \legendbox{05}{55}{NW}{
+  #    \legendwidth 15 cm
+  #    \legendtextsize={\size[12]}
+  #    \hsize=\legendwidth
+  #    #\input th_legendcolor
+  #    }
+  #  \legendbox{12} {19} {nw} {\loadpicture{images/Logo_BEC_400.png}}
+  #  #\legendbox{33} {60} {nw} {\loadpicture{images/Logo_GaiaEC_1000.jpg}}
+  #  \legendbox{42} {20} {nw} {\loadpicture{images/Logo_SMOC_400.png}}
+  #}
 
-  endcode #end of TeX code
+  #endcode #end of TeX code
 
 endlayout
 

@@ -1,7 +1,7 @@
 encoding  utf-8
 survey white_lightning -title "White Lightning"
   input wl/wl.th
-  #input Minty/mintys_hole.th
+  input Minty/mintys_hole.th
   input whitelightning2a/whitelightning2a.th
   input whitelightning3/whitelightning3.th
   input whitelightning4/whitelightning4.th
@@ -15,7 +15,7 @@ survey white_lightning -title "White Lightning"
   input whitelightning12/whitelightning12.th
 
   centreline
-    #equate 1.15@white_lightning_data 1.0@mintys_hole
+    equate 1.15@white_lightning_data 1.0@mintys_hole
     equate 1.10@white_lightning_data  25.0@whitelightning2a
     equate 28.12@whitelightning2a     29.0@whitelightning3
     equate 30.11@whitelightning3      30.11@whitelightning4
