@@ -5,6 +5,8 @@
 thTMPDIR/
 *~
 8.*~
+.xtherion.dat
+therion.log
 
 #################
 ## Eclipse
