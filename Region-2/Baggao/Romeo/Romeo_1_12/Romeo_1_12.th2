@@ -1,11 +1,326 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 13809.338582677701 19360.2519685069
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -136.0 13809.338582677701 19360.2519685069
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {4492.664094490001 1 1.0} {8070.104173199999 20.31} PocketTopo/Romeo_1_12_p.xvi 0 {}
 
 
 
 scrap Romeo_1_12SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+area water
+  l98-7826-16992
+endarea
+
+line border -id l98-7826-16992 -close on -subtype invisible
+  7780.0 16999.0
+  7780.0 16999.0 7752.04 16987.2 7742.0 16937.0
+  7738.67 16920.36 7763.0 16905.0 7786.0 16915.0
+  7809.0 16925.0 7822.0 16944.0 7826.0 16969.0
+  7830.0 16994.0 7820.0 17004.0 7814.0 17009.0
+  7803.14 17018.05 7780.0 16999.0 7780.0 16999.0
+  smooth off
+endline
+
+area pebbles
+  l95-7933-17256
+  l96-7900-17194
+endarea
+
+line border -id l96-7900-17194 -close on -reverse on -subtype invisible
+  7867.0 17195.0
+  7867.0 17195.0 7847.0 17201.0 7850.0 17158.0
+  7853.0 17115.0 7866.0 17134.0 7886.0 17127.0
+  7906.0 17120.0 7907.0 17119.0 7925.0 17136.0
+  7943.0 17153.0 7941.0 17159.0 7934.0 17176.0
+  7927.0 17193.0 7905.0 17192.0 7892.0 17197.0
+  7879.0 17202.0 7867.0 17195.0 7867.0 17195.0
+  smooth off
+endline
+
+point 6998.0 16789.0 rimstone-dam -orientation 238.1
+
+point 7025.0 16736.0 rimstone-dam -orientation 235.9
+
+point 7055.0 16686.0 rimstone-dam -orientation 235.9
+
+point 7068.0 16614.0 rimstone-dam -orientation 254.8
+
+point 7128.0 16627.0 rimstone-dam -orientation 256.3
+
+point 7117.0 16685.0 rimstone-dam -orientation 265.2
+
+point 7096.0 16743.0 rimstone-dam -orientation 249.7
+
+point 7080.0 16799.0 rimstone-dam -orientation 262.5
+
+point 7161.0 16800.0 rimstone-dam -orientation 252.4
+
+point 7187.0 16741.0 rimstone-dam -orientation 252.4
+
+point 3784.0 12176.0 rimstone-dam -orientation 243.4
+
+point 3714.0 12154.0 rimstone-dam -orientation 229.3
+
+point 3668.0 11895.0 rimstone-dam -orientation 298.2
+
+point 3758.0 12100.0 rimstone-dam -orientation 261.9
+
+area blocks
+  l169-2844-9881
+endarea
+
+area water
+  l171-2526-9310
+endarea
+
+area sand
+  l175-2582-10290
+  l132-3954-11692
+  l177-4110-11676
+endarea
+
+line border -id l177-4110-11676 -subtype invisible
+  4058.0 11622.0
+  4234.0 11818.0
+  4406.0 12718.0
+  5586.0 14940.0
+  5586.0 14940.0 5880.0 15472.0 5354.0 15342.0
+  4828.0 15212.0 4712.0 15132.0 4712.0 15132.0
+  smooth off
+  4110.0 14134.0
+  3880.0 13344.0
+  3670.0 12628.0
+  3612.0 12322.0
+  3612.0 12322.0 3822.0 12198.0 3852.0 12132.0
+  3882.0 12066.0 3918.0 11812.0 3866.0 11752.0
+  3814.0 11692.0 3638.0 11598.0 3558.0 11612.0
+  3478.0 11626.0 3080.0 11182.0 3080.0 11182.0
+  smooth off
+  2720.0 10854.0
+  2478.0 10452.0
+endline
+
+area water
+endarea
+
+line border -id l175-2582-10290 -subtype invisible
+  2478.0 10452.0
+  2478.0 10452.0 2732.0 10014.0 2856.0 10040.0
+  2980.0 10066.0 3974.0 11104.0 3974.0 11104.0
+  smooth off
+  4048.0 11294.0
+  4050.0 11592.0
+endline
+
+line floor-step -close on
+  4522.0 8152.0
+  4522.0 8152.0 4486.0 8115.0 4502.0 8088.0
+  4518.0 8061.0 4547.0 8101.0 4566.0 8112.0
+  4585.0 8123.0 4584.0 8136.0 4576.0 8153.0
+  4568.0 8170.0 4544.0 8170.0 4536.0 8165.0
+  4528.0 8160.0 4522.0 8152.0 4522.0 8152.0
+  smooth off
+endline
+
+line border
+endline
+
+line rock-border -close on -place top -clip on
+  2247.0 9076.0
+  2247.0 9076.0 2196.0 9075.0 2183.0 9041.0
+  2170.0 9007.0 2164.0 8998.0 2202.0 8967.0
+  2240.0 8936.0 2244.0 8915.0 2294.0 8930.0
+  2344.0 8945.0 2356.0 8952.0 2361.0 8979.0
+  2366.0 9006.0 2378.0 9034.0 2324.0 9058.0
+  2272.85 9080.73 2247.0 9076.0 2247.0 9076.0
+  smooth off
+endline
+
+line border -id l171-2526-9310 -close on -subtype invisible
+  2436.0 9335.0
+  2436.0 9335.0 2409.25 9326.97 2350.0 9291.0
+  2266.0 9240.0 2279.0 9258.0 2234.0 9181.0
+  2181.5 9091.16 2198.0 9108.0 2214.0 9060.0
+  2230.0 9012.0 2278.0 8986.0 2333.0 8999.0
+  2388.0 9012.0 2424.0 9034.0 2451.0 9074.0
+  2478.0 9114.0 2541.0 9185.0 2551.0 9226.0
+  2561.0 9267.0 2546.0 9302.0 2506.0 9319.0
+  2444.61 9345.09 2436.0 9335.0 2436.0 9335.0
+  smooth off
+endline
+
+line border -id l169-2844-9881 -close on -subtype invisible
+  2155.0 9889.0
+  2155.0 9889.0 2383.0 9485.0 2448.0 9447.0
+  2513.0 9409.0 2724.0 9583.0 2761.0 9661.0
+  2798.0 9739.0 2864.0 9992.0 2857.0 9991.0
+  subtype invisible
+  2707.2 9969.6 2656.0 10183.0 2482.0 10358.0
+  2308.0 10533.0 2155.0 9889.0 2155.0 9889.0
+  smooth off
+endline
+
+area water
+endarea
+
+point 3793.0 11751.0 rimstone-dam -orientation 322.3
+
+point 3734.0 11685.0 rimstone-dam -orientation 322.3
+
+point 3851.0 11799.0 rimstone-dam -orientation 312.3
+
+point 3714.0 11970.0 rimstone-dam -orientation 282.6
+
+point 3678.0 11769.0 rimstone-dam -orientation 310.5
+
+point 3784.0 11986.0 rimstone-dam -orientation 275.8
+
+point 3749.0 12025.0 rimstone-dam -orientation 270.2
+
+point 3724.0 11879.0 rimstone-dam -orientation 300.2
+
+point 3765.0 11930.0 rimstone-dam -orientation 287.6
+
+point 3628.0 11798.0 rimstone-dam -orientation 307.3
+
+point 3796.0 11833.0 rimstone-dam -orientation 307.3
+
+point 3719.0 12053.0 rimstone-dam -orientation 278.4
+
+point 3834.0 11930.0 rimstone-dam -orientation 266.8
+
+point 3670.0 11832.0 rimstone-dam -orientation 314.2
+
+point 3712.0 12111.0 rimstone-dam -orientation 243.4
+
+point 3716.0 12222.0 rimstone-dam -orientation 187.5
+
+point 3808.0 12132.0 rimstone-dam -orientation 237.8
+
+point 3828.0 12052.0 rimstone-dam -orientation 256.2
+
+point 3843.0 11982.0 rimstone-dam -orientation 268.3
+
+point 3832.0 11869.0 rimstone-dam -orientation 286.9
+
+point 3756.0 11789.0 rimstone-dam -orientation 317.2
+
+point 3720.0 11752.0 rimstone-dam -orientation 327.5
+
+point 3660.0 11708.0 rimstone-dam -orientation 331.4
+
+line rock-border -close on
+  3924.0 12258.0
+  3924.0 12258.0 3864.0 12212.0 3894.0 12154.0
+  3924.0 12096.0 3958.0 12122.0 3986.0 12132.0
+  4014.0 12142.0 4038.0 12208.0 4038.0 12208.0
+  smooth off
+  4038.0 12208.0 4022.0 12260.0 3986.0 12272.0
+  3938.57 12287.81 3924.0 12258.0 3924.0 12258.0
+  smooth off
+endline
+
+area water
+  l132-3954-11692
+endarea
+
+line border -id l132-3954-11692 -close on -subtype invisible
+  4000.0 11704.0
+  4000.0 11704.0 3962.0 11740.0 3924.0 11650.0
+  3898.86 11590.47 3944.63 11540.95 3982.0 11526.0
+  4012.0 11514.0 4036.0 11550.0 4050.0 11592.0
+  4064.0 11634.0 4050.0 11682.0 4040.0 11698.0
+  4030.0 11714.0 4000.0 11704.0 4000.0 11704.0
+  smooth off
+endline
+
+area blocks
+  l130-4828-15114
+endarea
+
+area pebbles
+  l170-6500-15904
+endarea
+
+line border -id l170-6500-15904 -close on -subtype invisible -place top -clip on
+  4978.0 15638.0
+  4978.0 15638.0 5630.0 15284.0 5884.0 15278.0
+  6138.0 15272.0 6562.0 16012.0 6562.0 16012.0
+  smooth off
+  6562.0 16012.0 6636.0 16122.0 6696.0 16184.0
+  6756.0 16246.0 6840.0 16416.0 6646.0 16586.0
+  6452.0 16756.0 6486.0 16742.0 6340.0 16680.0
+  6194.0 16618.0 6224.0 16544.0 6130.0 16454.0
+  6036.0 16364.0 6024.0 16436.0 5948.0 16292.0
+  5872.0 16148.0 5788.0 16144.0 5856.0 16034.0
+  5924.0 15924.0 5888.0 15926.0 5822.0 15860.0
+  5756.0 15794.0 5730.0 15746.0 5648.0 15702.0
+  5566.0 15658.0 5558.0 15660.0 5476.0 15704.0
+  5394.0 15748.0 4978.0 15638.0 4978.0 15638.0
+  smooth off
+endline
+
+line border -id l130-4828-15114 -close on -reverse on -subtype invisible -place top -clip on
+  4818.0 15110.0
+  4898.0 15144.0
+  4898.0 15144.0 4976.0 15190.0 5116.0 15138.0
+  5256.0 15086.0 5244.0 15008.0 5346.0 14824.0
+  5448.0 14640.0 5078.0 14132.0 5078.0 14132.0
+  smooth off
+  4680.0 13826.0
+  4540.0 13198.0
+  4458.0 12880.0
+  4392.0 12772.0
+  3812.0 12722.0
+  3910.0 13280.0
+  4136.0 13798.0
+  4438.0 14472.0
+  4766.0 15064.0
+  4818.0 15110.0
+endline
+
+point 5821.0 15988.0 crystal
+
+point 5754.0 15909.0 crystal
+
+point 5676.0 15839.0 crystal
+
+point 5593.0 15767.0 crystal
+
+point 7221.0 16674.0 rimstone-dam -orientation 252.4
+
+point 7298.0 16688.0 rimstone-dam -orientation 252.4
+
+point 7265.0 16746.0 rimstone-dam -orientation 252.4
+
+point 7250.0 16814.0 rimstone-dam -orientation 237.8
+
+point 7327.0 16821.0 rimstone-dam -orientation 237.8
+
+point 7342.0 16754.0 rimstone-dam -orientation 267.8
+
+point 7351.0 16680.0 rimstone-dam -orientation 267.8
+
+point 7429.0 16698.0 rimstone-dam -orientation 267.8
+
+point 7418.0 16752.0 rimstone-dam -orientation 263.3
+
+point 7400.0 16803.0 rimstone-dam -orientation 263.3
+
+point 7502.0 16718.0 rimstone-dam -orientation 263.3
+
+point 7480.0 16772.0 rimstone-dam -orientation 249.9
+
+point 7451.0 16830.0 rimstone-dam -orientation 249.9
+
+line border -id l95-7933-17256 -close on -subtype invisible
+  7912.0 17256.0
+  7912.0 17256.0 7890.0 17234.0 7915.0 17214.0
+  7940.0 17194.0 7944.0 17200.0 7962.0 17214.0
+  7980.0 17228.0 7974.0 17245.0 7955.0 17253.0
+  7936.0 17261.0 7912.0 17256.0 7912.0 17256.0
+  smooth off
+endline
 
 line wall
   8397.0 18959.0
@@ -21,10 +336,10 @@ line wall
   7841.0 17450.0 7811.0 17399.0 7828.0 17358.0
   7845.0 17317.0 7850.0 17263.0 7847.0 17225.0
   7844.0 17187.0 7810.0 17111.0 7807.0 17088.0
-  7804.0 17065.0 7757.0 16986.0 7738.0 16974.0
-  7719.0 16962.0 7640.0 16914.0 7624.0 16911.0
-  7608.0 16908.0 7530.0 16928.0 7514.0 16928.0
-  7498.0 16928.0 7347.0 16904.0 7325.0 16901.0
+  7804.0 17065.0 7764.91 16998.24 7744.0 16990.0
+  7711.0 16977.0 7668.03 16911.87 7610.0 16908.0
+  7565.0 16905.0 7516.0 16930.0 7487.0 16926.0
+  7471.16 16923.82 7347.0 16904.0 7325.0 16901.0
   7303.0 16898.0 7160.0 16890.0 7137.0 16890.0
   7114.0 16890.0 6953.0 16895.0 6936.0 16901.0
   6919.0 16907.0 6821.0 16952.0 6787.0 16953.0
@@ -165,6 +480,46 @@ line wall
   9586.0 2125.0 9668.0 2077.0 9682.0 2067.0
   9696.0 2057.0 9801.0 2003.0 9816.0 2004.0
   9831.0 2005.0 9869.0 2001.0 9869.0 2001.0
+  smooth off
+endline
+
+point 8159.0 17908.0 rimstone-dam -orientation 171.8
+
+point 8126.0 17882.0 rimstone-dam -orientation 177.1
+
+point 8078.0 17861.0 rimstone-dam -orientation 200.3
+
+point 7983.0 17932.0 rimstone-dam -orientation 303.9
+
+point 8036.0 17966.0 rimstone-dam -orientation 303.9
+
+point 8006.0 18001.0 rimstone-dam -orientation 303.9
+
+point 8056.0 18068.0 rimstone-dam -orientation 303.9
+
+point 8054.0 18117.0 rimstone-dam -orientation 303.9
+
+point 8100.0 18160.0 rimstone-dam -orientation 303.9
+
+point 8123.0 18262.0 rimstone-dam -orientation 280.2
+
+point 8088.0 18221.0 rimstone-dam -orientation 294.4
+
+point 8092.0 18316.0 rimstone-dam -orientation 273.0
+
+area water
+  l81-7989-17795
+endarea
+
+line border -id l81-7989-17795 -close on -subtype invisible
+  7926.0 17745.0
+  7926.0 17745.0 7936.0 17782.0 7970.0 17790.0
+  8004.0 17798.0 8014.0 17795.0 8037.0 17802.0
+  8060.0 17809.0 8074.0 17809.0 8088.0 17772.0
+  8102.0 17735.0 8103.0 17710.0 8079.0 17684.0
+  8055.0 17658.0 8028.0 17649.0 7999.0 17654.0
+  7970.0 17659.0 7961.0 17655.0 7942.0 17682.0
+  7911.71 17725.04 7926.0 17745.0 7926.0 17745.0
   smooth off
 endline
 

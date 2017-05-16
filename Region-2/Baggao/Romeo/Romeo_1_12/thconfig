@@ -6,18 +6,18 @@ source Romeo_1_12.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o _output\Romeo_1_12.pdf
+export map -proj plan -layout local -o _output/Romeo_1_12.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o _output\Romeo_1_12Ee.pdf
+#export map -proj extended -layout local -o _output/Romeo_1_12Ee.pdf
 
-export model -fmt survex -o _output\Romeo_1_12th.3d
+export model -fmt survex -o _output/Romeo_1_12th.3d
 #Survex file showing centre line only
 
 #export model -o _output\Romeo_1_12.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o _output\Romeo_1_12_Walls.3d
+#export map -proj plan -o _output/Romeo_1_12_Walls.3d
 #Survex file showing walls only
 
 layout local
