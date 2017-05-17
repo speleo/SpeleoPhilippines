@@ -78,12 +78,12 @@ layout local
 
   code metapost
     
-    input CodeLibrary/_grid_x_hair_to_continuos_line
-    input CodeLibrary/_scalebar_medium_format
-    input CodeLibrary/_legend_medium_format
-    input CodeLibrary/_water_blue
-    input CodeLibrary/_north_arrow_300
-    input CodeLibrary/_continuous_centerline
+    #input CodeLibrary/_grid_x_hair_to_continuos_line
+    #input CodeLibrary/_scalebar_medium_format
+    #input CodeLibrary/_legend_medium_format
+    #input CodeLibrary/_water_blue
+    #input CodeLibrary/_north_arrow_300
+    #input CodeLibrary/_continuous_centerline
     
     # should probably differentiate these so sumps are shown on the survey
     def a_sump (expr p) =
@@ -115,7 +115,7 @@ layout local
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
     \legendbox{61}{87}{NW}{\northarrow}
-    \legendbox{10}{30}{nw} {\loadpicture{images/Logo_BEC_800.png}}
+   # \legendbox{10}{30}{nw} {\loadpicture{images/Logo_BEC_800.png}}
     \legendbox{10}{79}{NW}{
       \legendwidth 30 cm
       \the\legendcontent
