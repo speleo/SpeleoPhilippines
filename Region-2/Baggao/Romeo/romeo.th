@@ -2,20 +2,17 @@ encoding  utf-8
 survey romeo -title "Romeo System"
 
   input Romeo_entrance/Romeo_entrance.th
-  input fatcamp/fatcamp.th
   input Romeo_W_loop/Romeo_W_loop.th
   input romeo_cathedral/romeo_cathedral.th
   input Lumio/lumio.th
   input Romeo_1_12/Romeo_1_12.th
 
-  join romeoSP4@romeo_entrance Romeo_1.12SP1@fatcamp
   join lumioSP1@lumio romeoSP5@romeo_entrance
   join romeo_cathedralSP1@romeo_cathedral romeoSP3@romeo_entrance
   join romeoSP1@romeo_entrance Romeo_21_1SP1@Romeo_W_loop
 
   centreline
     title "Romeo System"
-    equate 1.12@fatcamp   1.12@romeo_entrance
     
     equate 2.1@lumio       lumio@romeo_entrance
     #equate 2.1@lumio       1.54@romeo_entrance
