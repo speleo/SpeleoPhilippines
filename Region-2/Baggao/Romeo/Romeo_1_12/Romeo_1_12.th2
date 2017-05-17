@@ -169,7 +169,7 @@ point 10070.0 2686.0 curtain
 
 point 9952.0 1982.0 narrow-end -orientation 289.9
 
-point 7446.0 3162.0 label -text "Tin Can Alley"
+point 7528.0 3066.0 label -text "Tin Can Alley"
 
 point 5354.0 4762.0 cave-pearl
 
@@ -223,6 +223,7 @@ line flowstone -reverse on
   2152.0 8488.0
   2152.0 8488.0 2252.0 8488.0 2208.0 8648.0
   2164.0 8808.0 2150.0 8664.0 2140.0 8908.0
+  smooth off
 endline
 
 point 2582.0 8578.0 stalagmite
@@ -239,6 +240,7 @@ line flowstone -reverse on
   3298.0 8510.0
   3298.0 8510.0 3360.0 8354.0 3464.0 8358.0
   3568.0 8362.0 3536.0 8398.0 3540.0 8444.0
+  smooth off
 endline
 
 line flowstone
@@ -247,6 +249,7 @@ endline
 line flowstone -reverse on
   5126.0 8294.0
   5126.0 8294.0 5104.0 8122.0 4976.0 7952.0
+  smooth off
 endline
 
 line flowstone -reverse on
@@ -311,11 +314,13 @@ point 12972.0 3306.0 stalactite
 line flowstone -reverse on
   12860.0 3372.0
   12860.0 3372.0 12812.0 3552.0 12660.0 3490.0
+  smooth off
 endline
 
 line flowstone -reverse on
   12616.0 3530.0
   12616.0 3530.0 12846.0 3558.0 12712.0 3734.0
+  smooth off
 endline
 
 point 12946.0 3460.0 stalactite
@@ -358,6 +363,7 @@ line flowstone
   6848.0 3334.0
   6848.0 3334.0 6738.0 3432.0 6782.0 3524.0
   6826.0 3616.0 6726.0 3586.0 6766.0 3710.0
+  smooth off
 endline
 
 point 3158.0 6786.0 stalactite
@@ -427,6 +433,7 @@ point 7040.0 2828.0 stalactite
 line flowstone -reverse on
   7156.0 2886.0
   7156.0 2886.0 7108.0 2722.0 7260.0 2808.0
+  smooth off
 endline
 
 line flowstone
@@ -436,6 +443,7 @@ line flowstone
   smooth off
   7818.0 3232.0 7714.0 3312.0 7708.0 3346.0
   7702.0 3380.0 7632.0 3424.0 7692.0 3480.0
+  smooth off
 endline
 
 point 5100.0 8094.0 stalagmite
@@ -536,12 +544,14 @@ endline
 line flowstone -reverse on
   7118.0 3612.0
   7118.0 3612.0 7066.0 3538.0 7138.0 3476.0
+  smooth off
 endline
 
 line flowstone -reverse on
   7028.0 3676.0
   7028.0 3676.0 6934.0 3654.0 6954.0 3510.0
   6964.14 3436.96 6949.51 3291.41 7028.0 3226.0
+  smooth off
 endline
 
 line flowstone -reverse on
@@ -553,7 +563,7 @@ endline
 
 point 9882.0 2728.0 stalagmite
 
-point 6826.0 4006.0 label -text "Back Breaker"
+point 7104.0 4010.0 label -text "Back Breaker"
 
 point 9108.0 2492.0 narrow-end -orientation 112.5
 
@@ -565,6 +575,7 @@ line flowstone -reverse on
   9416.0 2942.0
   9416.0 2942.0 9408.0 2886.0 9512.0 2874.0
   9616.0 2862.0 9646.0 2882.0 9684.0 2994.0
+  smooth off
 endline
 
 area sand
@@ -648,6 +659,7 @@ line border -id l190-3328-8586 -subtype invisible
   2534.0 8940.0
   2374.0 8998.0
   2374.0 8998.0 2252.0 8796.0 2168.0 9046.0
+  smooth off
 endline
 
 line border -id l189-2438-8016 -subtype invisible
@@ -878,10 +890,16 @@ line border -id l95-7933-17256 -close on -subtype invisible
   smooth off
 endline
 
+line floor-step
+  8302.0 18858.0
+  8314.0 18842.0 8274.0 18820.0 8438.0 18714.0
+  8602.0 18608.0 8532.0 18648.0 8570.0 18634.0
+endline
+
 line wall
-  8397.0 18959.0
-  8373.0 18939.0 8264.0 18832.0 8248.0 18773.0
-  8232.0 18714.0 8170.0 18581.0 8150.0 18539.0
+  8302.0 18858.0
+  8280.0 18816.0 8196.0 18693.0 8180.0 18634.0
+  8164.0 18575.0 8170.0 18581.0 8150.0 18539.0
   8130.0 18497.0 8057.0 18304.0 8049.0 18273.0
   8041.0 18242.0 7976.0 18019.0 7968.0 17980.0
   7960.0 17941.0 7935.0 17771.0 7926.0 17745.0
@@ -1293,9 +1311,9 @@ line wall
   8154.0 17677.0 8188.0 17879.0 8210.0 17895.0
   8232.0 17911.0 8244.0 17923.0 8270.0 17963.0
   8296.0 18003.0 8388.0 18170.0 8392.0 18185.0
-  8396.0 18200.0 8492.0 18451.0 8501.0 18476.0
-  8510.0 18501.0 8596.0 18673.0 8600.0 18701.0
-  8604.0 18729.0 8609.0 18795.0 8629.0 18807.0
+  8396.0 18200.0 8419.0 18303.0 8428.0 18328.0
+  8437.0 18353.0 8542.0 18548.0 8546.0 18576.0
+  8550.0 18604.0 8560.0 18606.0 8570.0 18634.0
   smooth off
 endline
 
