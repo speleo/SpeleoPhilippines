@@ -71,38 +71,45 @@ processing projection plan ... done
 average distortion: 0.31%
 writing ./_output/Romeo.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015/Debian) (kpathsea version 6.2.1)  17 MAY 2017 22:40
+This is MetaPost, version 1.999 (TeX Live 2015/Debian) (kpathsea version 6.2.1)  18 MAY 2017 00:07
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp [4001] [4002] [4003]
 [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [4012]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+[1] [2] [3] [4] [5] [6] [7]
+[Error: area borders l107-2658-7064 and l240-2678-6802 don't intersect in scrap
+ romeoSP4@romeo_entrance.romeo (file Romeo_entrance/Romeo_entrance.th2 [1175])]
+[Error: area borders l239-2820-7090 and l107-2658-7064 don't intersect in scrap
+ romeoSP4@romeo_entrance.romeo (file Romeo_entrance/Romeo_entrance.th2 [1175])]
+[Error: area borders l107-2658-7064 and l239-2820-7090 don't intersect in scrap
+ romeoSP4@romeo_entrance.romeo (file Romeo_entrance/Romeo_entrance.th2 [1141])]
+[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23]
+[24] [25] [26] [27] [28] [29]
 [Error: area borders l177-4110-11676 and l132-3954-11692 don't intersect in scr
 ap Romeo_1_12SP1@Romeo_1_12.romeo (file Romeo_1_12/Romeo_1_12.th2 [76])]
 [Error: area borders l95-7933-17256 and l96-7900-17194 don't intersect in scrap
  Romeo_1_12SP1@Romeo_1_12.romeo (file Romeo_1_12/Romeo_1_12.th2 [24])]
 [Error: area borders l96-7900-17194 and l95-7933-17256 don't intersect in scrap
- Romeo_1_12SP1@Romeo_1_12.romeo (file Romeo_1_12/Romeo_1_12.th2 [24])] [31]
-[32] [33] [34] [35] [36] [37] [38] [39] (./mptextmp.mp) [40] [41] [42] [43]
-[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58]
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] )
+ Romeo_1_12SP1@Romeo_1_12.romeo (file Romeo_1_12/Romeo_1_12.th2 [24])] [30]
+[31] [32] [33] [34] [35] [36] [37] [38] (./mptextmp.mp) [39] [40] [41] [42]
+[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57]
+[58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
+[73] [74] [75] [76] [77] [78] [79] [80] [81] [82] )
  
 Here is how much of MetaPost's memory you used:
- 38359 strings using 859568 characters
- 7963512 bytes of node memory
+ 38188 strings using 854261 characters
+ 7950112 bytes of node memory
  1554 symbolic tokens
- 11i,81n,16p,285b,5f stack positions out of 16i,96n,20p,312b,6f
-95 output files written: data.1 .. data.4012
+ 11i,81n,16p,314b,5f stack positions out of 16i,96n,20p,390b,6f
+94 output files written: data.1 .. data.4012
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdfetex 2016.5.30)  17 MAY 2017 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdfetex 2016.5.30)  18 MAY 2017 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -112,13 +119,13 @@ entering extended mode
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex))
 (./th_pages.tex)
- 146 numeric registers used out of 32768
+ 145 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 342 strings out of 497107
- 3421 string characters out of 6206799
- 961038 words of memory out of 5000000
- 1563 multiletter control sequences out of 15000+600000
+ 341 strings out of 497107
+ 3410 string characters out of 6206799
+ 959258 words of memory out of 5000000
+ 1562 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  10i,5n,7p,1126b,84s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -126,12 +133,12 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 690788 bytes).
+Output written on data.pdf (1 page, 688888 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 261 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 715 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 709 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -144,7 +151,7 @@ therion: warning -- romeoSP4@romeo_entrance.romeo -- invalid scrap outline
 ....... done
 writing .\_output\romeo_cave_Walls.3d ... done
 writing xtherion file ... done
-compilation time: 5 sec
+compilation time: 4 sec
 
 
 ###################### scrap distortions #######################

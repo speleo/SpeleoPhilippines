@@ -559,11 +559,11 @@ endline
 
 point 1508.0 3536.0 gradient -orientation 276.6
 
-point 1218.0 3588.0 label -text "tt"
+point 1218.0 3588.0 narrow-end -orientation 97.4
 
-point 3658.0 4090.0 label -text "tt"
+point 3658.0 4090.0 narrow-end -orientation 48.3
 
-point 4196.0 4270.0 label -text "tt"
+point 4196.0 4270.0 narrow-end -orientation 227.9
 
 area blocks
   l72-4700-3940

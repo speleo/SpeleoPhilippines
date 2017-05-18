@@ -169,7 +169,7 @@ point 10070.0 2686.0 curtain
 
 point 9952.0 1982.0 narrow-end -orientation 289.9
 
-point 7528.0 3066.0 label -text "Tin Can Alley"
+point 7680.0 3052.0 label -text "Tin Can Alley"
 
 point 5354.0 4762.0 cave-pearl
 
@@ -563,7 +563,7 @@ endline
 
 point 9882.0 2728.0 stalagmite
 
-point 7104.0 4010.0 label -text "Back Breaker"
+point 7216.0 4014.0 label -text "Back Breaker"
 
 point 9108.0 2492.0 narrow-end -orientation 112.5
 
