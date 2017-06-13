@@ -5,8 +5,9 @@ input whitelightning2a.th2
 input whitelightning2aEe.th2
 
 map whitelightning2aM
-  whitelightning2aSP1
   whitelightning2aSP2
+  break
+  whitelightning2aSP1
 endmap
 
 map whitelightning2aME

@@ -5,12 +5,13 @@ input whitelightning3.th2
 input whitelightning3Ee.th2
 
 map whitelightning3M
-  wl3SP1
+  whitelightning3SP1
   break
-  wl3SP4
-  wl3SP2
-  wl3SP3
-  wl3SP5
+  whitelightning3SP4
+  break
+  whitelightning3SP2
+  whitelightning3SP3
+  
   
 endmap
 

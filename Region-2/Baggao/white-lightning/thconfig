@@ -33,21 +33,21 @@ source whitelightning.th
   input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
   
 layout local
-  scale 1 20
+  scale 1 300
   ### index of file options from _layouts.mp
-  scale 1 1000
+  #scale 1 1000
    copy custom_water_blue
   #copy custom_entrance_theta
   #copy custom_northarrow_large
   #copy custom_scalebar_large_format
-  copy custom_scalebar
+  #copy custom_scalebar
   #copy custom_legend_large_format
   #copy custom_legend_large_format_5U
   #copy custom_legend_large_format_20U
-   copy custom_grid_2_continuous
-   copy custom_centerline_2_continuous
-   copy custom_bats
-   copy custom_north_arrow_150
+  #copy custom_grid_2_continuous
+  #copy custom_centerline_2_continuous
+  #copy custom_bats
+  #copy custom_north_arrow_150
   #copy custom_north_arrow_300
   #copy custom_north_arrow_600
 
@@ -59,25 +59,25 @@ layout local
   #copy custom_logos
   
   ### index of file options from _layouts.thc
-   copy custom_symbols
-   copy custom_color
+  #copy custom_symbols
+  copy custom_color
   #copy custom_large_odessa
   #copy custom_small_odessa
   
-  legend on
-  legend-columns 2
-  legend-width 15 cm
-  colour-legend on
-  scale-bar 20 m
-  legend off
+  #legend on
+  #legend-columns 3
+  #legend-width 100 cm
+  #colour-legend on
+  #scale-bar 100 m
+  #legend on
 
-  doc-author   "Henry Bennett"
-  doc-keywords "Odessa Cave Penablanca Philippines"
-  doc-subject  "Survey of Odessa Cave 2016"
-  doc-title    "Odessa Cave Survey Bristol Exploration Club 2016"
+  doc-author   "Josh Bratchley"
+  doc-keywords "White Lightning, Baggao, Philippines"
+  doc-subject  "Survey of White Lightning Cave, 2017"
+  doc-title    "White Lightning Cave Survey - Bristol Exploration Club - 2017"
 
   
-  map-comment "Penablanca, Cagayan<br>51Q 377280.87 m E 1966711.40 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  #map-comment "Penablanca, Cagayan<br>51Q 377280.87 m E 1966711.40 m N<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
 
 
 ###################################################################
@@ -91,12 +91,12 @@ layout local
 ###################################################################
 
 
-  code metapost
+  #code metapost
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
-    #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,10,14,20); 
-  endcode
+    #original fonts_setup(6,8,10,14,20);
+    #fonts_setup(6,8,10,14,20); 
+  #endcode
 
 #################################################################
 #  
@@ -139,5 +139,5 @@ endlayout
 layout old
 debug off
 map-header 0 0 ne
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 endlayout
