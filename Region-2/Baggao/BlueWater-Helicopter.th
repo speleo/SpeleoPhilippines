@@ -6,7 +6,6 @@ survey BlueWater-Helicopter
   input BlueWaterTopSink/BlueWater-Sink.th
   input White-Lightning/WhiteLightning.th
   input pio_pot/pio_pot.th
-  #hello world
   
   #join bluewater-above-climb-1-S2@bluewater Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole 
   join BelowP3_Left_Wall@bluewater AboveP3_Left_Wall@C4HelicopterHole 

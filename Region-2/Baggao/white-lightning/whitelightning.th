@@ -14,6 +14,15 @@ survey white_lightning -title "White Lightning"
   input whitelightning11/whitelightning11.th
   input whitelightning12/whitelightning12.th
 
+  map WhiteLightningMap
+    whitelightning12M@whitelightning12
+  endmap
+  
+  map WhiteLightningMapLabel
+    whitelightning12_Label.whitelightning12@whitelightning12
+  endmap
+  
+
   centreline
     equate 1.15@white_lightning_data 1.0@mintys_hole
     equate 1.10@white_lightning_data  25.0@whitelightning2a

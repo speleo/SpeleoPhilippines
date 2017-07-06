@@ -1,15 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -142.28571428571428 -142.28571428571428 16192.285714285716 24988.6692913264
-##XTHERION## xth_me_area_zoom_to 28
+##XTHERION## xth_me_area_adjust -156.57142857142858 -156.57142857142858 16206.57142857143 24988.6692913264
+##XTHERION## xth_me_area_zoom_to 14
 ##XTHERION## xth_me_image_insert {4835.6488976 1 1.0} {9580.328189 33.227} PocketTopo/whitelightning12_p.xvi 0 {}
 
 
 
 scrap whitelightning12SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-point 13791.666666666668 22091.666666666668 label -orientation 284.8 -scale xl -text "'It Doesn't Go'"
-
-point 15141.666666666668 23150.0 label -scale l -text "<center>Strong<br>Draught"
 
 line border -id l91-14643-20714
   14925.000000000002 20650.0
@@ -96,15 +92,11 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 14128.57142857143 18557.14285714286 label -scale xl -text "?"
-
 line wall -reverse on -subtype presumed
   13832.0 19000.0
   13832.0 19000.0 13964.29 18742.86 14007.142857142859 18735.714285714286
   smooth off
 endline
-
-point 13950.0 20228.57142857143 label -scale l -text "<center>Boulder<br>Slope"
 
 point 13585.714285714286 20092.857142857145 gradient -orientation 5.0 -scale xl
 
@@ -392,24 +384,6 @@ line wall -reverse on
   smooth off
 endline
 
-point 6375.0 9583.333333333334 label -orientation 0.3 -scale xl -text "<center>Definitely<br>Not A<br>Virgin"
-
-point 2433.3333333333335 8050.000000000001 label -orientation 313.4 -scale xl -text "Out of the Blue"
-
-point 5959.52380952381 14554.761904761905 label -orientation 281.1 -scale xl -text "For Glory"
-
-point 9433.333333333334 22266.666666666668 label -orientation 15.1 -scale xl -text "Jigsaw Puzzle Chamber"
-
-point 1558.3333333333335 7066.666666666667 label -scale l -text "<center>Guano<br>Smell"
-
-point 2750.0 6558.333333333334 label -scale l -text "Stal Boss"
-
-point 4008.3333333333335 8325.0 label -scale l -text "<center>Mud<br>Formations"
-
-point 7986.904761904762 17959.52380952381 label -scale l -text "<center>Strong<br>Draught"
-
-point 4275.0 9983.333333333334 label -scale l -text "<center>Rift<br>Canyon"
-
 line floor-step -close on
   2233.3333333333335 6841.666666666667
   2233.3333333333335 6841.666666666667 2116.67 6758.33 2175.0 6725.000000000001
@@ -464,6 +438,38 @@ line wall -close on
   14025.0 23217.86 14010.714285714286 23228.57142857143 14010.714285714286 23228.57142857143
   smooth off
 endline
+
+endscrap
+
+
+
+scrap whitelightning12_Label -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 13791.666666666668 22091.666666666668 label -orientation 284.8 -scale xl -text "'It Doesn't Go'"
+
+point 15141.666666666668 23150.0 label -scale l -text "<center>Strong<br>Draught"
+
+point 6375.0 9583.333333333334 label -orientation 0.3 -scale xl -text "<center>Definitely<br>Not A<br>Virgin"
+
+point 2433.3333333333335 8050.000000000001 label -orientation 313.4 -scale xl -text "Out of the Blue"
+
+point 5959.52380952381 14554.761904761905 label -orientation 281.1 -scale xl -text "For Glory"
+
+point 9433.333333333334 22266.666666666668 label -orientation 15.1 -scale xl -text "Jigsaw Puzzle Chamber"
+
+point 1558.3333333333335 7066.666666666667 label -scale l -text "<center>Guano<br>Smell"
+
+point 2750.0 6558.333333333334 label -scale l -text "Stal Boss"
+
+point 4008.3333333333335 8325.0 label -scale l -text "<center>Mud<br>Formations"
+
+point 7986.904761904762 17959.52380952381 label -scale l -text "<center>Strong<br>Draught"
+
+point 4275.0 9983.333333333334 label -scale l -text "<center>Rift<br>Canyon"
+
+point 14128.57142857143 18557.14285714286 label -scale xl -text "?"
+
+point 13950.0 20228.57142857143 label -scale l -text "<center>Boulder<br>Slope"
 
 endscrap
 
