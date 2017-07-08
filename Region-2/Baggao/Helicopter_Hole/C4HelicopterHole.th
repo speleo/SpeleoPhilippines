@@ -49,6 +49,8 @@ copyright 2015 "GNU GPL"
   equate 13.2@beast20170424b 13.2@Beast20170423
   equate 13.21@Beast20170423 13.21@beast20170424
 
+  join Beast20170423SP1@Beast20170423 beast20170424SP1@beast20170424
+
   date 2015.03.04
 
   team "Henry Dawson" notes

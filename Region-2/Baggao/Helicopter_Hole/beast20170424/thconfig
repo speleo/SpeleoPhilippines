@@ -6,7 +6,7 @@ source beast20170424.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o .\_output\beast20170424.pdf
+export map -proj plan -layout local -o .\_output\beast20170424.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o .\_output\beast20170424Ee.pdf
