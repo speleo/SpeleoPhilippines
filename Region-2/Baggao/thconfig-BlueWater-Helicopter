@@ -4,15 +4,15 @@ source BlueWater-Helicopter.th
 unselect twiglet.bluewater.BlueWater-Helicopter
 
 ### choose which exports to use
-  export map -proj plan -layout 600 -o .\_output\BlueWater-Helicopter.pdf
-  #export map -fmt kml -proj plan -layout 600 -o .\_output\BlueWater-Helicopter-map.kml
-  #export model -fmt kml -o .\_output\BlueWater-Helicopter.kml
-  #export atlas -proj plan -layout 600 -o .\_output\BlueWater-Helicopter_Atlas.pdf
-  #export model -o .\_output\BlueWater-Helicopter.lox -enable surface
-  export model -output .\_output\BlueWater-Helicopter.3d
+  export map -proj plan -layout 600 -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter.pdf
+  #export map -fmt kml -proj plan -layout 600 -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter-map.kml
+  #export model -fmt kml -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter.kml
+  #export atlas -proj plan -layout 600 -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter_Atlas.pdf
+  #export model -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter.lox -enable surface
+  export model -output .\_output\Bluewater-Helicopter\BlueWater-Helicopter.3d
 
   #Survex file showing centre line only
-  #export model -fmt survex -o .\_output\bluewater-Helicopter-survex.3d
+  #export model -fmt survex -o .\_output\Bluewater-Helicopter\bluewater-Helicopter-survex.3d
   #export model -format esri
   #export model -format dxf
   

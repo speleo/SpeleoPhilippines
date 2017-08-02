@@ -6,7 +6,7 @@ source whitelightning.th
 #select mintys_holeM@mintys_hole.white_lightning
 #select whitelightning2a.white_lightning
 select WhiteLightningMap@white_lightning
-select WhiteLightningMap_Label@white_lightning
+#select WhiteLightningMap_Label@white_lightning
 
 
 #Surveys to output

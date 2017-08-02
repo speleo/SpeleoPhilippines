@@ -18,9 +18,9 @@ survey white_lightning -title "White Lightning"
     whitelightning12M@whitelightning12
   endmap
   
-  map WhiteLightningMapLabel
-    whitelightning12_Label.whitelightning12@whitelightning12
-  endmap
+  #map WhiteLightningMapLabel
+    #whitelightning12_Label.whitelightning12@whitelightning12
+  #endmap
   
 
   centreline

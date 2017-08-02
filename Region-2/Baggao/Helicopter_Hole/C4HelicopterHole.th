@@ -14,6 +14,8 @@ survey C4HelicopterHole
   input Beast20170424/Beast20170424.th
   input Beast20170424b/Beast20170424b.th
   
+  join Beast20170423SP1@Beast20170423 beast20170424SP1@beast20170424
+  
   map C4HelicopterHoleM
     Beauty_Above_Pitch_3_Sec_1
     Beauty_Above_Pitch_3_Sec_2
@@ -49,7 +51,7 @@ copyright 2015 "GNU GPL"
   equate 13.2@beast20170424b 13.2@Beast20170423
   equate 13.21@Beast20170423 13.21@beast20170424
 
-  join Beast20170423SP1@Beast20170423 beast20170424SP1@beast20170424
+  #join Beast20170423SP1@Beast20170423 beast20170424SP1@beast20170424
 
   date 2015.03.04
 
