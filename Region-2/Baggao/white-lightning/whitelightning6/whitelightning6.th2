@@ -7,17 +7,17 @@ encoding  utf-8
 
 scrap whitelightning6SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 23765.0 11370.0 label -scale l -text "<center>Duck Under<br>Flowstone"
+point 23765.0 11370.0 label -scale xs -text "<center>Duck Under<br>Flowstone"
 
-point 28400.0 15080.0 label -scale l -text "<center>Stal and<br>Mud Bank"
+point 28400.0 15080.0 label -scale xs -text "<center>Stal and<br>Mud Bank"
 
-point 29340.0 13340.0 label -scale l -text "Cascades"
+point 29340.0 13340.0 label -scale xs -text "Cascades"
 
-point 20540.0 5630.0 label -orientation 306.5 -scale xl -text "Canal"
+point 20540.0 5630.0 label -orientation 306.5 -scale xs -text "Canal"
 
 point 24260.0 7350.0 water-flow -orientation 340.2 -scale xl
 
-point 24300.0 7225.0 label -scale l -text "Sump"
+point 24300.0 7225.0 label -scale xs -text "Sump"
 
 area sump
   l156-24375-7675
@@ -43,11 +43,11 @@ line wall -subtype presumed
   24145.0 7460.0
 endline
 
-point 29165.0 10630.0 label -scale xl -text "<center>Out<br>of Time"
+point 29165.0 10630.0 label -scale xs -text "<center>Out<br>of Time"
 
-point 30205.0 12230.0 label -scale l -text "<center>Climb<br>2m"
+point 30205.0 12230.0 label -scale xs -text "<center>Climb<br>2m"
 
-point 30665.0 14195.0 label -scale l -text "<center>Flowstone<br>Gours"
+point 30665.0 14195.0 label -scale xs -text "<center>Flowstone<br>Gours"
 
 line border -id l109-31448-13883
   31191.666666666668 13608.333333333334
@@ -797,13 +797,13 @@ endscrap
 
 scrap whitelightning6SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 15615.0 6365.0 label -scale l -text "<center>Deep Water<br>Under Gour"
+point 15615.0 6365.0 label -scale xs -text "<center>Deep Water<br>Under Gour"
 
-point 11465.0 8600.0 label -scale l -text "<center>Stream Noise<br>Very Loud"
+point 11465.0 8600.0 label -scale xs -text "<center>Stream Noise<br>Very Loud"
 
-point 7620.0 14765.0 label -scale xl -text "?"
+point 7620.0 14765.0 label -scale xs -text "?"
 
-point 12090.0 10855.0 label -scale l -text "<center>Roof<br>Debris"
+point 12090.0 10855.0 label -scale xs -text "<center>Roof<br>Debris"
 
 line wall
   20232.0 4950.0
@@ -1510,17 +1510,17 @@ line border -id l258-6585-16380
   6600.0 16285.0
 endline
 
-point 8865.0 17915.0 label -scale l -text "<center>Cascading<br>Stream"
+point 8865.0 17915.0 label -scale xs -text "<center>Cascading<br>Stream"
 
-point 7255.0 16205.0 label -scale l -text "<center>Shiny<br>Curtains"
+point 7255.0 16205.0 label -scale xs -text "<center>Shiny<br>Curtains"
 
-point 5340.0 24345.0 label -scale l -text "<center>Shiny<br>Flowstone"
+point 5340.0 24345.0 label -scale xs -text "<center>Shiny<br>Flowstone"
 
-point 6300.0 23120.0 label -scale l -text "<center>Lots of<br>Stal"
+point 6300.0 23120.0 label -scale xs -text "<center>Lots of<br>Stal"
 
-point 9400.0 21015.0 label -scale l -text "<center>Huge<br>Calcite Boss"
+point 9400.0 21015.0 label -scale xs -text "<center>Huge<br>Calcite Boss"
 
-point 8130.0 20630.0 label -scale l -text "<center>Log Jam<br>(2m climb<br>down cascade)"
+point 8130.0 20630.0 label -scale xs -text "<center>Log Jam<br>(2m climb<br>down cascade)"
 
 area debris
   l270-8765-20645
@@ -1791,7 +1791,7 @@ point 6821.977854299999 23374.7744614 station -name 33.105
 
 point 6118.687854299998 24353.8044614 station -name 33.106
 
-point 7960.0 18235.0 label -orientation 276.2 -scale xl -text "Road to Somewhere"
+point 7960.0 18235.0 label -orientation 276.2 -scale xs -text "Road to Somewhere"
 
 point 4610.0 24290.0 section -scrap whitelightning6SPX33.107
 
@@ -1945,7 +1945,7 @@ endscrap
 
 scrap whitelightning6SPX33.83 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 15395.0 4645.0 label -scale m -text "Gour Roof"
+point 15395.0 4645.0 label -scale xs -text "Gour Roof"
 
 area water
   l220-15685-4423

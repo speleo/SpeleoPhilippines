@@ -97,19 +97,19 @@ endline
 
 point 758.0 2278.0 water-flow -orientation 166.5 -scale xl
 
-point 430.0 2324.0 label -scale l -text "<center>Water from<br>deep pool"
+point 430.0 2324.0 label -scale xs -text "<center>Water from<br>deep pool"
 
-point 1100.0 1408.0 label -scale l -text "<center>Window<br>over<br>Pitch"
+point 1100.0 1408.0 label -scale xs -text "<center>Window<br>over<br>Pitch"
 
-point 1724.0 2196.0 label -scale l -text "<center>Aven<br>approx 12m"
+point 1724.0 2196.0 label -scale xs -text "<center>Aven<br>approx 12m"
 
-point 1450.0 2530.0 label -scale l -text "<center>Deep<br>Water"
+point 1450.0 2530.0 label -scale xs -text "<center>Deep<br>Water"
 
-point 544.0 2674.0 label -scale l -text "<center>Rock Bridge<br>(go under)"
+point 544.0 2674.0 label -scale xs -text "<center>Rock Bridge<br>(go under)"
 
-point 1494.0 2692.0 label -scale l -text "Rebelay"
+point 1494.0 2692.0 label -scale xs -text "Rebelay"
 
-point 1866.0 2942.0 label -scale l -text "<center>9th Pitch<br>'Bang Bang'<br>18m"
+point 1866.0 2942.0 label -scale xs -text "<center>9th Pitch<br>'Bang Bang'<br>18m"
 
 point 814.0 2128.0 gradient -orientation 147.0 -scale m
 

@@ -12,9 +12,9 @@ line section -reverse on -direction both
   75478.57142857143 10717.857142857143
 endline
 
-point 69154.46428571428 3143.75 label -scale l -text "<center>Deep Hole<br>(Stream Heard)"
+point 69154.46428571428 3143.75 label -scale xs -text "<center>Deep Hole<br>(Stream Heard)"
 
-point 68974.10714285714 4148.214285714285 label -scale l -text "<center>Bright<br>White<br>Flowstone"
+point 68974.10714285714 4148.214285714285 label -scale xs -text "<center>Bright<br>White<br>Flowstone"
 
 point 72642.85714285714 6425.0 gradient -orientation 131.0
 
@@ -22,37 +22,37 @@ point 72671.42857142858 6610.714285714286 gradient -orientation 76.3
 
 point 72642.85714285716 6807.142857142858 gradient -orientation 47.1
 
-point 70448.21428571429 2039.2857142857142 label -scale l -text "<center>3m<br>Climb"
+point 70448.21428571429 2039.2857142857142 label -scale xs -text "<center>3m<br>Climb"
 
-point 70665.625 3559.375 label -scale l -text "<center>Water<br>Regained"
+point 70665.625 3559.375 label -scale xs -text "<center>Water<br>Regained"
 
-point 71222.8542626728 3774.8991935483873 label -scale l -text "<center>3m<br>Climb"
+point 71222.8542626728 3774.8991935483873 label -scale xs -text "<center>3m<br>Climb"
 
-point 72173.21428571429 6914.732142857143 label -scale xl -text "?"
+point 72173.21428571429 6914.732142857143 label -scale xs -text "?"
 
-point 72400.0 5825.0 label -scale xl -text "?"
+point 72400.0 5825.0 label -scale xs -text "?"
 
-point 73221.34216589862 6934.302995391705 label -scale l -text "<center>Deep<br>Water"
+point 73221.34216589862 6934.302995391705 label -scale xs -text "<center>Deep<br>Water"
 
-point 74800.0 7771.875 label -scale xl -text "?"
+point 74800.0 7771.875 label -scale xs -text "?"
 
-point 74906.25 11521.875 label -scale xl -text "<center>Fault<br>Chamber"
+point 74906.25 11521.875 label -scale xs -text "<center>Fault<br>Chamber"
 
-point 75439.73214285714 10246.875 label -scale l -text "<center>5m<br>Climb"
+point 75439.73214285714 10246.875 label -scale xs -text "<center>5m<br>Climb"
 
-point 74568.31797235023 10873.963133640555 label -scale l -text "<center>Passage nature<br>changes significantly<br>(fault driven)"
+point 74568.31797235023 10873.963133640555 label -scale xs -text "<center>Passage nature<br>changes significantly<br>(fault driven)"
 
-point 74500.0 10103.125 label -scale xl -text "<center>Gravel<br>Pot"
+point 74500.0 10103.125 label -scale xs -text "<center>Gravel<br>Pot"
 
-point 75053.32661290323 9128.125 label -scale l -text "<center>Water<br>Regained"
+point 75053.32661290323 9128.125 label -scale xs -text "<center>Water<br>Regained"
 
-point 73715.625 8734.375 label -scale l -text "<center>Aven 30m<br>approx"
+point 73715.625 8734.375 label -scale xs -text "<center>Aven 30m<br>approx"
 
-point 73045.53571428571 6160.714285714285 label -scale l -text "<center>Low<br>Duck"
+point 73045.53571428571 6160.714285714285 label -scale xs -text "<center>Low<br>Duck"
 
-point 72995.08928571429 8175.0 label -scale xl -text "<center>Fault<br>Meander"
+point 72995.08928571429 8175.0 label -scale xs -text "<center>Fault<br>Meander"
 
-point 72252.23214285714 7139.732142857143 label -scale l -text "Sump"
+point 72252.23214285714 7139.732142857143 label -scale xs -text "Sump"
 
 point 70331.9655118 2709.807874020001 station -name 33.142
 
@@ -738,19 +738,19 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 72581.97004608295 5337.2263824884785 label -scale xl -text "<center>The Cobblers<br>(Slippery)"
+point 72581.97004608295 5337.2263824884785 label -scale xs -text "<center>The Cobblers<br>(Slippery)"
 
-point 65907.58928571429 10482.589285714286 label -scale l -text "<center>Low<br>Archway"
+point 65907.58928571429 10482.589285714286 label -scale xs -text "<center>Low<br>Archway"
 
-point 66078.125 8615.625 label -scale l -text "Cascades"
+point 66078.125 8615.625 label -scale xs -text "Cascades"
 
-point 66839.28571428572 6739.285714285715 label -scale xl -text "?"
+point 66839.28571428572 6739.285714285715 label -scale xs -text "?"
 
-point 66792.85714285714 7502.678571428572 label -scale l -text "<center>Pure Black<br>Flowstone"
+point 66792.85714285714 7502.678571428572 label -scale xs -text "<center>Pure Black<br>Flowstone"
 
-point 69462.94642857143 2832.1428571428573 label -scale xl -text "?"
+point 69462.94642857143 2832.1428571428573 label -scale xs -text "?"
 
-point 68821.42857142857 5821.428571428572 label -orientation 22.7 -scale xl -text "Nopeland"
+point 68821.42857142857 5821.428571428572 label -orientation 22.7 -scale xs -text "Nopeland"
 
 area flowstone
   l185-67314-6857
@@ -764,7 +764,7 @@ line border -id l185-67314-6857
   67621.05263157895 7302.631578947369
 endline
 
-point 66933.48214285714 12193.75 label -scale xl -text "<center>Large Terminal<br>Sump Pool"
+point 66933.48214285714 12193.75 label -scale xs -text "<center>Large Terminal<br>Sump Pool"
 
 line section -reverse on -direction both
   70550.0 6725.0
@@ -809,7 +809,7 @@ endarea
 
 point 67757.14285714286 7978.571428571429 debris -orientation 288.2 -scale xl
 
-point 67967.85714285714 8167.857142857143 label -scale l -text "<center>Log<br>Debris"
+point 67967.85714285714 8167.857142857143 label -scale xs -text "<center>Log<br>Debris"
 
 area sand
   l123-65328-10138
@@ -861,7 +861,7 @@ area water
   l110-71039-6597
 endarea
 
-point 66582.14285714286 9496.428571428572 label -orientation 29.4 -scale xl -text "Ominosity"
+point 66582.14285714286 9496.428571428572 label -orientation 29.4 -scale xs -text "Ominosity"
 
 line border -id l125-65922-10103 -reverse on
   70121.05263157895 6510.526315789474
@@ -1459,11 +1459,11 @@ line wall -reverse on -subtype presumed
   smooth off
 endline
 
-point 71012.5 5803.125 label -scale l -text Sump
+point 71012.5 5803.125 label -scale xs -text Sump
 
-point 70495.53571428571 6171.428571428572 label -scale l -text Sump
+point 70495.53571428571 6171.428571428572 label -scale xs -text Sump
 
-point 70118.75 6673.214285714286 label -scale l -text Sump
+point 70118.75 6673.214285714286 label -scale xs -text Sump
 
 line wall -subtype presumed
   70270.83333333334 6531.250000000001
@@ -1595,7 +1595,7 @@ area water
   l153-70527-7042
 endarea
 
-point 71284.375 7018.75 label -scale l -text Sump
+point 71284.375 7018.75 label -scale xs -text Sump
 
 line border -id l153-70527-7042 -close on
   70278.125 7157.8125

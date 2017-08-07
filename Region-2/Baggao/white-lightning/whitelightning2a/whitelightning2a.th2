@@ -415,19 +415,19 @@ line border -id l66-9171-8826
   9195.714285714286 8854.285714285714
 endline
 
-point 5812.857142857143 10415.714285714284 label -scale l -text "<center>Climb over<br>unstable logs<br>2m"
+point 5812.857142857143 10415.714285714284 label -scale xs -text "<center>Climb over<br>unstable logs<br>2m"
 
-point 6611.428571428572 9250.0 label -scale l -text "<center>Log<br>Debris"
+point 6611.428571428572 9250.0 label -scale xs -text "<center>Log<br>Debris"
 
-point 8042.857142857143 9107.142857142857 label -scale l -text "<center>Shale<br>Bank"
+point 8042.857142857143 9107.142857142857 label -scale xs -text "<center>Shale<br>Bank"
 
-point 8392.857142857143 8320.0 label -scale l -text "<center>Deep Pool<br>(can climb<br>around on right)"
+point 8392.857142857143 8320.0 label -scale xs -text "<center>Deep Pool<br>(can climb<br>around on right)"
 
-point 9298.57142857143 8845.714285714286 label -scale l -text "<center>Traverse to<br>short pitch"
+point 9298.57142857143 8845.714285714286 label -scale xs -text "<center>Traverse to<br>short pitch"
 
-point 9158.57142857143 8341.42857142857 label -scale l -text "<center>Climb<br>2m"
+point 9158.57142857143 8341.42857142857 label -scale xs -text "<center>Climb<br>2m"
 
-point 9765.714285714284 8778.571428571428 label -scale l -text "<center>Dyneema<br>Pitch"
+point 9765.714285714284 8778.571428571428 label -scale xs -text "<center>Dyneema<br>Pitch"
 
 line floor-step -id l65-9229-8877 -reverse on
   9110.0 8750.0
@@ -914,9 +914,9 @@ line wall -reverse on
   smooth off
 endline
 
-point 10955.714285714286 8858.57142857143 label -scale l -text "<center>Guano"
+point 10955.714285714286 8858.57142857143 label -scale xs -text "<center>Guano"
 
-point 9997.142857142857 7642.857142857143 label -scale l -text "<center>Log<br>Pile"
+point 9997.142857142857 7642.857142857143 label -scale xs -text "<center>Log<br>Pile"
 
 area debris
   l115-10241-7453
@@ -939,9 +939,9 @@ line border -id l115-10241-7453 -close on
   10188.57 7692.86 10180.0 7701.43 10174.285714285714 7690.0
 endline
 
-point 9817.142857142857 8077.142857142857 label -scale xl -text "<center>The<br>Timber Yard"
+point 9817.142857142857 8077.142857142857 label -scale xs -text "<center>The<br>Timber Yard"
 
-point 11622.857142857143 9270.0 label -scale xl -text "<center>Upper Sand<br>Caverns<br>(calcite walls)"
+point 11622.857142857143 9270.0 label -scale xs -text "<center>Upper Sand<br>Caverns<br>(calcite walls)"
 
 line wall -reverse on -subtype presumed
   10528.888888888889 9446.666666666668
@@ -953,9 +953,9 @@ line wall -subtype presumed
   10555.555555555557 9471.111111111111 10515.71 9515.71 10515.714285714286 9524.285714285714
 endline
 
-point 10345.714285714286 9725.714285714286 label -scale l -text "<center>Too Tight<br>(muddy hole<br>looks to<br>take water)"
+point 10345.714285714286 9725.714285714286 label -scale xs -text "<center>Too Tight<br>(muddy hole<br>looks to<br>take water)"
 
-point 10468.57142857143 7350.0 label -scale l -text "<center>4th Pitch<br>4m"
+point 10468.57142857143 7350.0 label -scale xs -text "<center>4th Pitch<br>4m"
 
 line wall -reverse on
   10555.555555555557 9471.111111111111

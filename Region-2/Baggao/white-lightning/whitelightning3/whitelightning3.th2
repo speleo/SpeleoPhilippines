@@ -483,27 +483,27 @@ line wall -reverse on
   smooth off
 endline
 
-point 5335.416666666667 4043.7500000000005 label -scale l -text "<center>7th Pitch<br>6m<br>(log debris)"
+point 5335.416666666667 4043.7500000000005 label -scale xs -text "<center>7th Pitch<br>6m<br>(log debris)"
 
-point 5843.75 4137.5 label -scale l -text "<center>Gravel Pot<br>(floods<br>periodically)"
+point 5843.75 4137.5 label -scale xs -text "<center>Gravel Pot<br>(floods<br>periodically)"
 
-point 4289.583333333334 3650.0000000000005 label -scale l -text "<center>8th Pitch<br>(12m roped slope)"
+point 4289.583333333334 3650.0000000000005 label -scale xs -text "<center>8th Pitch<br>(12m roped slope)"
 
-point 6404.166666666667 3572.916666666667 label -scale l -text "<center>6th Pitch<br>10m<br>(handline)"
+point 6404.166666666667 3572.916666666667 label -scale xs -text "<center>6th Pitch<br>10m<br>(handline)"
 
-point 6954.166666666667 4295.833333333334 label -scale l -text "<center>Water<br>Regained"
+point 6954.166666666667 4295.833333333334 label -scale xs -text "<center>Water<br>Regained"
 
-point 8158.333333333334 4100.0 label -scale l -text "<center>Calcite with<br>Draught and Bats"
+point 8158.333333333334 4100.0 label -scale xs -text "<center>Calcite with<br>Draught and Bats"
 
-point 6508.333333333334 2929.166666666667 label -scale l -text "<center>Gravel Crawl<br>(unexplored)"
+point 6508.333333333334 2929.166666666667 label -scale xs -text "<center>Gravel Crawl<br>(unexplored)"
 
-point 6614.583333333334 3150.0 label -scale xl -text "?"
+point 6614.583333333334 3150.0 label -scale xs -text "?"
 
-point 8704.166666666666 2716.6666666666665 label -scale l -text "Bats"
+point 8704.166666666666 2716.6666666666665 label -scale xs -text "Bats"
 
-point 7950.000000000001 3097.916666666667 label -scale l -text "<center>Log<br>Debris"
+point 7950.000000000001 3097.916666666667 label -scale xs -text "<center>Log<br>Debris"
 
-point 8108.333333333334 2810.4166666666665 label -scale l -text "<center>Calcite<br>Ledge"
+point 8108.333333333334 2810.4166666666665 label -scale xs -text "<center>Calcite<br>Ledge"
 
 point 7395.833333333334 3620.8333333333335 gradient -orientation 135.5 -scale l
 
@@ -744,9 +744,9 @@ point 4835.416666666667 3468.7500000000005 gradient -orientation 230.0 -scale l
 
 point 4687.5 3339.5833333333335 water-flow -orientation 209.6 -scale l
 
-point 3220.8333333333335 2939.5833333333335 label -scale l -text "Bats"
+point 3220.8333333333335 2939.5833333333335 label -scale xs -text "Bats"
 
-point 4622.916666666667 2629.1666666666665 label -scale xl -text "<center>The<br>Eel Pools"
+point 4622.916666666667 2629.1666666666665 label -scale xs -text "<center>The<br>Eel Pools"
 
 line wall
   2518.0 980.0
@@ -1247,11 +1247,11 @@ line wall -reverse on -subtype presumed
   708.0 4854.0
 endline
 
-point 1010.4166666666667 5118.75 label -scale l -text "<center>Low airspace continues<br>muddy and pretty"
+point 1010.4166666666667 5118.75 label -scale xs -text "<center>Low airspace continues<br>muddy and pretty"
 
-point 1579.1666666666667 4495.833333333334 label -orientation 22.6 -scale xl -text "<center>Back to Mendip"
+point 1579.1666666666667 4495.833333333334 label -orientation 22.6 -scale xs -text "<center>Back to Mendip"
 
-point 2633.3333333333335 3422.916666666667 label -scale l -text "<center>Mud and<br>Pretties<br>(crawling)"
+point 2633.3333333333335 3422.916666666667 label -scale xs -text "<center>Mud and<br>Pretties<br>(crawling)"
 
 line wall -reverse on
   914.0 4768.0
@@ -1366,9 +1366,9 @@ endline
 
 point 2339.5833333333335 1264.5833333333335 gradient -orientation 196.6 -scale l
 
-point 1735.4166666666667 1010.4166666666667 label -scale l -text "<center>20m (ish) Pitch<br>to 'Bang Bang'<br>(undescended)"
+point 1735.4166666666667 1010.4166666666667 label -scale xs -text "<center>20m (ish) Pitch<br>to 'Bang Bang'<br>(undescended)"
 
-point 2047.9166666666667 1543.7500000000002 label -scale l -text "<center>Fossil<br>Passage"
+point 2047.9166666666667 1543.7500000000002 label -scale xs -text "<center>Fossil<br>Passage"
 
 line wall -reverse on
   2169.0 903.0

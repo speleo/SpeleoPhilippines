@@ -104,7 +104,7 @@ area flowstone
   l41-1295-4605
 endarea
 
-point 1214.2857142857142 5371.428571428572 label -scale l -text "<center>Hole<br>Above"
+point 1214.2857142857142 5371.428571428572 label -scale xs -text "<center>Hole<br>Above"
 
 line border -id l41-1295-4605 -close on
   1242.857142857143 4561.9047619047615
@@ -116,9 +116,9 @@ line border -id l41-1295-4605 -close on
   1242.857142857143 4561.9047619047615
 endline
 
-point 823.8095238095239 976.1904761904761 label -scale l -text "Sump"
+point 823.8095238095239 976.1904761904761 label -scale xs -text "Sump"
 
-point 1857.142857142857 5461.904761904762 label -scale l -text "<center>Water<br>Enters"
+point 1857.142857142857 5461.904761904762 label -scale xs -text "<center>Water<br>Enters"
 
 point 1785.7142857142856 5304.7619047619055 water-flow -orientation 207.5 -scale xl
 
@@ -126,7 +126,7 @@ point 1528.5714285714287 3566.6666666666665 water-flow -orientation 189.5 -scale
 
 point 1000.0 1880.952380952381 water-flow -orientation 216.2 -scale xl
 
-point 433.3333333333333 1823.8095238095239 label -scale l -text "<center>Logs<br>(with saw marks)"
+point 433.3333333333333 1823.8095238095239 label -scale xs -text "<center>Logs<br>(with saw marks)"
 
 point 847.6190476190476 1590.4761904761904 debris -scale xl
 
