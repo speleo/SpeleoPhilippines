@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 13809.338582677701 19360.2519685069
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -130.0 -130.0 13809.338582677701 19360.2519685069
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {4492.664094490001 1 1.0} {8070.104173199999 20.31} PocketTopo/Romeo_1_12_p.xvi 0 {}
 
 
@@ -22,7 +22,6 @@ line border -id l98-7826-16992 -close on -subtype invisible
 endline
 
 area pebbles
-  l95-7933-17256
   l96-7900-17194
 endarea
 
@@ -80,7 +79,7 @@ area sand
 endarea
 
 line border -id l177-4110-11676 -subtype invisible
-  4058.0 11622.0
+  4055.5 11620.5
   4234.0 11818.0
   4406.0 12718.0
   5586.0 14940.0
@@ -894,6 +893,7 @@ line floor-step
   8302.0 18858.0
   8314.0 18842.0 8274.0 18820.0 8438.0 18714.0
   8602.0 18608.0 8532.0 18648.0 8570.0 18634.0
+  smooth off
 endline
 
 line wall
