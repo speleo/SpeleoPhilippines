@@ -14,6 +14,13 @@ survey white_lightning -title "White Lightning"
   input whitelightning11/whitelightning11.th
   input whitelightning12/whitelightning12.th
 
+  join whitelightning7SP1@whitelightning7   whitelightning8SP1@whitelightning8
+  join whitelightning9SP1@whitelightning9   whitelightning7SP1@whitelightning7
+  join whitelightning10SP1@whitelightning10 whitelightning7SP1@whitelightning7
+  join whitelightning6SP3@whitelightning6   whitelightning7SP1@whitelightning7
+  join whitelightning6SP2@whitelightning6   whitelightning12SP1@whitelightning12
+  
+
   map WhiteLightningMap
     whitelightning12M@whitelightning12
   endmap
