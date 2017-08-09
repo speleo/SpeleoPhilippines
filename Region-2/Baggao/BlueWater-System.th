@@ -21,6 +21,7 @@ survey BlueWaterSystem
   join Beast_Sec_2@C4HelicopterHole Beast_Sec_3@C4HelicopterHole
   join Beast_Sec_3@C4HelicopterHole Beast_Sec_4@C4HelicopterHole
   join Beast_Sec_4@C4HelicopterHole Beast_Sec_5@C4HelicopterHole
+  join Beast_Sec_3@C4HelicopterHole whitelightning12SP2@whitelightning12.white_lightning
 
   
       

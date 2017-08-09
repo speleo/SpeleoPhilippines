@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -1305,8 +1305,6 @@ point 124756.0 48136.0 label -text Debris -scale xs -align right
 point 123564.0 48232.0 label -text [+2m] -scale xs
 
 point 123220.0 47100.0 label -text [+4m] -scale xs
-
-point 126512.0 48184.0 label -text [?] -scale s
 
 endscrap
 

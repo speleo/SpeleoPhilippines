@@ -23,6 +23,7 @@ survey white_lightning -title "White Lightning"
   join whitelightning6SP1@whitelightning6   whitelightning5SP4@whitelightning5
   join whitelightning5SP1@whitelightning5   whitelightning4SP1@whitelightning4
   join whitelightning3SP2@whitelightning3   whitelightning4SP1@whitelightning4
+  join whitelightning3SP1@whitelightning3   whitelightning2aSP1@whitelightning2a
   
 
   map WhiteLightningMap
