@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -1294,17 +1294,17 @@ endline
 
 point 126244.0 44176.0 water-flow -orientation 191.3
 
-point 124748.0 45340.0 label -text [+3m] -scale xs
+point 124748.0 45340.0 label -text [+3m] -scale s
 
 point 127724.0 47424.0 label -text [Warm draft] -scale s
 
 point 126352.0 47332.0 air-draught -orientation 217.2
 
-point 124756.0 48136.0 label -text Debris -scale xs -align right
+point 124756.0 48136.0 label -text Debris -scale s -align right
 
-point 123564.0 48232.0 label -text [+2m] -scale xs
+point 123564.0 48232.0 label -text [+2m] -scale s
 
-point 123220.0 47100.0 label -text [+4m] -scale xs
+point 123220.0 47100.0 label -text [+4m] -scale s
 
 endscrap
 

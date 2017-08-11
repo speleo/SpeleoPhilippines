@@ -14,8 +14,16 @@ survey C4HelicopterHole
   input Beast20170424/Beast20170424.th
   input Beast20170424b/Beast20170424b.th
   
+  join Beauty_Above_Pitch_3_Sec_1 Beauty_Above_Pitch_3_Sec_2
+  join Beauty_Above_Pitch_3_Sec_2 Beast_Sec_1
+  join Beast_Sec_1 Beast_Sec_2
+  join Beast_Sec_2 Beast_Sec_3
+  join Beast_Sec_3 Beast_Sec_4
+  join Beast_Sec_4 Beast_Sec_5
+  join beast20170424bSP1@beast20170424b Beast_Sec_5
+  join Beast20170423SP1@Beast20170423 beast20170424bSP1@beast20170424b
   join Beast20170423SP1@Beast20170423 beast20170424SP1@beast20170424
-  
+       
   map C4HelicopterHoleM
     Beauty_Above_Pitch_3_Sec_1
     Beauty_Above_Pitch_3_Sec_2
@@ -42,10 +50,10 @@ survey C4HelicopterHole
 
 centreline
 
-copyright 2015 "GNU GPL"
+  copyright 2015 "GNU GPL"
 
-### TRIP COMMENT FROM POCKETTOPO ###
-#
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  #
 
   equate 1.132 16.63@beast20170424b   
   equate 13.2@beast20170424b 13.2@Beast20170423

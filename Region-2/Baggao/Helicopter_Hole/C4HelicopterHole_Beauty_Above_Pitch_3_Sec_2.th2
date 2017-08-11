@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 48
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -1342,27 +1342,27 @@ endline
 
 point 87844.0 63108.0 label -text [Pitch 100m<br>to surface] -align right -scale s
 
-point 87508.0 60500.0 label -text [+25m] -scale xs
+point 87508.0 60500.0 label -text [+25m] -scale s
 
-point 79348.0 75052.0 label -text [Huge eroded flowstone <br> boulders and towers] -scale xs
+point 79348.0 75052.0 label -text [Huge eroded flowstone <br> boulders and towers] -scale s
 
-point 84444.0 76996.0 label -text -2m -scale xs
+point 84444.0 76996.0 label -text -2m -scale s
 
 point 85780.0 74908.0 label -text [Gour dam <br> and rapids] -scale s
 
-point 82272.0 73836.0 label -text [+3m] -scale xs
+point 82272.0 73836.0 label -text [+3m] -scale s
 
 point 82620.0 73104.0 label -text [?] -scale s
 
-point 84224.0 70104.0 label -text [+8m] -scale xs
+point 84224.0 70104.0 label -text [+8m] -scale s
 
-point 84564.0 71420.0 label -text [+8m] -scale xs
+point 84564.0 71420.0 label -text [+8m] -scale s
 
-point 82324.0 67536.0 label -text -4m -scale xs
+point 82324.0 67536.0 label -text -4m -scale s
 
-point 84304.0 67944.0 label -text [+6m] -scale xs
+point 84304.0 67944.0 label -text [+6m] -scale s
 
-point 84176.0 66056.0 label -text [+10m] -scale xs
+point 84176.0 66056.0 label -text [+10m] -scale s
 
 endscrap
 

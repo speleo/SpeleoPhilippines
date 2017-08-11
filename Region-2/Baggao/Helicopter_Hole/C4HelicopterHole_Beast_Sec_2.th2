@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -13,13 +13,13 @@ point 107838.7153543 61003.171259799994 station -name 15.1
 
 point 94756.0 53808.0 air-draught -orientation 179.8
 
-point 106380.0 59764.0 label -text [+4m] -scale xs -align left
+point 106380.0 59764.0 label -text [+4m] -scale s -align left
 
 point 107712.0 61752.0 label -text [?] -scale s
 
-point 110344.0 60636.0 label -text [+6m] -scale xs
+point 110344.0 60636.0 label -text [+6m] -scale s
 
-point 109644.0 50544.0 label -text [Drip<br>pockets] -scale xs -align left
+point 109644.0 50544.0 label -text [Drip<br>pockets] -scale s -align left
 
 line wall
   110504.0 48560.0
@@ -829,11 +829,11 @@ point 121043.8353543 55264.141259799995 station -name 1.58
 
 point 123325.90535429999 54174.741259799994 station -name 1.59
 
-point 121548.0 54212.0 label -text [+4m] -scale xs
+point 121548.0 54212.0 label -text [+4m] -scale s
 
-point 122528.0 55324.0 label -text [+4m] -scale xs
+point 122528.0 55324.0 label -text [+4m] -scale s
 
-point 118572.0 59368.0 label -text [+2m] -scale xs -align top-right
+point 118572.0 59368.0 label -text [+2m] -scale s -align top-right
 
 point 118904.0 58832.0 label -text Bats -scale s -align right
 

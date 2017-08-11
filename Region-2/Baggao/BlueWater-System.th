@@ -12,18 +12,14 @@ survey BlueWaterSystem
   input pio_pot/pio_pot.th
   input surface/Bluewater_4.th
   
+  
+  #  Handle the Joins between the surveys included above
   #join bluewater-above-climb-1-S2@bluewater Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole 
   join BelowP3_Left_Wall@bluewater AboveP3_Left_Wall@C4HelicopterHole 
   join BelowP3_Right_Wall@bluewater AboveP3_Right_Wall@C4HelicopterHole 
-  join Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole Beauty_Above_Pitch_3_Sec_2@C4HelicopterHole
-  join Beauty_Above_Pitch_3_Sec_2@C4HelicopterHole Beast_Sec_1@C4HelicopterHole
-  join Beast_Sec_1@C4HelicopterHole Beast_Sec_2@C4HelicopterHole
-  join Beast_Sec_2@C4HelicopterHole Beast_Sec_3@C4HelicopterHole
-  join Beast_Sec_3@C4HelicopterHole Beast_Sec_4@C4HelicopterHole
-  join Beast_Sec_4@C4HelicopterHole Beast_Sec_5@C4HelicopterHole
+ 
   join Beast_Sec_3@C4HelicopterHole whitelightning12SP2@whitelightning12.white_lightning
-
-  
+ 
       
   centreline
     equate 6.66@C4HelicopterHole 15.57@bluewater

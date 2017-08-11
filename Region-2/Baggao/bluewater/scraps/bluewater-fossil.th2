@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 73404.0229857141 32090.480314911
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
 
@@ -296,7 +296,7 @@ point 21545.0 13940.0 gradient -orientation 326.3 -scale xs
 
 point 21501.0 13850.0 gradient -scale xs
 
-point 22056.0 11173.0 label -text "climb<br>4m" -align right -scale xs
+point 22056.0 11173.0 label -text "climb<br>4m" -align right -scale s
 
 line rock-border
   22250.0 13883.0

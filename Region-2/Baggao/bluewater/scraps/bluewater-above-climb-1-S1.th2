@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 73404.0229857141 32090.480314911
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
 
@@ -440,7 +440,7 @@ point 38474.0 21734.0 gradient -orientation 184.7
 
 point 38680.0 21734.0 gradient -orientation 184.7
 
-point 37384.0 21102.0 passage-height -value "40" -scale xs
+point 37384.0 21102.0 passage-height -value "40" -scale s
 
 point 40626.0 22178.0 gradient -orientation 28.0
 
@@ -673,9 +673,9 @@ endline
 
 point 43118.0 21098.0 label -text "high<br>level <br>fossil" -align center -scale s
 
-point 33176.0 21010.0 label -text "static<br>shallow<br>lake" -scale xs
+point 33176.0 21010.0 label -text "static<br>shallow<br>lake" -scale s
 
-point 32800.0 24100.0 label -text "3.5m high" -scale xs
+point 32800.0 24100.0 label -text "3.5m high" -scale s
 
 point 32804.0 24640.0 label -text "Gour wall" -scale s -align center
 
@@ -740,7 +740,7 @@ endline
 
 point 22518.0 23884.0 label -text "1st Pitch<br>13m" -align center -scale l
 
-point 26132.0 18272.0 label -text "Climb down 3m" -align left -scale xs
+point 26132.0 18272.0 label -text "Climb down 3m" -align left -scale s
 
 point 28110.0 17346.0 gradient -orientation 154.3
 
@@ -780,15 +780,15 @@ endline
 
 point 27870.0 17934.0 gradient -orientation 142.3
 
-point 26368.0 18100.0 gradient -orientation 40.6
+point 26368.0 18100.0 gradient -orientation 40.6 -scale s
 
-point 26304.0 18176.0 gradient -orientation 40.6
+point 26304.0 18176.0 gradient -orientation 40.6 -scale s
 
-point 26286.0 17988.0 gradient -orientation 44.8
+point 26286.0 17988.0 gradient -orientation 44.8 -scale s
 
-point 26228.0 18032.0 gradient -orientation 44.8
+point 26228.0 18032.0 gradient -orientation 44.8 -scale s
 
-point 26182.0 18074.0 gradient -orientation 44.8
+point 26182.0 18074.0 gradient -orientation 44.8 -scale s
 
 line pit
   25886.0 17760.0
