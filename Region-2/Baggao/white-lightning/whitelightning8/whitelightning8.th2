@@ -1,51 +1,51 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -142.28571428571428 -142.28571428571428 75916.8661417428 14247.6771653592
-##XTHERION## xth_me_area_zoom_to 28
+##XTHERION## xth_me_area_zoom_to 14
 ##XTHERION## xth_me_image_insert {65401.935511799995 1 1.0} {10225.637874020002 33.174} PocketTopo/whitelightning8_p.xvi 0 {}
 
 
 
 scrap whitelightning8SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 69154.46428571428 3143.75 label -scale xs -text "<center>Deep Hole<br>(Stream Heard)"
+point 68979.46428571429 3986.607142857143 label -scale s -text "<center>Deep hole<br>(stream heard)" -align left
 
-point 68974.10714285714 4148.214285714285 label -scale xs -text "<center>Bright<br>White<br>Flowstone"
+point 70041.96428571429 2437.4999999999995 label -scale s -text "<center>Bright white<br>flowstone" -align left
 
-point 72642.85714285714 6425.0 gradient -orientation 131.0
+point 72642.85714285714 6425.0 gradient -orientation 131.0 -scale s
 
-point 72671.42857142858 6610.714285714286 gradient -orientation 76.3
+point 72671.42857142858 6610.714285714286 gradient -orientation 76.3 -scale s
 
-point 72642.85714285716 6807.142857142858 gradient -orientation 47.1
+point 72642.85714285716 6807.142857142858 gradient -orientation 47.1 -scale s
 
-point 70448.21428571429 2039.2857142857142 label -scale xs -text "<center>3m<br>Climb"
+point 70758.92857142857 1889.2857142857142 label -scale s -text "<center>3m<br>climb" -align bottom-left
 
-point 70665.625 3559.375 label -scale xs -text "<center>Water<br>Regained"
+point 71390.625 3291.5178571428573 label -scale xs -text "Water regained" -align right
 
-point 71222.8542626728 3774.8991935483873 label -scale xs -text "<center>3m<br>Climb"
+point 70858.56854838709 3599.899193548387 label -scale s -text "-3m" -align left
 
 point 72173.21428571429 6914.732142857143 label -scale xs -text "?"
 
-point 72400.0 5825.0 label -scale xs -text "?"
+point 72400.0 5825.0 label -scale s -text "?"
 
-point 73221.34216589862 6934.302995391705 label -scale xs -text "<center>Deep<br>Water"
+point 73574.91359447005 6559.302995391705 label -scale s -text "Deep water" -align right
 
-point 74800.0 7771.875 label -scale xs -text "?"
+point 74800.0 7721.875 label -scale s -text "?"
 
-point 74906.25 11521.875 label -scale xs -text "<center>Fault<br>Chamber"
+point 74413.39285714286 12107.589285714286 label -scale s -text "<center>Fault<br>Chamber"
 
-point 75439.73214285714 10246.875 label -scale xs -text "<center>5m<br>Climb"
+point 74654.01785714286 10100.446428571428 label -scale s -text "<center>5m<br>climb" -align left
 
-point 74568.31797235023 10873.963133640555 label -scale xs -text "<center>Passage nature<br>changes significantly<br>(fault driven)"
+point 73011.17511520737 10681.105990783411 label -scale s -text "<center>Passage nature<br>changes significantly<br>(fault driven)"
 
-point 74500.0 10103.125 label -scale xs -text "<center>Gravel<br>Pot"
+point 75182.14285714286 9906.696428571428 label -scale s -text "<center>Gravel<br>pot" -align right
 
-point 75053.32661290323 9128.125 label -scale xs -text "<center>Water<br>Regained"
+point 75028.32661290323 9099.55357142857 label -scale xs -text "<center>Water<br>regained" -align right
 
-point 73715.625 8734.375 label -scale xs -text "<center>Aven 30m<br>approx"
+point 73919.19642857142 8770.089285714286 label -scale s -text "Aven<br>30m" -align left
 
-point 73045.53571428571 6160.714285714285 label -scale xs -text "<center>Low<br>Duck"
+point 73063.39285714286 6135.714285714285 label -scale s -text "Low duck" -align right
 
-point 72995.08928571429 8175.0 label -scale xs -text "<center>Fault<br>Meander"
+point 73020.08928571429 8042.857142857143 label -scale s -text "<center>Fault<br>meander" -align top
 
 point 72252.23214285714 7139.732142857143 label -scale xs -text "Sump"
 
@@ -61,7 +61,7 @@ point 74476.3455118 8606.31787402 station -name 33.127
 
 point 73831.8555118 7244.687874020001 station -name 33.128
 
-point 73381.25 6193.75 section -scrap whitelightning8SPX33.129
+point 73506.25 6365.178571428572 section -scrap whitelightning8SPX33.129
 
 line section -direction both
   73143.75 6262.5
@@ -93,7 +93,16 @@ point 72046.4655118 6323.95787402 station -name 33.136
 
 point 72098.3255118 5337.807874020001 station -name 33.137
 
-point 72550.0 4300.0 section -scrap whitelightning8SPX33.138
+line label -reverse on -text [The Cobblers]
+  72792.85714285714 5957.142857142858
+  72764.29 5917.86 72575.0 5589.29 72535.71428571429 5450.0
+  72496.43 5310.71 72300.0 4828.57 72296.42857142858 4764.285714285715
+  72292.86 4700.0 72203.57 4235.71 72196.42857142858 4192.857142857143
+  72189.29 4150.0 71699.99 2689.28 71685.71 2603.57
+  smooth off
+endline
+
+point 71282.14285714286 4971.428571428572 section -scrap whitelightning8SPX33.138
 
 line section -reverse on -direction both
   71343.75 4668.75
@@ -228,7 +237,7 @@ line border -id l258-70389-3154 -close on
   70271.42857142858 3278.571428571429
 endline
 
-point 66721.42857142858 6578.571428571428 water-flow -orientation 31.0 -scale xl
+point 66550.00000000001 6364.285714285714 water-flow -orientation 31.0 -scale l
 
 point 67550.0 8050.0 water-flow -orientation 326.3 -scale xl
 
@@ -236,29 +245,29 @@ point 68414.28571428572 6760.714285714286 water-flow -orientation 227.8 -scale x
 
 point 69321.42857142858 6550.0 water-flow -orientation 227.8 -scale xl
 
-point 72160.71428571429 6814.285714285715 water-flow -orientation 230.6 -scale xl
+point 72160.71428571429 6814.285714285715 water-flow -orientation 230.6 -scale l
 
-point 71432.14285714286 6989.285714285715 water-flow -orientation 281.8 -scale xl
+point 71432.14285714286 7039.285714285715 water-flow -orientation 281.8
 
-point 70410.71428571429 6696.428571428572 water-flow -orientation 227.8 -scale xl
+point 70478.57142857143 6778.571428571428 water-flow -orientation 227.8
 
-point 71017.85714285716 5910.714285714285 water-flow -orientation 217.9 -scale xl
+point 71017.85714285716 5910.714285714285 water-flow -orientation 217.9
 
-point 70710.71428571429 6207.142857142857 water-flow -orientation 5.4 -scale xl
+point 70710.71428571429 6207.142857142857 water-flow -orientation 5.4
 
-point 70796.42857142858 3385.714285714286 water-flow -orientation 27.3 -scale xl
+point 70796.42857142858 3385.714285714286 water-flow -orientation 27.3 -scale l
 
-point 70989.28571428572 3957.1428571428573 water-flow -orientation 5.1 -scale xl
+point 70989.28571428572 3957.1428571428573 water-flow -orientation 5.1
 
-point 72960.71428571429 6910.714285714286 water-flow -orientation 327.6 -scale xl
+point 72960.71428571429 6910.714285714286 water-flow -orientation 327.6
 
-point 72771.42857142858 7639.285714285715 water-flow -orientation 217.5 -scale xl
+point 72771.42857142858 7639.285714285715 water-flow -orientation 217.5
 
 point 73953.57142857143 7096.428571428572 water-flow -orientation 308.3 -scale xl
 
 point 74371.42857142858 8185.714285714286 water-flow -orientation 226.0 -scale xl
 
-point 75096.42857142858 9321.428571428572 water-flow -orientation 259.1 -scale xl
+point 75096.42857142858 9321.428571428572 water-flow -orientation 259.1 -scale l
 
 area blocks
   l246-74550-9561
@@ -464,6 +473,17 @@ line wall -reverse on
   73006.25 6362.5 72906.25 6306.25 72881.25 6290.625
   72856.25 6275.0 72737.5 6190.63 72721.875 6178.125
   72706.25 6165.63 72581.25 6025.0 72575.0 6012.5
+  smooth off
+endline
+
+line wall -close on -outline in
+  70972.76785714286 3159.375
+  70980.36 3110.71 70975.0 3086.61 70970.08928571429 3069.6428571428573
+  70965.18 3052.68 70954.46 3012.5 70952.67857142858 3006.696428571429
+  70950.89 3000.89 70909.38 2971.88 70898.21428571429 2991.5178571428573
+  70887.05 3011.16 70886.61 3050.89 70895.53571428572 3069.196428571429
+  70904.46 3087.5 70937.5 3154.46 70939.73214285714 3158.482142857143
+  70941.96 3162.5 70965.18 3208.04 70972.76785714286 3159.375
   smooth off
 endline
 
@@ -678,7 +698,7 @@ endscrap
 
 scrap whitelightning8SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 70746.42857142858 5192.857142857143 water-flow -orientation 5.4 -scale xl
+point 70746.42857142858 5192.857142857143 water-flow -orientation 5.4
 
 area water
   l246-70832-3642
@@ -700,19 +720,24 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 72581.97004608295 5337.2263824884785 label -scale xs -text "<center>The Cobblers<br>(Slippery)"
+point 65907.58928571429 10482.589285714286 label -text "Low<br>archway" -scale s -align right
 
-point 65907.58928571429 10482.589285714286 label -scale xs -text "<center>Low<br>Archway"
+point 66242.41071428571 8579.910714285714 label -scale s -text "Cascades" -align bottom-left
 
-point 66078.125 8615.625 label -scale xs -text "Cascades"
+point 66839.28571428572 6739.285714285715 label -scale s -text "?"
 
-point 66839.28571428572 6739.285714285715 label -scale xs -text "?"
-
-point 66792.85714285714 7502.678571428572 label -scale xs -text "<center>Pure Black<br>Flowstone"
+point 66921.42857142858 7559.821428571428 label -scale s -text "<center>Pure black<br>flowstone" -align left
 
 point 69462.94642857143 2832.1428571428573 label -scale xs -text "?"
 
-point 68821.42857142857 5821.428571428572 label -orientation 22.7 -scale xs -text "Nopeland"
+line label -text Nopeland
+  67521.43 6192.86
+  67635.72 6150.0 68417.4 5824.14 68550.0 5707.14
+  68671.43 5599.99 69117.86 5046.42 69196.43 4982.14
+  smooth off
+endline
+
+point 66778.57142857142 4121.428571428572 label -orientation 22.7 -scale xs -text "Nopeland"
 
 area flowstone
   l185-67314-6857
@@ -726,10 +751,10 @@ line border -id l185-67314-6857
   67621.05263157895 7302.631578947369
 endline
 
-point 66933.48214285714 12193.75 label -scale xs -text "<center>Large Terminal<br>Sump Pool"
+point 66654.91071428572 12465.17857142857 label -text "<center>Large Terminal<br>Sump Pool" -align top-right -scale s
 
 line section -reverse on -direction both
-  70550.0 6725.0
+  70657.14 6789.29
   69118.75 6031.25
 endline
 
@@ -771,7 +796,7 @@ endarea
 
 point 67757.14285714286 7978.571428571429 debris -orientation 288.2 -scale xl
 
-point 67967.85714285714 8167.857142857143 label -scale xs -text "<center>Log<br>Debris"
+point 67867.85714285714 8167.857142857143 label -scale s -text "<center>Log<br>debris" -align top-right
 
 area sand
   l123-65328-10138
@@ -823,7 +848,21 @@ area water
   l110-71039-6597
 endarea
 
-point 66582.14285714286 9496.428571428572 label -orientation 29.4 -scale xs -text "Ominosity"
+line label -text (slippery) -scale s
+  72467.85714285714 3160.714285714286
+  72467.85714285714 3160.714285714286 72814.29 4282.14 72853.57142857143 4403.571428571428
+  72892.86 4525.0 73132.14285714286 5346.428571428572 73132.14285714286 5346.428571428572
+  smooth off
+endline
+
+line label -text Ominosity
+  66035.71 9817.86
+  66164.29 9739.29 66457.14 9489.29 66600.0 9439.29
+  66742.86 9389.29 66957.14 9314.29 67092.86 9314.29
+  67228.57 9314.29 67410.72 9307.15 67489.29 9300.0
+  67567.86 9292.86 67664.29 9300.0 67664.29 9300.0
+  smooth off
+endline
 
 line border -id l125-65922-10103 -reverse on
   70121.05263157895 6510.526315789474
@@ -988,7 +1027,7 @@ point 70096.5955118 5473.74787402 station -name 33.156
 
 point 69612.7855118 5735.3378740200005 station -name 33.157
 
-point 70715.17857142857 7054.464285714285 section -scrap whitelightning8SPX33.158
+point 70693.75 7197.321428571428 section -scrap whitelightning8SPX33.158
 
 point 69417.55551179999 6324.697874020001 station -name 33.158
 
@@ -1029,11 +1068,11 @@ point 65742.4355118 11299.93787402 station -name 33.175
 line floor-step
 endline
 
-point 70310.71428571429 4628.571428571428 gradient -orientation 323.7
+point 70310.71428571429 4628.571428571428 gradient -orientation 323.7 -scale s
 
-point 70207.14285714286 4975.0 gradient -orientation 323.7
+point 70207.14285714286 4975.0 gradient -orientation 323.7 -scale s
 
-point 70110.71428571429 4842.857142857143 gradient -orientation 323.7
+point 70110.71428571429 4842.857142857143 gradient -orientation 323.7 -scale s
 
 point 66384.38551179999 12369.107874020001 station -name 33.176
 
@@ -1421,11 +1460,32 @@ line wall -reverse on -subtype presumed
   smooth off
 endline
 
-point 71012.5 5803.125 label -scale xs -text Sump
+line arrow
+  70800.0 6671.428571428572
+  70450.0 6607.142857142858
+endline
 
-point 70495.53571428571 6171.428571428572 label -scale xs -text Sump
+line arrow
+  71557.14 6689.29
+  72121.43 6892.86
+endline
 
-point 70118.75 6673.214285714286 label -scale xs -text Sump
+line arrow
+  71146.43 6821.43
+  71171.43 7021.43
+endline
+
+line arrow
+  71182.14 6485.71
+  71100.0 6050.0
+endline
+
+line arrow
+  71000.0 6492.857142857143
+  70850.0 6235.714285714286
+endline
+
+point 71126.78571428571 6631.696428571428 label -scale s -text Sumps -align center
 
 line wall -subtype presumed
   70270.83333333334 6531.250000000001
@@ -1449,9 +1509,9 @@ line wall -reverse on -subtype presumed
   67015.21739130434 6700.0
 endline
 
-point 71078.57142857143 4321.428571428572 gradient -orientation 342.0
+point 71078.57142857143 4321.428571428572 gradient -orientation 342.0 -scale s
 
-point 70960.71428571429 4235.714285714286 gradient -orientation 343.4
+point 70960.71428571429 4235.714285714286 gradient -orientation 343.4 -scale s
 
 line wall
   71152.08333333334 4014.5833333333335
@@ -1556,8 +1616,6 @@ endline
 area water
   l153-70527-7042
 endarea
-
-point 71284.375 7018.75 label -scale xs -text Sump
 
 line border -id l153-70527-7042 -close on
   70278.125 7157.8125

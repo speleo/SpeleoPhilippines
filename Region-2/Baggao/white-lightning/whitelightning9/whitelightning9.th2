@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -147.04761904761904 -147.04761904761904 3076.5039370104996 8228.0
-##XTHERION## xth_me_area_zoom_to 21
+##XTHERION## xth_me_area_zoom_to 64
 ##XTHERION## xth_me_image_insert {1378.67299213 1 1.0} {5767.388582680001 33.178} PocketTopo/whitelightning9_p.xvi 0 {}
 
 
@@ -65,6 +65,7 @@ line wall -reverse on
   1252.0 6640.0 1252.0 6760.0 1268.0 6806.0
   1284.0 6852.0 1344.0 7090.0 1358.0 7124.0
   1372.0 7158.0 1408.76 7400.38 1404.76 7452.38
+  smooth off
 endline
 
 point 840.2929921300001 1447.8285826800002 station -name 33.182
@@ -97,7 +98,20 @@ area flowstone
   l41-1295-4605
 endarea
 
-point 1214.2857142857142 5371.428571428572 label -scale xs -text "<center>Hole<br>Above"
+line label -text enters
+  1701.56 5548.44
+  2055.47 5548.44
+endline
+
+line label -text Hole<br>above
+  750.0 5337.5
+  1223.44 5337.5
+endline
+
+line label -text Water
+  1703.125 5687.5
+  2050.0 5687.5
+endline
 
 line border -id l41-1295-4605 -close on
   1242.857142857143 4561.9047619047615
@@ -109,17 +123,17 @@ line border -id l41-1295-4605 -close on
   1242.857142857143 4561.9047619047615
 endline
 
-point 823.8095238095239 976.1904761904761 label -scale xs -text "Sump"
+point 823.8095238095239 976.1904761904761 label -scale s -text "Sump"
 
-point 1857.142857142857 5461.904761904762 label -scale xs -text "<center>Water<br>Enters"
-
-point 1785.7142857142856 5304.7619047619055 water-flow -orientation 207.5 -scale xl
+point 1810.7142857142856 5385.6473214285725 water-flow -orientation 207.5 -scale l
 
 point 1528.5714285714287 3566.6666666666665 water-flow -orientation 189.5 -scale xl
 
 point 1000.0 1880.952380952381 water-flow -orientation 216.2 -scale xl
 
-point 433.3333333333333 1823.8095238095239 label -scale xs -text "<center>Logs<br>(with saw marks)"
+point 620.0 1660.0 label -scale xs -text "(with saw marks)" -align left
+
+point 611.6666666666666 1918.8095238095239 label -scale s -text "Logs" -align left
 
 point 847.6190476190476 1590.4761904761904 debris -scale xl
 
@@ -176,7 +190,7 @@ line border -id l25-1071-1319 -close on
   670.2380952380952 1326.1904761904761
 endline
 
-point 2047.6190476190477 6033.333333333334 section -scrap whitelightning9SPX33.182
+point 733.0357142857144 6017.916666666667 section -scrap whitelightning9SPX33.182
 
 endscrap
 

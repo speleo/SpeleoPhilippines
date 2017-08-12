@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -143.3846153846154 -143.3846153846154 9998.9055118145 6366.937007871899
-##XTHERION## xth_me_area_zoom_to 104
+##XTHERION## xth_me_area_zoom_to 52
 ##XTHERION## xth_me_image_insert {8523.349055120001 1 1.0} {2889.48188976 33.110} PocketTopo/whitelightning7_p.xvi 0 {}
 
 
@@ -27,11 +27,17 @@ line floor-step -close on -reverse on
   smooth off
 endline
 
-point 7415.384615384616 3796.153846153846 label -orientation 23.7 -scale xs -text "<center>Climb Down<br>Roaring Cascades"
+line label -text [Climb  down<br>roaring cascades]
+  6869.23 4407.69
+  6896.16 4388.46 7165.39 4128.84 7203.85 4090.38
+  7242.31 4051.92 7496.16 3834.61 7584.62 3788.46
+  7673.08 3742.3 7842.3 3692.31 7876.92 3676.92
+  7911.53 3661.54 8019.23 3626.93 8030.77 3619.23
+endline
 
-point 8238.461538461539 3526.9230769230767 label -scale xs -text "<center>Duck<br>Under<br>Flowstone"
+point 8223.076923076924 3384.6153846153843 label -scale s -text "<center>Duck under<br>flowstone" -align top-right
 
-point 7365.384615384616 2530.7692307692305 label -scale xs -text "<center>Large<br>Flowstone Boss"
+point 7255.769230769231 2557.6923076923076 label -scale s -text "Large<br>flowstone<br>boss" -align bottom-right
 
 point 8846.153846153846 2773.0769230769233 water-flow -orientation 298.8 -scale xl
 
@@ -39,9 +45,11 @@ point 7057.692307692308 3557.6923076923076 water-flow -orientation 353.6 -scale 
 
 point 5984.615384615385 4273.076923076923 water-flow -orientation 256.8 -scale xl
 
-point 3688.4615384615386 4511.538461538462 water-flow -orientation 255.2 -scale xl
+point 3688.4615384615386 4511.538461538462 water-flow -orientation 255.2 -scale l
 
-point 2292.3076923076924 2550.0 water-flow -orientation 199.2 -scale xl
+point 1884.6153846153848 2119.2307692307695 water-flow -orientation 246.4
+
+point 2292.3076923076924 2550.0 water-flow -orientation 199.2 -scale l
 
 line floor-step -reverse on
   2188.46 3311.54
@@ -55,11 +63,11 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 2223.0769230769233 3976.9230769230767 label -scale xs -text "<center>Obvious<br>Fault"
+point 1761.538461538462 4515.384615384615 label -scale s -text "<center>Obvious<br>fault" -align top
 
 point 2526.923076923077 2573.0769230769233 label -scale xs -text "<center>Stream<br>Sinks"
 
-point 3342.3076923076924 4750.0 label -scale xs -text "Swimming"
+point 3973.076923076923 4815.384615384615 label -scale s -text "Swimming" -align top-left
 
 area bedrock
   l49-7823-4138
@@ -276,6 +284,7 @@ line wall -reverse on
   6212.0 3944.0 6158.0 4026.0 6148.0 4066.0
   6138.0 4106.0 6096.0 4118.0 6030.0 4108.0
   5964.0 4098.0 5864.0 4042.0 5854.0 4006.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -405,7 +414,7 @@ point 5615.625 4831.25 section -scrap whitelightning7SPX33.117
 
 line section -reverse on -direction both
   5500.0 4515.625
-  5146.875 4059.375
+  5100.0 3996.15
 endline
 
 point 9282.55905512 2279.88188976 station -name 33.109

@@ -1,13 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -145.3913043478261 -145.3913043478261 3249.7322834611 7489.3779527558
-##XTHERION## xth_me_area_zoom_to 13
+##XTHERION## xth_me_area_zoom_to 21
 ##XTHERION## xth_me_image_insert {886.56181102 1 1.0} {3032.8744881900006 33.187} PocketTopo/whitelightning10_p.xvi 0 {}
 
 
 
 scrap whitelightning10SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-point 541.1764705882354 2564.7058823529414 label -scale xs -text "Water Heard"
 
 line wall -subtype presumed
   552.0 2682.0
@@ -20,7 +18,7 @@ line wall -reverse on -subtype presumed
   400.0 2455.8823529411766
 endline
 
-point 820.5882352941177 814.7058823529412 label -scale xs -text "<center>Continues<br>Low<br>(no draught)"
+point 820.5882352941177 814.7058823529412 label -scale s -text "<center>Continues<br>low<br>(no draught)" -align bottom
 
 line wall -reverse on -subtype presumed
   968.0 1236.0
@@ -34,7 +32,17 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 2264.705882352941 5726.470588235295 label -scale xs -text "<center>High Level<br>Fossil Passage"
+line label -text water<br>heard
+  409.3 2193.02
+  763.95 2194.19
+endline
+
+line label -text Low
+  509.62 2766.35
+  743.2692307692308 2768.269230769231
+endline
+
+point 1547.1234647705235 3598.9980607627667 label -scale s -text "<center>High Level<br>fossil passage" -align bottom-right
 
 line wall
   968.0 1236.0
@@ -55,6 +63,7 @@ line wall
   1686.0 5378.0 1718.0 5650.0 1716.0 5712.0
   1714.0 5774.0 1724.0 5866.0 1740.0 5928.0
   1756.0 5990.0 1830.0 6162.0 1846.0 6202.0
+  smooth off
 endline
 
 line wall
