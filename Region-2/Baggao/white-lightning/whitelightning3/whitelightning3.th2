@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.33333333333334 -136.33333333333334 9306.620788292099 6103.703765900999
-##XTHERION## xth_me_area_zoom_to 48
+##XTHERION## xth_me_area_zoom_to 24
 ##XTHERION## xth_me_image_insert {2968.266938999999 1 1.0} {1479.9480391399998 30.9} PocketTopo/whitelightning3_p.xvi 0 {}
 
 
@@ -198,11 +198,11 @@ line border -id l145-7860-3975 -reverse on
   7804.17 3960.42
 endline
 
-point 5158.333333333333 3377.0833333333335 water-flow -orientation 309.5 -scale l
+point 5158.333333333333 3377.0833333333335 water-flow -orientation 309.5 -scale xs
 
 point 6091.666666666667 3854.166666666667 water-flow -orientation 252.3 -scale l
 
-point 6583.333333333334 4112.5 water-flow -orientation 252.3 -scale l
+point 6583.333333333334 4112.5 water-flow -orientation 252.3 -scale xs
 
 point 8027.083333333334 3362.5000000000005 water-flow -orientation 252.3 -scale l
 
@@ -497,13 +497,22 @@ line wall -id l66-5272-3524 -reverse on
   smooth off
 endline
 
-point 5335.416666666667 4043.7500000000005 label -scale xs -text "<center>7th Pitch<br>6m<br>(log debris)"
+point 5641.666666666667 4554.166666666667 label -scale xs -text "<center>7th Pitch<br>6m<br>(log debris)"
+
+point 5335.416666666667 4343.75 label -scale s -text "<center>7th Pitch<br>6m"
 
 point 5843.75 4137.5 label -scale xs -text "<center>Gravel Pot<br>(floods<br>periodically)"
 
-point 4289.583333333334 3650.0000000000005 label -scale xs -text "<center>8th Pitch<br>(12m roped slope)"
+point 4312.5 3925.0000000000005 label -scale xs -text "<center>8th Pitch<br>(12m roped slope)" -align top-left
 
-point 6404.166666666667 3572.916666666667 label -scale xs -text "<center>6th Pitch<br>10m<br>(handline)"
+area water
+endarea
+
+point 4289.583333333334 3650.0000000000005 label -scale s -text "<center>8th Pitch<br>12m" -align top-left
+
+point 6312.5 3266.666666666667 label -scale xs -text "<center>6th Pitch<br>10m<br>(handline)" -align bottom
+
+point 6404.166666666667 3572.916666666667 label -scale s -text "<center>6th Pitch<br>10m" -align bottom
 
 point 6954.166666666667 4295.833333333334 label -scale xs -text "<center>Water<br>Regained"
 
@@ -519,11 +528,11 @@ point 7950.000000000001 3097.916666666667 label -scale xs -text "<center>Log<br>
 
 point 8108.333333333334 2810.4166666666665 label -scale xs -text "<center>Calcite<br>Ledge"
 
-point 7395.833333333334 3620.8333333333335 gradient -orientation 135.5 -scale l
+point 7395.833333333334 3620.8333333333335 gradient -orientation 135.5 -scale xs
 
-point 7291.666666666667 3504.166666666667 gradient -orientation 120.3 -scale l
+point 7291.666666666667 3504.166666666667 gradient -orientation 120.3 -scale xs
 
-point 6445.833333333334 3883.333333333334 gradient -orientation 269.0 -scale l
+point 6445.833333333334 3883.333333333334 gradient -orientation 269.0 -scale xs
 
 line wall -id l81-5536-3483 -reverse on
   6778.0 3384.0
@@ -751,9 +760,9 @@ line wall -reverse on
   smooth off
 endline
 
-point 4766.666666666667 3508.3333333333335 gradient -orientation 215.1 -scale l
+point 4766.666666666667 3508.3333333333335 gradient -orientation 215.1 -scale xs
 
-point 4835.416666666667 3468.7500000000005 gradient -orientation 230.0 -scale l
+point 4835.416666666667 3468.7500000000005 gradient -orientation 230.0 -scale xs
 
 point 4687.5 3339.5833333333335 water-flow -orientation 209.6 -scale l
 
@@ -943,17 +952,17 @@ area water
   l110-3964-2918
 endarea
 
-point 2639.5833333333335 2643.75 gradient -orientation 6.0 -scale l
+point 2639.5833333333335 2643.75 gradient -orientation 6.0 -scale xs
 
-point 3385.416666666667 2416.666666666667 gradient -orientation 148.4 -scale l
+point 3385.416666666667 2416.666666666667 gradient -orientation 148.4 -scale xs
 
-point 3108.3333333333335 2154.1666666666665 gradient -orientation 177.8 -scale l
+point 3108.3333333333335 2154.1666666666665 gradient -orientation 177.8 -scale xs
 
-point 2604.166666666667 1239.5833333333335 water-flow -orientation 203.8 -scale l
+point 2604.166666666667 1239.5833333333335 water-flow -orientation 203.8 -scale xs
 
-point 3537.5000000000005 2012.5000000000002 water-flow -orientation 243.0 -scale l
+point 3537.5000000000005 2012.5000000000002 water-flow -orientation 243.0 -scale s
 
-point 4158.333333333334 2727.0833333333335 water-flow -orientation 212.3 -scale l
+point 4158.333333333334 2727.0833333333335 water-flow -orientation 212.3 -scale s
 
 line border -id l113-4984-2784 -reverse on
   4876.0 2698.0
@@ -1231,7 +1240,7 @@ line border -id l88-1314-4390
   1194.0 4892.0
 endline
 
-point 666.6666666666667 4947.916666666667 water-flow -orientation 137.2 -scale l
+point 579.1666666666667 5043.75 water-flow -orientation 137.2 -scale l
 
 line border -id l77-1188-4398 -reverse on
   1270.0 4376.0
@@ -1377,7 +1386,7 @@ line wall -reverse on -subtype presumed
   smooth off
 endline
 
-point 2339.5833333333335 1264.5833333333335 gradient -orientation 196.6 -scale l
+point 2339.5833333333335 1264.5833333333335 gradient -orientation 196.6 -scale xs
 
 point 1735.4166666666667 1010.4166666666667 label -scale xs -text "<center>20m (ish) Pitch<br>to 'Bang Bang'<br>(undescended)"
 

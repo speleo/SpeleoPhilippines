@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -133.71428571428572 -133.71428571428572 15241.7007873996 12419.811023621
-##XTHERION## xth_me_area_zoom_to 70
+##XTHERION## xth_me_area_zoom_to 17
 ##XTHERION## xth_me_image_insert {13493.38771654 1 1.0} {9223.75732283 26.4} PocketTopo/whitelightning2a_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {9723.114961700001 1 1.0} {8450.404603591 26.4} {PocketTopo/whitelightning2a_p - Copy.xvi} 0 {}
 
@@ -518,6 +518,7 @@ line wall
   5451.14 10571.59 5389.77 10717.05 5371.59090909091 10747.727272727274
   5353.41 10778.41 5262.5 10931.82 5238.636363636364 10950.000000000002
   5214.77 10968.18 5149.87 11010.16 5127.14 11038.57
+  smooth off
 endline
 
 line wall
@@ -964,7 +965,7 @@ endline
 
 point 10345.714285714286 9725.714285714286 label -scale xs -text "<center>Too Tight<br>(muddy hole<br>looks to<br>take water)"
 
-point 10468.57142857143 7350.0 label -scale xs -text "<center>4th Pitch<br>4m"
+point 9867.64705882353 7495.496323529412 label -scale s -text "4th Pitch 4m" -align left
 
 line wall -reverse on
   10555.555555555557 9471.111111111111

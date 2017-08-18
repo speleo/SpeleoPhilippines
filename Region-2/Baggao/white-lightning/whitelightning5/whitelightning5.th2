@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.5681818181818 -128.5681818181818 18922.0551181054 19528.5354330675
-##XTHERION## xth_me_area_zoom_to 704
+##XTHERION## xth_me_area_zoom_to 33
 ##XTHERION## xth_me_image_insert {17228.7007874 1 1.0} {18556.0472441 33.7} PocketTopo/whitelightning5_p.xvi 0 {}
 
 
@@ -27,7 +27,7 @@ point 16699.170787400002 15293.057244099999 section -scrap whitelightning5SPX33.
 
 line section -reverse on -direction both
   16172.727272727274 15931.818181818184
-  16365.909090909092 15575.000000000002
+  16493.18 15415.91
 endline
 
 point 16327.1707874 15664.367244099998 station -name 33.15
@@ -57,7 +57,7 @@ endline
 line border
 endline
 
-point 16954.545454545456 16834.09090909091 label -scale xs -text "<center>11th Pitch<br>(behind log jam)<br>10m"
+point 16896.969696969696 16852.27272727273 label -scale s -text "11th Pitch 10m" -align right
 
 point 16915.909090909092 17197.727272727276 label -scale xs -text "<center>Climb<br>1m"
 
@@ -67,15 +67,20 @@ point 17547.727272727276 18102.272727272728 label -scale xs -text "<center>Calci
 
 point 16377.272727272728 15050.000000000002 label -orientation 37.4 -scale xs -text "?"
 
-point 15488.636363636364 15763.636363636366 label -orientation 37.4 -scale xs -text "Gour Chamber"
+line label -text [Gour Chamber]
+  15003.030303030302 16027.272727272728
+  15003.030303030302 16027.272727272728 15306.06 15654.55 15375.757575757576 15612.121212121212
+  15445.45 15569.7 15866.67 15293.94 15900.0 15281.818181818182
+  15933.33 15269.7 16051.52 15257.58 16078.787878787878 15251.515151515152
+endline
 
 point 14854.545454545456 15954.545454545456 label -scale xs -text "<center>Wet, low duck<br>full of logs<br>(connects to<br>streamway)"
 
 point 15731.818181818184 16681.818181818184 label -scale xs -text "<center>3m Climb<br>over Gours"
 
-point 16763.636363636364 16288.636363636366 label -scale xs -text "<center>12th Pitch<br>8m"
+point 16712.121212121212 16246.212121212124 label -scale s -text "12th Pitch 8m" -align right
 
-point 16888.636363636364 18522.727272727276 label -scale xs -text "<center>10th Pitch<br>'Toto Guzman'<br>25m"
+point 17688.636363636364 18210.606060606064 label -scale s -text "10th Pitch 'Toto Guzman' 25m" -align right
 
 line border
   17393.75 18297.916666666668
@@ -464,17 +469,17 @@ line border -id l101-16315-16781 -reverse on
   16164.583333333334 16760.416666666668
 endline
 
-point 17190.909090909092 18343.18181818182 gradient -orientation 192.3 -scale xl
+point 17190.909090909092 18343.18181818182 gradient -orientation 192.3 -scale xs
 
-point 17245.833333333336 18104.166666666668 gradient -orientation 181.8 -scale xl
+point 17245.833333333336 18104.166666666668 gradient -orientation 181.8 -scale xs
 
-point 17045.454545454548 18093.18181818182 gradient -orientation 181.8 -scale xl
+point 17045.454545454548 18093.18181818182 gradient -orientation 181.8 -scale xs
 
 point 15797.727272727276 17754.54545454546 section -scrap whitelightning5SPX33.11
 
 line section -reverse on -direction both
   16386.363636363636 17281.818181818184
-  16750.0 17038.636363636364
+  16857.58 16984.85
 endline
 
 line wall -reverse on
@@ -539,15 +544,15 @@ line wall -reverse on
   smooth off
 endline
 
-point 17245.833333333336 18104.166666666668 water-flow -orientation 173.8 -scale xl
+point 17245.833333333336 18104.166666666668 water-flow -orientation 173.8 -scale xs
 
-point 17087.5 18122.916666666668 water-flow -orientation 201.3 -scale xl
+point 17087.5 18122.916666666668 water-flow -orientation 201.3 -scale xs
 
-point 17214.583333333336 18456.25 water-flow -orientation 201.3 -scale xl
+point 17214.583333333336 18456.25 water-flow -orientation 201.3 -scale xs
 
-point 17152.083333333336 17389.583333333336 water-flow -orientation 281.9 -scale xl
+point 17152.083333333336 17389.583333333336 water-flow -orientation 281.9 -scale s
 
-point 16354.166666666668 16306.250000000002 water-flow -orientation 204.4 -scale xl
+point 16354.166666666668 16306.250000000002 water-flow -orientation 204.4 -scale xs
 
 line wall
   17227.0 18567.0
@@ -602,13 +607,13 @@ area flowstone
   l127-15131-16138
 endarea
 
-point 16179.545454545456 15570.454545454546 gradient -orientation 0.3 -scale m
+point 16179.545454545456 15570.454545454546 gradient -orientation 0.3 -scale xs
 
-point 16381.818181818184 16277.272727272728 gradient -orientation 222.7 -scale m
+point 16381.818181818184 16277.272727272728 gradient -orientation 222.7 -scale xs
 
-point 16306.818181818184 16300.000000000002 gradient -orientation 188.0 -scale m
+point 16306.818181818184 16300.000000000002 gradient -orientation 188.0 -scale xs
 
-point 16011.363636363638 15595.454545454546 gradient -orientation 40.2 -scale m
+point 16011.363636363638 15595.454545454546 gradient -orientation 40.2 -scale xs
 
 line border -id l127-15131-16138 -reverse on
   15093.750000000002 16183.333333333334
@@ -678,7 +683,7 @@ point 15508.800787400001 16384.0172441 station -name 33.19
 
 point 15377.6707874 16365.517244099998 station -name 33.20
 
-point 16316.666666666668 15189.583333333334 water-flow -orientation 330.3 -scale xl
+point 16316.666666666668 15189.583333333334 water-flow -orientation 330.3 -scale l
 
 line floor-step -reverse on
   15812.500000000002 16327.083333333334
@@ -689,8 +694,8 @@ line floor-step -reverse on
   15735.416666666668 16197.916666666668 15679.17 16206.25 15670.833333333334 16197.916666666668
   15662.5 16189.58 15616.666666666668 16177.083333333334 15616.666666666668 16177.083333333334
   smooth off
-  15595.833333333334 16152.083333333336
-  15595.833333333334 16152.083333333336 15572.92 16156.25 15556.250000000002 16170.833333333334
+  15593.18 16156.25
+  15593.18 16156.25 15572.92 16156.25 15556.250000000002 16170.833333333334
   15539.58 16185.42 15522.92 16237.5 15491.666666666668 16247.916666666668
   15460.42 16258.33 15443.75 16262.5 15437.500000000002 16279.166666666668
   15431.25 16295.83 15405.34 16358.12 15377.6707874 16365.517244099998
@@ -699,7 +704,7 @@ line floor-step -reverse on
   15097.916666666668 16308.333333333334
 endline
 
-point 15595.833333333334 16152.083333333336 water-flow -orientation 352.3 -scale xl
+point 15595.833333333334 16152.083333333336 water-flow -orientation 352.3
 
 line wall
   15522.0 16476.0
@@ -741,9 +746,9 @@ line wall
   smooth off
 endline
 
-point 15740.909090909092 16009.09090909091 gradient -orientation 338.6 -scale xl
+point 15740.909090909092 16009.09090909091 gradient -orientation 338.6 -scale xs
 
-point 15422.727272727274 16113.636363636366 gradient -orientation 5.8 -scale xl
+point 15422.727272727274 16113.636363636366 gradient -orientation 5.8 -scale xs
 
 line wall
   15199.0 16371.0
@@ -950,13 +955,13 @@ area water
   l154-9535-13148
 endarea
 
-point 14722.916666666668 17110.416666666668 water-flow -orientation 330.7 -scale xl
+point 14722.916666666668 17110.416666666668 water-flow -orientation 330.7
 
 point 12833.333333333334 16868.75 water-flow -orientation 27.0 -scale xl
 
 point 13185.416666666668 17381.25 water-flow -orientation 16.8 -scale xl
 
-point 13339.583333333334 17806.25 water-flow -orientation 262.5 -scale xl
+point 13339.583333333334 17806.25 water-flow -orientation 262.5 -scale l
 
 point 10568.75 17381.25 water-flow -orientation 226.5 -scale xl
 
@@ -1192,7 +1197,14 @@ line wall
   smooth off
 endline
 
-point 12468.75 16406.25 water-flow -orientation 46.2 -scale xl
+point 12468.75 16406.25 water-flow -orientation 46.2 -scale l
+
+line label -text [Cracked It!]
+  13778.79 18196.97
+  13875.76 18172.73 14518.17 17906.06 14639.39 17824.24
+  14749.55 17749.88 14972.73 17615.15 15090.91 17484.85
+  15164.68 17403.51 15460.6 16830.3 15475.76 16818.18
+endline
 
 line wall
   12678.0 16469.0
@@ -1221,15 +1233,15 @@ line wall
   smooth off
 endline
 
-point 10156.818181818182 18018.18181818182 label -scale xs -text "<center>Gours in<br>Main Stream<br>Passage"
+point 10315.909090909092 17986.36363636364 label -scale s -text "Gours" -align top-left
 
-point 9727.272727272728 16561.363636363636 label -scale xs -text "<center>Calcite<br>Shelf"
+point 9790.909090909092 16552.272727272728 label -scale s -text "<center>Calcite<br>shelf" -align left
 
-point 11895.454545454546 18275.0 label -scale xs -text "Bats"
+point 11890.909090909092 18320.454545454544 label -scale s -text "Bats"
 
 point 12784.09090909091 17481.818181818184 label -scale xs -text "<center>Big Gour<br>Flow"
 
-point 13186.363636363638 18004.545454545456 label -scale xs -text "Logs"
+point 13186.363636363638 18063.636363636364 label -scale s -text "Logs"
 
 area debris
   l261-13364-17816
@@ -1249,13 +1261,18 @@ line border -id l261-13364-17816 -close on
   13245.454545454546 17820.454545454548 13177.27 17813.64 13181.818181818184 17784.09090909091
 endline
 
-point 12325.000000000002 16456.818181818184 label -scale xs -text "?"
+point 12361.363636363638 16556.818181818184 label -scale s -text "?"
 
-point 14200.000000000002 17952.27272727273 label -scale xs -text "Canal"
+line label -text Canal
+  13681.82 17512.12
+  13706.06 17503.03 13972.73 17369.69 14021.21 17333.33
+  14069.7 17296.96 14242.42 17190.91 14242.42 17190.91
+  smooth off
+endline
 
-point 8381.818181818182 11636.363636363638 label -scale xs -text "Canal"
+point 8381.818181818182 11636.363636363638 label -orientation 297.3 -scale s -text "Canal"
 
-point 9575.0 12961.363636363638 label -scale xs -text "Logs"
+point 9575.0 12961.363636363638 label -scale s -text "Logs" -align right
 
 area debris
   l269-9405-13030
@@ -1272,7 +1289,7 @@ line border -id l269-9405-13030 -close on
   smooth off
 endline
 
-point 9161.363636363638 13727.272727272728 label -scale xs -text "<center>Clean Washed<br>Cascades"
+point 9161.363636363638 13727.272727272728 label -scale s -text "<center>Clean washed<br>cascades" -align left
 
 point 15145.454545454546 16936.36363636364 label -orientation 46.6 -scale xs -text "'Cracked It'"
 
@@ -1363,8 +1380,8 @@ point 10045.1007874 14175.167244099997 station -name 33.32
 point 11220.454545454548 15913.636363636364 section -scrap whitelightning5SPX33.30
 
 line section -reverse on -direction both
-  9993.18181818182 15620.454545454546
-  10500.000000000002 15620.454545454546
+  9936.36 15618.18
+  10554.55 15618.18
 endline
 
 point 10359.720787400001 15613.4272441 station -name 33.30
@@ -1394,8 +1411,8 @@ point 9199.0207874 12571.797244099998 station -name 33.34
 point 8268.181818181818 12447.727272727274 section -scrap whitelightning5SPX33.35
 
 line section -reverse on -direction both
-  8677.272727272728 12145.454545454546
-  9022.727272727274 11959.09090909091
+  8631.82 12177.27
+  9104.55 11900.0
 endline
 
 point 8826.6107874 12057.967244099998 station -name 33.35
@@ -1619,15 +1636,15 @@ line border -id l208-2990-3135
   2902.0833333333335 3231.2500000000005
 endline
 
-point 7539.583333333334 9160.416666666668 water-flow -orientation 238.9 -scale xl
+point 7539.583333333334 9160.416666666668 water-flow -orientation 238.9 -scale l
 
-point 7179.166666666667 9127.083333333334 water-flow -orientation 265.1 -scale xl
+point 7179.166666666667 9127.083333333334 water-flow -orientation 265.1 -scale l
 
-point 6558.333333333334 9127.083333333334 water-flow -orientation 235.1 -scale xl
+point 6558.333333333334 9127.083333333334 water-flow -orientation 235.1 -scale l
 
-point 6102.083333333334 8397.916666666668 water-flow -orientation 211.1 -scale xl
+point 6102.083333333334 8397.916666666668 water-flow -orientation 211.1 -scale l
 
-point 5900.0 8077.083333333334 water-flow -orientation 186.0 -scale xl
+point 5900.0 8077.083333333334 water-flow -orientation 186.0 -scale l
 
 point 3954.166666666667 5608.333333333334 water-flow -orientation 210.1 -scale xl
 
@@ -1813,19 +1830,19 @@ line border -id l174-5919-8969 -reverse on
   5858.333333333334 8914.583333333334
 endline
 
-point 1856.818181818182 2097.727272727273 label -scale xs -text "<center>Calcite<br>Boss"
+point 1856.818181818182 2097.727272727273 label -scale s -text "<center>Calcite<br>boss" -align left
 
-point 13347.727272727274 17456.818181818184 gradient -orientation 5.8 -scale xl
+point 13347.727272727274 17456.818181818184 gradient -orientation 5.8
 
-point 13136.363636363638 17447.727272727276 gradient -orientation 5.8 -scale xl
+point 13136.363636363638 17447.727272727276 gradient -orientation 5.8
 
-point 3636.3636363636365 3788.636363636364 label -scale xs -text "<center>Flowstone<br>Boss"
+point 3636.3636363636365 3788.636363636364 label -scale s -text "<center>Flowstone<br>boss" -align right
 
-point 3843.1818181818185 4797.727272727273 label -scale xs -text "<center>Gour<br>Dam"
+point 3843.1818181818185 4797.727272727273 label -scale s -text "<center>Gour<br>dam" -align right
 
-point 5190.909090909092 6675.000000000001 label -scale xs -text "Logs"
+point 5190.909090909092 6675.000000000001 label -scale s -text "Logs" -align right
 
-point 6447.727272727273 7929.545454545456 label -scale xs -text "<center>Overhung<br>Flowstone"
+point 6315.909090909091 7943.18181818182 label -scale s -text "<center>Overhung<br>flowstone" -align right
 
 line border -id l173-6058-9002
   5960.416666666667 9008.333333333334
@@ -1952,11 +1969,11 @@ line border -id l185-7438-10840
   7431.250000000001 10895.833333333334
 endline
 
-point 6677.272727272728 9509.09090909091 label -orientation 0.0 -scale xs -text "Mini Cascades"
+point 7063.636363636364 9459.09090909091 label -scale s -text "Mini<br>cascades" -align top
 
-point 8313.636363636366 9793.181818181818 label -scale xs -text "<center>Duck under<br>Flowstone"
+point 8200.000000000002 9788.636363636364 label -scale s -text "<center>Duck under<br>flowstone" -align right
 
-point 7718.181818181819 10409.09090909091 label -scale xs -text "<center>Calcited<br>Logs"
+point 7800.000000000001 10436.363636363638 label -scale s -text "<center>Calcited<br>logs" -align left
 
 line wall -reverse on
   1954.0 1776.0
@@ -2119,8 +2136,8 @@ point 3512.5107874000005 4316.807244099999 station -name 33.49
 point 3586.5507874000014 5068.187244099998 station -name 33.48
 
 line section -reverse on -direction both
-  3781.818181818182 5720.454545454546
-  4145.454545454546 5595.454545454546
+  3745.45 5759.09
+  4204.55 5559.09
 endline
 
 point 3231.818181818182 5863.636363636364 section -scrap whitelightning5SPX33.47
@@ -2139,7 +2156,7 @@ point 5893.550787400001 7877.617244099998 station -name 33.43
 
 point 6148.990787400002 8308.807244099999 station -name 33.42
 
-line section -reverse on
+line section -reverse on -direction both
   6436.363636363637 9336.363636363638
   6675.000000000001 8931.818181818182
 endline

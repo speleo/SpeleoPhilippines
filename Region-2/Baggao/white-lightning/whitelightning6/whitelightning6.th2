@@ -1,23 +1,23 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -135.14285714285714 -135.14285714285714 31888.714285714286 26860.14285714286
-##XTHERION## xth_me_area_zoom_to 112
+##XTHERION## xth_me_area_zoom_to 14
 ##XTHERION## xth_me_image_insert {7552.647854299998 1 1.0} {22859.0244614 33.104} PocketTopo/whitelightning6_p.xvi 0 {}
 
 
 
 scrap whitelightning6SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 23765.0 11370.0 label -scale xs -text "<center>Duck Under<br>Flowstone"
+point 23915.0 11170.0 label -scale s -text "<center>Duck under<br>flowstone" -align left
 
-point 28400.0 15080.0 label -scale xs -text "<center>Stal and<br>Mud Bank"
+point 28035.714285714286 15194.285714285714 label -scale s -text "<center>Stal and<br>mud bank" -align top
 
-point 29340.0 13340.0 label -scale xs -text "Cascades"
+point 29340.0 13340.0 label -scale s -text "Cascades" -align right
 
-point 20540.0 5630.0 label -orientation 306.5 -scale xs -text "Canal"
+point 20490.0 5672.857142857143 label -orientation 306.5 -scale s -text "Canal"
 
-point 24260.0 7350.0 water-flow -orientation 340.2 -scale xl
+point 24295.714285714286 7221.428571428572 water-flow -orientation 340.2 -scale l
 
-point 24300.0 7225.0 label -scale xs -text "Sump"
+point 24378.571428571428 6846.428571428572 label -scale s -text "Sump"
 
 area sump
   l156-24375-7675
@@ -44,11 +44,11 @@ line wall -subtype presumed
   24145.0 7460.0
 endline
 
-point 29165.0 10630.0 label -scale xs -text "<center>Out<br>of Time"
+point 29165.0 10630.0 label -scale s -text "<center>Out<br>of Time"
 
-point 30205.0 12230.0 label -scale xs -text "<center>Climb<br>2m"
+point 30769.285714285714 11987.142857142857 label -scale s -text "<center>Climb<br>2m" -align right
 
-point 30665.0 14195.0 label -scale xs -text "<center>Flowstone<br>Gours"
+point 31529.285714285714 13987.857142857143 label -scale s -text "<center>Flowstone<br>gours" -align right
 
 line border -id l109-31448-13883
   31191.666666666668 13608.333333333334
