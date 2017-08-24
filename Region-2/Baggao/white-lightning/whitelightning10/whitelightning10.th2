@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap whitelightning10SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 541.1764705882354 2564.7058823529414 label -scale l -text "Water Heard"
+point 541.1764705882354 2564.7058823529414 label -scale xs -text "Water Heard"
 
 line wall -subtype presumed
   552.0 2682.0
@@ -19,7 +19,7 @@ line wall -reverse on -subtype presumed
   400.0 2455.8823529411766
 endline
 
-point 820.5882352941177 814.7058823529412 label -scale l -text "<center>Continues<br>Low<br>(no draught)"
+point 820.5882352941177 814.7058823529412 label -scale xs -text "<center>Continues<br>Low<br>(no draught)"
 
 line wall -reverse on -subtype presumed
   968.0 1236.0
@@ -31,7 +31,7 @@ line wall -subtype presumed
   828.0 1248.0 791.18 1005.88 776.4705882352941 1005.8823529411766
 endline
 
-point 2264.705882352941 5726.470588235295 label -scale xl -text "<center>High Level<br>Fossil Passage"
+point 2264.705882352941 5726.470588235295 label -scale xs -text "<center>High Level<br>Fossil Passage"
 
 line wall
   968.0 1236.0

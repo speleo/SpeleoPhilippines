@@ -27,11 +27,11 @@ line floor-step -close on -reverse on
   smooth off
 endline
 
-point 7415.384615384616 3796.153846153846 label -orientation 23.7 -scale l -text "<center>Climb Down<br>Roaring Cascades"
+point 7415.384615384616 3796.153846153846 label -orientation 23.7 -scale xs -text "<center>Climb Down<br>Roaring Cascades"
 
-point 8238.461538461539 3526.9230769230767 label -scale l -text "<center>Duck<br>Under<br>Flowstone"
+point 8238.461538461539 3526.9230769230767 label -scale xs -text "<center>Duck<br>Under<br>Flowstone"
 
-point 7365.384615384616 2530.7692307692305 label -scale l -text "<center>Large<br>Flowstone Boss"
+point 7365.384615384616 2530.7692307692305 label -scale xs -text "<center>Large<br>Flowstone Boss"
 
 point 8846.153846153846 2773.0769230769233 water-flow -orientation 298.8 -scale xl
 
@@ -53,11 +53,11 @@ line floor-step -reverse on
   1957.6923076923078 4084.6153846153848 1923.08 3565.38 1888.4615384615386 3530.769230769231
 endline
 
-point 2223.0769230769233 3976.9230769230767 label -scale l -text "<center>Obvious<br>Fault"
+point 2223.0769230769233 3976.9230769230767 label -scale xs -text "<center>Obvious<br>Fault"
 
-point 2526.923076923077 2573.0769230769233 label -scale l -text "<center>Stream<br>Sinks"
+point 2526.923076923077 2573.0769230769233 label -scale xs -text "<center>Stream<br>Sinks"
 
-point 3342.3076923076924 4750.0 label -scale l -text "Swimming"
+point 3342.3076923076924 4750.0 label -scale xs -text "Swimming"
 
 area bedrock
   l49-7823-4138

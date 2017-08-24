@@ -57,25 +57,25 @@ endline
 line border
 endline
 
-point 16954.545454545456 16834.09090909091 label -scale l -text "<center>11th Pitch<br>(behind log jam)<br>10m"
+point 16954.545454545456 16834.09090909091 label -scale xs -text "<center>11th Pitch<br>(behind log jam)<br>10m"
 
-point 16915.909090909092 17197.727272727276 label -scale l -text "<center>Climb<br>1m"
+point 16915.909090909092 17197.727272727276 label -scale xs -text "<center>Climb<br>1m"
 
-point 17506.818181818184 17788.636363636364 label -scale l -text "<center>Stal<br>Boss"
+point 17506.818181818184 17788.636363636364 label -scale xs -text "<center>Stal<br>Boss"
 
-point 17547.727272727276 18102.272727272728 label -scale l -text "<center>Calcite<br>ledge"
+point 17547.727272727276 18102.272727272728 label -scale xs -text "<center>Calcite<br>ledge"
 
-point 16377.272727272728 15050.000000000002 label -orientation 37.4 -scale xl -text "?"
+point 16377.272727272728 15050.000000000002 label -orientation 37.4 -scale xs -text "?"
 
-point 15488.636363636364 15763.636363636366 label -orientation 37.4 -scale xl -text "Gour Chamber"
+point 15488.636363636364 15763.636363636366 label -orientation 37.4 -scale xs -text "Gour Chamber"
 
-point 14854.545454545456 15954.545454545456 label -scale l -text "<center>Wet, low duck<br>full of logs<br>(connects to<br>streamway)"
+point 14854.545454545456 15954.545454545456 label -scale xs -text "<center>Wet, low duck<br>full of logs<br>(connects to<br>streamway)"
 
-point 15731.818181818184 16681.818181818184 label -scale l -text "<center>3m Climb<br>over Gours"
+point 15731.818181818184 16681.818181818184 label -scale xs -text "<center>3m Climb<br>over Gours"
 
-point 16763.636363636364 16288.636363636366 label -scale l -text "<center>12th Pitch<br>8m"
+point 16763.636363636364 16288.636363636366 label -scale xs -text "<center>12th Pitch<br>8m"
 
-point 16888.636363636364 18522.727272727276 label -scale l -text "<center>10th Pitch<br>'Toto Guzman'<br>25m"
+point 16888.636363636364 18522.727272727276 label -scale xs -text "<center>10th Pitch<br>'Toto Guzman'<br>25m"
 
 line pit
   17393.75 18297.916666666668
@@ -1221,15 +1221,15 @@ line wall
   smooth off
 endline
 
-point 10156.818181818182 18018.18181818182 label -scale l -text "<center>Gours in<br>Main Stream<br>Passage"
+point 10156.818181818182 18018.18181818182 label -scale xs -text "<center>Gours in<br>Main Stream<br>Passage"
 
-point 9727.272727272728 16561.363636363636 label -scale l -text "<center>Calcite<br>Shelf"
+point 9727.272727272728 16561.363636363636 label -scale xs -text "<center>Calcite<br>Shelf"
 
-point 11895.454545454546 18275.0 label -scale l -text "Bats"
+point 11895.454545454546 18275.0 label -scale xs -text "Bats"
 
-point 12784.09090909091 17481.818181818184 label -scale l -text "<center>Big Gour<br>Flow"
+point 12784.09090909091 17481.818181818184 label -scale xs -text "<center>Big Gour<br>Flow"
 
-point 13186.363636363638 18004.545454545456 label -scale l -text "Logs"
+point 13186.363636363638 18004.545454545456 label -scale xs -text "Logs"
 
 area debris
   l261-13364-17816
@@ -1249,13 +1249,13 @@ line border -id l261-13364-17816 -close on
   13245.454545454546 17820.454545454548 13177.27 17813.64 13181.818181818184 17784.09090909091
 endline
 
-point 12325.000000000002 16456.818181818184 label -scale xl -text "?"
+point 12325.000000000002 16456.818181818184 label -scale xs -text "?"
 
-point 14200.000000000002 17952.27272727273 label -scale xl -text "Canal"
+point 14200.000000000002 17952.27272727273 label -scale xs -text "Canal"
 
-point 8381.818181818182 11636.363636363638 label -scale xl -text "Canal"
+point 8381.818181818182 11636.363636363638 label -scale xs -text "Canal"
 
-point 9575.0 12961.363636363638 label -scale l -text "Logs"
+point 9575.0 12961.363636363638 label -scale xs -text "Logs"
 
 area debris
   l269-9405-13030
@@ -1272,9 +1272,9 @@ line border -id l269-9405-13030 -close on
   smooth off
 endline
 
-point 9161.363636363638 13727.272727272728 label -scale l -text "<center>Clean Washed<br>Cascades"
+point 9161.363636363638 13727.272727272728 label -scale xs -text "<center>Clean Washed<br>Cascades"
 
-point 15145.454545454546 16936.36363636364 label -orientation 46.6 -scale xl -text "'Cracked It'"
+point 15145.454545454546 16936.36363636364 label -orientation 46.6 -scale xs -text "'Cracked It'"
 
 line wall -reverse on
   8502.0 11444.0
@@ -1813,19 +1813,19 @@ line border -id l174-5919-8969 -reverse on
   5858.333333333334 8914.583333333334
 endline
 
-point 1856.818181818182 2097.727272727273 label -scale l -text "<center>Calcite<br>Boss"
+point 1856.818181818182 2097.727272727273 label -scale xs -text "<center>Calcite<br>Boss"
 
 point 13347.727272727274 17456.818181818184 gradient -orientation 5.8 -scale xl
 
 point 13136.363636363638 17447.727272727276 gradient -orientation 5.8 -scale xl
 
-point 3636.3636363636365 3788.636363636364 label -scale l -text "<center>Flowstone<br>Boss"
+point 3636.3636363636365 3788.636363636364 label -scale xs -text "<center>Flowstone<br>Boss"
 
-point 3843.1818181818185 4797.727272727273 label -scale l -text "<center>Gour<br>Dam"
+point 3843.1818181818185 4797.727272727273 label -scale xs -text "<center>Gour<br>Dam"
 
-point 5190.909090909092 6675.000000000001 label -scale l -text "Logs"
+point 5190.909090909092 6675.000000000001 label -scale xs -text "Logs"
 
-point 6447.727272727273 7929.545454545456 label -scale l -text "<center>Overhung<br>Flowstone"
+point 6447.727272727273 7929.545454545456 label -scale xs -text "<center>Overhung<br>Flowstone"
 
 line border -id l173-6058-9002
   5960.416666666667 9008.333333333334
@@ -1952,11 +1952,11 @@ line border -id l185-7438-10840
   7431.250000000001 10895.833333333334
 endline
 
-point 6677.272727272728 9509.09090909091 label -orientation 0.0 -scale xl -text "Mini Cascades"
+point 6677.272727272728 9509.09090909091 label -orientation 0.0 -scale xs -text "Mini Cascades"
 
-point 8313.636363636366 9793.181818181818 label -scale l -text "<center>Duck under<br>Flowstone"
+point 8313.636363636366 9793.181818181818 label -scale xs -text "<center>Duck under<br>Flowstone"
 
-point 7718.181818181819 10409.09090909091 label -scale l -text "<center>Calcited<br>Logs"
+point 7718.181818181819 10409.09090909091 label -scale xs -text "<center>Calcited<br>Logs"
 
 line wall -reverse on
   1954.0 1776.0

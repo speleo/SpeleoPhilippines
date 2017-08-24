@@ -11,6 +11,7 @@ endmap
 map Romeo_1_12ME
   Romeo_1_12SE1
 endmap
+
 centreline
 
 copyright 2017 "GNU GPL"
@@ -18,6 +19,7 @@ copyright 2017 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
+  date 2015.04.17
 
 data normal from to tape compass clino ignoreall
   extend right

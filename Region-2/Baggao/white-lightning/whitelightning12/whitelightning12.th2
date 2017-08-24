@@ -445,31 +445,31 @@ endscrap
 
 scrap whitelightning12_Label -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 13791.666666666668 22091.666666666668 label -orientation 284.8 -scale xl -text "'It Doesn't Go'"
+point 13791.666666666668 22091.666666666668 label -orientation 284.8 -scale xs -text "'It Doesn't Go'"
 
-point 15141.666666666668 23150.0 label -scale l -text "<center>Strong<br>Draught"
+point 15141.666666666668 23150.0 label -scale xs -text "<center>Strong<br>Draught"
 
-point 6375.0 9583.333333333334 label -orientation 0.3 -scale xl -text "<center>Definitely<br>Not A<br>Virgin"
+point 6375.0 9583.333333333334 label -orientation 0.3 -scale xs -text "<center>Definitely<br>Not A<br>Virgin"
 
-point 2433.3333333333335 8050.000000000001 label -orientation 313.4 -scale xl -text "Out of the Blue"
+point 2433.3333333333335 8050.000000000001 label -orientation 313.4 -scale xs -text "Out of the Blue"
 
-point 5959.52380952381 14554.761904761905 label -orientation 281.1 -scale xl -text "For Glory"
+point 5959.52380952381 14554.761904761905 label -orientation 281.1 -scale xs -text "For Glory"
 
-point 9433.333333333334 22266.666666666668 label -orientation 15.1 -scale xl -text "Jigsaw Puzzle Chamber"
+point 9433.333333333334 22266.666666666668 label -orientation 15.1 -scale xs -text "Jigsaw Puzzle Chamber"
 
-point 1558.3333333333335 7066.666666666667 label -scale l -text "<center>Guano<br>Smell"
+point 1558.3333333333335 7066.666666666667 label -scale xs -text "<center>Guano<br>Smell"
 
-point 2750.0 6558.333333333334 label -scale l -text "Stal Boss"
+point 2750.0 6558.333333333334 label -scale xs -text "Stal Boss"
 
-point 4008.3333333333335 8325.0 label -scale l -text "<center>Mud<br>Formations"
+point 4008.3333333333335 8325.0 label -scale xs -text "<center>Mud<br>Formations"
 
-point 7986.904761904762 17959.52380952381 label -scale l -text "<center>Strong<br>Draught"
+point 7986.904761904762 17959.52380952381 label -scale xs -text "<center>Strong<br>Draught"
 
-point 4275.0 9983.333333333334 label -scale l -text "<center>Rift<br>Canyon"
+point 4275.0 9983.333333333334 label -scale xs -text "<center>Rift<br>Canyon"
 
-point 14128.57142857143 18557.14285714286 label -scale xl -text "?"
+point 14128.57142857143 18557.14285714286 label -scale xs -text "?"
 
-point 13950.0 20228.57142857143 label -scale l -text "<center>Boulder<br>Slope"
+point 13950.0 20228.57142857143 label -scale xs -text "<center>Boulder<br>Slope"
 
 endscrap
 
