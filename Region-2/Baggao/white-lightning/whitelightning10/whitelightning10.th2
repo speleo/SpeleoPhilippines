@@ -1,17 +1,16 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -145.3913043478261 -145.3913043478261 3249.7322834611 7489.3779527558
-##XTHERION## xth_me_area_zoom_to 23
+##XTHERION## xth_me_area_zoom_to 21
 ##XTHERION## xth_me_image_insert {886.56181102 1 1.0} {3032.8744881900006 33.187} PocketTopo/whitelightning10_p.xvi 0 {}
 
 
 
 scrap whitelightning10SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 541.1764705882354 2564.7058823529414 label -scale xs -text "Water Heard"
-
 line wall -subtype presumed
   552.0 2682.0
   552.0 2682.0 432.35 2691.18 408.82352941176475 2685.294117647059
+  smooth off
 endline
 
 line wall -reverse on -subtype presumed
@@ -19,19 +18,31 @@ line wall -reverse on -subtype presumed
   400.0 2455.8823529411766
 endline
 
-point 820.5882352941177 814.7058823529412 label -scale xs -text "<center>Continues<br>Low<br>(no draught)"
+point 820.5882352941177 814.7058823529412 label -scale s -text "<center>Continues<br>low<br>(no draught)" -align bottom
 
 line wall -reverse on -subtype presumed
   968.0 1236.0
   968.0 1236.0 905.88 994.12 917.6470588235295 964.7058823529412
+  smooth off
 endline
 
 line wall -subtype presumed
   828.0 1248.0
   828.0 1248.0 791.18 1005.88 776.4705882352941 1005.8823529411766
+  smooth off
 endline
 
-point 2264.705882352941 5726.470588235295 label -scale xs -text "<center>High Level<br>Fossil Passage"
+line label -text water<br>heard
+  409.3 2193.02
+  763.95 2194.19
+endline
+
+line label -text Low
+  509.62 2766.35
+  743.2692307692308 2768.269230769231
+endline
+
+point 1547.1234647705235 3598.9980607627667 label -scale s -text "<center>High Level<br>fossil passage" -align bottom-right
 
 line wall
   968.0 1236.0
@@ -52,9 +63,6 @@ line wall
   1686.0 5378.0 1718.0 5650.0 1716.0 5712.0
   1714.0 5774.0 1724.0 5866.0 1740.0 5928.0
   1756.0 5990.0 1830.0 6162.0 1846.0 6202.0
-  1862.0 6242.0 1922.0 6362.0 1938.0 6390.0
-  1954.0 6418.0 2010.0 6502.0 2056.0 6500.0
-  2102.0 6498.0 2242.0 6464.0 2242.0 6464.0
   smooth off
 endline
 
@@ -71,10 +79,7 @@ line wall
 endline
 
 line wall
-  1264.0 7340.0
-  1254.0 7316.0 1230.0 7090.0 1240.0 7036.0
-  1250.0 6982.0 1332.0 6752.0 1344.0 6720.0
-  1356.0 6688.0 1460.0 6632.0 1456.0 6572.0
+  1456.0 6572.0
   1452.0 6512.0 1462.0 6376.0 1416.0 6276.0
   1370.0 6176.0 1296.0 5936.0 1286.0 5892.0
   1276.0 5848.0 1264.0 5610.0 1266.0 5550.0

@@ -113,8 +113,9 @@ layout local
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,30,54,80);
-  
+    #fonts_setup(6,8,30,54,80);
+    fonts_setup(0.01,8,30,54,80);
+    
   endcode
 
 #################################################################

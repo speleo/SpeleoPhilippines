@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -1061,8 +1061,8 @@ line flowstone
   77600.0 76556.0 77480.0 76504.0 77412.0 76488.0
   77344.0 76472.0 77204.0 76448.0 77204.0 76448.0
   smooth off
-  77204.0 76448.0 77104.0 76488.0 77104.0 76528.0
-  77104.0 76568.0 77128.0 76724.0 77128.0 76724.0
+  77204.0 76448.0 77139.58 76493.33 77139.58 76533.33
+  77139.58 76573.33 77128.0 76724.0 77128.0 76724.0
   smooth off
 endline
 
@@ -1195,9 +1195,9 @@ line flowstone
 endline
 
 line wall -id l165-77436-76312
-  77212.0 76292.0
-  77212.0 76292.0 77324.0 76280.0 77396.0 76300.0
-  77468.0 76320.0 77600.0 76396.0 77628.0 76392.0
+  77097.92 76285.42
+  77097.92 76285.42 77318.75 76295.83 77396.0 76300.0
+  77470.63 76304.03 77600.0 76396.0 77628.0 76392.0
   77656.0 76388.0 77676.0 76372.0 77636.0 76316.0
   77596.0 76260.0 77568.0 76084.0 77532.0 76052.0
   77496.0 76020.0 77452.0 75920.0 77464.0 75900.0
@@ -1241,8 +1241,8 @@ line wall -id l165-77436-76312
 endline
 
 line wall -id l166-76892-77516 -reverse on
-  76656.0 77268.0
-  76656.0 77268.0 76616.0 77388.0 76644.0 77416.0
+  76627.08 77141.67
+  76627.08 77141.67 76616.0 77388.0 76644.0 77416.0
   76672.0 77444.0 76544.0 77536.0 76752.0 77512.0
   76960.0 77488.0 76996.0 77544.0 77028.0 77544.0
   77060.0 77544.0 77120.0 77572.0 77144.0 77592.0
@@ -1342,27 +1342,27 @@ endline
 
 point 87844.0 63108.0 label -text [Pitch 100m<br>to surface] -align right -scale s
 
-point 87508.0 60500.0 label -text [+25m] -scale xs
+point 87508.0 60500.0 label -text [+25m] -scale s
 
-point 79348.0 75052.0 label -text [Huge eroded flowstone <br> boulders and towers] -scale xs
+point 79348.0 75052.0 label -text [Huge eroded flowstone <br> boulders and towers] -scale s
 
-point 84444.0 76996.0 label -text -2m -scale xs
+point 84444.0 76996.0 label -text -2m -scale s
 
 point 85780.0 74908.0 label -text [Gour dam <br> and rapids] -scale s
 
-point 82272.0 73836.0 label -text [+3m] -scale xs
+point 82272.0 73836.0 label -text [+3m] -scale s
 
 point 82620.0 73104.0 label -text [?] -scale s
 
-point 84224.0 70104.0 label -text [+8m] -scale xs
+point 84224.0 70104.0 label -text [+8m] -scale s
 
-point 84564.0 71420.0 label -text [+8m] -scale xs
+point 84564.0 71420.0 label -text [+8m] -scale s
 
-point 82324.0 67536.0 label -text -4m -scale xs
+point 82324.0 67536.0 label -text -4m -scale s
 
-point 84304.0 67944.0 label -text [+6m] -scale xs
+point 84304.0 67944.0 label -text [+6m] -scale s
 
-point 84176.0 66056.0 label -text [+10m] -scale xs
+point 84176.0 66056.0 label -text [+10m] -scale s
 
 endscrap
 

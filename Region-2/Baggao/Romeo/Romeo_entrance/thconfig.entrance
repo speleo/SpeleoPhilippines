@@ -23,7 +23,7 @@ export model -fmt survex -o ./_output/romeo_entrance.3d
 #Survex file showing walls only
 
 layout test
-  scale 1 30
+  scale 1 150
   debug on
 endlayout
 

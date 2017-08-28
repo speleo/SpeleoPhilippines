@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 73404.0229857141 32090.480314911
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
 
@@ -161,11 +161,11 @@ line wall -id l216-22640-10492 -reverse on
   smooth off
 endline
 
-point 18808.0 9456.0 label -text "climb<br>+2" -align right -scale xs
+point 18808.0 9456.0 label -text "climb<br>+2" -align right -scale s
 
-point 26104.0 11796.0 label -text "30m to end" -scale xs -align right
+point 26104.0 11796.0 label -text "30m to end" -scale s -align right
 
-point 20484.0 9448.0 label -text "cascade" -align center -scale xs
+point 20484.0 9448.0 label -text "cascade" -align center -scale s
 
 point 26016.0 18036.0 label
 

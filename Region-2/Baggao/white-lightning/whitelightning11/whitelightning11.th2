@@ -1,21 +1,21 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -156.57142857142858 -156.57142857142858 6856.571428571429 8010.9527559076005
-##XTHERION## xth_me_area_zoom_to 14
+##XTHERION## xth_me_area_zoom_to 28
 ##XTHERION## xth_me_image_insert {890.342646355 1 1.0} {6442.24409449 33.77} PocketTopo/whitelightning11_p.xvi 0 {}
 
 
 
 scrap whitelightning11SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 2616.666666666667 5520.833333333334 gradient -orientation 294.1 -scale xl
+point 2616.666666666667 5520.833333333334 gradient -orientation 294.1
 
-point 2133.3333333333335 5395.833333333334 gradient -orientation 236.0 -scale xl
+point 2133.3333333333335 5395.833333333334 gradient -orientation 236.0
 
-point 1491.6666666666667 5379.166666666667 gradient -orientation 307.0 -scale xl
+point 1491.6666666666667 5379.166666666667 gradient -orientation 307.0
 
-point 1625.0000000000002 6083.333333333334 gradient -orientation 353.0 -scale xl
+point 1625.0000000000002 6083.333333333334 gradient -orientation 353.0
 
-point 920.8333333333334 5958.333333333334 gradient -orientation 353.0 -scale xl
+point 920.8333333333334 5958.333333333334 gradient -orientation 353.0
 
 area flowstone
   l22-3383-5771
@@ -106,19 +106,26 @@ endarea
 area blocks
 endarea
 
-point 3762.5000000000005 5525.000000000001 label -scale xs -text "Clear<br>Gour Pools"
+point 3762.5000000000005 5525.000000000001 label -scale s -text "Clear<br>gour pools" -align right
 
-point 3891.666666666667 4050.0 label -scale xs -text "Muddy<br>Breakdown"
+point 3891.666666666667 4050.0 label -scale s -text "Muddy<br>breakdown" -align right
 
-point 4662.5 3250.0000000000005 label -scale xs -text "<center>Hole Down<br>(Possible Connection<br>with Lake Chamber)"
+line label -text [Hole down<br>into sump]
+  4364.285714285715 3214.2857142857147
+  5100.0 3214.2857142857147
+endline
 
-point 3754.166666666667 2591.6666666666665 label -scale xs -text "Gour"
+point 4650.0 3064.2857142857147 label -scale xs -text "(Possible Connection<br>with Lake Chamber)" -align right
 
-point 5662.5 3275.0 label -scale xs -text "<center>Lake<br>Chamber"
+point 4650.0 3064.2857142857147 label -scale xs -text "(Possible Connection<br>with Lake Chamber)" -align right
 
-point 5891.666666666667 1025.0 label -scale xs -text "Sump"
+point 3754.166666666667 2591.6666666666665 label -scale s -text "Gour" -align left
 
-point 5650.0 858.3333333333335 water-flow -orientation 7.8 -scale xl
+point 5662.5 3275.0 label -scale s -text "<center>Lake<br>Chamber" -align top-right
+
+point 5891.666666666667 1025.0 label -scale s -text "Sump" -align right
+
+point 5635.714285714285 722.6190476190477 water-flow -orientation 7.8 -scale xl
 
 point 5670.833333333334 1775.0000000000002 water-flow -orientation 317.1 -scale xl
 
@@ -173,7 +180,7 @@ endline
 
 point 1216.6666666666667 5795.833333333334 water-flow -orientation 351.8 -scale xl
 
-point 1779.1666666666667 5300.0 water-flow -orientation 289.5 -scale xl
+point 1779.1666666666667 5300.0 water-flow -orientation 289.5 -scale l
 
 point 3325.0000000000005 5008.333333333334 water-flow -orientation 336.0 -scale xl
 
@@ -247,12 +254,11 @@ line border -id l30-2292-4788
   2341.666666666667 5004.166666666667
 endline
 
-point 904.166666666667 5041.666666666667 label -scale xs -text "<center>The White<br>Waterfall"
+point 868.4523809523813 4863.0952380952385 label -scale s -text "<center>The White<br>Waterfall"
 
 line wall
-  658.3333333333334 6150.0
-  662.5 6143.75 664.58 6102.08 650.0 6077.083333333334
-  635.42 6052.08 604.17 6006.25 683.3333333333334 5906.25
+  594.64 6041.07
+  602.09 6013.11 604.17 6006.25 683.3333333333334 5906.25
   762.5 5806.25 933.33 5568.75 1014.5833333333334 5497.916666666667
   1095.83 5427.08 1327.08 5277.08 1364.5833333333335 5250.0
   1402.08 5222.92 1837.5 5012.5 1868.7500000000002 5006.25
@@ -344,9 +350,6 @@ line wall
   1547.92 5608.33 1500.0 5610.42 1535.4166666666667 5672.916666666667
   1570.83 5735.42 1743.75 5987.5 1779.1666666666667 6012.5
   1814.58 6037.5 2118.75 6241.67 2137.5 6260.416666666667
-  2156.25 6279.17 2325.0 6464.58 2322.916666666667 6554.166666666667
-  2320.83 6643.75 2400.0 6797.92 2412.5 6827.083333333334
-  2425.0 6856.25 2527.0833333333335 7114.583333333334 2527.0833333333335 7114.583333333334
   smooth off
 endline
 
@@ -361,7 +364,7 @@ point 5116.082646355 2077.8140944899997 station -name 33.200
 line section -direction both
 endline
 
-point 5809.322646355 5133.74409449 section -scrap whitelightning11SPX33.199
+point 3627.1797892121426 -23.39876265285732 section -scrap whitelightning11SPX33.199
 
 line section -reverse on -direction both
   4257.142857142858 1428.5714285714287

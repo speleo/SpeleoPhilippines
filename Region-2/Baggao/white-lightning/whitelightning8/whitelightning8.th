@@ -6,6 +6,7 @@ input whitelightning8Ee.th2
 
 map whitelightning8M
   whitelightning8SP1
+  break
   whitelightning8SP2
 
 endmap

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -247,7 +247,7 @@ line border -id l278-44380-64768 -reverse on -subtype invisible
   46604.0 68324.0
 endline
 
-point 39062.0 65536.0 label -text [50m flowstone<br>cascade <br> to roof] -align right -scale xs
+point 39062.0 65536.0 label -text [50m flowstone<br>cascade <br> to roof] -align right -scale s
 
 point 33764.0 63888.0 label -text [3rd Pitch<br>13m] -scale l -align center
 
@@ -329,7 +329,7 @@ endline
 
 point 69168.0 72272.0 label -text [Aven] -scale s
 
-point 62540.0 71064.0 label -text [+4m] -scale xs
+point 62540.0 71064.0 label -text [+4m] -scale s
 
 line arrow
   69044.0 72356.0
@@ -349,7 +349,7 @@ line wall -id l210-69128-73324
   smooth off
 endline
 
-line label -text [Presumed] -scale xs
+line label -text [Presumed] -scale s
   69824.0 74164.0
   69866.0 74174.0 70294.0 74378.0 70348.0 74430.0
   70402.0 74482.0 70806.0 74710.0 70858.0 74758.0
@@ -1973,9 +1973,9 @@ line border -id l204-38620-64358 -subtype invisible
   39057.5 64357.0
 endline
 
-point 69836.0 73964.0 label -text [+8m] -scale xs
+point 69836.0 73964.0 label -text [+8m] -scale s
 
-point 70992.0 76692.0 label -text [Flowstone +8m] -scale xs
+point 70992.0 76692.0 label -text [Flowstone +8m] -scale s
 
 line label -text [Beauty] -scale l
   63084.0 68672.0
@@ -1984,6 +1984,7 @@ line label -text [Beauty] -scale l
   70696.0 69792.0 72648.0 69868.0 72780.0 69868.0
   72912.0 69868.0 75548.0 69904.0 75744.0 69896.0
   75940.0 69888.0 78096.0 70100.0 78276.0 70160.0
+  smooth off
 endline
 
 line arrow
@@ -1993,11 +1994,11 @@ endline
 
 point 54172.0 86456.0 label -text "."
 
-point 70734.0 73386.0 label -text [Large<br>stalagmite] -scale xs
+point 70734.0 73386.0 label -text [Large<br>stalagmite] -scale s
 
 point 72900.0 71240.0 label -text Unexplored -scale s
 
-point 74920.0 73368.0 label -text [+6m] -scale xs
+point 74920.0 73368.0 label -text [+6m] -scale s
 
 endscrap
 

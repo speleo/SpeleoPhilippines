@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -307,7 +307,7 @@ area sand
   l461-150000-21788
 endarea
 
-point 149920.0 21680.0 gradient -orientation 253.4
+point 149920.0 21680.0 gradient -orientation 253.4 -scale s
 
 line border -id l1025-149660-21756 -reverse on
   149972.0 22208.0
@@ -620,9 +620,9 @@ endline
 
 point 149504.0 18604.0 water-flow -orientation 0.0
 
-point 152524.0 19068.0 label -text [Aven<br>+10m] -scale xs
+point 152524.0 19068.0 label -text [Aven<br>+10m] -scale s
 
-point 155464.0 16848.0 label -text [Aven<br>+10m] -scale xs -align bottom-right
+point 155464.0 16848.0 label -text [Aven<br>+10m] -scale s -align bottom-right
 
 line section -direction both
   156604.0 19224.0
@@ -1306,7 +1306,7 @@ line wall -id l484-128172-30932
   smooth off
 endline
 
-point 163160.0 19240.0 label -text [Potential higher level <br> passage over canal] -scale xs
+point 163160.0 19240.0 label -text [Potential higher level <br> passage over canal] -scale s
 
 line label -text "99m Canal"
   159236.0 18236.0
@@ -1320,13 +1320,13 @@ point 167028.0 27020.0 label -text [Sparkling flowstone] -scale s
 
 point 167288.0 21180.0 label -text [The Library]
 
-point 136304.0 32156.0 label -text [+4m] -scale xs
+point 136304.0 32156.0 label -text [+4m] -scale s
 
 point 137336.0 36584.0 water-flow -orientation 247.8
 
-point 144920.0 32132.0 label -text Debris -scale xs
+point 144920.0 32132.0 label -text Debris -scale s
 
-point 144188.0 28760.0 label -text [Water<br>scoured<br>boulders] -scale xs -align bottom
+point 144188.0 28760.0 label -text [Water<br>scoured<br>boulders] -scale s -align bottom
 
 point 140376.0 31148.0 label -text Bats -scale s -align left
 

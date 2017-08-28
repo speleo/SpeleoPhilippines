@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 192670.1102361872 157069.9055117839
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {56617.939606299995 1 1.0} {73079.2444882 6.44} PocketTopo/C4HelicopterHole_p.xvi 0 {}
 
 
@@ -1407,23 +1407,23 @@ line wall -id l378-88200-60272 -reverse on
   smooth off
 endline
 
-point 89064.0 58528.0 label -text [+10m] -scale xs -align right
+point 89064.0 58528.0 label -text [+10m] -scale s -align right
 
-point 94108.0 63100.0 label -text [Huge<br>flake] -scale xs -align right
+point 94108.0 63100.0 label -text [Huge<br>flake] -scale s -align right
 
-point 93196.0 62188.0 label -text [Flowstone<br>arch] -scale xs -align right
+point 93196.0 62188.0 label -text [Flowstone<br>arch] -scale s -align right
 
-point 92664.0 63716.0 label -text [Perched<br>flowstone<br>boulder] -scale xs -align left
+point 92664.0 63716.0 label -text [Perched<br>flowstone<br>boulder] -scale s -align left
 
-point 94564.0 65280.0 label -text [+6m] -scale xs
+point 94564.0 65280.0 label -text [+6m] -scale s
 
 point 92116.0 59736.0 label -text [Bats<br>and<br>birds] -scale s -align right
 
-point 97088.0 64268.0 label -text [+8m] -scale xs
+point 97088.0 64268.0 label -text [+8m] -scale s
 
 point 97004.0 58852.0 label -text Guanoland -align right
 
-point 99432.0 51596.0 label -text [Water sinks] -scale xs -align top-left
+point 99432.0 51596.0 label -text [Water sinks] -scale s -align top-left
 
 point 98460.0 50660.0 label -text [?] -scale s
 
@@ -1441,11 +1441,11 @@ line label -text [Beast] -scale l
   smooth off
 endline
 
-point 98788.0 50952.0 label -text [+4m] -scale xs
+point 98788.0 50952.0 label -text [+4m] -scale s
 
 point 97656.0 51100.0 label -text [?] -scale s
 
-point 103636.0 60712.0 label -text [+4m] -scale xs
+point 103636.0 60712.0 label -text [+4m] -scale s
 
 endscrap
 
