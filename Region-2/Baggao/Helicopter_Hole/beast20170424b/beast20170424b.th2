@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -141.79310344827587 -141.79310344827587 53338.3448275862 31138.944881867697
-##XTHERION## xth_me_area_zoom_to 29
+##XTHERION## xth_me_area_adjust -156.57142857142858 -156.57142857142858 53349.42857142857 31138.944881867697
+##XTHERION## xth_me_area_zoom_to 14
 ##XTHERION## xth_me_image_insert {7465.548818899995 1 1.0} {25824.6882677 16.61} PocketTopo/beast20170424b_p.xvi 0 {}
 
 
@@ -995,6 +995,8 @@ line border -id l143-17031-9681 -close on
   15746.153846153846 9326.923076923078
 endline
 
+point 16535.714285714286 8335.714285714286 label -scale m -text [The Merry Go Round]
+
 area water
   l141-10038-19096
 endarea
@@ -1985,6 +1987,26 @@ line border -id l92-48545-6040 -close on -reverse on
   48115.0 4785.0
   47930.0 4535.0
 endline
+
+point 5271.428571428572 21685.714285714286 label -scale l -text [<centre>Moonlight <br> Chamber]
+
+point 44228.57142857143 4700.0 label
+
+point 24450.0 10435.714285714286 label -scale s -text [Flood Overflow]
+
+point 25807.14285714286 12635.714285714286 label -scale s -text [<centre>? <br> Fast flowing streamway <br> continues in smaller muddy passage]
+
+point 25650.0 11578.57142857143 water-flow -orientation 312.7
+
+point 25735.714285714286 10492.857142857143 water-flow -orientation 209.2
+
+point 15121.428571428572 6385.714285714286 label -scale s -text [<center>Unsurveyed <br> high level passage to a junction <br> left is a sump <br> right is a window into the canal]
+
+point 13292.857142857143 10200.0 label -orientation 18.5 -scale l -text Canal
+
+point 10757.142857142857 14207.142857142859 label
+
+point 10221.428571428572 30150.0 label -text [Water<br>Sinks]
 
 line border -id l88-51179-10958 -close on
   49912.5 10416.666666666668
