@@ -836,6 +836,8 @@ point 12140.0 3471.4285714285716 label -scale s -text Inlet
 
 point 12385.714285714286 3542.857142857143 water-flow -orientation 74.1
 
+point 1970.5882352941178 11364.705882352942 label -scale m -text [Total Recall]
+
 endscrap
 
 
