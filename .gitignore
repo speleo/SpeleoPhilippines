@@ -10,6 +10,7 @@ therion.log
 
 *.3d
 *.3dmf
+*.dxf
 *.kml
 *.lox
 *.pdf
