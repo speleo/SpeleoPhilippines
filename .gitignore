@@ -7,6 +7,7 @@ thTMPDIR/
 8.*~
 .xtherion.dat
 therion.log
+
 *.3d
 *.3dmf
 *.kml
