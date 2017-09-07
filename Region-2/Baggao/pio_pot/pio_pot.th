@@ -7,7 +7,11 @@ survey juness -title "Juness"
   input juness4/juness4.th
   input juness5/juness5.th
   input jurness20lastchamber/jurness20lastchamber.th
- 
+
+  join juness2SP1@juness2 juness3SP1@juness3
+  join juness3SP1@juness3 juness4SP1@juness4
+  join juness4SP1@juness4 juness5SP1@juness5
+  join juness5SP1@juness5 jurness20lastchamberSP1@jurness20lastchamber
 
   centreline
     title "Juness"
