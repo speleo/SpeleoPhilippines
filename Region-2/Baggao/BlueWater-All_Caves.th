@@ -1,13 +1,13 @@
 encoding  utf-8
-survey BlueWaterSystem
+survey BlueWaterAllCaves
   input bluewater/bluewater.th
   input Helicopter_Hole/C4HelicopterHole.th
-  #input Area51/Area51.th
+  input Area51/Area51.th
   input Romeo/Romeo.th
   input White-Lightning/WhiteLightning.th
-  #input Minichasma/Minichasma.th
-  #input naganakan/naganakan.th
-  #input ovimph/ovimph.th
+  input Minichasma/Minichasma.th
+  input naganakan/naganakan.th
+  input ovimph/ovimph.th
   input BlueWaterTopSink/BlueWater-Sink.th
   input pio_pot/pio_pot.th
   input surface/Bluewater_4.th

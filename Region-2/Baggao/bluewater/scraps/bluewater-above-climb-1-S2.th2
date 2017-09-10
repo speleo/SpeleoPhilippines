@@ -36,7 +36,7 @@ endline
 
 point 64140.0 22920.0 label -text "Waterfall" -scale s -align left
 
-point 66272.0 23720.0 label -text "2nd Pitch<br>   8.5m" -scale l -align right
+point 66272.0 23720.0 label -text "2nd Pitch<br>   8.5m" -scale m -align right
 
 point 53348.0 21352.0 label -text "Cascade 3m" -align left -scale s
 

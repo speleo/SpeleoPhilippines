@@ -1,0 +1,27 @@
+encoding  utf-8
+source mintys_hole.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o ./_output/mintys_hole.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o ./_output/mintys_holeEe.pdf
+
+export model -fmt survex -o ./_output/mintys_holeth.3d
+#Survex file showing centre line only
+
+export model -o ./_output/mintys_hole.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o ./_output/mintys_hole_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout

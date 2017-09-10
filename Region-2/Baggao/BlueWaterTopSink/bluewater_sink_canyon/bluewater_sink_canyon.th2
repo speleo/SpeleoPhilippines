@@ -197,13 +197,14 @@ line border -id l12-3428-1436 -subtype invisible
   smooth off
 endline
 
-point 2971.0 2384.0 label -text [Blue Water Sink] -scale l -align top
+point 2971.0 2384.0 label -text [Blue Water Sink] -align top -scale xl
 
 line u:doline -reverse on -clip off -outline none
   3704.0 528.0
   3624.0 492.0 3146.43 475.0 3014.29 446.43
   2944.35 431.31 2457.14 150.0 2214.29 114.29
   2112.82 99.37 1353.77 170.02 1368.0 -226.0
+  smooth off
 endline
 
 line u:doline -reverse on -clip off -outline none
@@ -213,6 +214,7 @@ line u:doline -reverse on -clip off -outline none
   1348.0 1344.0 2078.0 1376.0 2150.0 1400.0
   2222.0 1424.0 2557.14 1702.0 2657.14 1750.0
   2757.14 1798.0 3268.0 1876.0 3348.0 1880.0
+  smooth off
 endline
 
 endscrap

@@ -738,7 +738,7 @@ line arrow -reverse on -scale xl
   22844.0 22856.0
 endline
 
-point 22518.0 23884.0 label -text "1st Pitch<br>13m" -align center -scale l
+point 22518.0 23884.0 label -text "1st Pitch<br>13m" -align center -scale m
 
 point 26132.0 18272.0 label -text "Climb down 3m" -align left -scale s
 

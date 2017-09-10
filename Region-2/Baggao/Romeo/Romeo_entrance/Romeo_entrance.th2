@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 16586.3070866073 44824.188976365105
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {9201.93 1 1.0} {43345.50047244 1.98} PocketTopo/romeo_cave_p.xvi 0 {}
 
 
@@ -1685,7 +1685,7 @@ endline
 
 point 7560.0 42970.0 label -text "Crystal Canals" -scale l
 
-point 13226.0 31540.0 label -text "Tangy Cicada" -scale l
+point 13226.0 31540.0 label -text "Tangy Cicada" -align right -scale m
 
 point 11486.0 30344.0 guano
 
@@ -3266,7 +3266,7 @@ endline
 
 point 3156.0 4532.0 label -text "p8<br>Juliet"
 
-point 7090.0 8002.0 label -text "Romeo Cave" -scale xl
+point 7090.0 8002.0 label -text "Romeo Cave" -align right -scale xl
 
 line wall -id l87-5698-7070 -reverse on
   6268.0 7568.0

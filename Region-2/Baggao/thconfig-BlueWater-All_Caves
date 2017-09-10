@@ -1,21 +1,21 @@
 encoding  utf-8
-source BlueWater-System.th
+source BlueWater-All_Caves.th
 
 ### choose which exports to use
-  export map -proj plan -layout local -o .\_output\BlueWater-System.pdf
-  #export map -fmt kml -proj plan -o .\_output\BlueWater-System.kml
-  #export model -fmt kml -o .\_output\BlueWater-System-model.kml
+  export map -proj plan -layout local -o .\_output\BlueWater-All_Caves.pdf
+  #export map -fmt kml -proj plan -o .\_output\BlueWater-All_Caves.kml
+  #export model -fmt kml -o .\_output\BlueWater-All_Caves-model.kml
 
   #Survex file showing centre line only
   export model -o .\_output\Bluewater-System.3d -fmt survex
   #export map   -o .\_output\Bluewater-System_Walls.3d -proj plan
-  #export model -o .\_output\BlueWater-System.lox
-  #export map   -o .\_output\BlueWater-System_map.lox
-  #export model -o .\_output\BlueWater-System -format esri
-  #export model -o .\_output\BlueWater-System -format dxf
-  #export model -o .\_output\BlueWater-System.vrml
-  #export model -o .\_output\BlueWater-System.3dmf
-  #export model -o .\_output\BlueWater-System.plt
+  #export model -o .\_output\BlueWater-All_Caves.lox
+  #export map   -o .\_output\BlueWater-All_Caves_map.lox
+  #export model -o .\_output\BlueWater-All_Caves -format esri
+  #export model -o .\_output\BlueWater-All_Caves -format dxf
+  #export model -o .\_output\BlueWater-All_Caves.vrml
+  #export model -o .\_output\BlueWater-All_Caves.3dmf
+  #export model -o .\_output\BlueWater-All_Caves.plt
   
 #inject standard code for layouts
   input ..\..\CodeLibrary\_translations.txt  # custom translations
@@ -32,7 +32,7 @@ endlayout
 layout local
   scale 1 1200
   base-scale 1 1200
-  scale-bar 500 m
+  scale-bar 100 m
   
   #Foreground color - turn on altitude to see various heights
   #colour map-fg [80 80 80]
@@ -44,7 +44,7 @@ layout local
   statistics topo all
   statistics explo-length off
   
-  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Bristol Exploration Club<br>Sierra Madre Outdoor Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.github.com/speleo/SpeleoPhilippines<br>Archive: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
   #map-image 50 50 ne images\sitckers-type4.jpg
   #map-image 50 35 nw images\BertieBat.png
   #map-image 80 35 nw images\bc_logo_2266xp.png
@@ -54,60 +54,25 @@ layout local
   doc-author   "Henry Bennett"
   doc-keywords "Bluewater Cave Baggao Philippines"
   doc-subject  "Survey of Bluewater Cave 2014"
-  doc-title    "Bluewater Cave Survey Bristol Exploration Club 2017"
+  doc-title    "Bluewater Cave Survey Bristol Exploration Club 2015"
       
   debug off
   transparency on
   opacity 80
   map-header 0 100 nw
-  overlap 10 cm
+  #overlap 10 cm
 
   symbol-set BCRA
   symbol-hide group cave-centreline
   symbol-assign line slope SKBB
   
   legend on
-  legend-columns 6
-  legend-width 150 cm
+  legend-columns 4
+  legend-width 45 cm
   #colour-legend on
   grid bottom
   grid-coords border
   #sketches on
- 
-
-  ### index of file options from _layouts.mp
-    copy custom_water_blue
-    #copy custom_entrance_theta
-    #copy custom_entrance_theta_large
-    copy custom_scalebar_large_format
-    #copy custom_scalebar_medium_format
-    #copy custom_scalebar
-    copy custom_legend_large_format
-    #copy custom_legend_large_format_5U
-    #copy custom_legend_large_format_20U
-    copy custom_grid_2_continuous
-    copy custom_centerline_2_continuous
-    copy custom_bats
-    #copy custom_north_arrow_150
-    #copy custom_north_arrow_300
-    #copy custom_north_arrow_600
-    #copy custom_northarrow_large
-    copy custom_line_doline
-  
-  ### index of file options from _layouts.tex
-    copy custom_colorlegendbox
-    copy custom_legendsymbolbox
-    #copy custom_title_area_format
-    #copy custom_title_area_format_20
-    #copy custom_title_area_format_1000
-    #copy custom_logos
-
-  ### index of file options from _layouts.thc
-    #copy custom_symbols
-    copy custom_color
-    #copy custom_large_odessa
-    #copy custom_small_odessa
- 
   
 
 ###################################################################
@@ -121,7 +86,23 @@ layout local
 ###################################################################
 
   code metapost
-  
+    
+    input CodeLibrary/_grid_x_hair_to_continuos_line
+    input CodeLibrary/_scalebar_large_format
+    input CodeLibrary/_legend_large_format
+    
+    
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    # change centre line to continuous
+    def l_survey_cave (expr p) =
+        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    enddef;
+    
     # Re-define North arrow to make it bigger
     def s_northarrow (expr rot) =
          T:=identity scaled 0.7 rotated -rot;
@@ -149,16 +130,16 @@ layout local
   
   code tex-map
   \copyrights={Copyleft Creative Commons ShareAlike}
-  \cavename={Blue Water System}
+  \cavename={Blue Water Area Caves}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
-    \legendbox{10}{38}{NW}{
+    \legendbox{0}{38}{NW}{
       \legendwidth 70 cm
       \the\legendcontent
       }
-    \legendbox{50}{30}{NW}{
-      \legendwidth 150 cm
-      \legendtextsize={\size[30]}
+    \legendbox{40}{50}{NW}{
+      \legendwidth 65 cm
+      \legendtextsize={\size[42]}
       \hsize=\legendwidth
       \input th_legend
       }

@@ -249,7 +249,7 @@ endline
 
 point 39062.0 65536.0 label -text [50m flowstone<br>cascade <br> to roof] -align right -scale s
 
-point 33764.0 63888.0 label -text [3rd Pitch<br>13m] -scale l -align center
+point 33764.0 63888.0 label -text [3rd Pitch<br>13m] -scale m -align center
 
 point 39676.0 63608.0 label -text [+6m] -scale s
 

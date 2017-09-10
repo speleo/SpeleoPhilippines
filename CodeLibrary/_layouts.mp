@@ -214,8 +214,8 @@ layout custom_legend_large_format
     
     %change the value of inscale to fill the legend boxes
     def inscale = 
-        xscaled legend_scale yscaled (0.618*legend_scale)
-        %xscaled legend_scale yscaled legend_scale
+        %xscaled legend_scale yscaled (0.618*legend_scale)
+        xscaled legend_scale yscaled legend_scale
      enddef;
 
   endcode

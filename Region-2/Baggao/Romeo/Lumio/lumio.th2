@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -456.0 -132.0 5062.055118109401 8129.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1611.762440945 1 1.0} {2968.703068893 1.4} PocketTopo/lumio_p.xvi 0 {}
 
 
@@ -257,9 +257,9 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 1854.0 3103.0 label -text "c3"
+point 1854.0 3103.0 label -text "c3" -scale s -align right
 
-point 1764.0 2926.0 label -text "c3"
+point 1764.0 2926.0 label -text "c3" -scale s -align right
 
 line rock-border -close on
   1870.0 3993.0
@@ -555,7 +555,7 @@ line pit -id l38-3808-5660 -reverse on
   smooth off
 endline
 
-point 4143.0 6478.0 label -text "p5"
+point 4143.0 6478.0 label -text "p5" -scale s
 
 area blocks
   l99-4135-6955
@@ -571,7 +571,7 @@ endline
 
 point -323.0 557.0 label -text "Lumeo Cave" -scale xl
 
-point 716.0 765.0 label -text "c2"
+point 716.0 765.0 label -text "c2" -scale s -align right
 
 point 373.0 735.0 entrance -orientation 51.4 -scale xl
 
@@ -581,11 +581,11 @@ line wall
   smooth off
 endline
 
-point 4569.0 7659.0 label -text "p7"
+point 4569.0 7659.0 label -text "p7" -scale s -align right
 
-point 4086.0 5589.0 label -text "p3"
+point 4086.0 5589.0 label -text "p3" -scale s -align right
 
-point 3210.0 5953.0 label -text "p10"
+point 3162.0 5889.0 label -text "p10" -scale s
 
 area blocks
   l29-3492-6199
@@ -657,9 +657,9 @@ line rock-border -close on
   3981.0 7091.0 3981.0 7130.0 3990.0 7133.0
 endline
 
-point 4022.0 6616.0 gradient -orientation 14.0 -scale xl
+point 4022.0 6616.0 gradient -orientation 14.0
 
-point 3903.0 6643.0 gradient -orientation 14.0 -scale xl
+point 3903.0 6643.0 gradient -orientation 14.0
 
 line rock-border -close on
   3908.0 6784.0
