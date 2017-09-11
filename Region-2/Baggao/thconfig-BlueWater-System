@@ -103,7 +103,7 @@ layout local
     #copy custom_logos
 
   ### index of file options from _layouts.thc
-    #copy custom_symbols
+    copy custom_symbols
     copy custom_color
     #copy custom_large_odessa
     #copy custom_small_odessa
@@ -162,7 +162,8 @@ layout local
       \hsize=\legendwidth
       \input th_legend
       }
-  \legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+  \legendbox{20} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+  \legendbox{40} {5} {nw} {\loadpicture{images/Logo_GaiaEC_1250.png}}
   \legendbox{60} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
   
     

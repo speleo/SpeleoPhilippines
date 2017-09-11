@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -129.0 -129.0 73404.0229857141 32090.480314911
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
 
@@ -16,6 +16,8 @@ point 7645.659457199999 5147.6348031 station -name 0.2
 point 7660.9394572 5450.6448031 station -name 0.3
 
 point 8109.479457199999 5628.3748031 station -name 0.4
+
+point 6516.0 2100.0 label -text [Blue Water Cave] -scale xl -align bottom-right
 
 point 6613.0 2675.0 entrance -scale xl
 
@@ -897,7 +899,6 @@ line wall -close on -outline in
   9441.0 5435.0
 endline
 
-
 endscrap
 
 
@@ -959,7 +960,6 @@ endscrap
 
 
 scrap nullscrap -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
 
 endscrap
 
