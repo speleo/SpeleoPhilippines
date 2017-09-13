@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 16586.3070866073 44824.188976365105
-##XTHERION## xth_me_area_zoom_to 12
+##XTHERION## xth_me_area_zoom_to 48
 ##XTHERION## xth_me_image_insert {9201.93 1 1.0} {43345.50047244 1.98} PocketTopo/romeo_cave_p.xvi 0 {}
 
 
@@ -1339,7 +1339,7 @@ line border -id l624-5116-9242 -close on -reverse on -subtype invisible
   4332.0 9038.0
 endline
 
-point 9976.0 19768.0 label -text "Conspiracy Duck"
+point 9726.0 19747.166666666668 label -text "Conspiracy Duck" -align top-right -scale s
 
 point 5126.0 9012.0 water-flow -orientation 50.5
 
@@ -1683,9 +1683,21 @@ line border -close off
   11868.0 30892.0
 endline
 
-point 7560.0 42970.0 label -text "Crystal Canals" -scale l
+line label -text [Crystal Canals]
+  7166.666666666667 42233.333333333336
+  7241.67 42308.33 8866.67 43458.33 8941.666666666668 43516.66666666667
+  9016.67 43575.0 9133.333333333334 43600.0 9133.333333333334 43600.0
+  smooth off
+endline
 
-point 13226.0 31540.0 label -text "Tangy Cicada" -align right -scale m
+line label -text [Tangy Cicada]
+  12350.0 30733.333333333336
+  12491.67 30916.67 12695.83 31250.0 12912.500000000002 31320.833333333336
+  13129.17 31391.67 13212.5 31425.0 13679.166666666668 31641.666666666668
+  14145.83 31858.33 14433.33 32020.83 14579.166666666668 32150.000000000004
+  14725.0 32279.17 15120.83 32583.33 15191.666666666668 32675.000000000004
+  15262.5 32766.67 15370.83 32954.17 15375.000000000002 32966.66666666667
+endline
 
 point 11486.0 30344.0 guano
 
@@ -2113,11 +2125,11 @@ line pit -close on
   smooth off
 endline
 
-point 10470.0 42526.0 rimstone-pool -orientation 312.4
+point 10470.0 42526.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10408.0 42510.0 rimstone-pool -orientation 333.7
+point 10408.0 42510.0 rimstone-pool -orientation 333.7 -scale s
 
-point 9558.0 43128.0 rimstone-pool -orientation 312.4
+point 9558.0 43128.0 rimstone-pool -orientation 312.4 -scale s
 
 point 9220.0 42992.0 crystal
 
@@ -2145,19 +2157,19 @@ point 8796.0 43152.0 crystal
 
 point 10904.0 42164.0 gradient -orientation 319.9
 
-point 7404.0 41072.0 rimstone-pool -orientation 27.4
+point 7404.0 41072.0 rimstone-pool -orientation 27.4 -scale s
 
-point 7392.0 41158.0 rimstone-pool -orientation 48.1
+point 7392.0 41158.0 rimstone-pool -orientation 48.1 -scale s
 
-point 7456.0 41176.0 rimstone-pool -orientation 38.9
+point 7456.0 41176.0 rimstone-pool -orientation 38.9 -scale s
 
-point 7450.0 41116.0 rimstone-pool -orientation 38.9
+point 7450.0 41116.0 rimstone-pool -orientation 38.9 -scale s
 
-point 7496.0 41068.0 rimstone-pool -orientation 8.6
+point 7496.0 41068.0 rimstone-pool -orientation 8.6 -scale s
 
-point 7452.0 40988.0 rimstone-pool -orientation 8.6
+point 7452.0 40988.0 rimstone-pool -orientation 8.6 -scale s
 
-point 7536.0 40962.0 rimstone-pool -orientation 8.6
+point 7536.0 40962.0 rimstone-pool -orientation 8.6 -scale s
 
 point 6818.0 40714.0 gradient -orientation 62.2
 
@@ -2165,21 +2177,21 @@ point 6844.0 40834.0 gradient -orientation 95.5
 
 point 7498.0 40922.0 gradient -orientation 8.2
 
-point 7626.0 41148.0 label -text "c2"
+point 7626.0 41148.0 label -text "c2" -align right -scale s
 
 point 7424.0 41034.0 gradient -orientation 38.1
 
 point 7518.0 41022.0 gradient -orientation 0.0
 
-point 7452.0 40988.0 rimstone-pool -orientation 59.3
+point 7452.0 40988.0 rimstone-pool -orientation 59.3 -scale s
 
-point 7404.0 41072.0 rimstone-pool -orientation 59.3
+point 7404.0 41072.0 rimstone-pool -orientation 59.3 -scale s
 
-point 7456.0 41176.0 rimstone-pool -orientation 59.3
+point 7456.0 41176.0 rimstone-pool -orientation 59.3 -scale s
 
-point 7450.0 41116.0 rimstone-pool -orientation 59.3
+point 7450.0 41116.0 rimstone-pool -orientation 59.3 -scale s
 
-point 7392.0 41158.0 rimstone-pool -orientation 59.3
+point 7392.0 41158.0 rimstone-pool -orientation 59.3 -scale s
 
 point 10764.0 42266.0 gradient -orientation 302.6
 
@@ -2257,79 +2269,79 @@ point 9892.0 43058.0 stalactite
 
 point 9674.0 43162.0 stalactite
 
-point 9518.0 43094.0 rimstone-pool -orientation 312.4
+point 9518.0 43094.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9622.0 43068.0 rimstone-pool -orientation 312.4
+point 9622.0 43068.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9588.0 43040.0 rimstone-pool -orientation 312.4
+point 9588.0 43040.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9742.0 43010.0 rimstone-pool -orientation 312.4
+point 9742.0 43010.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9650.0 43004.0 rimstone-pool -orientation 312.4
+point 9650.0 43004.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9844.0 42968.0 rimstone-pool -orientation 312.4
+point 9844.0 42968.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9758.0 42948.0 rimstone-pool -orientation 312.4
+point 9758.0 42948.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10002.0 42900.0 rimstone-pool -orientation 312.4
+point 10002.0 42900.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9946.0 42884.0 rimstone-pool -orientation 312.4
+point 9946.0 42884.0 rimstone-pool -orientation 312.4 -scale s
 
-point 9892.0 42864.0 rimstone-pool -orientation 312.4
+point 9892.0 42864.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10096.0 42840.0 rimstone-pool -orientation 312.4
+point 10096.0 42840.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10006.0 42822.0 rimstone-pool -orientation 312.4
+point 10006.0 42822.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10156.0 42774.0 rimstone-pool -orientation 312.4
+point 10156.0 42774.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10096.0 42750.0 rimstone-pool -orientation 312.4
+point 10096.0 42750.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10216.0 42716.0 rimstone-pool -orientation 312.4
+point 10216.0 42716.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10282.0 42642.0 rimstone-pool -orientation 312.4
+point 10282.0 42642.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10326.0 42664.0 rimstone-pool -orientation 312.4
+point 10326.0 42664.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10526.0 42466.0 rimstone-pool -orientation 312.4
+point 10526.0 42466.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10464.0 42444.0 rimstone-pool -orientation 324.9
+point 10464.0 42444.0 rimstone-pool -orientation 324.9 -scale s
 
-point 10568.0 42396.0 rimstone-pool -orientation 320.5
+point 10568.0 42396.0 rimstone-pool -orientation 320.5 -scale s
 
-point 10518.0 42376.0 rimstone-pool -orientation 326.7
+point 10518.0 42376.0 rimstone-pool -orientation 326.7 -scale s
 
-point 10468.0 42362.0 rimstone-pool -orientation 342.4
+point 10468.0 42362.0 rimstone-pool -orientation 342.4 -scale s
 
-point 10662.0 42316.0 rimstone-pool -orientation 313.5
+point 10662.0 42316.0 rimstone-pool -orientation 313.5 -scale s
 
-point 10592.0 42298.0 rimstone-pool -orientation 325.3
+point 10592.0 42298.0 rimstone-pool -orientation 325.3 -scale s
 
-point 10518.0 42284.0 rimstone-pool -orientation 334.8
+point 10518.0 42284.0 rimstone-pool -orientation 334.8 -scale s
 
-point 10732.0 42264.0 rimstone-pool -orientation 312.4
+point 10732.0 42264.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10682.0 42238.0 rimstone-pool -orientation 314.7
+point 10682.0 42238.0 rimstone-pool -orientation 314.7 -scale s
 
-point 10614.0 42214.0 rimstone-pool -orientation 312.4
+point 10614.0 42214.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10824.0 42190.0 rimstone-pool -orientation 312.4
+point 10824.0 42190.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10772.0 42158.0 rimstone-pool -orientation 312.4
+point 10772.0 42158.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10720.0 42146.0 rimstone-pool -orientation 312.4
+point 10720.0 42146.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10934.0 42146.0 rimstone-pool -orientation 294.8
+point 10934.0 42146.0 rimstone-pool -orientation 294.8 -scale s
 
-point 10872.0 42068.0 rimstone-pool -orientation 322.0
+point 10872.0 42068.0 rimstone-pool -orientation 322.0 -scale s
 
-point 10806.0 42054.0 rimstone-pool -orientation 337.9
+point 10806.0 42054.0 rimstone-pool -orientation 337.9 -scale s
 
-point 10902.0 41984.0 rimstone-pool -orientation 312.4
+point 10902.0 41984.0 rimstone-pool -orientation 312.4 -scale s
 
-point 10970.0 42014.0 rimstone-pool -orientation 312.4
+point 10970.0 42014.0 rimstone-pool -orientation 312.4 -scale s
 
-point 11014.0 42078.0 rimstone-pool -orientation 312.4
+point 11014.0 42078.0 rimstone-pool -orientation 312.4 -scale s
 
 area sand
   l444-11858-41918
@@ -2396,7 +2408,7 @@ line border -id l434-12712-32640 -reverse on -subtype invisible
   13101.0 32556.0
 endline
 
-point 13130.0 32214.0 label -text "p3"
+point 13130.0 32693.166666666668 label -text "p3" -align top-right -scale s
 
 line wall
   6568.0 40568.0
@@ -2651,9 +2663,6 @@ endscrap
 
 scrap romeoSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-area water
-endarea
-
 line wall
   2940.0 39346.0
   2922.0 39330.0
@@ -2756,7 +2765,7 @@ line floor-step
   smooth off
 endline
 
-point 6974.0 40562.0 label -text "p8"
+point 6974.0 40562.0 label -text "p8" -scale s -align bottom
 
 line wall
   6460.0 40952.0
@@ -3028,21 +3037,21 @@ line floor-step -id l272-3132-38192 -reverse on
   smooth off
 endline
 
-point 2930.0 38314.0 rimstone-pool -orientation 356.3
+point 2930.0 38314.0 rimstone-pool -orientation 356.3 -scale s
 
-point 2848.0 38314.0 rimstone-pool -orientation 17.2
+point 2848.0 38314.0 rimstone-pool -orientation 17.2 -scale s
 
-point 2942.0 38382.0 rimstone-pool -orientation 354.0
+point 2942.0 38382.0 rimstone-pool -orientation 354.0 -scale s
 
-point 2884.0 38412.0 rimstone-pool -orientation 12.0
+point 2884.0 38412.0 rimstone-pool -orientation 12.0 -scale s
 
-point 2824.0 38438.0 rimstone-pool -orientation 20.5
+point 2824.0 38438.0 rimstone-pool -orientation 20.5 -scale s
 
-point 2884.0 38348.0 rimstone-pool -orientation 14.9
+point 2884.0 38348.0 rimstone-pool -orientation 14.9 -scale s
 
-point 2818.0 38350.0 rimstone-pool -orientation 19.3
+point 2818.0 38350.0 rimstone-pool -orientation 19.3 -scale s
 
-point 2778.0 38370.0 rimstone-pool -orientation 23.9
+point 2778.0 38370.0 rimstone-pool -orientation 23.9 -scale s
 
 line flowstone -id l310-2810-37896
   2758.0 37870.0
@@ -3050,15 +3059,23 @@ line flowstone -id l310-2810-37896
   smooth off
 endline
 
-point 3274.0 38848.0 label -text "hl?"
+point 3274.0 38848.0 label -text "hl?" -align right -scale s
 
-point 3594.0 39798.0 label -text "c3"
+line label -text [Helm's Deep]
+  5045.833333333334 39487.5
+  5141.67 39487.5 5654.17 39483.33 5858.333333333334 39495.833333333336
+  6062.5 39508.33 6116.67 39512.5 6400.0 39633.333333333336
+  6683.33 39754.17 7037.5 39925.0 7133.333333333334 39970.833333333336
+  7229.17 40016.67 7695.83 40208.33 7766.666666666667 40250.0
+  7837.5 40291.67 7883.333333333334 40350.0 7883.333333333334 40350.0
+  smooth off
+endline
+
+point 3594.0 39798.0 label -text "c3" -align bottom-right -scale s
 
 point 3840.0 40046.0 curtain
 
-point 5492.0 41108.0 label -text "Pillars of Creation"
-
-point 6756.0 40100.0 label -scale l -text "Helm's Deep"
+point 5800.333333333333 41258.0 label -text "Pillars of Creation" -scale s
 
 point 4776.0 40760.0 stalactites
 
@@ -3084,23 +3101,23 @@ point 4406.0 40116.0 clay-choke
 
 point 3830.0 40200.0 air-draught -orientation 38.5
 
-point 3782.0 40362.0 label -text "c3"
+point 3782.0 40362.0 label -text "c3" -align top-left -scale s
 
-point 3642.0 40180.0 remark -text "tt"
+point 3642.0 40180.0 remark -text "tt" -align top-left -scale s
 
-point 2796.0 39244.0 label -text "hl?"
+point 2796.0 39244.0 label -text "hl?" -align left -scale s
 
 area water
   l340-3144-39906
 endarea
 
-point 3940.0 40298.0 gradient -orientation 232.2
+point 3940.0 40298.0 gradient -orientation 232.2 -scale s
 
-point 3464.0 39906.0 gradient -orientation 86.4
+point 3464.0 39906.0 gradient -orientation 86.4 -scale s
 
-point 3544.0 39982.0 gradient -orientation 130.6
+point 3544.0 39982.0 gradient -orientation 130.6 -scale s
 
-point 2550.0 37640.0 label -text "The Cathedral" -scale l
+point 2350.0 37381.666666666664 label -text "The Cathedral" -scale m -align bottom
 
 point 3088.0 38492.0 gradient -orientation 329.5
 
@@ -3108,55 +3125,55 @@ point 2950.0 38462.0 gradient -orientation 13.8
 
 point 3044.0 38372.0 gradient -orientation 344.7
 
-point 2744.0 38648.0 label -text p5
+point 2744.0 38648.0 label -text p5 -align left -scale s
 
-point 2736.0 38324.0 rimstone-pool -orientation 25.9
+point 2736.0 38324.0 rimstone-pool -orientation 25.9 -scale s
 
-point 3202.0 39172.0 rimstone-pool -orientation 324.6
+point 3202.0 39172.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3132.0 39160.0 rimstone-pool -orientation 324.6
+point 3132.0 39160.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3202.0 39096.0 rimstone-pool -orientation 324.6
+point 3202.0 39096.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3156.0 39090.0 rimstone-pool -orientation 324.6
+point 3156.0 39090.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3020.0 39144.0 rimstone-pool -orientation 324.6
+point 3020.0 39144.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3100.0 39094.0 rimstone-pool -orientation 324.6
+point 3100.0 39094.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3084.0 39154.0 rimstone-pool -orientation 324.6
+point 3084.0 39154.0 rimstone-pool -orientation 324.6 -scale s
 
-point 2958.0 39128.0 rimstone-pool -orientation 324.6
+point 2958.0 39128.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3050.0 39090.0 rimstone-pool -orientation 324.6
+point 3050.0 39090.0 rimstone-pool -orientation 324.6 -scale s
 
-point 2984.0 39078.0 rimstone-pool -orientation 324.6
+point 2984.0 39078.0 rimstone-pool -orientation 324.6 -scale s
 
-point 2914.0 39070.0 rimstone-pool -orientation 324.6
+point 2914.0 39070.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3180.0 39230.0 rimstone-pool -orientation 324.6
+point 3180.0 39230.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3098.0 39222.0 rimstone-pool -orientation 324.6
+point 3098.0 39222.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3036.0 39210.0 rimstone-pool -orientation 324.6
+point 3036.0 39210.0 rimstone-pool -orientation 324.6 -scale s
 
-point 2962.0 39212.0 rimstone-pool -orientation 324.6
+point 2962.0 39212.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3180.0 39324.0 rimstone-pool -orientation 324.6
+point 3180.0 39324.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3128.0 39312.0 rimstone-pool -orientation 324.6
+point 3128.0 39312.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3072.0 39304.0 rimstone-pool -orientation 324.6
+point 3072.0 39304.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3004.0 39290.0 rimstone-pool -orientation 324.6
+point 3004.0 39290.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3000.0 39346.0 rimstone-pool -orientation 324.6
+point 3000.0 39346.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3070.0 39370.0 rimstone-pool -orientation 324.6
+point 3070.0 39370.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3132.0 39394.0 rimstone-pool -orientation 324.6
+point 3132.0 39394.0 rimstone-pool -orientation 324.6 -scale s
 
-point 3188.0 39416.0 rimstone-pool -orientation 324.6
+point 3188.0 39416.0 rimstone-pool -orientation 324.6 -scale s
 
 line wall
   2522.0 37844.0
@@ -3253,7 +3270,7 @@ endscrap
 
 scrap romeoSP0 -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 6238.0 7764.0 entrance -orientation 230.1 -scale xl
+point 6238.0 7764.0 entrance -orientation 230.1 -scale m
 
 line rock-border -close on
   5974.0 7712.0
@@ -3264,7 +3281,7 @@ line rock-border -close on
   5974.0 7712.0
 endline
 
-point 3156.0 4532.0 label -text "p8<br>Juliet"
+point 3156.0 4532.0 label -text "p8<br>Juliet" -align bottom-right -scale s
 
 point 7090.0 8002.0 label -text "Romeo Cave" -align right -scale xl
 
@@ -3522,7 +3539,7 @@ point 3214.0 4996.0 water-flow -orientation 247.4
 
 point 3026.0 4960.0 water-flow -orientation 247.4
 
-point 2618.0 5150.0 label -text "hl?"
+point 2618.0 5150.0 label -text "hl?" -align left -scale s
 
 point 3702.0 5474.0 water-flow -orientation 239.5
 
@@ -3646,7 +3663,7 @@ line pit
   smooth off
 endline
 
-point 1840.0 4342.0 label -text "hl?"
+point 1840.0 4342.0 label -text "hl?" -align left -scale s
 
 point 2304.0 4690.0 stalagmite
 
@@ -3759,9 +3776,9 @@ line pit -id l2-3472-6720 -close on -reverse on
   3356.0 6817.0 3365.0 6821.0 3376.0 6817.0
 endline
 
-point 2714.0 5056.0 gradient -orientation 299.4
+point 2714.0 5056.0 gradient -orientation 299.4 -scale xs
 
-point 2060.0 4328.0 gradient -orientation 274.4 -scale l
+point 2060.0 4328.0 gradient -orientation 274.4 -scale s
 
 line wall
   2705.0 5087.0
@@ -3794,11 +3811,17 @@ line wall -reverse on
   smooth off
 endline
 
-point 3804.0 6880.0 label -text "p5"
+point 3804.0 6880.0 label -text "p5" -align right -scale s
 
-point 3724.0 6178.0 label -text "traverse"
+line label -text traverse
+  3593.75 6091.67
+  3593.75 6091.67 3645.83 6139.58 3670.8333333333335 6189.583333333334
+  3695.83 6239.58 3806.25 6466.67 3814.5833333333335 6514.583333333334
+  3822.92 6562.5 3829.17 6735.42 3829.17 6735.42
+  smooth off
+endline
 
-point 3504.0 5988.0 label -text "p12"
+point 3410.25 5927.583333333333 label -text "p12" -align right -scale s
 
 line wall -reverse on
   3694.25 6891.75

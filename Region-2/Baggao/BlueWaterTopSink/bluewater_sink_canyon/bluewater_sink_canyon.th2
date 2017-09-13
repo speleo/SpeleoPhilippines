@@ -102,7 +102,7 @@ area bedrock
   l34-2578-1107
 endarea
 
-point 3484.0 918.0 label -text Pitch<br>9m -align bottom-right -scale m
+point 3484.0 918.0 label -text Pitch<br>9m -align bottom-right -scale s
 
 line pit -id l2-3152-930 -outline out
   916.0 141.0

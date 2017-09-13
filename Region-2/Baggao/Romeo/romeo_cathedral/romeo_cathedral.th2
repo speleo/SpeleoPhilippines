@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -136.58267716600002 2466.0314960583996 932.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 48
 ##XTHERION## xth_me_image_insert {219.52968504 1 1.0} {389.698740157 1.4} PocketTopo/romeo_cathedral_p.xvi 0 {}
 
 
@@ -120,9 +120,9 @@ point 1470.0 282.0 rimstone-pool -orientation 136.9
 
 point 1420.0 229.0 rimstone-pool -orientation 119.6
 
-point 666.0 738.0 label -text "Sump"
+point 666.0 738.0 label -text "Sump" -scale s
 
-point 1094.0 221.0 label -text "p16"
+point 1094.0 221.0 label -text "p16" -align bottom -scale s
 
 point 1488.0 203.0 rimstone-pool -orientation 115.4
 

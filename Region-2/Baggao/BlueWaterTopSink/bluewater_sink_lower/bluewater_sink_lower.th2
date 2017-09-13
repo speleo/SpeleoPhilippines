@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -134.89655172413794 -134.89655172413794 4167.6551724137935 10348.472440955698
-##XTHERION## xth_me_area_zoom_to 58
+##XTHERION## xth_me_area_zoom_to 14
 ##XTHERION## xth_me_image_insert {2841.18273577 1 1.0} {1356.1613386000008 2.14} PocketTopo/bluewater_sink_lower_p.xvi 0 {}
 
 
@@ -94,43 +94,43 @@ line border -id l147-1948-5768 -close on -reverse on -subtype invisible
   1768.0 5872.0 1792.0 5964.0 1672.0 5788.0
 endline
 
-point 2544.0 7792.0 gradient -orientation 182.0
+point 2544.0 7792.0 gradient -orientation 182.0 -scale s
 
-point 2472.0 7956.0 gradient -orientation 148.2
+point 2472.0 7956.0 gradient -orientation 148.2 -scale s
 
-point 2382.0 7720.0 gradient -orientation 124.5
+point 2382.0 7720.0 gradient -orientation 124.5 -scale s
 
-point 2986.0 7750.0 gradient -orientation 225.1
+point 2986.0 7750.0 gradient -orientation 225.1 -scale s
 
-point 2878.0 7956.0 gradient -orientation 195.1
+point 2878.0 7956.0 gradient -orientation 195.1 -scale s
 
-point 3372.0 9080.0 gradient -orientation 251.9
+point 3372.0 9080.0 gradient -orientation 251.9 -scale s
 
-point 3340.0 9208.0 gradient -orientation 251.9
+point 3340.0 9208.0 gradient -orientation 251.9 -scale s
 
-point 3154.0 8912.0 gradient -orientation 276.8
+point 3154.0 8912.0 gradient -orientation 276.8 -scale s
 
-point 3328.0 8926.0 gradient -orientation 288.1
+point 3328.0 8926.0 gradient -orientation 288.1 -scale s
 
-point 3092.0 8788.0 gradient -orientation 288.1
+point 3092.0 8788.0 gradient -orientation 288.1 -scale s
 
-point 3234.0 8798.0 gradient -orientation 288.1
+point 3234.0 8798.0 gradient -orientation 288.1 -scale s
 
-point 3136.0 8680.0 gradient -orientation 288.1
+point 3136.0 8680.0 gradient -orientation 288.1 -scale s
 
-point 3142.0 9228.0 gradient -orientation 266.2
+point 3142.0 9228.0 gradient -orientation 266.2 -scale s
 
-point 3250.0 9318.0 gradient -orientation 229.8
+point 3250.0 9318.0 gradient -orientation 229.8 -scale s
 
-point 3162.0 9402.0 gradient -orientation 229.8
+point 3162.0 9402.0 gradient -orientation 229.8 -scale s
 
-point 3040.0 9664.0 gradient -orientation 200.1
+point 3040.0 9664.0 gradient -orientation 200.1 -scale s
 
-point 2920.0 9728.0 gradient -orientation 200.1
+point 2920.0 9728.0 gradient -orientation 200.1 -scale s
 
-point 2772.0 9776.0 gradient -orientation 200.1
+point 2772.0 9776.0 gradient -orientation 200.1 -scale s
 
-point 2628.0 9800.0 gradient -orientation 200.1
+point 2628.0 9800.0 gradient -orientation 200.1 -scale s
 
 line rock-edge -id l21-3332-9316
   2300.0 9572.0
@@ -199,21 +199,20 @@ area blocks
   l26-2212-7500
 endarea
 
-point 2664.0 9680.0 water-flow -orientation 199.0 -scale xl
+point 2664.0 9680.0 water-flow -orientation 199.0 -scale s
 
-point 2816.0 9756.0 water-flow -orientation 193.0 -scale xl
+point 2816.0 9756.0 water-flow -orientation 193.0 -scale s
 
-point 2204.0 6468.0 water-flow -orientation 218.1 -scale xl
+point 2204.0 6468.0 water-flow -orientation 218.1 -scale s
+point 2356.0 6618.0 water-flow -orientation 218.1 -scale s
 
-point 2356.0 6618.0 water-flow -orientation 218.1 -scale xl
+point 2436.0 6822.0 water-flow -orientation 218.1 -scale s
 
-point 2436.0 6822.0 water-flow -orientation 218.1 -scale xl
+point 2646.0 7720.0 water-flow -orientation 179.6 -scale s
 
-point 2646.0 7720.0 water-flow -orientation 179.6 -scale xl
+point 2644.0 7942.0 water-flow -orientation 179.6 -scale s
 
-point 2644.0 7942.0 water-flow -orientation 179.6 -scale xl
-
-point 1919.3333333333333 9929.333333333334 label -text [Sloping Pitch -10m]
+point 1919.3333333333333 9929.333333333334 label -text [Sloping Pitch -10m] -align left -scale s
 
 line border -id l31-2948-8832 -subtype invisible
   3138.0 9608.0
@@ -541,8 +540,6 @@ line floor-step
   smooth off
 endline
 
-line border -subtype invisible
-endline
 
 line border -id l179-2380-2523 -close on -subtype invisible
   2290.0 2562.0
@@ -606,29 +603,29 @@ area water
   l179-2380-2523
 endarea
 
-point 2420.0 1364.0 water-flow -orientation 202.5 -scale xl
+point 2420.0 1364.0 water-flow -orientation 202.5 -scale m
 
-point 1722.0 2188.0 water-flow -orientation 103.9 -scale xl
+point 1722.0 2188.0 water-flow -orientation 103.9 -scale m
 
-point 2079.0 2573.0 gradient -orientation 213.8
+point 2079.0 2573.0 gradient -orientation 213.8 -scale s
 
-point 2516.0 2393.0 gradient -orientation 213.8
+point 2516.0 2393.0 gradient -orientation 213.8 -scale s
 
-point 2191.0 2667.0 gradient -orientation 213.8
+point 2191.0 2667.0 gradient -orientation 213.8 -scale s
 
-point 2597.0 2503.0 gradient -orientation 213.8
+point 2597.0 2503.0 gradient -orientation 213.8 -scale s
 
-point 1896.0 2536.0 water-flow -orientation 103.9
+point 1896.0 2536.0 water-flow -orientation 103.9 -scale s
 
-point 2535.0 2694.0 gradient -orientation 213.8
+point 2535.0 2694.0 gradient -orientation 213.8 -scale s
 
-point 2355.0 2749.0 gradient -orientation 213.8
+point 2355.0 2749.0 gradient -orientation 213.8 -scale s
 
-point 2680.0 2798.0 gradient -orientation 204.0
+point 2680.0 2798.0 gradient -orientation 204.0 -scale s
 
-point 2524.0 2876.0 gradient -orientation 204.0
+point 2524.0 2876.0 gradient -orientation 204.0 -scale s
 
-point 2388.0 2920.0 gradient -orientation 204.0
+point 2388.0 2920.0 gradient -orientation 204.0 -scale s
 
 area debris
   l160-1682-4028

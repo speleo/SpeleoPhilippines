@@ -988,7 +988,7 @@ line border -id l143-17031-9681 -close on -subtype invisible
   15746.153846153846 9326.923076923078
 endline
 
-point 17700.0 7035.714285714286 label -scale m -text [The Merry Go Round] -align bottom-right
+point 17700.0 7035.714285714286 label -scale m -align bottom-right -text [Magic Roundabout]
 
 area water
   l141-10038-19096
