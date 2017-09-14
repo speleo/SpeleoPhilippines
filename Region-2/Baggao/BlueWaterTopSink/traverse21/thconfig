@@ -21,7 +21,11 @@ export model -fmt survex -o .\_output\traverse21th.3d
 #Survex file showing walls only
 
 layout local
-debug off
-map-header 0 0 ne
-#symbol-hide group cave-centreline
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
+  #Foreground color - turn on altitude to see various heights
+  colour map-fg [80 80 80]
+  color map-fg altitude
+  colour map-bg [70 90 70]
 endlayout

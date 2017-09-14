@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -134.89655172413794 -134.89655172413794 4167.6551724137935 10348.472440955698
-##XTHERION## xth_me_area_zoom_to 14
+##XTHERION## xth_me_area_zoom_to 56
 ##XTHERION## xth_me_image_insert {2841.18273577 1 1.0} {1356.1613386000008 2.14} PocketTopo/bluewater_sink_lower_p.xvi 0 {}
 
 
@@ -52,9 +52,9 @@ line border -id l22-2684-8016 -subtype invisible
   smooth off
 endline
 
-point 2376.0 6476.0 gradient -orientation 214.0
+point 2376.0 6476.0 gradient -orientation 214.0 -scale s
 
-point 2256.0 6644.0 gradient -orientation 214.0
+point 2256.0 6644.0 gradient -orientation 214.0 -scale s
 
 area blocks
   l147-1948-5768
@@ -94,43 +94,23 @@ line border -id l147-1948-5768 -close on -reverse on -subtype invisible
   1768.0 5872.0 1792.0 5964.0 1672.0 5788.0
 endline
 
-point 2544.0 7792.0 gradient -orientation 182.0 -scale s
+point 2544.0 7792.0 gradient -orientation 182.0 -scale xs
 
-point 2472.0 7956.0 gradient -orientation 148.2 -scale s
+point 2986.0 7750.0 gradient -orientation 225.1 -scale xs
 
-point 2382.0 7720.0 gradient -orientation 124.5 -scale s
+point 2878.0 7956.0 gradient -orientation 195.1 -scale xs
 
-point 2986.0 7750.0 gradient -orientation 225.1 -scale s
+point 3325.714285714286 9172.285714285714 gradient -orientation 251.9 -scale xs
 
-point 2878.0 7956.0 gradient -orientation 195.1 -scale s
+point 3246.8571428571427 8897.714285714286 gradient -orientation 276.8 -scale xs
 
-point 3372.0 9080.0 gradient -orientation 251.9 -scale s
+point 3136.0 8680.0 gradient -orientation 288.1 -scale xs
 
-point 3340.0 9208.0 gradient -orientation 251.9 -scale s
-
-point 3154.0 8912.0 gradient -orientation 276.8 -scale s
-
-point 3328.0 8926.0 gradient -orientation 288.1 -scale s
-
-point 3092.0 8788.0 gradient -orientation 288.1 -scale s
-
-point 3234.0 8798.0 gradient -orientation 288.1 -scale s
-
-point 3136.0 8680.0 gradient -orientation 288.1 -scale s
-
-point 3142.0 9228.0 gradient -orientation 266.2 -scale s
-
-point 3250.0 9318.0 gradient -orientation 229.8 -scale s
-
-point 3162.0 9402.0 gradient -orientation 229.8 -scale s
-
-point 3040.0 9664.0 gradient -orientation 200.1 -scale s
+point 3250.0 9318.0 gradient -orientation 229.8 -scale xs
 
 point 2920.0 9728.0 gradient -orientation 200.1 -scale s
 
-point 2772.0 9776.0 gradient -orientation 200.1 -scale s
-
-point 2628.0 9800.0 gradient -orientation 200.1 -scale s
+point 2628.0 9807.142857142857 gradient -orientation 200.1 -scale xs
 
 line rock-edge -id l21-3332-9316
   2300.0 9572.0
@@ -204,6 +184,7 @@ point 2664.0 9680.0 water-flow -orientation 199.0 -scale s
 point 2816.0 9756.0 water-flow -orientation 193.0 -scale s
 
 point 2204.0 6468.0 water-flow -orientation 218.1 -scale s
+
 point 2356.0 6618.0 water-flow -orientation 218.1 -scale s
 
 point 2436.0 6822.0 water-flow -orientation 218.1 -scale s
@@ -265,7 +246,12 @@ line border -id l156-1752-4172 -subtype invisible
   1936.0 4078.0
 endline
 
-point 1682.0 4368.0 water-flow -orientation 214.5 -scale xl
+line pit -reverse on
+  2596.43 9937.5
+  2800.0 9982.14 2864.28 10005.36 2935.71 9976.79
+  3007.14 9948.22 3255.36 9812.5 3255.36 9812.5
+  smooth off
+endline
 
 line border -id l152-1372-4656 -subtype invisible
   1608.0 4732.0
@@ -373,7 +359,15 @@ area water
   l132-2638-1062
 endarea
 
-line border -id l132-2638-1062
+point 3135.714285714286 1721.4285714285716 label -align right -text c+3 -scale s
+
+point 3000.0 1421.4285714285716 label -align right -text p3 -scale s
+
+point 3250.0 1942.857142857143 label -align right -text p3 -scale s
+
+point 2857.1428571428573 1021.4285714285716 label -align right -text p4 -scale s
+
+line border -id l132-2638-1062 -subtype invisible
   2052.0 1290.0
   2720.0 1030.0
 endline
@@ -404,7 +398,7 @@ area water
   l87-2254-1734
 endarea
 
-line pit -id l74-2364-1452 -reverse on
+line pit -id l74-2364-1452
   2796.0 1094.0
   2742.0 1104.0 2750.0 1100.0 2704.0 1120.0
   2658.0 1140.0 2638.0 1164.0 2648.0 1192.0
@@ -450,7 +444,7 @@ line border -id l100-1726-2300 -subtype invisible
   smooth off
 endline
 
-line pit -id l108-1758-4172
+line border -id l108-1758-4172 -subtype invisible
   1314.0 4390.0
   1936.0 4078.0
 endline
@@ -474,7 +468,7 @@ line border -id l96-2786-1508 -subtype invisible
   smooth off
 endline
 
-line border -id l95-2608-1678 -subtype invisible
+line pit -id l95-2608-1678
   2974.0 1520.0
   2962.0 1530.0 2902.0 1528.0 2890.0 1550.0
   2878.0 1572.0 2870.0 1596.0 2840.0 1612.0
@@ -529,7 +523,7 @@ area water
   l166-2998-1934
 endarea
 
-line floor-step
+line floor-step -reverse on
   2556.0 2302.0
   2532.0 2276.0 2454.0 2218.0 2468.0 2186.0
   2482.0 2154.0 2492.0 2112.0 2558.0 2114.0
@@ -539,7 +533,6 @@ line floor-step
   3088.0 2010.0 3166.0 1992.0 3166.0 1992.0
   smooth off
 endline
-
 
 line border -id l179-2380-2523 -close on -subtype invisible
   2290.0 2562.0
@@ -563,17 +556,7 @@ line pit -id l177-2603-1905 -reverse on
   smooth off
 endline
 
-point 3018.0 1784.0 gradient -orientation 13.2
-
-point 3072.0 1966.0 gradient -orientation 204.0
-
-point 3036.0 2176.0 gradient -orientation 204.0
-
-point 2772.0 2234.0 gradient -orientation 204.0
-
-point 2958.0 2272.0 gradient -orientation 204.0
-
-point 3120.0 2262.0 gradient -orientation 204.0
+point 3036.0 2176.0 gradient -orientation 204.0 -scale s
 
 line border -id l167-2754-1942 -subtype invisible
   2852.0 2038.0
@@ -607,23 +590,15 @@ point 2420.0 1364.0 water-flow -orientation 202.5 -scale m
 
 point 1722.0 2188.0 water-flow -orientation 103.9 -scale m
 
-point 2079.0 2573.0 gradient -orientation 213.8 -scale s
-
-point 2516.0 2393.0 gradient -orientation 213.8 -scale s
-
 point 2191.0 2667.0 gradient -orientation 213.8 -scale s
 
 point 2597.0 2503.0 gradient -orientation 213.8 -scale s
 
 point 1896.0 2536.0 water-flow -orientation 103.9 -scale s
 
-point 2535.0 2694.0 gradient -orientation 213.8 -scale s
-
-point 2355.0 2749.0 gradient -orientation 213.8 -scale s
+point 2469.285714285714 2741.8571428571427 gradient -orientation 213.8 -scale s
 
 point 2680.0 2798.0 gradient -orientation 204.0 -scale s
-
-point 2524.0 2876.0 gradient -orientation 204.0 -scale s
 
 point 2388.0 2920.0 gradient -orientation 204.0 -scale s
 

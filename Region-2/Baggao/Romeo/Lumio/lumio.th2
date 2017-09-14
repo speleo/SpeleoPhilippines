@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -456.0 -132.0 5062.055118109401 8129.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {1611.762440945 1 1.0} {2968.703068893 1.4} PocketTopo/lumio_p.xvi 0 {}
 
 
@@ -259,7 +259,7 @@ endline
 
 point 1854.0 3103.0 label -text "c3" -scale s -align right
 
-point 1764.0 2926.0 label -text "c3" -scale s -align right
+point 1780.6666666666667 2809.3333333333335 label -text "c3" -scale s -align right
 
 line rock-border -close on
   1870.0 3993.0
@@ -569,7 +569,7 @@ line border -id l99-4135-6955 -close on -subtype invisible
   3778.0 6601.0
 endline
 
-point -323.0 557.0 label -text "Lumeo Cave" -scale xl
+point 518.6666666666667 381.99999999999994 label -text "Lumeo Cave" -scale m -align bottom-left
 
 point 716.0 765.0 label -text "c2" -scale s -align right
 

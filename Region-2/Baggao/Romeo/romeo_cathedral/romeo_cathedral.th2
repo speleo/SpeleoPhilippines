@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -136.58267716600002 2466.0314960583996 932.0
+##XTHERION## xth_me_area_adjust -136.33333333333334 -136.58267716600002 2473.8333333333335 982.1666666666667
 ##XTHERION## xth_me_area_zoom_to 48
 ##XTHERION## xth_me_image_insert {219.52968504 1 1.0} {389.698740157 1.4} PocketTopo/romeo_cathedral_p.xvi 0 {}
 
@@ -181,6 +181,8 @@ point 1389.1196850399997 246.968740157 station -name 1.2
 point 1524.5596850399997 164.538740157 station -name 1.1
 
 point 2332.51968504 200.078740157 station -id cathedral_join -name 1.0
+
+point 1043.75 947.9166666666667 altitude
 
 endscrap
 

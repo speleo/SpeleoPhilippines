@@ -276,6 +276,8 @@ endline
 
 point 4159.0 2819.0 label -text [Too tight<br>to surface] -scale xs
 
+point 4358.0 1921.0 altitude
+
 endscrap
 
 

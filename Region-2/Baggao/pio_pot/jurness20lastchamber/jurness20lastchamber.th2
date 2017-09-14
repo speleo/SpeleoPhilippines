@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 4632.0 3509.535433072
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 12
 ##XTHERION## xth_me_image_insert {2239.6678469500002 1 1.0} {1790.87362205 1.4} PocketTopo/jurness20lastchamber_p.xvi 0 {}
 
 
@@ -103,6 +103,8 @@ point 1688.3978469499998 2292.15362205 station -name 1.2
 point 1116.71784695 2626.02362205 station -name 1.0
 
 point 877.7778469499999 2445.25362205 station -name 7.0
+
+point 1333.3333333333335 458.33333333333337 altitude
 
 point 972.67784695 1816.9236220500002 station -name 7.1
 

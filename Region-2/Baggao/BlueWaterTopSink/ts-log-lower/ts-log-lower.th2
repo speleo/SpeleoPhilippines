@@ -7,6 +7,11 @@ encoding  utf-8
 
 scrap ts-log-lowerSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall
+endline
+
+point 178.0 1026.0 altitude
+
 point 562.6240636099999 915.4663779499999 station -name 3.9
 
 point 839.1140636099999 1373.46637795 station -name 3.8
@@ -35,6 +40,7 @@ line wall
   2192.0 3124.0 2216.0 3106.0 2258.0 3068.0
   2300.0 3030.0 2335.16 3005.79 2350.0 2986.0
   2374.0 2954.0 2382.0 2936.0 2412.0 2936.0
+  smooth off
 endline
 
 line wall
@@ -78,6 +84,7 @@ line wall
   2078.0 2504.0 2266.0 2544.0 2296.0 2568.0
   2326.0 2592.0 2420.0 2704.0 2454.0 2736.0
   2488.0 2768.0 2534.0 2828.0 2546.0 2836.0
+  smooth off
 endline
 
 endscrap

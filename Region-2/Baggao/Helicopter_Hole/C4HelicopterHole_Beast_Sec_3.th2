@@ -1302,6 +1302,8 @@ point 126352.0 47332.0 air-draught -orientation 217.2
 
 point 124756.0 48136.0 label -text Debris -scale s -align right
 
+point 124941.66666666667 47083.333333333336 altitude
+
 point 123564.0 48232.0 label -text [+2m] -scale s
 
 point 123220.0 47100.0 label -text [+4m] -scale s

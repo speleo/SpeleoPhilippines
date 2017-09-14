@@ -22,6 +22,7 @@ equate 12.35 1.0@twiglet
   join fossil_walk_up_left baop_walk_up_left   
   join op_left_wall baop_left_wall   
   join op_right_wall baop_right_wall
+  join twigletSP1@twiglet bluewater-above-climb-1-S1
 
 #join l556-21796-11116@bluewater  l81-17084-9672@bluewater 
 #join l58-19828-10298@bluewater  l84-19088-8592@bluewater 

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -142.28571428571428 -367.28571428571433 4295.857142857143 2531.571428571429
-##XTHERION## xth_me_area_zoom_to 28
+##XTHERION## xth_me_area_adjust -135.14285714285714 -361.92857142857144 4288.714285714286 2520.857142857143
+##XTHERION## xth_me_area_zoom_to 56
 ##XTHERION## xth_me_image_insert {4092.51968504 1 1.0} {1140.15748031 1.0} PocketTopo/bluewater_sink_canyon_p.xvi 0 {}
 
 
@@ -25,23 +25,17 @@ line wall -subtype invisible
   smooth off
 endline
 
-point 3535.0 1397.0 water-flow -orientation 273.5 -scale xl
-
-point 4035.0 1162.0 water-flow -orientation 273.5 -scale xl
-
 point 3856.0 1170.0 water-flow -orientation 273.5 -scale xl
 
-point 3690.0 1169.0 water-flow -orientation 273.5 -scale xl
-
-line rock-border
-  3434.0 1360.0
-  3453.0 1360.0 3500.0 1330.0 3568.0 1343.0
+line pit -id l8-3586-1454
+  3423.21 1351.79
+  3442.21 1351.79 3500.0 1330.0 3568.0 1343.0
   3636.0 1356.0 3662.0 1339.0 3690.0 1366.0
   3718.0 1393.0 3717.0 1413.0 3714.0 1424.0
   3711.0 1435.0 3663.0 1446.0 3645.0 1449.0
   3627.0 1452.0 3616.0 1457.0 3575.0 1458.0
   3534.0 1459.0 3527.0 1463.0 3496.0 1465.0
-  3465.0 1467.0 3432.0 1470.0 3432.0 1470.0
+  3465.0 1467.0 3425.0 1469.64 3425.0 1469.64
   smooth off
 endline
 
@@ -88,6 +82,11 @@ line pit -id l8-3552-1184 -reverse on
   smooth off
 endline
 
+area water
+  l8-3586-1454
+  l8-3552-1184
+endarea
+
 endscrap
 
 
@@ -102,7 +101,7 @@ area bedrock
   l34-2578-1107
 endarea
 
-point 3484.0 918.0 label -text Pitch<br>9m -align bottom-right -scale s
+point 3766.1428571428573 943.0 label -text Pitch<br>9m -align bottom-right -scale s
 
 line pit -id l2-3152-930 -outline out
   916.0 141.0
@@ -158,7 +157,7 @@ area water
   l12-3428-1436
 endarea
 
-line wall -id l13-812-154
+line border -id l13-812-154 -subtype invisible
   592.0 382.0
   586.0 346.0 580.16 342.07 611.0 297.0
   637.0 259.0 674.0 258.0 728.0 230.0
@@ -188,12 +187,12 @@ endline
 
 line border -id l12-3428-1436 -subtype invisible
   3393.0 1566.0
-  3393.0 1566.0 3395.0 1545.0 3399.0 1537.0
-  3403.0 1529.0 3417.0 1458.0 3417.0 1431.0
-  3417.0 1404.0 3409.0 1311.0 3443.0 1293.0
-  3477.0 1275.0 3513.0 1265.0 3520.0 1255.0
+  3393.0 1566.0 3410.29 1541.93 3414.29 1533.93
+  3418.29 1525.93 3432.0 1463.0 3432.0 1436.0
+  3432.0 1409.0 3417.79 1312.64 3451.79 1294.64
+  3485.79 1276.64 3513.0 1265.0 3520.0 1255.0
   3527.0 1245.0 3544.0 1217.0 3543.0 1197.0
-  3542.0 1177.0 3538.0 1114.0 3538.0 1114.0
+  3542.0 1177.0 3550.0 1119.64 3550.0 1119.64
   smooth off
 endline
 
