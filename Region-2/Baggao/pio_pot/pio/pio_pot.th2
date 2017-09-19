@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap pio_potSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall -reverse on
+line wall -id l2-1281-500 -reverse on
   3499.0 1607.5
   3491.5 1615.0 3478.0 1638.5 3471.0 1654.5
   3464.0 1670.5 3446.5 1717.5 3449.0 1723.5
@@ -107,7 +107,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id l5-1322-645
   4132.0 2599.0
   4130.0 2587.0 4096.0 2526.0 4085.0 2494.0
   4074.0 2462.0 4024.0 2367.0 4003.0 2341.0
@@ -206,6 +206,33 @@ point 3206.10235785 1808.6714814 station -name 12.5
 point 2893.31235785 1526.8914814 station -name 12.7
 
 point 2910.43235785 1755.8514814 station -name 12.6
+
+point 1690.0 580.0 water-flow -orientation 219.5 -scale s
+
+point 2564.0 1120.0 water-flow -orientation 233.3 -scale s
+
+area water
+  l5-1322-645
+  l42-1349-368
+  l2-1281-500
+  l41-1136-672
+endarea
+
+line border -id l42-1349-368 -subtype invisible
+  1318.0 349.0
+  1326.0 354.0 1362.0 380.0 1368.0 382.0
+  smooth off
+endline
+
+line floor-step -id l41-1136-672
+  1145.0 713.0
+  1137.0 702.0 1134.0 690.0 1135.0 675.0
+  1136.0 660.0 1144.0 624.0 1147.0 613.0
+  1150.0 602.0 1152.0 572.0 1152.0 572.0
+  smooth off
+endline
+
+point 3006.0 1300.0 label -scale s -align right -text [climb -5m]
 
 point 2867.2523578500004 1351.9314814 station -name 12.8
 

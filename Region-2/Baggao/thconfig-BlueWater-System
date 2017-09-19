@@ -7,8 +7,8 @@ source BlueWater-System.th
   export model -fmt kml -o .\_output\BlueWater-System-model.kml
 
   #Survex file showing centre line only
-  #export model -o .\_output\Bluewater-System.3d -fmt survex
-  #export map   -o .\_output\Bluewater-System_Walls.3d -proj plan
+  export model -o .\_output\Bluewater-System.3d -fmt survex
+  export map   -o .\_output\Bluewater-System_Walls.3d -proj plan
   #export model -o .\_output\BlueWater-System.lox
   #export map   -o .\_output\BlueWater-System_map.lox
   #export model -o .\_output\BlueWater-System -format esri

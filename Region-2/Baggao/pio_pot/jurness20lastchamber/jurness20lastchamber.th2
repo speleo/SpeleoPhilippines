@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 4632.0 3509.535433072
-##XTHERION## xth_me_area_zoom_to 12
+##XTHERION## xth_me_area_adjust -132.16666666666666 -132.16666666666666 4632.166666666667 3509.535433072
+##XTHERION## xth_me_area_zoom_to 96
 ##XTHERION## xth_me_image_insert {2239.6678469500002 1 1.0} {1790.87362205 1.4} PocketTopo/jurness20lastchamber_p.xvi 0 {}
 
 
@@ -100,6 +100,8 @@ point 1879.41784695 2120.35362205 station -name 1.3
 
 point 1688.3978469499998 2292.15362205 station -name 1.2
 
+point 1236.4583333333335 2663.541666666667 label -text [pitch 4m] -align right -scale s
+
 point 1116.71784695 2626.02362205 station -name 1.0
 
 point 877.7778469499999 2445.25362205 station -name 7.0
@@ -130,7 +132,7 @@ area clay
   l2-2288-1268
 endarea
 
-line border -id l16-2279-1547
+line border -id l16-2279-1547 -reverse on
   996.0 753.0
   992.0 778.0 974.0 879.0 965.0 899.0
   956.0 919.0 924.0 1026.0 919.0 1039.0
