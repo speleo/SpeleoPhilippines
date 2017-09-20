@@ -33,6 +33,7 @@ layout local
   scale 1 1200
   base-scale 1 1200
   scale-bar 500 m
+  rotate 0.3
   
   #Foreground color - turn on altitude to see various heights
   #colour map-fg [80 80 80]
@@ -152,7 +153,7 @@ layout local
   \cavename={Blue Water System}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
-    \legendbox{10}{38}{NW}{
+    \legendbox{5}{90}{NW}{
       \legendwidth 70 cm
       \the\legendcontent
       }
@@ -165,7 +166,8 @@ layout local
   \legendbox{20} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
   \legendbox{40} {5} {nw} {\loadpicture{images/Logo_GaiaEC_1250.png}}
   \legendbox{60} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
-  
+  \legendbox{10} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/BlueWaterEntrance_6K.jpg}}
+
     
   }  
 

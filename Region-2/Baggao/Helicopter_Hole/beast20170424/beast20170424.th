@@ -17,10 +17,11 @@ copyright 2017 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-	date 2005.07.16
+	date 2017.04.01
 
-	team "Andrew Atkinson" notes
-	team "Alison Moody" instruments
+	team "Anya Keatley" notes
+	team "Oliver Legg" instruments
+	team "Ruth Allan" instruments
 
 	instrument  instruments "UBSS DistoX1"
 

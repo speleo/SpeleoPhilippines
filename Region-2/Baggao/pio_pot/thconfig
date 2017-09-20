@@ -11,7 +11,7 @@ source pio_pot.th
 
   #export map -proj extended -layout local -o .\_output\junessEe.pdf
 
-  #export map -fmt kml -proj plan -layout local -o .\_output\juness-map.kml
+  export map -fmt kml -proj plan -layout local -o .\_output\juness-map.kml
   #export model -fmt kml -o .\_output\juness.kml
 
   export model -fmt survex -o .\_output\juness.3d
