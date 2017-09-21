@@ -3,12 +3,12 @@ source BlueWater-System.th
 
 ### choose which exports to use
   export map -proj plan -layout local -o .\_output\BlueWater-System.pdf
-  export map -fmt kml -proj plan -o .\_output\BlueWater-System.kml
-  export model -fmt kml -o .\_output\BlueWater-System-model.kml
+  #export map -fmt kml -proj plan -o .\_output\BlueWater-System.kml
+  #export model -fmt kml -o .\_output\BlueWater-System-model.kml
 
   #Survex file showing centre line only
-  export model -o .\_output\Bluewater-System.3d -fmt survex
-  export map   -o .\_output\Bluewater-System_Walls.3d -proj plan
+  #export model -o .\_output\Bluewater-System.3d -fmt survex
+  #export map   -o .\_output\Bluewater-System_Walls.3d -proj plan
   #export model -o .\_output\BlueWater-System.lox
   #export map   -o .\_output\BlueWater-System_map.lox
   #export model -o .\_output\BlueWater-System -format esri
@@ -91,7 +91,7 @@ layout local
     copy custom_bats
     #copy custom_north_arrow_150
     #copy custom_north_arrow_300
-    #copy custom_north_arrow_600
+    copy custom_north_arrow_600
     #copy custom_northarrow_large
     copy custom_line_doline
   
@@ -122,13 +122,6 @@ layout local
 ###################################################################
 
   code metapost
-  
-    # Re-define North arrow to make it bigger
-    def s_northarrow (expr rot) =
-         T:=identity scaled 0.7 rotated -rot;
-	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
-	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
-    enddef;
     
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
@@ -151,25 +144,50 @@ layout local
   code tex-map
   \copyrights={Copyleft Creative Commons ShareAlike}
   \cavename={Blue Water System}
+  \def\photo1={Rich Smith}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
-    \legendbox{5}{90}{NW}{
+    \legendbox{75}{90}{NW}{
       \legendwidth 70 cm
       \the\legendcontent
       }
-    \legendbox{50}{30}{NW}{
+    \legendbox{1}{55}{NW}{
       \legendwidth 150 cm
       \legendtextsize={\size[30]}
       \hsize=\legendwidth
       \input th_legend
       }
-  \legendbox{20} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
-  \legendbox{40} {5} {nw} {\loadpicture{images/Logo_GaiaEC_1250.png}}
-  \legendbox{60} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
-  \legendbox{10} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/BlueWaterEntrance_6K.jpg}}
 
+    #\legendbox{1} {77} {nw} {
+    #  \legendwidth 70 cm
+    #  \size[200]\the\cavename
+    #  \vskip1cm
+    #  \ifscalebar\scalebar\vskip1cm\fi
+    #  \size[44]\the\comment
+    #  \size[44]\the\cavelengthtitle: \the\cavelength\vskip 0pt
+    #  \size[44]\the\cavedepthtitle: \the\cavedepth
+    #}
     
-  }  
+    \legendbox{20} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+    \legendbox{40} {5} {nw} {\loadpicture{images/Logo_GaiaEC_1250.png}}
+    \legendbox{60} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
+    \legendbox{00} {85} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/Rich Smith - P4180229.JPG}} 
+    \legendbox{02} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/BlueWaterEntrance_6K.jpg}} 
+
+    \legendbox{01} {84} {nw} {
+      \legendwidth 50 cm
+      \size[30]
+      Blue Water Resurgance (photo: Rich Smith)
+      }
+    
+
+        \legendbox{15} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/3A1A9729EDIT1.jpg}} 
+    \legendbox{35} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/3A1A9888EDIT1.jpg}} 
+    \legendbox{45} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/DSC_0136.jpg}} 
+    \legendbox{55} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/DSC_0086.jpg}} 
+    \legendbox{65} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/P1010515.JPG}} 
+    \legendbox{75} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/P1010255.JPG}} 
+    }  
 
 
    #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
