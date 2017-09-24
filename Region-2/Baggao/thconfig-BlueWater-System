@@ -22,6 +22,8 @@ source BlueWater-System.th
   input ..\..\CodeLibrary\_layouts.mp        # custom Metapost
   input ..\..\CodeLibrary\_layouts.tex       # custom tex
   input ..\..\CodeLibrary\_layouts.thc       # custom layouts 
+  input bluewater\code\_photo_overlay.tex    # custom tex
+  
 
 layout local-old
   scale 1 1500
@@ -108,6 +110,10 @@ layout local
     copy custom_color
     #copy custom_large_odessa
     #copy custom_small_odessa
+    
+  ### index of file options from _photo_overlay.tex
+    #copy photo_overlay
+    copy no_photo_overlay
  
   
 
@@ -146,18 +152,6 @@ layout local
   \cavename={Blue Water System}
   \def\photo1={Rich Smith}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
-  \def\maplayout{
-    \legendbox{75}{90}{NW}{
-      \legendwidth 70 cm
-      \the\legendcontent
-      }
-    \legendbox{1}{55}{NW}{
-      \legendwidth 150 cm
-      \legendtextsize={\size[30]}
-      \hsize=\legendwidth
-      \input th_legend
-      }
-
     #\legendbox{1} {77} {nw} {
     #  \legendwidth 70 cm
     #  \size[200]\the\cavename
@@ -167,28 +161,6 @@ layout local
     #  \size[44]\the\cavelengthtitle: \the\cavelength\vskip 0pt
     #  \size[44]\the\cavedepthtitle: \the\cavedepth
     #}
-    
-    \legendbox{20} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
-    \legendbox{40} {5} {nw} {\loadpicture{images/Logo_GaiaEC_1250.png}}
-    \legendbox{60} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
-    \legendbox{00} {85} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/Rich Smith - P4180229.JPG}} 
-    \legendbox{02} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/BlueWaterEntrance_6K.jpg}} 
-
-    \legendbox{01} {84} {nw} {
-      \legendwidth 50 cm
-      \size[30]
-      Blue Water Resurgance (photo: Rich Smith)
-      }
-    
-
-        \legendbox{15} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/3A1A9729EDIT1.jpg}} 
-    \legendbox{35} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/3A1A9888EDIT1.jpg}} 
-    \legendbox{45} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/DSC_0136.jpg}} 
-    \legendbox{55} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/DSC_0086.jpg}} 
-    \legendbox{65} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/P1010515.JPG}} 
-    \legendbox{75} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/P1010255.JPG}} 
-    }  
-
 
    #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
     \legendcontent={%

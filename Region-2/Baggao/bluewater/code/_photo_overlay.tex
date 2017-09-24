@@ -1,0 +1,68 @@
+### index of file options from _photo_overlay.tex
+  #copy photo_overlay
+  #copy no_photo_overlay
+
+#############################################################################################################################
+layout photo_overlay
+  #http://therion.speleo.sk/wiki/doku.php/tips#map-image_and_custom_legendbox
+  code tex-map
+    \def\maplayout{
+      \legendbox{75}{95}{NW}{
+        \legendwidth 70 cm
+        \the\legendcontent
+        }
+      \legendbox{1}{55}{NW}{
+        \legendwidth 150 cm
+        \legendtextsize={\size[30]}
+        \hsize=\legendwidth
+        \input th_legend
+      }
+      \legendbox{18} {90} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
+      \legendbox{25} {90} {nw} {\loadpicture{images/Logo_GaiaEC_1250.png}}
+      \legendbox{32} {90} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
+      \legendbox{00} {85} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/Rich Smith - P4180229.JPG}} 
+      \legendbox{00} {84} {nw} {
+        \legendwidth 50 cm
+        \size[30]
+        Blue Water Resurgance (photo: Rich Smith)
+        }
+
+      \legendbox{60} {70} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/3A1A9729EDIT1.jpg}} 
+      \legendbox{60} {69} {nw} {
+        \legendwidth=30cm
+        \hsize=30cm
+        \size[30]
+        White Lightening Entrance (photo: Josh Bratchley)
+        }
+           
+      \legendbox{02} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/BlueWaterEntrance_6K.jpg}} 
+      \legendbox{20} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/3A1A9888EDIT1.jpg}} 
+      \legendbox{30} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/DSC_0136.jpg}} 
+      \legendbox{40} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/DSC_0086.jpg}} 
+      \legendbox{65} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/P1010515.JPG}} 
+      \legendbox{75} {5} {nw} {\loadpicture{Region-2/Baggao/bluewater/images/P1010255.JPG}} 
+    }	
+  endcode
+endlayout
+
+#############################################################################################################################
+layout no_photo_overlay
+  #http://therion.speleo.sk/wiki/doku.php/tips#map-image_and_custom_legendbox
+  code tex-map
+    \def\maplayout{
+      \legendbox{75}{95}{NW}{
+        \legendwidth 70 cm
+        \the\legendcontent
+        }
+      \legendbox{1}{55}{NW}{
+        \legendwidth 150 cm
+        \legendtextsize={\size[30]}
+        \hsize=\legendwidth
+        \input th_legend
+      }
+    }	
+  endcode
+endlayout
+
+#############################################################################################################################
+
