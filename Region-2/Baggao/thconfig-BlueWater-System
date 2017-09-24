@@ -112,8 +112,8 @@ layout local
     #copy custom_small_odessa
     
   ### index of file options from _photo_overlay.tex
-    #copy photo_overlay
-    copy no_photo_overlay
+    copy photo_overlay
+    #copy no_photo_overlay
  
   
 
@@ -150,7 +150,9 @@ layout local
   code tex-map
   \copyrights={Copyleft Creative Commons ShareAlike}
   \cavename={Blue Water System}
-  \def\photo1={Rich Smith}
+  \topoteam={Rob Adams, Ruth Allan, Andrew Atkinson, Hannah Bennett, Henry Bennett, Bristol.Exploration.Club,
+Hellie Brooke, Mitch Bruce, Henry Dawson, Paul Fairman, Stephen Fairman, Stu Gardiner, Lucy Green-
+wood, Anya Keatley, Oliver Legg, Ranger Marquez, Alison Moody, Sarah Payne, Rich Smith, Fuzzy Bear}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
     #\legendbox{1} {77} {nw} {
     #  \legendwidth 70 cm
