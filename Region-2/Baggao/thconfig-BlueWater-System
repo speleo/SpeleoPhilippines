@@ -146,13 +146,11 @@ layout local
 #    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
 #
 ################################################################# 
-  
+
   code tex-map
-  \copyrights={Copyleft Creative Commons ShareAlike}
+  \copyrights={Survey: Copyleft Creative Commons ShareAlike / Images: Copyright of photographer}
   \cavename={Blue Water System}
-  \topoteam={Rob Adams, Ruth Allan, Andrew Atkinson, Hannah Bennett, Henry Bennett, Bristol.Exploration.Club,
-Hellie Brooke, Mitch Bruce, Henry Dawson, Paul Fairman, Stephen Fairman, Stu Gardiner, Lucy Green-
-wood, Anya Keatley, Oliver Legg, Ranger Marquez, Alison Moody, Sarah Payne, Rich Smith, Fuzzy Bear}
+  \topoteam={Allan Tan, Anya Keatley, Buddy Acenas, Ellen Cooper, Hannah Bennett, Hellie Adams, Henry Bennett, Henry Dawson, Josh Bratchley, Laura Benn, Lucy Greenwood, Mark Dia, Matt Palmer, Mertz Certifico, Mitch Bruce, Nelson Pingay, Nick Gymer, Oliver Legg, Paul Fairman, Ranger Marquez, Rap Rios, Rich Smith, Rob Adams, Rob Bruce, Rufus Allan, Sarah Payne, Steven Fairman, Stu Gardiner, Bristol Exploration Club, Gaia Exploration Club, Sierra Madre Outdoor Club.   Crafted in Therion by Henry Bennett}
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
     #\legendbox{1} {77} {nw} {
     #  \legendwidth 70 cm
