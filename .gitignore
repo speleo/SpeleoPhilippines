@@ -3,7 +3,12 @@
 ## *.pdf
 ## *.kml
 ## *.lox
-##
+## *.3d
+## *.3dmf
+## *.dxf
+## *.plt
+## *.vrml
+## *.vtk
 #############
 
 thTMPDIR/
@@ -12,12 +17,6 @@ thTMPDIR/
 .xtherion.dat
 therion.log
 
-*.3d
-*.3dmf
-*.dxf
-*.plt
-*.vrml
-*.vtk
 
 #################
 ## Eclipse
