@@ -1,5 +1,9 @@
 #############
 ## Therion
+## *.pdf
+## *.kml
+## *.lox
+##
 #############
 
 thTMPDIR/
@@ -11,8 +15,6 @@ therion.log
 *.3d
 *.3dmf
 *.dxf
-*.kml
-*.lox
 *.plt
 *.vrml
 *.vtk
