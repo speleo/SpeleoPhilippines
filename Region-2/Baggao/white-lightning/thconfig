@@ -35,12 +35,14 @@ source whitelightning.th
   
 layout local
   scale 1 300
+  scale-bar 100 m
+
   ### index of file options from _layouts.mp
   #scale 1 1000
    copy custom_water_blue
   #copy custom_entrance_theta
   #copy custom_northarrow_large
-  #copy custom_scalebar_large_format
+  copy custom_scalebar_large_format
   #copy custom_scalebar
   #copy custom_legend_large_format
   #copy custom_legend_large_format_5U
@@ -53,14 +55,14 @@ layout local
   #copy custom_north_arrow_600
 
   ### index of file options from _layouts.tex
-  #copy custom_colorlegendbox
+  copy custom_colorlegendbox
   #copy custom_legendsymbolbox
-  #copy custom_title_area_format
+  copy custom_title_area_format
   #copy custom_title_area_format_1000
   #copy custom_logos
   
   ### index of file options from _layouts.thc
-  #copy custom_symbols
+  copy custom_symbols
   copy custom_color
   #copy custom_large_odessa
   #copy custom_small_odessa
@@ -92,12 +94,12 @@ layout local
 ###################################################################
 
 
-  #code metapost
+  code metapost
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     #original fonts_setup(6,8,10,14,20);
-    #fonts_setup(6,8,10,14,20); 
-  #endcode
+    fonts_setup(16,28,30,54,80); 
+  endcode
 
 #################################################################
 #  
@@ -109,31 +111,31 @@ layout local
 #
 ################################################################# 
   
-  #code tex-map
-  #\cavename={White Lightning / Minty}
-  #\def\maplayout{
-  #  \legendbox{05}{05}{NW}{
-  #    \legendwidth 15 cm
-  #    \the\legendcontent
-  #    }
-  #  \legendbox{05}{84}{NW}{
-  #    \legendwidth 15 cm
-  #    \legendtextsize={\size[12]}
-  #    \hsize=\legendwidth
-  #    \input th_legend
-  #    }
-  #  \legendbox{05}{55}{NW}{
-  #    \legendwidth 15 cm
-  #    \legendtextsize={\size[12]}
-  #    \hsize=\legendwidth
-  #    #\input th_legendcolor
-  #    }
-  #  \legendbox{12} {19} {nw} {\loadpicture{images/Logo_BEC_400.png}}
-  #  #\legendbox{33} {60} {nw} {\loadpicture{images/Logo_GaiaEC_1000.jpg}}
-  #  \legendbox{42} {20} {nw} {\loadpicture{images/Logo_SMOC_400.png}}
-  #}
+  code tex-map
+  \cavename={White Lightning}
+  \def\maplayout{
+    \legendbox{75}{45}{NW}{
+      \legendwidth 35 cm
+      \the\legendcontent
+      }
+    \legendbox{05}{84}{NW}{
+      \legendwidth 35 cm
+      \legendtextsize={\size[12]}
+      \hsize=\legendwidth
+      \input th_legend
+      }
+    \legendbox{05}{55}{NW}{
+      \legendwidth 35 cm
+      \legendtextsize={\size[12]}
+      \hsize=\legendwidth
+      \input th_legendcolor
+      }
+    #\legendbox{12} {19} {nw} {\loadpicture{images/Logo_BEC_400.png}}
+    #\legendbox{33} {60} {nw} {\loadpicture{images/Logo_GaiaEC_1000.jpg}}
+    #\legendbox{42} {20} {nw} {\loadpicture{images/Logo_SMOC_400.png}}
+  }
 
-  #endcode #end of TeX code
+  endcode #end of TeX code
 
 endlayout
 

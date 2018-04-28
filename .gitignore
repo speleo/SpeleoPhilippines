@@ -13,7 +13,6 @@ therion.log
 *.dxf
 *.kml
 *.lox
-*.pdf
 *.plt
 *.vrml
 *.vtk
