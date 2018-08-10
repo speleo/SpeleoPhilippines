@@ -1,0 +1,10 @@
+encoding  utf-8
+source mountaineye.th
+
+export model -fmt survex -o mountaineye.3d
+
+export model -o mountaineye.lox
+
+export map -projection plan -o mountaineye.svg
+
+export atlas -projection plan -o mountaineyePlanAtlas.pdf

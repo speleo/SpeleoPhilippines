@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -57511.91 -1178.48 345071.46 7070.9
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {29032.5934507 1 1.0} {1545.10599353 1.0} ../PocketTopo/mountaineye_e.xvi 0 {}
+
+
+scrap mountaineyeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
