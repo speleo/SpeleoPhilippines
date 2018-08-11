@@ -27,7 +27,7 @@ export continuation-list -filter off  -o export\MountaineyeQuestions.html
 #export continuation-list -filter off  -o export\MountaineyeQuestions.txt
 #export continuation-list -filter off  -o export\MountaineyeQuestions.dbf
 #export continuation-list -filter off  -o export\MountaineyeQuestions.kml
-#export model                  -o export\MountaineyeModel.lox
+export model                  -o export\MountaineyeModel.lox
 #export model -format compass  -o export\MountaineyeModel.plt
 #export model -format survex   -o export\MountaineyeModel.3d
 #export model -format kml      -o export\MountaineyeModel.kml
