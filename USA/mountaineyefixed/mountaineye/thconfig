@@ -1,4 +1,5 @@
 encoding  utf-8
+select mountaineye
 source mountaineye.th
 
 export model -fmt survex -o mountaineye.3d

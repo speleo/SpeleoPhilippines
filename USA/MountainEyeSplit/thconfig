@@ -1,0 +1,73 @@
+encoding  utf-8
+source settings.th
+
+# SELECT
+# Bruk "select" til å plukke ut de maps fra settings.th som skal inngå i grottekartet
+
+# Listen under er maps bestående av scraps, og styrer rekkefølge av lagene i PDF-en:
+ select mountaineye1@data
+ select mountaineye2@data
+ select mountaineye3@data
+ select mountaineye4@data
+ select mountaineye5@data
+ select mountaineye20@data
+ select mountaineye21@data
+ select mountaineye22@data
+ select mountaineye23@data 
+
+# Listen under er maps bestående av surveys (senterlinje og stasjoner):
+ select surcenterline@data
+
+# EKSPORTER SOM ER UAVHENGIGE AV LAYOUT
+export database                       -o export\MountaineyeDatabase.sql
+export database                       -o export\MountaineyeDatabase.csv
+export cave-list -location on         -o export\MountaineyeCaves.html
+export survey-list                    -o export\MountaineyeSurveys.html
+export continuation-list -filter off  -o export\MountaineyeQuestions.html
+#export continuation-list -filter off  -o export\MountaineyeQuestions.txt
+#export continuation-list -filter off  -o export\MountaineyeQuestions.dbf
+#export continuation-list -filter off  -o export\MountaineyeQuestions.kml
+#export model                  -o export\MountaineyeModel.lox
+#export model -format compass  -o export\MountaineyeModel.plt
+#export model -format survex   -o export\MountaineyeModel.3d
+#export model -format kml      -o export\MountaineyeModel.kml
+#export map -format kml        -o export\MountaineyeMap1.kml
+#export map -format xvi        -o export\MountaineyeMap1.xvi # skala 100 DPI og grid 1 meter. Bra
+export map -format survex     -o export\MountaineyeMap1.3d
+
+
+# LAYOUT2
+layout Layout2
+  scale 1 1000					# Angir målestokk for/på eksportert kart. Default er 1:200. Tjorve må minst 1:300
+  base-scale 1 500 				# Tilpass skriftstørrelse denne basisskalaen. Deretter tilstrekkelig å endre på scale, dvs uten å endre skriftstørrelsen
+  doc-title "Mountain eye cave"     # Tagges i PDF-filen
+  doc-author "Mountain eye cavers" # Tagges i PDF-filen
+  symbol-show group centerline
+  debug station-names         # Viser alle stasjonsnavnene
+
+  #Foreground color - turn on altitdude to see various heights
+  #colour map-fg [80 80 80]
+  color map-fg altitude
+  #color-legend on
+  colour map-bg [70 90 70]
+  #sketches on 
+
+#  symbol-hide line survey         # Skjuler senterlinjen, herunder små senterlinjebiter rundt stasjonene
+#  symbol-hide point station      # Skjuler symbol og navn ved stasjonene
+endlayout
+
+# LAYOUT for DEBUG-kartet
+layout Debug
+  debug on
+  scale 1 1000					# Angir målestokk for/på eksportert kart. Default er 1:200. Tjorve må minst 1:300
+  base-scale 1 500 				# Tilpass skriftstørrelse denne basisskalaen. Deretter tilstrekkelig å endre på scale, dvs uten å endre skriftstørrelsen
+  colour map-fg [100 100 100]	# Angir fargen på grottegulvet eks 100 = hvit
+  colour map-bg [60 60 60]		# Angir fargen utenfor grotten (bakgrunnen) eks [70 90 70]
+endlayout
+
+
+# Kart basert på LAYOUT2:
+export map                    -o export\MountaineyeMap2.pdf -layout Layout2
+
+# Kart basert på debug-layouten:
+#export map                    -o export\MountaineyeDebug.pdf -layout Debug

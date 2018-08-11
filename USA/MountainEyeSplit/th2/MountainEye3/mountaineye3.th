@@ -1,0 +1,13 @@
+encoding  utf-8
+survey mountaineye3
+
+input ..\..\centerline\centerline.th
+
+input mountaineye3.th2
+
+map mountaineye3 -title "Mountain eye cave part 3"
+   scrap3
+endmap
+
+endsurvey
+

@@ -1,0 +1,68 @@
+encoding  iso8859-1
+survey data -title Mountaineye
+
+# Her finner Therion senterlinjedataene:
+  input centerline\centerline.th
+
+
+# Her finner Therion tegnefilene:
+  input th2\MountainEye1\mountaineye1.th2
+  input th2\MountainEye2\mountaineye2.th2
+  input th2\MountainEye3\mountaineye3.th2
+  input th2\MountainEye4\mountaineye4.th2
+  input th2\MountainEye5\mountaineye5.th2
+  input th2\MountainEye20\mountaineye20.th2
+  input th2\MountainEye21\mountaineye21.th2
+  input th2\MountainEye22\mountaineye22.th2
+  input th2\MountainEye23\mountaineye23.th2
+
+
+# Her kobler Therion scraps sammen basert på scrapnr. Sett laveste scrapnr først
+#  join scrap... scrap....
+  
+  
+# Her er maps bestående av surveys. De må ha (og angi) projection plan. 
+  map surcenterline -projection plan -title "Centerline"
+     centerline
+  endmap
+  
+  
+# Her lager Therion grottekart (maps) bestående av scraps:
+  map mountaineye1 -title "Mountain eye cave part 1"
+   scrap1
+  endmap
+
+  map mountaineye2 -title "Mountain eye cave part 2"
+   scrap2
+  endmap
+
+  map mountaineye3 -title "Mountain eye cave part 3"
+   scrap3
+  endmap
+
+  map mountaineye4 -title "Mountain eye cave part 4"
+   scrap4
+  endmap
+
+  map mountaineye5 -title "Mountain eye cave part 5"
+   scrap5
+  endmap  
+  
+  map mountaineye20 -title "Mountain eye cave offset 20"
+   scrap20
+  endmap
+
+  map mountaineye21 -title "Mountain eye cave offset 21"
+   scrap21
+  endmap  
+  
+  map mountaineye22 -title "Mountain eye cave offset 22"
+   scrap22
+  endmap
+  
+  map mountaineye23 -title "Mountain eye cave offset 23"
+   scrap23
+  endmap
+    
+endsurvey
+

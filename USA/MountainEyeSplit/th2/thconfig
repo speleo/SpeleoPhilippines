@@ -1,0 +1,16 @@
+encoding  utf-8
+source mountaineye1.th
+
+#source ..\centerline\centerline.th
+
+
+# Her finner Therion tegnefilene:
+#  input mountaineye1.th2
+
+#export model -fmt survex -o mountaineye.3d
+
+#export model -o mountaineye.lox
+
+export map -projection plan -o mountaineye_th1.pdf
+
+#export atlas -projection plan -o mountaineyePlanAtlas.pdf
