@@ -42,10 +42,14 @@ survey data -title Mountaineye
 
   map mountaineye4 -title "Mountain eye cave part 4"
    scrap4
+   scrap4_1
+   scrap4_2
+   scrap4_3
   endmap
 
   map mountaineye5 -title "Mountain eye cave part 5"
    scrap5
+   scrap5_1
   endmap  
   
   map mountaineye20 -title "Mountain eye cave offset 20"
