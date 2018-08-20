@@ -4,7 +4,17 @@ survey mountaineye
 input mountaineye.th2
 
 map mountaineye
-  mountaineye
+  #mountaineye
+  lotdean
+  upstreamobey
+  sunlesssea
+  buffriver
+  theraces
+  monsterchambers
+  wankeryanker
+  pristine
+  redcoatrevenge
+  milliways
 endmap
 
 centreline

@@ -1,13 +1,31 @@
 encoding  utf-8
 survey mountaineye20
 
-input ..\..\centerline\centerline.th
-
 input mountaineye20.th2
 
 map mountaineye20 -title "Mountain eye cave part 20"
-   scrap20
+   ME20_scrapSP1
 endmap
+
+centerline
+  date 2006.10.09
+  data normal from to compass clino tape
+  extend right
+
+  105.0 105.1 332.28 -0.06 11.606
+  105.1 105.2 335.52 -1.36 4.929
+  105.2 105.3 35.15 0.50 9.449
+  105.3 105.4 342.21 -5.22 5.077
+  105.4 105.5 38.05 10.43 6.119
+  105.5 105.6 67.75 -1.29 17.152
+  105.6 105.7 24.76 0.80 8.927
+  105.7 105.8 63.56 -2.09 15.250
+  105.8 105.9 45.86 4.23 5.385
+  105.9 105.10 22.29 1.32 17.425
+  105.10 105.11 81.55 -1.62 8.071
+  105.11 105.12 34.29 -1.21 12.144
+
+endcenterline
 
 endsurvey
 

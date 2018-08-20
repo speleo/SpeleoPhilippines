@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 3435.0866141732276 4025.63779527559
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 44
 ##XTHERION## xth_me_image_insert {253.1999999999971 1 1.0} {223.0099999999984 203.2} {../../images/mountaineye therion_p23.xvi} 0 {}
 
 
 
-scrap scrap23 -scale [-128.0 -128.0 3435.0866141732276 -128.0 0.0 0.0 90.50239999999998 0.0 m]
+scrap ME23_scrapSP1 -scale [-128.0 -128.0 3435.0866141732276 -128.0 0.0 0.0 90.50239999999998 0.0 m]
 
 line wall
   3064.0 2625.0
@@ -47,6 +47,7 @@ line wall
   2996.0 2451.0 3031.0 2450.0 3055.0 2449.0
   3079.0 2448.0 3138.0 2448.0 3176.0 2482.0
   3214.0 2516.0 3222.0 2517.0 3226.0 2531.0
+  smooth off
 endline
 
 line wall
@@ -69,6 +70,7 @@ line wall
   874.0 1339.0 885.0 1300.0 901.0 1266.0
   917.0 1232.0 932.0 1212.0 946.0 1201.0
   960.0 1190.0 998.0 1166.0 1006.0 1160.0
+  smooth off
 endline
 
 line wall

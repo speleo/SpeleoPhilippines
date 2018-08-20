@@ -1,11 +1,13 @@
 encoding  iso8859-1
 survey data -title Mountaineye
 
-# Her finner Therion senterlinjedataene:
+# Here Therion finds the center line data:
   input centerline\centerline.th
+#  input th2\MountainEye1\mountaineye1.th
+#  input th2\MountainEye2\mountaineye2.th
 
 
-# Her finner Therion tegnefilene:
+# Here Therion finds the drawing files:
   input th2\MountainEye1\mountaineye1.th2
   input th2\MountainEye2\mountaineye2.th2
   input th2\MountainEye3\mountaineye3.th2
@@ -17,9 +19,9 @@ survey data -title Mountaineye
   input th2\MountainEye23\mountaineye23.th2
 
 
-# Her kobler Therion scraps sammen basert på scrapnr. Sett laveste scrapnr først
+# Here, Therion connects scraps together based on scrap number. Set the lowest scrap number first
 #  join scrap... scrap....
-  
+#  join scrap1  scrap2
   
 # Her er maps bestående av surveys. De må ha (og angi) projection plan. 
   map surcenterline -projection plan -title "Centerline"
@@ -67,6 +69,18 @@ survey data -title Mountaineye
   map mountaineye23 -title "Mountain eye cave offset 23"
    scrap23
   endmap
+  
+#  equate 1.42 1.42
+
+centreline
+#  equate 1.42@scrap1.mountaineye1 1.42@scrap2.mountaineye2
+#  equate 1.42@mountaineye1.data 1.42@mountaineye2
+#  equate 1.42@scrap1 1.42@scrap2
+#  equate 1.42@mountaineye2 1.42@scrap2
+
+endcentreline
+
+  
     
 endsurvey
 

@@ -1,0 +1,17 @@
+encoding  utf-8
+source Master.th
+  select cob.Master
+  select connection.Master
+  select mountaineye.Master
+  select Master@Master
+  select cob@cob.Master
+
+export map -proj plan -layout local -o Master.pdf
+#export map -o Master.pdf
+export model -fmt survex -o Master.3d
+
+select Master@Master
+layout local
+  scale 1 1000
+  base-scale 1 1000
+endlayout

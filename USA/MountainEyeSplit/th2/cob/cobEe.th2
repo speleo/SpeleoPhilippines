@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -10516.19 -821.13 63097.16 4926.81
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {5383.44252704 1 1.0} {2888.2893075 6.0} ../PocketTopo/cob_e.xvi 0 {}
+
+
+scrap cobSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

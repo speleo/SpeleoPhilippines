@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -133.88235294117646 -133.88235294117646 1269.7322834645668 1466.5826771653542
-##XTHERION## xth_me_area_zoom_to 68
+##XTHERION## xth_me_area_zoom_to 215
 ##XTHERION## xth_me_image_insert {382.3199999999997 1 1.0} {1201.1800000000003 205.1} {../../images/mountaineye therion_p21.xvi} 0 {}
 
 
 
-scrap scrap21 -scale [-128.0 -128.0 31190.99212598425 -128.0 0.0 0.0 795.5023999999999 0.0 m]
+scrap ME21_scrapSP1 -scale [-128.0 -128.0 31190.99212598425 -128.0 0.0 0.0 795.5023999999999 0.0 m]
 
 point 416.41 251.93 station -name 205.4
 

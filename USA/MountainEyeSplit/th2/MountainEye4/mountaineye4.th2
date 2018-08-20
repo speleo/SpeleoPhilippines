@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -147.04761904761904 -147.04761904761904 78376.47244094488 57010.29921259842
-##XTHERION## xth_me_area_zoom_to 21
+##XTHERION## xth_me_area_adjust -139.76470588235293 -139.76470588235293 78376.47244094488 57010.29921259842
+##XTHERION## xth_me_area_zoom_to 34
 ##XTHERION## xth_me_image_insert {57225.09 1 1.0} {26053.759999999995 3.10} {../../images/mountaineye therion_p4.xvi} 0 {}
 
 
 
-scrap scrap4 -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap ME4_scrapSP1 -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 point 70853.03 47381.5 station -name 3.103
 
@@ -92,6 +92,7 @@ line wall -reverse on
   71498.0 47098.0 71414.0 47080.0 71386.0 47066.0
   71358.0 47052.0 71202.0 47002.0 71158.0 46998.0
   71114.0 46994.0 70996.0 46992.0 70972.0 46976.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -176,7 +177,7 @@ endscrap
 
 
 
-scrap scrap4_1 -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap ME4_scrapSP2 -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 line wall
   64790.0 28289.0
@@ -217,6 +218,7 @@ line wall
   65398.0 32777.0 65319.0 32835.0 65302.0 32851.0
   65285.0 32867.0 65226.0 32914.0 65222.0 33002.0
   65218.0 33090.0 65253.0 33239.0 65258.0 33267.0
+  smooth off
 endline
 
 line wall
@@ -713,7 +715,7 @@ endscrap
 
 
 
-scrap scrap4_2 -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap ME4_scrapSP3 -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 line wall
   64965.0 35825.0
@@ -722,6 +724,7 @@ line wall
   64949.0 35989.0 64971.0 36000.0 64961.0 36021.0
   64951.0 36042.0 64938.0 36075.0 64939.0 36089.0
   64940.0 36103.0 64927.0 36188.0 64916.0 36211.0
+  smooth off
 endline
 
 line wall
@@ -746,6 +749,7 @@ line wall
   65074.0 33872.0 65068.0 33848.0 65072.0 33822.0
   65076.0 33796.0 65098.0 33670.0 65096.0 33650.0
   65094.0 33630.0 65052.0 33378.0 65040.0 33332.0
+  smooth off
 endline
 
 line wall
@@ -902,7 +906,7 @@ endscrap
 
 
 
-scrap scrap4_3 -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap ME4_scrapSP4 -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 line wall -reverse on
   70972.0 46976.0
@@ -997,6 +1001,7 @@ line wall
   64802.0 36398.0 64798.0 36350.0 64798.0 36324.0
   64798.0 36298.0 64814.0 36244.0 64832.0 36234.0
   64850.0 36224.0 64874.0 36200.0 64880.0 36188.0
+  smooth off
 endline
 
 line wall

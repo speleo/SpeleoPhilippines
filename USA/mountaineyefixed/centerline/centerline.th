@@ -1,5 +1,6 @@
 encoding  utf-8
 survey centerline -title Centerline -namespace off
+#survey centerline -title Centerline 
 centerline
   date 2006.10.09
   data normal from to compass clino tape

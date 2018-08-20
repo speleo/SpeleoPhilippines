@@ -1,0 +1,10 @@
+encoding  utf-8
+source connection.th
+
+export model -fmt survex -o connection.3d
+
+export model -o connection.lox
+
+export map -projection plan -o connection.svg
+
+export map -projection plan -o connection.pdf

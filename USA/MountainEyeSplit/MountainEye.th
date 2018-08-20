@@ -1,0 +1,45 @@
+encoding  iso8859-1
+survey Mountaineye
+  input th2/MountainEye1/mountaineye1.th
+  input th2/MountainEye2/mountaineye2.th
+  input th2/MountainEye3/mountaineye3.th
+  input th2/MountainEye4/mountaineye4.th
+  input th2/MountainEye5/mountaineye5.th
+  input th2/MountainEye20/mountaineye20.th
+  input th2/MountainEye21/mountaineye21.th
+  input th2/MountainEye22/mountaineye22.th
+  input th2/MountainEye23/mountaineye23.th
+  input th2/cob/cob.th
+  input th2/connection/connection.th
+  
+map Mountaineye -projection plan
+  mountaineye1
+  mountaineye2
+  mountaineye3
+  mountaineye4
+  mountaineye5
+  mountaineye20
+  mountaineye21
+  mountaineye22
+  mountaineye23
+  cob@cob
+  connection@connection
+endmap
+
+join ME2_scrapSP1@mountaineye2 ME5_scrapSP1@mountaineye5
+
+centerline
+  equate 6.12@connection 6.12@cob
+  equate 3.110@connection 3.110@mountaineye4
+  equate 3.10@mountaineye4 3.10@mountaineye3
+  equate 2.64@mountaineye3 2.64@mountaineye2
+  equate 1.42@mountaineye2 1.42@mountaineye1
+  equate 1.58@mountaineye5 1.58@mountaineye2 
+  equate 105.0@mountaineye20 1.8@mountaineye1
+  equate 205.1@mountaineye21 205.0@mountaineye3
+  equate 204.0@mountaineye22 203.1@mountaineye3
+  equate 203.2@mountaineye23 203.1@mountaineye3    
+endcenterline
+   
+endsurvey
+

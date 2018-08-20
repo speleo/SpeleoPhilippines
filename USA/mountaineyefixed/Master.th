@@ -1,0 +1,22 @@
+encoding  utf-8
+survey Master
+  input cob/cob.th
+  input connection/connection.th
+  input mountaineye/mountaineye.th
+
+#map Master -projection plan
+map Master 
+  cob@cob
+  connection@connection
+  mountaineye@mountaineye
+endmap
+
+
+centerline
+  #equate 6.12@connection.Master 6.12@cob.Master
+  equate 6.12@connection 6.12@cob
+  equate 3.110@connection 3.110@mountaineye
+endcenterline
+
+endsurvey
+

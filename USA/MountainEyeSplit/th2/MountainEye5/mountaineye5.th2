@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.16666666666666 -7268.0 22424.062992125982 32325.916666666668
-##XTHERION## xth_me_area_zoom_to 96
+##XTHERION## xth_me_area_zoom_to 26
 ##XTHERION## xth_me_image_insert {22004.989999999998 1 1.0} {31801.999999999996 1.58} {../../images/mountaineye therion_p5.xvi} 0 {}
 
 
 
-scrap scrap5 -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap ME5_scrapSP1 -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 point 22001.72 31814.91 station -name 1.58
 
@@ -141,6 +141,7 @@ line wall -reverse on
   7033.33 -1275.0 7033.33 -1291.67 7004.166666666667 -1304.1666666666667
   6975.0 -1316.67 6891.67 -1308.33 6854.166666666667 -1316.6666666666667
   6816.67 -1325.0 6783.33 -1325.0 6770.833333333334 -1350.0
+  smooth off
 endline
 
 line wall
@@ -399,7 +400,7 @@ endscrap
 
 
 
-scrap scrap5_1 -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap ME5_scrapSP2 -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 line wall -reverse on
   7369.0 -2402.0
