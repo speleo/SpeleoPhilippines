@@ -1,0 +1,102 @@
+therion 5.4.1 (2017-04-18)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.28%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.34
+ 2> Copyright ¸ 1990-2017 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 444 survey stations, joined by 447 shots.
+ 6> There are 4 loops.
+ 7> Total length of survey shots = 6813.03m (6813.03m adjusted)
+ 8> Total plan length of survey shots = 6733.29m
+ 9> Total vertical length of survey shots =  572.86m
+10> Vertical range = 57.17m (from 444 at 45.70m to 252 at -11.47m)
+11> North-South range = 2483.92m (from 443 at 1322.83m to 121 at -1161.09m)
+12> East-West range = 2210.50m (from 444 at 1957.71m to 121 at -252.79m)
+13>   15 1-nodes.
+14>  410 2-nodes.
+15>   17 3-nodes.
+16>    2 4-nodes.
+17> 
+######################### transcription ########################
+ 3> 1 : 1.0@mountaineye4
+ 5> 444 : 3.115@mountaineye4
+ 6> 4 : 101.1@mountaineye4
+10> 444 : 3.115@mountaineye4 -- 252 : 203.14@mountaineye4
+11> 443 : 3.114@mountaineye4 -- 121 : 1.118@mountaineye4
+12> 444 : 3.115@mountaineye4 -- 121 : 1.118@mountaineye4
+13> 15 : 1.12@mountaineye4
+14> 410 : 301.3@mountaineye4
+15> 17 : 1.14@mountaineye4
+16> 2 : 1.1@mountaineye4
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.01%
+writing mountaineye_th4.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  15 AUG 2018 09:01
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012] [4013]
+[1] [2] [3] [4] [5] [6] [7]
+[Warning: scrap outline intersects itself in scrap scrap4_1@mountaineye4] [8]
+[9] [10] [11] [12] [13] (./mptextmp.mp) [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1161 strings out of 1162
+ 13253 string characters out of 20720
+ 64704 words of memory out of 1500000
+ 1385 symbolic tokens out of 16384
+ 8i,75n,11p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 172 string compactions (moved 2165026 characters, 179026 strings)
+27 output files written: data.1 .. data.4013
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  15 AUG 2018 09:01
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 65 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 265 strings out of 95617
+ 2720 string characters out of 1171098
+ 68699 words of memory out of 1551677
+ 1675 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 12i,5n,8p,238b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 104397 bytes).
+PDF statistics:
+ 76 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+C:\Program Files (x86)\Therion\therion.exe: error -- cp exit code -- 1
+writing xtherion file ... done

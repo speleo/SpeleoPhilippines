@@ -1,0 +1,3 @@
+encoding  utf-8
+source mountaineye23.th
+export map -projection plan -o mountaineye_th23.pdf
