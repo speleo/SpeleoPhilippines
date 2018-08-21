@@ -22,11 +22,13 @@ map Mountaineye -projection plan
   mountaineye21
   mountaineye22
   mountaineye23
-  cob@cob
-  connection@connection
+  cob
+  connection
 endmap
 
 join ME2_scrapSP1@mountaineye2 ME5_scrapSP1@mountaineye5
+join ME1_scrapSP1@mountaineye1 ME2_scrapSP1@mountaineye2
+
 
 centerline
   equate 6.12@connection 6.12@cob

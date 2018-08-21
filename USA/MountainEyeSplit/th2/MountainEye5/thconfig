@@ -2,6 +2,34 @@ encoding  utf-8
 source mountaineye5.th
 export map -projection plan -o mountaineye_th5.pdf -layout local
 
+#inject standard code for layouts
+  input ..\..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
+
+
+
 layout local
   scale 1 1000
+  base-scale 1 100
+  
+  ### index of file options from _layouts.mp
+    copy custom_water_blue
+    #copy custom_entrance_theta
+    #copy custom_entrance_theta_large
+    copy custom_scalebar_large_format
+    #copy custom_scalebar_medium_format
+    #copy custom_scalebar
+    copy custom_legend_large_format
+    #copy custom_legend_large_format_5U
+    #copy custom_legend_large_format_20U
+    copy custom_grid_2_continuous
+    #copy custom_centerline_2_continuous
+    copy custom_bats
+    #copy custom_north_arrow_150
+    #copy custom_north_arrow_300
+    copy custom_north_arrow_600
+    #copy custom_northarrow_large
+    copy custom_line_doline
+  
 endlayout

@@ -1620,6 +1620,7 @@ area debris
   l493-34340-73424
   l493-34340-73424
   l190-34902-73246
+  l165-35093-73223
   l491-35220-73207
   l491-35220-73207
   l491-35220-73207
@@ -1720,7 +1721,7 @@ line wall -id l190-34902-73246
   smooth off
 endline
 
-line border -subtype invisible
+line border -id l165-35093-73223 -subtype invisible
   35219.04761904762 73209.5238095238
   34900.0 73247.61904761905
 endline
@@ -2660,7 +2661,7 @@ line border -subtype invisible
   30966.666666666668 79676.19047619047
 endline
 
-point 30964.285714285714 79303.57142857143 label -orientation 328.2 -scale xl -text [Pits on the side]
+point 30964.285714285714 79303.57142857143 label -orientation 328.2 -scale l -text [Pits on the side]
 
 line wall
   31534.52 78544.05
@@ -2764,9 +2765,9 @@ line wall
   smooth off
 endline
 
-point 34321.428571428565 73627.38095238095 label -orientation 21.6 -scale xl -text [Highline Overpass]
+point 34321.428571428565 73627.38095238095 label -orientation 21.6 -scale l -text [Highline Overpass]
 
-point 31516.666666666668 77455.95238095238 label -orientation 338.1 -text [The Capital 'M'] -scale xl
+point 31516.666666666668 77455.95238095238 label -orientation 338.1 -text [The Capital 'M'] -scale l
 
 line wall
   31200.0 77914.28571428571
@@ -6046,15 +6047,15 @@ line wall
   smooth off
 endline
 
-point 24928.57142857143 79423.80952380951 label -orientation 328.2 -scale xl -text [The Prudence Series]
+point 24928.57142857143 79423.80952380951 label -orientation 328.2 -scale l -text [The Prudence Series]
 
-point 29171.428571428572 81466.66666666667 label -orientation 317.5 -scale l -text [Prudence Hall]
+point 29171.428571428572 81466.66666666667 label -orientation 317.5 -scale m -text [Prudence Hall]
 
-point 25171.428571428572 77209.5238095238 label -orientation 307.0 -text [Nincompoo chamber] -scale l
+point 25171.428571428572 77209.5238095238 label -orientation 307.0 -text [Nincompoo chamber] -scale m
 
-point 11700.0 74823.80952380953 label -orientation 358.5 -scale xl -text [Eminent Remnant]
+point 11700.0 74823.80952380953 label -orientation 358.5 -scale l -text [Eminent Remnant]
 
-point 17009.52380952381 74028.57142857143 label -orientation 307.4 -scale xl -text [High & Mighty]
+point 17009.52380952381 74028.57142857143 label -orientation 307.4 -scale l -text [High & Mighty]
 
 line rock-border
   19982.14285714286 74336.90476190476
@@ -14276,9 +14277,9 @@ line border -subtype invisible
   smooth off
 endline
 
-point 19242.857142857145 69652.38095238095 label -orientation 286.0 -text [Upstream Superstition] -scale xl
+point 19242.857142857145 69652.38095238095 label -orientation 286.0 -text [Upstream Superstition] -scale l
 
-point 17533.333333333332 62604.7619047619 label -orientation 359.4 -scale l -text [Slippy Six Split]
+point 17533.333333333332 62604.7619047619 label -orientation 359.4 -scale m -text [Slippy Six Split]
 
 line rock-border
   18211.904761904763 64545.23809523809
@@ -15506,15 +15507,15 @@ point 11659.884783700003 58418.820787400015 station -name 8.20
 
 point 11310.624783700001 57803.27078740001 station -name 8.21
 
-point 15780.95238095238 61933.333333333336 label -orientation 316.3 -scale l -text [Belly of the Beast]
+point 15780.95238095238 61933.333333333336 label -orientation 316.3 -scale m -text [Belly of the Beast]
 
-point 14066.666666666666 60442.857142857145 label -orientation 299.6 -scale l -text [The Plebian Way]
+point 14066.666666666666 60442.857142857145 label -orientation 299.6 -scale m -text [The Plebian Way]
 
-point 9880.952380952382 55242.857142857145 label -orientation 324.4 -text [Fleeting Pleasantry] -scale l
+point 9880.952380952382 55242.857142857145 label -orientation 324.4 -text [Fleeting Pleasantry] -scale m
 
 point 11961.904761904761 57114.28571428571 label -orientation 359.1 -text [Hanging Doom] -scale s
 
-point 7057.142857142857 56247.619047619046 label -orientation 359.1 -text [Crumbling Dreams] -scale l
+point 7057.142857142857 56247.619047619046 label -orientation 359.1 -text [Crumbling Dreams] -scale m
 
 point 5671.428571428572 54800.0 label -orientation 324.1 -text [Wetsuit Squeeze] -scale s
 

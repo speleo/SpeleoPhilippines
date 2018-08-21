@@ -9,7 +9,7 @@ export map -projection plan -o mountaineye_th1.pdf -layout Layout2
 
 # LAYOUT2
 layout Layout2
-  scale 1 1000				    # Sets the scale for / on exported maps. Default is 1: 200.
+  scale 1 500				    # Sets the scale for / on exported maps. Default is 1: 200.
   base-scale 1 100 				    # Customize font size this basic scale. Then enough to change the scale, ie without changing the font size
   doc-title "Mountain eye cave"     # Tagged in the PDF file
   doc-author "Mountain eye cavers"  # Tagged in the PDF file
