@@ -1,3 +1,0 @@
-encoding  utf-8
-source mountaineye5.th
-export map -projection plan -o mountaineye_th5.pdf
