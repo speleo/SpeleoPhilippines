@@ -1,0 +1,115 @@
+therion 5.4.1 (2017-04-18)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.34
+ 2> Copyright ¸ 1990-2017 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 15 survey stations, joined by 14 shots.
+ 6> There are 0 loops.
+ 7> Total length of survey shots =  144.70m ( 144.70m adjusted)
+ 8> Total plan length of survey shots =  143.90m
+ 9> Total vertical length of survey shots =   11.00m
+10> Vertical range = 4.21m (from 10 at 2.46m to 13 at -1.75m)
+11> North-South range = 82.88m (from 15 at 82.88m to 1 at 0.00m)
+12> East-West range = 67.23m (from 11 at 67.23m to 1 at 0.00m)
+13>    2 1-nodes.
+14>   13 2-nodes.
+15> 
+######################### transcription ########################
+ 3> 1 : 203.2@mountaineye23
+ 5> 15 : 203.16@mountaineye23 -- 14 : 203.15@mountaineye23
+10> 10 : 203.11@mountaineye23 -- 13 : 203.14@mountaineye23
+11> 15 : 203.16@mountaineye23 -- 1 : 203.2@mountaineye23
+12> 11 : 203.12@mountaineye23 -- 1 : 203.2@mountaineye23
+13> 2 : 203.3@mountaineye23
+14> 13 : 203.14@mountaineye23
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.01%
+writing mountaineye_th23.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  22 AUG 2018 14:08
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012] [4013]
+[Error: area borders l205-2901-2763 and l2-2811-2876 don't intersect in scrap M
+E23_scrapSP1@mountaineye23 (file mountaineye23.th2 [1995])]
+[Error: area borders l3-1456-1727 and l32-1066-1581 don't intersect in scrap ME
+23_scrapSP1@mountaineye23 (file mountaineye23.th2 [1652])]
+[Error: area borders l35-981-1497 and l31-1059-1438 don't intersect in scrap ME
+23_scrapSP1@mountaineye23 (file mountaineye23.th2 [1652])]
+[Error: area borders l70-883-1484 and l34-925-1489 don't intersect in scrap ME2
+3_scrapSP1@mountaineye23 (file mountaineye23.th2 [1652])]
+[Error: area borders l32-1066-1581 and l4-646-889 don't intersect in scrap ME23
+_scrapSP1@mountaineye23 (file mountaineye23.th2 [1652])]
+[Error: area borders l84-844-1515 and l85-982-1669 don't intersect in scrap ME2
+3_scrapSP1@mountaineye23 (file mountaineye23.th2 [1627])]
+[Error: area borders l34-925-1489 and l70-883-1484 don't intersect in scrap ME2
+3_scrapSP1@mountaineye23 (file mountaineye23.th2 [1627])] [1] [2] [3] [4] [5]
+(./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1109 strings out of 1162
+ 13560 string characters out of 20720
+ 220608 words of memory out of 1500000
+ 1387 symbolic tokens out of 16384
+ 11i,75n,16p,239b,5f stack positions out of 300i,84n,5000p,250b,15f
+ 41 string compactions (moved 444930 characters, 36365 strings)
+19 output files written: data.1 .. data.4013
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  22 AUG 2018 14:08
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 252 strings out of 95617
+ 2554 string characters out of 1171098
+ 443158 words of memory out of 1896136
+ 1665 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 166723 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.01%    0.21%  ME23_scrapSP1@mountaineye23
+################### end of scrap distortions ###################
