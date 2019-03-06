@@ -1,0 +1,4 @@
+encoding  utf-8
+source loverscavelatestth.th
+
+export model -fmt survex -o loverscavelatestth.3d

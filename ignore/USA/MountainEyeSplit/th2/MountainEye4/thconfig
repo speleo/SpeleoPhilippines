@@ -1,0 +1,13 @@
+encoding  utf-8
+source mountaineye4.th
+
+layout Layout
+  #Foreground color - turn on altitdude to see various heights
+  #colour map-fg [80 80 80]
+  #color map-fg altitude
+  #color-legend on
+  colour map-bg [70 90 70]
+  #sketches on 
+endlayout
+
+export map -projection plan -o mountaineye_th4.pdf -layout Layout

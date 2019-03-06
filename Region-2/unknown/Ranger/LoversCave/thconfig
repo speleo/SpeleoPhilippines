@@ -1,0 +1,49 @@
+encoding  utf-8
+source LoversCave.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o .\output\LoversCave.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o .\output\LoversCaveEe.pdf
+
+#export model -fmt kml -o .\output\LoversCave.kml
+#export map   -fmt kml -o .\output\LoversCave-map.kml
+
+
+#export model -fmt survex -o .\output\LoversCaveth.3d
+#Survex file showing centre line only
+
+#export model -o .\output\LoversCave.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o .\output\LoversCave_Walls.3d
+#Survex file showing walls only
+
+layout local
+  scale 1 1000
+  colour map-fg [80 80 80]
+  colour map-bg [70 90 70]
+  
+  #statistics topo-length on
+  #statistics explo-length on
+  statistics topo all
+  debug off
+  map-header 0 0 ne
+
+  symbol-set BCRA
+  symbol-hide group cave-centreline
+  legend on
+
+  code metapost
+    def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+  
+  endcode
+endlayout

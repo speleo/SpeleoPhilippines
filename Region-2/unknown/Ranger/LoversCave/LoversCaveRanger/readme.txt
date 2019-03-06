@@ -1,0 +1,1 @@
+This folder can probably be deleted as it just contains the early workings from Ranger trying to get his first survey working.

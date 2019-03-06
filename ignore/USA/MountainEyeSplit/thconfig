@@ -1,0 +1,197 @@
+encoding  utf-8
+source MountainEye.th
+
+# SELECT
+  # Use "select" to pick out those maps from settings.th that will be included in the cave survey
+  # The list below is maps consisting of scraps, and controls the order of layers in the PDF:
+  select mountaineye1@Mountaineye
+  select mountaineye2@Mountaineye
+  select mountaineye3@Mountaineye
+  select mountaineye4@Mountaineye
+  select mountaineye5@Mountaineye
+  select mountaineye20@Mountaineye
+  select mountaineye21@Mountaineye
+  select mountaineye22@Mountaineye
+  select mountaineye23@Mountaineye 
+  select cob@Mountaineye
+  select connection@Mountaineye
+
+# Exports Independant of Layout
+  export database                       -o export\MountaineyeDatabase.sql
+  export database                       -o export\MountaineyeDatabase.csv
+  export cave-list -location on         -o export\MountaineyeCaves.html
+  export survey-list                    -o export\MountaineyeSurveys.html
+  export continuation-list -filter off  -o export\MountaineyeQuestions.html
+  #export continuation-list -filter off -o export\MountaineyeQuestions.txt
+  #export continuation-list -filter off -o export\MountaineyeQuestions.dbf
+  #export continuation-list -filter off -o export\MountaineyeQuestions.kml
+  #export model                         -o export\MountaineyeModel.lox
+  #export model -format compass         -o export\MountaineyeModel.plt
+  #export model -format survex          -o export\MountaineyeModel.3d
+  #export model -format kml             -o export\MountaineyeModel.kml
+  #export map -format kml               -o export\MountaineyeMap1.kml
+  #export map -format xvi               -o export\MountaineyeMap1.xvi # scale 100 DPI and grid 1 meter.
+  export map -format survex             -o export\MountaineyeMap1.3d
+  
+# Exports Independant of Layout
+  # Survey based on LAYOUT:
+  export map   -o export\MountaineyeMap.pdf -layout Layout
+
+  # Survey based on DEBUG-Survey layout:
+  #export map   -o export\MountaineyeDebug.pdf -layout Debug
+  
+  export atlas -projection plan -o export\MountaineyeAtlas.pdf -layout Atlas
+
+#inject standard code for layouts
+  input ..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\CodeLibrary\_layouts.thc       # custom layouts 
+
+# LAYOUT
+layout Layout
+  scale 1 1500				    # Sets the scale for / on exported maps. Default is 1: 200.
+  base-scale 1 500 				    # Customize font size this basic scale. Then enough to change the scale, ie without changing the font size
+  doc-title "Mountain eye cave"     # Tagged in the PDF file
+  doc-author "Mountain eye cavers"  # Tagged in the PDF file
+  symbol-show group centerline
+  # debug station-names               # Displays all station names
+
+  #Foreground color - turn on altitdude to see various heights
+  #colour map-fg [80 80 80]
+  #color map-fg altitude
+  #color-legend on
+  colour map-bg [70 90 70]
+  #sketches on 
+  #debug scrap-names
+
+  symbol-hide line survey        # Hides the center line, including small centerline bits around the drives
+  symbol-hide point station      # Hides the symbol and name at the stations
+  
+ ### index of file options from _layouts.mp
+    copy custom_water_blue
+    #copy custom_entrance_theta
+    #copy custom_entrance_theta_large
+    copy custom_scalebar_large_format
+    #copy custom_scalebar_medium_format
+    #copy custom_scalebar
+    copy custom_legend_large_format
+    #copy custom_legend_large_format_5U
+    #copy custom_legend_large_format_20U
+    copy custom_grid_2_continuous
+    #copy custom_centerline_2_continuous
+    copy custom_bats
+    #copy custom_north_arrow_150
+    #copy custom_north_arrow_300
+    copy custom_north_arrow_600
+    #copy custom_northarrow_large
+    copy custom_line_doline
+  
+  ### index of file options from _layouts.tex
+    copy custom_colorlegendbox
+    copy custom_legendsymbolbox
+    copy custom_title_area_format
+    #copy custom_title_area_format_20
+    #copy custom_title_area_format_1000
+    #copy custom_logos
+
+  ### index of file options from _layouts.thc
+    copy custom_symbols
+    #copy custom_color
+    #copy custom_large_odessa
+    #copy custom_small_odessa
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    #fonts_setup(6,8,30,54,80);
+    # for scale 1:1000
+    fonts_setup(0.01,8,8,54,80);
+    
+  endcode      
+
+#################################################################
+#  
+#  TTTTTTT EEEEEEE XX    XX        MM    MM   AAA   PPPPPP  
+#    TTT   EE       XX  XX         MMM  MMM  AAAAA  PP   PP 
+#    TTT   EEEEE     XXXX   _____  MM MM MM AA   AA PPPPPP  
+#    TTT   EE       XX  XX         MM    MM AAAAAAA PP      
+#    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
+#
+################################################################# 
+  
+  code tex-map
+  \cavename={Mountain Eye - 2017}
+  \def\maplayout{
+    \legendbox{05}{97}{NW}{
+      \legendwidth 60 cm
+      \the\legendcontent
+      }
+    \legendbox{05}{83}{NW}{
+      \legendwidth 65 cm
+      \legendtextsize={\size[42]}
+      \hsize=\legendwidth
+      \input th_legend
+      }
+    \legendbox{05}{35}{NW}{
+      \legendwidth 65 cm
+      \legendtextsize={\size[42]}
+      \hsize=\legendwidth
+      \input th_legendcolor
+      }
+  }
+
+      
+endlayout
+
+layout Debug
+  debug on
+  scale 1 1000			
+  base-scale 1 1000 			
+  colour map-fg [100 100 100]	
+  colour map-bg [60 60 60]	
+endlayout
+
+layout Atlas	
+	scale 1 500
+	# rotate -45
+        color map-fg altitude  
+	overlap 1 cm       # overlap default 1cm
+	#page-setup 29.7 42 28.7 39 0.5 0.5 cm # A3 landscape
+	#page-setup paper-w paper-h page-w page-h left-m top-m 
+	page-setup 42 29.7 41 28.7 0.5 0.5 cm # A3 portrait
+	size 39 23.2 cm
+	#page-setup 57.4 42 41 28.7 0.5 0.5 cm # A3 portrait
+	#title-pages on
+        nav-factor 30
+        nav-size 1 1
+	surface off        # turns on or off surface bit-map
+   	#colour preview-below [100 0 100]   # greyscale or x y z colour
+   	#colour preview-above [100 0 100]   # greyscale or x y z colour
+	#symbol-hide group cave-centerline
+	#map-header 0 5 off  # turns on the map header positioned at (0,0)
+	scale-bar 50 m
+	#statistics topo-length on # per surveyor lengths
+	#statistics topo off # turns off list of surveyors
+	map-comment "Copyleft 2018"
+	#legend on         # turns on the symbol legend
+    	#legend-width 10 cm # printed size, based on scale
+	grid bottom
+	grid-size 10 10 10 m # x,y,z
+	#debug on
+	title-pages off
+	exclude-pages on 3,4,14,17,26,27,31,45,47,48,
+	code metapost #xs,s,m,l,xl
+        	fonts_setup(10,15,20,25,50);
+endlayout
