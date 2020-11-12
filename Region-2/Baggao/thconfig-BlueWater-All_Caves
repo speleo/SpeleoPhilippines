@@ -3,11 +3,11 @@ source BlueWater-All_Caves.th
 
 ### choose which exports to use
   export map -proj plan -layout local -o .\_output\BlueWater-All_Caves.pdf
-  #export map -fmt kml -proj plan -o .\_output\BlueWater-All_Caves.kml
-  #export model -fmt kml -o .\_output\BlueWater-All_Caves-model.kml
+  export map -fmt kml -proj plan -o .\_output\BlueWater-All_Caves.kml
+  export model -fmt kml -o .\_output\BlueWater-All_Caves-model.kml
 
   #Survex file showing centre line only
-  export model -o .\_output\Bluewater-System.3d -fmt survex
+  #export model -o .\_output\Bluewater-System.3d -fmt survex
   #export map   -o .\_output\Bluewater-System_Walls.3d -proj plan
   #export model -o .\_output\BlueWater-All_Caves.lox
   #export map   -o .\_output\BlueWater-All_Caves_map.lox

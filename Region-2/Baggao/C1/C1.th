@@ -6,6 +6,7 @@ input C1Ee.th2
 
 map C1_Main
   C1SP1
+  C1SP3
 endmap
 
 map C1_Lower
@@ -29,6 +30,7 @@ centreline
 
   #equate 3.0 2.6 
   #join 2.6 3.0
+  station 1.2 "C1" entrance
 
 copyright 2015 "GNU GPL"
 
@@ -41,7 +43,7 @@ copyright 2015 "GNU GPL"
   
   team "Henry Dawson" notes
   team "Laura Benn" instruments
-  station 1.0 "C1" entrance
+  #station 1.0 "C1" entrance
   instrument  instruments "UBSS DistoX1"
 
 data normal from to tape compass clino ignoreall

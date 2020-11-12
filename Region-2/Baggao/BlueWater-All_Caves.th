@@ -11,6 +11,7 @@ survey BlueWaterAllCaves
   input BlueWaterTopSink/BlueWater-Sink.th
   input pio_pot/pio_pot.th
   input surface/Bluewater_4.th
+  input C1/C1.th
   
   
   #  Handle the Joins between the surveys included above
