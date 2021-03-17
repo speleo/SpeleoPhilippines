@@ -104,14 +104,14 @@ layout local
 ###################################################################
 
   code metapost
-    
-    #input CodeLibrary/_grid_x_hair_to_continuos_line.mp
-    input CodeLibrary/_scalebar_small_format
-    #input CodeLibrary/_legend_large_format
-    input CodeLibrary/_water_blue
-    input CodeLibrary/_north_arrow_150
-    input CodeLibrary/_continuous_centerline
-       
+
+    #inputrel("..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
+    inputrel("..\..\..\CodeLibrary\_scalebar_medium_format.mp")
+    #inputrel("..\..\..\CodeLibrary\_legend_large_format.mp")
+    inputrel("..\..\..\CodeLibrary\_water_blue.mp")
+    inputrel("..\..\..\CodeLibrary\_north_arrow_150.mp")
+    inputrel("..\..\..\CodeLibrary\_continuous_centerline.mp")
+                     
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     fonts_setup(6,8,20,54,120);
@@ -169,7 +169,7 @@ layout local
       \legendbox{70}{83}{NW}{
         \the\legendcontent
         }
-      \legendbox{75}{35}{nw} {\loadpicture{images/Logo_BEC_300.png}}
+      \legendbox{75}{35}{nw} {\loadpicture{../../../images/Logo_BEC_300.png}}
       \legendbox{10}{90}{NW} {\northarrow}
     }
   

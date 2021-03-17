@@ -17,6 +17,12 @@ point 2080.75 1230.75 station -name 1.2
 
 point 2062.0 1344.0 station -name 1.1
 
+point 2127.75 1437.0 station -name 2.3
+
+point 2080.75 1230.75 station -name 2.2
+
+point 2062.0 1344.0 station -name 2.1
+
 line wall -close on
   2125.25 1445.25
   2119.75 1441.25 2114.75 1419.25 2107.75 1414.25

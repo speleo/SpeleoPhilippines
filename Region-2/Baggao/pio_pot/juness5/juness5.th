@@ -17,12 +17,7 @@ copyright 2017 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-	date 2005.07.06
-
-	team "Andrew Atkinson" notes
-	team "Alison Moody" instruments
-
-	instrument  instruments "UBSS DistoX1"
+date 2017.07.06
 
 data normal from to tape compass clino ignoreall
   extend right

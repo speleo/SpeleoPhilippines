@@ -11,7 +11,7 @@
 ## *.vtk
 #############
 
-thTMPDIR/
+*thTMPDIR/
 *~
 8.*~
 .xtherion.dat

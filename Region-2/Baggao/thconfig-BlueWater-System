@@ -148,19 +148,10 @@ layout local
 ################################################################# 
 
   code tex-map
+
   \copyrights={Survey: Copyleft Creative Commons ShareAlike / Images: Copyright of photographer}
   \cavename={Blue Water System}
   \topoteam={Allan Tan, Anya Keatley, Buddy Acenas, Ellen Cooper, Hannah Bennett, Hellie Adams, Henry Bennett, Henry Dawson, Josh Bratchley, Laura Benn, Lucy Greenwood, Mark Dia, Matt Palmer, Mertz Certifico, Mitch Bruce, Nelson Pingay, Nick Gymer, Oliver Legg, Paul Fairman, Ranger Marquez, Rap Rios, Rich Smith, Rob Adams, Rob Bruce, Rufus Allan, Sarah Payne, Steven Fairman, Stu Gardiner, Bristol Exploration Club, Gaia Exploration Club, Sierra Madre Outdoor Club.   Crafted in Therion by Henry Bennett}
-  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
-    #\legendbox{1} {77} {nw} {
-    #  \legendwidth 70 cm
-    #  \size[200]\the\cavename
-    #  \vskip1cm
-    #  \ifscalebar\scalebar\vskip1cm\fi
-    #  \size[44]\the\comment
-    #  \size[44]\the\cavelengthtitle: \the\cavelength\vskip 0pt
-    #  \size[44]\the\cavedepthtitle: \the\cavedepth
-    #}
 
    #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
     \legendcontent={%

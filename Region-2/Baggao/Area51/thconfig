@@ -74,13 +74,13 @@ layout local
 ###################################################################
 
   code metapost
-    
-    #input CodeLibrary/_grid_x_hair_to_continuos_line.mp
-    input CodeLibrary/_scalebar_small_format
-    #input CodeLibrary/_legend_large_format
-    input CodeLibrary/_water_blue
-    input CodeLibrary/_north_arrow_150
-    input CodeLibrary/_continuous_centerline
+      
+    #inputrel("..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
+    inputrel("..\..\..\CodeLibrary\_scalebar_medium_format.mp")
+    #inputrel("..\..\..\CodeLibrary\_legend_large_format.mp")
+    inputrel("..\..\..\CodeLibrary\_water_blue.mp")
+    inputrel("..\..\..\CodeLibrary\_north_arrow_150.mp")
+    inputrel("..\..\..\CodeLibrary\_continuous_centerline.mp")
        
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
@@ -133,15 +133,14 @@ layout local
     }
     \formattedlegend
   }  
-    \cavename={Area 51 (s1)}
+    \cavename={Area 51 (S1)}
     \copyrights={Copyleft Creative Commons ShareAlike }
     \def\maplayout{
       \legendbox{80}{83}{NW}{
         \the\legendcontent
         }
-      \legendbox{98}{47}{nw} {\loadpicture{images/Logo_BEC_300.png}}
+      \legendbox{98}{37}{nw} {\loadpicture{../../../images/Logo_BEC_300.png}}
       \legendbox{05}{65}{NW} {\northarrow}
-
     }
   
     

@@ -25,7 +25,6 @@ export model -fmt survex -o ./output/C1th.3d
 #export map -proj plan -o C1_Walls.3d
 #Survex file showing walls only
 
-
 layout local
   scale-bar 50 m
 
@@ -72,14 +71,15 @@ layout local
 #
 ###################################################################
 
+
   code metapost
     
-    input CodeLibrary/_grid_x_hair_to_continuos_line
-    input CodeLibrary/_scalebar_medium_format
-    #input CodeLibrary/_legend_large_format
-    input CodeLibrary/_water_blue
-    input CodeLibrary/_north_arrow_150
-    input CodeLibrary/_continuous_centerline
+    inputrel("..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
+    inputrel("..\..\..\CodeLibrary\_scalebar_medium_format.mp")
+    #inputrel("..\..\..\CodeLibrary\_legend_large_format.mp")
+    inputrel("..\..\..\CodeLibrary\_water_blue.mp")
+    inputrel("..\..\..\CodeLibrary\_north_arrow_150.mp")
+    inputrel("..\..\..\CodeLibrary\_continuous_centerline.mp")
    
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
@@ -100,10 +100,10 @@ layout local
   code tex-map
   \copyrights={Copyleft Creative Commons ShareAlike}
   \cavename={C1}
-  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+  #\def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
     \legendbox{0}{100}{NW}{\northarrow}
-    \legendbox{88}{75}{nw} {\loadpicture{images/Logo_BEC_400.png}}
+    \legendbox{88}{75}{nw} {\loadpicture{../../../images/Logo_BEC_400.png}}
     \legendbox{65}{99}{NW}{
       \legendwidth 35 cm
       \the\legendcontent

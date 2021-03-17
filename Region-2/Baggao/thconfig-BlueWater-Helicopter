@@ -9,13 +9,12 @@ unselect twiglet.bluewater.BlueWater-Helicopter
   #export model -fmt kml -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter.kml
   #export atlas -proj plan -layout 600 -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter_Atlas.pdf
   #export model -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter.lox -enable surface
-  export model -output .\_output\Bluewater-Helicopter\BlueWater-Helicopter.3d
 
   #Survex file showing centre line only
-  #export model -fmt survex -o .\_output\Bluewater-Helicopter\bluewater-Helicopter-survex.3d
-  #export model -format esri
-  #export model -format dxf
-  
+   export model -format survex -o .\_output\Bluewater-Helicopter\bluewater-Helicopter-survex.3d
+   #export model -format esri -o .\_output\Bluewater-Helicopter\bluewater-Helicopter-ESRI.3d
+   #export model -format dxf -o .\_output\Bluewater-Helicopter\bluewater-Helicopter-dxf.3d
+
 #inject standard code for layouts
   input ..\..\CodeLibrary\_translations.txt  # custom translations
   input ..\..\CodeLibrary\_layouts.mp        # custom Metapost
@@ -155,7 +154,8 @@ layout 600
       \hsize=\legendwidth
       \input th_legendcolor
       }
-  \legendbox{34}{30}{nw} {\loadpicture{images/Logo_BEC_1250.png}}
+  \legendbox{34}{30}{nw} {\loadpicture{../../images/Logo_BEC_1250.png}}
+ #\legendbox{18}{90}{nw} {\loadpicture{../../images/Logo_BEC_1250.png}}
   }
 
    #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map

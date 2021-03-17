@@ -543,6 +543,7 @@ line border -id l94-1836-1799 -subtype invisible
   1873.0 1862.0
   1873.0 1862.0 1822.0 1781.0 1820.0 1763.0
   1818.0 1745.0 1803.0 1635.0 1806.0 1629.0
+  smooth off
 endline
 
 line wall -id l93-2295-1954 -subtype unsurveyed
@@ -598,6 +599,7 @@ line label -text [Lipit Gorge]
   1232.0 5332.0 1172.0 3604.0 1176.0 3536.0
   1180.0 3468.0 1108.0 2012.0 1068.0 1856.0
   1028.0 1700.0 896.0 776.0 896.0 704.0
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -610,6 +612,8 @@ line wall -subtype presumed
   1526.0 5485.0 1530.0 5813.0 1530.0 5813.0
   smooth off
 endline
+
+point 1938.0 3086.0 remark -text [In summer all the water in the <br>canyon comes from the cave] -align bottom-right -scale m
 
 line wall -reverse on -outline in -subtype presumed
   1488.0 4116.0

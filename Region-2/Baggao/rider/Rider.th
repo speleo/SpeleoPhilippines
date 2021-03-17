@@ -3,12 +3,8 @@ survey riders -title "Riders' Cave"
 
 input "Rider plan.th2"
 input "Rider ee.th2"
-
-
-
-  
+ 
   centreline
-
 
   team "Rich Smith" notes
   team "Ruth Allan" instruments
@@ -18,7 +14,6 @@ input "Rider ee.th2"
   team "Josh Bratchley" dog
 
   date 2017.04.17
-
 
     data normal from to length compass clino
     

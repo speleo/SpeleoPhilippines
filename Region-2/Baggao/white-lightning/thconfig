@@ -8,24 +8,22 @@ source whitelightning.th
 #select WhiteLightningMap@white_lightning
 #select WhiteLightningMap_Label@white_lightning
 
+### choose which exports to use
+  export map -proj plan -layout plan -o .\_output\WhiteLightening.pdf
+  #export map -proj extended -layout local -o .\_output\WhiteLighteningEe.pdf
+  #export map -fmt kml -proj plan -o .\_output\WhiteLightening.kml
+  #export model -fmt kml -o .\_output\WhiteLightening-model.kml
 
-#Surveys to output
-#-----------------
-  export model -fmt survex -o ./_output/whitelightning_minty_model.3d
-
-  export map -proj plan -layout local -o ./_output/whitelightning_minty.pdf
-  #Produces plan of cave, on a single sheet
-
-  #export map -proj extended -layout local -o ./_output/whitelightning_mintyEe.pdf
-
-  export model -fmt survex -o ./_output/whitelightning_minty.3d
   #Survex file showing centre line only
-
-  #export model -o ./_output/whitelightning_minty.lox
-  #3d therion model to be viewed in the therion viewer
-
-  #export map -proj plan -o ./_output/whitelightning_minty_Walls.3d
-  #Survex file showing walls only
+  #export model -o .\_output\WhiteLightening.3d -fmt survex
+  #export map   -o .\_output\WhiteLightening_Walls.3d -proj plan
+  #export model -o .\_output\WhiteLightening.lox
+  #export map   -o .\_output\WhiteLightening_map.lox
+  #export model -o .\_output\WhiteLightening -format esri
+  #export model -o .\_output\WhiteLightening -format dxf
+  #export model -o .\_output\WhiteLightening.vrml
+  #export model -o .\_output\WhiteLightening.3dmf
+  #export model -o .\_output\WhiteLightening.plt
   
 #inject standard code for layouts
   input ..\..\..\CodeLibrary\_translations.txt  # custom translations
@@ -33,7 +31,7 @@ source whitelightning.th
   input ..\..\..\CodeLibrary\_layouts.tex       # custom tex
   input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
   
-layout local
+layout plan
   scale 1 300
   scale-bar 100 m
 
@@ -130,9 +128,9 @@ layout local
       \hsize=\legendwidth
       \input th_legendcolor
       }
-    #\legendbox{12} {19} {nw} {\loadpicture{images/Logo_BEC_400.png}}
-    #\legendbox{33} {60} {nw} {\loadpicture{images/Logo_GaiaEC_1000.jpg}}
-    #\legendbox{42} {20} {nw} {\loadpicture{images/Logo_SMOC_400.png}}
+    \legendbox{12} {19} {nw} {\loadpicture{../../../images/Logo_BEC_400.png}}
+    \legendbox{33} {60} {nw} {\loadpicture{../../../images/Logo_GaiaEC_1000.jpg}}
+    \legendbox{42} {20} {nw} {\loadpicture{../../../images/Logo_SMOC_400.png}}
   }
 
   endcode #end of TeX code

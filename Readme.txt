@@ -10,8 +10,8 @@ Unless noted otherwise all data was collected with DistoX2 with PocketTopo.  Raw
 
 Surveys have been created using Therion caving mapping software.  Therion is an free and open-source cave surveying software, designed to process survey data; generate maps and 3D models of caves; and archive the data describing the cave and the history of exploration.  It is available from https://therion.speleo.sk/
 
-Therion modifications
----------------------
+Therion modifications - No longer needed as of 17/03/2021
+----------------------------------------------------------
 To make the data portable relative paths have been used.
 Complile will fail unless you declare the root source in the texmf.cnf file which is located in \therion\texmf\web2c folder
 
@@ -26,4 +26,4 @@ You may find that you are unable to save the texmf.cnf file unless you edit it a
 
 All I want is the Survey Output
 -------------------------------
-If you are just looking for the survey output you will find it in "output" folders.  Simply navigate the tree to where you want to go and look for the pdf files.  Some surveys have multiple outputs.  Refer to the Therion thbook for what this means and how to view them.
+If you are just looking for the survey output you will find it in "_output" folders.  Simply navigate the tree to where you want to go and look for the pdf files.  Some surveys have multiple outputs.  Refer to the Therion thbook for what this means and how to view them.

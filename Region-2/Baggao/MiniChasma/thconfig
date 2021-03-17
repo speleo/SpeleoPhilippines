@@ -6,22 +6,22 @@ source Minichasma.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ./output/Minichasma.pdf
+export map -proj plan -layout local -o ./_output/Minichasma.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o MinichasmaEe.pdf
+export map -proj extended -layout local -o .\_output\MinichasmaEe.pdf
 
-export map -fmt kml -proj plan -layout local -o .\output\Minichasma-map.kml
-export model -fmt kml -o .\output\Minichasma.kml
+export map -fmt kml -proj plan -layout local -o .\_output\Minichasma-map.kml
+export model -fmt kml -o .\_output\Minichasma.kml
 
 
 #Survex file showing centre line only
-export model -fmt survex -o .\output\Minichasma.3d
+export model -fmt survex -o .\_output\Minichasma.3d
 
-#export model -o Minichasma.lox
+#export model -o .\_output\Minichasma.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Minichasma_Walls.3d
+#export map -proj plan -o .\_output\Minichasma_Walls.3d
 #Survex file showing walls only
 
 layout local
@@ -72,14 +72,14 @@ layout local
 ###################################################################
 
   code metapost
-    
-    input CodeLibrary/_grid_x_hair_to_continuos_line
-    input CodeLibrary/_scalebar_medium_format
-    #input CodeLibrary/_legend_large_format
-    input CodeLibrary/_water_blue
-    input CodeLibrary/_north_arrow_150
-    input CodeLibrary/_continuous_centerline
-   
+
+    inputrel("..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
+    inputrel("..\..\..\CodeLibrary\_scalebar_medium_format.mp")
+    #inputrel("..\..\..\CodeLibrary\_legend_large_format.mp")
+    inputrel("..\..\..\CodeLibrary\_water_blue.mp")
+    inputrel("..\..\..\CodeLibrary\_north_arrow_150.mp")
+    inputrel("..\..\..\CodeLibrary\_continuous_centerline.mp")
+             
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     fonts_setup(6,8,16,54,80);
@@ -99,10 +99,9 @@ layout local
   code tex-map
   \copyrights={Copyleft Creative Commons ShareAlike}
   \cavename={Minichasma}
-  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
     \legendbox{90}{100}{NW}{\northarrow}
-    \legendbox{35}{50}{nw} {\loadpicture{images/Logo_BEC_400.png}}
+    \legendbox{35}{50}{nw} {\loadpicture{../../../images/Logo_BEC_400.png}}
     \legendbox{65}{63}{NW}{
       \legendwidth 20 cm
       \the\legendcontent
@@ -113,11 +112,6 @@ layout local
       \hsize=\legendwidth
       \input th_legend
       }
-  #  \legendbox{0} {100} {S}  {\loadpicture{images/sitckers-type4.jpg}}        %%% pdf, png, jpg supported
-  #\legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
-  # \legendbox{55} {5} {nw} {\loadpicture{images/Logo_BC_1250.png}}
-  #\legendbox{65} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
-  
     
   }  
 
