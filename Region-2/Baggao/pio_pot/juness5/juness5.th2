@@ -224,7 +224,7 @@ line border -id l29-667-1680 -close on -reverse on -subtype invisible
   661.46 1696.87 655.21 1692.71 668.75 1680.2083333333335
 endline
 
-point 1167.7083333333333 1770.8333333333335 label -align right -text [pitch 8m] -scale s
+point 1167.7083333333333 1770.8333333333335 label -orientation 45 -align right -text [pitch 8m] -scale s
 
 line pit -reverse on
   931.5 1929.0

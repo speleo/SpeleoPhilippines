@@ -129,7 +129,7 @@ line border -reverse on
   smooth off
 endline
 
-point 977.8846153846154 2698.076923076923 label -scale s -align right -text [pitch 5m]
+point 977.8846153846154 2698.076923076923 label -orientation 45 -scale s -align right -text [pitch 5m]
 
 point 2214.423076923077 5520.192307692308 water-flow -orientation 219.0
 
@@ -155,9 +155,9 @@ line chimney -close on
   1513.46 3871.15 1517.31 3872.12 1526.923076923077 3867.3076923076924
 endline
 
-point 961.5384615384617 2436.5384615384614 label -scale s -align right -text [pitch 7.5m]
+point 961.5384615384617 2436.5384615384614 label -orientation 45 -scale s -align right -text [pitch 7.5m]
 
-point 649.0384615384615 1481.7307692307693 label -scale s -text [pitch 6m] -align top-left
+point 649.0384615384615 1481.7307692307693 label -orientation 45.0 -scale s -text [pitch 6m] -align top-left
 
 line border -close on
   912.0454545454545 1590.9090909090908

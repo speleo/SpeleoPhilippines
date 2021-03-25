@@ -6,10 +6,10 @@ source juness3.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o .\_output\juness3.pdf
+#export map -proj plan -layout local -o .\_output\juness3.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o .\_output\juness3Ee.pdf
+export map -proj extended -layout local -o .\_output\juness3Ee.pdf
 
 export model -fmt survex -o .\_output\juness3th.3d
 #Survex file showing centre line only

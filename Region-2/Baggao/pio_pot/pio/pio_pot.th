@@ -8,10 +8,12 @@ input pio_potEe.th2
 
 map pio_potM
   pio_potSP1
+  pio_potSP2
 endmap
 
 map pio_potME
   pio_potSE1
+  pio_potSE2
 endmap
 centreline
 

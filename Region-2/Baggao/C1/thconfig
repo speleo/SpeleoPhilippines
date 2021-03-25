@@ -2,35 +2,59 @@ encoding  utf-8
 source C1.th
 # Change name to the main therion file
 
+#select map_print@C1
 
-#Surveys to output
-#-----------------
+source
+#!CODE
+map m12
+  C1_Main@C1
+  #break
+  C1_Lower@C1 [0 25 m] below
+  #preview below C1_Main@C1
+endmap
+#!ENDCODE
+endsource
 
-select map_print@C1
-export map -proj plan -layout local -o ./output/C1.pdf
-#Produces plan of cave, on a single sheet
+select m12
 
-select C1ME@C1
-export map -proj extended -layout local -o ./output/C1Ee.pdf
+### choose which exports to use
+  export map -proj plan -layout test -o .\_output\C1.pdf
+  #export map -proj extended -layout local -o .\_output\C1Ee.pdf
+  #export map -fmt kml -proj plan -o .\_output\C1.kml
+  #export model -fmt kml -o .\_output\C1-model.kml
 
-export map -fmt kml -proj plan -layout local -o .\output\C1-map.kml
-export model -fmt kml -o .\output\C1.kml
+  #Survex file showing centre line only
+  #export model -o .\_output\C1.3d -fmt survex
+  #export map   -o .\_output\C1_Walls.3d -proj plan
+  #export model -o .\_output\C1.lox
+  #export map   -o .\_output\C1_map.lox
+  #export model -o .\_output\C1 -format esri
+  #export model -o .\_output\C1 -format dxf
+  #export model -o .\_output\C1.vrml
+  #export model -o .\_output\C1.3dmf
+  #export model -o .\_output\C1.plt
+  
+#inject standard code for layouts
+  input ..\..\..\CodeLibrary\_translations.txt  # custom translations
+  input ..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
 
-export model -fmt survex -o ./output/C1th.3d
-#Survex file showing centre line only
-
-#export model -o C1.lox
-#3d therion model to be viewed in the therion viewer
-
-#export map -proj plan -o C1_Walls.3d
-#Survex file showing walls only
+layout test
+  scale 1 150
+  map-header 0 0 off
+  #symbol-hide group centerline
+  color map-fg [100 100 80]
+  #origin -10 -10 0 m
+endlayout
 
 layout local
+  scale 1 150
   scale-bar 50 m
 
   #Foreground color - turn on altitdude to see various heights
-  #colour map-fg [80 80 80]
-  color map-fg altitude
+  color map-fg [80 80 80]
+  #color map-fg altitude
   
   language en
   statistics topo-length off
@@ -53,13 +77,45 @@ layout local
   symbol-assign line slope SKBB
   
   legend on
-  legend-columns 2
+  legend-columns 4
   legend-width 15 cm
   colour-legend on
   grid bottom
   grid-coords border
   #sketches on
   
+  ### index of file options from _layouts.mp
+    copy custom_water_blue
+    #copy custom_entrance_theta
+    #copy custom_entrance_theta_large
+    #copy custom_scalebar_large_format
+    copy custom_scalebar_medium_format
+    #copy custom_scalebar
+    #copy custom_legend_large_format
+    copy custom_legend_large_format_5U
+    #copy custom_legend_large_format_20U
+    copy custom_grid_2_continuous
+    copy custom_centerline_2_continuous
+    copy custom_bats
+    copy custom_north_arrow_150
+    #copy custom_north_arrow_300
+    #copy custom_north_arrow_600
+    #copy custom_northarrow_large
+    copy custom_line_doline
+  
+  ### index of file options from _layouts.tex
+    copy custom_colorlegendbox
+    copy custom_legendsymbolbox
+    #copy custom_title_area_format
+    #copy custom_title_area_format_20
+     copy custom_title_area_format_1000
+    #copy custom_logos
+
+  ### index of file options from _layouts.thc
+    copy custom_symbols
+    copy custom_color
+    #copy custom_large_odessa
+    #copy custom_small_odessa
 
 ###################################################################
 #
@@ -73,13 +129,6 @@ layout local
 
 
   code metapost
-    
-    inputrel("..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
-    inputrel("..\..\..\CodeLibrary\_scalebar_medium_format.mp")
-    #inputrel("..\..\..\CodeLibrary\_legend_large_format.mp")
-    inputrel("..\..\..\CodeLibrary\_water_blue.mp")
-    inputrel("..\..\..\CodeLibrary\_north_arrow_150.mp")
-    inputrel("..\..\..\CodeLibrary\_continuous_centerline.mp")
    
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);

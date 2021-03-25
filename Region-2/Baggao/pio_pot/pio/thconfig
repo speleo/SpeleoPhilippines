@@ -2,33 +2,41 @@ encoding  utf-8
 source pio_pot.th
 # Change name to the main therion file
 
-
-#Surveys to output
-#-----------------
-
+### choose which exports to use
   export map -proj plan -layout local -o .\_output\pio_pot.pdf
-  #Produces plan of cave, on a single sheet
-
   #export map -proj extended -layout local -o .\_output\pio_potEe.pdf
+  #export map -fmt kml -proj plan -o .\_output\pio_pot.kml
+  #export model -fmt kml -o .\_output\pio_pot-model.kml
 
-  export map -fmt kml -proj plan -layout local -o .\_output\pio_pot-map.kml
-  export model -fmt kml -o .\_output\pio_pot.kml
-
-  export model -fmt survex -o .\_output\pio_potth.3d
   #Survex file showing centre line only
-
-  #export model -o .\output\_pio_pot.lox
-  #3d therion model to be viewed in the therion viewer
-
-  #export map -proj plan -o .\_output\pio_pot_Walls.3d
-  #Survex file showing walls only
+  #export model -o .\_output\pio_pot.3d -fmt survex
+  #export map   -o .\_output\pio_pot_Walls.3d -proj plan
+  #export model -o .\_output\pio_pot.lox
+  #export map   -o .\_output\pio_pot_map.lox
+  #export model -o .\_output\pio_pot -format esri
+  #export model -o .\_output\pio_pot -format dxf
+  #export model -o .\_output\pio_pot.vrml
+  #export model -o .\_output\pio_pot.3dmf
+  #export model -o .\_output\pio_pot.plt
+  
+#inject standard code for layouts
+  input ..\..\..\..\CodeLibrary\_translations.txt  # custom translations
+  input ..\..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
 
 layout local
-  scale 1 100
-  base-scale 1 100
+  scale 1 1500
+  base-scale 1 1500
+  #scale-bar 20 m
+endlayout
+
+layout plan
+  scale 1 500
+  base-scale 1 500
   scale-bar 20 m
   
-  #Foreground color - turn on altitdude to see various heights
+  #Foreground color - turn on altitude to see various heights
   colour map-fg [80 80 80]
   #color map-fg altitude
   #colour map-bg [70 90 70]
@@ -63,6 +71,39 @@ layout local
   grid-coords border
   #sketches on
   
+  ### index of file options from _layouts.mp
+    copy custom_water_blue
+    #copy custom_entrance_theta
+    #copy custom_entrance_theta_large
+    #copy custom_scalebar_large_format
+    copy custom_scalebar_medium_format
+    #copy custom_scalebar
+    #copy custom_legend_large_format
+    copy custom_legend_large_format_5U
+    #copy custom_legend_large_format_20U
+    copy custom_grid_2_continuous
+    copy custom_centerline_2_continuous
+    copy custom_bats
+    copy custom_north_arrow_150
+    #copy custom_north_arrow_300
+    #copy custom_north_arrow_600
+    #copy custom_northarrow_large
+    copy custom_line_doline
+  
+  ### index of file options from _layouts.tex
+    copy custom_colorlegendbox
+    copy custom_legendsymbolbox
+    #copy custom_title_area_format
+    #copy custom_title_area_format_20
+    copy custom_title_area_format_1000
+    #copy custom_logos
+
+  ### index of file options from _layouts.thc
+    copy custom_symbols
+    copy custom_color
+    #copy custom_large_odessa
+    #copy custom_small_odessa
+  
 ###################################################################
 #
 # MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
@@ -74,18 +115,9 @@ layout local
 ###################################################################
 
   code metapost
-    
-    #input CodeLibrary/_grid_x_hair_to_continuos_line.mp
-    input CodeLibrary/_scalebar_small_format
-    #input CodeLibrary/_legend_large_format
-    input CodeLibrary/_water_blue
-    input CodeLibrary/_north_arrow_150
-    input CodeLibrary/_continuous_centerline
-       
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     fonts_setup(6,8,20,54,120);
-  
   endcode
   
 #################################################################
@@ -139,7 +171,7 @@ layout local
       \legendbox{10}{93}{NW}{
         \the\legendcontent
         }
-      \legendbox{76}{10}{nw} {\loadpicture{images/Logo_BEC_300.png}}
+      #\legendbox{76}{10}{nw} {\loadpicture{images/Logo_BEC_300.png}}
       \legendbox{75}{45}{NW} {\northarrow}
 
     }

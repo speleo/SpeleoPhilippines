@@ -10,34 +10,63 @@
 layout custom_colorlegendbox
   #http://therion.speleo.sk/wiki/doku.php/tips#map-image_and_custom_legendbox
   code tex-map
+%        \newbox\zzz
+
+%	\newbox\zzztmpboxa
+%	\newbox\zzztmpboxb
+
+%	\newdimen\zzzlegendsymbolwd
+%	\newdimen\zzzlegendsymbolht \zzzlegendsymbolht=12pt
+%	\newdimen\zzztmpdimen
+
+
+%  \vskip1cm{\the\legendtextsectionsize\the\colorlegendtitle}\bigskip
+
         \def\colorlegendbox#1{%
-           \setbox\xxx=\hbox to 36bp{\PL{q #1 0 0 36 24 re f Q}\hfil}%
-           \ht\xxx=25bp
-           \dp\xxx=0bp
-	   \wd\xxx=36bp
-           \immediate\pdfxform resources{/ExtGState \the\resid\space 0 R \colorres}\xxx
+
+	  \setbox\xxx=\hbox to 36bp{%
+	     \PL{q #1 0 0 36 24 re f Q}\hfil}%
+	     \ht\xxx=25bp%
+	     \dp\xxx=0bp%
+	     \immediate\pdfxform resources{/ExtGState \the\resid\space 0 R \colorres}\xxx%
+
+%           \setbox\zzz=\hbox to 36bp{\PL{q #1 0 0 36 24 re f Q}}%
+%           \ht\zzz=25bp%
+%           \dp\zzz=0bp%
+%	   \wd\zzz=36bp
+%           \immediate\pdfxform resources{/ExtGState \the\resid\space 0 R \colorres}\zzz%
         }
 
 
-	\def\colorlegendboxDuff#1#2{%
-	  \setbox\tmpboxa=\hbox to 36bp{\PL{q #1 0 0 36 24 re f Q}\hfil}%
+	\def\colorlegendboxduf#1{%
+	  \setbox\zzztmpboxa=\hbox{\pdfxform#1}%
 
-	  \setbox\tmpboxb=\hbox{\the\legendtextsize(}%
-	  \legendsymbolwd=\wd\tmpboxa
-	  \legendsymbolht=\ht\tmpboxa
-	  \advance\legendsymbolht by -\ht\tmpboxb
-	  \advance\legendsymbolht by -\ht\tmpboxb % Variant - added
-	  \advance\legendsymbolht by -20pt        % Variant - added
-	  \advance\legendsymbolht by -1dd
-	  \tmpdimen=\hsize
-	    \advance\tmpdimen by 10pt 
-	    \divide\tmpdimen by\legendcolumns 
-	    \advance\tmpdimen by-10pt
-	  \hbox to \tmpdimen{%
-	     \box\tmpboxa\kern10pt\raise\legendsymbolht\vtop{%
-	       \advance\tmpdimen by -\legendsymbolwd
-	       \advance\tmpdimen by -10pt
-	       \hsize=\tmpdimen\rightskip=0pt plus \tmpdimen minus 0pt\relax\the\legendtextsize #2\vskip1dd}\hss}%
+%	  \setbox\zzztmpboxa=\hbox to 236bp{\PL{q #1 0 0 36 24 re f Q}\hfil}%
+
+%	  \setbox\zzztmpboxb=\hbox{\the\legendtextsize(}%
+%	  \zzzlegendsymbolwd=\wd\zzztmpboxa
+%	  \zzzlegendsymbolht=\ht\zzztmpboxa
+%	  \advance\zzzlegendsymbolht by -\ht\zzztmpboxb  % shortens
+%	  \advance\zzzlegendsymbolht by -\ht\zzztmpboxb % Variant - added
+%	  \advance\zzzlegendsymbolht by -20pt        % Variant - added
+%	  \advance\zzzlegendsymbolht by -1dd
+	  \zzztmpdimen=5pt                           % was \hsize    
+%	    \advance\zzztmpdimen by 10pt 
+%	    \divide\zzztmpdimen by\legendcolumns 
+%	    \advance\zzztmpdimen by-10pt
+%	  \hbox to \zzztmpdimen{%
+	     \box\zzztmpboxa
+%		\kern100cm
+		\raise10cm %\zzzlegendsymbolht
+%		\vtop{%
+%	       		\advance\zzztmpdimen by -\zzzlegendsymbolwd
+%	       		\advance\zzztmpdimen by -10pt
+%	       		\hsize=\zzztmpdimen\rightskip=30pt 
+%				plus \zzztmpdimen 
+%				minus 0pt\relax\the\legendtextsize 
+%				\vskip1dd
+%	      	     }\hss
+%	   }%
 	}
 
   endcode
@@ -65,6 +94,11 @@ layout custom_legendsymbolbox
 	       \advance\tmpdimen by -\legendsymbolwd
 	       \advance\tmpdimen by -10pt
 	       \hsize=\tmpdimen\rightskip=0pt plus \tmpdimen minus 0pt\relax\the\legendtextsize #2\vskip1dd}\hss}%
+
+	  \advance\legendsymbolht by \ht\tmpboxb % Variant - added
+	  \advance\legendsymbolht by 20pt        % Variant - added
+	\box\tmpboxa\kern10pt\raise\legendsymbolht\vtop{}%
+
 	}
   endcode
 endlayout

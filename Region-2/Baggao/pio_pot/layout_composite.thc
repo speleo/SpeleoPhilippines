@@ -1,47 +1,15 @@
-encoding  utf-8
-source pio_pot.th
-# Change name to the main therion file
-
-### choose which exports to use
-
-  export map -proj extended -layout extended  -o .\_output\junessEe.pdf
-  export map -proj plan     -layout composite -o .\_output\juness_composite.pdf
-  export map -proj plan     -layout plan      -o .\_output\juness.pdf
-
-  #export map -fmt kml -proj plan -o .\_output\juness.kml
-  #export model -fmt kml -o .\_output\juness-model.kml
-
-  #Survex file showing centre line only
-  #export model -o .\_output\juness.3d -fmt survex
-  #export map   -o .\_output\juness_Walls.3d -proj plan
-  #export model -o .\_output\juness.lox
-  #export map   -o .\_output\juness_map.lox
-  #export model -o .\_output\juness -format esri
-  #export model -o .\_output\juness -format dxf
-  #export model -o .\_output\juness.vrml
-  #export model -o .\_output\juness.3dmf
-  #export model -o .\_output\juness.plt
-  
-#inject standard code for layouts
-  input ..\..\..\CodeLibrary\_translations.txt  # custom translations
-  input ..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
-  input ..\..\..\CodeLibrary\_layouts.tex       # custom tex
-  input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
-  input layout_composite.thc       # custom layouts 
-  input layout_extended.thc       # custom layouts 
-
-
-layout plan
-  scale 1 200
-  base-scale 1 200
+layout composite
+  scale 1 300
+  base-scale 1 300
   scale-bar 50 m
   rotate 270
   #symbol-hide group text
   
+  map-image 10 10 ne junessEe.pdf
   
   #Foreground color - turn on altitdude to see various heights
   #colour map-fg [80 80 80]
-  #color map-fg altitude
+  color map-fg altitude
   #colour map-bg [70 90 70]
   
   language en
@@ -106,7 +74,7 @@ layout plan
 
   ### index of file options from _layouts.thc
     copy custom_symbols
-    #copy custom_color
+    copy custom_color
     #copy custom_large_odessa
     #copy custom_small_odessa
 
@@ -145,21 +113,29 @@ layout plan
     \copyrights={Copyleft Creative Commons ShareAlike}
     \cavename={Juness (Pio's Pot)}
     \def\maplayout{
-      \legendbox{40}{95}{NW}{
-        \legendwidth 45 cm
+      \legendbox{0}{35}{NW}{
+        \legendwidth 30 cm
         \the\legendcontent
         }
-      \legendbox{5}{30}{NW}{
+      \legendbox{40}{97}{NW}{
         \legendwidth 50 cm
         \legendtextsize={\size[20]}
         \hsize=\legendwidth
         \input th_legend
         }
+      \legendbox{40}{65}{NW}{
+        \legendwidth 10 cm
+        \legendtextsize={\size[20]}
+        \hsize=\legendwidth
+        \input th_legendcolor
+        }  
 
-      \legendbox{40} {65} {NW} {\loadpicture{../../../images/Logo_BEC_400.png}}  
-      \legendbox{50} {60} {nw} {\loadpicture{../../../images/Logo_GaiaEC_150.jpg}}
-      \legendbox{59} {61}  {nw} {\loadpicture{../../../images/Logo_SMOC_600.png}}
+      \legendbox{30} {11} {NW} {\loadpicture{../../../images/Logo_BEC_300.png}}  
+      \legendbox{40} {5} {nw} {\loadpicture{../../../images/Logo_GaiaEC_150.jpg}}
+      \legendbox{49} {6}  {nw} {\loadpicture{../../../images/Logo_SMOC_600.png}}
+      \legendbox{44} {45}  {nw} {\loadpicture{./_output/junessEe.pdf}}
     }  
   endcode #end of TeX code
   
 endlayout
+

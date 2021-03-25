@@ -5,6 +5,7 @@
   #copy custom_scalebar_large_format
   #copy custom_scalebar_medium_format
   #copy custom_scalebar
+  #copy custom_scalebar_vertical
   #copy custom_legend_large_format
   #copy custom_legend_large_format_5U
   #copy custom_legend_large_format_20U
@@ -16,7 +17,7 @@
   #copy custom_north_arrow_600
   #copy custom_northarrow_large
   #copy custom_line_doline
-
+  
 
 #############################################################################################################################
 layout custom_water_blue
@@ -35,7 +36,7 @@ layout custom_entrance_theta
     # Code to define an entrance symbol as a theta inside a diamond (Dave Clucas 2014)   
     def p_entrance (expr pos,theta,sc,al)=
       U:=(0.8u,2u);
-      T:=identity aligned al rotated theta scaled sc shifted pos;
+      T:=identity alignelevationated theta scaled sc shifted pos;
       path p;
       p = (-1.2u,-1u) -- (-0.8u,-1u){dir 135} .. (0u,1u) .. {dir 225}(0.8u,-1u) -- (1.2u,-1u);
       thdraw p withpen PenA;
@@ -484,6 +485,7 @@ layout custom_northarrow_large
   code metapost
     # Re-define North arrow to make it bigger
     def s_northarrow (expr rot) =
+custom_vertical_scalebar
          T:=identity scaled 0.7 rotated -rot;
 	 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
 	 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
@@ -501,7 +503,8 @@ layout custom_line_doline
     triangle_width:=symsize/10;
     cur:=(symsize-triangle_width)/2;
     pickup PenC;
-    forever:
+    forcustom_vertical_scalebar
+ever:
       t1 := arctime (cur) of P;
       t  := arctime (cur + triangle_width/2) of P;
       t2 := arctime (cur + triangle_width) of P;
@@ -517,4 +520,57 @@ layout custom_line_doline
   enddef;
   endcode
 endlayout
-#############################################################################################################################  
+############################################################################################################################# 
+
+layout custom_scalebar_vertical
+  code metapost
+    def s_scalebar (expr l, units, txt) = 
+      begingroup
+        tmpw = 3.0 bp;
+        tmp5m = 5 / Scale * units * cm;
+        tmpl = l / Scale * units * cm;
+      endgroup;
+      p := (0, 0) -- (tmpw, 0) -- (tmpw, - tmp5m) -- (0, - tmp5m) -- cycle; 
+      pickup PenD;
+      for i := 0 step 1 until (l - 1) / 5:
+        if (i mod 2) <> 0:
+          unfill p shifted - (0, i * tmp5m);
+        else:
+          fill p shifted - (0, i * tmp5m);
+        fi;
+        draw p shifted - (0, i * tmp5m);
+      endfor;    
+      pickup PenA
+      %  draw (-tmpw, 0) -- (tmpw, 0);
+      %  draw (-tmpw, -tmpl) -- (0, -tmpl);
+      fill (-2tmpw, tmpw) -- (-2tmpw, -tmpw) -- (0, 0) -- cycle;
+      fill (-2tmpw, -tmpl + tmpw) -- (-2tmpw, -tmpl + -tmpw) -- (0, -tmpl) -- cycle;
+      if ((l mod 10) > 5) or ((l mod 10) = 0):
+        draw (0, - tmpl) -- (tmpw, - tmpl) withcolor black;
+      else:  
+        draw (0, - tmpl) -- (tmpw, - tmpl) withcolor white;
+      fi;       
+      begingroup
+        interim labeloffset:=3.5bp + tmpw;
+        %    interim defaultscale:=0.5;
+        label.rt(thTEX("\size[12]" & "0{\thinspace}m"),(0, 0));
+        for i := 1 step 1 until l / 5:
+          if (i mod 10) = 0:
+            label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
+          else:
+            if i * 5 = l:
+              label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
+            else:  
+              label.rt(thTEX("\size[8]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
+            fi  
+          fi;  
+        endfor;
+        if (l mod 5) <> 0:
+          label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (l)),(0, - tmpl));
+        fi;
+      endgroup
+    enddef;
+  endcode
+endlayout
+
+

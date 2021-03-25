@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -141.33333333333334 -141.33333333333334 1861.2845525163 2811.6992576096
-##XTHERION## xth_me_area_zoom_to 30
+##XTHERION## xth_me_area_adjust -131.33333333333334 -131.33333333333334 1861.2845525163 2811.6992576096
+##XTHERION## xth_me_area_zoom_to 120
 ##XTHERION## xth_me_image_insert {1080.31968394 1 1.0} {1209.61003938 4.5} PocketTopo/juness4_p.xvi 0 {}
 
 
@@ -264,7 +264,7 @@ line border -id l54-508-645 -subtype invisible
   smooth off
 endline
 
-point 332.72727272727275 1070.6060606060605 label -align left -scale s -text [climb -2m]
+point 332.72727272727275 1070.6060606060605 label -orientation 45 -align left -scale s -text [climb -2m]
 
 point 399.42968394000013 969.05003938 station -name 4.8
 
@@ -372,7 +372,7 @@ endline
 
 point 1405.3030303030303 1565.909090909091 water-flow -orientation 212.0 -scale s
 
-point 1342.2727272727277 1850.909090909091 label -scale s -align left -text [high level ?]
+point 1571.4393939393944 1955.909090909091 label -orientation 45 -scale s -text [high level ?] -align right
 
 line floor-step -reverse on
   1432.5 1903.3333333333335
@@ -381,15 +381,15 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 120.60606060606061 411.51515151515156 label -align left -scale s -text [pitch 6m]
+point 120.60606060606061 411.51515151515156 label -orientation 45 -align left -scale s -text [pitch 6m]
 
-point 289.6969696969697 823.6363636363636 label -align left -scale s -text [pitch 6m]
+point 289.6969696969697 823.6363636363636 label -orientation 45 -align left -scale s -text [pitch 6m]
 
-point 886.3636363636364 1295.4545454545455 label -scale s -text [pitch 4m] -align top-left
+point 886.3636363636364 1295.4545454545455 label -orientation 45 -scale s -text [pitch 4m] -align left
 
-point 1461.818181818182 1373.6363636363637 label -scale s -text [pitch 5m] -align right -place bottom
+point 1461.818181818182 1373.6363636363637 label -orientation 45 -scale s -text [pitch 5m] -align right -place bottom
 
-point 1675.0 2542.5 label -text [pitch 17m] -align right -scale s
+point 1675.0 2542.5 label -orientation 45 -text [pitch 17m] -align right -scale s
 
 line pit -reverse on
   1564.1666666666667 2600.0

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 6211.0 8100.4015747979
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -136.0 6216.0 8100.4015747979
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {4519.905748030001 1 1.0} {6883.00511811 1.4} PocketTopo/juness2_p.xvi 0 {}
 
 
@@ -25,7 +25,7 @@ line border -id l42-2113-2771 -reverse on -subtype invisible
   smooth off
 endline
 
-point 1909.090909090909 2218.181818181818 label -text [climb -1m] -scale s -align right
+point 1997.090909090909 2218.181818181818 label -orientation 93 -text [climb -1m] -scale s -align right
 
 point 1670.9090909090908 2051.8181818181815 water -orientation 210.2
 
@@ -323,7 +323,7 @@ point 2792.5657480300006 3894.63511811 station -name 1.12
 
 point 2580.7457480300004 3510.96511811 station -name 1.13
 
-point 3730.363636363636 5167.181818181818 label -text squeeze -scale s -align right
+point 3772.363636363636 5175.181818181818 label -orientation 93 -text squeeze -scale s -align right
 
 line floor-step -reverse on
   2399.090909090909 3363.6363636363635
@@ -335,7 +335,7 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 2520.0 3254.5454545454545 label -text [climb -3m] -scale s -align right
+point 2576.0 3246.5454545454545 label -orientation 93 -text [climb -3m] -scale s -align right
 
 point 2396.2257480300004 3318.7451181099996 station -name 1.14
 

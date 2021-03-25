@@ -1,67 +1,36 @@
-encoding  utf-8
-source romeo.th
-# Change name to the main therion file
-
-### choose which exports to use
-  export map -proj plan -layout plan -o .\_output\Romeo.pdf
-  #export map -proj extended -layout local -o .\_output\RomeoEe.pdf
-  #export map -fmt kml -proj plan -o .\_output\Romeo.kml
-  #export model -fmt kml -o .\_output\Romeo-model.kml
-
-  #Survex file showing centre line only
-  #export model -o .\_output\Romeo.3d -fmt survex
-  #export map   -o .\_output\Romeo_Walls.3d -proj plan
-  #export model -o .\_output\Romeo.lox
-  #export map   -o .\_output\Romeo_map.lox
-  #export model -o .\_output\Romeo -format esri
-  #export model -o .\_output\Romeo -format dxf
-  #export model -o .\_output\Romeo.vrml
-  #export model -o .\_output\Romeo.3dmf
-  #export model -o .\_output\Romeo.plt
-  
-#inject standard code for layouts
-  input ..\..\..\CodeLibrary\_translations.txt  # custom translations
-  input ..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
-  input ..\..\..\CodeLibrary\_layouts.tex       # custom tex
-  input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
-
-layout plan
+layout local
   scale 1 300
   base-scale 1 150
   scale-bar 100 m
   
-  #The defaults are 
-  #  8 10 12 16 24 for scales upto 1:100; 
-  #  7  8 10 14 20 for scales upto 1:200; 
-  #  6  7  8 10 14 for scales upto 1:500 
-  #  5  6  7  8 10 for scales smaller than 1:500
-  #fonts_setup 
-  #6 18 40 64 80 
-  
-        
-  debug off
-  transparency on
-  opacity 80
-  map-header 90 5 nw
-  map-header-bg on
-  #overlap 10 cm
-  
+  #Foreground color - turn on altitdude to see various heights
   #colour map-fg [80 80 80]
   color map-fg altitude
   #colour map-bg [70 90 70]
   
   language en
   statistics topo-length off
-  statistics explo-length off
   statistics topo all
+  statistics explo-length off
+  
+  map-comment "Baggao, Cagayan<br>18 0'48.40 N<br>122 2'16.40 E<br>Bristol Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  
+  doc-author   "Henry Bennett and Rich Smith"
+  doc-keywords "Romeo Cave System Baggao Philippines"
+  doc-subject  "Survey of Romeo System 2015"
+  doc-title    "Romeo Cave Survey, Bristol Exploration Club 2015"
+      
   debug off
-
-  #map-header 0 0 ne
+  transparency on
+  opacity 80
+  map-header 90 5 nw
+  map-header-bg on
+  #overlap 10 cm
 
   symbol-set BCRA
   symbol-hide group cave-centreline
   symbol-assign line slope SKBB
-
+  
   legend on
   legend-columns 1
   legend-width 15 cm
@@ -69,47 +38,7 @@ layout plan
   grid bottom
   grid-coords border
   #sketches on
-
-  map-comment "Baggao, Cagayan<br>18 0'48.40 N<br>122 2'16.40 E<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
   
-  doc-author   "Henry Bennett and Rich Smith"
-  doc-keywords "Romeo Cave System Baggao Philippines"
-  doc-subject  "Survey of Romeo System 2015"
-  doc-title    "Romeo Cave Survey, Bristol Exploration Club 2015"
-  
-  ### index of file options from _layouts.mp
-    copy custom_water_blue
-    #copy custom_entrance_theta
-    #copy custom_entrance_theta_large
-    #copy custom_scalebar_large_format
-    copy custom_scalebar_medium_format
-    #copy custom_scalebar
-    #copy custom_legend_large_format
-    copy custom_legend_large_format_5U
-    #copy custom_legend_large_format_20U
-    copy custom_grid_2_continuous
-    copy custom_centerline_2_continuous
-    copy custom_bats
-    #copy custom_north_arrow_150
-    copy custom_north_arrow_300
-    #copy custom_north_arrow_600
-    #copy custom_northarrow_large
-    copy custom_line_doline
-  
-  ### index of file options from _layouts.tex
-    copy custom_colorlegendbox
-    copy custom_legendsymbolbox
-    #copy custom_title_area_format
-    #copy custom_title_area_format_20
-    copy custom_title_area_format_1000
-    #copy custom_logos
-
-  ### index of file options from _layouts.thc
-    copy custom_symbols
-    copy custom_color
-    #copy custom_large_odessa
-    #copy custom_small_odessa
-    
 
 ###################################################################
 #
@@ -122,18 +51,27 @@ layout plan
 ###################################################################
 
   code metapost
-  
-    #change the size of the default fonts
-    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
-    fonts_setup(6,18,40,64,80);
+    
+    #input CodeLibrary/_grid_x_hair_to_continuos_line
+    #input CodeLibrary/_scalebar_medium_format
+    #input CodeLibrary/_legend_medium_format
+    #input CodeLibrary/_water_blue
+    #input CodeLibrary/_north_arrow_300
+    #input CodeLibrary/_continuous_centerline
     
     # should probably differentiate these so sumps are shown on the survey
     def a_sump (expr p) =
         T:=identity;
         thfill p withcolor (0.1, 0.8, 0.8);
     enddef;
-      
+   
+    
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    fonts_setup(6,18,40,64,80);
+  
   endcode
+  
   
 #################################################################
 #  
@@ -143,13 +81,15 @@ layout plan
 #    TTT   EE       XX  XX         MM    MM AAAAAAA PP      
 #    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
 #
-#################################################################
+################################################################# 
   
   code tex-map
   \copyrights={Copyleft Creative Commons ShareAlike}
   \cavename={Romeo Cave}
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
     \legendbox{61}{87}{NW}{\northarrow}
+   # \legendbox{10}{30}{nw} {\loadpicture{images/Logo_BEC_800.png}}
     \legendbox{10}{79}{NW}{
       \legendwidth 30 cm
       \the\legendcontent
@@ -169,10 +109,12 @@ layout plan
   #\legendbox{40} {5} {nw} {\loadpicture{images/Logo_BEC_1250.png}}
   # \legendbox{55} {5} {nw} {\loadpicture{images/Logo_BC_1250.png}}
   #\legendbox{65} {5} {nw} {\loadpicture{images/Logo_SMOC_1250.png}}
-     
-  }    
+  
+    
+  }  
 
-     #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
+
+   #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
     \legendcontent={%
       \hsize=\legendwidth
       #\ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
@@ -206,8 +148,9 @@ layout plan
         {\size[40]\ss\the\copyrights\par}
       \fi
      }
-  }  
+  }
+  
+  endcode #end of TeX code  
 
-  endcode #end of TeX code
-
+  
 endlayout

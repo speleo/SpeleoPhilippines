@@ -32,8 +32,9 @@ source whitelightning.th
   input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
   
 layout plan
-  scale 1 300
+  scale 1 500
   scale-bar 100 m
+  min-symbol-scale l
 
   ### index of file options from _layouts.mp
   #scale 1 1000
@@ -43,18 +44,18 @@ layout plan
   copy custom_scalebar_large_format
   #copy custom_scalebar
   #copy custom_legend_large_format
-  #copy custom_legend_large_format_5U
+  copy custom_legend_large_format_5U
   #copy custom_legend_large_format_20U
   #copy custom_grid_2_continuous
   #copy custom_centerline_2_continuous
   #copy custom_bats
   #copy custom_north_arrow_150
   #copy custom_north_arrow_300
-  #copy custom_north_arrow_600
+  copy custom_north_arrow_600
 
   ### index of file options from _layouts.tex
   copy custom_colorlegendbox
-  #copy custom_legendsymbolbox
+  copy custom_legendsymbolbox
   copy custom_title_area_format
   #copy custom_title_area_format_1000
   #copy custom_logos
@@ -65,10 +66,10 @@ layout plan
   #copy custom_large_odessa
   #copy custom_small_odessa
   
-  #legend on
-  #legend-columns 3
+  legend on
+  legend-columns 3
   #legend-width 100 cm
-  #colour-legend on
+  colour-legend on
   #scale-bar 100 m
   #legend on
 

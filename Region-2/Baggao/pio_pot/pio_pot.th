@@ -8,11 +8,17 @@ survey juness -title "Juness"
   input juness5/juness5.th
   input jurness20lastchamber/jurness20lastchamber.th
 
-  join pio_potSP1@pio_pot juness2SP1@juness2 
+  join pio_potSP2@pio_pot juness2SP1@juness2 
   join juness2SP1@juness2 juness3SP1@juness3
   join juness3SP1@juness3 juness4SP1@juness4
   join juness4SP1@juness4 juness5SP1@juness5
   join juness5SP1@juness5 jurness20lastchamberSP1@jurness20lastchamber
+  
+  join pio_potSE2@pio_pot juness2SE1@juness2
+  join juness2SE1@juness2 juness3SE1@juness3
+  join juness3SE1@juness3 juness4SE1@juness4
+  join juness4SE1@juness4 juness5SE1@juness5
+  join juness5SE1@juness5 jurness20lastchamberSE1@jurness20lastchamber  
 
   centreline
     title "Juness"

@@ -9,7 +9,7 @@ source juness4.th
 export map -proj plan -layout local -o .\_output\juness4.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o .\_output\juness4Ee.pdf
+export map -proj extended -layout local -o .\_output\juness4Ee.pdf
 
 export model -fmt survex -o .\_output\juness4th.3d
 #Survex file showing centre line only
