@@ -6,45 +6,51 @@ source naganakan.th
 #Surveys to output
 #-----------------
   select naganakanM@naganakan
-  export map -proj plan -layout local -o .\_output\Naganakan.pdf
-  #export map -proj plan -layout local -o .\_output\debug.pdf
-  #Produces plan of cave, on a single sheet
+  
+  export map -proj extended -layout extended  -o .\_output\NaganakanEe.pdf
+  export map -proj plan     -layout composite -o .\_output\Naganakan_composite.pdf
+  export map -proj plan     -layout plan      -o .\_output\Naganakan.pdf
 
-  export model -fmt kml -o .\_output\Naganakan.kml
-  export map -fmt kml -o .\_output\Naganakan-map.kml
+  #export model -fmt kml -o .\_output\Naganakan.kml
+  #export map -fmt kml -o .\_output\Naganakan-map.kml
 
-  select naganakanME@naganakan
-  export map -proj extended -layout local -o .\_output\NaganakanEe.pdf
+  #select naganakanME@naganakan
+  #export map -proj extended -layout local -o .\_output\NaganakanEe.pdf
 
-  export model -fmt survex -o .\_output\Naganakanth.3d
+  #export model -fmt survex -o .\_output\Naganakanth.3d
   #Survex file showing centre line only
 
   export model -o .\_output\Naganakan.lox
   #3d therion model to be viewed in the therion viewer
 
-  export map -proj plan -o .\_output\Naganakan_Walls.3d
+  #export map -proj plan -o .\_output\Naganakan_Walls.3d
   #Survex file showing walls only
+  
+#inject standard code for layouts
+  input ..\..\..\CodeLibrary\_translations.txt  # custom translations
+  input ..\..\..\CodeLibrary\_layouts.mp        # custom Metapost
+  input ..\..\..\CodeLibrary\_layouts.tex       # custom tex
+  input ..\..\..\CodeLibrary\_layouts.thc       # custom layouts 
+  input layout_composite.thc       # custom layouts 
+  input layout_extended.thc       # custom layouts 
 
-layout local
-  scale 1 150
-  base-scale 1 150
+layout plan
+  scale 1 200
+  base-scale 1 200
   scale-bar 20 m
   
-  #Foreground color - turn on altitdude to see various heights
-  colour map-fg [80 80 80]
-  #color map-fg altitude
-  #colour map-bg [70 90 70]
+  colour map-fg [97]
   
   language en
   statistics topo-length off
   statistics explo-length off
   statistics topo all
 
-  map-comment "Blue Water Sitio, Baggao, Cagayan<br>18 1'2.78 N<br>121 59'31.68 E<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-comment "Blue Water Sitio, Baggao, Cagayan<br>18 1'2.78 N<br>121 59'31.68 E<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.github.com/speleo/SpeleoPhilippines<br>Archive: www.cave-registry.org.uk/svn/Philippines/<br>"
  
   doc-author   "Henry Bennett"
   doc-keywords "Naganakan Cave Baggao Philippines"
-  doc-subject  "Survey of Naganakan Cave 2014"
+    doc-subject  "Survey of Naganakan Cave 2014"
   doc-title    "Naganakan Cave Survey Bristol Exploration Club 2014"
   
   debug off
@@ -55,6 +61,7 @@ layout local
 
   symbol-set BCRA
   symbol-hide group cave-centreline
+  symbol-hide special north-arrow
   symbol-assign line slope SKBB
   
   legend on
@@ -64,6 +71,45 @@ layout local
   grid bottom
   grid-coords border
   #sketches on
+
+  ### index of file options from _layouts.mp
+    copy custom_water_blue
+    #copy custom_entrance_theta
+    #copy custom_entrance_theta_large
+    #copy custom_scalebar_large_format
+    copy custom_scalebar_medium_format
+    #copy custom_scalebar
+    #copy custom_scalebar_vertical
+    #copy custom_legend_large_format
+    copy custom_legend_large_format_5U
+    #copy custom_legend_large_format_20U
+    copy custom_grid_2_continuous
+    copy custom_centerline_2_continuous
+    copy custom_bats
+    copy custom_north_arrow_150
+    #copy custom_north_arrow_300
+    #copy custom_north_arrow_600
+    #copy custom_northarrow_large
+    copy custom_line_doline
+    
+
+  
+  ### index of file options from _layouts.tex
+    copy custom_colorlegendbox
+    copy custom_legendsymbolbox
+    #copy custom_title_area_format
+    #copy custom_title_area_format_20
+     copy custom_title_area_format_1000
+    #copy custom_logos
+
+  ### index of file options from _layouts.thc
+    copy custom_symbols
+    copy custom_color
+    #copy custom_large_odessa
+    #copy custom_small_odessa
+
+  
+
 
 ###################################################################
 #
@@ -76,19 +122,10 @@ layout local
 ###################################################################
 
 
-  code metapost
-    
-    #inputrel("..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
-    inputrel("..\..\..\CodeLibrary\_scalebar_medium_format.mp")
-    #inputrel("..\..\..\CodeLibrary\_legend_large_format.mp")
-    inputrel("..\..\..\CodeLibrary\_water_blue.mp")
-    inputrel("..\..\..\CodeLibrary\_north_arrow_150.mp")
-    inputrel("..\..\..\CodeLibrary\_continuous_centerline.mp")
-
+  code metapost    
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     fonts_setup(6,15,30,54,80);
-  
   endcode
   
 #################################################################
@@ -105,15 +142,21 @@ layout local
   \copyrights={Copyleft Creative Commons ShareAlike}
   \cavename={Naganakan}
     \def\maplayout{
-    \legendbox{35}{100}{NW}{
+    \legendbox{65}{100}{NW}{
       \legendwidth 35 cm
       \the\legendcontent
       }
     \legendbox{10}{20}{NW}{
       \legendwidth 35 cm
-      \legendtextsize={\size[42]}
+      \legendtextsize={\size[24]}
       \hsize=\legendwidth
       \input th_legend
+      }
+    \legendbox{37.5}{90}{NW}{
+      \northarrow
+      }
+    \legendbox{35}{65}{NW}{
+      \scalebar
       }
   #\legendbox{0} {100} {S}  {\loadpicture{../../../images/sitckers-type4.jpg}}  
   \legendbox{40} {5} {nw} {\loadpicture{../../../images/Logo_BEC_400.png}}  
@@ -129,31 +172,31 @@ layout local
       \edef\tmp{\the\cavename} \ifx\tmp\empty \else
          {\size[70]\the\cavename} \vskip1cm
       \fi
-      \ifscalebar\scalebar\vskip1cm\fi
+      #\ifscalebar\scalebar\vskip1cm\fi
       {\rightskip=0pt plus 3em\parskip=3bp
         \edef\tmp{\the\comment} \ifx\tmp\empty \else
-           {\size[30]\the\comment} \par\medskip
+           {\size[24]\the\comment} \par\medskip
          \fi
       \everypar{\hangindent=2em\hangafter=1}
       \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
-        {\size[30]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+        {\size[24]\si\the\cavelengthtitle: \ss\the\cavelength\par}
       \fi
       \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
-        {\size[30]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+        {\size[24]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
       \fi
       \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-        {\size[30]\si\the\explotitle:
+        {\size[24]\si\the\explotitle:
         \ss\the\exploteam\quad\si\the\explodate\par}
       \fi
       \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-        {\size[30]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+        {\size[24]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
       \fi
       \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-        {\size[30]\si\the\cartotitle:
+        {\size[24]\si\the\cartotitle:
         \ss\the\cartoteam\quad\si\the\cartodate\par}
       \fi
       \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
-        {\size[30]\ss\the\copyrights\par}
+        {\size[24]\ss\the\copyrights\par}
       \fi
      }
   }

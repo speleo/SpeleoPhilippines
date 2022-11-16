@@ -1,0 +1,22 @@
+encoding  utf-8
+survey bluewater_buildings_A
+
+  input bluewater_buildings_A.th2
+  
+  map bluewater_buildings_AM
+    bw_bldg_A_SP1
+  endmap
+
+centreline
+
+  date 2021.03.31
+
+  cs EPSG:32651
+  # data from Google Earth [Options][Show Lat/long][Universal Transverse Mercator]
+  fix A_1 393139.00  1991601.00 214
+  fix A_2 393172.00  1992426.00 124
+
+endcentreline
+
+endsurvey
+

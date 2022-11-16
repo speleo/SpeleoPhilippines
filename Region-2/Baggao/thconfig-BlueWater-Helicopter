@@ -1,7 +1,7 @@
 encoding  utf-8
 source BlueWater-Helicopter.th
 
-unselect twiglet.bluewater.BlueWater-Helicopter
+#unselect twiglet.bluewater.BlueWater-Helicopter
 
 ### choose which exports to use
   export map -proj plan -layout 600 -o .\_output\Bluewater-Helicopter\BlueWater-Helicopter.pdf
@@ -36,7 +36,7 @@ layout 600
   statistics topo all
   statistics explo-length off
   
-  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Bristol Exploration Club<br>Gaia Exploration Club<br>Sierra Madre Outdoor Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Bristol Exploration Club<br>Gaia Exploration Club<br>Sierra Madre Outdoor Club<br>BCRA Grade 5C<br>Data: www.github.com/speleo/SpeleoPhilippines<br>Archive: www.cave-registry.org.uk/svn/Philippines/<br>"
   
   doc-author   "Henry Bennett"
   doc-keywords "Bluewater Cave Baggao Philippines"
@@ -47,7 +47,7 @@ layout 600
   transparency on
   opacity 80
   map-header 0 100 nw
-  
+
   legend on
   legend-columns 9
   legend-width 60 cm
@@ -55,7 +55,7 @@ layout 600
   grid bottom
   grid-coords border
   #sketches on
-  
+
   ### index of file options from _layouts.mp
     copy custom_water_blue
     #copy custom_entrance_theta
@@ -65,6 +65,9 @@ layout 600
     #copy custom_scalebar
     #copy custom_legend_large_format
     #copy custom_legend_large_format_5U
+    
+
+    
     copy custom_legend_large_format_20U
     copy custom_grid_2_continuous
     copy custom_centerline_2_continuous
@@ -73,8 +76,10 @@ layout 600
     #copy custom_north_arrow_300
     copy custom_north_arrow_600
     #copy custom_northarrow_large
-    copy custom_line_doline
-  
+ 
+    # for some reason the custom_line_doline os throwing errors 20/04/2021
+    #copy custom_line_doline
+
   ### index of file options from _layouts.tex
     copy custom_colorlegendbox
     copy custom_legendsymbolbox
@@ -120,7 +125,7 @@ layout 600
   code tex-map
   
   \copyrights={Copyleft Creative Commons ShareAlike }
-  \cavename={Draft - Blue Water Cave}
+  \cavename={Blue Water Cave}
   \topoteam={Bristol Exploration Club (Helen Adams, Rob Adams, Ruth Allan, Laura Benn, Hannah Bennett, Henry Bennett, Mitch Bruce, Rob Bruce, Henry Dawson, Paul Fairman, Steven Fairman, Stu Gardiner, Lucy Greenwood, Oliver Legg, Richard Smith)// Ranger Marquez, Nelson Pingay}
   
   \def\maplayout{

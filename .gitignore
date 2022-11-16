@@ -153,7 +153,7 @@ publish/
 *.publishproj
 
 # NuGet Packages Directory
-## TODO: If<br>Gaia Exploration Club<br>Sierra Madre Outdoor Club you have NuGet Package Restore enabled, uncomment the next line
+## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 #packages/
 
 # Windows Azure Build Output

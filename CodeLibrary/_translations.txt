@@ -2,6 +2,9 @@
   text en "line u:bat"     "bat path"
   text en "line u:doline"  "doline<br>"
   text en "point u:bat"    "bat"
+  text en "point u:symbol_plan" ""
+  text en "point u:symbol_extend" ""
+
 
   text en "area bedrock"   "bedrock<br>pundasyon na bato"
   text en "area blocks"    "blocks, breakdown<br>tipak, pagkasira"

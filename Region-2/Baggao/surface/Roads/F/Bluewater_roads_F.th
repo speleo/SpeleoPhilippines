@@ -1,0 +1,22 @@
+encoding  utf-8
+survey bluewater_roads_F
+
+  input bluewater_roads_F.th2
+  
+  map bluewater_roads_FM
+    bw_road_F_SP1
+  endmap
+
+centreline
+
+  date 2021.03.31
+
+  cs EPSG:32651
+  # data from Google Earth [Options][Show Lat/long][Universal Transverse Mercator]
+  fix F_1 397427.00  1991564.00 478
+  fix F_2 397508.00  1993384.00 486
+
+endcentreline
+
+endsurvey
+

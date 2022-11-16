@@ -1,0 +1,23 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -2936 4928 18608
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../images/Bluewater_surface_tile#D8.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {2640 {}} ../../images/Bluewater_surface_tile#D7.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {5280 {}} ../../images/Bluewater_surface_tile#D6.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {7920 {}} ../../images/Bluewater_surface_tile#D5.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {10560 {}} ../../images/Bluewater_surface_tile#D4.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {13200 {}} ../../images/Bluewater_surface_tile#D3.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {15840 {}} ../../images/Bluewater_surface_tile#D2.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {18480 {}} ../../images/Bluewater_surface_tile#D1.jpg 0 {}
+
+
+
+scrap bw_bldg_D_SP1 -projection plan -scale [-128 -2936 13488 -2936 0.0 0.0 345.84639999999996 0.0 m]
+
+point 1736.5 4170.25 station -name D_1
+
+point 864.5 877.5 station -name D_2
+
+endscrap
+
+

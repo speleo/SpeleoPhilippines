@@ -2,10 +2,11 @@ encoding  utf-8
 survey BlueWater-Helicopter
   input bluewater/bluewater.th
   input Helicopter_Hole/C4HelicopterHole.th
-  input surface/Bluewater_2.th
+  input surface/Grid/Bluewater_2.th
   input BlueWaterTopSink/BlueWater-Sink.th
   input White-Lightning/WhiteLightning.th
-  input pio_pot/pio_pot.th
+  # exclude juness for just hte BW length info
+  #input juness/juness.th
   
   #join bluewater-above-climb-1-S2@bluewater Beauty_Above_Pitch_3_Sec_1@C4HelicopterHole 
   join BelowP3_Left_Wall@bluewater AboveP3_Left_Wall@C4HelicopterHole 

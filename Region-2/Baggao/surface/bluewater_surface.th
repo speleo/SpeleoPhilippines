@@ -1,0 +1,13 @@
+encoding  utf-8
+
+survey bluewater_surface
+  input roads/bluewater_roads.th
+  input buildings/bluewater_buildings.th
+
+map surfaceM
+  bluewater_roadsM@bluewater_roads
+  bluewater_buildingsM@bluewater_buildings
+endmap
+
+endsurvey
+

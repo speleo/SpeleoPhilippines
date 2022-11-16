@@ -1,0 +1,42 @@
+encoding  utf-8
+survey bluewater_roads
+
+  input A/bluewater_roads_A.th
+  input B/bluewater_roads_B.th
+  input C/bluewater_roads_C.th
+  input D/bluewater_roads_D.th
+  input E/bluewater_roads_E.th
+  input F/bluewater_roads_F.th
+  input G/bluewater_roads_G.th
+  
+  join  bw_road_A_north@bluewater_roads_A:end  bw_road_B_north@bluewater_roads_B:0
+  join  bw_road_A_south@bluewater_roads_A:end  bw_road_B_south@bluewater_roads_B:0
+
+  join  bw_road_B_north@bluewater_roads_B:end  bw_road_C_north@bluewater_roads_C:0
+  join  bw_road_B_east@bluewater_roads_B:end   bw_road_C_south@bluewater_roads_C:0
+
+  join  bw_road_C_north@bluewater_roads_C:end  bw_road_D_north@bluewater_roads_D:0
+  join  bw_road_C_south@bluewater_roads_C:end  bw_road_D_south@bluewater_roads_D:0
+      
+  join  bw_road_D_north@bluewater_roads_D:end  bw_road_E_north@bluewater_roads_E:0
+  join  bw_road_D_south@bluewater_roads_D:end  bw_road_E_south@bluewater_roads_E:0
+
+  join  bw_road_E_north@bluewater_roads_E:end  bw_road_F_north@bluewater_roads_F:0
+  join  bw_road_E_south@bluewater_roads_E:end  bw_road_F_south@bluewater_roads_F:0
+
+  join  bw_road_E_north2@bluewater_roads_E:0  bw_road_F_south@bluewater_roads_F:end
+  join  bw_road_E_south2@bluewater_roads_E:0  bw_road_F_north@bluewater_roads_F:end
+  
+      
+  map bluewater_roadsM
+    bw_road_A_SP1@bluewater_roads_A
+    bw_road_B_SP1@bluewater_roads_B
+    bw_road_C_SP1@bluewater_roads_C
+    bw_road_D_SP1@bluewater_roads_D
+    bw_road_E_SP1@bluewater_roads_E
+    bw_road_F_SP1@bluewater_roads_F
+    bw_road_G_SP1@bluewater_roads_G
+  endmap
+
+endsurvey
+

@@ -191,9 +191,101 @@ layout custom_scalebar
   endcode
 endlayout
 
+############################################################################################################################# 
+
+layout custom_scalebar_vertical
+  code metapost
+    def s_scalebar (expr l, units, txt) = 
+      begingroup
+        tmpw = 3.0 bp;
+        tmp5m = 5 / Scale * units * cm;
+        tmpl = l / Scale * units * cm;
+      endgroup;
+      p := (0, 0) -- (tmpw, 0) -- (tmpw, - tmp5m) -- (0, - tmp5m) -- cycle; 
+      pickup PenD;
+      for i := 0 step 1 until (l - 1) / 5:
+        if (i mod 2) <> 0:
+          unfill p shifted - (0, i * tmp5m);
+        else:
+          fill p shifted - (0, i * tmp5m);
+        fi;
+        draw p shifted - (0, i * tmp5m);
+      endfor;    
+      pickup PenA
+      %  draw (-tmpw, 0) -- (tmpw, 0);
+      %  draw (-tmpw, -tmpl) -- (0, -tmpl);
+      fill (-2tmpw, tmpw) -- (-2tmpw, -tmpw) -- (0, 0) -- cycle;
+      fill (-2tmpw, -tmpl + tmpw) -- (-2tmpw, -tmpl + -tmpw) -- (0, -tmpl) -- cycle;
+      if ((l mod 10) > 5) or ((l mod 10) = 0):
+        draw (0, - tmpl) -- (tmpw, - tmpl) withcolor black;
+      else:  
+        draw (0, - tmpl) -- (tmpw, - tmpl) withcolor white;
+      fi;       
+      begingroup
+        interim labeloffset:=3.5bp + tmpw;
+        %    interim defaultscale:=0.5;
+        label.rt(thTEX("\size[12]" & "0{\thinspace}m"),(0, 0));
+        for i := 1 step 1 until l / 5:
+          if (i mod 10) = 0:
+            label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
+          else:
+            if i * 5 = l:
+              label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
+            else:  
+              label.rt(thTEX("\size[8]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
+            fi  
+          fi;  
+        endfor;
+        if (l mod 5) <> 0:
+          label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (l)),(0, - tmpl));
+        fi;
+      endgroup
+    enddef;
+
+	def p_u_symbol_plan (expr pos,theta,sc,al) =
+	    U := (-3.25u, 3.25u);
+	    T := identity aligned al rotated theta scaled sc shifted pos;
+	    picture tmp_symbol_plan;
+	    tmp_symbol_plan = image (
+	      pickup PenB;
+	      q := ((-3.26u, -.95u) -- (1.74u, -.95u) -- (2.8u, .82u) -- (-1.49u, .82u) -- cycle);
+	      thfill q withcolor .85;
+	      thdraw q;
+	      q := ((-.175u, .5u) -- (0u, 0u) -- (.175u, .5u) .. (0u, .45u) .. cycle);
+	      thfill q withcolor .5green;
+	      thdraw q withcolor .5green;
+	      thdraw (0u, 0u) -- (0u, 2.31u) withcolor .5green; 
+            );
+	    draw tmp_symbol_plan scaled 1.0;
+	enddef;
+
+	def p_u_symbol_extend (expr pos,theta,sc,al) =
+	    U := (-2.5u, 2.5u);
+	    T := identity aligned al rotated theta scaled sc shifted pos;
+	    picture tmp_symbol_extend;
+	    tmp_symbol_extend = image (
+	      pickup PenB;
+	      q := ((-2.346u, -2.480u) -- (-.48u, -2.116u) -- (-.48u, 1.573u) -- (-2.346u, 1.354u) -- cycle);
+	      thfill q withcolor .85;
+	      q := ((-1.551u, -2.878u) -- (1.438u, -.766u) -- (1.438u, 2.388u) -- (-1.551u, 1.118u) -- cycle);
+	      thfill q withcolor .75;
+	      thdraw q;
+	      thdraw (-.48u, -2.116u) -- (-.48u, 1.573u) dashed evenly;
+	      q := ((.446u, -1.461u) -- (2.120u, -1.094u) -- (2.120u, 2.184u) -- (.446u, 1.965u) -- cycle);
+	      thfill q withcolor .85;
+	      thdraw (.446u, -1.461u) -- (.446u, 1.965u) dashed evenly;
+	      q := ((-.175u, .5u) -- (0u, 0u) -- (.175u, .5u) .. (0u, .45u) .. cycle) rotated -90;
+	      thfill q withcolor .5green;
+	      thdraw q withcolor .5green;
+	      thdraw (0u, 0u) -- (2.31u, 0u) withcolor .5green; 
+	    );
+	    draw tmp_symbol_extend scaled 1.0
+	enddef;
+  endcode
+
+endlayout
 
 #############################################################################################################################
-
 
 layout custom_legend_large_format
   code metapost
@@ -520,57 +612,43 @@ ever:
   enddef;
   endcode
 endlayout
-############################################################################################################################# 
 
-layout custom_scalebar_vertical
+############################################################################################################################# 
+layout custom_symbol_plans
   code metapost
-    def s_scalebar (expr l, units, txt) = 
-      begingroup
-        tmpw = 3.0 bp;
-        tmp5m = 5 / Scale * units * cm;
-        tmpl = l / Scale * units * cm;
-      endgroup;
-      p := (0, 0) -- (tmpw, 0) -- (tmpw, - tmp5m) -- (0, - tmp5m) -- cycle; 
-      pickup PenD;
-      for i := 0 step 1 until (l - 1) / 5:
-        if (i mod 2) <> 0:
-          unfill p shifted - (0, i * tmp5m);
-        else:
-          fill p shifted - (0, i * tmp5m);
-        fi;
-        draw p shifted - (0, i * tmp5m);
-      endfor;    
-      pickup PenA
-      %  draw (-tmpw, 0) -- (tmpw, 0);
-      %  draw (-tmpw, -tmpl) -- (0, -tmpl);
-      fill (-2tmpw, tmpw) -- (-2tmpw, -tmpw) -- (0, 0) -- cycle;
-      fill (-2tmpw, -tmpl + tmpw) -- (-2tmpw, -tmpl + -tmpw) -- (0, -tmpl) -- cycle;
-      if ((l mod 10) > 5) or ((l mod 10) = 0):
-        draw (0, - tmpl) -- (tmpw, - tmpl) withcolor black;
-      else:  
-        draw (0, - tmpl) -- (tmpw, - tmpl) withcolor white;
-      fi;       
-      begingroup
-        interim labeloffset:=3.5bp + tmpw;
-        %    interim defaultscale:=0.5;
-        label.rt(thTEX("\size[12]" & "0{\thinspace}m"),(0, 0));
-        for i := 1 step 1 until l / 5:
-          if (i mod 10) = 0:
-            label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
-          else:
-            if i * 5 = l:
-              label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
-            else:  
-              label.rt(thTEX("\size[8]" & "-\thinspace" & decimal (i * 5)),(0, - i * tmp5m));
-            fi  
-          fi;  
-        endfor;
-        if (l mod 5) <> 0:
-          label.rt(thTEX("\size[12]" & "-\thinspace" & decimal (l)),(0, - tmpl));
-        fi;
-      endgroup
-    enddef;
+	def p_u_symbol_plan (expr pos,theta,sc,al) =
+	    U := (-3.25u, 3.25u);
+	    T := identity aligned al rotated theta scaled sc shifted pos;
+	    pickup PenB;
+	    q := ((-3.26u, -.95u) -- (1.74u, -.95u) -- (2.8u, .82u) -- (-1.49u, .82u) -- cycle);
+	    thfill q withcolor .85;
+	    thdraw q;
+	    q := ((-.175u, .5u) -- (0u, 0u) -- (.175u, .5u) .. (0u, .45u) .. cycle);
+	    thfill q withcolor .5green;
+	    thdraw q withcolor .5green;
+	    thdraw (0u, 0u) -- (0u, 2.31u) withcolor .5green; 
+	enddef;
+
+	def p_u_symbol_extend (expr pos,theta,sc,al) =
+	    U := (-2.5u, 2.5u);
+	    T := identity aligned al rotated theta scaled sc shifted pos;
+	    pickup PenB;
+	    q := ((-2.346u, -2.480u) -- (-.48u, -2.116u) -- (-.48u, 1.573u) -- (-2.346u, 1.354u) -- cycle);
+	    thfill q withcolor .85;
+	    q := ((-1.551u, -2.878u) -- (1.438u, -.766u) -- (1.438u, 2.388u) -- (-1.551u, 1.118u) -- cycle);
+	    thfill q withcolor .75;
+	    thdraw q;
+	    thdraw (-.48u, -2.116u) -- (-.48u, 1.573u) dashed evenly;
+	    q := ((.446u, -1.461u) -- (2.120u, -1.094u) -- (2.120u, 2.184u) -- (.446u, 1.965u) -- cycle);
+	    thfill q withcolor .85;
+	    thdraw (.446u, -1.461u) -- (.446u, 1.965u) dashed evenly;
+	    q := ((-.175u, .5u) -- (0u, 0u) -- (.175u, .5u) .. (0u, .45u) .. cycle) rotated -90;
+	    thfill q withcolor .5green;
+	    thdraw q withcolor .5green;
+	    thdraw (0u, 0u) -- (2.31u, 0u) withcolor .5green; 
+	enddef;
   endcode
 endlayout
 
+############################################################################################################################# 
 

@@ -1,0 +1,20 @@
+encoding  utf-8
+source bluewater_roads_F.th
+# Change name to the main therion file
+
+#Surveys to output
+#-----------------
+export map -proj plan -layout local -o ../_output/bluewater_roads_F.pdf
+#Produces plan of cave, on a single sheet
+
+layout local
+  scale 1 1700
+  base-scale 1 300
+  debug off
+  map-header 0 0 ne
+    
+  #Foreground color - turn on altitude to see various heights
+  #colour map-fg [80 80 80]
+  color map-fg altitude
+  #colour map-bg [70 90 70]
+endlayout

@@ -1,0 +1,23 @@
+encoding  utf-8
+survey bluewater_buildings
+
+  input A/bluewater_buildings_A.th
+  input B/bluewater_buildings_B.th
+  input C/bluewater_buildings_C.th
+  input D/bluewater_buildings_D.th
+  input E/bluewater_buildings_E.th
+  input F/bluewater_buildings_F.th
+  input G/bluewater_buildings_G.th
+  
+  map bluewater_buildingsM
+    bw_bldg_A_SP1@bluewater_buildings_A
+    bw_bldg_B_SP1@bluewater_buildings_B
+    bw_bldg_C_SP1@bluewater_buildings_C
+    bw_bldg_D_SP1@bluewater_buildings_D
+    bw_bldg_E_SP1@bluewater_buildings_E
+    bw_bldg_F_SP1@bluewater_buildings_F
+    bw_bldg_G_SP1@bluewater_buildings_G
+  endmap
+
+endsurvey
+
