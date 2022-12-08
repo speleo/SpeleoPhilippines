@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2110.81 -1166.44 12664.83 6998.66
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2751.8742614 1 1.0} {2150.98046759 1.0} PocketTopo/Tibiongen_A_e.xvi 0 {}
+
+
+scrap Tibiongen_ASE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

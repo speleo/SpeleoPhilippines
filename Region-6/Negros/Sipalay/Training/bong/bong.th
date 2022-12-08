@@ -1,0 +1,61 @@
+encoding  utf-8
+survey bong
+
+input bong.th2
+input bongEe.th2
+
+map bongM
+  bongSP1
+endmap
+
+map bongME
+  bongSE1
+endmap
+centreline
+
+copyright 2022 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#
+
+  date 2022.12.03
+
+  team "Bong" notes
+  team "Venus" instruments
+
+  instrument  instruments "UBSS DistoX1"
+  
+  cs EPSG:32651
+  fix 1.0 435116.00  1077673.00 11
+
+data normal from to tape compass clino ignoreall
+  extend right
+1.0  -  0.0  0.0  0.0  
+1.0  -  5.868  34.45  -0.69  
+1.0  -  4.968  22.52  0.58  
+1.0  -  6.145  39.11  8.71  
+1.0  -  6.639  35.43  -3.43  
+1.0  -  4.323  0.51  -13.56  
+1.0  -  9.105  75.57  5.54  
+1.0  -  4.797  32.89  -17.0  
+1.0  -  3.313  30.84  -10.91  
+1.0  -  3.341  31.18  -10.84  
+1.0  -  3.368  31.18  -10.87  
+1.0  -  3.892  166.13  41.22  
+1.0  -  5.229  135.48  28.08  
+1.0  -  3.87  135.15  -9.28  
+#1.0  1.1  3.439  33.14  -10.28  
+#1.0  1.1  3.438  33.25  -10.1  
+#1.0  1.1  3.44  32.95  -10.36  
+1.0  1.1  3.439  33.2  -10.25  Calculated leg from 3 above
+1.1  -  2.672  194.25  6.95  
+1.1  -  3.933  139.83  -1.42  
+1.1  -  5.374  130.31  4.78  
+1.1  -  0.0  154.2  4.04  
+#1.1  1.2  7.583  121.55  2.89  
+#1.1  1.2  7.586  121.48  2.88  
+#1.1  1.2  7.578  121.43  2.81  
+1.1  1.2  7.582  121.55  2.86  Calculated leg from 3 above
+endcentreline
+endsurvey
+

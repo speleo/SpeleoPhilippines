@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2918.56 -1126.0 17511.36 6756.02
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {15795.5008461 1 1.0} {707.194457997 1.0} PocketTopo/BarangBarangCave_p.xvi 0 {}
+
+
+scrap BarangBarangCaveSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,30 @@
+encoding  utf-8
+source Tibiongen_A.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o .\_output\Tibiongen_A.pdf
+#Produces plan of cave, on a single sheet
+
+export map -fmt kml -proj plan -layout local -o .\_output\Tibiongen_A.kml
+
+
+#export map -proj extended -layout local -o Tibiongen_AEe.pdf
+
+export model -fmt survex -o Tibiongen_Ath.3d
+#Survex file showing centre line only
+
+#export model -o Tibiongen_A.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Tibiongen_A_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout

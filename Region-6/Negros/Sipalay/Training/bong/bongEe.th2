@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -203.95 -62.48 1223.73 374.86
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {258.991748603 1 1.0} {141.680611762 1.0} PocketTopo/bong_e.xvi 0 {}
+
+
+scrap bongSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

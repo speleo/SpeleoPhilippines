@@ -1,0 +1,98 @@
+encoding  utf-8
+source mindab2.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout test -o .\_output\Malinab2.pdf
+#Produces plan of cave, on a single sheet
+
+export map -fmt kml -proj plan -layout local -o .\_output\Malinab2.kml
+
+#export map -proj extended -layout local -o mindab2Ee.pdf
+
+export model -fmt survex -o mindab2th.3d
+#Survex file showing centre line only
+
+#export model -o mindab2.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o mindab2_Walls.3d
+#Survex file showing walls only
+
+layout local
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
+endlayout
+
+layout test
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
+
+###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    
+    #input "C:/Users/henry_bennett/Documents/GitHub\SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/CodeLibrary/_grid_x_hair_to_continuos_line.mp"
+    #input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/CodeLibrary/_scalebar_large_format"
+    #input "C:/Users/henry_bennett/Documents/GitHub/SpeleoPhilippines/Region-2/BlueWater/bluewater-v7/CodeLibrary/_legend_large_format_20U"
+    
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    # change centre line to continuous
+    def l_survey_cave (expr p) =
+        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    enddef;
+    
+    # Re-define North arrow to make it bigger
+    def s_northarrow (expr rot) =
+      T:=identity;
+      picture tmp_pic;
+      tmp_pic = image (
+        begingroup
+          interim defaultscale:=13;
+          label.top("N", origin shifted (0,22cm));
+        endgroup;
+        thdraw (-4cm,4cm)--(0,20cm)--(4cm,4cm)--(20cm,0cm)--(4cm,-4cm)--(0,-20cm)--(-4cm,-4cm)--(-20cm,0)--cycle;
+        thfill (-4cm,4cm)--(0,20cm)--(0,0)--cycle;
+        thfill (4cm,-4cm)--(0,-20cm)--(0,0)--cycle;
+        thfill (4cm,4cm)--(20cm,0)--(0,0)--cycle;
+        thfill (-4cm,-4cm)--(-20cm,0)--(0,0)--cycle;
+      );
+      draw tmp_pic scaled 0.5 rotatedaround(origin, -rot);
+    enddef;
+    
+    def p_entrance (expr pos,theta,sc,al)=
+      U:=(.2u,.5u);
+      T:=identity aligned al rotated theta scaled sc shifted pos;
+      path p;
+      p = (-.3u,-.25u) -- (-.2u,-.25u){dir 135} .. (0u, .25u) .. {dir 225}(.2u,-.25u) -- (.3u,-.25u);
+      thdraw p withpen PenA;
+      thdraw unitsquare scaled u shifted (-0.5u,-0.5u) rotated 45 withpen PenD;
+    enddef;
+    
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    #fonts_setup(10,20,30,54,80);
+    fonts_setup(10,20,30,54,80);
+  
+  endcode
+
+endlayout
