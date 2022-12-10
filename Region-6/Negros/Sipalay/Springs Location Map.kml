@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Springs Location Map.kml</name>
+	<StyleMap id="m_ylw-pushpin03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin04</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl021</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin05">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_arrow">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_arrow</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_arrow4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_arrow0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin03">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin04">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin11">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl02">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl020">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl021">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_arrow">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_arrow3">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin02">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_arrow">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_arrow0">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="waypoint29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="waypoint_h30">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="waypoint_n29">
+		<IconStyle>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>springs</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<Placemark>
+			<name>HULGUINSPRNG</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<TimeStamp><when>2022-08-03T01:28:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint29</styleUrl>
+			<Point>
+				<coordinates>122.419135,9.777075,39.98</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UWAYONSPRNG</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<TimeStamp><when>2022-08-03T01:07:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint29</styleUrl>
+			<Point>
+				<coordinates>122.42222,9.775255,51.42</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sumpit Spring</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4497487081589</longitude>
+				<latitude>9.733185927876903</latitude>
+				<altitude>0</altitude>
+				<heading>0.07518613406070741</heading>
+				<tilt>0</tilt>
+				<range>1070.091026994659</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin20</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4483507381485,9.734235195453801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saan spring 2</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.451236583482</longitude>
+				<latitude>9.732067519766986</latitude>
+				<altitude>0</altitude>
+				<heading>0.04625788964632279</heading>
+				<tilt>0</tilt>
+				<range>2031.141665632291</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4561111111111,9.7325,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saan Spring 1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4575111856446</longitude>
+				<latitude>9.732324954596233</latitude>
+				<altitude>0</altitude>
+				<heading>0.04574102251757153</heading>
+				<tilt>0</tilt>
+				<range>363.5897708599174</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4571388888889,9.732472222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Malinab Cave 2</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4755606805</longitude>
+				<latitude>9.735144684070514</latitude>
+				<altitude>0</altitude>
+				<heading>0.04883484342177056</heading>
+				<tilt>16.71553518909966</tilt>
+				<range>4457.209527027346</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin05</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.475,9.741694444444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Malinab Cave 1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4750311063165</longitude>
+				<latitude>9.737122987816294</latitude>
+				<altitude>0</altitude>
+				<heading>0.04799085435027414</heading>
+				<tilt>27.69883866004767</tilt>
+				<range>1832.069912719196</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin05</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4755,9.739944444444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Malinab Cave 3</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4777086090731</longitude>
+				<latitude>9.73562013555736</latitude>
+				<altitude>0</altitude>
+				<heading>0.04844321385513707</heading>
+				<tilt>27.70236097329087</tilt>
+				<range>2675.837002997812</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin05</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4781111111111,9.74186111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lamurang lagoon 1</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<LookAt>
+				<longitude>122.4802767169822</longitude>
+				<latitude>9.742409537361018</latitude>
+				<altitude>0</altitude>
+				<heading>0.05514711378110861</heading>
+				<tilt>0</tilt>
+				<range>475.0471050986116</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4801944444445,9.742169444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sandiya Spring</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<LookAt>
+				<longitude>122.4387813552297</longitude>
+				<latitude>9.745931721974829</latitude>
+				<altitude>0</altitude>
+				<heading>0.04868495014125741</heading>
+				<tilt>0</tilt>
+				<range>2847.324773816826</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4328055555556,9.745027777777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parangatihan Spring</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4349845413831</longitude>
+				<latitude>9.744004434713762</latitude>
+				<altitude>0</altitude>
+				<heading>0.04818338118480174</heading>
+				<tilt>5.872765390872345</tilt>
+				<range>1228.424130332391</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4320833333333,9.742777777777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamara Lake 1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4584781870546</longitude>
+				<latitude>9.75437923247285</latitude>
+				<altitude>0</altitude>
+				<heading>0.0521622947316789</heading>
+				<tilt>0</tilt>
+				<range>1600.598699158155</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.45675,9.755777777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamara Lake 2</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4584781870546</longitude>
+				<latitude>9.75437923247285</latitude>
+				<altitude>0</altitude>
+				<heading>0.0521622947316789</heading>
+				<tilt>0</tilt>
+				<range>1600.598699158155</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4575555555556,9.75525,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Malam-an Spring</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4574632825308</longitude>
+				<latitude>9.756101308396655</latitude>
+				<altitude>0</altitude>
+				<heading>0.05279287404738012</heading>
+				<tilt>0</tilt>
+				<range>688.7384329536745</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4573333333333,9.756694444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamara Spring</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4469527539445</longitude>
+				<latitude>9.750289532056678</latitude>
+				<altitude>0</altitude>
+				<heading>0.05101221647439411</heading>
+				<tilt>0</tilt>
+				<range>1561.58320052744</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_arrow</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4476111111111,9.749138888888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tugas Spring</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4790913967007</longitude>
+				<latitude>9.738173784902919</latitude>
+				<altitude>0</altitude>
+				<heading>0.05645483174156962</heading>
+				<tilt>0</tilt>
+				<range>2222.876526080519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4763611111111,9.733611111111109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Zambales Spring</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4817140882789</longitude>
+				<latitude>9.738341236382398</latitude>
+				<altitude>0</altitude>
+				<heading>0.05689844546887987</heading>
+				<tilt>0</tilt>
+				<range>2267.06378534538</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin04</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.4772777777778,9.743694444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Malinab Spring 1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>122.4784659983452</longitude>
+				<latitude>9.742249400855657</latitude>
+				<altitude>0</altitude>
+				<heading>0.05594149516541207</heading>
+				<tilt>0</tilt>
+				<range>603.7415164927468</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_arrow4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>122.47375,9.741833333333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamara Route 1</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					122.4340226748434,9.768962134535396,0 122.434375229205,9.761032773534902,0 122.4343745189847,9.760773589138054,0 122.4343737077944,9.760478311901633,0 122.4343015319485,9.760147377666449,0 122.4342297339739,9.759855362385089,0 122.4290499645424,9.75324035010637,0 122.4285531174607,9.752734168232868,0 122.4271255514365,9.751765315765743,0 122.426800324346,9.751433803594509,0 122.4265103522066,9.751103437938287,0 122.4254490874278,9.749533047458275,0 122.4264009809907,9.749889563615241,0 122.4267947778825,9.750084449360216,0 122.4275658078131,9.750179877731897,0 122.4281628764492,9.750375361022991,0 122.4285516789493,9.750769440979107,0 122.4290016235936,9.750407572930756,0 122.4293054275215,9.750342352759564,0 122.4297925523793,9.749690721703393,0 122.4299963890762,9.749497466728002,0 122.4302641121319,9.74940172351487,0 122.4310310913364,9.749498444260112,0 122.4325665785894,9.749919502881115,0 122.4341103325688,9.750244233070458,0 122.4346820499553,9.750276749704023,0 122.4385668994772,9.749910240111017,0 122.4389673656886,9.749876915499353,0 122.4393742041643,9.74997509510645,0 122.4398094108661,9.749974294479781,0 122.4410710284387,9.750558215014305,0 122.4416232726886,9.750917115284818,0 122.4418689072664,9.751146569984092,0 122.4418426107476,9.751975815684734,0 122.4417623370008,9.752442875554747,0 122.4420411912106,9.753219015617075,0 122.442129820707,9.75359340988989,0 122.4424940009152,9.754002358161134,0 122.4429981650845,9.753960209017647,0 122.4438921598765,9.753740527725112,0 122.4441807021858,9.753881011147957,0 122.4445926240155,9.754166261605853,0 122.4465314382879,9.7542064308848,0 122.4471882356047,9.753796796183876,0 122.4479770260454,9.753795854166572,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>mamara trail</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					122.4479413568519,9.753796806545484,0 122.4478408016646,9.753636011310125,0 122.4478025710363,9.75346264296342,0 122.4477766138819,9.753289056573362,0 122.4476515902138,9.753178258719268,0 122.4475266927183,9.753055380561545,0 122.4474765090659,9.752870783947753,0 122.447550848083,9.752734934520944,0 122.4475128051686,9.752476435534124,0 122.4474612156721,9.752217270871549,0 122.4473719564664,9.751897681349465,0 122.4472715568449,9.751689710833507,0 122.4472090845071,9.751518893678435,0 122.4470844868841,9.75123889474296,0 122.446985058366,9.750959382424185,0 122.4470217658663,9.750704053798739,0 122.4470831413554,9.750485411729539,0 122.4471811794421,9.750194589932205,0 122.4470699862478,9.749939507714023,0 122.4470450477575,9.749623599567089,0 122.4471676943253,9.74946771039356,0 122.4473153449459,9.749346342910782,0 122.4474629621495,9.749261539181584,0 122.4476212283678,9.749168737429642,0 122.4478255967304,9.749020964809034,0 122.4479692361668,9.748967047853476,0 122.4480622763949,9.74885551867029,0 122.4479749958239,9.748703882879783,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
