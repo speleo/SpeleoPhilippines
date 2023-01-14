@@ -1,36 +1,53 @@
 encoding  utf-8
-source mindab2.th
+source Malinab_Cave_2.th
 # Change name to the main therion file
 
 
 #Surveys to output
 #-----------------
+  log extend
+  export map -proj [elevation 0] -layout ExtendedElev -o .\_output\Malinab_Cave_2_EE.pdf
+  
+  select Malinab_Cave_2ME0@Malinab_Cave_2
+  export map -proj [elevation 0] -layout ExtendedElev -o .\_output\Malinab_Cave_2_E0.pdf
+  unselect Malinab_Cave_2ME0@Malinab_Cave_2
 
-export map -proj plan -layout test -o .\_output\Malinab2.pdf
-#Produces plan of cave, on a single sheet
+  export map -proj plan -layout test -o .\_output\Malinab_Cave_2.pdf
+  #Produces plan of cave, on a single sheet
 
-export map -fmt kml -proj plan -layout local -o .\_output\Malinab2.kml
+  #export map -fmt kml -proj plan -layout local -o .\_output\Malinab_Cave_2.kml
 
-#export map -proj extended -layout local -o mindab2Ee.pdf
+  #export model -fmt survex -o .\_output\Malinab_Cave_2.3d 
+  #Survex file showing centre line only
 
-export model -fmt survex -o mindab2th.3d
-#Survex file showing centre line only
+  #export model -o .\_output\Malinab_Cave_2.lox
+  #3d therion model to be viewed in the therion viewer
 
-#export model -o mindab2.lox
-#3d therion model to be viewed in the therion viewer
-
-#export map -proj plan -o mindab2_Walls.3d
-#Survex file showing walls only
+  #export map -proj plan -o .\_output\Malinab_Cave_2_Walls.3d
+  #Survex file showing walls only
 
 layout local
   debug off
+  #rotate 180
   map-header 0 0 ne
+  #symbol-hide group cave-centreline
+endlayout
+
+layout ExtendedElev
+  legend off
+  colour-legend off
+  #statistics off
+  debug off
+  map-header 0 0 off
+  rotate 180
   #symbol-hide group cave-centreline
 endlayout
 
 layout test
   debug off
   map-header 0 0 ne
+  map-image 100 00 ne .\_output\Malinab_Cave_2_EE.pdf
+  #rotate 180
   #symbol-hide group cave-centreline
 
 ###################################################################

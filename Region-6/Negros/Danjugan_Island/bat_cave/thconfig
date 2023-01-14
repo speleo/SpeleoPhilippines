@@ -4,28 +4,35 @@ source bat_cave.th
 
 #Surveys to output
 #-----------------
+  #export map -proj extended -layout elevation -o .\_output\bat_caveEe.pdf
+  export map -proj [elevation 0] -layout elevation -o .\_output\bat_caveE0.pdf
 
-export map -proj plan -layout local -o .\_output\bat_cave.pdf
-#Produces plan of cave, on a single sheet
+  export map -proj plan -layout plan -o .\_output\bat_cave.pdf
+  #Produces plan of cave, on a single sheet
 
-export map -fmt kml -proj plan -layout local -o .\_output\bat_cave.kml
+  #export model -fmt survex -o .\_output\bat_caveth.3d
+  #Survex file showing centre line only
 
+  #export map -fmt kml -proj plan -layout local -o .\_output\bat_cave.kml
 
-#export map -proj extended -layout local -o bat_caveEe.pdf
+  export model -o .\_output\bat_cave.lox
+  #3d therion model to be viewed in the therion viewer
 
-export model -fmt survex -o bat_caveth.3d
-#Survex file showing centre line only
-
-#export model -o bat_cave.lox
-#3d therion model to be viewed in the therion viewer
-
-#export map -proj plan -o bat_cave_Walls.3d
-#Survex file showing walls only
+  #export map -proj plan -o .\_output\bat_cave_Walls.3d
+  #Survex file showing walls only
 
 #inject standard code for layouts
   input ..\..\..\..\CodeLibrary\_translations.txt
   input ..\..\..\..\CodeLibrary\_layouts.mp
-  
+  #input ..\..\..\..\CodeLibrary\_scalebar_small_format.mp
+  #input C:\Users\henry.RAINBOW\Documents\GitHub\SpeleoPhilippines\CodeLibrary\_translations.txt
+  #input C:\Users\henry.RAINBOW\Documents\GitHub\SpeleoPhilippines\CodeLibrary\_layouts.mp
+
+#Text transformations
+  text en "area sump"             "sump / deep water<br>"
+  text en "line u:plankwalk"      "path<br>"
+  text en "line wall:unsurveyed"  "surface<br>"
+
 #REDFINE LEGEND & OTHER OUTPUT ELEMENT TEXT
 #==========================================
 #The text statements below can only be read in a th-config file OUTSIDE of a layout block.
@@ -33,181 +40,65 @@ export model -fmt survex -o bat_caveth.3d
 # it here allows us to always have it without putting it in EVERY thconfig file
 
 
-layout debug
-  #scale 1 500
-  #base-scale 1 500
-  legend all  
-  debug off
- 
-endlayout
-
-layout test
-  scale 1 500
-  base-scale 1 500
-  scale-bar 100 m
-  
-  #Foreground color - turn on altitdude to see various heights
-  colour map-fg [80 80 80]
-  #color map-fg altitude
+layout elevation
+  copy LayoutColourSymbols
+  scale 1 100
+  base-scale 1 100
   #colour map-bg [70 90 70]
-  
-  language en
-  statistics topo-length off
-  statistics topo all
-  statistics explo-length off
-  
-  map-comment "Baggao, Cagayan<br>18° 1'15.52 N<br>121°59'53.82 E<br>Sierra Madre Outdoor Club<br>Bristol Exploration Club<br>Balincaguin Conservancy<br>Gaia Exploration Club<br>BCRA Grade 5D<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
-  #map-image 50 50 ne images\sitckers-type4.jpg
-  #map-image 50 35 nw images\BertieBat.png
-  #map-image 80 35 nw images\bc_logo_2266xp.png
-  #map-image 90 15 nw images\CreativeCommonsShareAlike.png
-
-  
-  doc-author   "Henry Bennett"
-  doc-keywords "Bluewater Cave Baggao Philippines"
-  doc-subject  "Survey of Bluewater Cave 2014"
-  doc-title    "Bluewater Cave Survey Bristol Exploration Club 2014"
-      
-  debug off
-  transparency on
-  opacity 80
-  map-header 0 100 nw
-  #overlap 10 cm
-
-  symbol-set BCRA
   symbol-hide group cave-centreline
-  symbol-assign line slope SKBB
-  
-  legend on
-  legend-columns 4
-  legend-width 45 cm
-  #colour-legend on
+  map-header 0 0 off
+  grid-size 5 5 5 m
+  grid-coords all
+  statistics topo-length off
+  statistics topo off
+  statistics explo-length off
+  legend off  
+  debug off
   grid bottom
-  grid-coords border
-  #sketches on
-  
-
-###################################################################
-#
-# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
-# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
-# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
-# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
-# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
-#
-###################################################################
-
   code metapost
-    
     #inputrel("..\..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
     #inputrel("..\..\..\..\CodeLibrary\_scalebar_large_format.mp")
     #inputrel("..\..\..\..\CodeLibrary\_legend_large_format.mp")
-    #inputrel("..\..\..\..\CodeLibrary\_water_blue.mp")
+    #inputrel("/_water_blue.mp")
+    inputrel("/_custom.mp")
+    #input("C:/Users/henry.RAINBOW/Documents/GitHub/SpeleoPhilippines/CodeLibrary/_water_blue.mp")
     #inputrel("..\..\..\..\CodeLibrary\_north_arrow_150.mp")
     #inputrel("..\..\..\..\CodeLibrary\_continuous_centerline.mp")
-    
-    # code to change the colour of the water
-    def a_water (expr p) =
-        T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
-    enddef;
-    
-    # change centre line to continuous
-    def l_survey_cave (expr p) =
-        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
-    enddef;
-    
-
-    
-    #change the size of the default fonts
-    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
-    #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,30,54,80);
-  
   endcode
-
-#################################################################
-#  
-#  TTTTTTT EEEEEEE XX    XX        MM    MM   AAA   PPPPPP  
-#    TTT   EE       XX  XX         MMM  MMM  AAAAA  PP   PP 
-#    TTT   EEEEE     XXXX   _____  MM MM MM AA   AA PPPPPP  
-#    TTT   EE       XX  XX         MM    MM AAAAAAA PP      
-#    TTT   EEEEEEE XX    XX        MM    MM AA   AA PP    
-#
-################################################################# 
-  
-  code tex-map
-  \copyrights={Copyleft Creative Commons ShareAlike}
-  \cavename={Blue Water}
-  #\def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
-  \def\maplayout{
-    \legendbox{0}{100}{NW}{
-      \legendwidth 35 cm
-      \the\legendcontent
-      }
-    \legendbox{40}{50}{NW}{
-      \legendwidth 75 cm
-      \legendtextsize={\size[20]}
-      \hsize=\legendwidth
-      \input th_legend
-      }
-  #\legendbox{85} {25} {nw} {\loadpicture{../../../../images/Logo_BEC_1250.png}}
-  #\legendbox{88} {5} {nw} {\loadpicture{../../../../images/Logo_SMOC_1250.png}}
-  
-    
-  }  
-
-
-   #http://therion.speleo.sk/wiki/doku.php/faq#how_to_change_the_size_of_title_font_on_map
-    \legendcontent={%
-      \hsize=\legendwidth
-      \ifnortharrow\vbox to 0pt {\hskip6cm \line{\hfil\northarrow}\vss}\fi
-      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
-         {\size[180]\the\cavename} \vskip6cm
-      \fi
-      \ifscalebar\scalebar\vskip1cm\fi
-      {\rightskip=0pt plus 3em\parskip=3bp
-        \edef\tmp{\the\comment} \ifx\tmp\empty \else
-           {\size[44]\the\comment} \par\medskip
-         \fi
-      \everypar{\hangindent=2em\hangafter=1}
-      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
-        {\size[44]\si\the\cavelengthtitle: \ss\the\cavelength\par}
-      \fi
-      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
-        {\size[44]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
-      \fi
-      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-        {\size[44]\si\the\explotitle:
-        \ss\the\exploteam\quad\si\the\explodate\par}
-      \fi
-      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-        {\size[44]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
-      \fi
-      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-        {\size[44]\si\the\cartotitle:
-        \ss\the\cartoteam\quad\si\the\cartodate\par}
-      \fi
-      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
-        {\size[44]\ss\the\copyrights\par}
-      \fi
-     }
-  }
-  
-  endcode #end of TeX cod
 endlayout
 
-layout local
+layout plan
+  copy LayoutColourSymbols
+  
+  #copy custom_water_blue
+  #copy custom_entrance_theta
+  #copy custom_entrance_theta_large
+  #copy custom_scalebar_large_format
+  #copy custom_scalebar_medium_format
+  copy custom_scalebar
+  #copy custom_scalebar_vertical
+  #copy custom_legend_large_format
+  #copy custom_legend_large_format_5U
+  #copy custom_legend_large_format_20U
+  #copy custom_grid_2_continuous
+  #copy custom_centerline_2_continuous
+  #copy custom_bats
+  copy custom_north_arrow_150
+  #copy custom_north_arrow_300
+  #copy custom_north_arrow_600
+  #copy custom_northarrow_large
+  #copy custom_line_doline
+  
   debug off
-  map-header 0 0 ne
-  #symbol-hide group cave-centreline
+  #map-header 0 110 nw
+  map-image 106 0 ne .\_output\bat_caveE0.pdf
   
   scale 1 100
-  base-scale 1 500
+  base-scale 1 100
   scale-bar 10 m
   
   #Foreground color - turn on altitdude to see various heights
-  colour map-fg [80 80 80]
+  #colour map-fg [80 80 80]
   #color map-fg altitude
   #colour map-bg [70 90 70]
   
@@ -215,24 +106,22 @@ layout local
   statistics topo-length off
   statistics topo all
   statistics explo-length off
+  statistics explo off
   
-  map-comment "Dujugan Island, Negros<br>18° 1'15.52 N<br>121°59'53.82 E<br>Western Visaya Caving Association<br>Bristol Exploration Club<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
-  #map-image 50 50 ne images\sitckers-type4.jpg
-  #map-image 50 35 nw images\BertieBat.png
-  #map-image 80 35 nw images\bc_logo_2266xp.png
-  #map-image 90 15 nw images\CreativeCommonsShareAlike.png
+  map-comment "Danjugan Island, Negros<br>18° 1'15.52 N<br>121°59'53.82 E<br>Western Visaya Caving Association<br>Bristol Exploration Club, UK<br>Danjugan Island Sanctuary<br>BCRA Grade 5C<br>Data: www.cave-registry.org.uk/svn/Philippines/<br>"
+  map-image 200 -70 ne images\sitckers-type4-shadow-rotated.png
+  map-image 125 -80 nw images\WVCA-logo-300px.jpg
+  map-image 125 -55 nw images\danjugan-island-logo-black-text.png
 
   
   doc-author   "Henry Bennett"
-  doc-keywords "Bluewater Cave Baggao Philippines"
-  doc-subject  "Survey of Bluewater Cave 2014"
-  doc-title    "Bluewater Cave Survey Bristol Exploration Club 2014"
+  doc-keywords "Bat Cave Danjugan Island Negros Philippines"
+  doc-subject  "Survey of Bat Cave 2022"
+  doc-title    "Bat Cave Survey Bristol Exploration Club 2022"
       
-  debug off                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
   transparency on
-  opacity 80
-  map-header 100 100 nw
-  #overlap 10 cm
+  opacity 70
+  map-header 120 100 nw
 
   symbol-set BCRA
   symbol-hide group cave-centreline
@@ -241,11 +130,51 @@ layout local
   legend on
   legend-columns 2
   legend-width 20 cm
-  #colour-legend on
+  colour-legend on
+  #grid-size 5 5 5 m
   grid bottom
-  grid-coords border
+  #grid-coords border
   #sketches on
   
+  code tex-map
+  \legendcontent={%
+    \hsize=\legendwidth
+    \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+    \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+      {\size[66]\the\cavename} \vskip1cm
+    \fi
+    \ifscalebar\scalebar\vskip1cm\fi
+    {\rightskip=0pt plus 3em\parskip=3bp
+      \edef\tmp{\the\comment} \ifx\tmp\empty \else
+        {\size[12]\the\comment} \par\medskip
+      \fi
+      \everypar{\hangindent=2em\hangafter=1}
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\size[12]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\size[12]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\size[12]\si\the\explotitle:
+  \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+  \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+    {\size[12]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+  \fi
+  \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+    {\size[12]\si\the\cartotitle:
+  \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\size[12]\ss\the\copyrights\par}
+      \fi
+    }
+    \formattedlegend
+  }
+  
+  endcode
+
 
 ###################################################################
 #
@@ -258,26 +187,30 @@ layout local
 ###################################################################
 
   code metapost
-    
-    #inputrel("..\..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
-    #inputrel("..\..\..\..\CodeLibrary\_scalebar_large_format.mp")
-    #inputrel("..\..\..\..\CodeLibrary\_legend_large_format.mp")
-    #inputrel("..\..\..\..\CodeLibrary\_water_blue.mp")
-    #inputrel("..\..\..\..\CodeLibrary\_north_arrow_150.mp")
-    #inputrel("..\..\..\..\CodeLibrary\_continuous_centerline.mp")
-    
-    # code to change the colour of the water
-    def a_water (expr p) =
-        T:=identity;
-        thfill p withcolor (0.1, 0.2, 0.8);
+    inputrel("/_custom.mp")
+   
+    def l_u_plankwalk  (expr P) = T:=identity;
+      cas := 0;
+      dlzka := arclength P;
+      mojrok := adjust_step(dlzka, 0.5u);
+      pickup PenD;
+      forever:
+        t := arctime cas of P;
+        thdraw ((point t of P) + 0.5 * u * unitvector(thdir(P,t) rotated 90)) --
+        ((point t of P) - 0.5 * u * unitvector(thdir(P,t) rotated 90) );
+        cas := cas + mojrok;
+        exitif cas > dlzka + (mojrok/3);  % for rounding errors
+      endfor;
+      pickup PenC;
+      %thdraw P; 
+      %draw path withcolor (0.5, 0 ,0)
     enddef;
     
-    # change centre line to continuous
-    def l_survey_cave (expr p) =
-        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    def l_wall_unsurveyed (expr P) = 
+      T:=identity;
+      pickup PenC;
+      thdraw P dashed evenly scaled (2*optical_zoom);
     enddef;
-    
-
     
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
@@ -286,3 +219,55 @@ layout local
   
   endcode
 endlayout
+
+#CODE TO MAKE FULL COLOUR SYMBOLS
+#----------------------------
+#experimental layout RBM July 2010
+layout LayoutColourSymbols
+#affects colour symbol linework but not labels and not fills
+  
+  symbol-colour point station [54 7 60]  #purple[54 7 60] #seems to affect +s, flag symbols and station text
+  
+  #survey cave
+  symbol-colour group cave-centreline [35 16 16] # brown [35 16 16] # red brown [50 0 0]
+  symbol-colour point cave-station [35 16 16]  #ineffective?
+  #symbol-colour point station-name [0 100 0]  
+  
+  #survey surface
+  symbol-colour group surface-centreline [54 74 29] # green [54 74 29]
+  symbol-colour point surface-station [54 74 29]  #ineffective?
+  symbol-colour point flag:entrance [54 74 29]  #ineffective?
+  
+  #magenta
+  symbol-colour group equipment  [80 0 40] # magenta [80 0 40]
+  
+  #dark blue
+  # symbol-colour group water  [22 22 95] # this breaks custom water definitions
+  symbol-colour point water-flow  [22 22 95]
+  symbol-colour line water-flow  [22 22 95]  
+  symbol-colour point water [22 22 95]      # inconsistent?
+  symbol-colour area sump [22 22 95]  # this breaks custom water definitions
+  #symbol-colour area sump [00bfff]
+
+  #light blue  
+   symbol-colour area water [86 100 100]  # this breaks custom water definitions
+  
+  #define colours for redefined water point & area
+  code metapost  
+  %these colours affect fills, not the linework
+    !color colour_water_bg; %! forces interpretation as metapost
+    colour_water_bg := (0.86,1,1);      %light blue
+    !color colour_sump_bg;  %! forces interpretation as metapost
+    %colour_sump_bg := (.22,.22,.95);    %dark blue
+    %colour_sump_bg := (.0,.75,1);    %dark blue
+    colour_sump_bg := (.80,1,1);    %dark blue
+  
+    %these colours affect the linework  
+    !color colour_rope;  %! forces interpretation as metapost
+    colour_rope :=  (0.35,0.75,1.0);    %blue  
+    
+  %this colour for redefined entrance symbol (not point station flag entrance)
+    !color colour_entrance;  %! forces interpretation as metapost
+    colour_entrance :=  (0.54,0.74,0.29);      
+    endcode
+endlayout LayoutColourSymbols

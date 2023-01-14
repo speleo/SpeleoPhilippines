@@ -1,0 +1,12 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 1311.9261832679997 -79.37925535 16843.5167344462 1515.2034218151
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2727.7109333799995 1 1.0} {693.38321189 1.4} PocketTopo/mindab2_e.xvi 0 {}
+
+
+
+scrap mindab2SElev1 -projection elevation -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

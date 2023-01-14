@@ -1,39 +1,52 @@
 encoding  utf-8
-survey bat_cave
+survey bat_cave -title "Bat Cave"
 
 input bat_cave.th2
-input bat_caveEe.th2
+# bat_caveEe is extended elevation.
+# We used E0 which is standard elevation across 0 degree plane
+#input bat_caveEe.th2
+input bat_caveE0.th2
 
-map bat_caveM
-  bat_caveEntrance 
+map bat_caveM 
+  entrance
     break
   bat_caveSP1
-  
-#  bat_caveSP1  
-#  break
-#  bat_caveEntrance
-
+    break
+  sidepassage2entrance
+    break
+  side_passage
 endmap
 
-map bat_caveME
-  bat_caveSE1
+#map bat_caveME
+#  bat_caveSEE1
+#endmap
+
+map bat_caveE0 -proj [elevation 0]
+  bat_caveSE0_1
+  break
+  bat_caveSE0_2
 endmap
 centreline
 
-copyright 2022 "GNU GPL"
+copyright 2023 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
   date 2022.04.12
-
-  team "Henry Bennett" notes
-  team "Henry Dawson" instruments
+  team "Henry Dawson" notes
+  team "Henry Bennett" instruments
+  team "Ranger Marquez" dog
 
   instrument  instruments "DistoX2"
+
+  date 2022.04.12
+  explo-team "Henry Bennett"
+  explo-team "Henry Dawson"
+  explo-team "Ranger Marquez"
   
   cs EPSG:32651
-  fix 1.0 431761.46 1091268.63 12
+  fix 1.0 431761.46 1091268.63 8.7
 
 data normal from to tape compass clino ignoreall
   extend right

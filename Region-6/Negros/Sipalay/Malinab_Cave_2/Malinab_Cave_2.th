@@ -1,22 +1,31 @@
 encoding  utf-8
-survey mindab2
+survey Malinab_Cave_2
 
-input mindab2.th2
-input mindab2Ee.th2
+input Malinab_Cave_2.th2
+input Malinab_Cave_2Ee.th2
+input Malinab_Cave_2E0.th2
 
-map mindab2M
-  mindab2SP1
+map Malinab_Cave_2M
+  Malinab_Cave_2SP1
 endmap
 
-map mindab2ME
-  mindab2SE1
+map Malinab_Cave_2ME
+  Malinab_Cave_2SEE1
 endmap
+
+map Malinab_Cave_2ME0
+  Malinab_2SE0_1
+  Malinab_2SE0_3
+    break
+  Malinab_2SE0_2
+endmap
+
 centreline
 
-copyright 2022 "GNU GPL"
+  copyright 2022 "GNU GPL"
 
-### TRIP COMMENT FROM POCKETTOPO ###
-#
+  ### TRIP COMMENT FROM POCKETTOPO ###
+  #
 
   date 2005.07.07
 

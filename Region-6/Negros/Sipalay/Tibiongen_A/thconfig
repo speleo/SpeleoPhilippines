@@ -24,7 +24,46 @@ export model -fmt survex -o Tibiongen_Ath.3d
 #Survex file showing walls only
 
 layout local
-debug off
-map-header 0 0 ne
-#symbol-hide group cave-centreline
+  debug off
+  map-header 0 0 ne
+  #symbol-hide group cave-centreline
+  
+  ###################################################################
+#
+# MM    MM EEEEEEE TTTTTTT   AAA   PPPPPP   OOOOO   SSSSS  TTTTTTT 
+# MMM  MMM EE        TTT    AAAAA  PP   PP OO   OO SS        TTT   
+# MM MM MM EEEEE     TTT   AA   AA PPPPPP  OO   OO  SSSSS    TTT   
+# MM    MM EE        TTT   AAAAAAA PP      OO   OO      SS   TTT   
+# MM    MM EEEEEEE   TTT   AA   AA PP       OOOO0   SSSSS    TTT  
+#
+###################################################################
+
+  code metapost
+    
+    #inputrel("..\..\..\..\CodeLibrary\_grid_x_hair_to_continuos_line.mp")
+    #inputrel("..\..\..\..\CodeLibrary\_scalebar_large_format.mp")
+    #inputrel("..\..\..\..\CodeLibrary\_legend_large_format.mp")
+    #inputrel("..\..\..\..\CodeLibrary\_water_blue.mp")
+    #inputrel("..\..\..\..\CodeLibrary\_north_arrow_150.mp")
+    #inputrel("..\..\..\..\CodeLibrary\_continuous_centerline.mp")
+    
+    # code to change the colour of the water
+    def a_water (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
+    
+    # change centre line to continuous
+    def l_survey_cave (expr p) =
+        draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+    enddef;
+    
+
+    
+    #change the size of the default fonts
+    #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
+    #origional fonts_setup(6,8,10,14,20);
+    fonts_setup(6,8,30,54,80);
+  
+  endcode
 endlayout
