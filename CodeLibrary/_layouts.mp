@@ -595,8 +595,7 @@ layout custom_line_doline
     triangle_width:=symsize/10;
     cur:=(symsize-triangle_width)/2;
     pickup PenC;
-    forcustom_vertical_scalebar
-ever:
+    forever:
       t1 := arctime (cur) of P;
       t  := arctime (cur + triangle_width/2) of P;
       t2 := arctime (cur + triangle_width) of P;

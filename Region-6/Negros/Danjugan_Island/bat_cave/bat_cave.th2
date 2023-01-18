@@ -354,11 +354,8 @@ endline
 
 line wall -subtype unsurveyed
   1721.0 556.0
-  1721.0 556.0 1729.5 532.75 1764.5 444.0
-  1800.49 352.74 1803.5 316.0 1801.5 270.0
-  1799.5 224.0 1805.5 125.5 1805.5 125.5
-  smooth off
-  1809.5 80.5
+  1721.0 556.0 1728.05 532.15 1764.5 444.0
+  1786.0 392.0 1804.0 370.0 1802.0 324.0
 endline
 
 line wall -subtype unsurveyed
@@ -387,6 +384,7 @@ line u:plankwalk
   1668.0 1280.0 1680.0 1162.0 1678.0 1108.0
   1676.06 1055.54 1684.0 1014.0 1684.0 988.0
   1684.0 955.68 1646.0 876.0 1612.0 856.0
+  smooth off
 endline
 
 line wall -reverse on -subtype unsurveyed
@@ -399,7 +397,7 @@ endline
 
 line wall -reverse on -subtype invisible
   1798.0 1726.0
-  1830.0 82.0
+  1826.0 334.0
 endline
 
 line wall -id l32-1549-1179 -outline in -subtype unsurveyed

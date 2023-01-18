@@ -99,7 +99,7 @@ layout local
   
   ### index of file options from _layouts.tex
     copy custom_colorlegendbox
-    copy custom_legendsymbolbox
+    #copy custom_legendsymbolbox
     #copy custom_title_area_format
     #copy custom_title_area_format_20
     #copy custom_title_area_format_1000

@@ -9,8 +9,8 @@ survey BlueWaterSystem
   #input naganakan/naganakan.th
   #input ovimph/ovimph.th
   input BlueWaterTopSink/BlueWater-Sink.th
-  input pio_pot/pio_pot.th
-  input surface/Bluewater_4.th
+  input juness/juness.th
+  #input surface/Bluewater_surface.th
   
   
   #  Handle the Joins between the surveys included above
