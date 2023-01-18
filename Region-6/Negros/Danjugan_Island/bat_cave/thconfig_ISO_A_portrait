@@ -63,10 +63,10 @@ Data: https://github.com/speleo/SpeleoPhilippines/tree/master/Region-6/Negros/Da
   ### index of file options from _layouts.mp
     #copy custom_water_blue
     #copy custom_entrance_theta
-    #copy custom_entrance_theta_large
+    copy custom_entrance_theta_large
     #copy custom_scalebar_large_format
     #copy custom_scalebar_medium_format
-    copy custom_scalebar
+    #copy custom_scalebar
     #copy custom_scalebar_vertical
     #copy custom_legend_large_format
     #copy custom_legend_large_format_5U
@@ -137,10 +137,11 @@ Data: https://github.com/speleo/SpeleoPhilippines/tree/master/Region-6/Negros/Da
       \legendbox{106}{0}{NE}{\loadpicture{./_output/bat_caveE0.pdf}}
 
       \legendbox{40}{163}{NW}{\loadpicture{./images/danjugan-island-logo-black-text.png}}      
-      \legendbox{120}{-40}{NW}{\loadpicture{./images/WVCA-logo-300px.jpg}}
-      \legendbox{120}{-75}{NW}{\loadpicture{./images/sitckers-type4-shadow-rotated.png}}
+      \legendbox{120}{-20}{NW}{\loadpicture{./images/WVCA-logo-300px.jpg}}
+      \legendbox{120}{-55}{NW}{\loadpicture{./images/sitckers-type4-shadow-rotated.png}}
+      \legendbox{125}{-110}{NW}{\loadpicture{./images/CreativeCommonsShareAlike_2200.png}}
      
-      \legendbox{116}{85}{NW}{
+      \legendbox{116}{90}{NW}{
         \legendwidth 9 cm
         %\legendtextsize={\size[54]}
         \hsize=\legendwidth
@@ -154,7 +155,7 @@ Data: https://github.com/speleo/SpeleoPhilippines/tree/master/Region-6/Negros/Da
     \edef\tmp{\the\cavename} \ifx\tmp\empty \else
       {\size[66]\the\cavename} \vskip1cm
     \fi
-    \ifscalebar\scalebar\vskip1cm\fi
+    \ifscalebar\scalebar\vskip0.1cm\fi
     {\rightskip=0pt plus 3em\parskip=3bp
       \edef\tmp{\the\comment} \ifx\tmp\empty \else
         {\size[14]\the\comment} \par\medskip

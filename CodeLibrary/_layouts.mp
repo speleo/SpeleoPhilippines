@@ -36,7 +36,7 @@ layout custom_entrance_theta
     # Code to define an entrance symbol as a theta inside a diamond (Dave Clucas 2014)   
     def p_entrance (expr pos,theta,sc,al)=
       U:=(0.8u,2u);
-      T:=identity alignelevationated theta scaled sc shifted pos;
+      T:=identity aligned al rotated theta scaled sc shifted pos;
       path p;
       p = (-1.2u,-1u) -- (-0.8u,-1u){dir 135} .. (0u,1u) .. {dir 225}(0.8u,-1u) -- (1.2u,-1u);
       thdraw p withpen PenA;

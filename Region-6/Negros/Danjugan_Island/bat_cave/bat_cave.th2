@@ -356,6 +356,7 @@ line wall -subtype unsurveyed
   1721.0 556.0
   1721.0 556.0 1728.05 532.15 1764.5 444.0
   1786.0 392.0 1804.0 370.0 1802.0 324.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -376,6 +377,8 @@ line wall -reverse on
   1496.0 748.0 1501.0 724.0 1501.0 724.0
   smooth off
 endline
+
+point 1678.0 860.0 entrance
 
 line u:plankwalk
   1678.0 1720.0
