@@ -14,6 +14,9 @@ input "Rider ee.th2"
   team "Josh Bratchley" dog
 
   date 2017.04.17
+  
+  cs EPSG:32651
+  fix 1 399555.17 1995528.84 651  
 
     data normal from to length compass clino
     
